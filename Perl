@@ -371,9 +371,9 @@ The Perl community has set aside the "Acme" namespace for modules that are fun o
 *[http://www.tpj.com/ The Perl Journal] online only magazine about Perl
 *[http://books.perl.org/ Perl Book reviews]
 
-===Critiques==
+===Critisms==
 
-* [http://xahlee.org/UnixResource_dir/perlr.html]
+* [http://xahlee.org/UnixResource_dir/perlr.html] A Survey of Perl literature in 2000, and critical essays on its creator Larry Wall and the Perl cult nature.
 
 ==Books==
 {{book}}
