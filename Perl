@@ -71,7 +71,7 @@ The basic control structures do not differ greatly from those used in the [[C pr
 [[DBI/DBD]] modules can be used to access [[MySQL]] and other [[ANSI]] [[SQL]] databases.
 
 == Perl 5 ==
-Perl5 is an interpreter which processes the text of a Perl script at runtime. Thus, the debugger is invoked directly from the command line with
+Perl5 is an interpreter which processes the text of a Perl script at runtime. Thus, the [[debugger]] is invoked directly from the command line with
 <PRE>
         perl -dw ScriptName.pl Argument1 ... ...
 </PRE>
