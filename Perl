@@ -50,6 +50,10 @@ Perl is [[free software movement|free software]], available for many platforms u
 
 
 
+At the moment Perl 6 is beeing developed which will run on a [[virtual machine]].
+
+
+
 Related entry : [[CPAN]]
 
 
