@@ -96,25 +96,26 @@ By itself, ''do'' executes a string of statements once, and evaluates to the val
 
 ===If-then statements===
 
- if ( ''Boolean expression'' ) {
-     ''statement(s)''
- }
+ if ( ''expr'' ) ''block''
 
- unless ( ''Boolean expression'' ) {
-     ''statement(s)''
- }
+ unless ( ''expr'' ) ''block''
 
- if ( ''Boolean expression'' ) {
-     ''statement(s)''
- } else {
-     ''statement(s)''
- }
+ if ( ''expr'' ) ''block''
+ else ''block''
 
- if ( ''Boolean expression'' ) {
-     ''statement(s)''
- } elsif ( ''Boolean expression'' ) {
-     ''statement(s)''
- }
+ if ( ''expr'' ) ''block''
+ elsif ''block''
+ else ''block''
+
+''block'' is { ''statement(s)'' }
+
+The expression is evaluated in a boolean sense.  If it is numeric, any non-zero value is true.  If it is string, any string of non-zero length ''except'' "0" is true.  "" is false.  "0" is false.  "0.0" is true. "00" is true. "-0" is true.
+
+An empty array or hash is evaluated in a scalar context, yielding false:
+
+ my @a=(); print "True" if @a;
+
+Nothing is printed in this example.
 
 ===Statement modifiers===
 
