@@ -1,5 +1,5 @@
 [[de:Perl]][[eo:Perl]][[fr:Perl]][[nl:Perl]][[pl:Perl]][[pt:Perl]]
-'''Perl''' (''Practical Extraction and Report Language'', ''Pathologically Eclectic Rubbish Lister'') is a [[programming language]] created by [[Larry Wall]] in [[1987]] that borrows features from [[C programming language|C]], [[sed]], [[awk]], shell scripting ([[sh]]), to a lesser extent from many other programming languages as well. Though the name can be expanded as an [[acronym]] in more than one way, it is normally spelt in normal mixed case when referring to the language, or lower case when referring to the interpreter. "Only perl properly parses Perl."
+'''Perl''' (''Practical Extraction and Report Language'') is a [[programming language]] created by [[Larry Wall]] in [[1987]] that borrows features from [[C programming language|C]], [[sed]], [[awk]], shell scripting ([[sh]]), to a lesser extent from many other programming languages as well. Though the name can be expanded as an [[acronym]] in more than one way, it is normally spelt in normal mixed case when referring to the language, or lower case when referring to the interpreter. "Only perl properly parses Perl."
 
 === Rationale and implementation ===
 
@@ -16,9 +16,9 @@ The current version 5.8 includes [[Unicode]] support. Perl 6 is currently being 
 
 === Perl 6 ===
 
-Perl 6 ( http://dev.perl.org/perl6// ), also [[Perl6]] and [[perl6]], will seperate parsing and compilation and runtime, making the virtual machine more attractive to developers looking to port other languages to the architecture.
+Perl6 will seperate parsing and compilation and runtime, making the virtual machine more attractive to developers looking to port other languages to the architecture.
 
-[[Parrot virtual machine|Parrot]] ( http://www.parrotcode.org/ ) is the Perl6 runtime, and can be programmed at a low level in [[Parrot assembly language]]. Parrot exists in a limited form as of [[September]], [[2002]], and a small number of languages ([[Jako programming language|Jako]], [[Cola programming language|Cola]]) exist simply to be 'compiled' down to Parrot assembly language opcodes.
+[[Parrot virtual machine|Parrot]] is the Perl6 runtime, and can be programmed at a low level in [[Parrot assembly language]]. Parrot exists in a limited form as of [[September]], [[2002]], and a small number of languages ([[Jako programming language|Jako]], [[Cola programming language|Cola]]) exist simply to be 'compiled' down to Parrot assembly language opcodes.
 
 === Code samples ===
 
@@ -40,8 +40,6 @@ The fourth line of the example shows the use of a [[regular expression]].
 
 In common with [[C programming language|C]], [[obfuscated code]] competitions are a major part of the Perl culture.
 
-See also: [[APL programming language|APL]], [[Python programming language|Python]], [[Ruby programming language|Ruby]], [[Tcl programming language|Tcl]]
-
 === External links ===
 * http://dmoz.org/Computers/Programming/Languages/Perl/ - dmoz on Perl
 * http://www.perl.org - Perlmonger's info site
@@ -49,3 +47,5 @@ See also: [[APL programming language|APL]], [[Python programming language|Python
 * http://www.perlmonks.org - The Perl Monestary
 * http://activestate.com - ActiveState - Perl for [[Microsoft Windows|Windows]] platforms
 * http://www.cpan.org/ - Comprehensive Perl Archive Network
+* http://dev.perl.org/perl6/ - Perl 6 development
+* http://www.parrotcode.org/ - Parrot virtual machine
