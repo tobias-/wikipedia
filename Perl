@@ -137,6 +137,8 @@ and should be written as:
 
 The keywords <code>for</code> and <code>foreach</code> are synonyms and are always interchangeable.
 
+As noted earlier, the modifiers ''if'' and ''unless'' can be combined with ''do'' to create a multiple-statement looping structure.
+
 ===Switch statement===
 
 There is no explicit switch statement in [[#Perl 5|Perl 5]] similar to that used in C. Switch statements are built with general blocks:
