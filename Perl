@@ -439,7 +439,7 @@ Similar to obfuscated code but with a different purpose, Perl [[Poetry]] is the 
 
 Another popular pastime is Perl golf. As with [[golf|the physical sport]], the objective is to reduce the number of strokes that it takes to complete a particular objective, but here "strokes" refers to keystrokes rather than swings of a golf club. A task, such as "scan an input string and return the longest [[palindrome]] that it contains", is proposed, and participants try to outdo each other by writing solutions that require fewer and fewer characters of Perl source code.
 
-Another tradition among Perl [[hacker]]s is writing [[Just another Perl hacker|JAPH]]s, which are short obfuscated programs that print out the phrase "Just another perl hacker".
+Another tradition among Perl [[hacker]]s is writing [[Just another Perl hacker|JAPH]]s, which are short obfuscated programs that print out the phrase "Just another Perl hacker,".
 
 One of the most bizarre Perl modules is Lingua::Romana::Perligata. This module translates the source code of a script that uses it from Latin into Perl, allowing the programmer to write executable programs in Latin.
 
