@@ -402,7 +402,6 @@ Similar to [[obfuscated code]] but with a different purpose, Perl [[Poetry]] is 
 * [http://search.cpan.org/ Search the Comprehensive Perl Archive Network]
 * [http://dev.perl.org/perl6/ Perl 6 development]
 * [http://www.parrotcode.org/ Parrot virtual machine]
-
 * [http://www.perldoc.com/ - Perl POD documentation]
 * [http://www.wired.com/wired/archive/8.10/cruise_pr.html ''Scripting on the Lido Deck'' by Steve Silberman, Wired Magazine article about Perl Whirl 2000]
 
