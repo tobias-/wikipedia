@@ -558,7 +558,7 @@ Perl was originally named "Pearl", after "the pearl of great price" of [[Gospel 
 
 The name is normally capitalized (''Perl'') when referring to the language, and uncapitalized (''perl'') when referring to the interpreter program itself since Unix-like filesystems are case sensitive. (There is a saying in the Perl community: "Only perl can parse Perl.")
 It is not appropriate to write "PERL" as it is not really an [[acronym]], although several [[backronym]]s have been suggested, including the humorous ''Pathologically Eclectic Rubbish Lister''.
-''Practical Extraction and Report Language'' has prevailed in many of today's manuals, including the official Perl [[man page]]. It is also consistent with the old name "Pearl": ''Practical Extraction And Report Language''..
+''Practical Extraction and Report Language'' has prevailed in many of today's manuals, including the official Perl [[man page]]. It is also consistent with the old name "Pearl": ''Practical Extraction And Report Language''.
 
 == Fun with Perl ==
 In common with [[C programming language|C]], [[obfuscated code]] competitions are a popular feature of Perl culture.
