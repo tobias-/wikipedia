@@ -587,7 +587,6 @@ The Perl community has set aside the "Acme" namespace for modules that are fun o
 == See also ==
 * [[Obfuscated Perl contest]]
 * [[POE]] -- Perl Object Environment
-* [[Fibonacci number program]]
 * [[Just another Perl hacker]]
 
 ==External links==
