@@ -12,7 +12,7 @@ Perl is available for most [[operating system|operating systems]] but is particu
 
 == Implementation ==
 
-A huge collection of freely usable perl modules, ranging from advanced mathematics to database connectivity, networking and more, can be downloaded from a network of sites called [[CPAN]]. Most or all of the software on CPAN is also available under either the Artistic License, the GPL, or both.
+A huge collection of freely usable perl modules, ranging from advanced mathematics to database connectivity, networking and more, can be downloaded from a network of sites called [[CPAN]]. Most or all of the software on CPAN is also available under either the Artistic License, the GPL, or both. CPAN.pm is also the name of the perl module that downloads and installs other perl modules from one of the CPAN mirror sites; such installations can be done with interactive prompts, or can be fully automated.
 
 Although Perl has most of the ease of use features of an interpreted language, it does not strictly interpret and execute the source code one line at a time. Rather, perl first compiles an entire program to an intermediate byte code (much like [[Java programming language|Java's]] byte code), optimizing as it goes, and then executes that byte code. It is possible to compile a perl program to byte code to save the compilation step on later executions, though the "interpreter" is still needed to execute that code.
 
@@ -33,8 +33,16 @@ The basic control structures do not differ greatly from those used in the [[C pr
      ''statement(s)''
  } while (''Boolean expression'');
 
+ do {
+     ''statement(s)''
+ } until (''Boolean expression'');
+ 
 
  for (''initialisation'' ; ''termination condition'' ; ''incrementing expr'') {
+     ''statement(s)''
+ }
+
+ foreach ( ''array'' ) {
      ''statement(s)''
  }
 
@@ -45,6 +53,9 @@ The basic control structures do not differ greatly from those used in the [[C pr
      ''statement(s)''
  }
 
+ unless (''Boolean expression'') {
+     ''statement(s)''
+ }
 
  if (''Boolean expression'') {
      ''statement(s)''
@@ -52,6 +63,12 @@ The basic control structures do not differ greatly from those used in the [[C pr
      ''statement(s)''
  }
 
+
+ if (''Boolean expression'') {
+     ''statement(s)''
+ } elsif (''Boolean expression'') {
+     ''statement(s)''
+ }
 
 
 == Perl 6 ==
