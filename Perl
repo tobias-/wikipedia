@@ -87,3 +87,4 @@ In common with [[C programming language|C]], [[obfuscated code]] competitions ar
 * http://www.cpan.org/ - Comprehensive Perl Archive Network
 * http://dev.perl.org/perl6/ - Perl 6 development
 * http://www.parrotcode.org/ - Parrot virtual machine
+* http://www.perldoc.com/ - Perl POD documentation, rendered as HTML
