@@ -507,3 +507,4 @@ One of the most bizarre Perl modules is Lingua::Romana::Perligata. This module t
 [[Category:Procedural programming languages]]
 [[Category:Scripting languages]]
 [[Category:Text-oriented programming languages]]
+[[Category:Curly bracket programming languages]]
