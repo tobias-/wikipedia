@@ -217,8 +217,7 @@ Named parameters are often simulated by passing a hash. For example:
 
 ==Perl and SQL databases==
 
-[[DBI/DBD]] modules can be used to access most [[ANSI]] [[SQL]] databases,
-including [[MySQL]], [[PostgreSQL]] and [[Oracle database|Oracle]].
+[[Perl DBI]] can be used to access most [[ANSI]] [[SQL]] databases, including [[MySQL]], [[PostgreSQL]], and [[Oracle database|Oracle]].
 
 == Perl 5 ==
 Perl5, the most current production version of perl, is an interpreter which processes the text of a Perl script at runtime. Thus, the [[debugger]] is invoked directly from the command line with
