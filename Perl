@@ -25,11 +25,10 @@ Perl6 will seperate parsing and compilation and runtime, making the virtual mach
 Some people humorously claim Perl stands for 'Pathologically Eclectic Rubbish Lister' due to the high use of meaningful punctuation characters in the language [[syntax]], as may be seen in this example program to print a greeting:
 
  <nowiki># A sample Perl program</nowiki>
- $message =&nbsp;"Hello, world! The magic number is 234542354.\n";
- print $message;
- $message =~ s/\d+/-1/;
- print $message;
- exit 0
+ $_ =&nbsp;"Hello, world! The magic number is 234542354.\n";
+ print;
+ s/\d+/-1/;
+ print;
 
 and its output:
 
