@@ -214,7 +214,7 @@ In the simplest case, an expression like
 
   $x =~ m/abc/
 
-evaluates to true iff the string <code>$x</code> matches the regular expression <code>abc</code>.
+evaluates to true [[iff]] the string <code>$x</code> matches the regular expression <code>abc</code>.
 To capture a matched string, surround the part of the RE that you want 
 with parentheses and evaluate it in list context.
 This is more interesting for patterns that can match multiple strings
