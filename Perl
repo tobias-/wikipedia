@@ -54,13 +54,11 @@ Perl 6 is currently being developed. It will run on a [[virtual machine]].
 
 
 
-Related entry : [[CPAN]]
+See also: [[CPAN]], [[APL programming language|APL]], [[Python programming language|Python]], [[Ruby programming language|Ruby]]
 
 
 
-Important Perl links:
-
-
+External links:
 
 * http://dmoz.org/Computers/Programming/Languages/Perl/ - dmoz on Perl
 
@@ -72,7 +70,7 @@ Important Perl links:
 
 * http://activestate.com - ActiveState - Perl for [[Microsoft Windows|Windows]] platforms
 
-----
 
-Related languages: [[APL programming language|APL]], [[Python programming language|Python]], [[Ruby programming language|Ruby]]
+
+/Talk
 
