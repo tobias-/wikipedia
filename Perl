@@ -23,7 +23,7 @@ A huge collection of freely usable [[perl module]]s, ranging from advanced mathe
 Although Perl has most of the ease-of-use features of an interpreted language, it does not strictly interpret and execute source code one line at a time. Rather, perl (the program) first compiles an entire program to an intermediate [[byte code]] (much like [[Java programming language|Java's]] byte code), optimizing as it goes, and then executes that byte code. It is possible to compile a Perl program to byte code to save the compilation step on later executions, though the "interpreter" is still needed to execute that code.
 
 == Current version ==
-The current version, 5.8.4, includes [[Unicode]] support. Development of the next major release, Perl 6, is also underway. It will run on [[Parrot virtual machine|Parrot]], a [[virtual machine]] which is being developed as a possible multi-language target architecture.
+The current version, 5.8.5, includes [[Unicode]] support. Development of the next major release, Perl 6, is also underway. It will run on [[Parrot virtual machine|Parrot]], a [[virtual machine]] which is being developed as a possible multi-language target architecture.
 
 == Control structures ==
 The basic control structures do not differ greatly from those used in the [[C programming language|C]] or [[Java programming language|Java]] programming languages:
