@@ -179,7 +179,7 @@ In [[#Perl 6|Perl 6]] the switch statement is built with the <code>given</code> 
  }
 
 == Subroutines ==
-[[Subroutine]]s in Perl can be specified with the [[keyword]] <code>sub</code>.  [[Parameter (computer science)|Parameter]]s passed to a subroutine appear in the subroutine as elements of the local (to the subroutine) scalar array <code>@_</code>.  Calling a subroutine with three scalar variables results in a <code>@_</code> with three elements, usually referred to as the scalars <code>$_[0]</code>, <code>$_[1]</code>, and <code>$_[2]</code>. Also <code>shift</code> can be used, without specifying <code>@_</code>, to obtain each value.
+[[Subroutine]]s in Perl can be specified with the [[keyword]] <code>sub</code>.  [[Parameter (computer science)|Parameter]]s passed to a subroutine appear in the subroutine as elements of the local (to the subroutine) scalar array <code>@_</code>.  Calling a subroutine with three scalar variables results in a <code>@_</code> with three elements, usually referred to as the scalars <code>$_[0]</code>, <code>$_[1]</code>, and <code>$_[2]</code>. Also <code>shift</code> (from [[shell script| shell scripting]]) can be used, without specifying <code>@_</code>, to obtain each value.
 
 Changes to elements in the <code>@_</code> array within the subroutine are reflected in the  elements in the calling program.
 
