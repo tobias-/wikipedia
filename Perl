@@ -124,7 +124,9 @@ The canonical "[[hello world]]" program would be:
 
 The first line is the [[shebang]], which indicates the interpreter for Unix-like operating systems. The second line prints the string 'Hello world' and a [[newline]] (like a person pressing 'Return' or 'Enter').
 
-Some people humorously claim that Perl stands for 'Pathologically Eclectic Rubbish Lister' due to the high use of meaningful punctuation characters in the language [[syntax]], as may be seen in this example program to print a greeting:
+Some people humorously claim that Perl stands for 'Pathologically Eclectic Rubbish Lister' due to its philosophy that there should be many ways to do the same thing, its growth by accretion, and its origins in report writing. 
+
+Perl's undisciplined [[syntax]] and assignment of meaning to many [[ASCII]] punctuation characters gives rise to another interpretation, 'Parse Every Random Line'. There are many other jokes, (including the annual [[Obfuscated Perl Contest]]), about Perl [[syntax]]. An example is the fourth line of this program to print a greeting, using a [[regular expression]]:
 
  <nowiki># A sample Perl program</nowiki>
  $_ =&nbsp;"Hello, world! The magic number is 234542354.\n";
@@ -132,12 +134,10 @@ Some people humorously claim that Perl stands for 'Pathologically Eclectic Rubbi
  s/\d+/-1/;
  print;
 
-and its output:
+Here is its output:
 
  Hello, world! The magic number is 234542354.
  Hello, world! The magic number is -1.
-
-The fourth line of the example shows the use of a [[regular expression]].
 
 <center>
 
