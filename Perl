@@ -473,10 +473,12 @@ One of the most bizarre Perl modules is Lingua::Romana::Perligata. This module t
 
 ===Distributions===
 
-*[http://www.cpan.org/ CPAN] &ndash; Comprehensive Perl Archive Network]
+*[http://www.cpan.org/ CPAN] &ndash; Comprehensive Perl Archive Network, Perl source distribution
 *[http://search.cpan.org/ Search the Comprehensive Perl Archive Network]
 *[http://www.activestate.com/ ActiveState] &ndash; Perl for [[Microsoft Windows]] platforms
 *[http://www.indigostar.com/indigoperl.htm IndigoPerl] &ndash; another distribution of Perl for Microsoft Windows
+*[http://www.cpan.org/ports/index.html#win32 Windows ports on CPAN] &ndash; more distributions of Perl for Microsoft Windows
+*[http://www.cpan.org/ports/index.html CPAN ports] &ndash; binary distributions for other platforms
 
 ===Development===
 
