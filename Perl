@@ -354,7 +354,7 @@ if ($string1 =~ m/rld$/) {
 In common with [[C programming language|C]], [[obfuscated code]] competitions are an interesting feature of the Perl culture.
 Similar to [[obfuscated code]] but with a different purpose, Perl [[Poetry]] is the practice of writing poems that can actually be compiled by perl. This practice is fairly unique to Perl, due to the large number of regular English words used in the language. New poems can regularly be seen in http://www.perlmonks.org/index.pl?node=Perl%20Poetry.
 
-== External Links ==
+== External links ==
 * [http://www.perl.com perl.com]
 * [http://dmoz.org/Computers/Programming/Languages/Perl/ dmoz on Perl]
 * [http://www.perl.org Perl.org]
@@ -366,6 +366,7 @@ Similar to [[obfuscated code]] but with a different purpose, Perl [[Poetry]] is 
 * [http://dev.perl.org/perl6/ Perl 6 development]
 * [http://www.parrotcode.org/ Parrot virtual machine]
 * [http://www.perldoc.com/ - Perl POD documentation]
+* [http://www.wired.com/wired/archive/8.10/cruise_pr.html ''Scripting on the Lido Deck'' by Steve Silberman, Wired Magazine article about Perl Whirl 2000]
 
 ===Books===
 *[[Programming Perl]] (often called the ''Camel book'')([http://safari.oreilly.com/JVXSL.asp?x=1&mode=section&sortKey=title&sortOrder=asc&view=&xmlid=0-596-00027-8&open=false&g=&srchText=BOOK+AND+%28AUTHOR+Larry+Wall%29&code=&h=&m=&l=1&catid=&s=1&b=1&f=1&t=1&c=1&u=1&r=&o=1&page=0 read online])
