@@ -233,7 +233,7 @@ In the simplest case, an expression like
 
   $x =~ m/abc/
 
-evalues to true iff the string <code>$x</code> matches the regular expression <code>abc</code>.
+evaluates to true iff the string <code>$x</code> matches the regular expression <code>abc</code>.
 To capture a matched string, surround the part of the RE that you want 
 with parentheses and evaluate it in list context.
 This is more interesting for patterns that can match multiple strings
@@ -247,7 +247,8 @@ The <code>s//</code> (substitute) operator specifies a search and replace operat
 Perl regular expressions can take ''modifiers''.
 These are single-letter suffixes that modify the meaning of the expression
 
-  $x =~ m/abc/i;   # case-insensitive pattern match
+  $x =~ m/abc/i;      # case-insensitive pattern match
+  $x =~ s/abc/aBc/g;  # global search and replace
 
 Perl regular expressions can be dense and cryptic.
 Partly, this is because regular expression matching is an inherently 
