@@ -427,7 +427,7 @@ Note that the 'm' in the above regular expressions, for example m/[^abc]/, is no
 
 == Fun with Perl ==
 In common with [[C programming language|C]], [[obfuscated code]] competitions are a popular feature of Perl culture.
-Similar to obfuscated code but with a different purpose, Perl [[Poetry]] is the practice of writing poems that can actually be compiled by perl. This hobby is more or less unique to Perl, due to the large number of regular English words used in the language. New poems are regularly published on the [http://www.perlmonks.org/index.pl?node=Perl%20Poetry Perl Monks] site.
+Similar to obfuscated code but with a different purpose, Perl [[Poetry]] is the practice of writing poems that can actually be compiled by perl. This hobby is more or less unique to Perl, due to the large number of regular English words used in the language. New poems are regularly published on the [[Perl Monks]] site's [http://www.perlmonks.org/index.pl?node=Perl%20Poetry Perl Poetry] section.
 
 Another popular pastime is Perl golf. As with [[golf|the physical sport]], the objective is to reduce the number of strokes that it takes to complete a particular objective, but here "strokes" refers to keystrokes rather than swings of a golf club. A task, such as "scan an input string and return the longest [[palindrome]] that it contains", is proposed, and participants try to outdo each other by writing solutions that require fewer and fewer characters of Perl source code.
 
