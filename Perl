@@ -26,7 +26,7 @@ Although Perl has most of the ease-of-use features of an interpreted language, i
 The current version, 5.8.5, includes [[Unicode]] support. Development of the next major release, Perl 6, is also underway. It will run on [[Parrot virtual machine|Parrot]], a [[virtual machine]] which is being developed as a possible multi-language target architecture.
 
 == Control structures ==
-The basic control structures do not differ greatly from those used in the [[C programming language|C]] or [[Java programming language|Java]] programming languages:
+The basic control structures are similar to those used in the [[C programming language|C]] or [[Java programming language|Java]] programming languages:
 
 ''Loops'':
 
