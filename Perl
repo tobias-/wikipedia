@@ -464,6 +464,7 @@ One of the most bizarre Perl modules is Lingua::Romana::Perligata. This module t
 *[http://www.pm.org/ Perl Mongers], local user groups in cities worldwide
 *[http://www.perlmonks.org/ Perl Monks], an online user group and discussion forum
 *[http://www.cpan.org/ CPAN - Comprehensive Perl Archive Network]
+*[http://www.perlgeek.org/ Perl Geek]
 *[http://search.cpan.org/ Search the Comprehensive Perl Archive Network]
 *[http://use.perl.org/ use Perl;], Perl news and community discussion
 *[http://activestate.com/ ActiveState - Perl for Microsoft Windows platforms]
