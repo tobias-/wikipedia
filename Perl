@@ -18,7 +18,7 @@ The current version 5.8 includes [[Unicode]] support. Perl 6 is currently being 
 
 Perl 6 ( http://dev.perl.org/perl6// ) will seperate parsing and compilation and runtime, making the virtual machine more attractive to developers looking to port other languages to the architecture.
 
-[[Parrot programming language|Parrot]] ( http://www.parrotcode.org/ ) is the Perl6 runtime (similar in design and look to [[assembly programming language|assembly]]). Parrot exists in a limited form as of [[September]], [[2002]], and a small number of languages ([[Jako programming language|Jako]], [[Cola programming language|Cola]]) exist simply to be 'compiled' down to Parrot opcodes.
+[[Parrot programming language|Parrot]] ( http://www.parrotcode.org/ ) is the Perl6 runtime, and can be programmed at a low level in Parrot assembly language. Parrot exists in a limited form as of [[September]], [[2002]], and a small number of languages ([[Jako programming language|Jako]], [[Cola programming language|Cola]]) exist simply to be 'compiled' down to Parrot assembly language opcodes.
 
 === Code samples ===
 
