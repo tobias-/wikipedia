@@ -25,7 +25,6 @@ The basic control structures do not differ greatly from those used in the [[C pr
      ''statement(s)''
  }
 
-
  do {
      ''statement(s)''
  } while (''Boolean expression'');
@@ -33,7 +32,8 @@ The basic control structures do not differ greatly from those used in the [[C pr
  do {
      ''statement(s)''
  } until (''Boolean expression'');
- 
+''for one-line statements, "until" can also be used as follows'':
+ ''statement(s)'' until ''Boolean expression'';
 
  for (''initialisation'' ; ''termination condition'' ; ''incrementing expr'') {
      ''statement(s)''
@@ -53,6 +53,8 @@ The basic control structures do not differ greatly from those used in the [[C pr
  unless (''Boolean expression'') {
      ''statement(s)''
  }
+''for one-line statments, "unless" can be used as follows'':
+ ''statements'' unless ''Boolean expression'';
 
  if (''Boolean expression'') {
      ''statement(s)''
