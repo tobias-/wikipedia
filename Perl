@@ -568,7 +568,13 @@ Another popular pastime is Perl golf. As with [[golf|the physical sport]], the o
 
 Another tradition among Perl [[hacker]]s is writing JAPHs, which are short obfuscated programs that print out the phrase "[[Just another Perl hacker]],". The "canonical" JAPH includes the comma at the end, although this is often omitted, and many variants on the theme have been created (example: [http://www.perlmonks.org/index.pl?node_id=292135], which prints "Just Another Perl Pirate!").
 
-One interesting Perl modules is Lingua::Romana::Perligata. This module translates the source code of a script that uses it from Latin into Perl, allowing the programmer to write executable programs in Latin.
+One interesting Perl module is Lingua::Romana::Perligata. This module translates the source code of a script that uses it from Latin into Perl, allowing the programmer to write executable programs in Latin.
+
+The Perl community has set aside the "Acme" namespace for modules that are fun or experimental in nature.  Some of the Acme modules are deliberately implemented in amusing ways.  Some examples:
+* [http://search.cpan.org/dist/Acme-Hello/ Acme::Hello] simplifies the process of writing a "Hello, World!" program
+* [http://search.cpan.org/dist/Acme-Currency/ Acme::Currency] allows you to change the "$" prefix for scalar variables to some other character
+* [http://search.cpan.org/dist/Acme-ProgressBar/ Acme::ProgressBar] is a horribly inefficient way to indicate progress for a task
+* [http://search.cpan.org/dist/Acme-VerySign/ Acme::VerySign] satirizes the widely-criticized [[Verisign]] SiteFinder service
 
 == Perl humor == 
 *[http://wikibooks.org/wiki/Programming:Perl_humour Perl humour on wikibooks]
