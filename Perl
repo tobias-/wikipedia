@@ -82,7 +82,7 @@ In common with [[C programming language|C]], [[obfuscated code]] competitions ar
 * http://dmoz.org/Computers/Programming/Languages/Perl/ - dmoz on Perl
 * http://www.perl.org - Perlmonger's info site
 * http://www.pm.org - Perlmonger's user group site
-* http://www.perlmonks.org - The Perl Monestary
+* http://www.perlmonks.org - The Perl Monastery
 * http://activestate.com - ActiveState - Perl for [[Microsoft Windows|Windows]] platforms
 * http://www.cpan.org/ - Comprehensive Perl Archive Network
 * http://dev.perl.org/perl6/ - Perl 6 development
