@@ -28,52 +28,52 @@ The basic control structures do not differ greatly from those used in the [[C pr
 
 ''Loops'':
 
- while (''Boolean expression'') {
+ while ( ''Boolean expression'' ) {
      ''statement(s)''
  }
 
  do {
      ''statement(s)''
- } while (''Boolean expression'');
+ } while ( ''Boolean expression'' );
 
  do {
      ''statement(s)''
- } until (''Boolean expression'');
+ } until ( ''Boolean expression'' );
 
- for (''initialisation'' ; ''termination condition'' ; ''incrementing expr'') {
+ for ( ''initialisation'' ; ''termination condition'' ; ''incrementing expr'' ) {
      ''statement(s)''
  }
 
- foreach ( ''array'' ) {
+ foreach ( ''list'' ) {
      ''statement(s)''
  }
 
 ''If-then-statements'':
 
- if (''Boolean expression'') {
+ if ( ''Boolean expression'' ) {
      ''statement(s)''
  }
 
- unless (''Boolean expression'') {
+ unless ( ''Boolean expression'' ) {
      ''statement(s)''
  }
 
- if (''Boolean expression'') {
+ if ( ''Boolean expression'' ) {
      ''statement(s)''
  } else {
      ''statement(s)''
  }
 
- if (''Boolean expression'') {
+ if ( ''Boolean expression'' ) {
      ''statement(s)''
- } elsif (''Boolean expression'') {
+ } elsif ( ''Boolean expression'' ) {
      ''statement(s)''
  }
 
-''For one-line statements, "until", "while", "if" and "unless" can also be used as follows'':
+''For one-line statements, "while", "until", "if" and "unless" can also be used as follows'':
 
- ''statement(s)'' until ''Boolean expression'';
  ''statement(s)'' while ''Boolean expression'';
+ ''statement(s)'' until ''Boolean expression'';
  ''statement(s)'' if ''Boolean expression'';
  ''statement(s)'' unless ''Boolean expression'';
 
