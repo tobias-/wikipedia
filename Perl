@@ -429,7 +429,7 @@ The 'm' in the above regular expressions, for example m/[^abc]/, is not required
 
 Perl was originally named "Pearl", after "the pearl of great price" of [[Gospel of Matthew|Matthew]] 13:46. Larry Wall wanted to give the language a short name with positive connotations, and claims he looked at (and rejected) every three- and four-letter word in the dictionary. He even thought of naming it after his wife Gloria. Before the language's official release, Wall discovered that there was already a programming language named [[Pearl programming language|Pearl]], and changed the spelling of the name.
 
-Several [[backronym]]s have been suggested, including the humorous ''Pathologically Eclectic Rubbish Lister''. ''Practical Extraction and Report Language'' has prevailed in many of today's manuals, including the official Perl [[man page]]. It is consistent with the old Pearl name: ''Practical Extraction And Report Language''.
+Several [[backronym]]s have been suggested, including the humorous ''Pathologically Eclectic Rubbish Lister''. ''Practical Extraction and Report Language'' has prevailed in many of today's manuals, including the official Perl [[man page]]. It is also consistent with the old name "Pearl": ''Practical Extraction And Report Language''.
 
 The name is normally capitalized (Perl) when referring to the language, and uncapitalized (perl) when referring to the interpreter program itself. (There is a saying in the Perl community: "Nothing but perl can parse Perl.") It is not appropriate to write "PERL" as it is not an [[acronym]].
 
