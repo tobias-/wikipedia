@@ -477,7 +477,6 @@ Before the language's official release, Wall discovered that there was already a
 *[[Learning Perl]] (also called the ''Llama book'')
 
 [[Category:Programming languages]]
-[[Category:Agile programming languages]]
 [[Category:Popular programming languages]]
 [[Category:Scripting languages]]
 [[Category:Text-oriented programming languages]]
