@@ -42,3 +42,4 @@ See also: [[APL programming language|APL]], [[Python programming language|Python
 * http://www.pm.org - Perlmonger's user group site
 * http://www.perlmonks.org - The Perl Monestary
 * http://activestate.com - ActiveState - Perl for [[Microsoft Windows|Windows]] platforms
+* http://www.cpan.org/ - Comprehensive Perl Archive Network
