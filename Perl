@@ -137,7 +137,7 @@ and should be written as:
 
 The keywords <code>for</code> and <code>foreach</code> are synonyms and are always interchangeable.
 
-As noted earlier, the modifiers ''if'' and ''until'' can be combined with ''do'' to create a multiple-statement looping structure.
+As noted earlier, the modifiers ''while'' and ''until'' can be combined with ''do'' to create a multiple-statement looping structure.
 
 ===Switch statement===
 
