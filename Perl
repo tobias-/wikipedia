@@ -469,7 +469,6 @@ One of the most bizarre Perl modules is Lingua::Romana::Perligata. This module t
 *[http://search.cpan.org/ Search the Comprehensive Perl Archive Network]
 *[http://use.perl.org/ use Perl;], Perl news and community discussion
 *[http://activestate.com/ ActiveState - Perl for Microsoft Windows platforms]
-*[http://www.spiderpro.com/bu/buprli.html SpiderPro: Perl]
 *[http://www.indigostar.com/ IndigoStar], home of [http://www.indigostar.com/indigoperl.htm IndigoPerl], another distribution of Perl for the [[Microsoft Windows]] platform
 *[http://dev.perl.org/perl6/ Perl 6 development]
 *[http://www.parrotcode.org/ Parrot virtual machine]
