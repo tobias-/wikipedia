@@ -98,7 +98,20 @@ An example subroutine definition and call follows:
  print "$y\n";
 </pre>
 
-Named parameters can be simulated by passing a hash.
+Named parameters can be simulated by passing a hash. For example:
+
+<pre>
+ sub greeting
+ {
+   my %person = @_;
+   return "Hello, $person{first} $person{last}!\n";
+ }
+
+ print greeting(
+   first => 'Foo',
+   last  => 'Bar'
+ );
+</pre>
 
 == Perl and [[SQL]] databases == 
 [[DBI/DBD]] modules can be used to access most [[ANSI]] [[SQL]] databases,
