@@ -403,7 +403,6 @@ Before the language's official release Wall discovered that there was already a 
 * [[POE]] -- Perl Object Environment
 * [[Python programming language]]
 * [[Fibonacci number program]]
-* [[Programming Perl]]
 
 == External links ==
 * [http://www.perl.com/ Perl.com]
