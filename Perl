@@ -1,4 +1,4 @@
-'''Perl''' is a [[programming language]] released by [[Larry Wall]] on [[December 18]], [[1987]] that borrows features from [[C programming language|C]], [[sed]], [[awk]], [[UNIX shell|shell]] scripting ([[UNIX shell|sh]]), and (to a lesser extent) from many other programming languages as well. "Perl" (originally called "pearl") is an acronym for ''Practical Extraction and Report Language'' or ''Pathologically Eclectic Rubbish Lister'' &mdash; but never "PERL".  The name is normally capitalized ("Perl") when referring to the language, but not capitalized ("perl") when referring to the interpreter (e.g. ''"Only perl properly parses Perl."'')
+'''Perl''' is a [[programming language]] released by [[Larry Wall]] on [[December 18]], [[1987]] that borrows features from [[C programming language|C]], [[sed]], [[awk]], [[UNIX shell|shell]] scripting ([[UNIX shell|sh]]), and (to a lesser extent) from many other programming languages as well. 
 
 == Rationale  ==
 Perl was designed to be a practical language to extract information from text files and to generate reports from that information. One of its mottos is "There's more than one way to do it" (TMTOWTDI - pronounced 'Tim Toady'). Another is ''Perl: the Swiss Army Chainsaw of Programming Languages''. One stated design goal is to make easy tasks easy and difficult tasks possible. Its versatility permits versions of many programming paradigms: [[procedural programming|procedural]], [[functional programming|functional]], and [[Object Oriented Programming|object-oriented]] (though some claim that Perl is not a cleanly designed language because of its multiple paradigms). Perl has a powerful [[regular expression]] engine built directly into its syntax. Perl is often considered the archetypal [[scripting programming languages|scripting language]] and has been called the "glue that holds the web together", as it is one of the most popular [[Common Gateway Interface|CGI]] languages. Its function as a "glue language" can be described broadly as its ability to tie together different systems and interfaces that were not designed to interoperate.
@@ -390,6 +390,12 @@ if ($string1 =~ m/rld$/) {
 
 In common with [[C programming language|C]], [[obfuscated code]] competitions are an interesting feature of the Perl culture.
 Similar to [[obfuscated code]] but with a different purpose, Perl [[Poetry]] is the practice of writing poems that can actually be compiled by perl. This practice is fairly unique to Perl, due to the large number of regular English words used in the language. New poems can regularly be seen in http://www.perlmonks.org/index.pl?node=Perl%20Poetry.
+
+
+== Name ==
+
+"Perl" was originally named "pearl", after the "pearl of great price" of [[Gospel of Matthew|Matthew]] 13:46. Before the language's official release  Wall discovered that there was already a programming language named "pearl", and
+changed the spelling of the name.  Although the original manuals suggested the   acronyms  ''Practical Extraction and Report Language'' and ''Pathologically Eclectic Rubbish Lister'', these were intended humorously.  Because it is not an acronym,   It is not correct to refer to Perl as  "PERL".  The name is normally capitalized ("Perl") when referring to the language, and uncapitalized ("perl") when referring to the interpreter program itself (There is a saying in the Perl community that ''"Only perl properly parses Perl."'')
 
 == See also ==
 
