@@ -30,7 +30,7 @@ The current version, 5.8.6, released on [[November 27]] [[2004]], includes [[Uni
 
 == Built-in data types ==
 
-Perl has three built-in [[data type]]s: [[scalar]]s, [[array]]s, and [[hash table|hashes]]. A scalar holds a single value, such as a string, number, or reference. Arrays are ordered lists of scalars indexed by number starting at 0. Hashes, or [[associative array]]s, are unordered collections of scalar values indexed by their associated key. Hashes offer the unusual but useful feature of [[Autovivification]].
+Perl has three built-in [[data type]]s: [[scalar]]s, [[array]]s, and [[hash table|hashes]]. A scalar holds a single value, such as a string, number, or reference. Arrays are ordered lists of scalars indexed by number starting at 0. Hashes, or [[associative array]]s, are unordered collections of scalar values indexed by their associated key. Hashes offer the unusual but useful feature of [[autovivification]].
 
 Scalars, arrays, and hashes can be assigned to named variables. The first character of the variable name identifies the type of data held within the variable. The remaining part identifies the particular value the variable refers to.
 
