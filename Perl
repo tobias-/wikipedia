@@ -1,9 +1,10 @@
-<strong>Perl</strong> (''Practical Extraction and Report Language'') is a [[programming language]] created by [[Larry Wall]] in [[1987]] that borrows features from [[C programming language|C]], [[sed]], [[awk]], and shell scripting ([[sh]]). Though the name can be expanded as an [[acronym]] in more than one way, it is normally spelt in normal mixed case when referring to the language, or lower case when referring to the interpreter. "Only perl properly parses Perl." 
-Perl is [[free software movement|free software]], available for many platforms under the ''[[Artistic License]]'' and [[GPL]]. (The name is a nonce word, coined by Larry Wall, who later provided some acronym expansions for it.)
+<strong>Perl</strong> (''Practical Extraction and Report Language'') is a [[programming language]] created by [[Larry Wall]] in [[1987]] that borrows features from [[C programming language|C]], [[sed]], [[awk]], and shell scripting ([[sh]]). Though the name can be expanded as an [[acronym]] in more than one way, it is normally spelt in normal mixed case when referring to the language, or lower case when referring to the interpreter. "Only perl properly parses Perl."
 
 Perl was designed to be a practical language to extract information from text files and generate reports. One of its mottos is ''There is more than one way to do it'' (TIMTOWTDI - pronounced 'Tim Toady'). Another is ''Perl: the Swiss Army Chainsaw of Programming Languages''. Its versatility permits versions of many programming paradigms: [[procedural programming|procedural]], [[functional programming|functional]], and [[Object Oriented Programming|object-oriented]]---though purists object to Perl's approach, which favors convenience to the programmer over clean language design. Perl is often considered the archetypal [[scripting programming languages|scripting language]] and has been called the "glue that holds the web together", as it is one of the most popular [[CGI]] languages. 
 
-Perl is available for just about every [[operating system]] but is particularly prevalent on [[Unix]] and [[Unix-like]] systems, and is growing in popularity on [[Microsoft Windows]] systems. As an example of Perl in action, Wikipedia is our own slightly customized version of CliffordAdams' UseMod Wiki software -- written in Perl, of course.
+ 
+Perl is [[free software movement|free software]], available under the ''[[Artistic License]]'' and [[GPL]]. 
+Perl is available for most [[operating system|operating systems]] but is particularly prevalent on [[Unix]] and [[Unix-like]] systems, and is growing in popularity on [[Microsoft Windows]] systems. As an example of Perl in action, until January 2002 the software running [[Wikipedia]] was a [[cgi]] script written in Perl.
 
 A huge collection of freely usable perl modules, ranging from advanced mathematics to database connectivity, networking and more, can be downloaded from a network of sites called [[CPAN]]. 
 
@@ -14,7 +15,7 @@ Perl 6 is currently being developed. It will run on a [[virtual machine]].
 Some people humorously claim Perl stands for 'Pathologically Eclectic Rubbish Lister' due to the high use of meaningful punctuation characters in the language [[syntax]], as may be seen in this example program to print a greeting:
 
         # A sample Perl program
-        $message =&nbsp;"Hello, world! The magic number is 234542354.
+        $message = "Hello, world! The magic number is 234542354.
 ";
         print $message;
         $message =~ s/d+/-1/;
