@@ -425,10 +425,13 @@ if ($string1 =~ m/[^abc]/) {
 
 Note that the 'm' in the above regular expressions, for example m/[^abc]/, is not required in order for perl to recognize the expression as a 'match' (cf. 'substitute': s/a/b/); /[^abc]/ could just as easily be used without the preceding 'm'. The 'm' operator can be used to alter the delimiting character; for example, m{/} may be used to enhance the legibility of patterns such as /\//. See 'perldoc perlre' for more details.
 
-== Name ==
-"Perl" was originally named "pearl", after the "pearl of great price" of [[Gospel of Matthew|Matthew]] 13:46. Larry Wall wanted to give the language a short name with positive connotations, and claims he looked at (and rejected) every three- and four-letter word in the dictionary. He even thought of naming it after his wife Gloria.
+==Name==
 
-Before the language's official release, Wall discovered that there was already a programming language named "pearl", and changed the spelling of the name. Several [[backronym]]s have been suggested, including the humorous ''Pathologically Eclectic Rubbish Lister''. ''Practical Extraction and Report Language'' has prevailed in many of today's manuals, including the official Perl [[man page]]s. The name is normally capitalized ("Perl") when referring to the language, and uncapitalized ("perl") when referring to the interpreter program itself. (There is a saying in the Perl community that ''"Nothing but perl can parse Perl"''.) It is not appropriate to write "Perl" as "PERL" as it is not an [[acronym]].
+Perl was originally named &ldquo;Pearl&rdquo;, after the &ldquo;pearl of great price&rdquo; of [[Gospel of Matthew|Matthew]] 13:46. Larry Wall wanted to give the language a short name with positive connotations, and claims he looked at (and rejected) every three- and four-letter word in the dictionary. He even thought of naming it after his wife Gloria. Before the language's official release, Wall discovered that there was already a programming language named [[Pearl programming language|Pearl]], and changed the spelling of the name.
+
+Several [[backronym]]s have been suggested, including the humorous ''Pathologically Eclectic Rubbish Lister''. ''Practical Extraction and Report Language'' has prevailed in many of today's manuals, including the official Perl [[man page]]s. It is consistent with the old Pearl name: ''Practical Extraction And Report Language''.
+
+The name is normally capitalized (Perl) when referring to the language, and uncapitalized (perl) when referring to the interpreter program itself. (There is a saying in the Perl community: &ldquo;Nothing but perl can parse Perl.&rdquo;) It is not appropriate to write &ldquo;PERL&rdquo; as it is not an [[acronym]].
 
 == Fun with Perl ==
 In common with [[C programming language|C]], [[obfuscated code]] competitions are a popular feature of Perl culture.
