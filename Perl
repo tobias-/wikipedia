@@ -477,6 +477,9 @@ One of the most bizarre Perl modules is Lingua::Romana::Perligata[http://search.
 * [http://history.perl.org/PerlTimeline.html Perl Timeline]
 * [http://groups.google.com/groups?selm=4628%40sdcrdcf.UUCP First reference to "Perl" on Usenet]
 * [http://www.perlmonks.org/index.pl?node=(Golf)%20Nearest%20Neighbors An example of a golf contest]
+* [http://search.cpan.org/~dconway/Lingua-Romana-Perligata-0.50/lib/Lingua/Romana/Perligata.pm CPAN Lingua::Romana::Perligata module]
+* [http://www.perlmonks.org/index.pl?node_id=253797 A tutorial on Perligata]
+* [http://www.perlmonks.org/index.pl?node_id=292135 A script written in Piratese]
 
 ===Books===
 *[[Programming Perl]] (often called the ''Camel book'') ([http://safari.oreilly.com/JVXSL.asp?x=1&mode=section&sortKey=title&sortOrder=asc&view=&xmlid=0-596-00027-8&open=false&g=&srchText=BOOK+AND+%28AUTHOR+Larry+Wall%29&code=&h=&m=&l=1&catid=&s=1&b=1&f=1&t=1&c=1&u=1&r=&o=1&page=0 read online])
