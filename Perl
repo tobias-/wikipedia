@@ -140,7 +140,7 @@ The canonical "[[hello world]]" program would be:
 
 The first line is the [[shebang]], which indicates the interpreter for Unix-like operating systems, and is not technically necessary. The second line prints the string 'Hello world' and a [[newline]] (like a person pressing 'Return' or 'Enter').
 
-Some people humorously claim that Perl stands for "Pathologically Eclectic Rubbish Lister" due to its philosophy that there should be many ways to do the same thing, its growth by accretion, and its origins in report writing. 
+Some people (including [[Larry Wall]]) humorously claim that Perl stands for "Pathologically Eclectic Rubbish Lister" due to its philosophy that there should be many ways to do the same thing, its growth by accretion, and its origins in report writing. 
 
 There are many other jokes, including the annual [[Obfuscated Perl contest]], which makes an arch virtue of Perl's [[syntax|syntactical]] flexibility. The following program, which prints a greeting that is modified by a [[regular expression]], is a mild example of this pastime:
 
