@@ -460,28 +460,49 @@ One of the most bizarre Perl modules is Lingua::Romana::Perligata. This module t
 * [[List of Perl programs]]
 
 ==External links==
-*[http://www.perl.com/ Perl.com]
-*[http://dmoz.org/Computers/Programming/Languages/Perl/ dmoz on Perl]
-*[http://www.perl.org/ Perl.org]
-*[http://www.pm.org/ Perl Mongers], local user groups in cities worldwide
-*[http://www.perlmonks.org/ PerlMonks], an active and popular online user group and discussion forum
-*[http://www.cpan.org/ CPAN - Comprehensive Perl Archive Network]
+
+*[http://www.perl.com/ Perl.com] &ndash; Perl on [[O'Reilly Network]]
+*[http://www.perl.org/ Perl.org] &ndash; The Perl Directory
+*[http://dmoz.org/Computers/Programming/Languages/Perl/ Perl related websites] in the [[Open Directory Project]]
+
+===User groups===
+
+*[http://www.pm.org/ Perl Mongers] &ndash; local user groups in cities worldwide
+*[http://www.perlmonks.org/ PerlMonks] &ndash; an active and popular online user group and discussion forum
+*[http://use.perl.org/ use Perl;] &ndash; Perl news and community discussion
+
+===Distributions===
+
+*[http://www.cpan.org/ CPAN] &ndash; Comprehensive Perl Archive Network]
 *[http://search.cpan.org/ Search the Comprehensive Perl Archive Network]
-*[http://use.perl.org/ use Perl;], Perl news and community discussion
-*[http://activestate.com/ ActiveState - Perl for Microsoft Windows platforms]
-*[http://www.indigostar.com/ IndigoStar], home of [http://www.indigostar.com/indigoperl.htm IndigoPerl], another distribution of Perl for the [[Microsoft Windows]] platform
+*[http://www.activestate.com/ ActiveState] &ndash; Perl for [[Microsoft Windows]] platforms
+*[http://www.indigostar.com/ IndigoStar] &ndash; home of [http://www.indigostar.com/indigoperl.htm IndigoPerl] &ndash; another distribution of Perl for Microsoft Windows
+
+===Development===
+
+*[http://dev.perl.org/perl5/ Perl 5 development]
 *[http://dev.perl.org/perl6/ Perl 6 development]
-*[http://www.webmaster.org/webhosting/plans/perl.htm Webmaster.org: Perl Web Hosting Plans] - List of companies offering perl in their web hosting plans.
 *[http://www.parrotcode.org/ Parrot virtual machine]
+*[http://www.poniecode.org/ Project Ponie] &ndash; Perl 5 running on top of Parrot
+
+===Documentation===
+
 *[http://www.perldoc.com/ Perl POD documentation]
+*[http://history.perl.org/PerlTimeline.html Perl Timeline]
+
+===Articles===
+
 *[http://www.wired.com/wired/archive/8.10/cruise_pr.html ''Scripting on the Lido Deck'' by Steve Silberman, Wired Magazine article about Perl Whirl 2000]
 *[http://www.linuxjournal.com/article.php?sid=3394 Interview with Larry Wall on Perl (May 01, 1999)]
-*[http://history.perl.org/PerlTimeline.html Perl Timeline]
 *[http://groups.google.com/groups?selm=4628%40sdcrdcf.UUCP First reference to "Perl" on Usenet]
 *[http://www.perlmonks.org/index.pl?node=(Golf)%20Nearest%20Neighbors An example of a golf contest]
 *[http://www.perlmonks.org/index.pl?node_id=292135 A script written in Piratese]
 
-===Books===
+===Hosting===
+<!-- Is this important? It was added by 69.158.155.131 and it is just a list of advertisements of web hosting companies - personally I have never seen any hosting not offering Perl. -->
+*[http://www.webmaster.org/webhosting/plans/perl.htm Webmaster.org: Perl Web Hosting Plans] - List of companies offering perl in their web hosting plans.
+
+==Books==
 {{book}}
 *[[Programming Perl]] (also known as the ''Camel book'')
 *[[Perl Cookbook]]
