@@ -623,6 +623,7 @@ The Perl community has set aside the "Acme" namespace for modules that are fun o
 *[http://dmoz.org/Computers/Programming/Languages/Perl/ Perl related websites] in the [[Open Directory Project]]
 *[http://www.theperlreview.com The Perl Review] - print magazine about Perl
 *[http://www.tpj.com/ The Perl Journal] online only magazine about Perl
+*[http://xahlee.org/UnixResource_dir/perlr.html] Perl books review and criticism
 
 ==Books==
 {{book}}
