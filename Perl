@@ -113,7 +113,7 @@ The cannonical "hello world" program would be:
  #!/usr/bin/perl
  print "Hello world\n";
 
-The first line indicates the interpreter for Unix-like operating systems and the second line prints the string 'Hello world' and a linefeed (like a person pressing 'Return' or 'Enter').
+The first line is the [[shebang]], which indicates the interpreter for Unix-like operating systems. The second line prints the string 'Hello world' and a [[linefeed]] (like a person pressing 'Return' or 'Enter').
 
 Some people humorously claim that Perl stands for 'Pathologically Eclectic Rubbish Lister' due to the high use of meaningful punctuation characters in the language [[syntax]], as may be seen in this example program to print a greeting:
 
@@ -131,6 +131,7 @@ and its output:
 The fourth line of the example shows the use of a [[regular expression]].
 
 <center>
+
 ===Regular Expressions with Perl Examples===
 <p><table BORDER CELLPADDING="5" WIDTH="80%">
 <tr>
