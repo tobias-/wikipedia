@@ -626,6 +626,8 @@ One of the most bizarre Perl modules is Lingua::Romana::Perligata. This module t
 *[http://www.linuxjournal.com/article.php?sid=3394 Interview with Larry Wall on Perl (May 01, 1999)]
 *[http://www.perlmonks.org/index.pl?node=(Golf)%20Nearest%20Neighbors An example of a golf contest]
 *[http://www.perlmonks.org/index.pl?node_id=292135 A script written in Piratese]
+*[http://www.geocities.com/binnyva/code/perl/tutorial/index.html 
+Beginner's Tutorial for Perl Language]
 
 ==Books==
 {{book}}
