@@ -1,4 +1,4 @@
-[[Image:Programming-republic-of-perl.gif|right|Programming Republic Of Perl]]
+[[Image:Programming-republic-of-perl.gif|right|framed|Programming Republic of [http://www.perl.com Perl] logo]]
 
 '''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]), is a [[programming language]] released by [[Larry Wall]] on [[December 18]], [[1987]] that borrows features from [[C programming language|C]], [[sed]], [[awk]], [[UNIX shell|shell]] scripting ([[UNIX shell|sh]]), and (to a lesser extent) from many other programming languages.
 
