@@ -363,7 +363,7 @@ if ($string1 =~ m/(\d+)/) {
 $string1 = "Hello World\n";
 if ($string1 =~ m/\D/) {
   print "There is at least one character in $string1";
-  print "that is not a string.\n";
+  print "that is not a digit.\n";
 }
 </pre></td>
 </tr>
