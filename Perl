@@ -3,7 +3,7 @@
 '''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]), is a [[programming language]] released by [[Larry Wall]] on [[December 18]], [[1987]] that borrows features from [[C programming language|C]], [[sed]], [[awk]], [[UNIX shell|shell]] scripting ([[UNIX shell|sh]]), and (to a lesser extent) from many other programming languages.
 
 == Rationale  ==
-Perl was designed to be a practical language to extract information from text files and to generate reports from that information. One of its mottoes is "There's more than one way to do it" (TMTOWTDI &mdash; pronounced 'Tim Toady'). Another is ''Perl: the Swiss Army Chainsaw of Programming Languages''. One stated design goal is to make easy tasks easy and difficult tasks possible. Its versatility permits versions of many programming paradigms: [[procedural programming|procedural]], [[functional programming|functional]], and [[Object Oriented Programming|object-oriented]] (though some claim that Perl is not a cleanly designed language because of its multiple paradigms). Perl has a powerful [[regular expression]] engine built directly into its syntax. Perl is often considered the archetypal [[scripting programming languages|scripting language]] and has been called the "glue that holds the web together", as it is one of the most popular [[Common Gateway Interface|CGI]] languages. Its function as a "glue language" can be described broadly as its ability to tie together different systems and interfaces that were not designed to interoperate.
+Perl was designed to be a practical language to extract information from text files and to generate reports from that information. One of its mottoes is "There's more than one way to do it" (TMTOWTDI - pronounced 'Tim Toady'). Another is ''Perl: the Swiss Army Chainsaw of Programming Languages''. One stated design goal is to make easy tasks easy and difficult tasks possible. Its versatility permits versions of many programming paradigms: [[procedural programming|procedural]], [[functional programming|functional]], and [[Object Oriented Programming|object-oriented]] (though some claim that Perl is not a cleanly designed language because of its multiple paradigms). Perl has a powerful [[regular expression]] engine built directly into its syntax. Perl is often considered the archetypal [[scripting programming languages|scripting language]] and has been called the "glue that holds the web together", as it is one of the most popular [[Common Gateway Interface|CGI]] languages. Its function as a "glue language" can be described broadly as its ability to tie together different systems and interfaces that were not designed to interoperate.
 
 Perl is one of the [[programming language]] components of the popular [[LAMP]] free software platform for web development.
 
@@ -448,14 +448,14 @@ One of the most bizarre Perl modules is Lingua::Romana::Perligata. This module t
 *[http://wikibooks.org/wiki/Programming:Perl_humour Perl humour on wikibooks]
 *[http://www.perl.com/pub/a/2003/07/16/soto2003.html State of the Onion 2003 (Larry Wall on Perl 6)]
 *[http://www.cmpe.boun.edu.tr/~kosar/other/lwall.html Larry Wall quotes]
-*[http://search.cpan.org/perldoc?Lingua::Romana::Perligata Lingua::Romana::Perligata &mdash; Write Perl in Latin!]
+*[http://search.cpan.org/perldoc?Lingua::Romana::Perligata Lingua::Romana::Perligata - Write Perl in Latin!]
 *[http://www.perlmonks.org/index.pl?node_id=253797 A tutorial on Perligata]
 *[http://www.softpanorama.org/Bulletin/Humor/humor092.html Perl Purity Test]
 
 == See also ==
 * [[Just another Perl hacker]]
 * [[Obfuscated Perl contest]]
-* [[POE]] &mdash; Perl Object Environment
+* [[POE]] -- Perl Object Environment
 * [[Fibonacci number program]]
 * [[Perl poetry]]
 * [[List of Perl programs]]
@@ -466,10 +466,10 @@ One of the most bizarre Perl modules is Lingua::Romana::Perligata. This module t
 * [http://www.perl.org/ Perl.org]
 * [http://www.pm.org/ Perl Mongers], local user groups in cities worldwide
 * [http://www.perlmonks.org/ Perl Monks], an online user group and discussion forum
-* [http://www.cpan.org/ CPAN &mdash; Comprehensive Perl Archive Network]
+* [http://www.cpan.org/ CPAN - Comprehensive Perl Archive Network]
 * [http://search.cpan.org/ Search the Comprehensive Perl Archive Network]
 * [http://use.perl.org/ use Perl;], Perl news and community discussion
-* [http://activestate.com/ ActiveState &mdash; Perl for Microsoft Windows platforms]
+* [http://activestate.com/ ActiveState - Perl for Microsoft Windows platforms]
 * [http://www.indigostar.com/ IndigoStar], home of [http://www.indigostar.com/indigoperl.htm IndigoPerl], another distribution of Perl for the [[Microsoft Windows]] platform
 * [http://dev.perl.org/perl6/ Perl 6 development]
 * [http://www.parrotcode.org/ Parrot virtual machine]
