@@ -427,6 +427,7 @@ Before the language's official release Wall discovered that there was already a 
 * [http://www.pm.org/ Perl Mongers user group site]
 * [http://www.perlmonks.org/ The Perl Monastery]
 * [http://activestate.com/ ActiveState - Perl for Microsoft Windows platforms]
+* [http://www.indigostar.com/ IndigoStar], home of [http://www.indigostar.com/indigoperl.htm IndigoPerl], another distribution of Perl for the [[Microsoft Windows]] platform
 * [http://www.cpan.org/ CPAN - Comprehensive Perl Archive Network]
 * [http://search.cpan.org/ Search the Comprehensive Perl Archive Network]
 * [http://dev.perl.org/perl6/ Perl 6 development]
