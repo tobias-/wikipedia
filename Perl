@@ -73,11 +73,11 @@ The basic control structures do not differ greatly from those used in the [[C pr
  ''statements'' if ''expression'';
 
 == Subroutines ==
-Subroutines in Perl can be specified with the keyword 'sub'.  Variables passed to a subroutine appear in the subroutine as elements of the local (to the subroutine) scalar array @_.  Calling a subroutine with three scalar variables results in array elements @_[0], @_[1], and @_[2] within the subroutine.  Note that these elements would be referred to as the scalars $_[0], $_[1], and $_[2].
+[[Subroutine]]s in Perl can be specified with the [[keyword]] 'sub'.  [[Variable]]s passed to a [[subroutine]] appear in the [[subroutine]] as elements of the local (to the subroutine) scalar array @_.  Calling a [[subroutine]] with three scalar variables results in array elements @_[0], @_[1], and @_[2] within the [[subroutine]].  Note that these elements would be referred to as the scalars $_[0], $_[1], and $_[2].
 
-Changes to elements in the @_ array within the subroutine are reflected in the  elements in the calling program.
+Changes to elements in the @_ array within the [[subroutine]] are reflected in the  elements in the calling program.
 
-Subroutines naturally return the value of the last expression evaluated, though explicit use of the ''return'' statement is often encouraged for clarity.
+[[Subroutine]]s naturally return the value of the last expression evaluated, though explicit use of the ''return'' statement is often encouraged for clarity.
 
 An example subroutine definition and call follows:
 
