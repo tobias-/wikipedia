@@ -657,5 +657,6 @@ One of the most bizarre Perl modules is Lingua::Romana::Perligata. This module t
 [[pl:Perl]]
 [[pt:Perl]]
 [[fi:Perl]]
+[[sr:Perl]]
 [[sv:Perl]]
 [[zh:Perl]]
