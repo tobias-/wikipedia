@@ -419,9 +419,7 @@ Before the language's official release Wall discovered that there was already a 
 == See also ==
 * [[Just another Perl hacker]]
 * [[Obfuscated Perl contest]]
-* [[PHP programming language]]
 * [[POE]] -- Perl Object Environment
-* [[Python programming language]]
 * [[Fibonacci number program]]
 
 == External links ==
