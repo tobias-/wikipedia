@@ -16,7 +16,7 @@ A huge collection of freely usable perl modules, ranging from advanced mathemati
 
 Although Perl has most of the ease of use features of an interpreted language, it does not strictly interpret and execute the source code one line at a time. Rather, perl first compiles an entire program to an intermediate byte code (much like [[Java programming language|Java's]] byte code), optimizing as it goes, and then executes that byte code. It is possible to compile a perl program to byte code to save the compilation step on later executions, though the "interpreter" is still needed to execute that code.
 
-The current version 5.8 includes [[Unicode]] support. Perl 6 is currently being developed. It will run on [[Parrot]], a [[virtual machine]] currently being developed as a possible multi-language target architecture.
+The current version 5.8 includes [[Unicode]] support. Perl 6 is currently being developed. It will run on [[Parrot|Parrot_interpeter]], a [[virtual machine]] currently being developed as a possible multi-language target architecture.
 
 
 == Control structures ==
@@ -357,4 +357,4 @@ Similar to [[obfuscated code]] but with a different purpose, Perl [[Poetry]] is 
 * http://www.cpan.org/ - Comprehensive Perl Archive Network
 * http://dev.perl.org/perl6/ - Perl 6 development
 * http://www.parrotcode.org/ - Parrot virtual machine
-* http://www.perldoc.com/ - Perl POD documentation, rendered as HTML
+* http://www.perldoc.com/ - Perl POD documentation, rendered as
