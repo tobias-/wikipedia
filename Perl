@@ -207,7 +207,7 @@ as few times as possible.</td>
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/(l+?o)/) {
-  print "The non-greedy match with one or more 'l'
+  print "The non-greedy match with one or more 'l' ";
   print "followed by an 'o' is 'lo', not 'llo'.\n";
 }
 </pre></td>
