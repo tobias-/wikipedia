@@ -436,8 +436,8 @@ Before the language's official release, Wall discovered that there was already a
 * [http://www.perl.com/ Perl.com]
 * [http://dmoz.org/Computers/Programming/Languages/Perl/ dmoz on Perl]
 * [http://www.perl.org/ Perl.org]
-* [http://www.pm.org/ Perl Mongers user group site]
-* [http://www.perlmonks.org/ The Perl Monastery]
+* [http://www.pm.org/ Perl Mongers], local user groups in cities worldwide
+* [http://www.perlmonks.org/ Perl Monks], an online user group and discussion forum
 * [http://activestate.com/ ActiveState - Perl for Microsoft Windows platforms]
 * [http://www.indigostar.com/ IndigoStar], home of [http://www.indigostar.com/indigoperl.htm IndigoPerl], another distribution of Perl for the [[Microsoft Windows]] platform
 * [http://www.cpan.org/ CPAN - Comprehensive Perl Archive Network]
