@@ -425,13 +425,18 @@ if ($string1 =~ m/[^abc]/) {
 
 Note that the 'm' in the above regular expressions, for example m/[^abc]/, is not required in order for perl to recognize the expression as a 'match' (cf. 'substitute': s/a/b/); /[^abc]/ could just as easily be used without the preceding 'm'. The 'm' operator can be used to alter the delimiting character; for example, m{/} may be used to enhance the legibility of patterns such as /\//. See 'perldoc perlre' for more details.
 
+== Fun With Perl ==
 In common with [[C programming language|C]], [[obfuscated code]] competitions are an interesting feature of the Perl culture.
 Similar to obfuscated code but with a different purpose, Perl [[Poetry]] is the practice of writing poems that can actually be compiled by perl. This practice is fairly unique to Perl, due to the large number of regular English words used in the language. New poems can regularly be seen [http://www.perlmonks.org/index.pl?node=Perl%20Poetry here].
+
+Another popular Perl passtime is golf. As with [[golf|the physical sport]], the objective is to reduce the number of strokes that it takes to complete a particular objective, but in Perl golf, it is keystrokes. Someone will propose a task, such as "Scan an input string and return the longest [[palendrome]] that it contains", and then others will rise to the challenge and try to outdo each other by writing solutions that require less characters of Perl source code.
 
 == Name ==
 "Perl" was originally named "pearl", after the "pearl of great price" of [[Gospel of Matthew|Matthew]] 13:46. Larry Wall wanted to give the language a short name with positive connotations, and claims he looked at (and rejected) every three- and four-letter word in the dictionary. He even thought of naming it after his wife Gloria.
 
 Before the language's official release, Wall discovered that there was already a programming language named "pearl", and changed the spelling of the name. Several [[backronym]]s have been suggested, including the humorous ''Pathologically Eclectic Rubbish Lister''. ''Practical Extraction and Report Language'' has prevailed in many of today's manuals, including the official Perl [[man page]]s. The name is normally capitalized ("Perl") when referring to the language, and uncapitalized ("perl") when referring to the interpreter program itself. (There is a saying in the Perl community that ''"Nothing but perl can parse Perl"''.) It is not appropriate to write "Perl" as "PERL" as it is not an [[acronym]].
+
+Another tradition among Perl [[hacker]]s is writing a [[JAPH|Just another Perl hacker]].
 
 == Perl humor == 
 *[http://wikibooks.org/wiki/Programming:Perl_humour Perl humour on wikibooks]
