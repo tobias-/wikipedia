@@ -408,7 +408,7 @@ if ($string1 =~ m/[^abc]/) {
 
 </table></center>
 
-Note that the 'm' in the above regular expressions, for example m/[^abc]/ is not necessary for perl to recognize the expression as type 'match' (as opposed to 'substitute', or s/a/b/), one could just as well use /[^abc]/ without the preceeding 'm'. The 'm' operator can be used to alter the delimiting character, for example m|/| can be used to enhance the readability of /\//. See 'perldoc perlre' for details.
+Note that the 'm' in the above regular expressions, for example m/[^abc]/, is not required in order for perl to recognize the expression as a 'match' (cf. 'substitute': s/a/b/); /[^abc]/ could just as easily be used without the preceeding 'm'. The 'm' operator can be used to alter the delimiting character; for example, m{/} may be used to enhance the legibility of patterns such as /\//. See 'perldoc perlre' for more details.
 
 In common with [[C programming language|C]], [[obfuscated code]] competitions are an interesting feature of the Perl culture.
 Similar to obfuscated code but with a different purpose, Perl [[Poetry]] is the practice of writing poems that can actually be compiled by perl. This practice is fairly unique to Perl, due to the large number of regular English words used in the language. New poems can regularly be seen [http://www.perlmonks.org/index.pl?node=Perl%20Poetry here].
