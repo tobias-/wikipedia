@@ -19,7 +19,7 @@ The current version 5.8 includes [[Unicode]] support. Perl 6 is currently being 
 
 
 == Control structures ==
-The  basic control structures do not differ from those used in the [[C programming language|C]] or [[Java programming language|Java]] programming languages:
+The basic control structures do not differ greatly from those used in the [[C programming language|C]] or [[Java programming language|Java]] programming languages:
 
 ''Loops''
 
@@ -77,7 +77,7 @@ and its output:
 The fourth line of the example shows the use of a [[regular expression]].
 
 In common with [[C programming language|C]], [[obfuscated code]] competitions are an interesting feature of the Perl culture.
-Similiar to [[obfuscated code]] but with a different purpose, Perl Poetry is the practise of writing poems that can actually be compiled by perl. This practise is fairly unique to Perl, due to the large number of regular English words used in the language. New poems can regularly be see in http://www.perlmonks.org/index.pl?node=Perl%20Poetry.
+Similar to [[obfuscated code]] but with a different purpose, Perl Poetry is the practice of writing poems that can actually be compiled by perl. This practice is fairly unique to Perl, due to the large number of regular English words used in the language. New poems can regularly be see in http://www.perlmonks.org/index.pl?node=Perl%20Poetry.
 
 == External Links ==
 * http://dmoz.org/Computers/Programming/Languages/Perl/ - dmoz on Perl
