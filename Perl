@@ -394,8 +394,8 @@ Similar to [[obfuscated code]] but with a different purpose, Perl [[Poetry]] is 
 
 == Name ==
 
-"Perl" was originally named "pearl", after the "pearl of great price" of [[Gospel of Matthew|Matthew]] 13:46. Before the language's official release  Wall discovered that there was already a programming language named "pearl", and
-changed the spelling of the name.  Although the original manuals suggested the   acronyms  ''Practical Extraction and Report Language'' and ''Pathologically Eclectic Rubbish Lister'', these were intended humorously.  Because it is not an acronym,   It is not correct to refer to Perl as  "PERL".  The name is normally capitalized ("Perl") when referring to the language, and uncapitalized ("perl") when referring to the interpreter program itself (There is a saying in the Perl community that ''"Only perl properly parses Perl."'')
+"Perl" was originally named "pearl", after the "pearl of great price" of [[Gospel of Matthew|Matthew]] 13:46. Before the language's official release Wall discovered that there was already a programming language named "pearl", and
+changed the spelling of the name. Although the original manuals suggested the   [[backronym]]s ''Practical Extraction and Report Language'' and ''Pathologically Eclectic Rubbish Lister'', these were intended humorously. Because it is not an acronym, it is not correct to refer to Perl as "PERL". The name is normally capitalized ("Perl") when referring to the language, and uncapitalized ("perl") when referring to the interpreter program itself. (There is a saying in the Perl community that ''"Only perl can parse Perl"''.)
 
 == See also ==
 
