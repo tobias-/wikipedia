@@ -87,21 +87,15 @@ Subroutines naturally return the value of the last expression evaluated, though 
 
 An example subroutine definition and call follows:
 
- ...
-
  sub cube
  {
    my $x = shift;
    $x * $x * $x;
  }
-
  ...
-
  $z = -4;
  $y = cube($z);
  print "$y\n";
-
- ...
 
 Named parameters can be simulated by passing a hash.
 
