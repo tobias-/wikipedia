@@ -30,10 +30,11 @@ The basic control structures do not differ greatly from those used in the [[C pr
 
 ''Loops''
 
- while (''Boolean expression'') {
-     ''statement(s)''
- }
-
+<tt>
+while (''Boolean expression'') {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;''statement(s)''<br/>
+}
+</tt>
  do {
      ''statement(s)''
  } while (''Boolean expression'');
