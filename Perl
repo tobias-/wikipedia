@@ -70,7 +70,7 @@ Perl 4 went through a series of mainenance releases, culminating in Perl 4.036 i
 
 Development of Perl 5 continued into 1994. The perl5-porters mailing list was established in 1994 May to coordinate work on porting Perl 5 to different platforms. It remains the primary forum for development, maintenance, and porting of Perl 5.
 
-Perl 5 was released on 1994 October 17. It was a nearly complete rewrite of the interpreter, and added many new features to the language, including objects, references, packages and modules. Importantly, modules provided a mechanism for extending the language without modifying the interpreter, thus allowing the core interpreter to stablize, even as it enabled ordinary Perl programmers to add new language features.
+Perl 5 was released on 1994 October 17. It was a nearly complete rewrite of the interpreter, and added many new features to the language, including objects, references, packages and modules. Importantly, modules provided a mechanism for extending the language without modifying the interpreter. This allowed the core interpreter to stablize, even as it enabled ordinary Perl programmers to add new language features.
 
 On 1995 October 26, the [[Comprehensive Perl Archive Network]] (CPAN) was established. CPAN is a collection of web sites that archive and distribute Perl sources, binary distributions, documentation, scripts, and modules. Originally, each CPAN site had to be accessed through its own URL; today, the single URL http://www.cpan.org automatically redirects to a CPAN site.
 
@@ -81,7 +81,6 @@ At the 2000 [[Perl Conference]] [[Jon Orwant]] made a case for a major new langu
 Larry Wall spent the next few years digesting the RFCs and synthesizing them into a coherent framework for Perl 6. He has presented his design for Perl 6 in a series of documents called [[apocalypse (perl)|apocalypse]]s.
 
 In 2001, it was decided that Perl 6 would run on a [[virtual machine]], called [[Parrot virtual machine|Parrot]]. As of 2005, both Perl 6 and Parrot are under active development.
-
 
 == Built-in data types ==
 
