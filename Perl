@@ -227,9 +227,9 @@ as few times as possible.</td>
 <td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
-if ($string1 =~ m/(l+?o)/) {
-  print "The non-greedy match with one or more 'l' ";
-  print "followed by an 'o' is 'lo', not 'llo'.\n";
+if ($string1 =~ m/(l.+?o)/) {
+  print "The non-greedy match with 'l' followed by one or ";
+  print "more characters is 'llo' rather than 'llo wo'.\n";
 }
 </pre></td>
 </tr>
@@ -241,7 +241,7 @@ if ($string1 =~ m/(l+?o)/) {
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string =~ m/el*o/) {
-  print "There is a 'e' followed by zero to many";
+  print "There is an 'e' followed by zero to many";
   print "'l' followed by 'o' (eo, elo, ello, elllo)\n";
 }
 </pre></td>
@@ -268,21 +268,20 @@ if ($string1 =~ m/l{1,2}/) {
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/[aeiou]+/) {
-  print "$string1 contains a one or more";
-  print "vowels\n";
+  print "$string1 contains one or more vowels.\n";
 }
 </pre></td>
 </tr>
     
 <tr>
 <td>|</td>
-<td>Matches one of the left or right operand.</td>
+<td>Separates alternate possibilities.</td>
 <td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
-if ($string1 =~ m/(Hello|Hi)/) {
-  print "Hello or Hi is ";
-  print "contained in $string1";
+if ($string1 =~ m/(Hello|Hi|Pogo)/) {
+  print "At least one of Hello, Hi, or Pogo is ";
+  print "contained in $string1.\n";
 }
 </pre></td>
 </tr>
@@ -293,15 +292,11 @@ if ($string1 =~ m/(Hello|Hi)/) {
 <td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
-if ($string1 =~ m/\bllo\b/) {
-  print "There is a word that starts with";
-  print " 'llo'\n";
+if ($string1 =~ m/llo\b/) {
+  print "There is a word that ends with 'llo'\n";
 } else {
-  print "There are no words that start with";
-
-  print "'llo'\n";
+  print "There are no words that end with 'llo'\n";
 }
-
 </pre></td>
 </tr>
     
@@ -312,8 +307,8 @@ if ($string1 =~ m/\bllo\b/) {
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/\w/) {
-  print "There is at least one alpha-";
-  print "numeric char in $string1 (A-Z, a-z, 0-9, _)\n";
+  print "There is at least one alphanumeric ";
+  print "character in $string1 (A-Z, a-z, 0-9, _)\n";
 }
 </pre></td>
 </tr>
@@ -333,13 +328,13 @@ if ($string1 =~ m/\W/) {
 
 <tr>
 <td>\s</td>
-<td>Matches a whitespace character (space, tab, newline, formfeed)</td>
+<td>Matches a whitespace character (space, tab, newline, form feed)</td>
 <td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/\s.*\s/) {
-  print "There are TWO whitespace ";
-  print "characters separated by other characters in $string1";
+  print "There are TWO whitespace characters, which may";
+  print " be separated by other characters, in $string1";
 }
 </pre></td>
 </tr>
@@ -351,8 +346,8 @@ if ($string1 =~ m/\s.*\s/) {
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/\S.*\S/) {
-  print "There are TWO non-whitespace ";
-  print "characters separated by other characters in $string1";
+  print "There are TWO non-whitespace characters, which";
+  print " may be separated by other characters, in $string1";
 }
 </pre></td>
 </tr>
@@ -380,7 +375,7 @@ if ($string1 =~ m/(\d+)/) {
 $string1 = "Hello World\n";
 if ($string1 =~ m/\D/) {
   print "There is at least one character in $string1";
-  print "that is not a digit.\n";
+  print " that is not a digit.\n";
 }
 </pre></td>
 </tr>
@@ -417,14 +412,15 @@ if ($string1 =~ m/rld$/) {
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/[^abc]/) {
-  print "$string1 does not contain the characters a, b, and c\n";
+  print "$string1 does not contain the characters ";
+  print "a, b, and c\n";
 }
 </pre></td>
 </tr>
 
 </table></center>
 
-Note that the 'm' in the above regular expressions, for example m/[^abc]/, is not required in order for perl to recognize the expression as a 'match' (cf. 'substitute': s/a/b/); /[^abc]/ could just as easily be used without the preceding 'm'. The 'm' operator can be used to alter the delimiting character; for example, m{/} may be used to enhance the legibility of patterns such as /\//. See 'perldoc perlre' for more details.
+The 'm' in the above regular expressions, for example m/[^abc]/, is not required in order for perl to recognize the expression as a 'match' (cf. 'substitute': s/a/b/); /[^abc]/ could just as easily be used without the preceding 'm'. The 'm' operator can be used to alter the delimiting character; for example, m{/} may be used to enhance the legibility of patterns such as /\//. See 'perldoc perlre' for more details.
 
 ==Name==
 
