@@ -18,7 +18,7 @@ In recognition of its ugly-but-useful nature, Perl has adopted the [[camel]] as 
 == Implementation ==
 A huge collection of freely usable [[perl module]]s, ranging from advanced mathematics to database connectivity, networking and more, can be downloaded from a network of sites called [[CPAN]], an [[Acronym|acronym]] for Comprehensive Perl Archive Network. Most or all of the software on CPAN is also available under either the [[Artistic License]], the [[GPL]], or both. As of [[2004]], CPAN includes more than 7,000 modules, contributed by nearly 4,000 authors.
 
-A major advantage of Perl for those who work with large quantities of data is that it is highly scalable, as it does not place arbitrary limits on the sizes of its built in data structures. Resources permitting, a Perl program can read an entire multi-gigabyte file into RAM. This flexibility in the face of bulky data dumps has made Perl popular among [[Bioinformatics]] researchers, who routinely read substantial fractions of the human genomic sequence into Perl data structures.
+A major advantage of Perl for those who work with large quantities of data is that it is highly scalable, as it does not place arbitrary limits on the sizes of its built in data structures. Resources permitting, a Perl program can read an entire multi-gigabyte file into RAM. This flexibility in the face of bulky data dumps has made Perl popular among [[bioinformatics]] researchers, who routinely read substantial fractions of the human genomic sequence into Perl data structures.
 
 CPAN.pm is also the name of the Perl module that downloads and installs other Perl modules from one of the CPAN mirror sites: such installations can be done with interactive prompts, or can be fully automated.
 
