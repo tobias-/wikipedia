@@ -237,7 +237,7 @@ if ($string1 =~ m/...../) {
 <td>( )</td>
 <td>Groups a series of pattern elements to a single element.  When you match a pattern within parentheses, 
 you can use any of $1, $2, 
-... $9 later to refer to the previously matched pattern.</td>
+... later to refer to the previously matched pattern.</td>
 <td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
@@ -277,8 +277,8 @@ if ($string1 =~ m/H.?e/) {
     
 <tr>
 <td>?</td>
-<td>Matches the *, +, or {M,N}'d regexp that comes before
-as few times as possible.</td>
+<td>Modifies the *, +, or {M,N}'d regexp that comes before
+to match as few times as possible.</td>
 <td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
@@ -318,7 +318,7 @@ if ($string1 =~ m/l{1,2}/) {
     
 <tr>
 <td>[...]</td>
-<TD>Denotes a set of possible matches.</TD>
+<TD>Denotes a set of possible character matches.</TD>
 <td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
@@ -456,6 +456,32 @@ $string1 = "Hello World\n";
 if ($string1 =~ m/rld$/) {
   print "$string1 is a line or string";
   print "that ends with 'rld'\n";
+}
+</pre></td>
+</tr>
+
+<tr>
+<td>\A</td>
+<td>Matches the beginning of a string (but not an internal line).</td>
+<td align="left">
+<pre class="output">
+$string1 = "Hello\nWorld\n";
+if ($string1 =~ m/\AH/) {
+  print "$string1 is a string";
+  print "that starts with 'H'\n";
+}
+</pre></td>
+</tr>
+
+<tr>
+<td>\Z</td>
+<td>Matches the end of a string (but not an internal line).</td>
+<td align="left">
+<pre class="output">
+$string1 = "Hello\nWorld\n";
+if ($string1 =~ m/d\n\Z/) {
+  print "$string1 is a string";
+  print "that ends with 'd\\n'\n";
 }
 </pre></td>
 </tr>
