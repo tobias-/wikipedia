@@ -504,7 +504,7 @@ One of the most bizarre Perl modules is Lingua::Romana::Perligata. This module t
 *[http://www.softpanorama.org/Bulletin/Humor/humor092.html Perl Purity Test]
 
 == See also ==
-* [[Just another Perl hacker,]]
+* [[Just another Perl hacker]]
 * [[Obfuscated Perl contest]]
 * [[POE]] -- Perl Object Environment
 * [[Fibonacci number program]]
