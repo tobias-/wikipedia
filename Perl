@@ -188,7 +188,7 @@ if ($string1 =~ m/l+/) {
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/H.?e/) {
-  print "There is an 'H' and a 'e' seperated by ";
+  print "There is an 'H' and a 'e' separated by ";
   print "0-1 characters (Ex: He Hoe)\n";
 }
 </pre></td>
@@ -312,7 +312,7 @@ if ($string1 =~ m/\W/) {
 $string1 = "Hello World\n";
 if ($string1 =~ m/\s.*\s/) {
   print "There are TWO whitespace ";
-  print "characters seperated by other characters in $string1";
+  print "characters separated by other characters in $string1";
 }
 </pre></td>
 </tr>
@@ -325,7 +325,7 @@ if ($string1 =~ m/\s.*\s/) {
 $string1 = "Hello World\n";
 if ($string1 =~ m/\S.*\S/) {
   print "There are TWO non-whitespace ";
-  print "characters seperated by other characters in $string1";
+  print "characters separated by other characters in $string1";
 }
 </pre></td>
 </tr>
