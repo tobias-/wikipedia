@@ -51,12 +51,6 @@ The basic control structures do not differ greatly from those used in the [[C pr
  }
 
 
-''For one-line statements, "until", "while" and "if" can also be used as follows'':
- ''statement(s)'' until ''Boolean expression'';
- ''statement(s)'' while ''Boolean expression'';
- ''statement(s)'' if ''Boolean expression'';
-
-
 ''If-then-statements''
 
  if (''Boolean expression'') {
@@ -78,6 +72,12 @@ The basic control structures do not differ greatly from those used in the [[C pr
  } elsif (''Boolean expression'') {
      ''statement(s)''
  }
+
+
+''For one-line statements, "until", "while" and "if" can also be used as follows'':
+ ''statement(s)'' until ''Boolean expression'';
+ ''statement(s)'' while ''Boolean expression'';
+ ''statement(s)'' if ''Boolean expression'';
 
 == Subroutines ==
 [[Subroutine]]s in Perl can be specified with the [[keyword]] 'sub'.  [[Variable]]s passed to a subroutine appear in the subroutine as elements of the local (to the subroutine) scalar array @_.  Calling a subroutine with three scalar variables results in array elements @_[0], @_[1], and @_[2] within the subroutine.  Note that these elements would be referred to as the scalars $_[0], $_[1], and $_[2]. Also shift can be used, without specifying @_, to obtain each value.
