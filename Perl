@@ -349,11 +349,12 @@ Similar to [[obfuscated code]] but with a different purpose, Perl [[Poetry]] is 
 
 == External Links ==
 * [http://dmoz.org/Computers/Programming/Languages/Perl/ dmoz on Perl]
-* [http://www.perl.org Perlmonger's info site]
-* [http://www.pm.org Perlmonger's user group site]
+* [http://www.perl.org Perl.org]
+* [http://www.pm.org Perl Monger user group site]
 * [http://www.perlmonks.org The Perl Monastery]
 * [http://activestate.com ActiveState - Perl for Microsoft Windows|Windows platforms]
 * [http://www.cpan.org/ Comprehensive Perl Archive Network]
+* [http://search.cpan.org/ Search the Comprehensive Perl Archive Network]
 * [http://dev.perl.org/perl6/ Perl 6 development]
 * [http://www.parrotcode.org/ Parrot virtual machine]
 * [http://www.perldoc.com/ - Perl POD documentation]
