@@ -13,7 +13,7 @@ Perl is regarded by both its proponents and detractors as something of a grab ba
 
 :''... we often joke that a camel is a horse designed by a committee, but if you think about it, the camel is pretty well adapted for life in the desert. The camel has evolved to be relatively self-sufficient. On the other hand, the camel has not evolved to smell good. Neither has Perl.''
 
-In recognition of its ugly-but-useful nature, Perl has adopted the [[camel]] as its mascot.  And the O'Reilly manual on Perl, ''[[Programming Perl]]'', is known as the '''camel book''': so named because of the camel that graces its cover.
+In recognition of its ugly-but-useful nature, Perl has adopted the [[camel]] as its mascot; and the O'Reilly manual on Perl, ''[[Programming Perl]]'', is known as the '''camel book''': so named because of the camel that graces its cover.
 
 == Implementation ==
 A huge collection of freely usable [[perl module]]s, ranging from advanced mathematics to database connectivity, networking and more, can be downloaded from a network of sites called [[CPAN]], an [[Acronym|acronym]] for Comprehensive Perl Archive Network. Most or all of the software on CPAN is also available under either the [[Artistic License]], the [[GPL]], or both. CPAN.pm is also the name of the Perl module that downloads and installs other Perl modules from one of the CPAN mirror sites: such installations can be done with interactive prompts, or can be fully automated.
@@ -130,7 +130,7 @@ Perl6 is currently under development, and is planned to separate parsing, compil
 
 [[Parrot virtual machine|Parrot]] is the Perl6 runtime, and can be programmed at a low level in [[Parrot assembly language]] (PASM) or [[Parrot IMC|Intermediate Code]] (IMC or PIR, for Parrot Intermediate Representation).
 
-Parrot has existed in a limited form since December [[2003]]. An increasing number of languages can be compiled to Parrot assembly language. Besides a subset of the planned Perl6, these include [[BASIC programming language|BASIC]], [[Befunge]], [[Brainfuck]], [[Cola programming language|Cola]], [[Forth programming language|Forth]], [[Jako]], [[m4]], [[Miniperl]], [[Ook]], [[OpenComal]], [[PHP]], [[Plot programming language|Plot]], [[Python programming language|Python]], [[Ruby programming language|Ruby]], [[Scheme]], [[Tcl]], [[URM]] and [[YAL]]. Most of this other language implementations are currently still experimental.
+Parrot has existed in a limited form since December [[2003]]. An increasing number of languages can be compiled to Parrot assembly language. Besides a subset of the planned Perl6, these include [[BASIC programming language|BASIC]], [[Befunge]], [[Brainfuck]], [[Cola programming language|Cola]], [[Forth programming language|Forth]], [[Jako]], [[m4]], [[Miniperl]], [[Ook]], [[OpenComal]], [[PHP]], [[Plot programming language|Plot]], [[Python programming language|Python]], [[Ruby programming language|Ruby]], [[Scheme]], [[Tcl]], [[URM]] and [[YAL]]. Most of these other language implementations are currently still experimental.
 
 == Perl code samples ==
 The canonical "[[hello world]]" program would be:
@@ -439,15 +439,16 @@ Similar to obfuscated code but with a different purpose, Perl [[Poetry]] is the 
 
 Another popular pastime is Perl golf. As with [[golf|the physical sport]], the objective is to reduce the number of strokes that it takes to complete a particular objective, but here "strokes" refers to keystrokes rather than swings of a golf club. A task, such as "scan an input string and return the longest [[palindrome]] that it contains", is proposed, and participants try to outdo each other by writing solutions that require fewer and fewer characters of Perl source code.
 
-Another tradition among Perl [[hacker]]s is writing [[Just another Perl hacker|JAPH]]s, which are short obfuscated programs that print out the phrase "Just another perl hacker,".
+Another tradition among Perl [[hacker]]s is writing [[Just another Perl hacker|JAPH]]s, which are short obfuscated programs that print out the phrase "Just another perl hacker".
 
-One of the most bizarre Perl modules is Lingua::Romana::Perligata[http://search.cpan.org/~dconway/Lingua-Romana-Perligata-0.50/lib/Lingua/Romana/Perligata.pm]. This module translates the rest of the source code of the script that uses it from Latin into Perl, allowing the programmer to write executable programs in Latin source code.
+One of the most bizarre Perl modules is Lingua::Romana::Perligata. This module translates the source code of a script that uses it from Latin into Perl, allowing the programmer to write executable programs in Latin.
 
 == Perl humor == 
 *[http://wikibooks.org/wiki/Programming:Perl_humour Perl humour on wikibooks]
 *[http://www.perl.com/pub/a/2003/07/16/soto2003.html State of the Onion 2003 (Larry Wall on Perl 6)]
 *[http://www.cmpe.boun.edu.tr/~kosar/other/lwall.html Larry Wall quotes]
-*[http://search.cpan.org/~dconway/Lingua-Romana-Perligata-0.50/lib/Lingua/Romana/Perligata.pm Lingua::Romana::Perligata - Write Perl in Latin!]
+*[http://search.cpan.org/perldoc?Lingua::Romana::Perligata Lingua::Romana::Perligata - Write Perl in Latin!]
+*[http://www.perlmonks.org/index.pl?node_id=253797 A tutorial on Perligata]
 *[http://www.softpanorama.org/Bulletin/Humor/humor092.html Perl Purity Test]
 
 == See also ==
@@ -477,8 +478,6 @@ One of the most bizarre Perl modules is Lingua::Romana::Perligata[http://search.
 * [http://history.perl.org/PerlTimeline.html Perl Timeline]
 * [http://groups.google.com/groups?selm=4628%40sdcrdcf.UUCP First reference to "Perl" on Usenet]
 * [http://www.perlmonks.org/index.pl?node=(Golf)%20Nearest%20Neighbors An example of a golf contest]
-* [http://search.cpan.org/~dconway/Lingua-Romana-Perligata-0.50/lib/Lingua/Romana/Perligata.pm CPAN Lingua::Romana::Perligata module]
-* [http://www.perlmonks.org/index.pl?node_id=253797 A tutorial on Perligata]
 * [http://www.perlmonks.org/index.pl?node_id=292135 A script written in Piratese]
 
 ===Books===
