@@ -371,6 +371,10 @@ The Perl community has set aside the "Acme" namespace for modules that are fun o
 *[http://www.tpj.com/ The Perl Journal] online only magazine about Perl
 *[http://books.perl.org/ Perl Book reviews]
 
+===Critiques==
+
+* [http://xahlee.org/UnixResource_dir/perlr.html]
+
 ==Books==
 {{book}}
 *[[Programming Perl]] (also known as the ''Camel book'')
