@@ -189,7 +189,7 @@ An example subroutine definition and call follows:
  sub cube
  {
    my $x = shift;
-   return $x * $x * $x;
+   return $x ** 3;
  }
 
  $z = -4;
