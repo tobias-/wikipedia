@@ -138,7 +138,7 @@ The canonical "[[hello world]]" program would be:
  <nowiki>#</nowiki>!/usr/bin/perl -w
  print "Hello world\n";
 
-The first line is the [[shebang]], which indicates the interpreter for Unix-like operating systems. The second line prints the string 'Hello world' and a [[newline]] (like a person pressing 'Return' or 'Enter').
+The first line is the [[shebang]], which indicates the interpreter for Unix-like operating systems, and is not technically necessary. The second line prints the string 'Hello world' and a [[newline]] (like a person pressing 'Return' or 'Enter').
 
 Some people humorously claim that Perl stands for "Pathologically Eclectic Rubbish Lister" due to its philosophy that there should be many ways to do the same thing, its growth by accretion, and its origins in report writing. 
 
