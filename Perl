@@ -126,7 +126,7 @@ Note that there is no limit to the number of arguments: Perl is polyadic;  any n
 
 == Perl 6 ==
 
-Perl 6 is currently under development, and is planned to separate parsing and runtime, making a virtual machine that is more attractive to developers looking to port other languages to the architecture.  Perl 6 plans to parse itself, and moreover expose its parser to the language itself.  That is, a module could alter the [Context free grammar|grammar] for the program which imported it.
+Perl 6 is currently under development, and is planned to separate parsing and runtime, making a virtual machine that is more attractive to developers looking to port other languages to the architecture.  Perl 6 plans to parse itself, and moreover expose its parser to the language itself.  That is, a module could alter the [[Context free grammar|grammar]] for the program which imported it.
 
 [[Parrot virtual machine|Parrot]] is the Perl6 runtime, and can be programmed at a low level in [[Parrot assembly language]] (PASM) or [[Parrot IMC|Intermediate Code]] (IMC or PIR, for Parrot Intermediate Representation).
 
