@@ -612,6 +612,7 @@ The Perl community has set aside the "Acme" namespace for modules that are fun o
 *[http://dev.perl.org/perl6/ Perl 6 development]
 *[http://www.parrotcode.org/ Parrot virtual machine]
 *[http://www.poniecode.org/ Project Ponie] &ndash; Perl 5 running on top of Parrot
+*[http://www.pugscode.org/ PUGS] &ndash; Perl 6 Parser written in Haskell
 
 ===History===
 
