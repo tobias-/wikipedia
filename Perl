@@ -348,12 +348,12 @@ In common with [[C programming language|C]], [[obfuscated code]] competitions ar
 Similar to [[obfuscated code]] but with a different purpose, Perl [[Poetry]] is the practice of writing poems that can actually be compiled by perl. This practice is fairly unique to Perl, due to the large number of regular English words used in the language. New poems can regularly be seen in http://www.perlmonks.org/index.pl?node=Perl%20Poetry.
 
 == External Links ==
-* http://dmoz.org/Computers/Programming/Languages/Perl/ - dmoz on Perl
-* http://www.perl.org - Perlmonger's info site
-* http://www.pm.org - Perlmonger's user group site
-* http://www.perlmonks.org - The Perl Monastery
-* http://activestate.com - ActiveState - Perl for [[Microsoft Windows|Windows]] platforms
-* http://www.cpan.org/ - Comprehensive Perl Archive Network
-* http://dev.perl.org/perl6/ - Perl 6 development
-* http://www.parrotcode.org/ - Parrot virtual machine
-* http://www.perldoc.com/ - Perl POD documentation, rendered as
+* [http://dmoz.org/Computers/Programming/Languages/Perl/ dmoz on Perl]
+* [http://www.perl.org Perlmonger's info site]
+* [http://www.pm.org Perlmonger's user group site]
+* [http://www.perlmonks.org The Perl Monastery]
+* [http://activestate.com ActiveState - Perl for Microsoft Windows|Windows platforms]
+* [http://www.cpan.org/ Comprehensive Perl Archive Network]
+* [http://dev.perl.org/perl6/ Perl 6 development]
+* [http://www.parrotcode.org/ Parrot virtual machine]
+* [http://www.perldoc.com/ - Perl POD documentation]
