@@ -77,7 +77,7 @@ and its output:
 The fourth line of the example shows the use of a [[regular expression]].
 
 In common with [[C programming language|C]], [[obfuscated code]] competitions are an interesting feature of the Perl culture.
-Similar to [[obfuscated code]] but with a different purpose, Perl Poetry is the practice of writing poems that can actually be compiled by perl. This practice is fairly unique to Perl, due to the large number of regular English words used in the language. New poems can regularly be see in http://www.perlmonks.org/index.pl?node=Perl%20Poetry.
+Similar to [[obfuscated code]] but with a different purpose, Perl [[Poetry]] is the practice of writing poems that can actually be compiled by perl. This practice is fairly unique to Perl, due to the large number of regular English words used in the language. New poems can regularly be see in http://www.perlmonks.org/index.pl?node=Perl%20Poetry.
 
 == External Links ==
 * http://dmoz.org/Computers/Programming/Languages/Perl/ - dmoz on Perl
