@@ -60,21 +60,22 @@ where ''block'' is a sequence of one of more perl statements surrounded by brace
 
  { ''statement(s)'' }
 
-The label, which is terminated by a colon, is optional, but if it is present it can be used by loop control statements.
+The label, which is terminated by a colon, is optional, but, if present, can be used by loop control statements.
 
 * The ''next'' statement moves to the next iteration of the loop identified by the label.
 * The ''last'' statement immediately terminates execution of the loop identified by the label.
 * The ''redo'' statement restarts the current iteration of the loop identified by the label.
 
-When using nested loops, the use of the label with ''next'', ''redo'' and ''last'' enables control to move from in inner loop to an outer one, or out of the outer loop altogether.
+Within nested loops, the use of the label with ''next'', ''redo'' and ''last'' enables control to move from an inner loop to an outer one, or out of the outer loop altogether.
 
-In the ''for'' statement, the semantics are similar to [[C programming language|C]].  The first expression is evaluated prior to the first loop iteration, the second expression is evaluated prior to each iteration and the loop is terminated if it evaluates to boolean false, and the third expression is evaluated after each iteration prior to deciding whether to perform the next.
+In the ''for'' statement, the semantics are similar to [[C programming language|C]]. The first expression is evaluated prior to the first loop iteration; the second expression is evaluated prior to each iteration and the loop is terminated if it evaluates to boolean false; and the third expression is evaluated after each iteration, prior to deciding whether to perform the next.
 
-The ''continue'' forms of the ''while'' and ''foreach'' provide a block to be executed after each iteration.  This provides for code that must be executed before the next iteration, even if the current iteration has been cut short by a ''next'' statement.
+The use of a ''continue'' block after a ''while'' or ''foreach'' statement allows code to be executed after each iteration - even if the current iteration has been cut short by a ''next'' statement.
 
-In ''foreach'', the ''var'' is a scalar variable.  It is optional, and if it is omitted the default loop iterator variable $_ can be used instead.  
+In ''foreach'', the ''var'' is a scalar variable. It is optional, and, if omitted, the default loop iterator variable $_ can be used instead.  
 
-In addition any simple expression (that is, any non-block) can be executed repeatedly by following it by one of the qualifiers:
+In addition, any simple expression (that is, any non-block) can be executed repeatedly by following it by one of the qualifiers:
+
     while (''expr'')
     until (''expr'')
 
@@ -85,9 +86,9 @@ When combined with the ''do'' construct, this provides a form of looping:
   do ''block'' while (''expr'');
   do ''block'' until (''expr'');
 
-The test is performed after each iteration, so that the block
+The test is performed after each iteration, so that execution of the block is guaranteed to take place at least once.
 
-Due to a linguistic foible of the Perl language these are not regarded as true loops; the ''next'', ''last'' and ''redo'' statements cannot be used inside 'do' block.
+Due to a linguistic foible of the Perl language, these are not regarded as true loops; the ''next'', ''last'' and ''redo'' statements cannot be used inside a 'do' block.
 
 By itself, ''do'' executes a string of statements once, and evaluates to the value of the last statement:
 
