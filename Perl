@@ -42,7 +42,7 @@ In common with [[C programming language|C]], [[obfuscated code]] competitions ar
 
 
 
-Perl has been called the "glue that holds the web together", as it is one of the most popular [[CGI]] languages. Perl is available for just about every [[operating system]] but is particularly prevalent on [[Unix]] and [[Unix-like]] systems. As an example of Perl in action, Wikipedia is our own slightly customized version of CliffordAdams' UseMod Wiki software -- written in Perl, of course.
+Perl has been called the "glue that holds the web together", as it is one of the most popular [[CGI]] languages. Perl is available for just about every [[operating system]] but is particularly prevalent on [[Unix]] and [[Unix-like]] systems, and is growing in popularity on [[Windows]] systems. As an example of Perl in action, Wikipedia is our own slightly customized version of CliffordAdams' UseMod Wiki software -- written in Perl, of course.
 
 
 
@@ -65,6 +65,8 @@ Important Perl links:
 * http://www.pm.org - Perlmonger's user group site
 
 * http://www.perlmonks.org - The Perl Monestary
+
+* http://activestate.com - ActiveState - Perl for [[Windows]] platforms
 
 ----
 
