@@ -33,8 +33,10 @@ The basic control structures do not differ greatly from those used in the [[C pr
  do {
      ''statement(s)''
  } until (''Boolean expression'');
-''For one-line statements, "until" can also be used as follows'':
+''For one-line statements, "until" and "while" can also be used as follows'':
  ''statement(s)'' until ''Boolean expression'';
+ ''statement(s)'' while ''Boolean expression'';
+
 
  for (''initialisation'' ; ''termination condition'' ; ''incrementing expr'') {
      ''statement(s)''
@@ -83,16 +85,16 @@ An example subroutine definition and call follows:
 
  ...
 
- sub x_cubed
+ sub cube
  {
    my $x = $_[0];
-   $x = $x * $x * $x;
+   $x * $x * $x;
  }
 
  ...
 
  $z = -4;
- $y = x_cubed($z);
+ $y = cube($z);
  print "$y\n";
 
  ...
