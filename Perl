@@ -119,28 +119,27 @@ Perl6 is currently under development, and is planned to separate parsing, compil
 == Perl code samples ==
 The canonical "[[hello world]]" program would be:
 
- #!/usr/bin/perl
- print "Hello world\n";
+:<nowiki>#</nowiki>!/usr/bin/perl
+:print "Hello world\n";
 
 The first line is the [[shebang]], which indicates the interpreter for Unix-like operating systems. The second line prints the string 'Hello world' and a [[newline]] (like a person pressing 'Return' or 'Enter').
 
-Some people humorously claim that Perl stands for 'Pathologically Eclectic Rubbish Lister' due to its philosophy that there should be many ways to do the same thing, its growth by accretion, and its origins in report writing. 
+Some people humorously claim that Perl stands for "Pathologically Eclectic Rubbish Lister" due to its philosophy that there should be many ways to do the same thing, its growth by accretion, and its origins in report writing. 
 
-Perl's undisciplined [[syntax]] and assignment of meaning to many [[ASCII]] punctuation characters gives rise to another interpretation, 'Parse Every Random Line'. There are many other jokes, (including the annual [[Obfuscated Perl Contest]]), about Perl [[syntax]]. An example is the fourth line of this program to print a greeting, using a [[regular expression]]:
+There are many other jokes, including the annual [[Obfuscated Perl contest]], which makes an arch virtue of Perl's [[syntax|syntactical]] flexibility. The following program, which prints a greeting using a [[regular expression]], is a mild example of this pastime:
 
- <nowiki># A sample Perl program</nowiki>
- $_ =&nbsp;"Hello, world! The magic number is 234542354.\n";
- print;
- s/\d+/-1/;
- print;
+:<nowiki>#</nowiki> A sample Perl program
+:$_ =&nbsp;"Hello, world! The magic number is 234542354.\n";
+:print;
+:s/\d+/-1/;
+:print;
 
 Here is its output:
 
- Hello, world! The magic number is 234542354.
- Hello, world! The magic number is -1.
+:Hello, world! The magic number is 234542354.
+:Hello, world! The magic number is -1.
 
 <center>
-
 ===Regular expressions with Perl examples===
 <p><table BORDER CELLPADDING="5" WIDTH="80%">
 <tr>
