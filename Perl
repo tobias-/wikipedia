@@ -31,7 +31,7 @@ The fourth line of the example shows the use of a [[regular expression]].
 
 In common with [[C programming language|C]], [[obfuscated code]] competitions are a major part of the Perl culture.
 
-See also: [[APL programming language|APL]], [[Python programming language|Python]], [[Ruby programming language|Ruby]]
+See also: [[APL programming language|APL]], [[Python programming language|Python]], [[Ruby programming language|Ruby]], [[Tcl programming language|Tcl]]
 
 '''External links:'''
 * http://dmoz.org/Computers/Programming/Languages/Perl/ - dmoz on Perl
