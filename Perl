@@ -73,6 +73,8 @@ The basic control structures are similar to those used in the [[C programming la
      ''statement(s)''
  }
 
+===Statement modifiers===
+
 For simple statements, <code>while</code>, <code>until</code>, <code>if</code>, <code>unless</code> and <code>foreach</code> can also be used as statement modifiers:
 
  ''statement'' while ''Boolean expression'';
@@ -86,11 +88,48 @@ The above modifiers cannot be nested, so this would be incorrect:
 
  ''statement'' if ''expression'' for ''list'';
 
-which should be written as:
+and should be written as:
 
  ''expression'' and ''statement'' for ''list'';
 
 The keywords <code>for</code> and <code>foreach</code> are synonyms and are always interchangeable.
+
+===Switch statement===
+
+There is no explicit switch statement in [[#Perl 5|Perl 5]] similar to that used in C. Switch statements are built with general blocks:
+
+ SWITCH: {
+     if (''expression'') { ''statement(s)''; last SWITCH; }
+     if (''expression'') { ''statement(s)''; last SWITCH; }
+     ''default statement(s)'';
+ }
+
+or:
+
+ SWITCH: {
+     ''statement'', ''statement'', last SWITCH  if ''expression'';
+     ''statement'', ''statement'', last SWITCH  if ''expression'';
+     ''default statement(s)'';
+ }
+
+or using <code>elsif</code>:
+
+ if (''expression'')
+     { ''statement(s)'' }
+ elsif (''expression'')
+     { ''statement(s)'' }
+ elsif (''expression'')
+     { ''statement(s)'' }
+ else
+     { ''default statement(s)'' }
+
+In [[#Perl 6|Perl 6]] the switch statement is built with the <code>given</code> topicalizer and <code>when</code> "smart match" statements:
+
+ given ''expression'' {
+     when ''expression'' { ''statement(s)'' }
+     when ''expression'' { ''statement(s)'' }
+     default { ''statement(s)'' }
+ }
 
 == Subroutines ==
 [[Subroutine]]s in Perl can be specified with the [[keyword]] <code>sub</code>.  [[Variable]]s passed to a subroutine appear in the subroutine as elements of the local (to the subroutine) scalar array <code>@_</code>.  Calling a subroutine with three scalar variables results in a <code>@_</code> with three elements, usually referred to as the scalars <code>$_[0]</code>, <code>$_[1]</code>, and <code>$_[2]</code>. Also <code>shift</code> can be used, without specifying <code>@_</code>, to obtain each value.
