@@ -107,7 +107,7 @@ Perl6 will separate parsing and compilation and runtime, making the virtual mach
 
 
 == Code samples ==
-The cannonical "hello world" program would be:
+The canonical "hello world" program would be:
 
  #!/usr/bin/perl
  print "Hello world\n";
