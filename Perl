@@ -1,3 +1,8 @@
+Missing right or curly bracket on line 102!
+Perl interpreter unable to continue!
+
+
+
 [[de:Perl]] [[eo:Perl]] [[es:Perl]] [[fr:Perl]][[nl:Programmeertaal Perl]] [[pl:Perl]] [[pt:Perl]]
 '''Perl''' (''Practical Extraction and Report Language'') is a [[programming language]] created by [[Larry Wall]] in [[1987]] that borrows features from [[C programming language|C]], [[sed]], [[awk]], shell scripting ([[sh]]), to a lesser extent from many other programming languages as well. Though the name can be expanded as an [[acronym]] in more than one way, it is normally spelt in normal mixed case when referring to the language, or lower case when referring to the interpreter. "Only perl properly parses Perl."
 
