@@ -262,11 +262,11 @@ regular expressions
           c     # match 'c'
            /x;
 
-One common use of regular expressions is to specify delimiters for the <code>split</code> operator.
+One common use of regular expressions is to specify delimiters for the <code>split</code> function.
 
   @words = split m/,/, $line;   # divide $line into comma-separated values
 
-The <code>split</code> operator complements string capture.
+The <code>split</code> function complements string capture.
 String capture returns strings that match the RE;
 <code>split</code> returns strings that don't match the RE.
 
