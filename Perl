@@ -78,7 +78,6 @@ The basic control structures are similar to those used in the [[C programming la
 For simple statements, <code>while</code>, <code>until</code>, <code>if</code>, <code>unless</code> and <code>foreach</code> can also be used as statement modifiers:
 
  ''statement'' while ''Boolean expression'';
- ''statement'' while ''Boolean expression'';
  ''statement'' until ''Boolean expression'';
  ''statement'' if ''Boolean expression'';
  ''statement'' unless ''Boolean expression'';
