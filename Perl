@@ -418,9 +418,9 @@ Similar to obfuscated code but with a different purpose, Perl [[Poetry]] is the 
 Before the language's official release Wall discovered that there was already a programming language named "pearl", and changed the spelling of the name. Several [[backronym]]s have been suggested, including the humorous ''Pathologically Eclectic Rubbish Lister''. ''Practical Extraction and Report Language'' has prevailed in many of today's manuals, including the official Perl [[man page]]s. The name is normally capitalized ("Perl") when referring to the language, and uncapitalized ("perl") when referring to the interpreter program itself. (There is a saying in the Perl community that ''"Nothing but perl can parse Perl"''.)
 
 == Perl Humor == 
-* Perl: Pathologically Eclectic Rubbish Lister
+* Perl: Pathologically Eclectic Rubbish Lister (See above)
 * [Perl] looks like an explosion at the ASCII factory. (http://groups.google.com/groups?selm=PM0003C0FAC199B298@minion.nashville.comcast.net)
-
+* [http://www.perl.com/pub/a/2003/07/16/soto2003.html Larry on Perl 6]
 
 == See also ==
 * [[Just another Perl hacker]]
