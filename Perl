@@ -18,10 +18,9 @@ Perl 6 is currently being developed. It will run on a [[virtual machine]].
 Some people humorously claim Perl stands for 'Pathologically Eclectic Rubbish Lister' due to the high use of meaningful punctuation characters in the language [[syntax]], as may be seen in this example program to print a greeting:
 
  <nowiki># A sample Perl program</nowiki>
- $message =&nbsp;"Hello, world! The magic number is 234542354.
-";
+ $message =&nbsp;"Hello, world! The magic number is 234542354.\n";
  print $message;
- $message =~ s/d+/-1/;
+ $message =~ s/\d+/-1/;
  print $message;
  exit 0
 
@@ -42,6 +41,3 @@ See also: [[APL programming language|APL]], [[Python programming language|Python
 * http://www.pm.org - Perlmonger's user group site
 * http://www.perlmonks.org - The Perl Monestary
 * http://activestate.com - ActiveState - Perl for [[Microsoft Windows|Windows]] platforms
-
-----
-[[talk:Perl_programming_language|/Talk]]
