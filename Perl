@@ -387,6 +387,19 @@ if ($string1 =~ m/rld$/) {
 }
 </pre></td>
 </tr>
+
+<tr>
+<td>[^...]</td>
+<td>Matches every character except the ones inside brackets.</td>
+<td>
+<pre class="output">
+$string1 = "Hello World\n";
+if ($string1 =~ m/[^abc]/) {
+  print "$string1 does not contain the characters a, b, and c\n";
+}
+</pre></td>
+</tr>
+
 </table></center>
 
 In common with [[C programming language|C]], [[obfuscated code]] competitions are an interesting feature of the Perl culture.
