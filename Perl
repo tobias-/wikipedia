@@ -69,7 +69,7 @@ The basic control structures do not differ greatly from those used in the [[C pr
 
 == Subroutines ==
 
-Subroutines in Perl can be specified with the keywork 'sub'.  Variables passed to a subrouting appear in the subroutine as elements of the local (to the subroutine) scalar array @_.  Calling a subroutine with three scalar variables results in array elements @_{0], @_[1], and @_[2] within the subroutine.  Note that these elements would be refered to as the scalars $_[0], $_[1], and $_[2].
+Subroutines in Perl can be specified with the keywork 'sub'.  Variables passed to a subroutine appear in the subroutine as elements of the local (to the subroutine) scalar array @_.  Calling a subroutine with three scalar variables results in array elements @_{0], @_[1], and @_[2] within the subroutine.  Note that these elements would be refered to as the scalars $_[0], $_[1], and $_[2].
 
 Changes to elements in the @_ array within the subroutine are reflected in the  elements in the calling program.
 
