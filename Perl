@@ -50,25 +50,42 @@ The basic control structures are similar to those used in the [[C programming la
 
 ===Loops===
 
- while ( ''Boolean expression'' ) {
-     ''statement(s)''
- }
+ ''label'' while ( ''expr'' ) ''block''
+ ''label'' while ( ''expr'' ) ''block'' continue ''block''
+ ''label'' for ( ''expr1'' ; ''expr2'' ; ''expr3'' ) ''block''
+ ''label'' foreach ''var'' ( ''list'' ) ''block''
+ ''label'' foreach ''var'' ( ''list'' ) ''block'' continue ''block''
 
- do {
-     ''statement(s)''
- } while ( ''Boolean expression'' );
+where ''block'' is a sequence of one of more perl statements surrounded by braces:
 
- do {
-     ''statement(s)''
- } until ( ''Boolean expression'' );
+ { ''statement(s)'' }
 
- for ( ''initialisation'' ; ''termination condition'' ; ''incrementing expr'' ) {
-     ''statement(s)''
- }
+The label, which is terminated by a colon, is optional, but if it is present it can be used by loop control statements.
 
- foreach ( ''list'' ) {
-     ''statement(s)''
- }
+* The ''next'' statement moves to the next iteration of the loop identified by the label.
+* The ''last'' statement immediately terminates execution of the loop identified by the label.
+* The ''redo'' statement restarts the current iteration of the loop identified by the label.
+
+When using nested loops, the use of the label with ''next'', ''redo'' and ''last'' enables control to move from in inner loop to an outer one, or out of the outer loop altogether.
+
+In the ''for'' statement, the semantics are similar to [[C programming language|C]].  The first expression is evaluated prior to the first loop iteration, the second expression is evaluated prior to each iteration and the loop is terminated if it evaluates to boolean false, and the third expression is evaluated after each iteration prior to deciding whether to perform the next.
+
+The ''continue'' forms of the ''while'' and ''foreach'' provides a block to be executed after each iteration.  This provides for code that must be executed, even if the current iteration has been cut short by a ''next'' statement.
+
+In ''foreach'', the ''var'' is a scalar variable.  It is optional, and if it is omitted the default loop iterator variable $_ can be used instead.  
+
+In addition any simple expression (that is, any non-block) can be executed repeatedly by following it by one of the qualifiers:
+    while (''expr'')
+    until (''expr'')
+
+which have the expected meaning.
+
+When combined with the ''do'' construct, this provides a form of looping:
+
+  do { ''statement(s)'' } while (''expr'');
+  do { ''statement(s)'' } until (''expr'');
+
+Due to a linguistic foible of the Perl language these are not regarded as true loops; the ''next'', ''last'' and ''redo'' statements cannot be used inside 'do' block.
 
 ===If-then statements===
 
