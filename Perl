@@ -421,6 +421,7 @@ Before the language's official release Wall discovered that there was already a 
 * [[Obfuscated Perl contest]]
 * [[POE]] -- Perl Object Environment
 * [[Fibonacci number program]]
+* [[Perl poetry]]
 
 == External links ==
 * [http://www.perl.com/ Perl.com]
