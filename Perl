@@ -24,13 +24,13 @@ All versions of Perl do automatic data typing and memory management. The  interp
 
 === Applications ===
 
-Perl finds many applications as a ''glue language'', tying together systems and interfaces that were not specifically designed to interoperate. 
+Perl has many and varied applications.
 
-Perl has been used since the early days of the web to write [[Common Gateway Interface|CGI]] scripts, and is now a component of the popular [[LAMP]] ([[Linux]]/[[Apache]]/[[MySQL]]/Perl) platform for web development. Perl has been called "the glue that holds the web together". <!-- a source for this quote would be nice -->
+Perl has been used since the early days of the web to write [[Common Gateway Interface|CGI]] scripts, and is now a component of the popular [[LAMP]] ([[Linux]]/[[Apache]]/[[MySQL]]/Perl) platform for web development. Perl has been called "the glue that holds the web together". <!-- a source for this quote would be nice --> Large systems written in Perl include [[Slashdot]], and early implementations of [[Wikipedia]] and [[PHP]].
 
-Large systems written in Perl include [[Slashdot]], and early implementations of [[Wikipedia]] and [[PHP]].
+Perl finds many applications as a ''glue language'', tying together systems and interfaces that were not specifically designed to interoperate. Systems administrators use Perl as an all-purpose tool; short Perl programs can be entered and run on a single command line.
 
-Perl is popular among [[bioinformatics]] researchers, who routinely read large genomes into Perl data structures.
+Perl is widely used in [[finance]] and [[bioinformatics]], where it is valued for rapid application development, ability to handle large data sets, and the availability of many standard and 3rd-party modules. 
 
 === Philosophy ===
 
@@ -50,9 +50,9 @@ In recognition of its pungent-but-practical nature, Perl has adopted the [[camel
 
 === Implementation ===
 
-Perl is implemented as a core interpreter, written in C, together with a large collection of modules, written in Perl and C. The source distriubtion is currently 12MB, tar'd and compressed. The interpreter is 150K lines of C code, and compiles to a 1MB executable on typical machine architectures. There are nearly 500 modules in the distribution, comprising 200K lines of Perl and an additional 350K lines of C code.
+Perl is implemented as a core interpreter, written in C, together with a large collection of modules, written in Perl and C. The source distribution is currently 12MB, tar'd and compressed. The interpreter is 150K lines of C code, and compiles to a 1MB executable on typical machine architectures. There are nearly 500 modules in the distribution, comprising 200K lines of Perl and an additional 350K lines of C code.
 
-Perl has been ported to over a hundred different platforms, and the mission of making the language available everywhere is commemorated in the name of the main newsgroup for issues relating to perl development, "perl5-porters". Perl is widely used in [[web development]], [[finance]] and [[bioinformatics]], and indeed in most sectors where a premium is placed on rapid development and the availability of a large number of standard and 3rd-party modules. Because of its wide availability, Perl, like [[Java programming language|Java]], is often considered to be a platform in its own right, packaging a Unix-like environment in which software can be written once, and generally run without modifications almost everywhere. In addition to its numerous binary ports, Perl can, with only 6 reported exceptions, be compiled from [[source code|source]] on all Unix-like, [[POSIX]]-compliant or otherwise Unix-compatible platforms, including [[AmigaOS]], [[BeOS]], [[Cygwin]], and [[Mac OS X]]. Custom binary ports are available for [[Microsoft Windows|Windows]] (ActivePerl) and [[Mac OS|Mac OS Classic]] (MacPerl). [http://www.perl.com/CPAN/ports/]
+Perl has been ported to over a hundred different platforms, and the mission of making the language available everywhere is commemorated in the name of the main newsgroup for issues relating to perl development, "perl5-porters". Because of its wide availability, Perl, like [[Java programming language|Java]], is often considered to be a platform in its own right, packaging a Unix-like environment in which software can be written once, and generally run without modifications almost everywhere. In addition to its numerous binary ports, Perl can, with only 6 reported exceptions, be compiled from [[source code|source]] on all Unix-like, [[POSIX]]-compliant or otherwise Unix-compatible platforms, including [[AmigaOS]], [[BeOS]], [[Cygwin]], and [[Mac OS X]]. Custom binary ports are available for [[Microsoft Windows|Windows]] (ActivePerl) and [[Mac OS|Mac OS Classic]] (MacPerl). [http://www.perl.com/CPAN/ports/]
 
 A huge collection of freely usable [[perl module]]s, ranging from advanced mathematics to database connectivity, networking and more, can be downloaded from a network of sites called [[CPAN]], an [[Acronym|acronym]] for Comprehensive Perl Archive Network. Much of the software on CPAN is also available under either the [[Artistic License]], the [[GPL]], or both. As of January 1, 2005, CPAN includes more than 7,000 modules, contributed by nearly 4,000 authors.
 
