@@ -1,3 +1,5 @@
+[[Category:Programming languages]]
+
 [[image:Programming-republic-of-perl.gif|right|Programming Republic Of Perl]]
 
 '''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]), is a [[programming language]] released by [[Larry Wall]] on [[December 18]], [[1987]] that borrows features from [[C programming language|C]], [[sed]], [[awk]], [[UNIX shell|shell]] scripting ([[UNIX shell|sh]]), and (to a lesser extent) from many other programming languages as well.
@@ -109,9 +111,9 @@ including [[MySQL]], [[PostgreSQL]] and [[Oracle database|Oracle]].
 
 == Perl 5 ==
 Perl5, the most current production version of perl, is an interpreter which processes the text of a Perl script at runtime. Thus, the [[debugger]] is invoked directly from the command line with
-<PRE>
+<pre>
         perl -dw ScriptName.pl Argument1 ... ...
-</PRE>
+</pre>
 Note that there is no limit to the number of arguments: Perl is polyadic;  any number of arguments can be passed to any Perl subroutine, in general. This concept of "no arbitrary limits" is present in most other parts of the language as well. Perl can read a ten million byte string into a variable, if the machine has the memory for it.
 
 == Perl 6 ==
