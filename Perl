@@ -37,7 +37,7 @@ and its output:
 
 The fourth line of the example shows the use of a [[regular expression]].
 
-In common with [[C programming language|C]], [[obfuscated code]] competitions are a major part of the Perl culture.
+In common with [[C programming language|C]], [[obfuscated code]] competitions are an interesting feature of the Perl culture.
 
 === External links ===
 * http://dmoz.org/Computers/Programming/Languages/Perl/ - dmoz on Perl
