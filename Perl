@@ -1,6 +1,4 @@
-[[Category:Programming languages]]
-
-[[image:Programming-republic-of-perl.gif|right|Programming Republic Of Perl]]
+[[Image:Programming-republic-of-perl.gif|right|Programming Republic Of Perl]]
 
 '''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]), is a [[programming language]] released by [[Larry Wall]] on [[December 18]], [[1987]] that borrows features from [[C programming language|C]], [[sed]], [[awk]], [[UNIX shell|shell]] scripting ([[UNIX shell|sh]]), and (to a lesser extent) from many other programming languages.
 
@@ -28,13 +26,12 @@ The current version, 5.8.5, includes [[Unicode]] support. Development of the nex
 == Control structures ==
 The basic control structures do not differ greatly from those used in the [[C programming language|C]] or [[Java programming language|Java]] programming languages:
 
-''Loops''
+''Loops'':
 
-<tt>
-while (''Boolean expression'') {<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;''statement(s)''<br/>
-}
-</tt>
+ while (''Boolean expression'') {
+     ''statement(s)''
+ }
+
  do {
      ''statement(s)''
  } while (''Boolean expression'');
@@ -51,8 +48,7 @@ while (''Boolean expression'') {<br/>
      ''statement(s)''
  }
 
-
-''If-then-statements''
+''If-then-statements'':
 
  if (''Boolean expression'') {
      ''statement(s)''
@@ -74,8 +70,8 @@ while (''Boolean expression'') {<br/>
      ''statement(s)''
  }
 
-
 ''For one-line statements, "until", "while", "if" and "unless" can also be used as follows'':
+
  ''statement(s)'' until ''Boolean expression'';
  ''statement(s)'' while ''Boolean expression'';
  ''statement(s)'' if ''Boolean expression'';
@@ -418,7 +414,6 @@ In common with [[C programming language|C]], [[obfuscated code]] competitions ar
 Similar to obfuscated code but with a different purpose, Perl [[Poetry]] is the practice of writing poems that can actually be compiled by perl. This practice is fairly unique to Perl, due to the large number of regular English words used in the language. New poems can regularly be seen [http://www.perlmonks.org/index.pl?node=Perl%20Poetry here].
 
 == Name ==
-
 "Perl" was originally named "pearl", after the "pearl of great price" of [[Gospel of Matthew|Matthew]] 13:46. Larry Wall wanted to give the language a short name with positive connotations, and claims he looked at (and rejected) every three- and four-letter word in the dictionary. He even thought of naming it after his wife Gloria.
 
 Before the language's official release, Wall discovered that there was already a programming language named "pearl", and changed the spelling of the name. Several [[backronym]]s have been suggested, including the humorous ''Pathologically Eclectic Rubbish Lister''. ''Practical Extraction and Report Language'' has prevailed in many of today's manuals, including the official Perl [[man page]]s. The name is normally capitalized ("Perl") when referring to the language, and uncapitalized ("perl") when referring to the interpreter program itself. (There is a saying in the Perl community that ''"Nothing but perl can parse Perl"''.) It is not appropriate to write "Perl" as "PERL" as it is not an [[acronym]].
@@ -461,7 +456,7 @@ Before the language's official release, Wall discovered that there was already a
 *[[Learning Perl]] (also called the ''Llama book'')
 
 {{List_of_programming_languages}}
-
+[[Category:Programming languages]]
 [[cs:Perl]]
 [[de:Perl]]
 [[eo:Perl Komputillingvo]]
