@@ -141,7 +141,7 @@ The fourth line of the example shows the use of a [[regular expression]].
 
 <center>
 
-===Regular Expressions with Perl Examples===
+===Regular expressions with Perl examples===
 <p><table BORDER CELLPADDING="5" WIDTH="80%">
 <tr>
 <th>Regular Expression</th>
