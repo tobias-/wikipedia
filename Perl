@@ -228,11 +228,11 @@ Note that there is no limit to the number of arguments: Perl is polyadic;  any n
 
 == Perl 6 ==
 
-Perl 6 is currently under development, and is planned to separate parsing and runtime, making a virtual machine that is more attractive to developers looking to port other languages to the architecture.  Perl 6 plans to parse itself, and moreover expose its parser to the language itself.  That is, a module could alter the [[Context free grammar|grammar]] for the program that imported it.
+''Main article:'' [[Perl 6]]
 
-[[Parrot virtual machine|Parrot]] is the Perl6 runtime, and can be programmed at a low level in [[Parrot assembly language]] (PASM) or [[Parrot IMC|Intermediate Code]] (IMC or PIR, for Parrot Intermediate Representation).
+Perl 6 is currently under development, and is planned to separate parsing and runtime, making a virtual machine that is more attractive to developers looking to port other languages to the architecture.  Perl 6 plans to parse itself, and moreover expose its parser to the language itself. That is, a module could alter the [[Context free grammar|grammar]] for the program that imported it.
 
-Parrot has existed in a limited form since December [[2003]]. An increasing number of languages can be compiled to Parrot assembly language. Besides a subset of the planned Perl6, these include [[BASIC programming language|BASIC]], [[Befunge]], [[Brainfuck]], [[Cola programming language|Cola]], [[Forth programming language|Forth]], [[Jako]], [[m4]], [[Miniperl]], [[Ook]], [[OpenComal]], [[PHP]], [[Plot programming language|Plot]], [[Python programming language|Python]], [[Ruby programming language|Ruby]], [[Scheme]], [[Tcl]], [[URM]] and [[YAL]]. Most of these other language implementations are currently still experimental.
+[[Parrot virtual machine|Parrot]] is the Perl 6 runtime, and can be programmed at a low level in [[Parrot assembly language]] (PASM) or [[Parrot IMC|Intermediate Code]] (IMC or PIR, for Parrot Intermediate Representation).
 
 == Perl code samples ==
 The canonical "[[hello world]]" program would be:
