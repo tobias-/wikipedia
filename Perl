@@ -111,7 +111,7 @@ Perl5, the most current production version of perl, is an interpreter which proc
 Note that there is no limit to the number of arguments: Perl is polyadic;  any number of arguments can be passed to any Perl subroutine, in general. This concept of "no arbitrary limits" is present in most other parts of the language as well. Perl can read a ten million byte string into a variable, if the machine has the memory for it.
 
 == Perl 6 ==
-Perl6 is currently under development, and is planned to separate parsing and compilation and runtime, making the a virtual machine that is more attractive to developers looking to port other languages to the architecture.
+Perl6 is currently under development, and is planned to separate parsing, compilation and runtime, making the a virtual machine that is more attractive to developers looking to port other languages to the architecture.
 
 The [[Parrot virtual machine|Parrot]] is the Perl6 runtime, and can be programmed at a low level in [[Parrot assembly language]]. Parrot has existed in a limited form since December 2003. An increasing number of languages have been implemented to various degrees for the Parrot to be 'compiled' to Parrot assembly language opcodes. Besides a subset of the planned Perl6, these include BASIC, Befunge, Cola, Forth, Jako, Ook!, Plot, and even Python, Ruby, and Scheme.
 
