@@ -441,5 +441,5 @@ Before the language's official release Wall discovered that there was already a 
 *[[Learning Perl]], also called the ''Llama book''
 
 
-[[de:Perl]] [[eo:Perl Komputillingvo]] [[es:Perl]] [[fr:Langage de programmation Perl]] [[it:Perl]] [[ja:Perl]] [[nl:Perl]] [[pl:Perl]] [[pt:Perl]] [[sv:Perl]]
+[[de:Perl]] [[eo:Perl Komputillingvo]] [[es:Perl]] [[et:Perl]] [[fr:Langage de programmation Perl]] [[it:Perl]] [[ja:Perl]] [[nl:Perl]] [[pl:Perl]] [[pt:Perl]] [[sv:Perl]]
  [[fi:Perl]]
