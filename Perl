@@ -479,6 +479,7 @@ One of the most bizarre Perl modules is Lingua::Romana::Perligata. This module t
 *[http://groups.google.com/groups?selm=4628%40sdcrdcf.UUCP First reference to "Perl" on Usenet]
 *[http://www.perlmonks.org/index.pl?node=(Golf)%20Nearest%20Neighbors An example of a golf contest]
 *[http://www.perlmonks.org/index.pl?node_id=292135 A script written in Piratese]
+*[http://www.latenightsw.com/affrus/index.html Affrus], a Perl IDE for Macintosh users
 
 ===Books===
 {{book}}
