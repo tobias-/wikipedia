@@ -434,6 +434,10 @@ Several [[backronym]]s have been suggested, including the humorous ''Pathologica
 
 The name is normally capitalized (Perl) when referring to the language, and uncapitalized (perl) when referring to the interpreter program itself. (There is a saying in the Perl community: "Nothing but perl can parse Perl.") It is not appropriate to write "PERL" as it is not an [[acronym]].
 
+==Merits and demerits of Perl as a programming language==
+
+Like all programming languages, perl does some things well, and other things, well, less than efficiently. Many programmers have come to terms with this and use a judicious mix of shell-script and perl to get around the more obvious deficiencies (date manipulation can be slow in terms of relative processing time, for example). On the upside, perl is very useful for low level file manipulation at which, in many respects, its performance is often comparable with e.g. [[sed]].
+
 == Fun with Perl ==
 In common with [[C programming language|C]], [[obfuscated code]] competitions are a popular feature of Perl culture.
 Similar to obfuscated code but with a different purpose, Perl [[Poetry]] is the practice of writing poems that can actually be compiled by perl. This hobby is more or less unique to Perl, due to the large number of regular English words used in the language. New poems are regularly published in the [[Perl Monks]] site's [http://www.perlmonks.org/index.pl?node=Perl%20Poetry Perl Poetry] section.
