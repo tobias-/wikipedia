@@ -111,8 +111,9 @@ Perl6 will separate parsing and compilation and runtime, making the virtual mach
 The cannonical "hello world" program would be:
 
  #!/usr/bin/perl
-  
  print "Hello world\n";
+
+The first line indicates the interpreter for Unix-like operating systems and the second line prints the string 'Hello world' and a linefeed (like a person pressing 'Return' or 'Enter').
 
 Some people humorously claim that Perl stands for 'Pathologically Eclectic Rubbish Lister' due to the high use of meaningful punctuation characters in the language [[syntax]], as may be seen in this example program to print a greeting:
 
