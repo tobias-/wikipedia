@@ -105,6 +105,7 @@ Perl5 is an interpreter which processes the text of a Perl script at runtime. Th
         perl -dw ScriptName.pl Argument1 ... ...
 </PRE>
 Note that there is no limit to the number of arguments: Perl is polyadic;  any number of arguments can be passed to any Perl subroutine, in general. This concept of "no arbitrary limits" is present in most other parts of the language as well. Perl can read a ten million byte string into a variable, if the machine has the memory for it.
+
 == Perl 6 ==
 Perl6 will separate parsing and compilation and runtime, making the virtual machine more attractive to developers looking to port other languages to the architecture.
 
