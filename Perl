@@ -19,7 +19,7 @@ The current version 5.8 includes [[Unicode]] support. Perl 6 is currently being 
 
 
 == Control structures ==
-The  basic control structures do not differ from the [[C programming language|C]] oder [[Java programming language|Java]] programming language.
+The  basic control structures do not differ from those used in the [[C programming language|C]] or [[Java programming language|Java]] programming languages:
 
 ''Loops''
 
