@@ -582,7 +582,6 @@ One of the most bizarre Perl modules is Lingua::Romana::Perligata. This module t
 * [[Obfuscated Perl contest]]
 * [[POE]] -- Perl Object Environment
 * [[Fibonacci number program]]
-* [[Perl poetry]]
 * [[List of Perl programs]]
 * [[Just another Perl hacker]]
 
