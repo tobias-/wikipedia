@@ -142,7 +142,7 @@ The keywords <code>for</code> and <code>foreach</code> are synonyms and are alwa
 
 As noted earlier, the modifiers ''while'' and ''until'' can be combined with ''do'' to create a multiple-statement looping structure.
 
-===Switch statement===
+===switch statement===
 
 There is no switch (multi-way branch) statement in Perl 5.
 The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures, none entirely satisfactory.
@@ -376,6 +376,16 @@ The Perl community has set aside the "Acme" namespace for modules that are fun o
 *[[Programming Perl]] (also known as the ''Camel book'')
 *[[Perl Cookbook]]
 *[[Learning Perl]] (also called the ''Llama book'')
+
+==References==
+
+===Perl man pages===
+
+The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.gz source distribution]. They have no "official" location on the web, but are often available at the sites listed above under [[#External links]]
+
+* perlsyn - Perl syntax
+* perlre - Perl regular expressions
+ 
 
 {{Major programming languages small}}
 
