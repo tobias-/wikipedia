@@ -365,3 +365,7 @@ Similar to [[obfuscated code]] but with a different purpose, Perl [[Poetry]] is 
 * [http://dev.perl.org/perl6/ Perl 6 development]
 * [http://www.parrotcode.org/ Parrot virtual machine]
 * [http://www.perldoc.com/ - Perl POD documentation]
+
+===Books===
+*[[Programming Perl]] (often called the [[Camel Book]])([http://safari.oreilly.com/JVXSL.asp?x=1&mode=section&sortKey=title&sortOrder=asc&view=&xmlid=0-596-00027-8&open=false&g=&srchText=BOOK+AND+%28AUTHOR+Larry+Wall%29&code=&h=&m=&l=1&catid=&s=1&b=1&f=1&t=1&c=1&u=1&r=&o=1&page=0 read online])
+* [[Perl Cookbook]] (read online: [http://safari.oreilly.com/JVXSL.asp?x=1&mode=section&sortKey=title&sortOrder=asc&view=&xmlid=0-596-00313-7&open=false&g=&srchText=BOOK+AND+%28BOOKTITLE+perl+cookbook%29&code=&h=&m=&l=1&catid=&s=1&b=1&f=1&t=1&c=1&u=1&r=&o=1&page=0 2nd edition] [http://safari.oreilly.com/JVXSL.asp?x=1&mode=section&sortKey=title&sortOrder=asc&view=&xmlid=1-56592-243-3&open=false&g=&srchText=BOOK+AND+%28BOOKTITLE+perl+cookbook%29&code=&h=&m=&l=1&catid=&s=1&b=1&f=1&t=1&c=1&u=1&r=&o=1&page=0 1st edition]).
