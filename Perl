@@ -18,6 +18,41 @@ Although Perl has most of the ease of use features of an interpreted language, i
 The current version 5.8 includes [[Unicode]] support. Perl 6 is currently being developed. It will run on a [[virtual machine]] currently being developed as a possible multi-language target architecture.
 
 
+== Control structures ==
+The  basic control structures do not differ from the [[C programming language|C]] oder [[Java programming language|Java]] programming language.
+
+''Loops''
+
+ while (''Boolean expression'') {
+     ''statement(s)''
+ }
+
+
+ do {
+     ''statement(s)''
+ } while (''Boolean expression'');
+
+
+ for (''initialisation'' ; ''termination condition'' ; ''incrementing expr'') {
+     ''statement(s)''
+ }
+
+
+''If-then-statements''
+
+ if (''Boolean expression'') {
+     ''statement(s)''
+ }
+
+
+ if (''Boolean expression'') {
+     ''statement(s)''
+ } else {
+     ''statement(s)''
+ }
+
+
+
 == Perl 6 ==
 
 Perl6 will separate parsing and compilation and runtime, making the virtual machine more attractive to developers looking to port other languages to the architecture.
