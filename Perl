@@ -33,7 +33,7 @@ The basic control structures do not differ greatly from those used in the [[C pr
  do {
      ''statement(s)''
  } until (''Boolean expression'');
-''for one-line statements, "until" can also be used as follows'':
+''For one-line statements, "until" can also be used as follows'':
  ''statement(s)'' until ''Boolean expression'';
 
  for (''initialisation'' ; ''termination condition'' ; ''incrementing expr'') {
@@ -54,7 +54,7 @@ The basic control structures do not differ greatly from those used in the [[C pr
  unless (''Boolean expression'') {
      ''statement(s)''
  }
-''for one-line statements, "unless" can be used as follows'':
+''For one-line statements, "unless" can be used as follows'':
  ''statements'' unless ''Boolean expression'';
 
  if (''Boolean expression'') {
@@ -63,12 +63,14 @@ The basic control structures do not differ greatly from those used in the [[C pr
      ''statement(s)''
  }
 
-
  if (''Boolean expression'') {
      ''statement(s)''
  } elsif (''Boolean expression'') {
      ''statement(s)''
  }
+
+''For one-line statements, "if" can be used as follows'':
+ ''statements'' if ''expression'';
 
 == Subroutines ==
 Subroutines in Perl can be specified with the keyword 'sub'.  Variables passed to a subroutine appear in the subroutine as elements of the local (to the subroutine) scalar array @_.  Calling a subroutine with three scalar variables results in array elements @_[0], @_[1], and @_[2] within the subroutine.  Note that these elements would be referred to as the scalars $_[0], $_[1], and $_[2].
