@@ -434,13 +434,11 @@ Before the language's official release Wall discovered that there was already a 
 * [http://www.linuxjournal.com/article.php?sid=3394 Interview with Larry Wall on Perl (May 01, 1999)]
 * [http://history.perl.org/PerlTimeline.html Perl Timeline]
 * [http://groups.google.com/groups?selm=4628%40sdcrdcf.UUCP First reference to "Perl" on Usenet]
-* [http://forums.rbftpnetworks.com/viewforum.php?f=6 Perl Discussion Forum]
 
 ===Books===
-*[[Programming Perl]] (often called the ''Camel book'')([http://safari.oreilly.com/JVXSL.asp?x=1&mode=section&sortKey=title&sortOrder=asc&view=&xmlid=0-596-00027-8&open=false&g=&srchText=BOOK+AND+%28AUTHOR+Larry+Wall%29&code=&h=&m=&l=1&catid=&s=1&b=1&f=1&t=1&c=1&u=1&r=&o=1&page=0 read online])
+*[[Programming Perl]] (often called the ''Camel book'') ([http://safari.oreilly.com/JVXSL.asp?x=1&mode=section&sortKey=title&sortOrder=asc&view=&xmlid=0-596-00027-8&open=false&g=&srchText=BOOK+AND+%28AUTHOR+Larry+Wall%29&code=&h=&m=&l=1&catid=&s=1&b=1&f=1&t=1&c=1&u=1&r=&o=1&page=0 read online])
 * [[Perl Cookbook]] (read online: [http://safari.oreilly.com/JVXSL.asp?x=1&mode=section&sortKey=title&sortOrder=asc&view=&xmlid=0-596-00313-7&open=false&g=&srchText=BOOK+AND+%28BOOKTITLE+perl+cookbook%29&code=&h=&m=&l=1&catid=&s=1&b=1&f=1&t=1&c=1&u=1&r=&o=1&page=0 2nd edition] [http://safari.oreilly.com/JVXSL.asp?x=1&mode=section&sortKey=title&sortOrder=asc&view=&xmlid=1-56592-243-3&open=false&g=&srchText=BOOK+AND+%28BOOKTITLE+perl+cookbook%29&code=&h=&m=&l=1&catid=&s=1&b=1&f=1&t=1&c=1&u=1&r=&o=1&page=0 1st edition]).
-*[[Learning Perl]], also called the ''Llama book'']
-
+*[[Learning Perl]] (also called the ''Llama book'')
 
 
 [[de:Perl]] [[eo:Perl Komputillingvo]] [[es:Perl]] [[et:Perl]] [[fr:Langage de programmation Perl]] [[it:Perl]] [[ja:Perl]] [[nl:Perl]] [[pl:Perl]] [[pt:Perl]] [[sv:Perl]]
