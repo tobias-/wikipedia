@@ -501,10 +501,6 @@ One of the most bizarre Perl modules is Lingua::Romana::Perligata. This module t
 *[http://www.perlmonks.org/index.pl?node=(Golf)%20Nearest%20Neighbors An example of a golf contest]
 *[http://www.perlmonks.org/index.pl?node_id=292135 A script written in Piratese]
 
-===Hosting===
-<!-- Is this important? It was added by 69.158.155.131 and it is just a list of advertisements of web hosting companies - personally I have never seen any hosting not offering Perl. -->
-*[http://www.webmaster.org/webhosting/plans/perl.htm Webmaster.org: Perl Web Hosting Plans] - List of companies offering perl in their web hosting plans.
-
 ==Books==
 {{book}}
 *[[Programming Perl]] (also known as the ''Camel book'')
