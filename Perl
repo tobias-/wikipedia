@@ -9,13 +9,11 @@ Perl was designed to be a practical language to extract information from text fi
 
 Perl is one of the [[programming language]] components of the popular [[LAMP]] free software platform for web development.
 
-Perl is [[free software movement|free software]], available under a combination of the ''[[Artistic License]]'' and the [[GPL]]. 
-It is available for most [[operating system|operating systems]] but is particularly prevalent on [[Unix]] and [[Unix-like]] systems (e.g: [[Linux]] and [[FreeBSD]]), and is growing in popularity on [[Microsoft Windows]] systems. As an example of Perl in action, [[Wikipedia]] itself was a [[Common Gateway Interface|CGI]] script written in Perl until January [[2002]]. Another example is [[Slashdot]], which runs on the Perl-based [[Slashcode]] software.
-When used on the web, Perl is often used in conjunction with the [[Apache web server]] and its [[mod_perl]] module.
+Perl is [[free software movement|free software]], available under a combination of the ''[[Artistic License]]'' and the [[GPL]]. It is available for most [[operating system|operating systems]] but is particularly prevalent on [[Unix]] and [[Unix-like]] systems (e.g: [[Linux]] and [[FreeBSD]]), and is growing in popularity on [[Microsoft Windows]] systems. As an example of Perl in action, [[Wikipedia]] itself was a [[Common Gateway Interface|CGI]] script written in Perl until January [[2002]]. Another example is [[Slashdot]], which runs on the Perl-based [[Slashcode]] software. When used on the web, Perl is often used in conjunction with the [[Apache web server]] and its [[mod_perl]] module.
 
 Perl is regarded by both its proponents and detractors as something of a grab bag of features and syntax. The difference between the two camps lies in whether this is seen as a virtue or a vice. Perl votaries maintain that this varied heritage is what makes the language so useful. Reference is often made to natural languages such as [[English language|English]] and to [[evolution]]. For example, Larry Wall has argued that:
 
-:''... we often joke that a camel is a horse designed by a committee, but if you think about it, the camel is pretty well adapted for life in the desert. The camel has evolved to be relatively self-sufficient. On the other hand, the camel has not eveolved to smell good. Neither has Perl.''
+:''... we often joke that a camel is a horse designed by a committee, but if you think about it, the camel is pretty well adapted for life in the desert. The camel has evolved to be relatively self-sufficient. On the other hand, the camel has not evolved to smell good. Neither has Perl.''
 
 In recognition of its ugly-but-useful nature, Perl has adopted the camel as its mascot.
 
