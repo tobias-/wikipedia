@@ -454,7 +454,7 @@ Another tradition among Perl [[hacker]]s is writing [[Just another Perl hacker|J
 * [[POE]] -- Perl Object Environment
 * [[Fibonacci number program]]
 * [[Perl poetry]]
-* [[List of Perl-programs]]
+* [[List of Perl programs]]
 
 == External links ==
 * [http://www.perl.com/ Perl.com]
