@@ -77,6 +77,252 @@ and its output:
 
 The fourth line of the example shows the use of a [[regular expression]].
 
+<center>
+===Regular Expressions with Perl Examples===
+
+<p><table BORDER CELLPADDING="5" WIDTH="80%">
+<tr>
+<th>Regular Expression</th>
+<th>Description</th>
+<th>Example
+<br>Note that all the if statements return a TRUE value</th>
+</tr>
+
+<tr>
+<td>.</td>
+<td>Matches an arbitrary character, but not a newline.</td>
+<td>
+<pre class="output">
+$string1 = "Hello World\n";
+if ($string1 =~ m/...../) {
+  print "$string1 has length >= 5\n";
+}
+</pre></td>
+</tr>
+    
+<tr>
+<td>( )</td>
+<td>Groups a series of pattern elements to a single element.  When you match a pattern within parentheses, 
+you can use any of $1, $2, 
+... $9 later to refer to the previously matched pattern.</td>
+<td>
+<pre class="output">
+<b>Program:</b>
+$string1 = "Hello World\n";
+if ($string1 =~ m/(H..).(o..)/) {
+  print "We matched '$1' and '$2'\n";
+}
+<B>Output:</B>
+We matched 'Hel' and 'o W';
+</pre></td>
+</tr>
+
+<tr>
+<td>+</td>
+<td>Matches the preceding pattern element one or more times.</td>
+<td>
+<pre class="output">
+$string1 = "Hello World\n";
+if ($string1 =~ m/l+/) {
+  print "There consecutive l's in $string1";
+}
+</pre></td>
+</tr>
+
+<tr>
+<td>?</td>
+<td>Matches zero or one times.</td>
+<td>
+<pre class="output">
+$string1 = "Hello World\n";
+if ($string1 =~ m/H.?e/) {
+  print "There is an 'H' and a 'e' no more ";
+  print "than 2 characters afterwards.\n";
+}
+</pre></td>
+</tr>
+    
+<tr>
+<td>?</td>
+<td>Matches the *, +, or {M,N}'d regexp that comes before
+as few times as possible.</td>
+<td>
+<pre class="output">
+$string1 = "Hello World\n";
+if ($string1 =~ m/(l+?o)/) {
+  print "There small match with 1 or more 'l'
+  print "followed by an 'o' is 'lo', not 'llo'.\n";
+}
+</pre></td>
+</tr>
+    
+<tr>
+<td>*</td>
+<td>Matches zero or more times.</td>
+<td>
+<pre class="output">
+$string1 = "Hello World\n";
+if ($string =~ m/el*o/) {
+  print "There is a 'e' followed by some";
+  print "'l' (maybe) followed by 'o'\n";
+}
+</pre></td>
+</tr>
+    
+<tr>
+<td>{M,N}</td>
+<td>Denotes the minimum M and the maximum N match count.</td>
+<td>
+<pre class="output">
+$string1 = "Hello World\n";
+if ($string1 =~ m/l{1,2}/) {
+ print "There exists a substring with 1";
+ print "or 2 l's in $string1";
+}
+</pre>
+</td>
+</tr>
+    
+<tr>
+<td>[...]</td>
+<TD>Denotes a set of possible matches.</TD>
+<td>
+<pre class="output">
+$string1 = "Hello World\n";
+if ($string1 =~ m/[aeiou]/) {
+  print "$string1 contains a vowel\n";
+}
+</pre></td>
+</tr>
+    
+<tr>
+<td>|</td>
+<td>Matches one of the left or right operand.</td>
+<td>
+<pre class="output">
+$string1 = "Hello World\n";
+if ($string1 =~ m/(Hello|Hi)/) {
+  print "Hello or Hi is ";
+  print "contained in $string1";
+}
+</pre></td>
+</tr>
+    
+<tr>
+<td>\b</td>
+<td>Matches a word boundary></td>
+<td>
+<pre class="output">
+$string1 = "Hello World\n";
+if ($string1 =~ m/\bllo\b/) {
+  print "This will not match because";
+  print "the llo is not a word.";
+}
+</pre></td>
+</tr>
+    
+<tr>
+<td>\w</td>
+<td>Matches alphanumeric, including "_".</td>
+<td>
+<pre class="output">
+$string1 = "Hello World\n";
+if ($string1 =~ m/\w/) {
+  print "There is at least one alpha-";
+  print "numeric char in $string1";
+}
+</pre></td>
+</tr>
+    
+<tr>
+<td>\W</td>
+<td>Matches a non-alphanumeric character.</td>
+<td>
+<pre class="output">
+$string1 = "Hello World\n";
+if ($string1 =~ m/\W/) {
+  print "The space between Hello and ";
+  print "World is not alphanumeric\n";
+}
+</pre></td>
+</tr>
+
+<tr>
+<td>\s</td>
+<td>Matches a whitespace character (space, tab, newline, formfeed)</td>
+<td>
+<pre class="output">
+$string1 = "Hello World\n";
+if ($string1 =~ m/\s.*\s/) {
+  print "There are TWO whitespace ";
+  print "characters in $string1";
+}
+</pre></td>
+</tr>
+    
+<tr>
+<td>\S</td>
+<td>Matches anything BUT a whitespace.</td>
+<td>
+<pre class="output">
+$string1 = "Hello World\n";
+if ($string1 =~ m/\S.*\S/) {
+  print "There are TWO non-whitespace ";
+  print "characters in $string1";
+}
+</pre></td>
+</tr>
+    
+<tr>
+<td>\d</td>
+<td>Matches a digit, same as [0-9].</td>
+<td>
+<pre class="output">
+$string1 = "99 beers on the wall\n";
+if ($string1 =~ m/\d.*\d/) {
+  print "There are TWO digits in $string1";
+}
+</pre></td>
+</tr>
+    
+<tr>
+<td>\D</td>
+<td>Matches a non-digit.</td>
+<td>
+<pre class="output">
+$string1 = "Hello World\n";
+if ($string1 =~ m/\D/) {
+  print "There is >= 1 non-digit in $string1\n";
+}
+</pre></td>
+</tr>
+    
+<tr>
+<td>^</td>
+<td>Matches the beginning of a line or string.</td>
+<td>
+<pre class="output">
+$string1 = "Hello World\n";
+if ($string1 =~ m/^He/) {
+  print "$string1 starts with a He\n";
+}
+</pre></td>
+</tr>
+    
+<tr>
+<td>$</td>
+<td>Matches the end of a line or string.</td>
+<td>
+<pre class="output">
+$string1 = "Hello World\n";
+if ($string1 =~ m/rld\n?$/) {
+  print "$string1 is a line or string";
+  print "that ends with rld\n";
+}
+</pre></td>
+</tr>
+</table></center>
+
 In common with [[C programming language|C]], [[obfuscated code]] competitions are an interesting feature of the Perl culture.
 Similar to [[obfuscated code]] but with a different purpose, Perl [[Poetry]] is the practice of writing poems that can actually be compiled by perl. This practice is fairly unique to Perl, due to the large number of regular English words used in the language. New poems can regularly be seen in http://www.perlmonks.org/index.pl?node=Perl%20Poetry.
 
