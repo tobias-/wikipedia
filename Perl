@@ -36,7 +36,7 @@ Names of scalar values always begin with '$', regardless of whether the variable
   $months[11]           # the 12th element of the array @months
   $address{'Jim'}       # the 'Jim' element from hash %address
 
-Arrays are named with '@', indicating that mutliple values are to be returned. For example,
+Arrays are named with '@', indicating that multiple values are to be returned. For example,
 
   @months               # ( $months[0], $months[1], ..., $months[n] )
   @months[2,3,4]        # same as ( $months[2], $months[3], $months[4] )
