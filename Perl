@@ -130,7 +130,7 @@ Perl6 is currently under development, and is planned to separate parsing, compil
 
 [[Parrot virtual machine|Parrot]] is the Perl6 runtime, and can be programmed at a low level in [[Parrot assembly language]] (PASM) or [[Parrot IMC|Intermediate Code]] (IMC or PIR, for Parrot Intermediate Representation).
 
-Parrot has existed in a limited form since December [[2003]]. An increasing number of languages can be compiled to Parrot assembly language. Besides a subset of the planned Perl6, these include [[BASIC programming language|BASIC]], [[Befunge]], [[Brainfuck]], [[Cola programming language|Cola]], [[Forth programming language|Forth]], [[Jako]], [[m4]], [[Miniperl]], [[Ook]], [[OpenComal]], [[PHP]], [[Plot programming language|Plot]], [[Python programming language|Python]], [[Ruby programming language|Ruby]], [[Scheme]], [[Tcl]], [[URM]] and [[YAL]].
+Parrot has existed in a limited form since December [[2003]]. An increasing number of languages can be compiled to Parrot assembly language. Besides a subset of the planned Perl6, these include [[BASIC programming language|BASIC]], [[Befunge]], [[Brainfuck]], [[Cola programming language|Cola]], [[Forth programming language|Forth]], [[Jako]], [[m4]], [[Miniperl]], [[Ook]], [[OpenComal]], [[PHP]], [[Plot programming language|Plot]], [[Python programming language|Python]], [[Ruby programming language|Ruby]], [[Scheme]], [[Tcl]], [[URM]] and [[YAL]]. Most of this other language implementations are currently still experimental.
 
 == Perl code samples ==
 The canonical "[[hello world]]" program would be:
