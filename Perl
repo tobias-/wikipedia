@@ -594,7 +594,7 @@ The Perl community has set aside the "Acme" namespace for modules that are fun o
 
 *[http://www.perl.org/ Perl.org] &ndash; The Perl Directory
 *[http://www.perl.com/ Perl.com] &ndash; Perl on [[O'Reilly Network]]
-*[http://perldoc.perldrunks.org/ Perldoc at Perldrunks] &ndash; online Perl documentation
+*[http://www.perldoc.com/ Perldoc] &ndash; online Perl POD documentation
 
 ===User groups===
 
