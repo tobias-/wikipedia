@@ -14,7 +14,7 @@ Perl is regarded by both its proponents and detractors as something of a grab ba
 
 :''... we often joke that a camel is a horse designed by a committee, but if you think about it, the camel is pretty well adapted for life in the desert. The camel has evolved to be relatively self-sufficient. On the other hand, the camel has not evolved to smell good. Neither has Perl.''
 
-In recognition of its ugly-but-useful nature, Perl has adopted the [[camel]] as its mascot; and the O'Reilly manual on Perl, ''[[Programming Perl]]'', is known as the '''camel book''': so named because of the camel that graces its cover.
+In recognition of its ugly-but-useful nature, Perl has adopted the [[camel]] as its mascot; and the [[O'Reilly Media|O'Reilly]] manual on Perl, ''[[Programming Perl]]'', is known as the '''camel book''': so named because of the camel that graces its cover.
 
 == Implementation ==
 A huge collection of freely usable [[perl module]]s, ranging from advanced mathematics to database connectivity, networking and more, can be downloaded from a network of sites called [[CPAN]], an [[Acronym|acronym]] for Comprehensive Perl Archive Network. Most or all of the software on CPAN is also available under either the [[Artistic License]], the [[GPL]], or both. As of January 1, 2005, CPAN includes more than 7,000 modules, contributed by nearly 4,000 authors.
