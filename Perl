@@ -498,3 +498,4 @@ Before the language's official release, Wall discovered that there was already a
 [[pl:Perl]]
 [[pt:Perl]]
 [[sv:Perl]]
+[[zh:Perl]]
