@@ -73,7 +73,7 @@ The basic control structures do not differ greatly from those used in the [[C pr
 
 == Perl and [[SQL]] databases == 
 
-DBI/DBD modules can be used to access [[MySQL]] and other [[ANSI]] [[SQL]] databases.
+[[DBI/DBD]] modules can be used to access [[MySQL]] and other [[ANSI]] [[SQL]] databases.
 
 == Perl 6 ==
 
