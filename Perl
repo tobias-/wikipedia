@@ -78,23 +78,25 @@ The basic control structures do not differ greatly from those used in the [[C pr
  ''statement(s)'' unless ''Boolean expression'';
 
 == Subroutines ==
-[[Subroutine]]s in Perl can be specified with the [[keyword]] 'sub'.  [[Variable]]s passed to a subroutine appear in the subroutine as elements of the local (to the subroutine) scalar array @_.  Calling a subroutine with three scalar variables results in array elements @_[0], @_[1], and @_[2] within the subroutine.  Note that these elements would be referred to as the scalars $_[0], $_[1], and $_[2]. Also shift can be used, without specifying @_, to obtain each value.
+[[Subroutine]]s in Perl can be specified with the [[keyword]] <code>sub</code>.  [[Variable]]s passed to a subroutine appear in the subroutine as elements of the local (to the subroutine) scalar array <code>@_</code>.  Calling a subroutine with three scalar variables results in array elements <code>@_[0]</code>, <code>@_[1]</code>, and <code>@_[2]</code> within the subroutine.  Note that these elements would be referred to as the scalars <code>$_[0]</code>, <code>$_[1]</code>, and <code>$_[2]</code>. Also <code>shift</code> can be used, without specifying <code>@_</code>, to obtain each value.
 
-Changes to elements in the @_ array within the subroutine are reflected in the  elements in the calling program.
+Changes to elements in the <code>@_</code> array within the subroutine are reflected in the  elements in the calling program.
 
-Subroutines naturally return the value of the last expression evaluated, though explicit use of the ''return'' statement is often encouraged for clarity.
+Subroutines naturally return the value of the last expression evaluated, though explicit use of the <code>return</code> statement is often encouraged for clarity.
 
 An example subroutine definition and call follows:
 
+<pre>
  sub cube
  {
    my $x = shift;
-   $x * $x * $x;
+   return $x * $x * $x;
  }
- ...
+
  $z = -4;
  $y = cube($z);
  print "$y\n";
+</pre>
 
 Named parameters can be simulated by passing a hash.
 
