@@ -482,6 +482,7 @@ Before the language's official release, Wall discovered that there was already a
 [[Category:Scripting languages]]
 [[Category:Text-oriented programming languages]]
 [[Category:Procedural programming languages]]
+[[Category:NET programming languages]]
 
 
 [[cs:Perl]]
