@@ -1,0 +1,72 @@
+<strong>Perl</strong> (''Practical Extraction and Report Language'') is an interpreted [[programming language]] created by [[Larry Wall]] in [[1987]] that borrows features from [[C programming language|C]], [[sed]], [[awk]], and shell scripting ([[sh]]). Though the name originated as an [[acronym]], it is normally spelt in normal mixed case when referring to the language, or lower case when referring to the interpreter. "Only perl properly parses Perl."
+
+
+
+Perl was designed to be a practical language to extract information from text files and generate reports. One of its mottos is ''There is more than one way to do it'' (TIMTOWTDI - pronounced 'Tim Toady'). Another is ''Perl: the Swiss Army Chainsaw of Programming Languages''. Its versatility permits versions of many programming paradigms: [[procedural programming|procedural]], [[functional programming|functional]], and [[Object Oriented Programming|object-oriented]]---though purists object to Perl's design, which favors convenience to the programmer over clean language design. Perl is often considered the archetypal [[scripting programming languages|scripting language]].
+
+
+
+Some people humorously claim Perl stands for 'Pathologically Eclectic Rubbish Lister' due to the high use of meaningful punctuation characters in the language [[syntax]], as may be seen in this example program to print a greeting:
+
+
+
+        # A sample Perl program
+
+        $message = "Hello, world! The magic number is 234542354.\n";
+
+        print $message;
+
+        $message =~ s/\d+/-1/;
+
+        print $message;
+
+        exit 0
+
+
+
+and the output:
+
+
+
+        Hello, world! The magic number is 234542354.
+
+        Hello, world! The magic number is -1.
+
+
+
+The fourth line of the example shows the use of a [[regular expression]].
+
+
+
+In common with [[C programming language|C]], [[obfuscated code]] competitions are a major part of the Perl culture.
+
+
+
+Perl has been called the "glue that holds the web together", as it is one of the most popular [[CGI]] languages. Perl is available for just about every [[operating system]] but is particularly prevalent on [[Unix]] and [[Unix-like]] systems. As an example of Perl in action, Wikipedia is our own slightly customized version of CliffordAdams' UseMod Wiki software -- written in Perl, of course.
+
+
+
+Perl is [[free software movement|free software]], available for many platforms under the ''[[Artistic License]]'' and [[GPL]].
+
+
+
+Related entry : [[CPAN]]
+
+
+
+Important Perl links:
+
+
+
+* http://dmoz.org/Computers/Programming/Languages/Perl/ - dmoz on Perl
+
+* http://www.perl.org - Perlmonger's info site
+
+* http://www.pm.org - Perlmonger's user group site
+
+* http://www.perlmonks.org - The Perl Monestary
+
+----
+
+Related languages: [[APL programming language|APL]], [[Python programming language|Python]], [[Ruby programming language|Ruby]]
+
