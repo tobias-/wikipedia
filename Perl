@@ -568,7 +568,7 @@ Another popular pastime is Perl golf. As with [[golf|the physical sport]], the o
 
 Another tradition among Perl [[hacker]]s is writing JAPHs, which are short obfuscated programs that print out the phrase "[[Just another Perl hacker]],". The "canonical" JAPH includes the comma at the end, although this is often omitted, and many variants on the theme have been created (example: [http://www.perlmonks.org/index.pl?node_id=292135], which prints "Just Another Perl Pirate!").
 
-One of the most bizarre Perl modules is Lingua::Romana::Perligata. This module translates the source code of a script that uses it from Latin into Perl, allowing the programmer to write executable programs in Latin.
+One of the most interesting Perl modules is Lingua::Romana::Perligata. This module translates the source code of a script that uses it from Latin into Perl, allowing the programmer to write executable programs in Latin.
 
 == Perl humor == 
 *[http://wikibooks.org/wiki/Programming:Perl_humour Perl humour on wikibooks]
