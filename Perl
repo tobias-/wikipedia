@@ -146,9 +146,9 @@ The fourth line of the example shows the use of a [[regular expression]].
 </tr>
 
 <tr>
-<td>.</td>
+<td>'''.'''</td>
 <td>Matches an arbitrary character, but not a newline.</td>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/...../) {
@@ -162,13 +162,13 @@ if ($string1 =~ m/...../) {
 <td>Groups a series of pattern elements to a single element.  When you match a pattern within parentheses, 
 you can use any of $1, $2, 
 ... $9 later to refer to the previously matched pattern.</td>
-<td>
+<td align="left">
 <pre class="output">
-<b>Program:</b>
 $string1 = "Hello World\n";
 if ($string1 =~ m/(H..).(o..)/) {
   print "We matched '$1' and '$2'\n";
 }
+
 <B>Output:</B>
 We matched 'Hel' and 'o W';
 </pre></td>
@@ -177,7 +177,7 @@ We matched 'Hel' and 'o W';
 <tr>
 <td>+</td>
 <td>Matches the preceding pattern element one or more times.</td>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/l+/) {
@@ -189,7 +189,7 @@ if ($string1 =~ m/l+/) {
 <tr>
 <td>?</td>
 <td>Matches zero or one times.</td>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/H.?e/) {
@@ -203,7 +203,7 @@ if ($string1 =~ m/H.?e/) {
 <td>?</td>
 <td>Matches the *, +, or {M,N}'d regexp that comes before
 as few times as possible.</td>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/(l+?o)/) {
@@ -216,7 +216,7 @@ if ($string1 =~ m/(l+?o)/) {
 <tr>
 <td>*</td>
 <td>Matches zero or more times.</td>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string =~ m/el*o/) {
@@ -229,7 +229,7 @@ if ($string =~ m/el*o/) {
 <tr>
 <td>{M,N}</td>
 <td>Denotes the minimum M and the maximum N match count.</td>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/l{1,2}/) {
@@ -243,7 +243,7 @@ if ($string1 =~ m/l{1,2}/) {
 <tr>
 <td>[...]</td>
 <TD>Denotes a set of possible matches.</TD>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/[aeiou]+/) {
@@ -256,7 +256,7 @@ if ($string1 =~ m/[aeiou]+/) {
 <tr>
 <td>|</td>
 <td>Matches one of the left or right operand.</td>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/(Hello|Hi)/) {
@@ -269,7 +269,7 @@ if ($string1 =~ m/(Hello|Hi)/) {
 <tr>
 <td>\b</td>
 <td>Matches a word boundary.</td>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/\bllo\b/) {
@@ -287,7 +287,7 @@ if ($string1 =~ m/\bllo\b/) {
 <tr>
 <td>\w</td>
 <td>Matches alphanumeric, including "_".</td>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/\w/) {
@@ -300,7 +300,7 @@ if ($string1 =~ m/\w/) {
 <tr>
 <td>\W</td>
 <td>Matches a non-alphanumeric character.</td>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/\W/) {
@@ -313,7 +313,7 @@ if ($string1 =~ m/\W/) {
 <tr>
 <td>\s</td>
 <td>Matches a whitespace character (space, tab, newline, formfeed)</td>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/\s.*\s/) {
@@ -326,7 +326,7 @@ if ($string1 =~ m/\s.*\s/) {
 <tr>
 <td>\S</td>
 <td>Matches anything BUT a whitespace.</td>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/\S.*\S/) {
@@ -339,12 +339,13 @@ if ($string1 =~ m/\S.*\S/) {
 <tr>
 <td>\d</td>
 <td>Matches a digit, same as [0-9].</td>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "99 bottles of beer on the wall.";
 if ($string1 =~ m/(\d+)/) {
   print "$1 is the first number in '$string1'\n";
 }
+
 <B>Output:</B>
 99 is the first number in '99 bottles of beer on the wall.'
 </pre></td>
@@ -353,7 +354,7 @@ if ($string1 =~ m/(\d+)/) {
 <tr>
 <td>\D</td>
 <td>Matches a non-digit.</td>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/\D/) {
@@ -366,7 +367,7 @@ if ($string1 =~ m/\D/) {
 <tr>
 <td>^</td>
 <td>Matches the beginning of a line or string.</td>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/^He/) {
@@ -378,7 +379,7 @@ if ($string1 =~ m/^He/) {
 <tr>
 <td>$</td>
 <td>Matches the end of a line or string.</td>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/rld$/) {
@@ -391,7 +392,7 @@ if ($string1 =~ m/rld$/) {
 <tr>
 <td>[^...]</td>
 <td>Matches every character except the ones inside brackets.</td>
-<td>
+<td align="left">
 <pre class="output">
 $string1 = "Hello World\n";
 if ($string1 =~ m/[^abc]/) {
