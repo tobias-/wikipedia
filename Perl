@@ -1,12 +1,15 @@
 [[de:Perl]] [[eo:Perl]] [[es:Perl]] [[fr:Perl]][[nl:Programmeertaal Perl]] [[pl:Perl]] [[pt:Perl]] [[sv:Perl]] [[it:Perl]]
 '''Perl''' (''Practical Extraction and Report Language'') is a [[programming language]] created by [[Larry Wall]] in [[1987]] that borrows features from [[C programming language|C]], [[sed]], [[awk]], shell scripting ([[sh]]), to a lesser extent from many other programming languages as well. Though the name can be expanded as an [[acronym]] in more than one way (Pathologically Eclectic Rubbish Lister), it is normally spelt in normal mixed case when referring to the language, or lower case when referring to the interpreter. "Only perl properly parses Perl."
 
-== Rationale and implementation ==
+== Rationale  ==
 
 Perl was designed to be a practical language to extract information from text files and generate reports. One of its mottos is ''There is more than one way to do it'' (TIMTOWTDI - pronounced 'Tim Toady'). Another is ''Perl: the Swiss Army Chainsaw of Programming Languages''. One stated design goal is to make easy tasks easy and difficult tasks possible. Its versatility permits versions of many programming paradigms: [[procedural programming|procedural]], [[functional programming|functional]], and [[Object Oriented Programming|object-oriented]]---though purists object to Perl's approach, which favors convenience to the programmer over clean language design. Perl is often considered the archetypal [[scripting programming languages|scripting language]] and has been called the "glue that holds the web together", as it is one of the most popular [[Common Gateway Interface|CGI]] languages. Its function as a "glue language" can be described broadly as its ability to tie together different systems and data structures that were not designed to be tied together.
 
 Perl is [[free software movement|free software]], available under the ''[[Artistic License]]'' and [[GPL]]. 
 Perl is available for most [[operating system|operating systems]] but is particularly prevalent on [[Unix]] and [[Unix-like]] systems, and is growing in popularity on [[Microsoft Windows]] systems. As an example of Perl in action, until January [[2002]] the software running [[Wikipedia]] was a [[Common Gateway Interface|CGI]] script written in Perl.
+
+
+== Implementation ==
 
 A huge collection of freely usable perl modules, ranging from advanced mathematics to database connectivity, networking and more, can be downloaded from a network of sites called [[CPAN]]. Most or all of the software on CPAN is also available under either the Artistic License, the GPL, or both.
 
@@ -14,11 +17,12 @@ Although Perl has most of the ease of use features of an interpreted language, i
 
 The current version 5.8 includes [[Unicode]] support. Perl 6 is currently being developed. It will run on a [[virtual machine]] currently being developed as a possible multi-language target architecture.
 
+
 == Perl 6 ==
 
 Perl6 will separate parsing and compilation and runtime, making the virtual machine more attractive to developers looking to port other languages to the architecture.
 
-[[Parrot virtual machine|Parrot]] is the Perl6 runtime, and can be programmed at a low level in [[Parrot assembly language]]. Parrot exists in a limited form as of [[September]], [[2002]], and a small number of languages ([[Jako programming language|Jako]], [[Cola programming language|Cola]]) exist simply to be 'compiled' down to Parrot assembly language opcodes.
+[[Parrot virtual machine|Parrot]] is the Perl6 runtime, and can be programmed at a low level in [[Parrot assembly language]]. Parrot exists in a limited form as of [[December]], [[2002]], and a small number of languages ([[Jako programming language|Jako]], [[Cola programming language|Cola]]) exist simply to be 'compiled' down to Parrot assembly language opcodes.
 
 == Code samples ==
 
