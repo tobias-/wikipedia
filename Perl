@@ -429,7 +429,7 @@ Note that the 'm' in the above regular expressions, for example m/[^abc]/, is no
 In common with [[C programming language|C]], [[obfuscated code]] competitions are an interesting feature of the Perl culture.
 Similar to obfuscated code but with a different purpose, Perl [[Poetry]] is the practice of writing poems that can actually be compiled by perl. This practice is fairly unique to Perl, due to the large number of regular English words used in the language. New poems can regularly be seen [http://www.perlmonks.org/index.pl?node=Perl%20Poetry here].
 
-Another popular Perl passtime is golf. As with [[golf|the physical sport]], the objective is to reduce the number of strokes that it takes to complete a particular objective, but in Perl golf, it is keystrokes. Someone will propose a task, such as "Scan an input string and return the longest [[palendrome]] that it contains", and then others will rise to the challenge and try to outdo each other by writing solutions that require less characters of Perl source code.
+Another popular Perl passtime is golf. As with [[golf|the physical sport]], the objective is to reduce the number of strokes that it takes to complete a particular objective, but in Perl golf, it is keystrokes. Someone will propose a task, such as "Scan an input string and return the longest [[palindrome]] that it contains", and then others will rise to the challenge and try to outdo each other by writing solutions that require less characters of Perl source code.
 
 Another tradition among Perl [[hacker]]s is writing a [[Just another Perl hacker|JAPH]].
 
