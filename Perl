@@ -167,7 +167,8 @@ Named parameters are often simulated by passing a hash. For example:
  );
 </pre>
 
-== Perl and [[SQL]] databases == 
+==Perl and SQL databases==
+
 [[DBI/DBD]] modules can be used to access most [[ANSI]] [[SQL]] databases,
 including [[MySQL]], [[PostgreSQL]] and [[Oracle database|Oracle]].
 
