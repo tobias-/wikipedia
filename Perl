@@ -77,7 +77,7 @@ The basic control structures do not differ greatly from those used in the [[C pr
  ''statements'' if ''expression'';
 
 == Subroutines ==
-[[Subroutine]]s in Perl can be specified with the [[keyword]] 'sub'.  [[Variable]]s passed to a subroutine appear in the subroutine as elements of the local (to the subroutine) scalar array @_.  Calling a subroutine with three scalar variables results in array elements @_[0], @_[1], and @_[2] within the subroutine.  Note that these elements would be referred to as the scalars $_[0], $_[1], and $_[2].
+[[Subroutine]]s in Perl can be specified with the [[keyword]] 'sub'.  [[Variable]]s passed to a subroutine appear in the subroutine as elements of the local (to the subroutine) scalar array @_.  Calling a subroutine with three scalar variables results in array elements @_[0], @_[1], and @_[2] within the subroutine.  Note that these elements would be referred to as the scalars $_[0], $_[1], and $_[2]. Also shift can be used, without specifying @_, to obtain each value.
 
 Changes to elements in the @_ array within the subroutine are reflected in the  elements in the calling program.
 
@@ -89,7 +89,7 @@ An example subroutine definition and call follows:
 
  sub cube
  {
-   my $x = $_[0];
+   my $x = shift;
    $x * $x * $x;
  }
 
@@ -100,6 +100,8 @@ An example subroutine definition and call follows:
  print "$y\n";
 
  ...
+
+Named parameters can be simulated by passing a hash.
 
 == Perl and [[SQL]] databases == 
 [[DBI/DBD]] modules can be used to access most [[ANSI]] [[SQL]] databases,
