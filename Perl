@@ -98,7 +98,7 @@ An example subroutine definition and call follows:
  print "$y\n";
 </pre>
 
-Named parameters can be simulated by passing a hash. For example:
+Named parameters are often simulated by passing a hash. For example:
 
 <pre>
  sub greeting
