@@ -420,7 +420,7 @@ if ($string1 =~ m/[^abc]/) {
 
 </table></center>
 
-The 'm' in the above regular expressions, for example m/[^abc]/, is not required in order for perl to recognize the expression as a 'match' (cf. 'substitute': s/a/b/); /[^abc]/ could just as easily be used without the preceding 'm'. The 'm' operator can be used to alter the delimiting character; for example, m{/} may be used to enhance the legibility of patterns such as /\//. See 'perldoc perlre' for more details.
+The 'm' in the above regular expressions, for example m/[^abc]/, is not required in order for perl to recognize the expression as a 'match' (cf. 'substitute': s/a/b/); /[^abc]/ could just as easily be used without the preceding 'm'. The 'm' operator can be used to alter the delimiting character; for example, m{/} may be used to enhance the legibility of patterns such as /\//. See '[http://www.perldoc.com/perl5.8.4/pod/perlre.html perldoc perlre]' for more details.
 
 ==Name==
 
