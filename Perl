@@ -77,7 +77,7 @@ Subroutines in Perl can be specified with the keyword 'sub'.  Variables passed t
 
 Changes to elements in the @_ array within the subroutine are reflected in the  elements in the calling program.
 
-Subroutines return the value of the last expression evaluated.
+Subroutines naturally return the value of the last expression evaluated, though explicit use of the ''return'' statement is often encouraged for clarity.
 
 An example subroutine definition and call follows:
 
@@ -102,19 +102,18 @@ An example subroutine definition and call follows:
 including [[MySQL]], [[PostgreSQL]] and [[Oracle database|Oracle]].
 
 == Perl 5 ==
-Perl5 is an interpreter which processes the text of a Perl script at runtime. Thus, the [[debugger]] is invoked directly from the command line with
+Perl5, the most current production version of perl, is an interpreter which processes the text of a Perl script at runtime. Thus, the [[debugger]] is invoked directly from the command line with
 <PRE>
         perl -dw ScriptName.pl Argument1 ... ...
 </PRE>
 Note that there is no limit to the number of arguments: Perl is polyadic;  any number of arguments can be passed to any Perl subroutine, in general. This concept of "no arbitrary limits" is present in most other parts of the language as well. Perl can read a ten million byte string into a variable, if the machine has the memory for it.
 
 == Perl 6 ==
-Perl6 will separate parsing and compilation and runtime, making the virtual machine more attractive to developers looking to port other languages to the architecture.
+Perl6 is currently under development, and is planned to separate parsing and compilation and runtime, making the a virtual machine that is more attractive to developers looking to port other languages to the architecture.
 
-[[Parrot virtual machine|Parrot]] is the Perl6 runtime, and can be programmed at a low level in [[Parrot assembly language]]. Parrot exists in a limited form as of December, 2003, and an increasing number of languages (BASIC, Befunge, Cola, Forth, Jako, Ook!, a subset of Perl6, Plot, and even Python, Ruby, and Scheme -- all at various early stages of development) exist simply to be 'compiled' down to Parrot assembly language opcodes.
+The [[Parrot virtual machine|Parrot]] is the Perl6 runtime, and can be programmed at a low level in [[Parrot assembly language]]. Parrot has existed in a limited form since December 2003. An increasing number of languages have been implemented to various degrees for the Parrot to be 'compiled' to Parrot assembly language opcodes. Besides a subset of the planned Perl6, these include BASIC, Befunge, Cola, Forth, Jako, Ook!, Plot, and even Python, Ruby, and Scheme.
 
-
-== Code samples ==
+== Perl Code Samples ==
 The canonical "[[hello world]]" program would be:
 
  #!/usr/bin/perl
