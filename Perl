@@ -54,7 +54,7 @@ The basic control structures do not differ greatly from those used in the [[C pr
  unless (''Boolean expression'') {
      ''statement(s)''
  }
-''for one-line statments, "unless" can be used as follows'':
+''for one-line statements, "unless" can be used as follows'':
  ''statements'' unless ''Boolean expression'';
 
  if (''Boolean expression'') {
