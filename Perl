@@ -487,13 +487,12 @@ Another tradition among Perl [[hacker]]s is writing [[Just another Perl hacker|J
 [[Category:Procedural programming languages]]
 [[Category:NET programming languages]]
 
-
 [[cs:Perl]]
+[[da:Perl]]
 [[de:Perl]]
-[[eo:Perl Komputillingvo]]
-[[es:Perl]]
 [[et:Perl]]
-[[fi:Perl]]
+[[es:Perl]]
+[[eo:Perl Komputillingvo]]
 [[fr:Perl (langage)]]
 [[it:Perl]]
 [[ja:Perl]]
@@ -501,5 +500,6 @@ Another tradition among Perl [[hacker]]s is writing [[Just another Perl hacker|J
 [[nl:Perl]]
 [[pl:Perl]]
 [[pt:Perl]]
+[[fi:Perl]]
 [[sv:Perl]]
 [[zh:Perl]]
