@@ -1,14 +1,46 @@
 [[Image:Programming-republic-of-perl.gif|right|framed|Programming Republic of Perl logo]]
-'''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]), is a [[programming language]] released by [[Larry Wall]] on [[December 18]], [[1987]] that borrows features from [[C programming language|C]], [[sed]], [[awk]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), and (to a lesser extent) from many other programming languages.
+'''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]), is an interpreted procedural [[programming language]] designed by [[Larry Wall]]. Perl borrows features from [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk]], [[sed]], and (to a lesser extent) many other programming languages.
 
-== Rationale  ==
-Perl has been ported to over a hundred different platforms, and the mission of making the language available everywhere is commemorated in the name of the main newsgroup for issues relating to perl development, "perl5-porters". Perl is widely used in [[web development]], [[finance]] and [[bioinformatics]], and indeed in most sectors where a premium is placed on rapid development and the availability of a large number of standard and 3rd-party modules. Because of its wide availability, Perl, like [[Java programming language|Java]], is often considered to be a platform in its own right, packaging a Unix-like environment in which software can be written once, and generally run without modifications almost everywhere. In addition to its numerous binary ports, Perl can, with only 6 reported exceptions, be compiled from [[source code|source]] on all Unix-like, [[POSIX]]-compliant or otherwise Unix-compatible platforms, including [[AmigaOS]], [[BeOS]], [[Cygwin]], and [[Mac OS X]]. Custom binary ports are available for [[Microsoft Windows|Windows]] (ActivePerl) and [[Mac OS|Mac OS Classic]] (MacPerl). [http://www.perl.com/CPAN/ports/]
+== Overview ==
 
-Perl was designed to be a practical language to extract information from text files and to generate reports from that information. One of its mottos is "There's more than one way to do it" (TMTOWTDI - usually pronounced 'Tim Toady', but keeping in line with the motto, there's more than one way to do it). Another is ''Perl: the Swiss Army Chainsaw of Programming Languages''. One stated design goal is to make easy tasks easy and difficult tasks possible. Its versatility permits versions of many programming paradigms: [[procedural programming|procedural]], [[functional programming|functional]], and [[Object Oriented Programming|object-oriented]] (though some claim that Perl is not a cleanly designed language because of its multiple paradigms). Perl has a powerful [[regular expression]] engine built directly into its syntax. Perl is often considered the archetypal [[scripting programming languages|scripting language]] and has been called the "glue that holds the web together", as it is one of the most popular [[Common Gateway Interface|CGI]] languages. Its function as a "glue language" can be described broadly as its ability to tie together different systems and interfaces that were not designed to interoperate.
+The perlintro(1) man page says
+<blockquote>
+Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more.
+<p>
+The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal). Its major features are that it's easy to use, supports both procedural and object-oriented (OO) programming, has powerful built-in support for text processing, and has one of the world's most impressive collections of third-party modules. 
+</blockquote>
 
-Perl is one of the [[programming language]] components of the popular [[LAMP]] free software platform for web development.
+=== Language features ===
 
-Perl is [[free software movement|free software]], available under a combination of the ''[[Artistic License]]'' and the [[GPL]]. It is available for most [[operating system|operating systems]] but is particularly prevalent on [[Unix]] and [[Unix-like]] systems (such as [[Linux]], [[FreeBSD]], and [[Mac OS X]]), and is growing in popularity on [[Microsoft Windows]] systems. Examples of Perl in action include [[Wikipedia]], which was a Perl [[Common Gateway Interface|CGI]] script until January [[2002]], and [[PHP]], which was also originally written in Perl. Another example is [[Slashdot]], which runs on the Perl-based [[Slashcode]] software. When used on the web, Perl is often used in conjunction with the [[Apache web server]] and its [[mod_perl]] module.
+The overall structure of Perl derives broadly from C. Perl is a procedural programming language, with variables, expressions, assignment statements, brace-delimited code blocks, control structures, and subroutines.
+
+Perl also takes features from shell programming. Perl programs are interpreted. All variables are marked with leading [[Sigil_(computer_programming)|sigil]]s. Sigils unambiguously identify variable names, thus allowing Perl to have a rich syntax. Importantly, sigils allow variables to be interpolated directly into strings. Like the Unix shells, Perl has many built-in functions for common tasks, like sorting, and for accessing system facilities.
+
+Perl takes [[associative array]]s from awk and [[regular expressions]] from sed. These simplify and facilitate all manner of parsing, text handling, and data management tasks.
+
+In Perl 5, features were added that support complex data structures and an [[object oriented]] programming model. These include [[reference_(computer_programming)|reference]]s, packages, and class-based method dispatch. Perl 5 also saw the introduction of lexically scoped variables, which make it easier to write robust code, and modules, which make it practical to write and distribute libraries of Perl code.
+
+All versions of Perl do automatic data typing and memory management. The  interpreter knows the type and storage requriements of every data object in the program; it allocates and frees storage for them as necessary. Legal type conversions are done automatically at run time; illegal type conversions are compile-time errors. It is not possible, within the language, to leak memory, crash the interpreter, or corrupt its internal data representation.
+
+=== Applications ===
+
+Perl finds many applications as a ''glue language'', tying together systems and interfaces that were not specifically designed to interoperate. 
+
+Perl has been used since the early days of the web to write [[Common Gateway Interface|CGI]] scripts, and is now a component of the popular [[LAMP]] ([[Linux]]/[[Apache]]/[[MySQL]]/Perl) platform for web development. Perl has been called "the glue that holds the web together". <!-- a source for this quote would be nice -->
+
+Large systems written in Perl include [[Slashdot]], and early implementations of [[Wikipedia]] and [[PHP]].
+
+Perl is popular among [[bioinformatics]] researchers, who routinely read large genomes into Perl data structures.
+
+=== Philosophy ===
+
+Perl has several mottos that convey aspects of its design and use. One is ''There's more than one way to do it'' (TMTOWTDI - usually pronounced 'Tim Toady'). Another is ''Perl: the Swiss Army Chainsaw of Programming Languages''. A stated design goal of Perl is to "make easy tasks easy and difficult tasks possible". 
+
+Its versatility permits versions of many programming paradigms: [[procedural programming|procedural]], [[functional programming|functional]], and [[Object Oriented Programming|object-oriented]] (though some claim that Perl is not a cleanly designed language because of its multiple paradigms). 
+
+Perl is [[free software movement|free software]], and may be distributed under either the ''[[Artistic License]]'' or the [[GPL]]. It is available for most [[operating system|operating systems]] but is particularly prevalent on [[Unix]] and [[Unix-like]] systems (such as [[Linux]], [[FreeBSD]], and [[Mac OS X]]), and is growing in popularity on [[Microsoft Windows]] systems. 
+
+=== Criticism ===
 
 Perl is regarded by both its proponents and detractors as something of a grab bag of features and syntax. The difference between the two camps lies in whether this is seen as a virtue or a vice. Critics argue that the language's support for different "dialects" and paradigms leads to "write-only" code, and that its easily-obfuscated mixture of [[sigil (computer programming)|sigil]]s, special variables, and "[[Huffman coding|Huffman encoded]]" shortcuts renders Perl code indistinguishable from "[[line noise]]". Perl votaries maintain that the language's expressiveness and varied heritage are what make it so useful. Reference is often made to natural languages such as [[English language|English]], and to [[evolution]]. For example, Larry Wall has argued that:
 
@@ -16,16 +48,20 @@ Perl is regarded by both its proponents and detractors as something of a grab ba
 
 In recognition of its pungent-but-practical nature, Perl has adopted the [[camel]] as its mascot; and the [[O'Reilly Media|O'Reilly]] manual on Perl, ''[[Programming Perl]]'', is known as the '''camel book''': so named because of the camel that graces its cover.
 
-== Implementation ==
-A huge collection of freely usable [[perl module]]s, ranging from advanced mathematics to database connectivity, networking and more, can be downloaded from a network of sites called [[CPAN]], an [[Acronym|acronym]] for Comprehensive Perl Archive Network. Most or all of the software on CPAN is also available under either the [[Artistic License]], the [[GPL]], or both. As of January 1, 2005, CPAN includes more than 7,000 modules, contributed by nearly 4,000 authors.
+=== Implementation ===
 
-A major advantage of Perl for those who work with large quantities of data is that it is highly scalable, as it does not place arbitrary limits on the sizes of its built in data structures. Resources permitting, a Perl program can read an entire multi-gigabyte file into RAM. This flexibility in the face of bulky data dumps has made Perl popular among [[bioinformatics]] researchers, who routinely read substantial fractions of the human genomic sequence into Perl data structures.
+Perl is implemented as a core interpreter, written in C, together with a large collection of modules, written in Perl and C. The source distriubtion is currently 12MB, tar'd and compressed. The interpreter is 150K lines of C code, and compiles to a 1MB executable on typical machine architectures. There are nearly 500 modules in the distribution, comprising 200K lines of Perl and an additional 350K lines of C code.
+
+Perl has been ported to over a hundred different platforms, and the mission of making the language available everywhere is commemorated in the name of the main newsgroup for issues relating to perl development, "perl5-porters". Perl is widely used in [[web development]], [[finance]] and [[bioinformatics]], and indeed in most sectors where a premium is placed on rapid development and the availability of a large number of standard and 3rd-party modules. Because of its wide availability, Perl, like [[Java programming language|Java]], is often considered to be a platform in its own right, packaging a Unix-like environment in which software can be written once, and generally run without modifications almost everywhere. In addition to its numerous binary ports, Perl can, with only 6 reported exceptions, be compiled from [[source code|source]] on all Unix-like, [[POSIX]]-compliant or otherwise Unix-compatible platforms, including [[AmigaOS]], [[BeOS]], [[Cygwin]], and [[Mac OS X]]. Custom binary ports are available for [[Microsoft Windows|Windows]] (ActivePerl) and [[Mac OS|Mac OS Classic]] (MacPerl). [http://www.perl.com/CPAN/ports/]
+
+A huge collection of freely usable [[perl module]]s, ranging from advanced mathematics to database connectivity, networking and more, can be downloaded from a network of sites called [[CPAN]], an [[Acronym|acronym]] for Comprehensive Perl Archive Network. Much of the software on CPAN is also available under either the [[Artistic License]], the [[GPL]], or both. As of January 1, 2005, CPAN includes more than 7,000 modules, contributed by nearly 4,000 authors.
 
 CPAN.pm is also the name of the Perl module that downloads and installs other Perl modules from one of the CPAN mirror sites: such installations can be done with interactive prompts, or can be fully automated.
 
 Although Perl has most of the ease-of-use features of an interpreted language, it does not strictly interpret and execute source code one line at a time. Rather, perl (the program) first compiles an entire program into an internal form (a parse tree) which is then optimized before being run.  Perl's [[formal grammar]] is interesting in that it is context-free but cannot be parsed by a [[Yacc]] generated parser. This produces a number of differences from traditional interpreters. Any syntax errors are caught during the compile stage instead of later during execution. Subroutine calls can be placed in the file before the subroutines themselves are defined. And long-running programs are rather fast and efficient compared to strictly-interpreted languages, at the expense of short programs suffering the overhead of the compile-optimize stage. Since version 5.005 it has been possible to compile a Perl program to byte code to save the compilation stage on later executions, though the "interpreter" is still needed to execute that code. This could be seen as a precursor to [[Parrot virtual machine|Parrot]].
 
 == Current version ==
+
 The current version, 5.8.6, released on [[November 27]] [[2004]], includes [[Unicode]] support. Development of the next major release, Perl 6, is also underway. It will run on [[Parrot virtual machine|Parrot]], a [[virtual machine]] which is being developed as a possible multi-language target architecture.
 
 == Built-in data types ==
@@ -393,6 +429,7 @@ The Perl community has set aside the "Acme" namespace for modules that are fun o
 
 The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.gz source distribution]. They have no "official" location on the web, but are often available at the sites listed above under [[#External links]]
 
+* perlintro - a brief introduction and overview of Perl
 * perlsyn - Perl syntax
 * perlre - Perl regular expressions
  
