@@ -441,6 +441,8 @@ Another popular pastime is Perl golf. As with [[golf|the physical sport]], the o
 
 Another tradition among Perl [[hacker]]s is writing [[Just another Perl hacker|JAPH]]s, which are short obfuscated programs that print out the phrase "Just another perl hacker,".
 
+One of the most bizarre Perl modules is Lingua::Romana::Perligata[http://search.cpan.org/~dconway/Lingua-Romana-Perligata-0.50/lib/Lingua/Romana/Perligata.pm]. This module translates the rest of the source code of the script that uses it from Latin into Perl, allowing the programmer to write executable programs in Latin source code.
+
 == Perl humor == 
 *[http://wikibooks.org/wiki/Programming:Perl_humour Perl humour on wikibooks]
 *[http://www.perl.com/pub/a/2003/07/16/soto2003.html State of the Onion 2003 (Larry Wall on Perl 6)]
