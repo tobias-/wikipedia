@@ -633,6 +633,25 @@ One of the most bizarre Perl modules is Lingua::Romana::Perligata. This module t
 
 {{Major programming languages small}}
 
-[[cs:Perl]] [[da:Perl]] [[de:Perl]] [[et:Perl]] [[es:Perl]] [[eo:Perl Komputillingvo]] [[fr:Perl (langage)]] [[it:Perl]] [[ja:Perl]] [[lb:Perl]] [[lt:Perl]] [[nl:Perl]] [[pl:Perl]] [[pt:Perl]] [[fi:Perl]] [[sv:Perl]] [[zh:Perl]]
-
 [[Category:Perl|*]][[Category:Curly bracket programming languages]][[Category:Free software]][[Category:NET programming languages]][[Category:Procedural programming languages]][[Category:Scripting languages]] [[Category:Text-oriented programming languages]]
+
+<!-- interwiki -->
+
+[[cs:Perl]]
+[[da:Perl]]
+[[de:Perl]]
+[[et:Perl]]
+[[es:Perl]]
+[[eo:Perl Komputillingvo]]
+[[fr:Perl (langage)]]
+[[hr:Perl]]
+[[it:Perl]]
+[[ja:Perl]]
+[[lb:Perl]]
+[[lt:Perl]]
+[[nl:Perl]]
+[[pl:Perl]]
+[[pt:Perl]]
+[[fi:Perl]]
+[[sv:Perl]]
+[[zh:Perl]]
