@@ -157,7 +157,8 @@ Here is its output:
 
 <center>
 ===Regular expressions with Perl examples===
-<p><table BORDER CELLPADDING="5" WIDTH="80%">
+
+<table BORDER CELLPADDING="5" WIDTH="80%">
 <tr>
 <th>Regular Expression</th>
 <th>Description</th>
