@@ -455,7 +455,7 @@ Before the language's official release Wall discovered that there was already a 
 [[es:Perl]]
 [[et:Perl]]
 [[fi:Perl]]
-[[fr:Langage de programmation Perl]]
+[[fr:Perl (langage)]]
 [[it:Perl]]
 [[ja:Perl]]
 [[lt:Perl]]
