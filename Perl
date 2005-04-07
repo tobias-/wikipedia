@@ -112,6 +112,8 @@ Prefixing '$#' to the name of an array gives the last index of the array. For ex
 
   $count_friends = $#friends + 1;
 
+(Note that this method of counting array elements is discouraged since the first index of arrays can be changed by modifying the <code>$[</code> variable.)
+
 Entire hashes begin with '%', as in %address.
 
 ==Control structures==
