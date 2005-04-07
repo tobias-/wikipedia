@@ -103,16 +103,14 @@ Arrays are named with '@', indicating that multiple values are to be returned. F
   @months[2,3,4]        # same as ( $months[2], $months[3], $months[4] )
   @address{'Jim','Bob'} # same as ( $address{'Jim'}, $address{'Bob'} )
 
-It is often helpful to know the length of an array.  Lets say you want to have a scalar 
-(let's call it $length) that you want to contain the length of an array (called @array)
-which contains 10 elements.  You could use one of the two methods to assign to length of
-the array to scalar variable $length,
+The number of elements in an array can be obtained by assigning the array in scalar context, as in
 
-  $length = scalar(@array);   # scalar $length now equals 10
-  $length = $#array + 1;      # since $#array returns the highest index in the array
-                              # 1 must be added to it to get the length
+  $count_friends = scalar @friends;
+  $count_friends = @friends; # same as above
 
+Prefixing '$#' to the name of an array gives the last index of the array. For example, another way to determine the number of elements in an array is
 
+  $count_friends = $#friends + 1;
 
 Entire hashes begin with '%', as in %address.
 
