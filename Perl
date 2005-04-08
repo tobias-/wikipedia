@@ -279,7 +279,7 @@ regular expressions.
 However, it diverged before the first release of Perl,
 and has since grown to include many more features.
 
-The <code>m//</code> (match) operator introduces a regular expression match.
+The <code>m//</code> (match) operator introduces a regular expression match. (Note that the leading <code>m</code> is not required and is often omitted.)
 In the simplest case, an expression like
 
   $x =~ m/abc/
