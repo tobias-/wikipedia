@@ -38,7 +38,7 @@ Perl has several mottos that convey aspects of its design and use. One is ''Ther
 
 Its versatility permits versions of many programming paradigms: [[procedural programming|procedural]], [[functional programming|functional]], and [[Object Oriented Programming|object-oriented]] (though some claim that Perl is not a cleanly designed language because of its multiple paradigms). 
 
-Perl is [[free software movement|free software]], and may be distributed under either the ''[[Artistic License]]'' or the [[GPL]]. It is available for most [[operating system|operating systems]] but is particularly prevalent on [[Unix]] and [[Unix-like]] systems (such as [[Linux]], [[FreeBSD]], and [[Mac OS X]]), and is growing in popularity on [[Microsoft Windows]] systems. 
+Perl is [[free software movement|free software]], and may be distributed under either the ''[[Artistic License|Artistic]]'' or the [[GPL]] License. It is available for most [[operating system|operating systems]] but is particularly prevalent on [[Unix]] and [[Unix-like]] systems (such as [[Linux]], [[FreeBSD]], and [[Mac OS X]]), and is growing in popularity on [[Microsoft Windows]] systems.
 
 === Criticism ===
 
