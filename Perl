@@ -439,6 +439,7 @@ The Perl community has set aside the "Acme" namespace for modules that are fun o
 
 *[http://groups.google.com/groups?selm=4628%40sdcrdcf.UUCP First reference to "Perl" on Usenet]
 *[http://dev.perl.org/perl1/ The origin of Perl] &ndash; "Stability. Speed. Simplicity. perl1 is here."
+*[http://history.perl.org/PerlTimeline.html The Perl Timeline]
 
 ===Miscellaneous===
 *[http://dmoz.org/Computers/Programming/Languages/Perl/ Perl related websites] in the [[Open Directory Project]]
