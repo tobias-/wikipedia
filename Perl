@@ -448,7 +448,7 @@ The Perl community has set aside the "Acme" namespace for modules that are fun o
 
 ===Criticism===
 
-* [http://xahlee.org/UnixResource_dir/perlr.html] A Survey of Perl literature in 2000, and critical essays on its creator Larry Wall and the Perl cult nature.
+* [http://xahlee.org/UnixResource_dir/perlr.html] A bombastic opinion editorial on Perl literature and Perl's creator Larry Wall.
 
 ==Books==
 {{book}}
