@@ -428,7 +428,7 @@ The Perl community has set aside the "Acme" namespace for modules that are fun o
 *[http://www.indigostar.com/indigoperl.htm IndigoPerl] &ndash; another distribution of Perl for Microsoft Windows
 
 ===Development===
-*[http://www.scriptdownloads.com/ Perl Scripts] &mdash; A community that allows programmers to sell scripts and purchasers to buy.
+
 *[http://dev.perl.org/perl5/ Perl 5 development]
 *[http://dev.perl.org/perl6/ Perl 6 development]
 *[http://www.parrotcode.org/ Parrot virtual machine]
