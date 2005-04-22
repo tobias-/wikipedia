@@ -270,7 +270,7 @@ Named parameters are often simulated by passing a hash. For example:
 
 The Perl language includes a specialized syntax for writing [[regular expression]]s (REs),
 and the interpreter contains an engine for matching strings to REs.
-The RE engine uses a backtracking algorithm; 
+The RE engine uses a [[backtracking]] algorithm; 
 this extends its capabilities from simple pattern matching
 to string capture and substitution.
 
