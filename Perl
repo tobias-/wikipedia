@@ -10,7 +10,7 @@ Perl is a general-purpose programming language originally developed for text man
 The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal). Its major features are that it's easy to use, supports both procedural and object-oriented (OO) programming, has powerful built-in support for text processing, and has one of the world's most impressive collections of third-party modules. 
 </blockquote>
 
-:=== Language features ===
+=== Language features ===
 
 The overall structure of Perl derives broadly from C. Perl is a procedural programming language, with variables, expressions, assignment statements, brace-delimited code blocks, control structures, and subroutines.
 
@@ -22,7 +22,7 @@ In Perl 5, features were added that support complex data structures and an [[obj
 
 All versions of Perl do automatic data typing and memory management. The  interpreter knows the type and storage requirements of every data object in the program; it allocates and frees storage for them as necessary. Legal type conversions are done automatically at run time; illegal type conversions are compile-time errors. It is not possible, within the language, to leak memory, crash the interpreter, or corrupt its internal data representation.
 
-:=== Applications ===
+=== Applications ===
 
 Perl has many and varied applications.
 
@@ -32,7 +32,7 @@ Perl finds many applications as a ''glue language'', tying together systems and 
 
 Perl is widely used in [[finance]] and [[bioinformatics]], where it is valued for rapid application development, ability to handle large data sets, and the availability of many standard and 3rd-party modules.
 
-:=== Philosophy ===
+=== Philosophy ===
 
 Perl has several mottos that convey aspects of its design and use. One is ''There's more than one way to do it'' (TMTOWTDI - usually pronounced 'Tim Toady'). Another is ''Perl: the Swiss Army Chainsaw of Programming Languages''. A stated design goal of Perl is to "make easy tasks easy and difficult tasks possible". 
 
@@ -40,7 +40,7 @@ Its versatility permits versions of many programming paradigms: [[procedural pro
 
 Perl is [[free software movement|free software]], and may be distributed under either the ''[[Artistic License|Artistic]]'' or the ''[[GPL]]'' License. It is available for most [[operating system|operating systems]] but is particularly prevalent on [[Unix]] and [[Unix-like]] systems (such as [[Linux]], [[FreeBSD]], and [[Mac OS X]]), and is growing in popularity on [[Microsoft Windows]] systems.
 
-:=== Criticism ===
+=== Criticism ===
 
 Perl is regarded by both its proponents and detractors as something of a grab bag of features and syntax. The difference between the two camps lies in whether this is seen as a virtue or a vice. Critics argue that the language's support for different "dialects" and paradigms leads to "write-only" code, and that its easily-obfuscated mixture of [[sigil (computer programming)|sigil]]s, special variables, and "[[Huffman coding|Huffman encoded]]" shortcuts renders Perl code indistinguishable from "[[line noise]]". Perl votaries maintain that the language's expressiveness and varied heritage are what make it so useful. Reference is often made to natural languages such as [[English language|English]], and to [[evolution]]. For example, Larry Wall has argued that:
 
@@ -48,7 +48,7 @@ Perl is regarded by both its proponents and detractors as something of a grab ba
 
 In recognition of its pungent-but-practical nature, Perl has adopted the [[camel]] as its mascot; and the [[O'Reilly Media|O'Reilly]] manual on Perl, ''[[Programming Perl]]'', is known as the '''camel book''': so named because of the camel that graces its cover.
 
-:=== Implementation ===
+=== Implementation ===
 
 Perl is implemented as a core interpreter, written in C, together with a large collection of modules, written in Perl and C. The source distribution is currently 12 MB, tar'd and compressed. The interpreter is 150,000 lines of C code and compiles to a 1 MB executable on typical machine architectures. Alternately, the interpreter can be compiled to a link library and embedded in other programs. There are nearly 500 modules in the distribution, comprising 200,000 lines of Perl and an additional 350,000 lines of C code. Much of the C code in the modules consists of character encoding tables.
 
@@ -64,7 +64,7 @@ A huge collection of freely usable [[perl module]]s, ranging from advanced mathe
 
 CPAN.pm is also the name of the Perl module that downloads and installs other Perl modules from one of the CPAN mirror sites: such installations can be done with interactive prompts or can be fully automated.
 
-:===History===
+===History===
 
 Larry Wall began work on Perl in 1987, and released version 1.0 to the comp.sources.misc newsgroup on 1987 Dec 18. The language expanded rapidly over the next few years. Perl 2, released in 1988, featured a better regular expression engine. Perl 3, released in 1989, added support for binary data.
 
@@ -121,7 +121,7 @@ Entire hashes begin with '%', as in %address.
 
 The basic control structures are similar to those used in the [[C programming language|C]] or [[Java programming language|Java]] programming languages:
 
-:===Loops===
+===Loops===
 
  ''label'' while ( ''expr'' ) ''block''
  ''label'' while ( ''expr'' ) ''block'' continue ''block''
@@ -167,7 +167,7 @@ By itself, ''do'' executes a string of statements once, and evaluates to the val
 
   do ''block'';
 
-:===If-then statements===
+===If-then statements===
 
  if ( ''expr'' ) ''block''
 
@@ -190,7 +190,7 @@ An empty array or hash is evaluated in a scalar context, yielding false:
 
 Nothing is printed in this example.
 
-:===Statement modifiers===
+===Statement modifiers===
 
 For simple statements, <code>while</code>, <code>until</code>, <code>if</code>, <code>unless</code> and <code>foreach</code> can also be used as statement modifiers:
 
@@ -212,7 +212,7 @@ The keywords <code>for</code> and <code>foreach</code> are synonyms and are alwa
 
 As noted earlier, the modifiers ''while'' and ''until'' can be combined with ''do'' to create a multiple-statement looping structure.
 
-:===switch statement===
+===switch statement===
 
 There is no switch (multi-way branch) statement in Perl 5.
 The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures, none entirely satisfactory.
@@ -222,7 +222,7 @@ The <code>Switch</code> module makes most of the functionality of the Perl 6 swi
 available to Perl 5 programs.
 
 
-:===goto statement===
+===goto statement===
 
 Perl includes a <code>goto</code> statement, but it is virtually never used.
 The implementation is slow, 
