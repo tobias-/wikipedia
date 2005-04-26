@@ -149,8 +149,8 @@ In ''foreach'', the ''var'' is a scalar variable. It is optional, and, if omitte
 
 In addition, any simple expression (that is, any non-block) can be executed repeatedly by following it by one of the qualifiers:
 
-    while (''expr'')
-    until (''expr'')
+    while ''expr''
+    until ''expr''
 
 which have the expected meaning.
 
