@@ -119,7 +119,7 @@ Entire hashes begin with '%', as in %address.
 
 ==Control structures==
 
-The basic control structures are similar to those used in the [[C programming language|C]] or [[Java programming language|Java]] programming languages:
+The basic control structures are similar to those used in the [[C programming language|C]] or [[Java programming language|Java]] programming languages, but they have been extended in several ways.
 
 ===Loops===
 
@@ -129,23 +129,23 @@ The basic control structures are similar to those used in the [[C programming la
  ''label'' foreach ''var'' ( ''list'' ) ''block''
  ''label'' foreach ''var'' ( ''list'' ) ''block'' continue ''block''
 
-where ''block'' is a sequence of one of more perl statements surrounded by braces:
+where ''block'' is a sequence of one of more Perl statements surrounded by braces:
 
  { ''statement(s)'' }
 
 The label, which is terminated by a colon, is optional, but, if present, can be used by loop control statements.
 
-* The ''next'' statement moves to the next iteration of the loop identified by the label.
-* The ''last'' statement immediately terminates execution of the loop identified by the label.
-* The ''redo'' statement restarts the current iteration of the loop identified by the label.
+* The <code>next</code> statement moves to the next iteration of the loop identified by the label.
+* The <code>last</code> statement immediately terminates execution of the loop identified by the label.
+* The <code>redo</code> statement restarts the current iteration of the loop identified by the label.
 
-Within nested loops, the use of the label with ''next'', ''redo'' and ''last'' enables control to move from an inner loop to an outer one, or out of the outer loop altogether.
+Within nested loops, the use of the label with <code>next</code>, <code>last</code> and <code>redo</code> enables control to move from an inner loop to an outer one, or out of the outer loop altogether.
 
-In the ''for'' statement, the semantics are similar to [[C programming language|C]]. The first expression is evaluated prior to the first loop iteration; the second expression is evaluated prior to each iteration and the loop is terminated if it evaluates to boolean false; and the third expression is evaluated after each iteration, prior to deciding whether to perform the next.
+In the <code>for</code> statement, the semantics are similar to [[C programming language|C]]. The first expression is evaluated prior to the first loop iteration; the second expression is evaluated prior to each iteration and the loop is terminated if it evaluates to boolean false; and the third expression is evaluated after each iteration, prior to deciding whether to perform the next.
 
-The use of a ''continue'' block after a ''while'' or ''foreach'' statement allows code to be executed after each iteration - even if the current iteration has been cut short by a ''next'' statement.
+The use of a <code>continue</code> block after a <code>while</code> or <code>foreach</code> statement allows code to be executed after each iteration&mdash;even if the current iteration has been cut short by a <code>next</code> statement.
 
-In ''foreach'', the ''var'' is a scalar variable. It is optional, and, if omitted, the default loop iterator variable $_ can be used instead.  
+In <code>foreach</code>, the <code>var</code> is a scalar variable. It is optional, and, if omitted, the default loop iterator variable $_ can be used instead.  The keywords <code>for</code> and <code>foreach</code> are synonyms and are always interchangeable.
 
 In addition, any simple expression (that is, any non-block) can be executed repeatedly by following it by one of the qualifiers:
 
@@ -154,20 +154,20 @@ In addition, any simple expression (that is, any non-block) can be executed repe
 
 which have the expected meaning.
 
-When combined with the ''do'' construct, this provides a form of looping:
+When combined with the <code>do</code> construct, this provides a form of looping:
 
   do ''block'' while (''expr'');
   do ''block'' until (''expr'');
 
 The test is performed after each iteration, so that execution of the block is guaranteed to take place at least once.
 
-Due to a linguistic foible of the Perl language, these are not regarded as true loops; the ''next'', ''last'' and ''redo'' statements cannot be used inside a 'do' block.
+Due to a linguistic foible of the Perl language, these are not regarded as true loops; the <code>next</code>, <code>last</code> and <code>redo</code> statements cannot be used to control a <code>do</code> block.
 
-By itself, ''do'' executes a string of statements once, and evaluates to the value of the last statement:
+By itself, <code>do</code> executes a string of statements once, and evaluates to the value of the last statement:
 
   do ''block'';
 
-===If-then statements===
+===Conditional statements===
 
  if ( ''expr'' ) ''block''
 
@@ -180,9 +180,11 @@ By itself, ''do'' executes a string of statements once, and evaluates to the val
  elsif ''block''
  else ''block''
 
-''block'' is { ''statement(s)'' }
+where ''block'' is a sequence of one of more Perl statements surrounded by braces:
 
-The expression is evaluated in a boolean sense.  If it is numeric, any non-zero value is true.  If it is string, any string of non-zero length ''except'' "0" is true.  "" is false.  "0" is false.  "0.0" is true. "00" is true. "-0" is true.
+ { ''statement(s)'' }
+
+The expression is evaluated in a boolean sense.  If it is numeric, any non-zero value is true.  If it is a string, any string of non-zero length ''except'' "0" is true.  "" and "0" are false.  "0.0", "00", "-0", and "0 but true" are all true, even though they are all equivalent to zero when used for arithmetic; values like these are sometimes used when a successful operation needs to return 0.
 
 An empty array or hash is evaluated in a scalar context, yielding false:
 
@@ -202,34 +204,27 @@ For simple statements, <code>while</code>, <code>until</code>, <code>if</code>, 
 
 The above modifiers cannot be nested, so this would be incorrect:
 
- ''statement'' if ''expression'' for ''list'';       #INCORRECT
+ ''statement'' if ''expression'' for ''list'';         #INCORRECT
 
 and should be written as one of:
 
  ''expression'' and ''statement'' for ''list'';
- for (''list'') { ''statement'' if ''expression'' }  #Preferred form
 
-The keywords <code>for</code> and <code>foreach</code> are synonyms and are always interchangeable.
+ for ( ''list'' ) { ''statement'' if ''expression'' }  #Preferred form
 
-As noted earlier, the modifiers ''while'' and ''until'' can be combined with ''do'' to create a multiple-statement looping structure.
+As noted earlier, the modifiers <code>while</code> and <code>until</code> can be combined with ''do'' to create a multiple-statement looping structure.
 
-===switch statement===
+===Switch statement===
 
-There is no switch (multi-way branch) statement in Perl 5.
-The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures, none entirely satisfactory.
+There is no switch (multi-way branch) statement in Perl 5. The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures, none entirely satisfactory.
 
-A very general and flexible switch statement has been designed for [[Perl_6|Perl 6]].
-The <code>Switch</code> module makes most of the functionality of the Perl 6 switch
-available to Perl 5 programs.
-
+A very general and flexible switch statement has been designed for [[Perl 6]], but based around the keywords <code>given</code> and <code>when</code> rather than the conventional <code>switch</code> and <code>case</code>.  The <code>Switch</code> module makes most of the functionality of the Perl 6 switch available to Perl 5 programs with both a conventional and a Perl 6 syntax.
 
 ===goto statement===
 
-Perl includes a <code>goto</code> statement, but it is virtually never used.
-The implementation is slow, 
-and situations where a <code>goto</code> is called for in other languages
-either tend not to occur in Perl
-or are better handled with other control structures, such as labeled loops.
+Perl includes a <code>goto</code> statement, but it is virtually never used, and experienced Perl programmers discourage its use. The implementation is slow, and situations where a <code>goto</code> is called for in other languages either tend not to occur in Perl or are better handled with other control structures, such as labeled loops.
+
+A special form of <code>goto</code> takes the name of a subroutine instead of a label; this performs a [[tail call]], terminating the current subroutine and immediately calling the one provided.  Use of the so-called <code>goto SUB</code> form is culturally accepted but unusual because the operation is only rarely necessary.
 
 == Subroutines ==
 [[Subroutine]]s in Perl can be specified with the [[keyword]] <code>sub</code>.  [[Parameter (computer science)|Parameter]]s passed to a subroutine appear in the subroutine as elements of the local (to the subroutine) scalar array <code>@_</code>.  Calling a subroutine with three scalar variables results in a <code>@_</code> with three elements, usually referred to as the scalars <code>$_[0]</code>, <code>$_[1]</code>, and <code>$_[2]</code>. Also <code>shift</code> (from [[shell script| shell scripting]]) can be used, without specifying <code>@_</code>, to obtain each value.
