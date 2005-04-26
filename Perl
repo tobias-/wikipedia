@@ -391,6 +391,7 @@ The Perl community has set aside the "Acme" namespace for modules that are fun o
 * [http://search.cpan.org/dist/Acme-Currency/ Acme::Currency] allows you to change the "$" prefix for scalar variables to some other character
 * [http://search.cpan.org/dist/Acme-ProgressBar/ Acme::ProgressBar] is a horribly inefficient way to indicate progress for a task
 * [http://search.cpan.org/dist/Acme-VerySign/ Acme::VerySign] satirizes the widely-criticized [[Verisign]] SiteFinder service
+* [http://search.cpan.org/~dconway/Acme-Don-t-1.01/t.pm Acme::Don't] implements the logical opposite of the <code>do</code> keyword&mdash;<code>don't</code>, which does not execute the provided block.
 
 == Perl humor == 
 *[http://wikibooks.org/wiki/Programming:Perl_humour Perl humour on wikibooks]
