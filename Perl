@@ -202,11 +202,12 @@ For simple statements, <code>while</code>, <code>until</code>, <code>if</code>, 
 
 The above modifiers cannot be nested, so this would be incorrect:
 
- ''statement'' if ''expression'' for ''list'';
+ ''statement'' if ''expression'' for ''list'';       #INCORRECT
 
-and should be written as:
+and should be written as one of:
 
  ''expression'' and ''statement'' for ''list'';
+ for (''list'') { ''statement'' if ''expression'' }  #Preferred form
 
 The keywords <code>for</code> and <code>foreach</code> are synonyms and are always interchangeable.
 
