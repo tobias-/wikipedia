@@ -26,7 +26,7 @@ All versions of Perl do automatic data typing and memory management. The  interp
 
 Perl has many and varied applications.
 
-Perl has been used since the early days of the web to write [[Common Gateway Interface|CGI]] scripts, and is a component of the popular [[LAMP]] ([[Linux]]/[[Apache]]/[[MySQL]]/(Perl/[[PHP]]/[[Python programming language|Python]])) platform for web development. Perl has been called "the glue that holds the web together". <!-- a source for this quote would be nice --> Large systems written in Perl include [[Slashdot]] and early implementations of [[PHP]] and [[Wikipedia]].
+Perl has been used since the early days of the web to write [[Common Gateway Interface|CGI]] scripts, and is a component of the popular [[LAMP]] ([[Linux]]/[[Apache]]/[[MySQL]]/(Perl/[[PHP]]/[[Python programming language|Python]])) platform for web development. Perl has been called "the glue that holds the web together". <!-- a source for this quote would be nice --> Large systems written in Perl include [[Slashdot]] and early implementations of [[PHP]] [http://www.linuxselfhelp.com/HOWTO/PHP-HOWTO-6.html] and [[Wikipedia]].
 
 Perl finds many applications as a "glue language", tying together systems and interfaces that were not specifically designed to interoperate. Systems administrators use Perl as an all-purpose tool; short Perl programs can be entered and run on a single command line.
 
