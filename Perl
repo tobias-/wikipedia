@@ -346,7 +346,7 @@ including advanced mathematics, database connectivity, and networking.
 
 Modules on CPAN can be downloaded and installed by hand.
 However, it is common for modules to depend on other modules,
-and following modules dependencies by hand can be tedious.
+and following module dependencies by hand can be tedious.
 The CPAN.pm module understands module dependencies, 
 and can be configured to automatically download and install a module and,
 recursively, all modules that it requires.
