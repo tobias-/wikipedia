@@ -117,114 +117,46 @@ Entire hashes begin with '%', as in %address.
 
 ==Control structures==
 
-The basic control structures are similar to those used in the [[C programming language|C]] or [[Java programming language|Java]] programming languages, but they have been extended in several ways.
+Perl has several kinds of control structures.
 
-===Loops===
+It has block-oriented control structures,
+similar to those in the [[C programming language|C]] and [[Java programming language|Java]] programming languages.
+Conditions are surrounded by parentheses, and controlled blocks are surrounded by braces.
 
- ''label'' while ( ''expr'' ) ''block''
- ''label'' while ( ''expr'' ) ''block'' continue ''block''
- ''label'' for ( ''expr1'' ; ''expr2'' ; ''expr3'' ) ''block''
- ''label'' foreach ''var'' ( ''list'' ) ''block''
- ''label'' foreach ''var'' ( ''list'' ) ''block'' continue ''block''
+ ''label'' while ( ''cond'' ) { ... }
+ ''label'' while ( ''cond'' ) { ... } continue { ... }
+ ''label'' for ( ''init-expr'' ; ''cond-expr'' ; ''incr-expr'' ) { ... }
+ ''label'' foreach ''var'' ( ''list'' ) { ... }
+ ''label'' foreach ''var'' ( ''list'' ) { ... } continue { ... }
+ if ( ''cond'' ) { ... }
+ if ( ''cond'' ) { ... } else { ... } 
+ if ( ''cond'' ) { ... } elsif ( ''cond'' ) { ... } else { ... } 
 
-where ''block'' is a sequence of one of more Perl statements surrounded by braces:
+Where only a single statement is being controlled,
+statement modifiers provide a lighter syntax.
 
- { ''statement(s)'' }
+ ''statement'' if      ''cond'' ;
+ ''statement'' unless  ''cond'' ;
+ ''statement'' while   ''cond'' ;
+ ''statement'' until   ''cond'' ;
+ ''statement'' foreach ''list'' ;
 
-The label, which is terminated by a colon, is optional, but, if present, can be used by loop control statements.
+Short-circuit logical operators are commonly used to effect
+control flow at the expression level.
 
-* The <code>next</code> statement moves to the next iteration of the loop identified by the label.
-* The <code>last</code> statement immediately terminates execution of the loop identified by the label.
-* The <code>redo</code> statement restarts the current iteration of the loop identified by the label.
-
-Within nested loops, the use of the label with <code>next</code>, <code>last</code> and <code>redo</code> enables control to move from an inner loop to an outer one, or out of the outer loop altogether.
-
-In the <code>for</code> statement, the semantics are similar to [[C programming language|C]]. The first expression is evaluated prior to the first loop iteration; the second expression is evaluated prior to each iteration and the loop is terminated if it evaluates to boolean false; and the third expression is evaluated after each iteration, prior to deciding whether to perform the next.
-
-The use of a <code>continue</code> block after a <code>while</code> or <code>foreach</code> statement allows code to be executed after each iteration&mdash;even if the current iteration has been cut short by a <code>next</code> statement.
-
-In <code>foreach</code>, the <code>var</code> is a scalar variable. It is optional, and, if omitted, the default loop iterator variable $_ can be used instead.  The keywords <code>for</code> and <code>foreach</code> are synonyms and are always interchangeable.
-
-In addition, any simple expression (that is, any non-block) can be executed repeatedly by following it by one of the qualifiers:
-
-    while ''expr''
-    until ''expr''
-
-which have the expected meaning.
-
-When combined with the <code>do</code> construct, this provides a form of looping:
-
-  do ''block'' while (''expr'');
-  do ''block'' until (''expr'');
-
-The test is performed after each iteration, so that execution of the block is guaranteed to take place at least once.
-
-Due to a linguistic foible of the Perl language, these are not regarded as true loops; the <code>next</code>, <code>last</code> and <code>redo</code> statements cannot be used to control a <code>do</code> block.
-
-By itself, <code>do</code> executes a string of statements once, and evaluates to the value of the last statement:
-
-  do ''block'';
-
-===Conditional statements===
-
- if ( ''expr'' ) ''block''
-
- unless ( ''expr'' ) ''block''
-
- if ( ''expr'' ) ''block''
- else ''block''
-
- if ( ''expr'' ) ''block''
- elsif ''block''
- else ''block''
-
-where ''block'' is a sequence of one of more Perl statements surrounded by braces:
-
- { ''statement(s)'' }
-
-The expression is evaluated in a boolean sense.  If it is numeric, any non-zero value is true.  If it is a string, any string of non-zero length ''except'' "0" is true.  "" and "0" are false.  "0.0", "00", "-0", and "0 but true" are all true, even though they are all equivalent to zero when used for arithmetic; values like these are sometimes used when a successful operation needs to return 0.
-
-An empty array or hash is evaluated in a scalar context, yielding false:
-
- my @a=(); print "True" if @a;
-
-Nothing is printed in this example.
-
-===Statement modifiers===
-
-For simple statements, <code>while</code>, <code>until</code>, <code>if</code>, <code>unless</code> and <code>foreach</code> can also be used as statement modifiers:
-
- ''statement'' while ''Boolean expression'';
- ''statement'' until ''Boolean expression'';
- ''statement'' if ''Boolean expression'';
- ''statement'' unless ''Boolean expression'';
- ''statement'' foreach ''list'';
-
-The above modifiers cannot be nested, so this would be incorrect:
-
- ''statement'' if ''expression'' for ''list'';         #INCORRECT
-
-and should be written as one of:
-
- ''expression'' and ''statement'' for ''list'';
-
- for ( ''list'' ) { ''statement'' if ''expression'' }  #Preferred form
-
-As noted earlier, the modifiers <code>while</code> and <code>until</code> can be combined with ''do'' to create a multiple-statement looping structure.
-
-===Switch statement===
+ ''expr'' and ''expr''
+ ''expr'' or  ''expr''
 
 There is no switch (multi-way branch) statement in Perl 5. The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures, none entirely satisfactory.
+A very general and flexible switch statement has been designed for [[Perl 6]].  The <code>Switch</code> module makes most of the functionality of the Perl 6 switch available to Perl 5 programs.
 
-A very general and flexible switch statement has been designed for [[Perl 6]], but based around the keywords <code>given</code> and <code>when</code> rather than the conventional <code>switch</code> and <code>case</code>.  The <code>Switch</code> module makes most of the functionality of the Perl 6 switch available to Perl 5 programs with both a conventional and a Perl 6 syntax.
+Perl includes a <code>goto ''label''</code> statement, but it is virtually never used. It is considered poor form, the implementation is slow, and situations where a <code>goto</code> is called for in other languages either tend not to occur in Perl or are better handled with other control structures, such as labeled loops.
 
-===goto statement===
-
-Perl includes a <code>goto LABEL</code> statement, but it is virtually never used, and experienced Perl programmers discourage its use. The implementation is slow, and situations where a <code>goto</code> is called for in other languages either tend not to occur in Perl or are better handled with other control structures, such as labeled loops.
-
-There is also a <code>goto &SUB</code> statement that performs a [[tail call]].
-It terminates the current subroutine and immediately calls <code>SUB</code>.  
+There is also a <code>goto &''sub''</code> statement that performs a [[tail call]].
+It terminates the current subroutine and immediately calls the specified <code>''sub''</code>.  
 Use of this form is culturally accepted but unusual because it is rarely needed.
+
+See also [[Perl control structures]].
 
 == Subroutines ==
 [[Subroutine]]s in Perl can be specified with the [[keyword]] <code>sub</code>.  [[Parameter (computer science)|Parameter]]s passed to a subroutine appear in the subroutine as elements of the local (to the subroutine) scalar array <code>@_</code>.  Calling a subroutine with three scalar variables results in a <code>@_</code> with three elements, usually referred to as the scalars <code>$_[0]</code>, <code>$_[1]</code>, and <code>$_[2]</code>. Also <code>shift</code> (from [[shell script| shell scripting]]) can be used, without specifying <code>@_</code>, to obtain each value.
