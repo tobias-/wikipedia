@@ -220,9 +220,11 @@ A very general and flexible switch statement has been designed for [[Perl 6]], b
 
 ===goto statement===
 
-Perl includes a <code>goto</code> statement, but it is virtually never used, and experienced Perl programmers discourage its use. The implementation is slow, and situations where a <code>goto</code> is called for in other languages either tend not to occur in Perl or are better handled with other control structures, such as labeled loops.
+Perl includes a <code>goto LABEL</code> statement, but it is virtually never used, and experienced Perl programmers discourage its use. The implementation is slow, and situations where a <code>goto</code> is called for in other languages either tend not to occur in Perl or are better handled with other control structures, such as labeled loops.
 
-A special form of <code>goto</code> takes the name of a subroutine instead of a label; this performs a [[tail call]], terminating the current subroutine and immediately calling the one provided.  Use of the so-called <code>goto SUB</code> form is culturally accepted but unusual because the operation is only rarely necessary.
+There is also a <code>goto &SUB</code> statement that performs a [[tail call]].
+It terminates the current subroutine and immediately calls <code>SUB</code>.  
+Use of this form is culturally accepted but unusual because it is rarely needed.
 
 == Subroutines ==
 [[Subroutine]]s in Perl can be specified with the [[keyword]] <code>sub</code>.  [[Parameter (computer science)|Parameter]]s passed to a subroutine appear in the subroutine as elements of the local (to the subroutine) scalar array <code>@_</code>.  Calling a subroutine with three scalar variables results in a <code>@_</code> with three elements, usually referred to as the scalars <code>$_[0]</code>, <code>$_[1]</code>, and <code>$_[2]</code>. Also <code>shift</code> (from [[shell script| shell scripting]]) can be used, without specifying <code>@_</code>, to obtain each value.
