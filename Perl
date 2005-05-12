@@ -338,7 +338,7 @@ Perl sources, distributions, documentation, scripts, and&mdash;especially&mdash;
 
 Essentially everything on CPAN is freely available;
 much of the software is licensed under either the [[Artistic License]], the [[GPL]], or both.
-Anyone can upload software to CPAN, via
+Anyone can upload software to CPAN via
 [http://pause.perl.org PAUSE], the Perl Authors Upload Server.
 
 There are currently over 7,000 modules available on CPAN,
@@ -349,8 +349,8 @@ including advanced mathematics, database connectivity, and networking.
 Modules on CPAN can be downloaded and installed by hand.
 However, it is common for modules to depend on other modules,
 and following module dependencies by hand can be tedious.
-The CPAN.pm module understands module dependencies, 
-and can be configured to automatically download and install a module and,
+The CPAN.pm module understands module dependencies;
+it can be configured to automatically download and install a module and,
 recursively, all modules that it requires.
 
 == Perl 5 ==
