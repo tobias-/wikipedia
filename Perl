@@ -195,40 +195,68 @@ It terminates the current subroutine and immediately calls the specified <code>'
 Use of this form is culturally accepted but unusual because it is rarely needed.
 
 == Subroutines ==
-[[Subroutine]]s in Perl can be specified with the [[keyword]] <code>sub</code>.  [[Parameter (computer science)|Parameter]]s passed to a subroutine appear in the subroutine as elements of the local (to the subroutine) scalar array <code>@_</code>.  Calling a subroutine with three scalar variables results in a <code>@_</code> with three elements, usually referred to as the scalars <code>$_[0]</code>, <code>$_[1]</code>, and <code>$_[2]</code>. Also <code>shift</code> (from [[shell script| shell scripting]]) can be used, without specifying <code>@_</code>, to obtain each value.
 
-Changes to elements in the <code>@_</code> array within the subroutine are reflected in the  elements in the calling subroutine.
+[[Subroutine]]s are defined with the <code>sub</code> [[keyword]],
+and invoked simply by naming them.
+Subroutine definitions may appear anywhere in the program.
+Parentheses are required for calls that preceed the definion.
 
-Subroutines naturally return the value of the last expression evaluated, though explicit use of the <code>return</code> statement is often encouraged for clarity.
+ foo();
+ sub foo { ... }
+ foo;
 
-An example subroutine definition and call follows:
+A list of arguments may be provided after the subroutine name.
+Arguments may be scalars, lists, or hashes.
 
-<pre>
- sub cube
- {
-   my $x = shift;
-   return $x ** 3;
- }
+ foo $a, @b, %c;
 
- $z = -4;
- $y = cube($z);
- print "$y\n";
-</pre>
+The parameters to a subroutine need not be declared as to either number or type;
+in fact, they may vary from call to call.
+Arrays are expanded to their elements, 
+hashes are expanded to a list of key/value pairs,
+and the whole lot is passed into the subroutine as one undifferentiated list of scalars.
 
-Named parameters are often simulated by passing a hash. For example:
+Whatever arguments are passed are available to the subroutine in the special array <code>@_</code>.
+The elements of <code>@_</code> are aliased to the actual arguments;
+changing an element of <code>@_</code> changes the corresponding argument.
 
-<pre>
- sub greeting
- {
-   my %person = @_;
-   return "Hello, $person{first} $person{last}!\n";
- }
+Elements of <code>@_</code> may be accessed by subscripting it in the usual way.
 
- print greeting(
-   first => 'Foo',
-   last  => 'Bar'
- );
-</pre>
+ $_[0], $_[1]
+
+However, the resulting code can be difficult to read,
+and the parameters have pass-by-reference semantics, 
+which may be undesirable.
+
+One common idiom is to assign <code>@_</code> to a list of named variables.
+
+ ($a, $b, $c) = @_;
+
+This effects both mnemonic parameter names and pass-by-value sematics.
+Another idiom is to shift parameters off of <code>@_</code>.
+This is especially common when the subroutine takes only one argument.
+
+ $a = shift;
+
+Subroutines may return values.
+
+ return 42, $x, @y, %z;
+
+If the subroutine does not exit via a <code>return</code> statement,
+then it returns the last expression evaluated within the subroutine body.
+Arrays and hashes in the return value are expanded to lists of scalars, 
+just as they are for arguments.
+
+The returned expression is evaluated in the calling context of the subroutine;
+this can surprise the unwary.
+
+ sub list  {      (4, 5, 6)     }
+ sub array { @a = (4, 5, 6); @a }
+ 
+ $a = list   # returns 6 - last element of list
+ $a = array  # returns 3 - number of elements in list
+ @a = list   # returns (4, 5, 6)
+ @a = array  # returns (4, 5, 6)
 
 ==Regular expressions==
 
