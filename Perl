@@ -366,6 +366,9 @@ Perl 6 is currently under development, and is planned to separate parsing and ru
 
 [[Parrot virtual machine|Parrot]] is the Perl 6 runtime, and can be programmed at a low level in [[Parrot assembly language]] (PASM) or [[Parrot IMC|Intermediate Code]] (IMC or PIR, for Parrot Intermediate Representation).
 
+See also
+*[http://www.perl.com/pub/a/2003/07/16/soto2003.html State of the Onion 2003 (Larry Wall on Perl 6)]
+
 == Perl code samples ==
 The canonical "[[hello world]]" program would be:
 
@@ -409,9 +412,8 @@ The Perl community has set aside the "Acme" namespace for modules that are fun o
 * [http://search.cpan.org/dist/Acme-VerySign/ Acme::VerySign] satirizes the widely-criticized [[Verisign]] SiteFinder service
 * [http://search.cpan.org/~dconway/Acme-Don-t-1.01/t.pm Acme::Don't] implements the logical opposite of the <code>do</code> keyword&mdash;<code>don't</code>, which does not execute the provided block.
 
-== Perl humor == 
+See also
 *[http://wikibooks.org/wiki/Programming:Perl_humour Perl humour on wikibooks]
-*[http://www.perl.com/pub/a/2003/07/16/soto2003.html State of the Onion 2003 (Larry Wall on Perl 6)]
 *[http://www.cmpe.boun.edu.tr/~kosar/other/lwall.html Larry Wall quotes]
 *[http://search.cpan.org/perldoc?Lingua::Romana::Perligata Lingua::Romana::Perligata - Write Perl in Latin!]
 *[http://www.perlmonks.org/index.pl?node_id=253797 A tutorial on Perligata]
