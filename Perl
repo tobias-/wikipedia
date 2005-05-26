@@ -462,10 +462,6 @@ See also
 *[http://www.tpj.com/ The Perl Journal] online only magazine about Perl
 *[http://books.perl.org/ Perl Book reviews]
 
-===Criticism===
-
-* [http://xahlee.org/UnixResource_dir/perlr.html] A bombastic opinion editorial on Perl literature and Perl's creator Larry Wall.
-
 ==Books==
 {{book}}
 *[[Programming Perl]] (also known as the ''Camel book'')
@@ -492,10 +488,14 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 
 {{Major programming languages small}}
 
-[[Category:Perl|*]][[Category:Curly bracket programming languages]][[Category:Free software]][[Category:.NET programming languages]][[Category:Procedural programming languages]][[Category:Scripting languages]] [[Category:Text-oriented programming languages]]
-[[Category:Programming languages]] 
-
-<!-- interwiki -->
+[[Category:Perl|*]]
+[[Category:Curly bracket programming languages]]
+[[Category:Free software]]
+[[Category:.NET programming languages]]
+[[Category:Procedural programming languages]]
+[[Category:Scripting languages]]
+[[Category:Text-oriented programming languages]]
+[[Category:Programming languages]]
 
 [[cs:Perl]]
 [[da:Perl]]
