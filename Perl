@@ -369,6 +369,8 @@ Perl 6 is currently under development, and is planned to separate parsing and ru
 See also
 *[http://www.perl.com/pub/a/2003/07/16/soto2003.html State of the Onion 2003 (Larry Wall on Perl 6)]
 
+In 2005, a separate Perl 6 implementation project called [[Pugs]] has been started by [[Autrijus Tang]], which has used the [[Haskell]] programming language to achieve a working interpreter within an extremely short timeframe.
+
 == Perl code samples ==
 The canonical "[[hello world]]" program would be:
 
