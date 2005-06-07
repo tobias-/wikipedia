@@ -32,20 +32,6 @@ Perl finds many applications as a "glue language", tying together systems and in
 
 Perl is widely used in [[finance]] and [[bioinformatics]], where it is valued for rapid application development, ability to handle large data sets, and the availability of many standard and 3rd-party modules.
 
-=== Philosophy ===
-
-Perl has several mottos that convey aspects of its design and use. One is ''There's more than one way to do it'' (TMTOWTDI - usually pronounced 'Tim Toady'). Another is ''Perl: the Swiss Army Chainsaw of Programming Languages''. A stated design goal of Perl is to "make easy tasks easy and difficult tasks possible". 
-
-Its versatility permits versions of many programming paradigms: [[procedural programming|procedural]], [[functional programming|functional]], and [[Object Oriented Programming|object-oriented]] (though some claim that Perl is not a cleanly designed language because of its multiple paradigms). 
-
-=== Criticism ===
-
-Perl is regarded by both its proponents and detractors as something of a grab bag of features and syntax. The difference between the two camps lies in whether this is seen as a virtue or a vice. Critics argue that the language's support for different "dialects" and paradigms leads to "write-only" code, and that its easily-obfuscated mixture of [[sigil (computer programming)|sigil]]s, special variables, and "[[Huffman coding|Huffman encoded]]" shortcuts renders Perl code indistinguishable from "[[line noise]]". Perl votaries maintain that the language's expressiveness and varied heritage are what make it so useful. Reference is often made to natural languages such as [[English language|English]], and to [[evolution]]. For example, Larry Wall has argued that:
-
-:''... we often joke that a camel is a horse designed by a committee, but if you think about it, the camel is pretty well adapted for life in the desert. The camel has evolved to be relatively self-sufficient. On the other hand, the camel has not evolved to smell good. Neither has Perl.''
-
-In recognition of its pungent-but-practical nature, Perl has adopted the [[camel]] as its mascot; and the [[O'Reilly Media|O'Reilly]] manual on Perl, ''[[Programming Perl]]'', is known as the '''camel book''': so named because of the camel that graces its cover.
-
 === Implementation ===
 
 Perl is implemented as a core interpreter, written in C, together with a large collection of modules, written in Perl and C. The source distribution is currently 12 [[megabyte|MB]] when packaged in a [[Tar (file format)|tar file]] and [[data compression|compressed]]. The interpreter is 150,000 lines of C code and compiles to a 1 MB executable on typical machine architectures. Alternately, the interpreter can be compiled to a link library and embedded in other programs. There are nearly 500 modules in the distribution, comprising 200,000 lines of Perl and an additional 350,000 lines of C code. Much of the C code in the modules consists of character encoding tables.
@@ -68,29 +54,9 @@ Perl is [[free software movement|free software]], and may be distributed under e
 
 Perl has been ported to over a hundred different platforms. Perl can, with only six reported exceptions, be compiled from [[source code|source]] on all Unix-like, [[POSIX]]-compliant or otherwise Unix-compatible platforms, including [[AmigaOS]], [[BeOS]], [[Cygwin]], and [[Mac OS X]]. It can be compiled from source on [[Microsoft Windows|Windows]]; however, many Windows installations lack a C compiler, so Windows users typically install a binary distribution, such as  [http://www.activestate.com/Products/ActivePerl/ ActivePerl] or [http://www.indigostar.com/indigoperl.htm IndigoPerl]. A custom port, [http://www.ptf.com/macperl/ MacPerl], is also available for [[Mac OS|Mac OS Classic]]. [http://www.perl.com/CPAN/ports/]
 
-===History===
+== Language structure ==
 
-Larry Wall began work on Perl in [[1987]], and released version 1.0 to the comp.sources.misc newsgroup on [[December 18]], [[1987]]. The language expanded rapidly over the next few years. Perl 2, released in [[1988]], featured a better regular expression engine. Perl 3, released in [[1989]], added support for binary data.
-
-Until [[1991]], the only documentation for Perl was a single (increasingly lengthy) man page. In 1991, [[Programming Perl]] (the Camel Book) was published, and became the de facto reference for the language. At the same time, the Perl version number was bumped to 4, not to mark a major change in the language, but to identify the version that was documented by the book.
-
-Perl 4 went through a series of maintenance releases, culminating in Perl 4.036 in [[1993]]. At that point, Larry Wall abandoned Perl 4 to begin work on Perl 5. Perl 4 remains at version 4.036 to this day.
-
-Development of Perl 5 continued into [[1994]]. The perl5-porters mailing list was established in [[May]] [[1994]] to coordinate work on porting Perl 5 to different platforms. It remains the primary forum for development, maintenance, and porting of Perl 5.
-
-Perl 5 was released on [[October 17]], [[1994]]. It was a nearly complete rewrite of the interpreter, and added many new features to the language, including objects, references, packages, and modules. Importantly, modules provided a mechanism for extending the language without modifying the interpreter. This allowed the core interpreter to stablize, even as it enabled ordinary Perl programmers to add new language features.
-
-On [[October 26]], [[1995]], the [[Comprehensive Perl Archive Network]] (CPAN) was established. CPAN is a collection of web sites that archive and distribute Perl sources, binary distributions, documentation, scripts, and modules. Originally, each CPAN site had to be accessed through its own URL; today, the single URL http://www.cpan.org automatically redirects to a CPAN site.
-
-As of [[2005]], Perl 5 is still being actively maintained. It now includes [[Unicode]] support. The last production release was Perl 5.8.6.
-
-At the [[2000]] [[Perl Conference]] [[Jon Orwant]] made a case for a major new language initiative. This led to a decision to begin work on a redesign of the language, to be called [[Perl 6]]. Proposals for new language features were solicited from the Perl community at large, and over 300 RFCs were submitted.
-
-Larry Wall spent the next few years digesting the RFCs and synthesizing them into a coherent framework for Perl 6. He has presented his design for Perl 6 in a series of documents called [[apocalypse (perl)|apocalypse]]s.
-
-In [[2001]], it was decided that Perl 6 would run on a cross-language [[virtual machine]] called [[Parrot virtual machine|Parrot]]. As of 2005, both Perl 6 and Parrot are under active development.
-
-== Data types ==
+=== Data types ===
 
 Perl has three fundamental [[data type]]s: [[scalar]]s, [[array|lists]], and [[hash table|hashes]]. A scalar is a single value; it may be a number, a [[String (computer science)|string]], or a
 [[Reference (computer science)|reference]]. A list is an ordered collection of scalars. A variable
@@ -143,7 +109,7 @@ There are a few functions that operate on entire hashes.
   @names     = keys   %address;
   @addresses = values %address;
 
-==Control structures==
+=== Control structures ===
 
 {{Main|Perl control structures}}
 
@@ -194,7 +160,7 @@ There is also a <code>goto &''sub''</code> statement that performs a [[tail call
 It terminates the current subroutine and immediately calls the specified <code>''sub''</code>.  
 Use of this form is culturally accepted but unusual because it is rarely needed.
 
-== Subroutines ==
+=== Subroutines ===
 
 [[Subroutine]]s are defined with the <code>sub</code> [[keyword]],
 and invoked simply by naming them.
@@ -258,7 +224,7 @@ this can surprise the unwary.
  @a = list   # returns (4, 5, 6)
  @a = array  # returns (4, 5, 6)
 
-==Regular expressions==
+=== Regular expressions ===
 
 The Perl language includes a specialized syntax for writing [[regular expression]]s (REs),
 and the interpreter contains an engine for matching strings to REs.
@@ -316,7 +282,7 @@ String capture returns strings that match the RE;
 
 See also [[Perl regular expression examples]]
 
-==Database interfaces==
+=== Database interfaces ===
 
 Perl is widely favored for database applications.
 Its text handling facilities are good for generating SQL queries;
@@ -325,6 +291,45 @@ arrays, hashes and automatic memory management make it easy to collect and proce
 In early versions of Perl, database interfaces were created by relinking the interpreter with a client-side database library. This was somewhat clumsy; a particular problem was that the resulting <code>perl</code> executable was restricted to using just the one database interface that it was linked to. Also, relinking the interpreter was sufficiently difficult that it was only done for a few of the most important and widely used databases.
 
 In Perl 5, database interfaces are implemented by modules. The <code>DBI</code> (Database Interface) module presents a single, database-independent interface to Perl applications, while the <code>DBD::</code> (Database Driver) modules handle the details of accessing some 50 different databases. There are <code>DBD::</code> drivers for most [[ANSI]] [[SQL]] databases.
+
+== Language design ==
+
+=== Philosophy ===
+
+Perl has several mottos that convey aspects of its design and use. One is ''There's more than one way to do it'' (TMTOWTDI - usually pronounced 'Tim Toady'). Another is ''Perl: the Swiss Army Chainsaw of Programming Languages''. A stated design goal of Perl is to "make easy tasks easy and difficult tasks possible". 
+
+Its versatility permits versions of many programming paradigms: [[procedural programming|procedural]], [[functional programming|functional]], and [[Object Oriented Programming|object-oriented]] (though some claim that Perl is not a cleanly designed language because of its multiple paradigms). 
+
+=== Criticism ===
+
+Perl is regarded by both its proponents and detractors as something of a grab bag of features and syntax. The difference between the two camps lies in whether this is seen as a virtue or a vice. Critics argue that the language's support for different "dialects" and paradigms leads to "write-only" code, and that its easily-obfuscated mixture of [[sigil (computer programming)|sigil]]s, special variables, and "[[Huffman coding|Huffman encoded]]" shortcuts renders Perl code indistinguishable from "[[line noise]]". Perl votaries maintain that the language's expressiveness and varied heritage are what make it so useful. Reference is often made to natural languages such as [[English language|English]], and to [[evolution]]. For example, Larry Wall has argued that:
+
+:''... we often joke that a camel is a horse designed by a committee, but if you think about it, the camel is pretty well adapted for life in the desert. The camel has evolved to be relatively self-sufficient. On the other hand, the camel has not evolved to smell good. Neither has Perl.''
+
+In recognition of its pungent-but-practical nature, Perl has adopted the [[camel]] as its mascot; and the [[O'Reilly Media|O'Reilly]] manual on Perl, ''[[Programming Perl]]'', is known as the '''camel book''': so named because of the camel that graces its cover.
+
+
+== History ==
+
+Larry Wall began work on Perl in [[1987]], and released version 1.0 to the comp.sources.misc newsgroup on [[December 18]], [[1987]]. The language expanded rapidly over the next few years. Perl 2, released in [[1988]], featured a better regular expression engine. Perl 3, released in [[1989]], added support for binary data.
+
+Until [[1991]], the only documentation for Perl was a single (increasingly lengthy) man page. In 1991, [[Programming Perl]] (the Camel Book) was published, and became the de facto reference for the language. At the same time, the Perl version number was bumped to 4, not to mark a major change in the language, but to identify the version that was documented by the book.
+
+Perl 4 went through a series of maintenance releases, culminating in Perl 4.036 in [[1993]]. At that point, Larry Wall abandoned Perl 4 to begin work on Perl 5. Perl 4 remains at version 4.036 to this day.
+
+Development of Perl 5 continued into [[1994]]. The perl5-porters mailing list was established in [[May]] [[1994]] to coordinate work on porting Perl 5 to different platforms. It remains the primary forum for development, maintenance, and porting of Perl 5.
+
+Perl 5 was released on [[October 17]], [[1994]]. It was a nearly complete rewrite of the interpreter, and added many new features to the language, including objects, references, packages, and modules. Importantly, modules provided a mechanism for extending the language without modifying the interpreter. This allowed the core interpreter to stablize, even as it enabled ordinary Perl programmers to add new language features.
+
+On [[October 26]], [[1995]], the [[Comprehensive Perl Archive Network]] (CPAN) was established. CPAN is a collection of web sites that archive and distribute Perl sources, binary distributions, documentation, scripts, and modules. Originally, each CPAN site had to be accessed through its own URL; today, the single URL http://www.cpan.org automatically redirects to a CPAN site.
+
+As of [[2005]], Perl 5 is still being actively maintained. It now includes [[Unicode]] support. The last production release was Perl 5.8.6.
+
+At the [[2000]] [[Perl Conference]] [[Jon Orwant]] made a case for a major new language initiative. This led to a decision to begin work on a redesign of the language, to be called [[Perl 6]]. Proposals for new language features were solicited from the Perl community at large, and over 300 RFCs were submitted.
+
+Larry Wall spent the next few years digesting the RFCs and synthesizing them into a coherent framework for Perl 6. He has presented his design for Perl 6 in a series of documents called [[apocalypse (perl)|apocalypse]]s.
+
+In [[2001]], it was decided that Perl 6 would run on a cross-language [[virtual machine]] called [[Parrot virtual machine|Parrot]]. As of 2005, both Perl 6 and Parrot are under active development.
 
 == CPAN ==
 
@@ -351,13 +356,6 @@ The CPAN.pm module understands module dependencies;
 it can be configured to automatically download and install a module and,
 recursively, all modules that it requires.
 
-== Perl 5 ==
-Perl5, the most current production version of perl, is an interpreter which processes the text of a Perl script at runtime. Thus, the [[debugger]] is invoked directly from the command line with
-
-  perl -dw ScriptName.pl Argument1 ... ...
-
-Note that there is no limit to the number of arguments: Perl is polyadic;  any number of arguments can be passed to any Perl subroutine, in general. This concept of "no arbitrary limits" is present in most other parts of the language as well. Perl can read an entire file into a variable, if the machine has the memory for it.
-
 == Perl 6 ==
 
 {{Main|Perl 6}}
@@ -371,7 +369,7 @@ See also
 
 In 2005, a separate Perl 6 implementation project called [[Pugs]] has been started by [[Autrijus Tang]], which has used the [[Haskell]] programming language to achieve a working interpreter within an extremely short timeframe.
 
-== Perl code samples ==
+== Code samples ==
 The canonical "[[hello world]]" program would be:
 
  <nowiki>#</nowiki>!/usr/bin/perl -w
