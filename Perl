@@ -294,6 +294,12 @@ In Perl 5, database interfaces are implemented by modules. The <code>DBI</code> 
 
 == Language design ==
 
+The design of Perl can be understood as a natural response to three broad trends in the computer industry: falling hardware costs, rising labor costs, and improving compiler technology. Earlier computer languages, such as [[Fortran]] and [[C_programming_language|C]], were designed to make efficient use of expensive computer hardware. In contrast, Perl  is designed to make efficient use of expensive computer programmers.
+
+Perl has many features that ease the programmer's task at the expense of greater CPU and memory requriements. These include automatic data typing and memory management; lists, hashes and regular expressions; and interpreted execution.
+
+Larry Wall was trained as a linguist, and the design of Perl is very much informed by linguistic principles. Examples include [[Huffman coding]] (common constructions should be short), good end-weighting (the important information should come first), and a large collection of language primitives. Perl favors language constructs that are natural for humans to read and write, even where they complicate the Perl interpreter.
+
 === Philosophy ===
 
 Perl has several mottos that convey aspects of its design and use. One is ''There's more than one way to do it'' (TMTOWTDI - usually pronounced 'Tim Toady'). Another is ''Perl: the Swiss Army Chainsaw of Programming Languages''. A stated design goal of Perl is to "make easy tasks easy and difficult tasks possible". 
@@ -307,7 +313,6 @@ Perl is regarded by both its proponents and detractors as something of a grab ba
 :''... we often joke that a camel is a horse designed by a committee, but if you think about it, the camel is pretty well adapted for life in the desert. The camel has evolved to be relatively self-sufficient. On the other hand, the camel has not evolved to smell good. Neither has Perl.''
 
 In recognition of its pungent-but-practical nature, Perl has adopted the [[camel]] as its mascot; and the [[O'Reilly Media|O'Reilly]] manual on Perl, ''[[Programming Perl]]'', is known as the '''camel book''': so named because of the camel that graces its cover.
-
 
 == History ==
 
