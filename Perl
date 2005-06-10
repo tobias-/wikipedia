@@ -380,7 +380,7 @@ another; there may not be any single place where its state is
 definitively established. There are techniques for addressing these
 issues, but they are complex and seldom used. On a different level,
 one of the early Unix engineers from Bell Labs has expressed surprise
-that anyone could write serious applications in a language for which
+that anyone could write important applications in a language for which
 there is no published specification. <!-- This was in an interview, and
 I can't remember who or where. We need to find out who and cite the
 interview. -->
