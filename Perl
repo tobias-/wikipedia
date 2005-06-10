@@ -439,19 +439,6 @@ The CPAN.pm module understands module dependencies;
 it can be configured to automatically download and install a module and,
 recursively, all modules that it requires.
 
-== Perl 6 ==
-
-{{Main|Perl 6}}
-
-Perl 6 is currently under development, and is planned to separate parsing and runtime, making a virtual machine that is more attractive to developers looking to port other languages to the architecture.  Perl 6 plans to parse itself, and moreover expose its parser to the language itself. That is, a module could alter the [[Context free grammar|grammar]] for the program that imported it.
-
-[[Parrot virtual machine|Parrot]] is the Perl 6 runtime, and can be programmed at a low level in [[Parrot assembly language]] (PASM) or [[Parrot IMC|Intermediate Code]] (IMC or PIR, for Parrot Intermediate Representation).
-
-See also
-*[http://www.perl.com/pub/a/2003/07/16/soto2003.html State of the Onion 2003 (Larry Wall on Perl 6)]
-
-In 2005, a separate Perl 6 implementation project called [[Pugs]] has been started by [[Autrijus Tang]], which has used the [[Haskell]] programming language to achieve a working interpreter within an extremely short timeframe.
-
 == Code samples ==
 The canonical "[[hello world]]" program would be:
 
@@ -503,9 +490,12 @@ See also
 *[http://www.softpanorama.org/Bulletin/Humor/humor092.html Perl Purity Test]
 
 == See also ==
+* [[CPAN]]
+* [[Just another Perl hacker]]
+* [[Larry Wall]]
 * [[Obfuscated Perl contest]]
 * [[POE]] -- Perl Object Environment
-* [[Just another Perl hacker]]
+* [[Perl 6]]
 
 ==External links==
 
