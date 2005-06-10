@@ -12,11 +12,11 @@ The language is intended to be practical (easy to use, efficient, complete) rath
 
 === Language features ===
 
-The overall structure of Perl derives broadly from C. Perl is a procedural programming language, with variables, expressions, assignment statements, brace-delimited code blocks, control structures, and subroutines.
+The overall structure of Perl derives broadly from [[C programming language|C]]. Perl is a procedural programming language, with variables, expressions, assignment statements, brace-delimited code blocks, control structures, and subroutines.
 
-Perl also takes features from shell programming. Perl programs are interpreted. All variables are marked with leading [[Sigil_(computer_programming)|sigil]]s. Sigils unambiguously identify variable names, thus allowing Perl to have a rich syntax. Importantly, sigils allow variables to be interpolated directly into strings. Like the Unix shells, Perl has many built-in functions for common tasks, like sorting, and for accessing system facilities.
+Perl also takes features from [[Operating system shell|shell]] programming. Perl programs are [[Interpreter (computing)|interpreted]]. All variables are marked with leading [[Sigil_(computer_programming)|sigil]]s. Sigils unambiguously identify variable names, thus allowing Perl to have a rich syntax. Importantly, sigils allow variables to be interpolated directly into strings. Like the Unix shells, Perl has many built-in functions for common tasks, like sorting, and for accessing system facilities.
 
-Perl takes [[associative array]]s from awk and [[regular expressions]] from sed. These simplify and facilitate all manner of parsing, text handling, and data management tasks.
+Perl takes [[associative array]]s from [[awk]] and [[regular expressions]] from [[sed]]. These simplify and facilitate all manner of parsing, text handling, and data management tasks.
 
 In Perl 5, features were added that support complex data structures and an [[object oriented]] programming model. These include [[reference_(computer_programming)|reference]]s, packages, and class-based method dispatch. Perl 5 also saw the introduction of lexically scoped variables, which make it easier to write robust code, and modules, which make it practical to write and distribute libraries of Perl code.
 
