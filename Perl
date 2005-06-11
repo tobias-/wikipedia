@@ -440,7 +440,8 @@ it can be configured to automatically download and install a module and,
 recursively, all modules that it requires.
 
 == Code samples ==
-The canonical "[[hello world]]" program would be:
+
+In Perl, the canonical "[[hello world]]" program is:
 
  <nowiki>#</nowiki>!/usr/bin/perl -w
  
@@ -448,7 +449,10 @@ The canonical "[[hello world]]" program would be:
 
 The first line is the [[shebang]], which indicates the interpreter for Unix-like operating systems. (It is the most common, but not the only way of ensuring that the perl interpreter runs the program.) The second line prints the string 'Hello world' and a [[newline]] (like a person pressing 'Return' or 'Enter').
 
-Some people (including [[Larry Wall]]) humorously claim that Perl stands for "Pathologically Eclectic Rubbish Lister" due to its philosophy that there should be many ways to do the same thing, its growth by accretion, and its origins in report writing.
+Here is a one-line, throw-away perl program that does rot-13 encoding/decoding.
+It is entered and run directly on the command line
+
+ perl -pe 'tr/A-Za-z/N-ZA-Mn-za-m/' < input_file > output_file
 
 ==Name==
 Perl was originally named "Pearl", after "the pearl of great price" of [[Gospel of Matthew|Matthew]] 13:46. Larry Wall wanted to give the language a short name with positive connotations, and claims he looked at (and rejected) every three- and four-letter word in the dictionary. He even thought of naming it after his wife Gloria. Before the language's official release, Wall discovered that there was already a programming language named [[Pearl programming language|Pearl]], and changed the spelling of the name.
