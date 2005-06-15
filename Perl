@@ -302,7 +302,7 @@ Larry Wall was trained as a linguist, and the design of Perl is very much inform
 
 Perl has features that support a variety of programming paradigms, such as [[procedural programming|procedural]], [[functional programming|functional]], and [[Object Oriented Programming|object-oriented]]. At the same time, Perl does not enforce any particular paradigm, or even require the programmer to choose among them. 
 
-There is a broad practical bent to both the Perl language and the community and culture that surround it. The preface to [[Programming Perl]] begins, "Perl is a language for getting your job done" [http://www.unix.org.ua/orelly/perl/prog3/ch00_01.htm]. One consequence of this is that Perl is not a tidy language. It includes features if people use them, tolerates exceptions to its rules, and employs hurestics to resolve syntactical ambiguities.
+There is a broad practical bent to both the Perl language and the community and culture that surround it. The preface to [[Programming Perl]] begins, "Perl is a language for getting your job done" [http://www.unix.org.ua/orelly/perl/prog3/ch00_01.htm]. One consequence of this is that Perl is not a tidy language. It includes features if people use them, tolerates exceptions to its rules, and employs heuristics to resolve syntactical ambiguities.
 Discussing the variant behaviour of built-in functions in list and scalar context, the perlfunc(1) man page says,
 <blockquote>
 In general, they do what you want, unless you want consistency.
