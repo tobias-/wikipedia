@@ -538,6 +538,7 @@ See also
 *[http://www.theperlreview.com The Perl Review] - print magazine about Perl
 *[http://www.tpj.com/ The Perl Journal] online only magazine about Perl
 *[http://books.perl.org/ Perl Book reviews]
+*[http://perlcast.com Perlcast] - Perl Podcast
 
 ==Books==
 {{book}}
