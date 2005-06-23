@@ -539,7 +539,6 @@ See also
 *[http://www.tpj.com/ The Perl Journal] online only magazine about Perl
 *[http://books.perl.org/ Perl Book reviews]
 *[http://perlcast.com Perlcast] - Perl Podcast
-*[http://perlcast.com Perlcast] - Perl Podcast
 *[http://www.perl.com/pub/a/2000/01/10PerlMyths.html Ten Perl Myths] - O'Reilly
 
 ==Books==
