@@ -377,8 +377,7 @@ others. For example, Perl has a relatively weak object model. Access
 to private data is restricted only by convention, not the language
 itself. An object created in one place may easily be modified in
 another; there may not be any single place where its state is
-definitively established. There are techniques for addressing these
-issues, but they are complex and seldom used. On a different level,
+definitively established. However, through proper development practices and/or the use of some infra-structure classes available on the [[CPAN]] you can have an object model as strong as any other language - it's just not native to the language. On a different level,
 one of the early Unix engineers from Bell Labs has expressed surprise
 that anyone could write important applications in a language for which
 there is no published specification. <!-- This was in an interview, and
@@ -390,7 +389,7 @@ with commercial use. However, Perl is used successfully by many
 businesses, so this would seem to be either ignorance or [[FUD]]. Some
 worry that Perl uses too much RAM or CPU. In fact, Perl is not a good
 language for applications that are truly processor-bound; however,
-there are many, many others for which it is perfectly adequate.
+there are many, many others for which it is perfectly adequate. The rule of thumb is: if you have resources to run [[Java]] you certainly have resources to run Perl.
 
 == History ==
 
