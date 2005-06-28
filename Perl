@@ -1,5 +1,5 @@
 [[Image:Programming-republic-of-perl.gif|right|framed|Programming Republic of Perl logo]]
-'''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]), is an interpreted procedural [[programming language]] designed by [[Larry Wall]]. Perl has a unique set of features which partly borrows from [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk]], [[sed]], and (to a lesser extent) many other programming languages.
+'''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]), is an interpreted procedural [[programming language]] designed by [[Larry Wall]]. Perl has a unique set of features, partly borrowed from [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk]], [[sed]], and (to a lesser extent) many other programming languages.
 
 == Overview ==
 
