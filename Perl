@@ -165,7 +165,7 @@ Use of this form is culturally accepted but unusual because it is rarely needed.
 [[Subroutine]]s are defined with the <code>sub</code> [[keyword]],
 and invoked simply by naming them.
 Subroutine definitions may appear anywhere in the program.
-Parentheses are required for calls that precede the definion.
+Parentheses are required for calls that precede the definition.
 
  foo();
  sub foo { ... }
