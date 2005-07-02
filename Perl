@@ -97,7 +97,7 @@ accessed by providing the corresponding key, in curly braces. The
 <code>$</code> sigil identifies the accessed element as a scalar.
 
   $scores[2]      # an element of @scores
-  $favorite{joe}  # a value in %favorite
+  %favorite{joe}  # a value in %favorite
 
 The number of elements in an array can be obtained by evalulating the
 array in scalar context.
