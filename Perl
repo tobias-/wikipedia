@@ -407,29 +407,13 @@ Larry Wall spent the next few years digesting the RFCs and synthesizing them int
 In [[2001]], it was decided that Perl 6 would run on a cross-language [[virtual machine]] called [[Parrot virtual machine|Parrot]]. As of 2005, both Perl 6 and Parrot are under active development.
 
 == CPAN ==
+{{seemain|CPAN}}
 
-{{main|CPAN}}
+[[CPAN]], the Comprehensive Perl Archive Network, is a collection of mirrored web sites that serve as a primary archive and distribution channel for Perl sources, distributions, documentation, scripts, and&mdash;especially&mdash;modules.
 
-[http://www.cpan.org CPAN] is the Comprehensive Perl Archive Network. 
-It is a collection of mirrored web sites that serve as a primary archive and distribution channel for
-Perl sources, distributions, documentation, scripts, and&mdash;especially&mdash;modules.
+There are currently over 7,000 modules available on CPAN, contributed by nearly 4,000 authors. Modules are available for a wide variety of tasks, including advanced mathematics, database connectivity, and networking. Essentially everything on CPAN is freely available; much of the software is licensed under either the [[Artistic License]], the [[GPL]], or both. Anyone can upload software to CPAN via [http://pause.perl.org PAUSE], the Perl Authors Upload Server.
 
-Essentially everything on CPAN is freely available;
-much of the software is licensed under either the [[Artistic License]], the [[GPL]], or both.
-Anyone can upload software to CPAN via
-[http://pause.perl.org PAUSE], the Perl Authors Upload Server.
-
-There are currently over 7,000 modules available on CPAN,
-contributed by nearly 4,000 authors.
-Modules are available for a wide variety of tasks, 
-including advanced mathematics, database connectivity, and networking.
-
-Modules on CPAN can be downloaded and installed by hand.
-However, it is common for modules to depend on other modules,
-and following module dependencies by hand can be tedious.
-The CPAN.pm module understands module dependencies;
-it can be configured to automatically download and install a module and,
-recursively, all modules that it requires.
+Modules on CPAN can be downloaded and installed by hand. However, it is common for modules to depend on other modules, and following module dependencies by hand can be tedious. The CPAN.pm module understands module dependencies; it can be configured to automatically download and install a module and, recursively, all modules that it requires.
 
 == Code samples ==
 
