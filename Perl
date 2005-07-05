@@ -539,6 +539,7 @@ See also
 *[http://books.perl.org/ Perl Book reviews]
 *[http://perlcast.com Perlcast] - Perl Podcast
 *[http://www.perl.com/pub/a/2000/01/10PerlMyths.html Ten Perl Myths] - O'Reilly
+*[http://fortunes.quotationsbook.com/fortunes/collection/52/PERL Perl fortunes collected from Larry Wall message identifiers]
 
 ==Books==
 {{book}}
