@@ -110,14 +110,9 @@ There are a few functions that operate on entire hashes.
   @addresses = values %address;
 
 === Control structures ===
+{{Seemain|Perl control structures}}
 
-{{Main|Perl control structures}}
-
-Perl has several kinds of control structures.
-
-It has block-oriented control structures,
-similar to those in the [[C programming language|C]] and [[Java programming language|Java]] programming languages.
-Conditions are surrounded by parentheses, and controlled blocks are surrounded by braces.
+Perl has several kinds of control structures. It has block-oriented control structures, similar to those in the [[C programming language|C]] and [[Java programming language|Java]] programming languages. Conditions are surrounded by parentheses, and controlled blocks are surrounded by braces:
 
  ''label'' while ( ''cond'' ) { ... }
  ''label'' while ( ''cond'' ) { ... } continue { ... }
@@ -128,8 +123,7 @@ Conditions are surrounded by parentheses, and controlled blocks are surrounded b
  if ( ''cond'' ) { ... } else { ... } 
  if ( ''cond'' ) { ... } elsif ( ''cond'' ) { ... } else { ... } 
 
-Where only a single statement is being controlled,
-statement modifiers provide a lighter syntax.
+Where only a single statement is being controlled, statement modifiers provide a lighter syntax:
 
  ''statement'' if      ''cond'' ;
  ''statement'' unless  ''cond'' ;
@@ -137,13 +131,12 @@ statement modifiers provide a lighter syntax.
  ''statement'' until   ''cond'' ;
  ''statement'' foreach ''list'' ;
 
-Short-circuit logical operators are commonly used to effect
-control flow at the expression level.
+Short-circuit logical operators are commonly used to effect control flow at the expression level:
 
  ''expr'' and ''expr''
  ''expr'' or  ''expr''
 
-Perl has two implicit looping constructs.
+Perl also has two implicit looping constructs:
 
   ''results'' = grep { ... } ''list''
   ''results'' = map  { ... } ''list''
