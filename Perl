@@ -499,6 +499,7 @@ See also
 *[[Programming Perl]] (also known as the ''Camel book'')
 *[[Perl Cookbook]]
 *[[Learning Perl]] (also called the ''Llama book'')
+*[http://www.perl.com]Perl.com
 
 ==References==
 
