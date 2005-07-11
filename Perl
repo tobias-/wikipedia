@@ -340,7 +340,7 @@ submitted as RFCs for Perl 6.
 
 === Con ===
 
-One common complaint against Perl is it syntax; in particular, its prodigious use of punctuation which some people claim make it look like "line noise". In [http://www.paulgraham.com/pypar.html The Python Paradox], [[Paul Graham]] both acknowledges and responds to this:
+One common complaint against Perl is it's syntax; in particular, its prodigious use of punctuation which some people claim make it look like "line noise". In [http://www.paulgraham.com/pypar.html The Python Paradox], [[Paul Graham]] both acknowledges and responds to this:
 
 <blockquote>
 At the mention of ugly source code, people will of course think of
