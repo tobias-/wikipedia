@@ -220,7 +220,7 @@ this can surprise the unwary.
 The <code>wantarray</code> keyword can detect the type of context the function is called in.
 
  sub either { wantarray ? (1, 2) : "Oranges" }
-
+ 
  $a = either    # returns "Oranges"
  @a = either    # returns (1, 2)
 
