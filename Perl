@@ -457,7 +457,7 @@ See also
 * [[Just another Perl hacker]]
 * [[Larry Wall]]
 * [[Obfuscated Perl contest]]
-* [[POE]] -- Perl Object Environment
+* [[POE]] the [[Perl Object Environment]]
 * [[Perl 6]]
 
 ==External links==
