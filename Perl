@@ -486,10 +486,6 @@ See also
 *[http://www.poniecode.org/ Project Ponie] &ndash; Perl 5 running on top of Parrot
 *[http://www.pugscode.org/ Pugs] &ndash; Perl 6 running on top of Haskell
 
-===Criticisms===
-
-*[http://xahlee.org/UnixResource_dir/perlr.html] Pathetically Elational Regex Language, aka Pathological Euphoric Retching Language (A commentary on Perl)
-
 ===History===
 
 *[http://groups.google.com/groups?selm=4628%40sdcrdcf.UUCP First reference to "Perl" on Usenet]
