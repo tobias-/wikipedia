@@ -396,7 +396,7 @@ In [[2001]], it was decided that Perl 6 would run on a cross-language [[virtual 
 
 There are currently over 7,000 modules available on CPAN, contributed by nearly 4,000 authors. Modules are available for a wide variety of tasks, including advanced mathematics, database connectivity, and networking. Essentially everything on CPAN is freely available; much of the software is licensed under either the [[Artistic License]], the [[GPL]], or both. Anyone can upload software to CPAN via [http://pause.perl.org PAUSE], the Perl Authors Upload Server.
 
-Modules on CPAN can be downloaded and installed by hand. However, it is common for modules to depend on other modules, and following module dependencies by hand can be tedious. The CPAN.pm module understands module dependencies; it can be configured to automatically download and install a module and, recursively, all modules that it requires.
+Modules on CPAN can be downloaded and installed by hand. However, it is common for modules to depend on other modules, and following module dependencies by hand can be tedious. Both the [http://search.cpan.org/Perldoc?CPAN CPAN.pm] module (included in the Perl distribution) and the improved [http://search.cpan.org/Perldoc?CPANPLUS CPANPLUS] module offers command lines installers that understand module dependencies; They can be configured to automatically download and install a module and, recursively, all modules that it requires.
 
 == Code samples ==
 
