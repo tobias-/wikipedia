@@ -492,6 +492,10 @@ See also
 *[http://dev.perl.org/perl1/ The origin of Perl] &ndash; "Stability. Speed. Simplicity. perl1 is here."
 *[http://history.perl.org/PerlTimeline.html The Perl Timeline]
 
+===Criticisms===
+
+*[http://xahlee.org/UnixResource_dir/writ/perl_laziness.html Laziness, Perl, Larry Wall]
+
 ===Miscellaneous===
 *[http://dmoz.org/Computers/Programming/Languages/Perl/ Perl related websites] in the [[Open Directory Project]]
 *[http://www.theperlreview.com The Perl Review] - print magazine about Perl
