@@ -392,7 +392,7 @@ In [[2001]], it was decided that Perl 6 would run on a cross-language [[virtual 
 == CPAN ==
 {{seemain|CPAN}}
 
-[[CPAN]], the Comprehensive Perl Archive Network, is a collection of mirrored web sites that serve as a primary archive and distribution channel for Perl sources, distributions, documentation, scripts, and&mdash;especially&mdash;modules.
+[[CPAN]], the Comprehensive Perl Archive Network, is a collection of mirrored web sites that serve as a primary archive and distribution channel for Perl sources, distributions, documentation, scripts, and&mdash;especially&mdash;modules.  It is commonly browsed with the search engine http://search.cpan.org/.
 
 There are currently over 7,000 modules available on CPAN, contributed by nearly 4,000 authors. Modules are available for a wide variety of tasks, including advanced mathematics, database connectivity, and networking. Essentially everything on CPAN is freely available; much of the software is licensed under either the [[Artistic License]], the [[GPL]], or both. Anyone can upload software to CPAN via [http://pause.perl.org PAUSE], the Perl Authors Upload Server.
 
