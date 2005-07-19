@@ -513,7 +513,7 @@ The Perl Foundation keeps a list of books avalible covering Perl on http://books
 
 ===Perl man pages===
 
-The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.gz source distribution]. They are avalible on the web from http://perldoc.perl.org/
+The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.gz source distribution]. They are avalible on the web from http://perldoc.perl.org/. Some good starting points may be:
 
 * [http://perldoc.perl.org/perlintro.html perlintro] - a brief introduction and overview of Perl
 * [http://perldoc.perl.org/perlsyn.html perlsyn] - Perl syntax
