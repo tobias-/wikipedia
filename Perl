@@ -512,12 +512,12 @@ See also
 
 ===Perl man pages===
 
-The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.gz source distribution]. They have no "official" location on the web, but are often available at the sites listed above under [[#External links]]
+The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.gz source distribution]. They are avalible on the web from http://perldoc.perl.org/
 
-* perlintro - a brief introduction and overview of Perl
-* perlsyn - Perl syntax
-* perlre - Perl regular expressions
-* perl5''xy''delta - what is new for perl v5.''x''.''y''
+* [http://perldoc.perl.org/perlintro.html perlintro] - a brief introduction and overview of Perl
+* [http://perldoc.perl.org/perlsyn.html perlsyn] - Perl syntax
+* [http://perldoc.perl.org/perlre.html perlre] - Perl regular expressions
+* [http://perldoc.perl.org/perldelta.html perl5''xy''delta] - what is new for perl v5.''x''.''y''
 
 ===Web pages===
 
