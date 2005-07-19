@@ -58,7 +58,7 @@ Perl has been ported to over a hundred different platforms. Perl can, with only 
 
 === Data types ===
 
-Perl has three fundamental [[data type]]s: [[scalar]]s, [[array|lists]], and [[hash table|hashes]]. A scalar is a single value; it may be a number, a [[String (computer science)|string]], or a
+Perl has three main fundamental [[data type]]s: [[scalar]]s, [[array|lists]], and [[hash table|hashes]]. A scalar is a single value; it may be a number, a [[String (computer science)|string]], or a
 [[Reference (computer science)|reference]]. A list is an ordered collection of scalars. A variable
 that holds a list is called an ''array''. A hash, or [[associative array]], is a map
 from strings to scalars; the strings are called ''keys'' and the
