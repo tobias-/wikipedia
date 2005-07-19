@@ -56,6 +56,21 @@ Perl has been ported to over a hundred different platforms. Perl can, with only 
 
 == Language structure ==
 
+=== Example Program ===
+
+In Perl, the canonical "[[hello world]]" program is:
+
+ <nowiki>#</nowiki>!/usr/bin/perl -w
+ 
+ print "Hello, world!\n";
+
+The first line is the [[shebang]], which indicates the interpreter for Unix-like operating systems. (It is the most common, but not the only way of ensuring that the perl interpreter runs the program.) The second line prints the string 'Hello world' and a [[newline]] (like a person pressing 'Return' or 'Enter').
+
+Here is a one-line, throw-away perl program that does rot-13 encoding/decoding.
+It is entered and run directly on the command line
+
+ perl -pe 'tr/A-Za-z/N-ZA-Mn-za-m/' < input_file > output_file
+
 === Data types ===
 
 Perl has three main fundamental [[data type]]s: [[scalar]]s, [[array|lists]], and [[hash table|hashes]]. A scalar is a single value; it may be a number, a [[String (computer science)|string]], or a
@@ -397,21 +412,6 @@ In [[2001]], it was decided that Perl 6 would run on a cross-language [[virtual 
 There are currently over 7,000 modules available on CPAN, contributed by nearly 4,000 authors. Modules are available for a wide variety of tasks, including advanced mathematics, database connectivity, and networking. Essentially everything on CPAN is freely available; much of the software is licensed under either the [[Artistic License]], the [[GPL]], or both. Anyone can upload software to CPAN via [http://pause.perl.org PAUSE], the Perl Authors Upload Server.
 
 Modules on CPAN can be downloaded and installed by hand. However, it is common for modules to depend on other modules, and following module dependencies by hand can be tedious. Both the [http://search.cpan.org/Perldoc?CPAN CPAN.pm] module (included in the Perl distribution) and the improved [http://search.cpan.org/Perldoc?CPANPLUS CPANPLUS] module offers command lines installers that understand module dependencies; They can be configured to automatically download and install a module and, recursively, all modules that it requires.
-
-== Code samples ==
-
-In Perl, the canonical "[[hello world]]" program is:
-
- <nowiki>#</nowiki>!/usr/bin/perl -w
- 
- print "Hello, world!\n";
-
-The first line is the [[shebang]], which indicates the interpreter for Unix-like operating systems. (It is the most common, but not the only way of ensuring that the perl interpreter runs the program.) The second line prints the string 'Hello world' and a [[newline]] (like a person pressing 'Return' or 'Enter').
-
-Here is a one-line, throw-away perl program that does rot-13 encoding/decoding.
-It is entered and run directly on the command line
-
- perl -pe 'tr/A-Za-z/N-ZA-Mn-za-m/' < input_file > output_file
 
 ==Name==
 Perl was originally named "Pearl", after "the pearl of great price" of [[Gospel of Matthew|Matthew]] 13:46. Larry Wall wanted to give the language a short name with positive connotations, and claims he looked at (and rejected) every three- and four-letter word in the dictionary. He even thought of naming it after his wife Gloria. Before the language's official release, Wall discovered that there was already a programming language named [[Pearl programming language|Pearl]], and changed the spelling of the name.
