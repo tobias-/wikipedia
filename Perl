@@ -254,7 +254,7 @@ and has since grown to include many more features.
 
 The <code>m//</code> (match) operator introduces a regular expression match. (The leading <code>m</code> may be omitted for brevity.) In the simplest case, an expression like
 
-  $x =~ m/abc/;
+  $x =~ m/abc/
 
 evaluates to true [[iff]] the string <code>$x</code> matches the regular expression <code>abc</code>.
 To capture a matched string, surround the part of the RE that you want 
