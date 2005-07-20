@@ -252,10 +252,9 @@ regular expressions.
 However, it diverged before the first release of Perl,
 and has since grown to include many more features.
 
-The <code>m//</code> (match) operator introduces a regular expression match. (The leading <code>m</code> may be omitted for brevity.)
-In the simplest case, an expression like
+The <code>m//</code> (match) operator introduces a regular expression match. (The leading <code>m</code> may be omitted for brevity.) In the simplest case, an expression like
 
-  $x =~ m/abc/
+  $x =~ m/abc/;
 
 evaluates to true [[iff]] the string <code>$x</code> matches the regular expression <code>abc</code>.
 To capture a matched string, surround the part of the RE that you want 
@@ -264,7 +263,7 @@ This is more interesting for patterns that can match multiple strings
 
   ($matched) = $x =~ m/a(.)c/;   # capture the character between 'a' and 'c'
 
-The <code>s//</code> (substitute) operator specifies a search and replace operation
+The <code>s///</code> (substitute) operator specifies a search and replace operation
 
   $x =~ s/abc/aBc/;   # upcase the b
 
@@ -295,7 +294,7 @@ The <code>split</code> operator complements string capture.
 String capture returns strings that match the RE;
 <code>split</code> returns strings that don't match the RE.
 
-See also [[Perl regular expression examples]]
+''See also [[Perl regular expression examples]].''
 
 === Database interfaces ===
 
