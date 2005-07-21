@@ -241,58 +241,39 @@ The <code>wantarray</code> keyword can detect the type of context the function i
 
 === Regular expressions ===
 
-The Perl language includes a specialized syntax for writing [[regular expression]]s (REs),
-and the interpreter contains an engine for matching strings to REs.
-The RE engine uses a [[backtracking]] algorithm; 
-this extends its capabilities from simple pattern matching
-to string capture and substitution.
+The Perl language includes a specialized syntax for writing [[regular expression]]s (REs), and the interpreter contains an engine for matching strings to regular expressions. The regular expression engine uses a [[backtracking]] algorithm, extending its capabilities from simple pattern matching to string capture and substitution.
 
-The Perl regular expression syntax was originally taken from Unix Version 8 
-regular expressions.
-However, it diverged before the first release of Perl,
-and has since grown to include many more features.
+The Perl regular expression syntax was originally taken from Unix Version 8 regular expressions. However, it diverged before the first release of Perl, and has since grown to include many more features.
 
 The <code>m//</code> (match) operator introduces a regular expression match. (The leading <code>m</code> may be omitted for brevity.) In the simplest case, an expression like
 
   $x =~ m/abc/
 
-evaluates to true [[iff]] the string <code>$x</code> matches the regular expression <code>abc</code>.
-To capture a matched string, surround the part of the RE that you want 
-with parentheses and evaluate it in list context.
-This is more interesting for patterns that can match multiple strings
+evaluates to true [[iff]] the string <code>$x</code> matches the regular expression <code>abc</code>. Capturing a matched string can be done by surrounding part of the regular expression with parentheses and evaluating it in list context. This is more interesting for patterns that can match multiple strings:
 
   ($matched) = $x =~ m/a(.)c/;   # capture the character between 'a' and 'c'
 
-The <code>s///</code> (substitute) operator specifies a search and replace operation
+The <code>s///</code> (substitute) operator specifies a search and replace operation:
 
   $x =~ s/abc/aBc/;   # upcase the b
 
-Perl regular expressions can take ''modifiers''.
-These are single-letter suffixes that modify the meaning of the expression
+Perl regular expressions can take ''modifiers''. These are single-letter suffixes that modify the meaning of the expression:
 
   $x =~ m/abc/i;      # case-insensitive pattern match
   $x =~ s/abc/aBc/g;  # global search and replace
 
-Perl regular expressions can be dense and cryptic.
-Partly, this is because regular expression matching is an inherently 
-complex operation,
-and partly it is because the RE syntax is extremely compact.
-Some relief from the second problem is afforded by the /x modifer, 
-which allows programmers to place whitespace and comments ''inside'' 
-regular expressions
+Perl regular expressions can be dense and cryptic. This is partly because regular expression matching is an inherently complex operation, and partly because the regular expression syntax is extremely compact. Some relief from the second problem is afforded by the <code>/x</code> modifer, which allows programmers to place whitespace and comments ''inside'' regular expressions:
 
   $x =~ m/a     # match 'a'
           .     # match any character
           c     # match 'c'
            /x;
 
-One common use of regular expressions is to specify delimiters for the <code>split</code> operator.
+One common use of regular expressions is to specify delimiters for the <code>split</code> operator:
 
   @words = split m/,/, $line;   # divide $line into comma-separated values
 
-The <code>split</code> operator complements string capture.
-String capture returns strings that match the RE;
-<code>split</code> returns strings that don't match the RE.
+The <code>split</code> operator complements string capture. String capture returns strings that match the regular expression, <code>split</code> returns strings that don't match the RE.
 
 ''See also [[Perl regular expression examples]].''
 
