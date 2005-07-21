@@ -262,7 +262,7 @@ Perl regular expressions can take ''modifiers''. These are single-letter suffixe
   $x =~ m/abc/i;      # case-insensitive pattern match
   $x =~ s/abc/aBc/g;  # global search and replace
 
-Regular expressions can be dense and cryptic. This is partly because regular expression matching is an inherently complex operation, and partly because the regular expression syntax is extremely compact. Some relief from the second problem is afforded by the <code>/x</code> modifer, which allows programmers to place whitespace and comments ''inside'' regular expressions:
+Regular expressions can be dense and cryptic. This is because regular expression syntax is extremely compact, generally using single characters or character pairs to represent its operations. Perl provides relief from the problem with the <code>/x</code> modifer, which allows programmers to place whitespace and comments ''inside'' regular expressions:
 
   $x =~ m/a     # match 'a'
           .     # match any character
