@@ -4,10 +4,10 @@
 == Overview ==
 
 The perlintro(1) [[man page]] says
-
-:Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more.
-
-:The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal). Its major features are that it's easy to use, supports both procedural and object-oriented (OO) programming, has powerful built-in support for text processing, and has one of the world's most impressive collections of third-party modules.
+<blockquote>
+<p>Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more.</p>
+<p>The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal). Its major features are that it's easy to use, supports both procedural and object-oriented (OO) programming, has powerful built-in support for text processing, and has one of the world's most impressive collections of third-party modules.</p>
+</blockquote>
 
 === Language features ===
 
@@ -23,9 +23,7 @@ All versions of Perl do automatic data typing and memory management. The  interp
 
 === Applications ===
 
-Perl has many and varied applications.
-
-Perl has been used since the early days of the web to write [[Common Gateway Interface|CGI]] scripts, and is a component of the popular [[LAMP]] ([[Linux]]/[[Apache HTTP Server|Apache]]/[[MySQL]]/(Perl/[[PHP]]/[[Python programming language|Python]])) platform for web development. Perl has been called "the glue that holds the web together". <!-- a source for this quote would be nice --> Large systems written in Perl include [[Slashdot]] and early implementations of [[PHP]] [http://www.php.net/history] and [[Wikipedia]].
+Perl has many and varied applications. Perl has been used since the early days of the web to write [[Common Gateway Interface|CGI]] scripts, and is a component of the popular [[LAMP]] ([[Linux]]/[[Apache HTTP Server|Apache]]/[[MySQL]]/(Perl/[[PHP]]/[[Python programming language|Python]])) platform for web development. Perl has been called "the glue that holds the web together". <!-- a source for this quote would be nice --> Large systems written in Perl include [[Slashdot]] and early implementations of [[PHP]] [http://www.php.net/history] and [[Wikipedia]].
 
 Perl finds many applications as a "glue language", tying together systems and interfaces that were not specifically designed to interoperate. Systems administrators use Perl as an all-purpose tool; short Perl programs can be entered and run on a single command line.
 
@@ -33,7 +31,7 @@ Perl is widely used in [[finance]] and [[bioinformatics]], where it is valued fo
 
 === Implementation ===
 
-Perl is implemented as a core interpreter, written in C, together with a large collection of modules, written in Perl and C. The source distribution is currently 12 [[megabyte|MB]] when packaged in a [[Tar (file format)|tar file]] and [[data compression|compressed]]. The interpreter is 150,000 lines of C code and compiles to a 1 MB executable on typical machine architectures. Alternately, the interpreter can be compiled to a link library and embedded in other programs. There are nearly 500 modules in the distribution, comprising 200,000 lines of Perl and an additional 350,000 lines of C code. Much of the C code in the modules consists of character encoding tables.
+Perl is implemented as a core interpreter, written in C, together with a large collection of modules, written in Perl and C. The source distribution is, [[as of 2005]], 12 [[megabyte|MB]] when packaged in a [[Tar (file format)|tar file]] and [[data compression|compressed]]. The interpreter is 150,000 lines of C code and compiles to a 1 MB executable on typical machine architectures. Alternately, the interpreter can be compiled to a link library and embedded in other programs. There are nearly 500 modules in the distribution, comprising 200,000 lines of Perl and an additional 350,000 lines of C code. Much of the C code in the modules consists of character encoding tables.
 
 The interpreter has an object-oriented architecture. All the elements of the Perl language&mdash;scalars, arrays, hashes, coderefs, file handles&mdash;are represented in the interpreter by C structs. Operations on these structs are defined by a large collection of macros, typedefs and functions; these constitute the Perl C API. The Perl API can be bewildering to the uninitiated, but its entry points follow a consistent naming scheme, which provides guidance to those who use it.
 
