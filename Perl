@@ -58,10 +58,9 @@ Perl has been ported to over a hundred different platforms. Perl can, with only 
 In Perl, the canonical "[[hello world]]" program is:
 
  <nowiki>#</nowiki>!/usr/bin/perl -w
- 
  print "Hello, world!\n";
 
-The first line is the [[shebang]], which indicates the interpreter for Unix-like operating systems. (It is the most common, but not the only way of ensuring that the perl interpreter runs the program.) The second line prints the string 'Hello world' and a [[newline]] (like a person pressing 'Return' or 'Enter').
+The first line is the [[shebang]], which indicates the interpreter for Unix-like operating systems. (It is the most common, but not the only way of ensuring that the perl interpreter runs the program. On [[Windows]] systems, you would associate .pl files with the Perl interpreter.) The second line prints the string 'Hello world' and a [[newline]] (like a person pressing 'Return' or 'Enter').
 
 Here is a one-line, throw-away perl program that does rot-13 encoding/decoding.
 It is entered and run directly on the command line
