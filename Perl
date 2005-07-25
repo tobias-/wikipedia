@@ -430,11 +430,11 @@ See also
 
 ===How to order a beer in Perl===
 
- pipe MOUTH, BEER;
+ pipe $mouth, $beer;
 
 or better:
 
- pipe MOUTH, BEER or die;
+ pipe $mouth, $beer or die;
 
 == See also ==
 * [[CPAN]]
