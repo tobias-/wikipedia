@@ -397,9 +397,6 @@ It is not appropriate to write "PERL" as it is not really an [[acronym]], althou
 ''Practical Extraction and Report Language'' has prevailed in many of today's manuals, including the official Perl [[man page]]. It is also consistent with the old name "Pearl": ''Practical Extraction And Report Language''.
 
 == Fun with Perl ==
-
-According to the Perl [[manpage]], "Perl actually stands for Pathologically Eclectic Rubbish Lister, but don't tell anyone I said that."
-
 In common with [[C programming language|C]], [[obfuscated code]] competitions are a popular feature of Perl culture. The annual [[Obfuscated Perl contest]] makes an arch virtue of Perl's [[syntax|syntactic]] flexibility. The following program prints the text "Just another Perl / Unix hacker", using 32 concurrent processes coordinated by pipes. A complete explanation is available on the [http://perl.plover.com/obfuscated/ author's Web site].
 
 <!-- This code is used with permission. See Talk: page. -->
