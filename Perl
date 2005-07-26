@@ -428,13 +428,7 @@ See also
 *[http://www.perlmonks.org/index.pl?node_id=253797 A tutorial on Perligata]
 *[http://www.softpanorama.org/Bulletin/Humor/humor092.html Perl Purity Test]
 
-===How to order a beer in Perl===
 
- pipe $mouth, $beer;
-
-or better:
-
- pipe $mouth, $beer or die;
 
 == See also ==
 * [[CPAN]]
