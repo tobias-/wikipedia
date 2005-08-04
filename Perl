@@ -485,8 +485,7 @@ See also
 *[http://www.perl.com/pub/a/2000/01/10PerlMyths.html Ten Perl Myths] - O'Reilly
 *[http://fortunes.quotationsbook.com/fortunes/collection/52/PERL Perl fortunes collected from Larry Wall message identifiers]
 
-===Criticisms===
-*[http://xahlee.org/UnixResource_dir/perlr.html| Pathological Euphoric Retching Language] (A commentary on Perl the language and its community.)
+
 
 ==Books==
 {{book}}
