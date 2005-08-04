@@ -486,7 +486,7 @@ See also
 *[http://fortunes.quotationsbook.com/fortunes/collection/52/PERL Perl fortunes collected from Larry Wall message identifiers]
 
 ===Criticisms===
-*[http://xahlee.org/UnixResource_dir/perlr.html] Pathetically Elational Regex Language, aka Pathological Euphoric Retching Language (A commentary on Perl)
+*[http://xahlee.org/UnixResource_dir/perlr.html|Pathological Euphoric Retching Language] (A commentary on Perl the language and its community.)
 
 ==Books==
 {{book}}
