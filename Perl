@@ -493,7 +493,7 @@ See also
 ==Books==
 {{book}}
 
-The Perl Foundation keeps a list of books avalible covering Perl on http://books.perl.org/.  Some notable books are:
+The Perl Foundation keeps a list of books available covering Perl on http://books.perl.org/.  Some notable books are:
 *[[Programming Perl]] (also known as the ''Camel book'')
 *[[Perl Cookbook]]
 *[[Learning Perl]] (also called the ''Llama book'')
