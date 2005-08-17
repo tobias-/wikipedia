@@ -161,8 +161,8 @@ Perl also has two implicit looping constructs:
   ''results'' = grep { ... } ''list''
   ''results'' = map  { ... } ''list''
 
-<code>grep<code> returns all elements of ''list'' for which the controlled block evaluates to true.
-<code>map<code> evaluates the controlled block for each element of ''list'' and returns a list of the resulting values. These constructs enable a simple functional programming style.
+<code>grep</code> returns all elements of ''list'' for which the controlled block evaluates to true.
+<code>map</code> evaluates the controlled block for each element of ''list'' and returns a list of the resulting values. These constructs enable a simple functional programming style.
 
 There is no switch (multi-way branch) statement in Perl 5. The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures, none entirely satisfactory.
 A very general and flexible switch statement has been designed for [[Perl 6]].  The <code>Switch</code> module makes most of the functionality of the Perl 6 switch available to Perl 5 programs.
