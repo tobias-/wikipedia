@@ -78,11 +78,10 @@ It is entered and run directly on the command line:
 
 === Data types ===
 
-Perl has three main fundamental [[data type]]s: [[scalar]]s, [[array|lists]], and [[hash table|hashes]]. A scalar is a single value; it may be a number, a [[String (computer science)|string]], or a
-[[Reference (computer science)|reference]]. A list is an ordered collection of scalars. A variable
-that holds a list is called an ''array''. A hash, or [[associative array]], is a map
-from strings to scalars; the strings are called ''keys'' and the
-scalars are called ''values''.
+Perl has three main fundamental [[data type]]s: [[scalar]]s, [[array|lists]], and [[hash table|hashes]]:
+*A scalar is a single value (i.e. a [[number]], [[String (computer science)|string]] or [[Reference (computer science)|reference]])
+*A list is an ordered collection of scalars (a variable that holds a list is called an ''array'')
+*A hash, or [[associative array]], is a map from strings to scalars; the strings are called ''keys'' and the scalars are called ''values''.
 
 All variables are marked by a leading [[Sigil (computer programming)|sigil]],
 which identifies the data type.
