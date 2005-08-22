@@ -1,4 +1,6 @@
-'''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]), is an interpreted [[programming language]] designed by [[Larry Wall]]. Perl borrows features from [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk]], [[sed]], and (to a lesser extent) many other programming languages.
+'''Perl''' is a general purpose interpreted programming language created by Larry Wall in 1987. Perl is particularly designed as a practical tool to get the job done and is much loved by people who know about computers. It is free software and there is an awesome resource of contributed modules on CPAN[http://www.cpan.org], Perl is also a culture and a community. Perl is richly featured but easy to use and suited to both trivial and major programs. It is used across the world in commerce, science, academia and for fun, its penetration into computer science departments is remarkable. Purists find much wrong with it, but they also tend to be its most committed users.
+
+If you want to get into programming for fun then Perl is probably what you want. 
 
 == Overview ==
 
