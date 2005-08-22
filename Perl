@@ -1,6 +1,4 @@
-'''Perl''' is a general purpose interpreted programming language created by Larry Wall in 1987. Perl is particularly designed as a practical tool to get the job done and is much loved by people who know about computers. It is free software and there is an awesome resource of contributed modules on CPAN[http://www.cpan.org], Perl is also a culture and a community. Perl is richly featured but easy to use and suited to both trivial and major programs. It is used across the world in commerce, science, academia and for fun, its penetration into computer science departments is remarkable. Purists find much wrong with it, but they also tend to be its most committed users.
-
-If you want to get into programming for fun then Perl is probably what you want. 
+'''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]), is an interpreted [[programming language]] designed by [[Larry Wall]]. Perl borrows features from [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk]], [[sed]], and (to a lesser extent) many other programming languages.
 
 == Overview ==
 
@@ -493,13 +491,6 @@ See also
 
 ==Books==
 {{book}}
-
-There are two books above all other for perl - The bible of perl is "Programming Perl" (the camel book), written by Larry Wall (et al), the creator of Perl. It is a truly great book and you should be sure to get it. The book is richly packed, precise and accurate with extensive references and a good index. If you can't find what you want in it, then read it again more carefully - it really is densely packed full of goodies. It can be hard going, but that's because it delivers. Its on its third edition so has evolved away teething troubles. The other book that you simply must have is the cookbook - "Perl Cookbook" by Christiansen and Torkington, which is a recipe of many of the things you will want to do - eg a "standard" way to sort an array by numerical value, parse a csv file, print the time, traverse a hash, suck down a webpage, write a pre-forking server, write a cgi prog, make a tcp connection, handle an error etc etc ... a true gem.
-Both of these books (especially "Programming Perl") are in a different league from most computer books and are surely already classics, worth their weight in gold and more (literally if your time is worth 30USD per hour) - also they are written by the very high priests of perl themselves - Larry,Nathan,Tom,Jon who have brought us perl so they will get a cut if you spend.
-
-These two books are awesome, you must get them if you plan to program Perl. Also, incredible to note, most of the best perl docs are simply not on the net but only in these books, so you can't cheapskate. Most info on the net is a cheap crib of the distro docs (function reference etc) notwithstanding that there is alot of good stuff out there but for completeness and comprehensiveness you need the camel and the cookbook.
-
-Personally I didn't get on with the "Learning Perl" by Swartz (sorry Randolf) though it is the "standard" beginner's text - I'm two editions behind anyway and your personal mileage may vary. I'm not being paid to write these reviews, those two books truly are gooooooood - check me out on my website[http://www.simonclewer.com] - "Programming Perl" - get it or live a harder life!
 
 The Perl Foundation keeps a list of books available covering Perl on http://books.perl.org/.  Some notable books are:
 *[[Programming Perl]] (also known as the ''Camel book'')
