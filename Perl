@@ -129,7 +129,7 @@ There are a few functions that operate on entire hashes.
   @addresses = values %address;
 
 === Control structures ===
-{{Seemain|Perl control structures}}
+{{main|Perl control structures}}
 
 Perl has several kinds of control structures. It has block-oriented control structures, similar to those in the [[C programming language|C]] and [[Java programming language|Java]] programming languages. Conditions are surrounded by parentheses, and controlled blocks are surrounded by braces:
 
@@ -388,7 +388,7 @@ Larry Wall spent the next few years digesting the RFCs and synthesizing them int
 In [[2001]], it was decided that Perl 6 would run on a cross-language [[virtual machine]] called [[Parrot virtual machine|Parrot]]. As of 2005, both Perl 6 and Parrot are under active development.
 
 == CPAN ==
-{{seemain|CPAN}}
+{{main|CPAN}}
 
 [[CPAN]], the Comprehensive Perl Archive Network, is a collection of mirrored web sites that serve as a primary archive and distribution channel for Perl sources, distributions, documentation, scripts, and&mdash;especially&mdash;modules.  It is commonly browsed with the search engine http://search.cpan.org/.
 
@@ -541,14 +541,14 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 [[id:Perl]]
 [[it:Perl]]
 [[ja:Perl]]
-[[ko:펄]]
+[[ko:]]
 [[lb:Perl]]
 [[lt:Perl]]
 [[nl:Perl]]
 [[no:Perl]]
 [[pl:Perl]]
 [[pt:Perl]]
-[[ru:Перл (язык программирования)]]
+[[ru:�5@; (O7K: ?@>3@0<<8@>20=8O)]]
 [[sl:Perl]]
 [[sr:Perl]]
 [[fi:Perl]]
