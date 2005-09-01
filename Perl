@@ -344,7 +344,7 @@ are passionate about Perl, as evidenced by the thousands of modules
 that have been contributed to CPAN, and the hundreds of design proposals that were
 submitted as RFCs for Perl 6.
 
-=== and more Pro ===
+=== Con ===
 
 One common complaint against Perl is its syntax; in particular, its prodigious use of punctuation which some people claim make it look like "line noise". In [http://www.paulgraham.com/pypar.html The Python Paradox], [[Paul Graham]] both acknowledges and responds to this:
 
