@@ -307,7 +307,7 @@ Discussing the variant behaviour of built-in functions in list and scalar contex
 In general, they do what you want, unless you want consistency.
 </blockquote>
 
-Perl has several mottos that convey aspects of its design and use. One is ''There's more than one way to do it'' (TMTOWTDI - usually pronounced 'Tim Toady'). Another is ''Perl: the Swiss Army Chainsaw of Programming Languages''. A stated design goal of Perl is to make easy tasks easy and difficult tasks possible.
+Perl has several mottos that convey aspects of its design and use. One is ''There's more than one way to do it'' (TMTOWTDI - usually pronounced 'Tim Toady'). Another is ''Perl: the Swiss Army Chainsaw of Programming Languages''. A stated design goal of Perl is to make easy tasks easy and difficult tasks possible.  The motto that perhaps describes the language best (or at least, the least intimidating motto) is ''Perl is Programmer's Duct Tape''.
 
 == Opinion ==
 
