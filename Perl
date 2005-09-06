@@ -113,7 +113,7 @@ A hash may be initialized from a list of key/value pairs.
 Individual elements of a list are accessed by providing a numerical
 index, in square brackets. Individual values in a hash are
 accessed by providing the corresponding key, in curly braces. The
-<code>$</code> sigil identifies the accessed element as a scalar.
+<tt>$</tt> sigil identifies the accessed element as a scalar.
 
   $scores[2]      # an element of @scores
   $favorite{joe}  # a value in %favorite
@@ -160,21 +160,21 @@ Perl also has two implicit looping constructs:
   ''results'' = grep { ... } ''list''
   ''results'' = map  { ... } ''list''
 
-<code>grep</code> returns all elements of ''list'' for which the controlled block evaluates to true.
-<code>map</code> evaluates the controlled block for each element of ''list'' and returns a list of the resulting values. These constructs enable a simple functional programming style.
+<tt>grep</tt> returns all elements of ''list'' for which the controlled block evaluates to true.
+<tt>map</tt> evaluates the controlled block for each element of ''list'' and returns a list of the resulting values. These constructs enable a simple functional programming style.
 
 There is no switch (multi-way branch) statement in Perl 5. The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures, none entirely satisfactory.
-A very general and flexible switch statement has been designed for [[Perl 6]].  The <code>Switch</code> module makes most of the functionality of the Perl 6 switch available to Perl 5 programs.
+A very general and flexible switch statement has been designed for [[Perl 6]].  The <tt>Switch</tt> module makes most of the functionality of the Perl 6 switch available to Perl 5 programs.
 
-Perl includes a <code>goto ''label''</code> statement, but it is virtually never used. It is considered poor form, the implementation is slow, and situations where a <code>goto</code> is called for in other languages either tend not to occur in Perl or are better handled with other control structures, such as labeled loops.
+Perl includes a <tt>goto ''label''</tt> statement, but it is virtually never used. It is considered poor form, the implementation is slow, and situations where a <tt>goto</tt> is called for in other languages either tend not to occur in Perl or are better handled with other control structures, such as labeled loops.
 
-There is also a <code>goto &''sub''</code> statement that performs a [[tail call]].
-It terminates the current subroutine and immediately calls the specified <code>''sub''</code>.  
+There is also a <tt>goto &''sub''</tt> statement that performs a [[tail call]].
+It terminates the current subroutine and immediately calls the specified <tt>''sub''</tt>.  
 Use of this form is culturally accepted but unusual because it is rarely needed.
 
 === Subroutines ===
 
-[[Subroutine]]s are defined with the <code>sub</code> [[keyword]],
+[[Subroutine]]s are defined with the <tt>sub</tt> [[keyword]],
 and invoked simply by naming them.
 Subroutine definitions may appear anywhere in the program.
 Parentheses are required for calls that precede the definition.
@@ -194,11 +194,11 @@ Arrays are expanded to their elements,
 hashes are expanded to a list of key/value pairs,
 and the whole lot is passed into the subroutine as one undifferentiated list of scalars.
 
-Whatever arguments are passed are available to the subroutine in the special array <code>@_</code>.
-The elements of <code>@_</code> are aliased to the actual arguments;
-changing an element of <code>@_</code> changes the corresponding argument.
+Whatever arguments are passed are available to the subroutine in the special array <tt>@_</tt>.
+The elements of <tt>@_</tt> are aliased to the actual arguments;
+changing an element of <tt>@_</tt> changes the corresponding argument.
 
-Elements of <code>@_</code> may be accessed by subscripting it in the usual way.
+Elements of <tt>@_</tt> may be accessed by subscripting it in the usual way.
 
  $_[0], $_[1]
 
@@ -206,12 +206,12 @@ However, the resulting code can be difficult to read,
 and the parameters have pass-by-reference semantics, 
 which may be undesirable.
 
-One common idiom is to assign <code>@_</code> to a list of named variables.
+One common idiom is to assign <tt>@_</tt> to a list of named variables.
 
  ($a, $b, $c) = @_;
 
 This effects both mnemonic parameter names and pass-by-value sematics.
-Another idiom is to shift parameters off of <code>@_</code>.
+Another idiom is to shift parameters off of <tt>@_</tt>.
 This is especially common when the subroutine takes only one argument.
 
  $a = shift;
@@ -220,7 +220,7 @@ Subroutines may return values.
 
  return 42, $x, @y, %z;
 
-If the subroutine does not exit via a <code>return</code> statement,
+If the subroutine does not exit via a <tt>return</tt> statement,
 then it returns the last expression evaluated within the subroutine body.
 Arrays and hashes in the return value are expanded to lists of scalars, 
 just as they are for arguments.
@@ -236,7 +236,7 @@ this can surprise the unwary.
  @a = list;   # returns (4, 5, 6)
  @a = array;  # returns (4, 5, 6)
 
-The <code>wantarray</code> keyword can detect the type of context the function is called in.
+The <tt>wantarray</tt> keyword can detect the type of context the function is called in.
 
  sub either { wantarray ? (1, 2) : "Oranges" }
  
@@ -249,15 +249,15 @@ The Perl language includes a specialized syntax for writing [[regular expression
 
 The Perl regular expression syntax was originally taken from Unix Version 8 regular expressions. However, it diverged before the first release of Perl, and has since grown to include many more features.
 
-The <code>m//</code> (match) operator introduces a regular expression match. (The leading <code>m</code> may be omitted for brevity.) In the simplest case, an expression like
+The <tt>m//</tt> (match) operator introduces a regular expression match. (The leading <tt>m</tt> may be omitted for brevity.) In the simplest case, an expression like
 
   $x =~ m/abc/
 
-evaluates to true [[iff]] the string <code>$x</code> matches the regular expression <code>abc</code>. Capturing a matched string can be done by surrounding part of the regular expression with parentheses and evaluating it in list context. This is more interesting for patterns that can match multiple strings:
+evaluates to true [[iff]] the string <tt>$x</tt> matches the regular expression <tt>abc</tt>. Capturing a matched string can be done by surrounding part of the regular expression with parentheses and evaluating it in list context. This is more interesting for patterns that can match multiple strings:
 
   ($matched) = $x =~ m/a(.)c/;   # capture the character between 'a' and 'c'
 
-The <code>s///</code> (substitute) operator specifies a search and replace operation:
+The <tt>s///</tt> (substitute) operator specifies a search and replace operation:
 
   $x =~ s/abc/aBc/;   # upcase the b
 
@@ -266,18 +266,18 @@ Perl regular expressions can take ''modifiers''. These are single-letter suffixe
   $x =~ m/abc/i;      # case-insensitive pattern match
   $x =~ s/abc/aBc/g;  # global search and replace
 
-Regular expressions can be dense and cryptic. This is because regular expression syntax is extremely compact, generally using single characters or character pairs to represent its operations. Perl provides relief from the problem with the <code>/x</code> modifer, which allows programmers to place whitespace and comments ''inside'' regular expressions:
+Regular expressions can be dense and cryptic. This is because regular expression syntax is extremely compact, generally using single characters or character pairs to represent its operations. Perl provides relief from the problem with the <tt>/x</tt> modifer, which allows programmers to place whitespace and comments ''inside'' regular expressions:
 
   $x =~ m/a     # match 'a'
           .     # match any character
           c     # match 'c'
            /x;
 
-One common use of regular expressions is to specify delimiters for the <code>split</code> operator:
+One common use of regular expressions is to specify delimiters for the <tt>split</tt> operator:
 
   @words = split m/,/, $line;   # divide $line into comma-separated values
 
-The <code>split</code> operator complements string capture. String capture returns strings that match the regular expression, <code>split</code> returns strings that don't match the RE.
+The <tt>split</tt> operator complements string capture. String capture returns strings that match the regular expression, <tt>split</tt> returns strings that don't match the RE.
 
 ''See also [[Perl regular expression examples]].''
 
@@ -287,9 +287,9 @@ Perl is widely favored for database applications.
 Its text handling facilities are good for generating SQL queries;
 arrays, hashes and automatic memory management make it easy to collect and process the returned data.
 
-In early versions of Perl, database interfaces were created by relinking the interpreter with a client-side database library. This was somewhat clumsy; a particular problem was that the resulting <code>perl</code> executable was restricted to using just the one database interface that it was linked to. Also, relinking the interpreter was sufficiently difficult that it was only done for a few of the most important and widely used databases.
+In early versions of Perl, database interfaces were created by relinking the interpreter with a client-side database library. This was somewhat clumsy; a particular problem was that the resulting <tt>perl</tt> executable was restricted to using just the one database interface that it was linked to. Also, relinking the interpreter was sufficiently difficult that it was only done for a few of the most important and widely used databases.
 
-In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The <code>DBI</code> (Database Interface) module presents a single, database-independent interface to Perl applications, while the <code>DBD::</code> (Database Driver) modules handle the details of accessing some 50 different databases. There are <code>DBD::</code> drivers for most [[ANSI]] [[SQL]] databases.
+In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The <tt>DBI</tt> (Database Interface) module presents a single, database-independent interface to Perl applications, while the <tt>DBD::</tt> (Database Driver) modules handle the details of accessing some 50 different databases. There are <tt>DBD::</tt> drivers for most [[ANSI]] [[SQL]] databases.
 
 == Language design ==
 
@@ -428,7 +428,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 * [http://search.cpan.org/dist/Acme-Currency/ Acme::Currency] allows you to change the "$" prefix for scalar variables to some other character
 * [http://search.cpan.org/dist/Acme-ProgressBar/ Acme::ProgressBar] is a horribly inefficient way to indicate progress for a task
 * [http://search.cpan.org/dist/Acme-VerySign/ Acme::VerySign] satirizes the widely-criticized [[VeriSign]] [[Site Finder]] service
-* [http://search.cpan.org/~dconway/Acme-Don-t-1.01/t.pm Acme::Don't] implements the logical opposite of the <code>do</code> keyword&mdash;<code>don't</code>, which does not execute the provided block.
+* [http://search.cpan.org/~dconway/Acme-Don-t-1.01/t.pm Acme::Don't] implements the logical opposite of the <tt>do</tt> keyword&mdash;<tt>don't</tt>, which does not execute the provided block.
 
 See also
 *[http://wikibooks.org/wiki/Programming:Perl_humour Perl humour on wikibooks]
