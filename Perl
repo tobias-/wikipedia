@@ -10,7 +10,7 @@ The perlintro(1) [[man page]] says
 
 :Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more.
 
-:The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal). Its major features are that it's easy to use, supports both procedural and object-oriented (OO) programming, has powerful built-in support for text processing, and has one of the world's most impressive collections of third-party modules.
+:The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal). Its major features are that it's easy to use, supports both procedural and [[Object-oriented programming|object-oriented]] (OO) programming, has powerful built-in support for text processing, and has one of the world's most impressive collections of third-party modules.
 
 === Language features ===
 
@@ -20,7 +20,7 @@ Perl also takes features from [[Operating system shell|shell]] programming. Perl
 
 Perl takes [[associative array]]s (known as 'hashes' in newer versions of perl) from [[awk]] and [[regular expressions]] from [[sed]]. These simplify and facilitate all manner of parsing, text handling, and data management tasks.
 
-In Perl 5, features were added that support complex data structures, first-class functions (i.e. [[Closure (computer science)|closures]] as values), and an [[object oriented]] programming model. These include [[reference (computer science)|reference]]s, packages, and class-based method dispatch. Perl 5 also saw the introduction of lexically scoped variables, which make it easier to write robust code, and modules, which make it practical to write and distribute libraries of Perl code.
+In Perl 5, features were added that support complex data structures, first-class functions (i.e. [[Closure (computer science)|closures]] as values), and an object-oriented programming model. These include [[reference (computer science)|reference]]s, packages, and class-based method dispatch. Perl 5 also saw the introduction of lexically scoped variables, which make it easier to write robust code, and modules, which make it practical to write and distribute libraries of Perl code.
 
 All versions of Perl do automatic data typing and memory management. The interpreter knows the type and storage requirements of every data object in the program; it allocates and frees storage for them as necessary. Legal type conversions are done automatically at run time; illegal type conversions are fatal errors.
 
@@ -293,13 +293,13 @@ In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The <tt>
 
 == Language design ==
 
-The design of Perl can be understood as a response to three broad trends in the computer industry: falling hardware costs, rising labor costs, and advancing compiler technology. Many earlier computer languages, such as [[Fortran]] and [[C_programming_language|C]], were designed to make efficient use of expensive computer hardware. In contrast, Perl  is designed to make efficient use of expensive computer programmers.
+The design of Perl can be understood as a response to three broad trends in the computer industry: falling hardware costs, rising labor costs, and advancing compiler technology. Many earlier computer languages, such as [[Fortran]] and C, were designed to make efficient use of expensive computer hardware. In contrast, Perl  is designed to make efficient use of expensive computer programmers.
 
 Perl has many features that ease the programmer's task at the expense of greater CPU and memory requirements. These include automatic memory management; [[dynamic typing]]; strings, lists, and hashes; regular expressions, and interpreted execution.
 
-Larry Wall was trained as a linguist, and the design of Perl is very much informed by linguistic principles. Examples include [[Huffman coding]] (common constructions should be short), good end-weighting (the important information should come first), and a large collection of language primitives. Perl favors language constructs that are natural for humans to read and write, even where they complicate the Perl interpreter.
+Larry Wall was trained as a linguist, and the design of Perl is highly informed by linguistic principles. Examples include [[Huffman coding]] (common constructions should be short), good end-weighting (the important information should come first), and a large collection of language primitives. Perl favors language constructs that are natural for humans to read and write, even where they complicate the Perl interpreter.
 
-Perl has features that support a variety of programming paradigms, such as [[procedural programming|procedural]], [[functional programming|functional]], and [[Object Oriented Programming|object-oriented]]. At the same time, Perl does not enforce any particular paradigm, or even require the programmer to choose among them. 
+Perl has features that support a variety of programming paradigms, such as [[procedural programming|procedural]], [[functional programming|functional]], and object-oriented. At the same time, Perl does not enforce any particular paradigm, or even require the programmer to choose among them. 
 
 There is a broad practical bent to both the Perl language and the community and culture that surround it. The preface to [[Programming Perl]] begins, "Perl is a language for getting your job done". One consequence of this is that Perl is not a tidy language. It includes features if people use them, tolerates exceptions to its rules, and employs heuristics to resolve syntactical ambiguities.
 Discussing the variant behaviour of built-in functions in list and scalar context, the perlfunc(1) man page says,
@@ -406,7 +406,7 @@ The name is normally capitalized (''Perl'') when referring to the language, and 
 Perl is generally symbolized by a camel, which was a result of the picture of camel book publishers [[O'Reilly Media]] chose as the cover picture of ''Programming Perl'', which consequently acquired the name ''The Camel Book''. O'Reilly owns the symbol as a trademark, but claims to use their legal rights only as a measure of protecting the ''"integrity and impact of that symbol"'' [http://perl.oreilly.com/usage/]. Use of the symbol for non-commercial purposes where appropriate is allowed, and a ''Programming Republic of Perl'' logo (see above) is provided for this purpose.
 
 == Fun with Perl ==
-In common with [[C programming language|C]], [[obfuscated code]] competitions are a popular feature of Perl culture. The annual [[Obfuscated Perl contest]] makes an arch virtue of Perl's [[syntax|syntactic]] flexibility. The following program prints the text "Just another Perl / Unix hacker", using 32 concurrent processes coordinated by pipes. A complete explanation is available on the [http://perl.plover.com/obfuscated/ author's Web site].
+As with C, [[obfuscated code]] competitions are a popular feature of Perl culture. The annual [[Obfuscated Perl contest]] makes an arch virtue of Perl's [[syntax|syntactic]] flexibility. The following program prints the text "Just another Perl / Unix hacker", using 32 concurrent processes coordinated by pipes. A complete explanation is available on the [http://perl.plover.com/obfuscated/ author's Web site].
 
 <!-- This code is used with permission. See Talk: page. -->
  <nowiki>
@@ -417,7 +417,7 @@ In common with [[C programming language|C]], [[obfuscated code]] competitions ar
 
 Similar to obfuscated code but with a different purpose, Perl [[Poetry]] is the practice of writing poems that can actually be compiled by perl. This hobby is more or less unique to Perl, due to the large number of regular English words used in the language. New poems are regularly published in the [[Perl Monks]] site's [http://www.perlmonks.org/index.pl?node=Perl%20Poetry Perl Poetry] section.
 
-Another popular pastime is Perl golf. As with [[golf|the physical sport]], the objective is to reduce the number of strokes that it takes to complete a particular objective, but here "strokes" refers to keystrokes rather than swings of a golf club. A task, such as "scan an input string and return the longest [[palindrome]] that it contains", is proposed, and participants try to outdo each other by writing solutions that require fewer and fewer characters of Perl source code.
+Another popular pastime is Perl golf. As with [[golf|the physical sport]], the goal is to reduce the number of strokes that it takes to complete a particular objective, but here "strokes" refers to keystrokes rather than swings of a golf club. A task, such as "scan an input string and return the longest [[palindrome]] that it contains", is proposed, and participants try to outdo each other by writing solutions that require fewer and fewer characters of Perl source code.
 
 Another tradition among Perl [[hacker]]s is writing JAPHs, which are short obfuscated programs that print out the phrase "[[Just another Perl hacker]],". The "canonical" JAPH includes the comma at the end, although this is often omitted, and many variants on the theme have been created (example: [http://www.perlmonks.org/index.pl?node_id=292135], which prints "Just Another Perl Pirate!").
 
