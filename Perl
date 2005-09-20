@@ -413,9 +413,9 @@ As with C, [[obfuscated code]] competitions are a popular feature of Perl cultur
  ($p{$_})&6];$p{$_}=/ ^$P/ix?$P:close$_}keys%p}p;p;p;p;p;map{$p{$_}=~/^[P.]/&&
  close$_}%p;wait until$?;map{/^r/&&<$_>}%p;$_=$d[$q];sleep rand(2)if/\S/;print</nowiki>
 
-Similar to obfuscated code but with a different purpose, Perl [[Poetry]] is the practice of writing poems that can actually be compiled by perl. This hobby is more or less unique to Perl, due to the large number of regular English words used in the language. New poems are regularly published in the [[Perl Monks]] site's [http://www.perlmonks.org/index.pl?node=Perl%20Poetry Perl Poetry] section.
+Similar to obfuscated code but with a different purpose, Perl [[Poetry]] is the practice of writing poems that can actually be compiled by perl. This hobby is more or less unique to Perl due to the large number of regular English words used in the language. New poems are regularly published in the [[Perl Monks]] site's [http://www.perlmonks.org/index.pl?node=Perl%20Poetry Perl Poetry] section.
 
-Another popular pastime is Perl golf. As with [[golf|the physical sport]], the goal is to reduce the number of strokes that it takes to complete a particular objective, but here "strokes" refers to keystrokes rather than swings of a golf club. A task, such as "scan an input string and return the longest [[palindrome]] that it contains", is proposed, and participants try to outdo each other by writing solutions that require fewer and fewer characters of Perl source code.
+Another popular pastime is Perl golf. As with [[golf|the physical sport]] the goal is to reduce the number of strokes that it takes to complete a particular objective, but here "strokes" refers to keystrokes rather than swings of a golf club. A task, such as "scan an input string and return the longest [[palindrome]] that it contains", is proposed and participants try to outdo each other by writing solutions that require fewer and fewer characters of Perl source code.
 
 Another tradition among Perl [[hacker]]s is writing JAPHs, which are short obfuscated programs that print out the phrase "[[Just another Perl hacker]],". The "canonical" JAPH includes the comma at the end, although this is often omitted, and many variants on the theme have been created (example: [http://www.perlmonks.org/index.pl?node_id=292135], which prints "Just Another Perl Pirate!").
 
@@ -434,8 +434,6 @@ See also
 *[http://search.cpan.org/perldoc?Lingua::Romana::Perligata Lingua::Romana::Perligata - Write Perl in Latin!]
 *[http://www.perlmonks.org/index.pl?node_id=253797 A tutorial on Perligata]
 *[http://www.softpanorama.org/Bulletin/Humor/humor092.html Perl Purity Test]
-
-
 
 == See also ==
 * [[CPAN]]
