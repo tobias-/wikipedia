@@ -458,7 +458,7 @@ See also
 ===Distributions===
 
 *[http://www.cpan.org/ CPAN] &ndash; Comprehensive Perl Archive Network, Perl source distribution
-*[http://www.activestate.com/ ActiveState] &ndash; Perl for [[Microsoft Windows]] platforms
+*[http://www.activestate.com/ ActiveState ActivePerl] &ndash; Perl for [[Microsoft Windows]] platforms
 *[http://www.indigostar.com/indigoperl.htm IndigoPerl] &ndash; another distribution of Perl for Microsoft Windows
 *[http://cygwin.com/ Cygwin] also distributes Perl on Windows
 
