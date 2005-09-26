@@ -361,7 +361,7 @@ On a different level, one of the early Unix engineers from Bell Labs has express
 
 Some worry that Perl is licensed under terms that are incompatible with commercial use. However, Perl is used successfully by many businesses.
 
-Although its performance is adequate for many applications, Perl is not a good language for processor-bound tasks. A rule of thumb is that if resources to run Java are available, then Perl can certainly be used<!-- more quantitative analysis might be appropriate here... -->.
+Although its performance is adequate for many applications, Perl is not a good language for [[CPU bound|processor-bound]] tasks. A rule of thumb is that if resources to run Java are available, then Perl can certainly be used<!-- more quantitative analysis might be appropriate here... -->.
 
 == History ==
 
