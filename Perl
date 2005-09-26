@@ -295,7 +295,7 @@ The design of Perl can be understood as a response to three broad trends in the 
 
 Perl has many features that ease the programmer's task at the expense of greater CPU and memory requirements. These include automatic memory management; [[dynamic typing]]; strings, lists, and hashes; regular expressions, and interpreted execution.
 
-Larry Wall was trained as a linguist, and the design of Perl is highly informed by linguistic principles. Examples include [[Huffman coding]] (common constructions should be short), good end-weighting (the important information should come first), and a large collection of language primitives. Perl favors language constructs that are natural for humans to read and write, even where they complicate the Perl interpreter.
+[[Larry Wall]] was trained as a linguist, and the design of Perl is highly informed by linguistic principles. Examples include [[Huffman coding]] (common constructions should be short), good end-weighting (the important information should come first), and a large collection of language primitives. Perl favors language constructs that are natural for humans to read and write, even where they complicate the Perl interpreter.
 
 Perl has features that support a variety of programming paradigms, such as [[procedural programming|procedural]], [[functional programming|functional]], and object-oriented. At the same time, Perl does not enforce any particular paradigm, or even require the programmer to choose among them. 
 
