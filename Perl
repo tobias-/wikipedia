@@ -208,7 +208,7 @@ One common idiom is to assign <tt>@_</tt> to a list of named variables.
 
  ($a, $b, $c) = @_;
 
-This effects both mnemonic parameter names and pass-by-value sematics.
+In this way, mnemonic parameter names may be used.
 Another idiom is to shift parameters off of <tt>@_</tt>.
 This is especially common when the subroutine takes only one argument.
 
