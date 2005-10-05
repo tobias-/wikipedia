@@ -149,15 +149,13 @@ Where only a single statement is being controlled, statement modifiers provide a
  ''statement'' foreach ''list'' ;
 
 Short-circuit logical operators are commonly used to effect control flow at the expression level:
-
  ''expr'' and ''expr''
  ''expr'' or  ''expr''
+This is especially useful because Perl treats the flow control keywords <tt>return</tt>, <tt>redo</tt>, <tt>next</tt> and <tt>last</tt> as expressions, while many other languages consider them statements.
 
 Perl also has two implicit looping constructs:
-
   ''results'' = grep { ... } ''list''
   ''results'' = map  { ... } ''list''
-
 <tt>grep</tt> returns all elements of ''list'' for which the controlled block evaluates to true.
 <tt>map</tt> evaluates the controlled block for each element of ''list'' and returns a list of the resulting values. These constructs enable a simple functional programming style.
 
