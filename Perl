@@ -48,6 +48,8 @@ Perl is distributed with some 90,000 functional tests. These run as part of the 
 
 There is no written specification or standard for the Perl language, and no plans to create one for the current version of Perl. There has only ever been one implementation of the interpreter. That interpreter, together with its functional tests, stands as a de facto specification of the language.
 
+Perl is also popular because of it's ability to process regular expressions.
+
 === Availability ===
 
 Perl is [[free software movement|free software]], and may be distributed under either the [[Artistic License]] or the [[GNU General Public License]]. It is available for most [[operating system|operating systems]]. It is particularly prevalent on [[Unix]] and [[Unix-like]] systems (such as [[Linux]], [[FreeBSD]], and [[Mac OS X]]), and is growing in popularity on [[Microsoft Windows]] systems.
