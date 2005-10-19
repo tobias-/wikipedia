@@ -344,7 +344,7 @@ submitted as RFCs for Perl 6.
 
 === Con ===
 
-A common complaint is that Perl is ugly. In particular, its prodigious use of punctuation seems to put people off; Perl source code is sometimes likened to "line noise". 
+A common complaint is that Perl is ugly. In particular, its prodigious use of punctuation puts some people off; Perl source code is sometimes likened to "line noise". 
 In [http://www.paulgraham.com/pypar.html The Python Paradox], [[Paul Graham]] both acknowledges and responds to this:
 
 <blockquote>
@@ -360,13 +360,10 @@ The freewheeling language style that delights some Perl programmers concerns oth
 
 On a different level, one of the early Unix engineers from Bell Labs has expressed surprise that anyone could write important applications in a language for which there is no published specification. <!-- This was in an interview, and I can't remember who or where. We need to find out who and cite the interview. -->
 
-Perl is not a good language for [[CPU bound|processor-bound]] tasks. 
-Perl code is interpreted and Perl data is big,
-so Perl programs tend have large CPU, memory, and memory bandwidth requirements.
-A particular problem is that counted for-loops and numerical subscripts are expensive.
+Perl, as with any interpretted language, is not a good language for [[CPU bound|processor-bound]] tasks.
 
 Embedding a Perl interpreter in a C program is not as simple as it might be.
-Calling C-language subroutines from  Perl code, via the [[XS_(Perl)|XS]] interface,
+Calling C-language subroutines from Perl code, via the [[XS_(Perl)|XS]] interface,
 is inordinately complex.
 
 Some businesses balk at using Perl because they either don't understand or can't abide its licensing terms. Some worry that they won't be able to obtain support for it. Some object to the fact that the source code for Perl programs is generally visible to users.
