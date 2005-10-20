@@ -364,9 +364,9 @@ Perl, as with any intepreted language, is not efficient at tight for-loops or ot
 
 Embedding a Perl interpreter in a C program is not as simple as it might be.
 Calling C-language subroutines from  Perl code, via the [[XS_(Perl)|XS]] interface,
-is inordinately complex (although the Inline::C extension mostly eleviates this concern).
+is inordinately complex.
 
-Some businesses balk at using Perl because they either don't understand or can't abide its licensing terms. Some worry that they won't be able to obtain support for it. Some object to the fact that since it's an interpreted language, the source code for Perl programs is generally visible to users.
+Some businesses balk at using Perl because they either don't understand or can't abide its licensing terms. Some worry that they won't be able to obtain support for it. Some object to the fact that the source code for Perl programs is generally visible to users.
 
 == History ==
 
