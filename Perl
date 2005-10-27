@@ -16,7 +16,7 @@ The language is intended to be practical (easy to use, efficient, complete) rath
 
 The overall structure of Perl derives broadly from [[C programming language|C]]. Perl is a procedural programming language, with variables, expressions, assignment statements, brace-delimited code blocks, control structures, and subroutines.
 
-Perl also takes features from [[Operating system shell|shell]] programming. Perl programs are [[Interpreter (computing)|interpreted]]. All variables are marked with leading [[Sigil_(computer_programming)|sigil]]s. Sigils unambiguously identify variable names, thus allowing Perl to have a rich syntax. Importantly, sigils allow variables to be interpolated directly into strings. Like the Unix shells, Perl has many built-in functions for common tasks, like sorting, and for accessing system facilities.
+Perl also takes features from [[Operating system shell|shell]] programming. Perl programs were originally [[Interpreter (computing)|interpreted]] (although now they're run by a [[virtual machine]]). All variables are marked with leading [[Sigil_(computer_programming)|sigil]]s. Sigils unambiguously identify variable names, thus allowing Perl to have a rich syntax. Importantly, sigils allow variables to be interpolated directly into strings. Like the Unix shells, Perl has many built-in functions for common tasks, like sorting, and for accessing system facilities.
 
 Perl takes [[associative array]]s (known as 'hashes' in newer versions of perl) from [[awk]] and [[regular expressions]] from [[sed]]. These simplify and facilitate all manner of parsing, text handling, and data management tasks.
 
