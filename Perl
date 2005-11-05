@@ -96,7 +96,7 @@ Numbers are written in the usual way;
 strings are enclosed by quotes of various kinds.
 
   $n     = 42;
-  $name  = "jesse";
+  $name  = "joe";
   $color = 'red';
 
 A list may be written by listing its elements, 
