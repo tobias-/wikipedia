@@ -278,6 +278,7 @@ One common use of regular expressions is to specify delimiters for the <tt>split
 The <tt>split</tt> operator complements string capture. String capture returns strings that match the regular expression, <tt>split</tt> returns strings that don't match the RE.
 
 ''See also [[Perl regular expression examples]].''
+Amit Dangwal
 
 === Database interfaces ===
 
