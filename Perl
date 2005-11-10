@@ -344,7 +344,7 @@ submitted as RFCs for Perl 6.
 
 === Con ===
 
-A common complaint is that Perl is ugly. In particular, its prodigious use of punctuation put some people off; Perl source code is sometimes likened to "line noise". 
+A common complaint is that Perl is ugly.  
 In [http://www.paulgraham.com/pypar.html The Python Paradox], [[Paul Graham]] both acknowledges and responds to this:
 
 <blockquote>
