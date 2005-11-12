@@ -241,7 +241,8 @@ The <tt>wantarray</tt> keyword can detect the type of context the function is ca
  $a = either;    # returns "Oranges"
  @a = either;    # returns (1, 2)
 
-=== Regular expressions ===
+===Regular expressions===
+{{seealso|Perl regular expression examples}}
 
 The Perl language includes a specialized syntax for writing [[regular expression]]s (REs), and the interpreter contains an engine for matching strings to regular expressions. The regular expression engine uses a [[backtracking]] algorithm, extending its capabilities from simple pattern matching to string capture and substitution.
 
@@ -276,8 +277,6 @@ One common use of regular expressions is to specify delimiters for the <tt>split
   @words = split m/,/, $line;   # divide $line into comma-separated values
 
 The <tt>split</tt> operator complements string capture. String capture returns strings that match the regular expression, <tt>split</tt> returns strings that don't match the RE.
-
-''See also [[Perl regular expression examples]].''
 
 === Database interfaces ===
 
