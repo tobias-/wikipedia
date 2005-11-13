@@ -1,4 +1,4 @@
-'''Perl''', (also [[backronym]]ed as '''Practical Extraction and Report Language''', see [[#Name|below]]) is an interpreted procedural [[programming language]] designed by [[Larry Wall]]. Perl has a unique set of features, some borrowed from [[C programming language|C]], others from [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk]], [[sed]], and (to a lesser extent) many other programming languages (even [[Lisp]]).
+'''Perl''', (also [[backronym]]ed as '''Practical Extraction and Report Language''', see [[#Name|below]]) is an interpreted procedural [[programming language]] designed by [[Larry Wall]]. Perl has a unique set of features, some borrowed from [[C programming language|C]], others from [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk]], [[sed]], and (to a lesser extent) many other programming languages (even [[Lisp programming language|Lisp]]).
 
 {{TOCleft}}
 
@@ -273,7 +273,7 @@ Perl has many features that ease the programmer's task at the expense of greater
 
 Larry Wall was trained as a linguist, and the design of Perl is very much informed by linguistic principles. Examples include [[Huffman coding]] (common constructions should be short), good end-weighting (the important information should come first), and a large collection of language primitives.  
 
-Perl syntax reflect the idea that "things that are different should look different".  For example: scalars, arrays, and hashes have different leading sigils. Array indices and hash keys use different kinds of braces. Strings and regex's have different standard delimiters.  This approach can be contrasted with languages like [[Lisp]], where the same [[S-expression]] construct and basic syntax is used for many different purposes.
+Perl syntax reflect the idea that "things that are different should look different".  For example: scalars, arrays, and hashes have different leading sigils. Array indices and hash keys use different kinds of braces. Strings and regex's have different standard delimiters.  This approach can be contrasted with languages like [[Lisp programming language|Lisp]], where the same [[S-expression]] construct and basic syntax is used for many different purposes.
 
 Perl favors language constructs that are natural for humans to read and write, even where they complicate the Perl interpreter. 
 
