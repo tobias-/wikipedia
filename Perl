@@ -279,13 +279,12 @@ Perl favors language constructs that are natural for humans to read and write, e
 
 Perl has features that support a variety of programming paradigms, such as [[Procedural programming|procedural]], [[Functional programming|functional]], and object-oriented. At the same time, Perl does not enforce any particular paradigm, or even require the programmer to choose among them. 
 
-There is a broad practical bent to both the Perl language and the community and culture that surround it. The preface to [[Programming Perl]] begins, "Perl is a language for getting your job done". One consequence of this is that Perl is not a tidy language. It includes features if people use them, tolerates exceptions to its rules, and employs heuristics to resolve syntactical ambiguities.
-Discussing the variant behaviour of built-in functions in list and scalar context, the perlfunc(1) man page says,
+There is a broad practical bent to both the Perl language and the community and culture that surround it. The preface to ''[[Programming Perl]]'' begins, "Perl is a language for getting your job done." One consequence of this is that Perl is not a tidy language. It includes features if people use them, tolerates exceptions to its rules, and employs heuristics to resolve syntactical ambiguities. Discussing the variant behaviour of built-in functions in list and scalar context, the perlfunc(1) man page says,
 <blockquote>
 In general, they do what you want, unless you want consistency.
 </blockquote>
 
-Perl has several mottos that convey aspects of its design and use. One is ''"There's more than one way to do it."'' (TMTOWTDI - usually pronounced 'Tim Toady'). Another is ''"Perl: the Swiss Army Chainsaw of Programming Languages"''. A stated design goal of Perl is to make easy tasks easy and difficult tasks possible.  Perl has also been called ''"The Duct Tape of the Internet"''.
+Perl has several mottos that convey aspects of its design and use. One is ''"There's more than one way to do it."'' (TMTOWTDI, usually pronounced 'Tim Toady'). Another is ''"Perl: the Swiss Army Chainsaw of Programming Languages"''. A stated design goal of Perl is to make easy tasks easy and difficult tasks possible.  Perl has also been called ''"The Duct Tape of the Internet"''.
 
 ==Opinion==
 Perl engenders strong feelings among both its proponents and its
