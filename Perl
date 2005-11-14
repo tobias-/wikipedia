@@ -1,4 +1,4 @@
-'''Perl''', (also [[backronym]]ed as '''Practical Extraction and Report Language''', see [[#Name|below]]) is an interpreted procedural [[esoteric programming language]] designed by [[Larry Wall]]. Perl has a unique set of features, some borrowed from [[C programming language|C]], others from [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk]], [[sed]], and (to a lesser extent) many other programming languages (even [[Lisp programming language|Lisp]]).
+'''Perl''', (also [[backronym]]ed as '''Practical Extraction and Report Language''', see [[#Name|below]]) is an interpreted procedural [[programming language]] designed by [[Larry Wall]]. Perl has a unique set of features, some borrowed from [[C programming language|C]], others from [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk]], [[sed]], and (to a lesser extent) many other programming languages (even [[Lisp programming language|Lisp]]).
 
 {{TOCleft}}
 
@@ -482,7 +482,8 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://history.perl.org/PerlTimeline.html The Timeline of Perl and its Culture v3.0_0505]
 *[http://www.nntp.perl.org/group/perl.perl6.meta/424 Transcription of Larry's talk]
 
-[[Category:Esoteric programming languages]]
+{{Major programming languages small}}
+
 [[Category:Perl|*]]
 [[Category:Curly bracket programming languages]]
 [[Category:Free software]]
