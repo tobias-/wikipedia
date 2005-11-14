@@ -482,8 +482,7 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://history.perl.org/PerlTimeline.html The Timeline of Perl and its Culture v3.0_0505]
 *[http://www.nntp.perl.org/group/perl.perl6.meta/424 Transcription of Larry's talk]
 
-{{Major programming languages small}}
-
+[[Category:Esoteric programming languages]]
 [[Category:Perl|*]]
 [[Category:Curly bracket programming languages]]
 [[Category:Free software]]
