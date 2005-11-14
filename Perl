@@ -1,4 +1,4 @@
-'''Perl''', (also [[backronym]]ed as '''Practical Extraction and Report Language''', see [[#Name|below]]) is an interpreted procedural [[programming language]] designed by [[Larry Wall]]. Perl has a unique set of features, some borrowed from [[C programming language|C]], others from [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk]], [[sed]], and (to a lesser extent) many other programming languages (even [[Lisp programming language|Lisp]]).
+'''Perl''', (also [[backronym]]ed as '''Practical Extraction and Report Language''', see [[#Name|below]]) is an interpreted procedural [[esoteric programming language]] designed by [[Larry Wall]]. Perl has a unique set of features, some borrowed from [[C programming language|C]], others from [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk]], [[sed]], and (to a lesser extent) many other programming languages (even [[Lisp programming language|Lisp]]).
 
 {{TOCleft}}
 
