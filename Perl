@@ -325,7 +325,7 @@ In [http://www.paulgraham.com/pypar.html The Python Paradox], [[Paul Graham]] bo
 At the mention of ugly source code, people will of course think of
 Perl. But the superficial ugliness of Perl is not the sort I mean.
 Real ugliness is not harsh-looking syntax, but having to build
-programs out of the wrong concepts.
+programs out of the wrong concepts. Perl may look like a cartoon character swearing, but there are cases where it surpasses Python conceptually.
 </blockquote>
 
 Another criticism is that Perl is excessively complex and compact, and that it leads to "write-only" code, that is, to code that is virtually impossible to understand after it has been written. It is, of course, possible to write obscure code in any language, but Perl has perhaps more than the usual share of terse, complex and arcane language constructs to exacerbate the problem. Perl supports many such features for backwards compatibility, and for use where maintainability is expressly not a concern, such as programs that are entered and run directly on the command line.
