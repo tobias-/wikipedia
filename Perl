@@ -338,7 +338,7 @@ Perl, as with any scripting language, is not efficient at [[CPU bound|processor-
 
 Embedding a Perl interpreter in a C program is not as simple as it might be. Calling C-language subroutines from  Perl code, via the [[XS (Perl)|XS]] interface, is inordinately complex.
 
-Some businesses balk at using Perl because they either don't understand or can't abide its licensing terms. Some worry that they won't be able to obtain support for it. Some object to the fact that the source code for Perl programs is generally visible to users (an advantage/disadvantage common to most interpreted languages).
+Some businesses balk at using Perl because they won't be able to obtain support for it. Some object to the fact that the source code for Perl programs is generally visible to users (an advantage/disadvantage common to most interpreted languages).
 
 ==History==
 Larry Wall began work on Perl in [[1987]], and released version 1.0 to the comp.sources.misc newsgroup on [[December 18]], [[1987]]. The language expanded rapidly over the next few years. Perl 2, released in [[1988]], featured a better regular expression engine. Perl 3, released in [[1989]], added support for binary data.
