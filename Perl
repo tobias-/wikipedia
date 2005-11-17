@@ -43,7 +43,7 @@ Maintenance of the Perl interpreter has become increasingly difficult over the y
 
 Perl is distributed with some 90,000 functional tests. These run as part of the normal build process, and extensively exercise the interpreter and its core modules. Perl developers rely on the functional tests to ensure that changes to the interpreter do not introduce bugs; conversely, Perl users who see the interpreter pass its functional tests on their system can have a high degree of confidence that it is working properly.
 
-There is no written specification or standard for the Perl language, and no plans to create one for the current version of Perl. There has only ever been one implementation of the interpreter. That interpreter, together with its functional tests, stands as a de facto specbnvhjghjghjghjghjghjgification of the language.
+There is no written specification or standard for the Perl language, and no plans to create one for the current version of Perl. There has only ever been one implementation of the interpreter. That interpreter, together with its functional tests, stands as a de facto specification of the language.
 
 ===Availability===
 Perl is [[Free software movement|Free software]], and cross-licensed  under the [[Artistic License]] and the [[GNU General Public License]]. It is available for most [[Operating system|operating systems]]. It is particularly prevalent on [[Unix]] and [[Unix-like]] systems (such as [[Linux]], [[FreeBSD]], and [[Mac OS X]]), and is growing in popularity on [[Microsoft Windows]] systems.
