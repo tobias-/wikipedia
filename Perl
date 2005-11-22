@@ -193,10 +193,9 @@ One common idiom is to assign <tt>@_</tt> to a list of named variables.
  my ($a, $b, $c) = @_;
 
 This effects both mnemonic parameter names and pass-by-value sematics.
-The <tt>my</tt> keyword makes following variables local, otherwise
-function could accidentaly acces global variables.
-Another idiom is to shift parameters off of <tt>@_</tt>.
-This is especially common when the subroutine takes only one argument.
+The <tt>my</tt> keyword indicates that the following variables are locally-scoped to the containing block, otherwise the subroutine could accidentally access global variables.
+
+Another idiom is to shift parameters off of <tt>@_</tt>. This is especially common when the subroutine takes only one argument.
 
  my $a = shift;
 
