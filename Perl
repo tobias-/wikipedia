@@ -190,13 +190,15 @@ which may be undesirable.
 
 One common idiom is to assign <tt>@_</tt> to a list of named variables.
 
- ($a, $b, $c) = @_;
+ my ($a, $b, $c) = @_;
 
 This effects both mnemonic parameter names and pass-by-value sematics.
+The <tt>my</tt> keyword makes following variables local, otherwise
+function could accidentaly acces global variables.
 Another idiom is to shift parameters off of <tt>@_</tt>.
 This is especially common when the subroutine takes only one argument.
 
- $a = shift;
+ my $a = shift;
 
 Subroutines may return values.
 
