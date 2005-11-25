@@ -152,7 +152,7 @@ Perl also has two implicit looping constructs:
 There is no switch (multi-way branch) statement in Perl 5. The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures, none entirely satisfactory.
 A very general and flexible switch statement has been designed for [[Perl 6]].  The <tt>Switch</tt> module makes most of the functionality of the Perl 6 switch available to Perl 5 programs.
 
-Perl includes a <tt>goto ''label''</tt> statement, but it is virtually never used. It is considered poor coding practise, the implementation is slow, and situations where a <tt>goto</tt> is called for in other languages either tend not to occur in Perl or are better handled with other control structures, such as labeled loops.
+Perl includes a <tt>goto ''label''</tt> statement, but it is virtually never used. It is considered poor coding practice, the implementation is slow, and situations where a <tt>goto</tt> is called for in other languages either tend not to occur in Perl or are better handled with other control structures, such as labeled loops.
 
 There is also a <tt>goto &''sub''</tt> statement that performs a [[tail call]].
 It terminates the current subroutine and immediately calls the specified <tt>''sub''</tt>.  
