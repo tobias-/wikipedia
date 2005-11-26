@@ -28,7 +28,7 @@ Perl is often used as a "glue language", tying together systems and interfaces t
 
 Perl is widely used in [[finance]] and [[bioinformatics]], where it is valued for rapid application development, ability to handle large data sets, and the availability of many standard and 3rd-party modules.
 
-Perl is also popular because of its ability to process [[regular expressions]]; the extended suite of perl's regex vocabulary is known (outside of perl) as 'perlre', and also as '[[PCRE]]' after a C library of the same name.
+Perl is also popular because of its ability to process [[regular expressions]].
 
 ===Implementation===
 Perl is implemented as a core interpreter, written in C, together with a large collection of modules, written in Perl and C. The source distribution is, as of 2005, 12 [[megabyte|MB]] when packaged in a [[Tar (file format)|tar file]] and [[data compression|compressed]]. The interpreter is 150,000 lines of C code and compiles to a 1 MB executable on typical machine architectures. Alternately, the interpreter can be compiled to a link library and embedded in other programs. There are nearly 500 modules in the distribution, comprising 200,000 lines of Perl and an additional 350,000 lines of C code. Much of the C code in the modules consists of character encoding tables.
