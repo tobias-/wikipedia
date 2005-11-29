@@ -413,12 +413,13 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[http://search.cpan.org/~dconway/Acme-Don-t-1.01/t.pm Acme::Don't] implements the logical opposite of the <tt>do</tt> keyword&mdash;<tt>don't</tt>, which does not execute the provided block.
 
 ==See also==
+*[[Perl 6]]
 *[[CPAN]]
-*[[Just another Perl hacker]]
+*[[The Perl Foundation]]
 *[[Larry Wall]]
+*[[Just another Perl hacker]]
 *[[Obfuscated Perl contest]]
 *[[Perl Object Environment|POE]]- the Perl Object Environment
-*[[Perl 6]]
 
 ==External links==
 *[http://www.perl.org/ Perl.org] &ndash; The Perl Directory
