@@ -7,7 +7,7 @@
   latest_release_date = [[May 30]], [[2005]] |
   operating_system = [[Cross-platform]] |
   genre = [[Programming language]] |
-  license = [[Gpl]] or [[Artistic License]] |
+  license = [[GNU General Public License|GPL]] or [[Artistic License]] |
   website = [http://www.perl.org www.perl.org] |
 }}
 '''Perl''', (also [[backronym]]ed as '''Practical Extraction and Report Language''', see [[#Name|below]]) is an interpreted procedural [[programming language]] designed by [[Larry Wall]]. Perl has a unique set of features, some borrowed from [[C programming language|C]], others from [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk]], [[sed]], and (to a lesser extent) many other programming languages (even [[Lisp programming language|Lisp]]).
