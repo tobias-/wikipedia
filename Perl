@@ -344,8 +344,6 @@ On a different level, one of the early Unix engineers from Bell Labs has express
 
 Perl, as with any scripting language, is not efficient at [[CPU bound|processor-bound]] tasks.  Additionally, programs often use more memory than they would if written in a traditional language (such as C or C++).
 
-Some object to the fact that the source code for Perl programs is generally visible to users (an advantage/disadvantage common to most interpreted languages).
-
 ==History==
 Larry Wall began work on Perl in 1987, and released version 1.0 to the comp.sources.misc [[newsgroup]] on [[December 18]], [[1987]]. The language expanded rapidly over the next few years. Perl 2, released in 1988, featured a better regular expression engine. Perl 3, released in 1989, added support for binary data.
 
