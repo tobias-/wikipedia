@@ -460,6 +460,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[http://perlcast.com Perlcast] - Perl Podcast
 *[http://www.perl.com/pub/a/2000/01/10PerlMyths.html Ten Perl Myths] - O'Reilly
 *[http://fortunes.quotationsbook.com/fortunes/collection/52/PERL Perl fortunes collected from Larry Wall message identifiers]
+* [http://www.traininghott.com/Courses/Perl-Programming-CGI-Scripting.htm?source=wiki Perl Programming Courses]
 
 ==References==
 ===Books===
