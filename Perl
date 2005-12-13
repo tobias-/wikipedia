@@ -288,9 +288,9 @@ Perl syntax reflects the idea that "things that are different should look differ
 
 Perl favors language constructs that are natural for humans to read and write, even where they complicate the Perl interpreter. 
 
-Perl has features that support a variety of programming paradigms, such as [[Procedural programming|procedural]], [[Functional programming|functional]], and object-oriented. At the same time, Perl does not enforce any particular paradigm, or even require the programmer to choose among them. 
+Perl has features that support a variety of programming paradigms, such as [[Procedural programming|procedural]], [[Functional programming|functional]], and [[Object-oriented programming|object-oriented]]. At the same time, Perl does not enforce any particular paradigm, or even require the programmer to choose among them. 
 
-There is a broad practical bent to both the Perl language and the community and culture that surround it. The preface to ''[[Programming Perl]]'' begins, "Perl is a language for getting your job done." One consequence of this is that Perl is not a tidy language. It includes features if people use them, tolerates exceptions to its rules, and employs heuristics to resolve syntactical ambiguities. Discussing the variant behaviour of built-in functions in list and scalar context, the perlfunc(1) man page says,
+There is a broad practical bent to both the Perl language and the community and culture that surrounds it. The preface to ''[[Programming Perl]]'' begins, "Perl is a language for getting your job done." One consequence of this is that Perl is not a tidy language. It includes features if people use them, tolerates exceptions to its rules, and employs heuristics to resolve syntactical ambiguities. Discussing the variant behaviour of built-in functions in list and scalar context, the perlfunc(1) man page says,
 <blockquote>
 In general, they do what you want, unless you want consistency.
 </blockquote>
