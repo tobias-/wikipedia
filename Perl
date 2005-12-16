@@ -10,7 +10,7 @@
   license = [[GNU General Public License|GPL]] or [[Artistic License]] |
   website = [http://www.perl.org www.perl.org] |
 }}
-'''Perl''' (also [[backronym]]ed as '''Practical Extraction and Report Language''', see [[#Name|below]]) is an interpreted procedural [[programming language]] designed by [[Larry Wall]]. Perl has a unique set of features, some borrowed from [[C programming language|C]], others from [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk]], [[sed]], and (to a lesser extent) many other programming languages (even [[Lisp programming language|Lisp]]). Among its best known features are the tight integration of [[regular expression]]s and its extensive library of third-party extension modules ([[CPAN]]).
+'''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]) is an interpreted procedural [[programming language]] designed by [[Larry Wall]]. Perl borrows features from [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk]], [[sed]], [[Lisp programming language|Lisp]], and (to a lesser extent) many other programming languages.
 
 ==Overview==
 
