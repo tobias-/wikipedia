@@ -282,7 +282,7 @@ In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The <tt>
 ==Language design==
 The design of Perl can be understood as a response to three broad trends in the computer industry: falling hardware costs, rising labor costs, and improvements in compiler technology. Many earlier computer languages, such as [[Fortran]] and C, were designed to make efficient use of expensive computer hardware. In contrast, Perl  is designed to make efficient use of expensive computer programmers.
 
-Perl has many features that ease the programmer's task at the expense of greater CPU and memory requirements. These include automatic memory management; [[dynamic typing]]; strings, lists, and hashes; regular expressions, and [[Interpreter (computing)|interpreted execution]].
+Perl has many features that ease the programmer's task at the expense of greater CPU and memory requirements. These include automatic memory management; [[dynamic typing]]; strings, lists, and hashes; regular expressions; introspection and an <tt>eval()</tt> function.
 
 Larry Wall was trained as a linguist, and the design of Perl is very much informed by linguistic principles. Examples include [[Huffman coding]] (common constructions should be short), good end-weighting (the important information should come first), and a large collection of language primitives.  
 
