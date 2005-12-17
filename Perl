@@ -284,7 +284,7 @@ Perl has many features that ease the programmer's task at the expense of greater
 
 Larry Wall was trained as a linguist, and the design of Perl is very much informed by linguistic principles. Examples include [[Huffman coding]] (common constructions should be short), good end-weighting (the important information should come first), and a large collection of language primitives.  
 
-Perl syntax reflects the idea that "things that are different should look different".  For example: scalars, arrays, and hashes have different leading sigils. Array indices and hash keys use different kinds of braces. Strings and regexes have different standard delimiters.  This approach can be contrasted with languages like [[Lisp programming language|Lisp]], where the same [[S-expression]] construct and basic syntax is used for many different purposes.
+Perl syntax reflects the idea that "things that are different should look different".  For example: scalars, arrays, and hashes have different leading sigils. Array indices and hash keys use different kinds of braces. Strings and regular expressions have different standard delimiters.  This approach can be contrasted with languages like [[Lisp programming language|Lisp]], where the same [[S-expression]] construct and basic syntax is used for many different purposes.
 
 Perl favors language constructs that are natural for humans to read and write, even where they complicate the Perl interpreter. 
 
