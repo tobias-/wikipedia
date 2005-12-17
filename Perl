@@ -32,7 +32,9 @@ In Perl 5, features were added that support complex data structures, first-class
 All versions of Perl do automatic data typing and memory management. The interpreter knows the type and storage requirements of every data object in the program; it allocates and frees storage for them as necessary. Legal type conversions are done automatically at run time; illegal type conversions are fatal errors.
 
 ===Applications===
-Perl has many applications. It has been used since the early days of the Web to write [[Common Gateway Interface|CGI]] scripts, and is an integral component of the popular [[LAMP (software bundle)|LAMP]] ([[Linux]] / [[Apache HTTP Server|Apache]] / [[MySQL]] / (Perl / [[PHP]] / [[Python programming language|Python]])) platform for web development. Perl has been called "the glue that holds the web together". <!-- a source for this quote would be nice --> Large projects written in Perl include [[Slashdot]] and early implementations of [[PHP]] [http://www.php.net/history] and [[UseModWiki]], the [[wiki]] software used in [[Wikipedia]] (until 2002).
+Perl has many and varied applications. 
+
+It has been used since the early days of the Web to write [[Common Gateway Interface|CGI]] scripts, and is an integral component of the popular [[LAMP (software bundle)|LAMP]] ([[Linux]] / [[Apache HTTP Server|Apache]] / [[MySQL]] / (Perl / [[PHP]] / [[Python programming language|Python]])) platform for web development. Perl has been called "the glue that holds the web together". <!-- a source for this quote would be nice --> Large projects written in Perl include [[Slash (weblog system)|Slash]], early implementations of [[PHP]] [http://www.php.net/history], and [[UseModWiki]], the [[wiki]] software used in [[Wikipedia]] (until 2002).
 
 Perl is often used as a "glue language", tying together systems and interfaces that were not specifically designed to interoperate. Systems administrators use Perl as an all-purpose tool; short Perl programs can be entered and run on a single command line.
 
