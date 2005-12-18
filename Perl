@@ -1,6 +1,6 @@
 {{Infobox_Software |
   name = Perl |
-  screenshot = [[Image:Programming-republic-of-perl.gif]] |
+  logo = <br>[[Image:Programming-republic-of-perl.gif]] |
   caption =  |
   developer = [[Larry Wall]] |
   latest_release_version = 5.8.7 |
