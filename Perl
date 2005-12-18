@@ -14,7 +14,7 @@
 
 ==Overview==
 
-The perlintro(1) [[main page]] states:
+The perlintro(1) [[man page]] states:
 
 :Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more.
 
