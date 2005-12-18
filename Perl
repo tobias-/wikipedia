@@ -21,15 +21,15 @@ The perlintro(1) [[man page]] states:
 :The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal). Its major features are that it's easy to use, supports both procedural and [[Object-oriented programming|object-oriented]] (OO) programming, has powerful built-in support for text processing, and has one of the world's most impressive collections of third-party modules.
 
 ===Language features===
-The overall structure of Perl derives broadly from the programming language C. Perl is a procedural programming language, with variables, expressions, assignment statements, brace-delimited code blocks, control structures, and subroutines.
+The overall structure of Perl derives broadly from the programming language [[C programming language|C]]. Perl is a [[procedural programming language]], with [[variable]]s, [[expression]]s, [[assignment statement]]s, [[brace]]-delimited [[code block]]s, [[control structure]]s, and [[subroutine]]s.
 
-Perl also takes features from shell programming. All variables are marked with leading [[Sigil (computer programming)|sigil]]s. Sigils unambiguously identify variable names, allowing Perl to have a rich syntax. Importantly, sigils allow variables to be interpolated directly into strings. Like the Unix shells, Perl has many built-in functions for common tasks, like sorting, and for accessing system facilities.
+Perl also takes features from [[shell programming]]. All variables are marked with leading [[Sigil (computer programming)|sigil]]s. Sigils unambiguously identify variable names, allowing Perl to have a rich syntax. Importantly, sigils allow variables to be interpolated directly into strings. Like the Unix shells, Perl has many built-in functions for common tasks, like sorting, and for accessing system facilities.
 
-Perl takes [[list]]s from Lisp, [[associative array]]s from awk, and [[regular expressions]] from sed. These simplify and facilitate all manner of parsing, text handling, and data management tasks.
+Perl takes [[list]]s from [[Lisp programming language|Lisp]], [[associative array]]s from [[awk]], and [[regular expressions]] from [[sed]]. These simplify and facilitate all manner of parsing, text handling, and data management tasks.
 
-In Perl 5, features were added that support complex data structures, first-class functions (i.e. [[Closure (computer science)|closures]] as values), and an object-oriented programming model. These include [[reference (computer science)|reference]]s, packages, and class-based method dispatch. Perl 5 also saw the introduction of lexically scoped variables, which make it easier to write robust code, and modules, which make it practical to write and distribute libraries of Perl code.
+In Perl 5, features were added that support complex [[data structure]]s, [[first-class function]]s (i.e. [[Closure (computer science)|closures]] as values), and an [[object-oriented programming]] model. These include [[reference (computer science)|reference]]s, packages, and class-based method dispatch. Perl 5 also saw the introduction of [[lexically scoped variables]], which make it easier to write robust code, and modules, which make it practical to write and distribute libraries of Perl code.
 
-All versions of Perl do automatic data typing and memory management. The interpreter knows the type and storage requirements of every data object in the program; it allocates and frees storage for them as necessary. Legal type conversions are done automatically at run time; illegal type conversions are fatal errors.
+All versions of Perl do automatic data typing and [[memory management]]. The interpreter knows the type and storage requirements of every data object in the program; it allocates and frees storage for them as necessary. Legal type conversions are done automatically at run time; illegal type conversions are fatal errors.
 
 ===Applications===
 Perl has many and varied applications. 
