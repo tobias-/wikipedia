@@ -246,9 +246,12 @@ The <tt>m//</tt> (match) operator introduces a regular expression match. (The le
 
   $x =~ m/abc/
 
-evaluates to true [[if and only if]] the string <tt>$x</tt> matches the regular expression <tt>abc</tt>. Capturing a matched string can be done by surrounding part of the regular expression with parentheses and evaluating it in list context. This is more interesting for patterns that can match multiple strings:
+evaluates to true [[if and only if]] the string <tt>$x</tt> matches the regular expression <tt>abc</tt>. Capturing a matched string can be done by surrounding part of the regular expression with parentheses and evaluating it in list context. The captured part will be in the variable <tt>$1</tt>:
 
-  ($matched) = $x =~ m/a(.)c/;   # capture the character between 'a' and 'c'
+  $x = 'abc';
+  if( $x =~ m/a(.)c/ ) {   # capture the character between 'a' and 'c'
+      print $1;            # will print 'b'
+  }
 
 The <tt>s///</tt> (substitute) operator specifies a search and replace operation:
 
