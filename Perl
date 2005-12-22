@@ -246,12 +246,9 @@ The <tt>m//</tt> (match) operator introduces a regular expression match. (The le
 
   $x =~ m/abc/
 
-evaluates to true [[if and only if]] the string <tt>$x</tt> matches the regular expression <tt>abc</tt>. Capturing a matched string can be done by surrounding part of the regular expression with parentheses and evaluating it in list context. The captured part will be in the variable <tt>$1</tt>:
+evaluates to true [[if and only if]] the string <tt>$x</tt> matches the regular expression <tt>abc</tt>. A matched string can be captured by surrounding part of the regular expression with parentheses and evaluating it in list context. 
 
-  $x = 'abc';
-  if( $x =~ m/a(.)c/ ) {   # capture the character between 'a' and 'c'
-      print $1;            # will print 'b'
-  }
+  ($matched) = $x =~ m/a(.)c/;  # capture the character between 'a' and 'c'
 
 The <tt>s///</tt> (substitute) operator specifies a search and replace operation:
 
@@ -262,7 +259,7 @@ Perl regular expressions can take ''modifiers''. These are single-letter suffixe
   $x =~ m/abc/i;      # case-insensitive pattern match
   $x =~ s/abc/aBc/g;  # global search and replace
 
-Regular expressions can be dense and cryptic. This is because regular expression syntax is extremely compact, generally using single characters or character pairs to represent its operations. Perl provides relief from the problem with the <tt>/x</tt> modifer, which allows programmers to place whitespace and comments ''inside'' regular expressions:
+Regular expressions can be dense and cryptic. This is because regular expression syntax is extremely compact, generally using single characters or character pairs to represent its operations. Perl provides some relief from this problem with the <tt>/x</tt> modifer, which allows programmers to place whitespace and comments ''inside'' regular expressions:
 
   $x =~ m/a     # match 'a'
           .     # match any character
