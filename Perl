@@ -248,7 +248,7 @@ The <tt>m//</tt> (match) operator introduces a regular expression match. (The le
 
 evaluates to true [[if and only if]] the string <tt>$x</tt> matches the regular expression <tt>abc</tt>. In a regular expression that evaluates to true, any part(s) that are enclosed by unescaped parentheses will be "captured." Each string that's represented by parenthesized regular expression segments is assigned to the sequential built-in variables $1, $2, $3, etc.
 
-  $x =~ m/a(.)c/;  # capture any single character between 'a' and 'c'
+  $x =~ m/a(.)c/;  # capture the character between 'a' and 'c'
 
 The <tt>s///</tt> (substitute) operator specifies a search and replace operation:
 
