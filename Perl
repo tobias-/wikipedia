@@ -66,10 +66,17 @@ Perl has been ported to over a hundred different platforms. Perl can, with only 
 ===Example Program===
 In Perl, the canonical "[[Hello world]]" program is:
 
+ <nowiki>#</nowiki>!/usr/bin/perl
+ print "Hello, world!\n";
 
- print "chaitanya!\n";
+The first line is the [[shebang]], which indicates the path to the location of the interpreter in the file system.  The second line prints the string 'Hello, world!' and a [[newline]] (like a person pressing 'Return' or 'Enter').
 
+The shebang shown in the above example is typical of a Unix-like system. On Windows systems, assuming that the perl executable is in the [[path (computing)|command path]], one could use the following shebang line:
+ <nowiki>#</nowiki>!perl
 
+The shebang is the most common, but not the only way of ensuring that the perl interpreter runs the program.  Another way to associate the file with the interpreter in Windows would be to associate .pl file types with the Perl interpreter, which is automatically done in some installations of Perl.
+
+Here is a one-line, throw-away Perl program that does [[ROT13]] encoding/decoding.
 It is entered and run directly on the command line:
 
  perl -pe 'tr/A-Za-z/N-ZA-Mn-za-m/' < input_file > output_file
