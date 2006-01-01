@@ -130,7 +130,9 @@ There are a few functions that operate on entire hashes.
 ===Control structures===
 {{main|Perl control structures}}
 
-Perl has several kinds of control structures. It has block-oriented control structures, similar to those in the C and [[Java programming language|Java]] programming languages. Conditions are surrounded by parentheses, and controlled blocks are surrounded by braces:
+Perl has several kinds of control structures. 
+
+It has block-oriented control structures, similar to those in the C and [[Java programming language|Java]] programming languages. Conditions are surrounded by parentheses, and controlled blocks are surrounded by braces:
 
  ''label'' while ( ''cond'' ) { ... }
  ''label'' while ( ''cond'' ) { ... } continue { ... }
@@ -150,18 +152,20 @@ Where only a single statement is being controlled, statement modifiers provide a
  ''statement'' foreach ''list'' ;
 
 Short-circuit logical operators are commonly used to effect control flow at the expression level:
+
  ''expr'' and ''expr''
  ''expr'' or  ''expr''
-This is especially useful because Perl treats the flow control keywords <tt>return</tt>, <tt>redo</tt>, <tt>next</tt> and <tt>last</tt> as expressions, while many other languages consider them statements.
+
+The flow control keywords <tt>next</tt>, <tt>last</tt>, <tt>return</tt>, and <tt>redo</tt> are expressions, so they can be used with short-circuit operators.
 
 Perl also has two implicit looping constructs:
+
   ''results'' = grep { ... } ''list''
   ''results'' = map  { ... } ''list''
-<tt>grep</tt> returns all elements of ''list'' for which the controlled block evaluates to true.
-<tt>map</tt> evaluates the controlled block for each element of ''list'' and returns a list of the resulting values. These constructs enable a simple functional programming style.
 
-There is no switch (multi-way branch) statement in Perl 5. The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures, none entirely satisfactory.
-A very general and flexible switch statement has been designed for [[Perl 6]].  The <tt>Switch</tt> module makes most of the functionality of the Perl 6 switch available to Perl 5 programs.
+<tt>grep</tt> returns all elements of ''list'' for which the controlled block evaluates to true. <tt>map</tt> evaluates the controlled block for each element of ''list'' and returns a list of the resulting values. These constructs enable a simple functional programming style.
+
+There is no switch (multi-way branch) statement in Perl 5. The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures, none entirely satisfactory. A very general and flexible switch statement has been designed for [[Perl 6]].  The <tt>Switch</tt> module makes most of the functionality of the Perl 6 switch available to Perl 5 programs.
 
 Perl includes a <tt>goto ''label''</tt> statement, but it is virtually never used. It is considered poor coding practice, the implementation is slow, and situations where a <tt>goto</tt> is called for in other languages either tend not to occur in Perl or are better handled with other control structures, such as labeled loops.
 
