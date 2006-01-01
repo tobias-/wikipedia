@@ -40,8 +40,6 @@ Perl is often used as a "glue language", tying together systems and interfaces t
 
 Perl is widely used in finance and [[bioinformatics]], where it is valued for rapid application development, ability to handle large data sets, and the availability of many standard and 3rd-party modules.
 
-Perl is also popular because of its ability to process regular expressions. The advantages that Perl's regular expressions have over [[POSIX]] standard and extended regular expressions have led to several other languages and applications adopting "Perl compatible regular expressions" [http://www.pcre.org/]
-
 ===Implementation===
 Perl is implemented as a core interpreter, written in C, together with a large collection of modules, written in Perl and C. The source distribution is, as of 2005, 12 [[megabyte|MB]] when packaged in a [[Tar (file format)|tar file]] and [[data compression|compressed]]. The interpreter is 150,000 lines of C code and compiles to a 1 MB executable on typical machine architectures. Alternately, the interpreter can be compiled to a link library and embedded in other programs. There are nearly 500 modules in the distribution, comprising 200,000 lines of Perl and an additional 350,000 lines of C code. Much of the C code in the modules consists of character encoding tables.
 
@@ -243,7 +241,7 @@ A subroutine can discover its calling context with the <tt>wantarray</tt> functi
 
 The Perl language includes a specialized syntax for writing [[regular expression]]s (REs), and the interpreter contains an engine for matching strings to regular expressions. The regular expression engine uses a [[backtracking]] algorithm, extending its capabilities from simple pattern matching to string capture and substitution.
 
-The Perl regular expression syntax was originally taken from Unix Version 8 regular expressions. However, it diverged before the first release of Perl, and has since grown to include many more features.
+The Perl regular expression syntax was originally taken from Unix Version 8 regular expressions. However, it diverged before the first release of Perl, and has since grown to include many more features. Some other languages and applications are now adopting [http://www.pcre.org/ Perl compatible regular expressions] in favor of [[POSIX]] regular expressions.
 
 The <tt>m//</tt> (match) operator introduces a regular expression match. (The leading <tt>m</tt> may be omitted for brevity.) In the simplest case, an expression like
 
