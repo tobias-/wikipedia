@@ -205,10 +205,10 @@ which may be undesirable.
 
 One common idiom is to assign <tt>@_</tt> to a list of named variables.
 
- my ($x, $y, $z) = @_;
+ my($x, $y, $z) = @_;
 
 This effects both mnemonic parameter names and pass-by-value sematics.
-The <tt>my</tt> keyword indicates that the following variables are locally-scoped to the containing block, otherwise the subroutine could accidentally access global variables.
+The <tt>my</tt> keyword indicates that the following variables are lexically scoped to the containing block.
 
 Another idiom is to shift parameters off of <tt>@_</tt>. This is especially common when the subroutine takes only one argument.
 
@@ -231,7 +231,7 @@ The returned expression is evaluated in the calling context of the subroutine; t
  @x = list;   # returns (4, 5, 6)
  @x = array;  # returns (4, 5, 6)
 
-The <tt>wantarray</tt> keyword can detect the type of context the function is called in.
+A subroutine can discover its calling context with the <tt>wantarray</tt> function.
 
  sub either { wantarray ? (1, 2) : "Oranges" }
  
