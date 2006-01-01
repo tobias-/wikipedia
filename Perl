@@ -362,13 +362,13 @@ Perl 5 was released on [[October 17]], [[1994]]. It was a nearly complete rewrit
 
 On [[October 26]], [[1995]], the [[Comprehensive Perl Archive Network]] (CPAN) was established. CPAN is a collection of web sites that archive and distribute Perl sources, binary distributions, documentation, scripts, and modules. Originally, each CPAN site had to be accessed through its own URL; today, the single URL [http://www.cpan.org http://www.cpan.org] automatically redirects to a CPAN site.
 
-As of 2005, Perl 5 is still being actively maintained. It now includes [[Unicode]] support. The latest stable release is Perl 5.8.7.
+As of 2006, Perl 5 is still being actively maintained. It now includes [[Unicode]] support. The latest stable release is Perl 5.8.7.
 
 At the 2000 [[Perl Conference]], [[Jon Orwant]] made a case for a major new language initiative. This led to a decision to begin work on a redesign of the language, to be called [[Perl 6]]. Proposals for new language features were solicited from the Perl community at large, and over 300 RFCs were submitted.
 
 Larry Wall spent the next few years digesting the RFCs and synthesizing them into a coherent framework for Perl 6. He has presented his design for Perl 6 in a series of documents called [[Apocalypse (perl)|apocalypse]]s.
 
-In 2001, it was decided that Perl 6 would run on a cross-language [[virtual machine]] called [[Parrot virtual machine|Parrot]]. As of 2005, both Perl 6 and Parrot are still under active development.
+In 2001, it was decided that Perl 6 would run on a cross-language [[virtual machine]] called [[Parrot virtual machine|Parrot]]. As of 2006, both Perl 6 and Parrot are under active development.
 
 ==CPAN==
 {{main|CPAN}}
