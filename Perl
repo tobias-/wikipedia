@@ -249,7 +249,12 @@ The <tt>m//</tt> (match) operator introduces a regular expression match. (The le
 
   $x =~ m/abc/
 
-evaluates to true [[if and only if]] the string <tt>$x</tt> matches the regular expression <tt>abc</tt>. In a regular expression that evaluates to true, any part(s) that are enclosed by unescaped parentheses will be "captured." Each string that's represented by parenthesized regular expression segments is assigned to the sequential built-in variables $1, $2, $3, etc.
+evaluates to true [[if and only if]] the string <tt>$x</tt> matches the regular expression <tt>abc</tt>. 
+
+Portions of a regular expression may be enclosing in parentheses;
+corresponding portions of a matching string are ''captured''.
+Captured strings are assigned to the sequential built-in variables <tt>$1, $2, $3, ...</tt>,
+and a list of captured strings is returned as the value of the match.
 
   $x =~ m/a(.)c/;  # capture the character between 'a' and 'c'
 
@@ -273,7 +278,7 @@ One common use of regular expressions is to specify delimiters for the <tt>split
 
   @words = split m/,/, $line;   # divide $line into comma-separated values
 
-The <tt>split</tt> operator complements string capture. String capture returns strings that match the regular expression, <tt>split</tt> returns strings that don't match the RE.
+The <tt>split</tt> operator complements string capture. String capture returns the parts of a string that match a regular expression; <tt>split</tt> returns the parts that don't match.
 
 ===Database interfaces===
 Perl is widely favored for database applications. Its text handling facilities are good for generating SQL queries; arrays, hashes and automatic memory management make it easy to collect and process the returned data.
