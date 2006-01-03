@@ -116,10 +116,14 @@ accessed by providing the corresponding key, in curly braces. The
   $favorite{joe}  # a value in %favorite
 
 The number of elements in an array can be obtained by evalulating the
-array in scalar context or with the <tt>$#</tt> [[Sigil (computer programming)|sigil]].
+array in scalar context or with the help of the <tt>$#</tt> [[Sigil (computer programming)|sigil]].
+The latter gives the index of the last element in the array, not the number of elements.
 
   $count = @friends;
-  $#friends       # the number of elements in @friends
+  $#friends       # the index of the last element in @friends
+  $#friends+1     # the number of elements in @friends
+                  # this is one more than $#friends because the first element is at
+                  # index 0, not 1
 
 There are a few functions that operate on entire hashes.
 
