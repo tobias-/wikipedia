@@ -116,9 +116,10 @@ accessed by providing the corresponding key, in curly braces. The
   $favorite{joe}  # a value in %favorite
 
 The number of elements in an array can be obtained by evalulating the
-array in scalar context.
+array in scalar context or with the <tt>$#</tt> [[Sigil (computer programming)|sigil]].
 
   $count = @friends;
+  $#friends       # the number of elements in @friends
 
 There are a few functions that operate on entire hashes.
 
