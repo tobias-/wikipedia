@@ -442,6 +442,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[http://www.pm.org/ Perl Mongers] &ndash; local user groups in cities worldwide
 *[http://www.perlmonks.org/ PerlMonks] &ndash; an active and popular online user group and discussion forum
 *[http://use.perl.org/ use Perl;] &ndash; Perl news and community discussion
+*[http://www.velocityreviews.com/forums/f17-complangperl.html Perl Newsgroups] &ndash; Web access to Perl Newsgroups
 
 ===Distributions===
 *[http://www.cpan.org/ CPAN] &ndash; Comprehensive Perl Archive Network, Perl source distribution
