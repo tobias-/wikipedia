@@ -436,6 +436,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[[Obfuscated Perl contest]]
 *[[Perl Object Environment|POE]]- the Perl Object Environment
 *[[Perl Mongers]]
+*[[Perl Data Language]]
 
 ==References==
 ===Books===
