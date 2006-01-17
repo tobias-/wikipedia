@@ -461,7 +461,7 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://www.perl.org/ Perl.org] &ndash; The Perl Directory
 *[http://www.perl.com/ Perl.com] &ndash; Perl on [[O'Reilly Network]]
 *[http://perldoc.perl.org/ Perldoc at Perl.org] &ndash; online Perl documentation
-*[http://www.easysoft.com/developer/languages/perl/index.html] - Online Perl tutorials 
+*[http://www.easysoft.com/developer/languages/perl/index.html Easysoft.com] - Online Perl tutorials 
 
 ===Development===
 *[http://dev.perl.org/perl5/ Perl 5 development]
