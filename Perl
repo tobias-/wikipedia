@@ -105,7 +105,7 @@ or they may associate a <tt>.pl</tt> [[Filename extension|file extension]] with 
 
 ====Command line====
 Here is a one-line, throw-away Perl program that does [[ROT13]] encoding/decoding.
-It is entered and run directly on the command line:
+It is entered and run directly from the Unix shell (or similar) command line:
 
  perl -pe 'tr/A-Za-z/N-ZA-Mn-za-m/' < input_file > output_file
 
