@@ -539,6 +539,7 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 [[it:Perl]]
 [[ja:Perl]]
 [[ko:펄]]
+[[la:Perl]]
 [[lb:Perl (Programméiersprooch)]]
 [[lt:Perl]]
 [[nl:Perl]]
