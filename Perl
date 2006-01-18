@@ -101,7 +101,7 @@ The first line is the [[shebang]], which tells the operating system where to fin
 
 The shebang is the usual way to invoke the interpreter on Unix systems.
 Windows systems may rely on the shebang,
-or they may associate a <tt>.pl</tt> file extension with the Perl interpreter.
+or they may associate a <tt>.pl</tt> [[Filename extension|file extension]] with the Perl interpreter.
 
 ====Command line====
 Here is a one-line, throw-away Perl program that does [[ROT13]] encoding/decoding.
