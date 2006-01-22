@@ -35,7 +35,7 @@ Larry Wall spent the next few years digesting the RFCs and synthesizing them int
 In 2001, it was decided that Perl 6 would run on a cross-language [[virtual machine]] called [[Parrot virtual machine|Parrot]]. As of 2006, both Perl 6 and Parrot are under active development. Perl 6 is not intended to be backwards-compatible, though there will be a compatibility mode.
 
 ===The name "Perl"===
-Perl was originally named "Pearl", after "the pearl of great price" of [[Gospel of Matthew|Matthew]] 13:46. Larry Wall wanted to give the language a short name with positive connotations; he claims that he looked at (and rejected) every three- and four-letter word in the dictionary. He also considered naming it after his wife Gloria. Wall discovered before the language's official release that there was already a programming language named [[PEARL programming language|PEARL]] and changed the spelling of the name.
+Perl was originally named a family from Poland "The Perl's". The Perl's created a major part of the algorithm used to program in Perl. "The Perl's" are now are spread out throughout the world.
 
 The name is normally capitalized (''Perl'') when referring to the language and uncapitalized (''perl'') when referring to the interpreter program itself since Unix-like filesystems are case sensitive. Before the release of the first edition of ''Programming Perl'' it was common to refer to the language as ''perl''; [[Randal L. Schwartz]], however, forced the uppercase language name in the book to make the name stand out better when typeset.  The case distinction was subsequently adopted by the community.
 
