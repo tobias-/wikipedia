@@ -376,7 +376,15 @@ At the 2000 [[Perl Conference]], [[Jon Orwant]] made a case for a major new lang
 
 Larry Wall spent the next few years digesting the RFCs and synthesizing them into a coherent framework for Perl 6. He has presented his design for Perl 6 in a series of documents called [[Apocalypse (perl)|apocalypse]]s, which are numbered to correspond to chapters in ''[[Programming Perl]]'' ("The Camel Book").  The current, unfinalized specification of Perl 6 is encapsulated in design documents called Synopses, which are numbered to correspond to Apocalypses.
 
-In 2001, it was decided that Perl 6 would run on a cross-language [[virtual machine]] called [[Parrot virtual machine|Parrot]]. As of 2006, both Perl 6 and Parrot are under active development. Perl 6 is not intended to be backwards-compatible, though there will be a compatibility mode.
+Perl 6 is not intended to be backwards-compatible, though there will be a compatibility mode.
+
+In 2001, it was decided that Perl 6 would run on a cross-language [[virtual machine]] called [[Parrot virtual machine|Parrot]]. This will mean that other languages targeting the Parrot will gain native access to [[CPAN]] and will allow some level of cross-languag development.
+
+In 2005 [[Audrey Tang]] created the [[pugs]] project, an implementation of Perl 6 in [[Haskell]]. This was and continues to act as a test platform for the Perl 6 language (seperate from the development of the actual implementation) allowing the language designers to explore. The pugs project resulted in an active Perl/Haskell cross-language community centred around the [[Freenode]] #perl6 irc channel.
+
+A number of features in the Perl 6 language now show similarities with Haskell, and Perl 6 has been embraced by the Haskell community as a potential scripting language.
+
+As of 2006 Perl 6, Parrot, and pugs are under active development.
 
 ==CPAN==
 {{main|CPAN}}
