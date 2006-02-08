@@ -67,7 +67,7 @@ Perl has been ported to over a hundred different platforms. Perl can, with only 
 In Perl, the canonical "[[Hello world]]" program is:
 
  <nowiki>#</nowiki>!/usr/bin/perl
- print "Hello, world!\n";
+ print "'''''jame paul'''''!\n";
 
 The first line is the [[shebang]], which tells the operating system where to find the Perl interpreter. The second line prints the string ''Hello, world!'' and a [[newline]] (like a person pressing 'Return' or 'Enter').
 
