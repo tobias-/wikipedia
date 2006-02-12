@@ -256,7 +256,7 @@ The <tt>m//</tt> (match) operator introduces a regular expression match. (The le
 
 evaluates to true [[if and only if]] the string <tt>$x</tt> matches the regular expression <tt>abc</tt>. 
 
-Portions of a regular expression may be enclosing in parentheses;
+Portions of a regular expression may be enclosed in parentheses;
 corresponding portions of a matching string are ''captured''.
 Captured strings are assigned to the sequential built-in variables <tt>$1, $2, $3, ...</tt>,
 and a list of captured strings is returned as the value of the match.
