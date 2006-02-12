@@ -308,7 +308,7 @@ There is a broad practical bent to both the Perl language and the community and 
 In general, they do what you want, unless you want consistency.
 </blockquote>
 
-Perl has several mottos that convey aspects of its design and use. One is ''"There's more than one way to do it."'' (TMTOWTDI, usually pronounced 'Tim Toady'). Another is ''"Perl: the Swiss Army Chainsaw of Programming Languages"''. A stated design goal of Perl is to make easy tasks easy and difficult tasks possible.  Perl has also been called ''"The Duct Tape of the Internet"''.
+Perl has several mottos that convey aspects of its design and use. One is ''"There's more than one way to do it."'' (TMTOWTDI, usually pronounced 'Tim Toady'). Others are ''"Perl: the Swiss Army Chainsaw of Programming Languages"'' and ''"No unnecessary limits"''. A stated design goal of Perl is to make easy tasks easy and difficult tasks possible.  Perl has also been called ''"The Duct Tape of the Internet"''.
 
 ==Opinion==
 Perl engenders strong feelings among both its proponents and its
