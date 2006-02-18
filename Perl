@@ -31,6 +31,8 @@ In Perl 5, features were added that support complex [[data structure]]s, [[first
 
 All versions of Perl do automatic data typing and [[memory management]]. The interpreter knows the type and storage requirements of every data object in the program; it allocates and frees storage for them as necessary. Legal type conversions are done automatically at run time; illegal type conversions are fatal errors.
 
+written by gm.
+
 ===Applications===
 Perl has many and varied applications. 
 
