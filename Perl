@@ -117,6 +117,12 @@ accessed by providing the corresponding key, in curly braces. The
   $scores[2]      # an element of @scores
   $favorite{joe}  # a value in %favorite
 
+Multiple elements may be accessed by using the <tt>@</tt> sigil instead
+(identifying the result as a list).
+
+  @scores[2, 3, 1]    # three elements of @scores
+  @favorite{joe, sam} # two values in %favorite
+
 The number of elements in an array can be obtained by evalulating the
 array in scalar context or with the help of the <tt>$#</tt> [[Sigil (computer programming)|sigil]].
 The latter gives the index of the last element in the array, not the number of elements.
