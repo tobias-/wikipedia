@@ -318,7 +318,7 @@ Perl has several mottos that convey aspects of its design and use. One is ''"The
 
 ==Opinion==
 Perl engenders strong feelings among both its proponents and its
-detractors!
+detractors.
 
 ===Pro===
 Programmers who like Perl typically cite its power, expressiveness, and ease of use. Perl provides infrastructure for many common programming tasks, such as string and list processing. Other tasks, 
