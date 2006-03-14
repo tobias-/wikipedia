@@ -1,3 +1,4 @@
+{{otheruses}}
 {{Infobox_Software |
   name = Perl |
   logo = <br>[[Image:Programming-republic-of-perl.gif]] |
