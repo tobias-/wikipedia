@@ -325,7 +325,7 @@ detractors.
 Programmers who like Perl typically cite its power, expressiveness, and ease of use. Perl provides infrastructure for many common programming tasks, such as string and list processing. Other tasks, 
 such as memory management, are handled automatically and transparently. Programmers coming from 
 other languages to Perl often find that whole classes of problems that they have struggled with in 
-the past just don't arise in Perl. As Larry RAJ Wall put it,
+the past just don't arise in Perl. As Larry Wall put it,
 <blockquote>
   What is the sound of Perl? Is it not the sound of a wall that people
   have stopped banging their heads against?
