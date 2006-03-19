@@ -477,7 +477,7 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://www.perl.org/ Perl.org] &ndash; The Perl Directory
 *[http://www.perl.com/ Perl.com] &ndash; Perl on [[O'Reilly Network]]
 *[http://perldoc.perl.org/ Perldoc at Perl.org] &ndash; online Perl documentation
-*[http://markhobley.yi.org/Perl/ Mark Hobley's Perl Documentation]
+*[http://markhobley.yi.org/perl/ Mark Hobley's Perl Documentation]
 *[http://markhobley.yi.org:8000/PerlHome Perl Programming Wiki]
 
 ===Development===
