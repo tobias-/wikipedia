@@ -22,7 +22,6 @@ The perlintro(1) [[man page]] <!-- sic. 'man' is short for 'manual' --> states:
 :The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal). Its major features are that it's easy to use, supports both procedural and [[Object-oriented programming|object-oriented]] (OO) programming, has powerful built-in support for text processing, and has one of the world's most impressive collections of third-party modules.
 
 ===Language features===
-This is achu
 The overall structure of Perl derives broadly from the programming language [[C programming language|C]]. Perl is a [[procedural programming language]], with [[variable]]s, [[expression]]s, [[assignment statement]]s, [[brace]]-delimited [[code block]]s, [[control structure]]s, and [[subroutine]]s.
 
 Perl also takes features from [[shell programming]]. All variables are marked with leading [[Sigil (computer programming)|sigil]]s. Sigils unambiguously identify variable names, allowing Perl to have a rich syntax. Importantly, sigils allow variables to be interpolated directly into strings. Like the Unix shells, Perl has many built-in functions for common tasks, like sorting, and for accessing system facilities.
