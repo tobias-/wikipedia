@@ -443,6 +443,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[http://search.cpan.org/~dconway/Acme-Don-t-1.01/t.pm Acme::Don't] implements the logical opposite of the <tt>do</tt> keyword&mdash;<tt>don't</tt>, which does not execute the provided block.
 
 ==See also==
+{{portalpar|Free software}}
 *[[Perl 6]]
 *[[CPAN]]
 *[[The Perl Foundation]]
