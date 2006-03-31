@@ -402,14 +402,7 @@ As of 2006 Perl 6, Parrot, and pugs are under active development.
 There are currently over 8,800 modules available on CPAN, contributed by over 2,500 authors. Modules are available for a wide variety of tasks, including advanced mathematics, database connectivity, and networking. Essentially everything on CPAN is freely available; much of the software is licensed under either the [[Artistic License]], the [[GPL]], or both. Anyone can upload software to CPAN via [http://pause.perl.org PAUSE], the Perl Authors Upload Server.
 
 Modules on CPAN can be downloaded and installed by hand. However, it is common for modules to depend on other modules, and following module dependencies by hand can be tedious. Both the [http://search.cpan.org/Perldoc?CPAN CPAN.pm] module (included in the Perl distribution) and the improved [http://search.cpan.org/Perldoc?CPANPLUS CPANPLUS] module offer command line installers that understand module dependencies; they can be configured to automatically download and install a module and, recursively, all modules that it requires.
-==CPAN==
-{{main|CPAN}}
 
-[[CPAN]], the Comprehensive Perl Archive Network, is a collection of mirrored web sites that serve as a primary archive and distribution channel for Perl sources, distributions, documentation, scripts, and&mdash;especially&mdash;modules.  It is commonly browsed with the search engine [http://search.cpan.org/ http://search.cpan.org/].
-
-There are currently over 8,800 modules available on CPAN, contributed by over 2,500 authors. Modules are available for a wide variety of tasks, including advanced mathematics, database connectivity, and networking. Essentially everything on CPAN is freely available; much of the software is licensed under either the [[Artistic License]], the [[GPL]], or both. Anyone can upload software to CPAN via [http://pause.perl.org PAUSE], the Perl Authors Upload Server.
-
-Modules on CPAN can be downloaded and installed by hand. However, it is common for modules to depend on other modules, and following module dependencies by hand can be tedious. Both the [http://search.cpan.org/Perldoc?CPAN CPAN.pm] module (included in the Perl distribution) and the improved [http://search.cpan.org/Perldoc?CPANPLUS CPANPLUS] module offer command line installers that understand module dependencies; they can be configured to automatically download and install a module and, recursively, all modules that it requires.
 
 ==Name==
 Perl was originally named "Pearl", after "the pearl of great price" of [[Gospel of Matthew|Matthew]] 13:46. Larry Wall wanted to give the language a short name with positive connotations; he claims that he looked at (and rejected) every three- and four-letter word in the dictionary. He also considered naming it after his wife Gloria. Wall discovered before the language's official release that there was already a programming language named [[PEARL programming language|PEARL]] and changed the spelling of the name.
