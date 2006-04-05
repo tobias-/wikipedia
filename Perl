@@ -460,7 +460,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 {{book}}
 
 *[[Programming Perl]] (the ''Camel book''), ISBN 0-596-00027-8
-*[[Learning Perl, Fourth Edition]] (the ''Llama book''), ISBN 0-596-10105-8
+*[[Learning Perl]], Fourth Edition (the ''Llama book''), ISBN 0-596-10105-8
 *[[Perl Cookbook]], ISBN 0-596-00313-7
 (Also see <i>Books</i> under <i>External links</i>, below.)
 
