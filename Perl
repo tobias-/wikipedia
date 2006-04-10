@@ -331,7 +331,7 @@ the past just don't arise in Perl. As Larry Wall put it,
   have stopped banging their heads against?
 </blockquote>
 
-Besides its practical benefits, many programmers simply seem to enjoy working in Perl. Early issues of [http://www.tpj.com The Perl Journal] had a page titled "What is Perl?" that concluded
+Besides its practical benefits, many programmers simply seem to enjoy working in Perl. Early issues of [http://www.tpj.com The Perl Journal] had a page titled "What is Perl?" that concluded:
 
 <blockquote>
   '''Perl is fun.''' In these days of self-serving jargon, conflicting and unpredictable
