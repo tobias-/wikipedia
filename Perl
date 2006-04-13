@@ -520,7 +520,6 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://www.softpanorama.org/Bulletin/Humor/humor092.html Perl Purity Test]
 
 ===Miscellaneous===
-*[http://www.pearlscript.com PearlScript.com] - Perl Script Information Source
 *[http://dmoz.org/Computers/Programming/Languages/Perl/ Perl related websites] in the [[Open Directory Project]]
 *[http://www.theperlreview.com The Perl Review] - print magazine about Perl
 *[http://www.tpj.com/ The Perl Journal] online only magazine about Perl
