@@ -35,7 +35,7 @@ All versions of Perl do automatic data typing and [[memory management]]. The int
 ===Applications===
 Perl has many and varied applications. 
 
-It has been used since the early days of the Web to write [[Common Gateway Interface|CGI]] scripts, and is an integral component of the popular [[LAMP (software bundle)|LAMP]] ([[Linux]] / [[Apache HTTP Server|Apache]] / [[MySQL]] / Perl, [[PHP]], and [[Python programming language|Python]]) platform for web development. Large projects written in Perl include [[Slash (weblog system)|Slash]], [http://www.php.net/history|early implementations of PHP], and [[UseModWiki]], the [[wiki]] software used in [[Wikipedia]] until 2002.
+It has been used since the early days of the Web to write [[Common Gateway Interface|CGI]] scripts, and is an integral component of the popular [[LAMP (software bundle)|LAMP]] ([[Linux]] / [[Apache HTTP Server|Apache]] / [[MySQL]] / Perl, [[PHP]], and [[Python programming language|Python]]) platform for web development. Large projects written in Perl include [[Slash (weblog system)|Slash]], [http://www.php.net/history early implementations of PHP], and [[UseModWiki]], the [[wiki]] software used in [[Wikipedia]] until 2002.
 
 Perl is often used as a "[[glue language]]", tying together systems and interfaces that were not specifically designed to interoperate. Systems administrators use Perl as an all-purpose tool; short Perl programs can be entered and run on a single command line.
 
