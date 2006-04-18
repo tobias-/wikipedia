@@ -210,7 +210,7 @@ Elements of <tt>@_</tt> may be accessed by subscripting it in the usual way.
  $_[0], $_[1]
 
 However, the resulting code can be difficult to read,
-and the parameters have pass-by-reference semantics, 
+and the parameters have [[Evaluation Strategy#Call by reference|pass-by-reference]] semantics, 
 which may be undesirable.
 
 One common idiom is to assign <tt>@_</tt> to a list of named variables.
