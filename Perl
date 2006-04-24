@@ -499,11 +499,7 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 **[http://www.perlmonks.org/ PerlMonks] &ndash; an active and popular online user group and discussion forum
 **[http://use.perl.org/ use Perl;] &ndash; Perl news and community discussion
 
-===Distributions===
-*[http://www.cpan.org/ CPAN] &ndash; Comprehensive Perl Archive Network, Perl source distribution
-*[http://www.activestate.com/ ActiveState ActivePerl] &ndash; Perl for [[Microsoft Windows]] and many other platforms
-*[http://www.indigostar.com/indigoperl.htm IndigoPerl] &ndash; another distribution of Perl for Microsoft Windows
-*[http://cygwin.com/ Cygwin] also distributes Perl on Windows
+dfgasdfasf
 
 ===History===
 *[http://groups.google.com/groups?selm=4628%40sdcrdcf.UUCP First reference to "Perl" on Usenet]
