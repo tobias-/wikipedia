@@ -1,15 +1,21 @@
 {{otheruses}}
-{{Infobox_Software |
-  name = Perl |
-  logo = <br>[[Image:Programming-republic-of-perl.gif]] |
-  caption =  |
-  developer = [[Larry Wall]] |
-  latest_release_version = 5.8.8 |
-  latest_release_date = [[February 2]], [[2006]] |
-  operating_system = [[Cross-platform]] |
-  genre = [[Programming language]] |
-  license = [[GNU General Public License|GPL]] or [[Artistic License]] |
-  website = [http://www.perl.org www.perl.org] |
+{{Infobox programming language
+|name = Perl
+|logo = <br>[[Image:Programming-republic-of-perl.gif]]
+|paradigm = 
+|year = 
+|designer = [[Larry Wall]]
+|developer = 
+|latest_release_version = 5.8.8
+|latest_release_date = [[February 2]], [[2006]]
+|typing = 
+|implementations = 
+|dialects = 
+|influenced_by = 
+|influenced = 
+|operating_system = operating_system = [[Cross-platform]]
+|license =[[GNU General Public License|GPL]] or [[Artistic License]]
+|website =[http://www.perl.org www.perl.org]
 }}
 '''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]) is a [[dynamic programming language|dynamic]] procedural programming language designed by [[Larry Wall]] and first released in 1987. Perl borrows features from [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk]], [[sed]], [[Lisp programming language|Lisp]], and (to a lesser extent) many other programming languages.
 
