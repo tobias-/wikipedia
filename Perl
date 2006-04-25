@@ -13,7 +13,7 @@
 |dialects = 
 |influenced_by = 
 |influenced = 
-|operating_system = operating_system = [[Cross-platform]]
+|operating_system = [[Cross-platform]]
 |license =[[GNU General Public License|GPL]] or [[Artistic License]]
 |website =[http://www.perl.org www.perl.org]
 }}
