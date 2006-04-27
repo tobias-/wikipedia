@@ -11,7 +11,7 @@
 |typing = dynamic
 |implementations = 
 |dialects = 
-|influenced_by = [[C]], [[Unix shell|shell]], [[awk]], [[sed]], [[lisp]]
+|influenced_by = [[C programming language|C]], [[Unix shell|shell]], [[awk]], [[sed]], [[Lisp programming language|lisp]]
 |influenced = 
 |operating_system = [[Cross-platform]]
 |license =[[GNU General Public License|GPL]] or [[Artistic License]]
