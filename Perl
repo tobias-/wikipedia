@@ -134,7 +134,7 @@ The latter gives the index of the last element in the array, not the number of e
 
   $count = @friends;
   $#friends       # the index of the last element in @friends
-  $#friends+1     # the number of elements in @friends
+  $#friends+1     # usually the number of elements in @friends
                   # this is one more than $#friends because the first element is at
                   # index 0, not 1
 
