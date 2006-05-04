@@ -539,13 +539,13 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 
 [[Category:Perl|*]]
 [[Category:Curly bracket programming languages]]
-[[Category:Free software]]
+[[Category:Dynamically-typed programming languages]]
+[[Category:Free programming languages]]
 [[Category:.NET programming languages]]
 [[Category:Procedural programming languages]]
+[[Category:Programming languages]]
 [[Category:Scripting languages]]
 [[Category:Text-oriented programming languages]]
-[[Category:Programming languages]]
-[[Category:Dynamically-typed programming languages]]
 [[Category:Unix software]]
 
 <!-- Interwiki finder http://vs.aka-online.de/globalwpsearch/ -->
