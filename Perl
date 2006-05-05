@@ -3,7 +3,7 @@
 |name = Perl
 |logo = <br>[[Image:Programming-republic-of-perl.gif]]
 |paradigm = 
-|year = 1987
+|year = [[1987]]
 |designer = [[Larry Wall]]
 |developer = 
 |latest_release_version = 5.8.8
