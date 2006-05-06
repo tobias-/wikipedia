@@ -367,9 +367,6 @@ The freewheeling language style that delights some Perl programmers concerns and
 
 Perl is not efficient at [[CPU bound|processor-bound]] tasks, and Perl data structures generally use more memory than comparable data structures in languages like C and C++.
 
-====See also====
-[http://www.garshol.priv.no/download/text/perl.html What's wrong with Perl] &mdash; a critique by software developer/teacher/author [http://www.garshol.priv.no/personal/me.html Lars Marius Garshol]
-
 ==History==
 Larry Wall began work on Perl in 1987, and released version 1.0 to the comp.sources.misc [[newsgroup]] on [[December 18]], [[1987]]. The language expanded rapidly over the next few years. Perl 2, released in 1988, featured a better regular expression engine. Perl 3, released in 1989, added support for binary data.
 
