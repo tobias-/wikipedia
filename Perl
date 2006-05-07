@@ -354,22 +354,22 @@ design proposals that were submitted as [[Request for Comments|RFCs]] for Perl 6
 A common complaint is that Perl is ugly. In particular, its prodigious use of punctuation puts off some people; Perl source code is sometimes likened to "line noise". 
 In [http://www.paulgraham.com/pypar.html The Python Paradox], [[Paul Graham]] both acknowledges and responds to this:
 
-<blockquote>
+{{cquote|
 At the mention of ugly source code, people will of course think of
 Perl. But the superficial ugliness of Perl is not the sort I mean.
 Real ugliness is not harsh-looking syntax, but having to build
 programs out of the wrong concepts. Perl may look like a cartoon character swearing, but there are cases where it surpasses Python conceptually.
-</blockquote>
+}}
 
 Another criticism is that Perl is excessively complex and compact, and that it leads to "write-only" code, that is, to code that is virtually impossible to understand after it has been written. It is, of course, possible to write obscure code in any language, but Perl has perhaps more than the usual share of terse, complex and arcane language constructs to exacerbate the problem. Perl supports many such features for backwards compatibility, and for use where maintainability is expressly not a concern, such as programs that are entered and run directly on the command line.
 
 In a 2003 study titled [http://page.mi.fu-berlin.de/~prechelt/Biblio/jccpprt2_advances2003.pdf Are Scripting Languages Any Good? A Validation of Perl, Python, Rexx, and Tcl against C, C++, and Java], Lutz Prechelt wrote:
 
-<blockquote>
+{{cquote|
 ...the potential uglyness of any aspect of Perl has carefully been balanced with the power that can be derived from it. Nevertheless, Perl makes it relatively easy to shoot oneself in the foot or to produce programs that are very short but also very difficult to understand. For this reason, somewhat like for C++, writing good Perl programs depends more strongly on the knowledge and discipline of the programmer than in most other languages.
-</blockquote>
+}}
 
-The freewheeling language style that delights some Perl programmers concerns and dismays others. For example, the Perl 5 object model does not enforce data security: access to private data is restricted only by convention, not the language itself. An object created in one place may easily be modified in another; there may not be any single place where its state is definitively established. There are techniques for addressing these issues, but they are non-native and little used.
+The free-wheeling language style that delights some Perl programmers concerns and dismays others. For example, the Perl 5 object model does not enforce data security: access to private data is restricted only by convention, not the language itself. An object created in one place may easily be modified in another; there may not be any single place where its state is definitively established. There are techniques for addressing these issues, but they are non-native and little used.
 
 Perl is not efficient at [[CPU bound|processor-bound]] tasks, and Perl data structures generally use more memory than comparable data structures in languages like C and C++.
 
