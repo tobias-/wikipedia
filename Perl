@@ -509,7 +509,7 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 ===Support===
 *User groups
 **[http://www.pm.org/ Perl Mongers] &ndash; local user groups in cities worldwide
-**[http://www.perlmonks.org/ PerlMonks] &ndash; a popular discussion forum
+**[http://www.perlmonks.org/ PerlMonks] &ndash; an active and popular online user group and discussion forum
 **[http://use.perl.org/ use Perl;] &ndash; Perl news and community discussion
 
 ===Distributions===
