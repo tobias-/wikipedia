@@ -17,7 +17,7 @@
 |license =[[GNU General Public License|GPL]] or [[Artistic License]]
 |website =[http://www.perl.org www.perl.org]
 }}
-'''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]) is a [[dynamic programming language|dynamic]] procedural programming language designed by [[Larry Wall]] and first released in 1987. Perl borrows features from [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk]], [[sed]], [[Lisp programming language|Lisp]], and, to a lesser extent, many other programming languages. It's known as one of "the three Ps" (Perl, [[Python_programming_language|Python]], and [[PHP]]), which are the most popular server-side, open source scripting languages.
+'''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]) is a [[dynamic programming language|dynamic]] procedural programming language designed by [[Larry Wall]] and first released in 1987. Perl borrows features from [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk]], [[sed]], [[Lisp programming language|Lisp]], and, to a lesser extent, many other programming languages.
 
 ==Overview==
 
@@ -41,7 +41,7 @@ All versions of Perl do automatic data typing and [[memory management]]. The int
 ===Applications===
 Perl has many and varied applications. 
 
-It has been used since the early days of the Web to write [[Common Gateway Interface|CGI]] scripts, and is an integral component of the popular [[LAMP (software bundle)|LAMP]] ([[Linux]] / [[Apache HTTP Server|Apache]] / [[MySQL]] / Perl, [[PHP]], and [[Python programming language|Python]]) platform for web development. Large projects written in Perl include [[Slash (weblog system)|Slash]], [http://www.php.net/history early implementations of PHP], and [[UseModWiki]], the [[wiki]] software used in [[Wikipedia]] until 2002.
+It has been used since the early days of the Web to write [[Common Gateway Interface|CGI]] scripts, and is an integral component of the popular [[LAMP (software bundle)|LAMP]] ([[Linux]] / [[Apache HTTP Server|Apache]] / [[MySQL]] / Perl, [[PHP]], and [[Python programming language|Python]]) platform for web development. Large projects written in Perl include [[Slash (weblog system)|Slash]], [http://www.php.net/history early implementations of PHP], and [[UseModWiki]], the [[wiki]] software used in [[Wikipedia]] until 2002. It's known as one of "the three Ps" (Perl, [[Python_programming_language|Python]], and [[PHP]]), which are the most popular server-side, open source scripting languages for the Web, though open source [[Java programming language|Java]] and [[C#]] implementations as well as [[Ruby programming language|Ruby]] have grown popular in recent years.
 
 Perl is often used as a "[[glue language]]", tying together systems and interfaces that were not specifically designed to interoperate. Systems administrators use Perl as an all-purpose tool; short Perl programs can be entered and run on a single command line.
 
