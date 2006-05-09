@@ -2,7 +2,7 @@
 {{Infobox programming language
 |name = Perl
 |logo = <br>[[Image:Programming-republic-of-perl.gif]]
-|paradigm = 
+|paradigm = [[functional programming|functional]], [[object-oriented programming|object-oriented]], [[Procedural programming|procedural]]
 |year = 1987
 |designer = [[Larry Wall]]
 |developer = 
