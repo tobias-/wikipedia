@@ -367,6 +367,9 @@ In a 2003 study titled [http://page.mi.fu-berlin.de/~prechelt/Biblio/jccpprt2_ad
 
 The free-wheeling language style that delights some Perl programmers concerns and dismays others. For example, the Perl 5 object model does not enforce data security: access to private data is restricted only by convention, not the language itself. An object created in one place may easily be modified in another; there may not be any single place where its state is definitively established. There are techniques for addressing these issues, but they are non-native and little used.
 
+====See also====
+[http://fc-solve.berlios.de/perl-att-newbies/perl-newbies/book1.html "Usability" of the Perl Online World for Newcomers] &mdash; by Shlomi Fish, critic and developer of Perl 6.
+
 ==History==
 Larry Wall began work on Perl in 1987, and released version 1.0 to the comp.sources.misc [[newsgroup]] on [[December 18]], [[1987]]. The language expanded rapidly over the next few years. Perl 2, released in 1988, featured a better regular expression engine. Perl 3, released in 1989, added support for binary data.
 
