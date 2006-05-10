@@ -357,7 +357,7 @@ Real ugliness is not harsh-looking syntax, but having to build
 programs out of the wrong concepts. Perl may look like a cartoon character swearing, but there are cases where it surpasses Python conceptually.
 }}
 
-Another criticism is that Perl is excessively complex and compact, and that it leads to "write-only" code, that is, to code that is virtually impossible to understand after it has been written. It is, of course, possible to write obscure code in any language, but Perl has perhaps more than the usual share of terse, complex and arcane language constructs to exacerbate the problem. Perl supports many such features for backwards compatibility, and for use where maintainability is expressly not a concern, such as programs that are entered and run directly on the command line.
+Another criticism is that Perl is excessively complex and compact, and that it leads to "write-only" code, that is, to code that is virtually impossible to understand after it has been written. It is, of course, possible to write obscure code in any language, but Perl has perhaps more than the usual share of terse, complex and arcane language constructs to exacerbate the problem. Perl supports many such features for backward compatibility, and for use where maintainability is expressly not a concern, such as programs that are entered and run directly on the command line.
 
 In a 2003 study titled [http://page.mi.fu-berlin.de/~prechelt/Biblio/jccpprt2_advances2003.pdf Are Scripting Languages Any Good? A Validation of Perl, Python, Rexx, and Tcl against C, C++, and Java], Lutz Prechelt wrote:
 
@@ -366,6 +366,8 @@ In a 2003 study titled [http://page.mi.fu-berlin.de/~prechelt/Biblio/jccpprt2_ad
 }}
 
 The free-wheeling language style that delights some Perl programmers concerns and dismays others. For example, the Perl 5 object model does not enforce data security: access to private data is restricted only by convention, not the language itself. An object created in one place may easily be modified in another; there may not be any single place where its state is definitively established. There are techniques for addressing these issues, but they are non-native and little used.
+
+There's also criticism of a less technical nature that may be no less important to some. Perl's popularity has declined. As of May, 2006, the [http://www.tiobe.com/tpci.htm TCPI Long Term Trends chart] of the ten most popular programming languages shows that Perl's popularity is at its lowest since before June, 2001 (the earliest date plotted). In addition, OSCON &mdash; the open source convention sponsored by book publisher O'Reilly &mdash; is much less Perl-oriented than it used to be. [[Randal L. Schwartz]], author of several Perl books published by O'Reilly, has said that OSCON's organizers are openly hostile to Perl, and that Perl isn't interesting to O'Reilly anymore.
 
 ====See also====
 [http://fc-solve.berlios.de/perl-att-newbies/perl-newbies/book1.html "Usability" of the Perl Online World for Newcomers] &mdash; by Shlomi Fish, critic and developer of Perl 6.
