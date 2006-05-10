@@ -56,7 +56,7 @@ The execution of a Perl program divides broadly into two phases: compile-time an
 
 Perl is a [[dynamic language]] and has a context-sensitive [[grammar]] that cannot be parsed by a straight [[Lex programming tool|Lex]]/[[Yacc]] lexer/parser combination. Instead, it implements its own lexer, which coordinates with a modified [[GNU bison]] parser to resolve ambiguities in the language. It is said that "only perl can parse Perl", meaning that only the [[Perl interpreter]] (''perl'') can parse the Perl language (''Perl''). The truth of this is attested to by the persistent imperfections of other programs that undertake to parse Perl, such as source code analyzers and auto-indenters.
 
-Maintenance of the Perl interpreter has become increasingly difficult over the years. The code base has been in continuous development since 1994. The code has been optimized for performance at the expense of simplicity, clarity, and strong internal interfaces. New features have been added, yet virtually complete backwards compatibility with earlier versions is maintained. The size and complexity of the interpreter is a barrier to developers who wish to work on it.
+Maintenance of the Perl interpreter has become increasingly difficult over the years. The code base has been in continuous development since 1994. The code has been optimized for performance at the expense of simplicity, clarity, and strong internal interfaces. New features have been added, yet virtually complete backward compatibility with earlier versions is maintained. The size and complexity of the interpreter is a barrier to developers who wish to work on it.
 
 Perl is distributed with some 90,000 functional tests. These run as part of the normal build process, and extensively exercise the interpreter and its core modules. Perl developers rely on the functional tests to ensure that changes to the interpreter do not introduce bugs; conversely, Perl users who see the interpreter pass its functional tests on their system can have a high degree of confidence that it is working properly.
 
@@ -393,7 +393,7 @@ At the 2000 [[Perl Conference]], [[Jon Orwant]] made a case for a major new lang
 
 Larry Wall spent the next few years digesting the RFCs and synthesizing them into a coherent framework for Perl 6. He has presented his design for Perl 6 in a series of documents called [[Apocalypse (perl)|apocalypse]]s, which are numbered to correspond to chapters in ''[[Programming Perl]]'' ("The Camel Book").  The current, unfinalized specification of Perl 6 is encapsulated in design documents called Synopses, which are numbered to correspond to Apocalypses.
 
-Perl 6 is not intended to be backwards-compatible, though there will be a compatibility mode.
+Perl 6 is not intended to be backward compatible, though there will be a compatibility mode.
 
 In 2001, it was decided that Perl 6 would run on a cross-language [[virtual machine]] called [[Parrot virtual machine|Parrot]]. This will mean that other languages targeting the Parrot will gain native access to [[CPAN]] and will allow some level of cross-language development.
 
