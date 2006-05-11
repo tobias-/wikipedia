@@ -323,6 +323,88 @@ In general, they do what you want, unless you want consistency.
 
 Perl has several mottos that convey aspects of its design and use. One is ''"There's more than one way to do it."'' (TMTOWTDI, usually pronounced 'Tim Toady'). Others are ''"Perl: the Swiss Army Chainsaw of Programming Languages"'' and ''"No unnecessary limits"''. A stated design goal of Perl is to make easy tasks easy and difficult tasks possible.  Perl has also been called ''"The Duct Tape of the Internet"''.
 
+==Benchmark comparison==
+<div style = "font-size: 13pt; text-align: center; padding-bottom: 2px;">
+Number of benchmark tests won
+</div>
+{| class="wikitable" align = "left" style = "font-size: 10pt;"
+|-
+!   !! Perl !! C (Intel)
+|-
+! Speed
+| 1 || 14
+|-
+! Memory
+| 0 || 15
+|-
+! Lines
+| 12 || 2
+|-
+|}
+
+{| class="wikitable" align = "left" style = "font-size: 10pt;"
+|-
+!   !! Perl !! Java JDK Server
+|-
+! Speed
+| 3 || 13
+|-
+! Memory
+| 12 || 4
+|-
+! Lines
+| 13 || 2
+|-
+|}
+
+{| class="wikitable" align = "left" style = "font-size: 10pt;"
+|-
+!   !! Perl !! PHP
+|-
+! Speed
+| 9 || 4
+|-
+! Memory
+| 10 || 3
+|-
+! Lines
+| 10 || 3
+|-
+|}
+
+{| class="wikitable" align = "left" style = "font-size: 10pt;"
+|-
+!   !! Perl !! Python
+|-
+! Speed
+| 5 || 11
+|-
+! Memory
+| 8 || 8
+|-
+! Lines
+| 6 || 9
+|-
+|}
+
+{| class="wikitable" align = "left" style = "font-size: 10pt;"
+|-
+!   !! Perl !! Ruby
+|-
+! Speed
+|14 || 2
+|-
+! Memory
+| 10 || 6
+|-
+! Lines
+| 8 || 6
+|-
+|}
+<p style = "clear: left;">
+Data based on [http://shootout.alioth.debian.org/debian/benchmark.php?test=all&lang=perl  Debian : AMD™ Sempron™ benchmarks] from May 7, 2006.
+</p>
+
 ==Opinion==
 Perl engenders strong feelings among both its proponents and its
 detractors.
