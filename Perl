@@ -323,7 +323,91 @@ In general, they do what you want, unless you want consistency.
 
 Perl has several mottos that convey aspects of its design and use. One is ''"There's more than one way to do it."'' (TMTOWTDI, usually pronounced 'Tim Toady'). Others are ''"Perl: the Swiss Army Chainsaw of Programming Languages"'' and ''"No unnecessary limits"''. A stated design goal of Perl is to make easy tasks easy and difficult tasks possible.  Perl has also been called ''"The Duct Tape of the Internet"''.
 
+==Benchmark comparison==
+<div style = "font-size: 13pt; text-align: center; padding-bottom: 2px;">
+Number of tests won (Debian : AMD™ Sempron / Gentoo : Intel® Pentium® 4)
+</div>
+{| class="wikitable" align = "left" style = "font-size: 10pt;"
+|-
+!   !! Perl !! C
+|-
+! Speed
+| 1/1 || 14/15
+|-
+! Memory
+| 0/1 || 15/15
+|-
+! Size
+| 12/14 || 2/2
+|-
+|}
 
+{| class="wikitable" align = "left" style = "font-size: 10pt;"
+|-
+!   !! Perl !! Java JDK Server
+|-
+! Speed
+| 3/3 || 13/13
+|-
+! Memory
+| 12/12 || 4/4
+|-
+! Size
+| 13/16 || 2/0
+|-
+|}
+
+{| class="wikitable" align = "left" style = "font-size: 10pt;"
+|-
+!   !! Perl !! PHP
+|-
+! Speed
+| 9/8 || 4/6
+|-
+! Memory
+| 10/10 || 3/5
+|-
+! Size
+| 10/11 || 3/4
+|-
+|}
+
+{| class="wikitable" align = "left" style = "font-size: 10pt;"
+|-
+!   !! Perl !! Python
+|-
+! Speed
+| 5/7 || 11/9
+|-
+! Memory
+| 8/8 || 8/8
+|-
+! Size
+| 6/3 || 9/13
+|-
+|}
+
+{| class="wikitable" align = "left" style = "font-size: 10pt;"
+|-
+!   !! Perl !! Ruby
+|-
+! Speed
+| 14/14 || 2/2
+|-
+! Memory
+| 10/9 || 6/7
+|-
+! Size
+| 8/2 || 6/14
+|-
+|}
+<div style = "clear: left;">
+<p>
+Data comes from [http://shootout.alioth.debian.org/debian/perl.php Debian : AMD™ Sempron™] benchmarks from from May 7, 2006 and [http://shootout.alioth.debian.org/gp4/perl.php Gentoo : Intel® Pentium® 4] benchmarks from May 10, 2006. The Debian and Gentoo tests used equivalent benchmarks, but on Gentoo, some benchmarks on had a higher workload, most language implementations were built from source, C (gcc) was benchmarked instead of C (Intel), and <i>Size</i> tests measure GZip Bytes instead of lines of code.
+</p>
+<p>
+See [http://shootout.alioth.debian.org/gp4/miscfile.php?file=benchmarking&title=Flawed%20Benchmarks this] page about flawed benchmarks and comparisons.
+</p>
 
 ==Opinion==
 Perl engenders strong feelings among both its proponents and its
