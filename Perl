@@ -326,7 +326,7 @@ In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The <tt>
 
 Other people's benchmark data is sometimes published and may have some value to others, but proper interpretation is important, which brings many [[Benchmark (computing)#Challenges|challenges]]. 
 
-===Benchmark comparison===
+===Comparison===
 <div style = "font-size: 13pt; text-align: center; padding-bottom: 2px;">
 Number of tests won (Debian : AMD™ Sempron™ / Gentoo : Intel® Pentium® 4)
 </div>
