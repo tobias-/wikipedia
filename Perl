@@ -325,87 +325,94 @@ Perl has several mottos that convey aspects of its design and use. One is ''"The
 
 ==Benchmark comparison==
 {{Sectfact}}
-
 <div style = "font-size: 13pt; text-align: center; padding-bottom: 2px;">
 Number of tests won (Debian : AMD™ Sempron / Gentoo : Intel® Pentium® 4)
 </div>
-{| class="wikitable" align = "left" style = "font-size: 10pt;"
+{| class="wikitable" align = "left" style = "font-size: 10pt; border-color: white; background-color: white; margin-top: 39px; font-weight: bold;"
 |-
-!   !! Perl !! C
 |-
-! Speed
-| 1/1 || 14/15
+| Speed
 |-
-! Memory
-| 0/1 || 15/15
+| Memory
 |-
-! Size
-| 12/14 || 2/2
+| Size
 |-
 |}
 
 {| class="wikitable" align = "left" style = "font-size: 10pt;"
 |-
-!   !! Perl !! Java JDK Server
+! Perl !! C (gcc)
 |-
-! Speed
+| 1/1 || 12/15
+|-
+| 0/1 || 13/15
+|-
+| 11/14 || 2/2
+|-
+|}
+
+{| class="wikitable" align = "left" style = "font-size: 10pt;"
+|-
+! Perl !! C++ (g++)
+|-
+| 0/2 || 14/12
+|-
+| 0/0 || 14/14
+|-
+| 10/14 || 4/0
+|-
+|}
+
+{| class="wikitable" align = "left" style = "font-size: 10pt;"
+|-
+! Perl !! Java JDK Server
+|-
 | 3/3 || 13/13
 |-
-! Memory
 | 12/12 || 4/4
 |-
-! Size
 | 13/16 || 2/0
 |-
 |}
 
 {| class="wikitable" align = "left" style = "font-size: 10pt;"
 |-
-!   !! Perl !! PHP
+! Perl !! PHP
 |-
-! Speed
 | 9/8 || 4/6
 |-
-! Memory
 | 10/10 || 3/5
 |-
-! Size
 | 10/11 || 3/4
 |-
 |}
 
 {| class="wikitable" align = "left" style = "font-size: 10pt;"
 |-
-!   !! Perl !! Python
+! Perl !! Python
 |-
-! Speed
 | 5/7 || 11/9
 |-
-! Memory
 | 8/8 || 8/8
 |-
-! Size
 | 6/3 || 9/13
 |-
 |}
 
 {| class="wikitable" align = "left" style = "font-size: 10pt;"
 |-
-!   !! Perl !! Ruby
+! Perl !! Ruby
 |-
-! Speed
 | 14/14 || 2/2
 |-
-! Memory
 | 10/9 || 6/7
 |-
-! Size
 | 8/2 || 6/14
 |-
 |}
 <div style = "clear: left;">
 <p>
-Data comes from [http://shootout.alioth.debian.org/debian/perl.php Debian : AMD™ Sempron™] benchmarks from from May 7, 2006 and [http://shootout.alioth.debian.org/gp4/perl.php Gentoo : Intel® Pentium® 4] benchmarks from May 10, 2006. The Debian and Gentoo tests used equivalent benchmarks, but on Gentoo, some benchmarks had a higher workload, most language implementations were built from source, C (gcc) was benchmarked instead of C (Intel), and <i>Size</i> tests measure GZip bytes instead of lines of code.
+Data comes from [http://shootout.alioth.debian.org/debian/perl.php Debian : AMD™ Sempron™] benchmarks from from May 7, 2006 and [http://shootout.alioth.debian.org/gp4/perl.php Gentoo : Intel® Pentium® 4] benchmarks from May 10, 2006. The Debian and Gentoo tests used equivalent benchmarks, but on Gentoo, some benchmarks had a higher workload, most language implementations were built from source, and <i>Size</i> tests measured GZip bytes instead of lines of code.
 </p>
 <p>
 See [http://shootout.alioth.debian.org/gp4/miscfile.php?file=benchmarking&title=Flawed%20Benchmarks this] page about flawed benchmarks and comparisons.
