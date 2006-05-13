@@ -320,7 +320,13 @@ In early versions of Perl, database interfaces were created by relinking the int
 
 In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The <tt>DBI</tt> (Database Interface) module presents a single, database-independent interface to Perl applications, while the <tt>DBD::</tt> (Database Driver) modules handle the details of accessing some 50 different databases. There are <tt>DBD::</tt> drivers for most [[ANSI]] [[SQL]] databases.
 
-==Benchmark comparison==
+==Benchmarks==
+===General===
+[[Benchmark (computing)|Benchmarks]] are designed to mimic a particular type of workload on a component or system. Many [http://cpan.uwinnipeg.ca/search?query=benchmark&mode=module benchmark modules] exist on CPAN. The module Benchmark.pm comes with Perl, though [[Perl Review]] editor [[Brian D Foy]] says it "sux."
+
+Other people's benchmark data is sometimes published and may have some value to others, but proper interpretation is important, which brings many [[Benchmark (computing)#Challenges|challenges]]. 
+
+===Benchmark comparison===
 <div style = "font-size: 13pt; text-align: center; padding-bottom: 2px;">
 Number of tests won (Debian : AMD™ Sempron™ / Gentoo : Intel® Pentium® 4)
 </div>
