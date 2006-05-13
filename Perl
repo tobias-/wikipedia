@@ -324,7 +324,6 @@ In general, they do what you want, unless you want consistency.
 Perl has several mottos that convey aspects of its design and use. One is ''"There's more than one way to do it."'' (TMTOWTDI, usually pronounced 'Tim Toady'). Others are ''"Perl: the Swiss Army Chainsaw of Programming Languages"'' and ''"No unnecessary limits"''. A stated design goal of Perl is to make easy tasks easy and difficult tasks possible.  Perl has also been called ''"The Duct Tape of the Internet"''.
 
 ==Benchmark comparison==
-{{Sectfact}}
 <div style = "font-size: 13pt; text-align: center; padding-bottom: 2px;">
 Number of tests won (Debian : AMD™ Sempron / Gentoo : Intel® Pentium® 4)
 </div>
@@ -414,8 +413,9 @@ Number of tests won (Debian : AMD™ Sempron / Gentoo : Intel® Pentium® 4)
 <p>
 Data comes from [http://shootout.alioth.debian.org/debian/perl.php Debian : AMD™ Sempron™] benchmarks from from May 7, 2006 and [http://shootout.alioth.debian.org/gp4/perl.php Gentoo : Intel® Pentium® 4] benchmarks from May 10, 2006. The Debian and Gentoo tests used equivalent benchmarks, but on Gentoo, some benchmarks had a higher workload, most language implementations were built from source, and <i>Size</i> tests measured GZip bytes instead of lines of code.
 </p>
-<p>
-See [http://shootout.alioth.debian.org/gp4/miscfile.php?file=benchmarking&title=Flawed%20Benchmarks this] page about flawed benchmarks and comparisons.
+
+<p style = "text-align: justify; background-color: rgb(230,230,230); padding: 8px;">
+<em>The computer programs used in these tests may not have been fully optimized, and the relevance of the data is disputed. The only truly relevant benchmark is that which is customized to your particular situation. See [http://shootout.alioth.debian.org/gp4/miscfile.php?file=benchmarking&title=Flawed%20Benchmarks this] page about flawed benchmarks and comparisons.</em>
 </p>
 
 ==Opinion==
