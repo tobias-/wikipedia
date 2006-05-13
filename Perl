@@ -327,7 +327,7 @@ Perl has several mottos that convey aspects of its design and use. One is ''"The
 <div style = "font-size: 13pt; text-align: center; padding-bottom: 2px;">
 Number of tests won (Debian : AMD™ Sempron / Gentoo : Intel® Pentium® 4)
 </div>
-{| class="wikitable" align = "left" style = "font-size: 10pt; border-color: white; background-color: white; margin-top: 39px; font-weight: bold;"
+{| class="wikitable" align = "left" style = "font-size: 10pt; background-color: rgb(245,245,245); margin-top: 39px; font-weight: bold;"
 |-
 |-
 | Speed
@@ -414,8 +414,8 @@ Number of tests won (Debian : AMD™ Sempron / Gentoo : Intel® Pentium® 4)
 Data comes from [http://shootout.alioth.debian.org/debian/perl.php Debian : AMD™ Sempron™] benchmarks from from May 7, 2006 and [http://shootout.alioth.debian.org/gp4/perl.php Gentoo : Intel® Pentium® 4] benchmarks from May 10, 2006. The Debian and Gentoo tests used equivalent benchmarks, but on Gentoo, some benchmarks had a higher workload, most language implementations were built from source, and <i>Size</i> tests measured GZip bytes instead of lines of code.
 </p>
 
-<p style = "text-align: justify; background-color: rgb(230,230,230); padding: 8px;">
-<em>The computer programs used in these tests may not have been fully optimized, and the relevance of the data is disputed. The only truly relevant benchmark is that which is customized to your particular situation. See [http://shootout.alioth.debian.org/gp4/miscfile.php?file=benchmarking&title=Flawed%20Benchmarks this] page about flawed benchmarks and comparisons.</em>
+<p style = "margin-left: auto; margin-right: auto; margin-top: 30px; text-align: justify; background-color: rgb(245,245,245); padding: 8px; border-style: solid; border-width: 1px; width: 90%;">
+<em>The computer programs used in these tests may not have been fully optimized, and the relevance of the data is disputed. The only truly relevant benchmark is one that's customized to your particular situation. See [http://shootout.alioth.debian.org/gp4/miscfile.php?file=benchmarking&title=Flawed%20Benchmarks this] page about flawed benchmarks and comparisons.</em>
 </p>
 
 ==Opinion==
