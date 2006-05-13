@@ -461,9 +461,8 @@ The free-wheeling language style that delights some Perl programmers concerns an
 
 There's also criticism of a less technical nature that may be no less important to some. Perl's popularity has declined. As of May, 2006, the [http://www.tiobe.com/tpci.htm TCPI Long Term Trends chart] of the ten most popular programming languages shows that Perl's popularity is at its lowest since before June, 2001 (the earliest date plotted), and has dropped more than any other language over the past year. In addition, OSCON &mdash; the open source convention sponsored by book publisher O'Reilly &mdash; is much less Perl-oriented than it used to be. [[Randal L. Schwartz]], author of several Perl books published by O'Reilly, has said that OSCON's organizers are openly hostile to Perl, and that Perl isn't interesting to O'Reilly anymore.
 
-
-
-==History==
+==Origins==
+===General===
 Larry Wall began work on Perl in 1987, and released version 1.0 to the comp.sources.misc [[newsgroup]] on [[December 18]], [[1987]]. The language expanded rapidly over the next few years. Perl 2, released in 1988, featured a better regular expression engine. Perl 3, released in 1989, added support for binary data.
 
 Until 1991, the only documentation for Perl was a single (increasingly lengthy) [[Unix manual|man page]]. In 1991, ''[[Programming Perl]]'' (the Camel Book) was published, and became the ''de facto'' reference for the language. At the same time, the Perl version number was bumped to 4, not to mark a major change in the language, but to identify the version that was documented by the book.
@@ -477,6 +476,19 @@ Perl 5 was released on [[October 17]], [[1994]]. It was a nearly complete rewrit
 On [[October 26]], [[1995]], the [[Comprehensive Perl Archive Network]] (CPAN) was established. CPAN is a collection of web sites that archive and distribute Perl sources, binary distributions, documentation, scripts, and modules. Originally, each CPAN site had to be accessed through its own URL. Today, the single URL [http://www.cpan.org http://www.cpan.org] automatically redirects to a CPAN site.
 
 As of 2006, Perl 5 is still being actively maintained. It now includes [[Unicode]] support. The latest stable release is Perl 5.8.8.
+
+===Name===
+Perl was originally named "Pearl", after "the pearl of great price" of [[Gospel of Matthew|Matthew]] 13:46. Larry Wall wanted to give the language a short name with positive connotations; he claims that he looked at (and rejected) every three- and four-letter word in the dictionary. He also considered naming it after his wife Gloria. Wall discovered before the language's official release that there was already a programming language named [[PEARL programming language|PEARL]] and changed the spelling of the name.
+
+The name is normally capitalized (''Perl'') when referring to the language and uncapitalized (''perl'') when referring to the interpreter program itself since Unix-like filesystems are case sensitive. Before the release of the first edition of ''Programming Perl'' it was common to refer to the language as ''perl''; [[Randal L. Schwartz]], however, forced the uppercase language name in the book to make the name stand out better when typeset.  The case distinction was subsequently adopted by the community.
+
+It is not appropriate to write "PERL", as it is not an [[acronym]]. The spelling of PERL in all caps is therefore used as a [[Shibboleth#Modern usage|shibboleth]] for detecting community outsiders.
+However, several [[backronym]]s have been suggested, including the humorous ''Pathologically Eclectic Rubbish Lister''. The more serious ''Practical Extraction and Report Language'' has prevailed in many of today's manuals, including the official Perl man page. It is also consistent with the old name "Pearl": ''Practical Extraction And Report Language''.
+
+===The camel symbol===
+
+Perl is generally symbolized by a camel, which was a result of the picture chosen by camel book publishers [[O'Reilly Media]] as the cover picture of ''Programming Perl'', which consequently acquired the name ''The Camel Book''. O'Reilly owns the symbol as a trademark, but claims to use their legal rights only to protect the ''"integrity and impact of that symbol"'' [http://perl.oreilly.com/usage/]. 
+O'Reilly allows non-commercial use of the symbol, and provides [http://www.oreillynet.com/images/perl/sm_perl_id_bk_wt.gif Programming Republic of Perl] logos (see above) and [http://www.oreillynet.com/images/perl/powered_by_perl.gif Powered by Perl] buttons.
 
 ==Future==
 {{main|Perl 6}}
@@ -504,19 +516,6 @@ There are currently over 8,800 modules available on CPAN, contributed by over 2,
 Modules on CPAN can be downloaded and installed by hand. However, it is common for modules to depend on other modules, and following module dependencies by hand can be tedious. Both the [http://search.cpan.org/Perldoc?CPAN CPAN.pm] module (included in the Perl distribution) and the improved [http://search.cpan.org/Perldoc?CPANPLUS CPANPLUS] module offer command line installers that understand module dependencies; they can be configured to automatically download and install a module and, recursively, all modules that it requires.
 
 Since many Windows installations don't include a C compiler, Windows users may be limited to pure Perl modules when downloading from CPAN.
-
-==Name==
-Perl was originally named "Pearl", after "the pearl of great price" of [[Gospel of Matthew|Matthew]] 13:46. Larry Wall wanted to give the language a short name with positive connotations; he claims that he looked at (and rejected) every three- and four-letter word in the dictionary. He also considered naming it after his wife Gloria. Wall discovered before the language's official release that there was already a programming language named [[PEARL programming language|PEARL]] and changed the spelling of the name.
-
-The name is normally capitalized (''Perl'') when referring to the language and uncapitalized (''perl'') when referring to the interpreter program itself since Unix-like filesystems are case sensitive. Before the release of the first edition of ''Programming Perl'' it was common to refer to the language as ''perl''; [[Randal L. Schwartz]], however, forced the uppercase language name in the book to make the name stand out better when typeset.  The case distinction was subsequently adopted by the community.
-
-It is not appropriate to write "PERL", as it is not an [[acronym]]. The spelling of PERL in all caps is therefore used as a [[Shibboleth#Modern usage|shibboleth]] for detecting community outsiders.
-However, several [[backronym]]s have been suggested, including the humorous ''Pathologically Eclectic Rubbish Lister''. The more serious ''Practical Extraction and Report Language'' has prevailed in many of today's manuals, including the official Perl man page. It is also consistent with the old name "Pearl": ''Practical Extraction And Report Language''.
-
-===The Camel Symbol===
-
-Perl is generally symbolized by a camel, which was a result of the picture chosen by camel book publishers [[O'Reilly Media]] as the cover picture of ''Programming Perl'', which consequently acquired the name ''The Camel Book''. O'Reilly owns the symbol as a trademark, but claims to use their legal rights only to protect the ''"integrity and impact of that symbol"'' [http://perl.oreilly.com/usage/]. 
-O'Reilly allows non-commercial use of the symbol, and provides [http://www.oreillynet.com/images/perl/sm_perl_id_bk_wt.gif Programming Republic of Perl] logos (see above) and [http://www.oreillynet.com/images/perl/powered_by_perl.gif Powered by Perl] buttons.
 
 ==Fun with Perl==
 As with C, [[obfuscated code]] competitions are a popular feature of Perl culture. The annual [[Obfuscated Perl contest]] makes an arch virtue of Perl's [[syntax|syntactic]] flexibility. The following program prints the text "Just another Perl / Unix hacker", using 32 concurrent processes coordinated by pipes. A complete explanation is available on the [http://perl.plover.com/obfuscated/ author's Web site].
