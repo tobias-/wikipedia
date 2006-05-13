@@ -325,7 +325,7 @@ Perl has several mottos that convey aspects of its design and use. One is ''"The
 
 ==Benchmark comparison==
 <div style = "font-size: 13pt; text-align: center; padding-bottom: 2px;">
-Number of tests won (Debian : AMD™ Sempron / Gentoo : Intel® Pentium® 4)
+Number of tests won (Debian : AMD™ Sempron™ / Gentoo : Intel® Pentium® 4)
 </div>
 {| class="wikitable" align = "left" style = "font-size: 10pt; background-color: rgb(245,245,245); margin-top: 39px; font-weight: bold;"
 |-
