@@ -320,113 +320,12 @@ In early versions of Perl, database interfaces were created by relinking the int
 
 In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The <tt>DBI</tt> (Database Interface) module presents a single, database-independent interface to Perl applications, while the <tt>DBD::</tt> (Database Driver) modules handle the details of accessing some 50 different databases. There are <tt>DBD::</tt> drivers for most [[ANSI]] [[SQL]] databases.
 
-==Benchmarks==
-===General===
-[[Benchmark (computing)|Benchmarks]] are designed to mimic a particular type of workload on a component or system. Many [http://cpan.uwinnipeg.ca/search?query=benchmark&mode=module benchmark modules] exist on CPAN. The module Benchmark.pm comes with Perl, though one of the [http://www252.pair.com/comdog/Talks/benchmarking_perl.pdf slides] used in a 2006 talk by [[Perl Review]] editor [[Brian D Foy]] says it "sux." Another slide quotes a page on [http://shootout.alioth.debian.org http://shootout.alioth.debian.org], warning people about the limitations of benchmarks:
+==Comparitive performance==
+[[Benchmark (computing)|Benchmarks]] that compare Perl to other languages are often quite difficult, as ''working'' code and the most ''efficient'' code are not always the same thing (a result of the "there's more than one way to do it" philosphy). Combined with the fact that benchmarks almost always favor the languages which the benchmark author(s) understand the most, this leads to a strong skepticism of such measurements. However, it can be useful to use benchmarks as a way to understand the very large-scale strengths and weeknesses of different langauges.
 
-<blockquote>
-How can we benchmark a programming language?<br>
-We can't &mdash; we benchmark programming language implementations.<br>
-How can we benchmark language implementations?<br>
-We can't &mdash; we measure particular programs.
-</blockquote>
+One such benchmark which is widely cited is the "Computer Language Shootout Benchmarks" [http://shootout.alioth.debian.org/] which measure the comparitive performance of many languages on the [[Debian]] operating system platform. These benchmarks showed that Perl performed relatively poorly on most tests against most other dynamic languages such as [[Haskell]], Python and [[SBCL]], and well against others such as PHP, [[Ruby programming language|Ruby]] and [[TCL programming language|TCL]]. Another interesting note from this benchmark is that Perl often performs far better in comparison to another language in memory usage while just the oposite is true of its CPU usage.
 
-Other people's benchmark data is sometimes published and may have some value to others, but proper interpretation is important, which brings many [[Benchmark (computing)#Challenges|challenges]].
-
-===Comparison===
-<div style = "font-size: 13pt; text-align: center; padding-bottom: 2px;">
-Number of tests won (Debian : AMD™ Sempron™ / Gentoo : Intel® Pentium® 4)
-</div>
-{| class="wikitable" align = "left" style = "font-size: 10pt; background-color: rgb(245,245,245); margin-top: 39px; font-weight: bold;"
-|-
-|-
-| Speed
-|-
-| Memory
-|-
-| Size
-|-
-|}
-
-{| class="wikitable" align = "left" style = "font-size: 10pt;"
-|-
-! Perl !! C (gcc)
-|-
-| 1/1 || 12/15
-|-
-| 0/1 || 13/15
-|-
-| 11/14 || 2/2
-|-
-|}
-
-{| class="wikitable" align = "left" style = "font-size: 10pt;"
-|-
-! Perl !! C++ (g++)
-|-
-| 0/2 || 14/12
-|-
-| 0/0 || 14/14
-|-
-| 10/14 || 4/0
-|-
-|}
-
-{| class="wikitable" align = "left" style = "font-size: 10pt;"
-|-
-! Perl !! Java JDK Server
-|-
-| 3/3 || 13/13
-|-
-| 12/12 || 4/4
-|-
-| 13/16 || 2/0
-|-
-|}
-
-{| class="wikitable" align = "left" style = "font-size: 10pt;"
-|-
-! Perl !! PHP
-|-
-| 9/8 || 4/6
-|-
-| 10/10 || 3/5
-|-
-| 10/11 || 3/4
-|-
-|}
-
-{| class="wikitable" align = "left" style = "font-size: 10pt;"
-|-
-! Perl !! Python
-|-
-| 5/7 || 11/9
-|-
-| 8/8 || 8/8
-|-
-| 6/3 || 9/13
-|-
-|}
-
-{| class="wikitable" align = "left" style = "font-size: 10pt;"
-|-
-! Perl !! Ruby
-|-
-| 14/14 || 2/2
-|-
-| 10/9 || 6/7
-|-
-| 8/2 || 6/14
-|-
-|}
-<div style = "clear: left;">
-<p>
-Data comes from [http://shootout.alioth.debian.org/debian/perl.php Debian : AMD™ Sempron™] benchmarks from from May 7, 2006 and [http://shootout.alioth.debian.org/gp4/perl.php Gentoo : Intel® Pentium® 4] benchmarks from May 10, 2006. The Debian and Gentoo tests used equivalent benchmarks, but on Gentoo, some benchmarks had a higher workload, most language implementations were built from source, and <i>Size</i> tests measured GZip bytes instead of lines of code.
-</p>
-
-<p style = "margin-left: auto; margin-right: auto; margin-top: 30px; text-align: justify; background-color: rgb(245,245,245); padding: 8px; border-style: solid; border-width: 1px; width: 90%;">
-<em>The computer programs used in these tests may not have been fully optimized, and the relevance of the data is disputed. The only truly relevant benchmark is one that's customized to your particular situation. See [http://shootout.alioth.debian.org/gp4/miscfile.php?file=benchmarking&title=Flawed%20Benchmarks this] page about flawed benchmarks and comparisons.</em>
-</p>
+Historically, Perl has performed well for tasks which involved textual transformation and the creation and distruction of complex data structures, but poorly for arithmetic and tasks which involve many, very short subroutine or method invocations.
 
 ==Opinion==
 Perl engenders strong feelings among both its proponents and its
