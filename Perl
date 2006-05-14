@@ -540,7 +540,7 @@ As with C, [[obfuscated code]] competitions are a popular feature of Perl cultur
  ($p{$_})&6];$p{$_}=/ ^$P/ix?$P:close$_}keys%p}p;p;p;p;p;map{$p{$_}=~/^[P.]/&&
  close$_}%p;wait until$?;map{/^r/&&<$_>}%p;$_=$d[$q];sleep rand(2)if/\S/;print</nowiki>
 
-Similar to obfuscated code but with a different purpose, "Perl Poetry" is the practice of writing poems that can actually be compiled by perl. This hobby is more or less unique to Perl due to the large number of regular English words used in the language. New poems are regularly published in the [[Perl Monks]] site's [http://www.perlmonks.org/index.pl?node=Perl%20Poetry Perl Poetry] section.
+Similar to obfuscated code but with a different purpose, "Perl Poetry" is the practice of writing poems that can actually be interpreted by Perl. This hobby is more or less unique to Perl due to the large number of regular English words used in the language. New poems are regularly published in the [[Perl Monks]] site's [http://www.perlmonks.org/index.pl?node=Perl%20Poetry Perl Poetry] section.
 
 Another popular pastime is "Perl Golf." As with [[Golf|the physical sport]], the goal is to reduce the number of strokes that it takes to complete a particular objective, but here "strokes" refers to keystrokes rather than swings of a golf club. A task, such as "scan an input string and return the longest [[palindrome]] that it contains", is proposed and participants try to outdo each other by writing solutions that require fewer and fewer characters of Perl source code.
 
