@@ -331,7 +331,7 @@ How can we benchmark language implementations?<br>
 We can't &mdash; we measure particular programs.
 </blockquote>
 
-Other people's benchmark data is sometimes published and may have some value to others, but proper interpretation is important, which brings many [[Benchmark (computing)#Challenges|challenges]].
+Other people's benchmark data is sometimes published and may have some value to others, but proper interpretation brings many [[Benchmark (computing)#Challenges|challenges]].
 
 ===Comparison===
 <div style = "font-size: 13pt; text-align: center; padding-bottom: 2px;">
