@@ -452,6 +452,9 @@ Besides its practical benefits, many programmers simply seem to enjoy working in
 
 Whatever the reasons, there is clearly a broad community of people who are passionate about Perl, as evidenced by the thousands of modules that have been contributed to CPAN, and the hundreds of design proposals that were submitted as [[Request for Comments|RFCs]] for Perl 6.
 
+====See also====
+[http://www.nntp.perl.org/group/perl.advocacy/2108 The Joy of Perl] &mdash; by Shlomi Fish, critic and developer of Perl 6.
+
 ===Con===
 A common complaint is that Perl is ugly. In particular, its prodigious use of punctuation puts off some people; Perl source code is sometimes likened to "line noise". In [http://www.paulgraham.com/pypar.html The Python Paradox], [[Paul Graham]] both acknowledges and responds to this:
 
