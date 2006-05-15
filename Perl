@@ -88,8 +88,8 @@ Perl can be compiled from source on Windows, however many Windows installations 
 ===Example Program===
 In Perl, the canonical "[[Hello world]]" program is:
 
-<nowiki>#</nowiki>!/usr/bin/perl
-print "Hello, world!\n";
+ <nowiki>#</nowiki>!/usr/bin/perl
+ print "Hello, world!\n";
 
 The first line is the [[Shebang (Unix)|shebang]], which tells the operating system where to find the Perl interpreter. The second line prints the string ''Hello, world!'' and a [[newline]].
 
