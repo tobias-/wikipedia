@@ -597,10 +597,6 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://perldoc.perl.org/perlre.html perlre]- Perl regular expressions
 *[http://perldoc.perl.org/perldelta.html perl5''xy''delta]- what is new for perl v5.''x''.''y''
 
-===Web pages===
-*[http://history.perl.org/PerlTimeline.html The Timeline of Perl and its Culture v3.0_0505]
-*[http://www.nntp.perl.org/group/perl.perl6.meta/424 Transcription of Larry's talk]
-
 ==External links==
 ===Major Resources===
 *[http://www.perl.org/ Perl.org] &ndash; The Perl Directory
