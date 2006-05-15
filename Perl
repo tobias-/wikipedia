@@ -452,7 +452,7 @@ Besides its practical benefits, many programmers simply seem to enjoy working in
 
 Whatever the reasons, there is clearly a broad community of people who are passionate about Perl, as evidenced by the thousands of modules that have been contributed to CPAN, and the hundreds of design proposals that were submitted as [[Request for Comments|RFCs]] for Perl 6.
 
-====See also====
+====Related links====
 [http://www.nntp.perl.org/group/perl.advocacy/2108 The Joy of Perl] &mdash; by Shlomi Fish, critic and developer of Perl 6.
 
 ===Con===
@@ -477,7 +477,7 @@ The free-wheeling language style that delights some Perl programmers concerns an
 
 There's also criticism of a less technical nature that may be no less important to some. Perl's popularity has declined. As of May, 2006, the [http://www.tiobe.com/tpci.htm TCPI Long Term Trends chart] of the ten most popular programming languages shows that Perl's popularity is at its lowest since before June, 2001 (the earliest date plotted), and has dropped more than any other language over the past year. In addition, OSCON &mdash; the open source convention sponsored by book publisher O'Reilly &mdash; is much less Perl-oriented than it used to be. [[Randal L. Schwartz]], author of several Perl books published by O'Reilly, has said that OSCON's organizers are openly hostile to Perl, and that Perl isn't interesting to O'Reilly anymore.
 
-====See also====
+====Related links====
 [http://fc-solve.berlios.de/perl-att-newbies/perl-newbies/book1.html "Usability" of the Perl Online World for Newcomers] &mdash; by Shlomi Fish, critic and developer of Perl 6.
 
 ==Origins==
@@ -508,6 +508,11 @@ However, several [[backronym]]s have been suggested, including the humorous ''Pa
 
 Perl is generally symbolized by a camel, which was a result of the picture chosen by camel book publishers [[O'Reilly Media]] as the cover picture of ''Programming Perl'', which consequently acquired the name ''The Camel Book''. O'Reilly owns the symbol as a trademark, but claims to use their legal rights only to protect the ''"integrity and impact of that symbol"'' [http://perl.oreilly.com/usage/]. 
 O'Reilly allows non-commercial use of the symbol, and provides [http://www.oreillynet.com/images/perl/sm_perl_id_bk_wt.gif Programming Republic of Perl] logos (see above) and [http://www.oreillynet.com/images/perl/powered_by_perl.gif Powered by Perl] buttons.
+
+===Related links===
+*[http://groups.google.com/groups?selm=4628%40sdcrdcf.UUCP First reference to "Perl" on Usenet]
+*[http://dev.perl.org/perl1/ The origin of Perl] &ndash; "Stability. Speed. Simplicity. perl1 is here."
+*[http://history.perl.org/PerlTimeline.html The Perl Timeline]
 
 ==Future==
 {{main|Perl 6}}
@@ -626,11 +631,6 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://www.activestate.com/ ActiveState ActivePerl] &ndash; Perl for [[Microsoft Windows]] and many other platforms
 *[http://www.indigostar.com/indigoperl.htm IndigoPerl] &ndash; another distribution of Perl for Microsoft Windows
 *[http://cygwin.com/ Cygwin] also distributes Perl on Windows
-
-===History===
-*[http://groups.google.com/groups?selm=4628%40sdcrdcf.UUCP First reference to "Perl" on Usenet]
-*[http://dev.perl.org/perl1/ The origin of Perl] &ndash; "Stability. Speed. Simplicity. perl1 is here."
-*[http://history.perl.org/PerlTimeline.html The Perl Timeline]
 
 ===Humor===
 *[http://wikibooks.org/wiki/Programming:Perl_humour Perl humour on Wikibooks]
