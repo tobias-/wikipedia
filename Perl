@@ -473,7 +473,8 @@ The free-wheeling language style that delights some Perl programmers concerns an
 There's also criticism of a less technical nature that may be no less important to some. Perl's popularity has declined. As of May, 2006, the [http://www.tiobe.com/tpci.htm TCPI Long Term Trends chart] of the ten most popular programming languages shows that Perl's popularity is at its lowest since before June, 2001 (the earliest date plotted), and has dropped more than any other language over the past year. In addition, OSCON &mdash; the open source convention sponsored by book publisher O'Reilly &mdash; is much less Perl-oriented than it used to be. [[Randal L. Schwartz]], author of several Perl books published by O'Reilly, has said that OSCON's organizers are openly hostile to Perl, and that Perl isn't interesting to O'Reilly anymore.
 
 ====Related links====
-[http://fc-solve.berlios.de/perl-att-newbies/perl-newbies/book1.html "Usability" of the Perl Online World for Newcomers] &mdash; by Shlomi Fish, critic and developer of Perl 6.
+*[http://fc-solve.berlios.de/perl-att-newbies/perl-newbies/book1.html "Usability" of the Perl Online World for Newcomers] &mdash; by Shlomi Fish, critic and developer of Perl 6.
+*[http://www.cabochon.com/~stevey/blog-rants/blog-ancient-perl.html Ancient Languages: Perl] &mdash; by software developer [http://opal.cabochon.com/~stevey/about_me.html Steve Yegge].
 
 ==Origins==
 ===General===
