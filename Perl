@@ -317,7 +317,7 @@ In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The <tt>
 
 ==Benchmarks==
 ===General===
-[[Benchmark (computing)|Benchmarks]] are designed to mimic a particular type of workload on a component or system. Many [http://cpan.uwinnipeg.ca/search?query=benchmark&mode=module benchmark modules] exist on CPAN. The Benchmark.pm module comes with Perl, though one of the [http://www252.pair.com/comdog/Talks/benchmarking_perl.pdf slides] used in a 2006 talk by [[brian d foy]], editor of The Perl Review, says it "sux." Another slide quotes a page on [http://shootout.alioth.debian.org http://shootout.alioth.debian.org] that warns people about the limitations of benchmarks:
+[[Benchmark (computing)|Benchmarks]] are designed to mimic a particular type of workload on a component or system. Many [http://cpan.uwinnipeg.ca/search?query=benchmark&mode=module benchmark modules] exist on the CPAN. The Benchmark.pm module comes with Perl, though one of the [http://www252.pair.com/comdog/Talks/benchmarking_perl.pdf slides] used in a 2006 talk by [[brian d foy]], editor of The Perl Review, says it "sux." Another slide quotes a page on [http://shootout.alioth.debian.org http://shootout.alioth.debian.org] that warns people about the limitations of benchmarks:
 
 <blockquote>
 How can we benchmark a programming language?<br>
@@ -445,7 +445,7 @@ Besides its practical benefits, many programmers simply seem to enjoy working in
   those programs. With Perl, the journey is as enjoyable as the destination ...
 </blockquote>
 
-Whatever the reasons, there is clearly a broad community of people who are passionate about Perl, as evidenced by the thousands of modules that have been contributed to CPAN, and the hundreds of design proposals that were submitted as [[Request for Comments|RFCs]] for Perl 6.
+Whatever the reasons, there is clearly a broad community of people who are passionate about Perl, as evidenced by the thousands of modules that have been contributed to the CPAN, and the hundreds of design proposals that were submitted as [[Request for Comments|RFCs]] for Perl 6.
 
 ====Related links====
 [http://www.nntp.perl.org/group/perl.advocacy/2108 The Joy of Perl] &mdash; by Shlomi Fish, critic and developer of Perl 6.
@@ -488,7 +488,7 @@ Development of Perl 5 continued into 1994. The perl5-porters mailing list was es
 
 Perl 5 was released on [[October 17]], [[1994]]. It was a nearly complete rewrite of the interpreter, and added many new features to the language, including objects, references, packages, and modules. Importantly, modules provided a mechanism for extending the language without modifying the interpreter. This allowed the core interpreter to stabilize, even as it enabled ordinary Perl programmers to add new language features.
 
-On [[October 26]], [[1995]], the [[Comprehensive Perl Archive Network]] (CPAN) was established. CPAN is a collection of web sites that archive and distribute Perl sources, binary distributions, documentation, scripts, and modules. Originally, each CPAN site had to be accessed through its own URL. Today, the single URL [http://www.cpan.org http://www.cpan.org] automatically redirects to a CPAN site.
+On [[October 26]], [[1995]], the [[Comprehensive Perl Archive Network]] (the CPAN) was established. The CPAN is a collection of web sites that archive and distribute Perl sources, binary distributions, documentation, scripts, and modules. Originally, each CPAN site had to be accessed through its own URL. Today, the single URL [http://www.cpan.org http://www.cpan.org] automatically redirects to a CPAN site.
 
 As of 2006, Perl 5 is still being actively maintained. It now includes [[Unicode]] support. The latest stable release is Perl 5.8.8.
 
@@ -531,11 +531,11 @@ As of 2006 Perl 6, Parrot, and pugs are under active development.
 
 [[CPAN]], the Comprehensive Perl Archive Network, is a collection of mirrored web sites that serve as a primary archive and distribution channel for Perl sources, distributions, documentation, scripts, and&mdash;especially&mdash;modules.  It is commonly browsed with the search engine [http://search.cpan.org/ http://search.cpan.org/].
 
-There are currently over 8,800 modules available on CPAN, contributed by over 2,500 authors. Modules are available for a wide variety of tasks, including advanced mathematics, database connectivity, and networking. Essentially everything on CPAN is freely available; much of the software is licensed under either the [[Artistic License]], the [[GPL]], or both. Anyone can upload software to CPAN via [http://pause.perl.org PAUSE], the Perl Authors Upload Server.
+There are currently over 8,800 modules available on the CPAN, contributed by over 2,500 authors. Modules are available for a wide variety of tasks, including advanced mathematics, database connectivity, and networking. Essentially everything on the CPAN is freely available; much of the software is licensed under either the [[Artistic License]], the [[GPL]], or both. Anyone can upload software to the CPAN via [http://pause.perl.org PAUSE], the Perl Authors Upload Server.
 
-Modules on CPAN can be downloaded and installed by hand. However, it is common for modules to depend on other modules, and following module dependencies by hand can be tedious. Both the [http://search.cpan.org/Perldoc?CPAN CPAN.pm] module (included in the Perl distribution) and the improved [http://search.cpan.org/Perldoc?CPANPLUS CPANPLUS] module offer command line installers that understand module dependencies; they can be configured to automatically download and install a module and, recursively, all modules that it requires.
+Modules on the CPAN can be downloaded and installed by hand. However, it is common for modules to depend on other modules, and following module dependencies by hand can be tedious. Both the [http://search.cpan.org/Perldoc?CPAN CPAN.pm] module (included in the Perl distribution) and the improved [http://search.cpan.org/Perldoc?CPANPLUS CPANPLUS] module offer command line installers that understand module dependencies; they can be configured to automatically download and install a module and, recursively, all modules that it requires.
 
-Since many Windows installations don't include a C compiler, Windows users may be limited to pure Perl modules when downloading from CPAN.
+Since many Windows installations don't include a C compiler, Windows users may be limited to pure Perl modules when downloading from the CPAN.
 
 ==Fun with Perl==
 As with C, [[obfuscated code]] competitions are a popular feature of Perl culture. The annual [[Obfuscated Perl contest]] makes an arch virtue of Perl's [[syntax|syntactic]] flexibility. The following program prints the text "Just another Perl / Unix hacker", using 32 concurrent processes coordinated by pipes. A complete explanation is available on the [http://perl.plover.com/obfuscated/ author's Web site].
@@ -623,7 +623,7 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 **[http://use.perl.org/ use Perl;] &ndash; Perl news and community discussion
 
 ===Distributions===
-*[http://www.cpan.org/ CPAN] &ndash; Comprehensive Perl Archive Network, Perl source distribution
+*[http://www.cpan.org/ The CPAN] &ndash; Comprehensive Perl Archive Network, Perl source distribution
 *[http://www.activestate.com/ ActiveState ActivePerl] &ndash; Perl for [[Microsoft Windows]] and many other platforms
 *[http://www.indigostar.com/indigoperl.htm IndigoPerl] &ndash; another distribution of Perl for Microsoft Windows
 *[http://cygwin.com/ Cygwin] also distributes Perl on Windows
