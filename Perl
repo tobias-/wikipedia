@@ -563,6 +563,13 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[http://search.cpan.org/dist/Acme-VerySign/ Acme::VerySign] satirizes the widely-criticized [[VeriSign]] [[Site Finder]] service
 *[http://search.cpan.org/~dconway/Acme-Don-t-1.01/t.pm Acme::Don't] implements the logical opposite of the <tt>do</tt> keyword&mdash;<tt>don't</tt>, which does not execute the provided block.
 
+===Related links===
+*[http://wikibooks.org/wiki/Programming:Perl_humour Perl humour on Wikibooks]
+*[http://www.cmpe.boun.edu.tr/~kosar/other/lwall.html Larry Wall quotes]
+*[http://search.cpan.org/perldoc?Lingua::Romana::Perligata Lingua::Romana::Perligata - Write Perl in Latin!]
+*[http://www.perlmonks.org/index.pl?node_id=253797 A tutorial on Perligata]
+*[http://www.softpanorama.org/Bulletin/Humor/humor092.html Perl Purity Test]
+
 ==See also==
 {{portalpar|Free software}}
 *[[Perl 6]]
@@ -611,16 +618,15 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://www.pugscode.org/ Pugs] &ndash; Perl 6 running on top of Haskell
 
 ===Books===
-*[http://books.perl.org/ Perl Books] books.perl.org
+*[http://books.perl.org/ books.perl.org] - Perl books and book reviews 
 *[http://www.techbooksforfree.com/perlpython.shtml A collection of other free Perl books]
 *[http://www.computer-books.us/perl.php Computer-Books.us] - A collection of Perl books available for free download.
 (Also see <i>Books</i> under <i>References</i>, above.)
 
 ===Support===
-*User groups
-**[http://www.pm.org/ Perl Mongers] &ndash; local user groups in cities worldwide
-**[http://www.perlmonks.org/ PerlMonks] &ndash; [[The Perl Foundation]]-affiliated discussion forum and resources
-**[http://use.perl.org/ use Perl;] &ndash; Perl news and community discussion
+*[http://www.pm.org/ Perl Mongers] &ndash; local user groups in cities worldwide
+*[http://www.perlmonks.org/ PerlMonks] &ndash; [[The Perl Foundation]]-affiliated discussion forum and resources
+*[http://use.perl.org/ use Perl;] &ndash; Perl news and community discussion
 
 ===Distributions===
 *[http://www.cpan.org/ The CPAN] &ndash; Comprehensive Perl Archive Network, Perl source distribution
@@ -628,18 +634,10 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://www.indigostar.com/indigoperl.htm IndigoPerl] &ndash; another distribution of Perl for Microsoft Windows
 *[http://cygwin.com/ Cygwin] also distributes Perl on Windows
 
-===Humor===
-*[http://wikibooks.org/wiki/Programming:Perl_humour Perl humour on Wikibooks]
-*[http://www.cmpe.boun.edu.tr/~kosar/other/lwall.html Larry Wall quotes]
-*[http://search.cpan.org/perldoc?Lingua::Romana::Perligata Lingua::Romana::Perligata - Write Perl in Latin!]
-*[http://www.perlmonks.org/index.pl?node_id=253797 A tutorial on Perligata]
-*[http://www.softpanorama.org/Bulletin/Humor/humor092.html Perl Purity Test]
-
 ===Miscellaneous===
 *[http://dmoz.org/Computers/Programming/Languages/Perl/ Perl related websites] in the [[Open Directory Project]]
 *[http://www.theperlreview.com The Perl Review] - print magazine about Perl
 *[http://www.tpj.com/ The Perl Journal] online only magazine about Perl
-*[http://books.perl.org/ Perl Book reviews]
 *[http://perlcast.com Perlcast] - Perl Podcast
 *[http://www.perl.com/pub/a/2000/01/10PerlMyths.html Ten Perl Myths] - O'Reilly
 *[http://fortunes.quotationsbook.com/fortunes/collection/52/PERL Perl fortunes collected from Larry Wall message identifiers]
