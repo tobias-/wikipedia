@@ -584,6 +584,10 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[[Comparison of programming languages]]
 
 ==References==
+
+===Cited in this article===
+<references />
+
 ===Books===
 {{book}}
 
