@@ -583,11 +583,10 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[[Perl Mongers]]
 *[[Comparison of programming languages]]
 
-==References==
-
-===Cited in this article===
+==Notes==
 <references />
 
+==References==
 ===Books===
 {{book}}
 
