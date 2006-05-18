@@ -485,9 +485,6 @@ from merlyn's posts (Randal Schwartz's IRC handle) on [[Freenode]]'s
 [http://colabti.de/irclogger/irclogger_log/perl6?date=2006-05-10,Wed&sel=86#l151 here] and
 [http://colabti.de/irclogger/irclogger_log/perl6?date=2006-05-10,Wed&sel=93#l161 here].</ref>
 
-====Related links====
-*[http://www.cabochon.com/~stevey/blog-rants/blog-ancient-perl.html Ancient Languages: Perl] &mdash; by software developer [http://opal.cabochon.com/~stevey/about_me.html Steve Yegge].
-
 ==Origins==
 ===General===
 Larry Wall began work on Perl in 1987, and released version 1.0 to the comp.sources.misc [[newsgroup]] on [[December 18]], [[1987]]. The language expanded rapidly over the next few years. Perl 2, released in 1988, featured a better regular expression engine. Perl 3, released in 1989, added support for binary data.
