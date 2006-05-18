@@ -439,28 +439,26 @@ Besides its practical benefits, many programmers simply seem to enjoy working in
 Whatever the reasons, there is clearly a broad community of people who are passionate about Perl, as evidenced by the thousands of modules that have been contributed to the CPAN, and the hundreds of design proposals that were submitted as [[Request for Comments|RFCs]] for Perl 6.
 
 ===Con===
-A common complaint is that Perl is ugly. In particular, its prodigious use of punctuation puts off some people; Perl source code is sometimes likened to "line noise". In [http://www.paulgraham.com/pypar.html The Python Paradox], [[Paul Graham]] both acknowledges and responds to this:
+A common complaint is that Perl is ugly. In particular, its prodigious use of punctuation puts off some people; Perl source code is sometimes likened to "line noise". In ''The Python Paradox'', [[Paul Graham]] both acknowledges and responds to this:
 
 {{cquote|
 At the mention of ugly source code, people will of course think of
 Perl. But the superficial ugliness of Perl is not the sort I mean.
 Real ugliness is not harsh-looking syntax, but having to build
-programs out of the wrong concepts. Perl may look like a cartoon character swearing, but there are cases where it surpasses Python conceptually.
+programs out of the wrong concepts. Perl may look like a cartoon character swearing, but there are cases where it surpasses Python conceptually.[http://www.paulgraham.com/pypar.html]
 }}
 
-Another criticism is that Perl is excessively complex and compact, and that it leads to "write-only" code, that is, to code that is virtually impossible to understand after it has been written. It is, of course, possible to write obscure code in any language.
+Another criticism is that Perl is excessively complex and compact, and that it leads to "write-only" code, that is, to code that is virtually impossible to understand after it has been written.
 
-In a [[2003]] study titled [http://page.mi.fu-berlin.de/~prechelt/Biblio/jccpprt2_advances2003.pdf Are Scripting Languages Any Good? A Validation of Perl, Python, Rexx, and Tcl against C, C++, and Java], Lutz Prechelt wrote:
+In a [[2003]] study titled ''Are Scripting Languages Any Good? A Validation of Perl, Python, Rexx, and Tcl against C, C++, and Java'', Lutz Prechelt wrote:
 
 {{cquote|
-...the potential uglyness of any aspect of Perl has carefully been balanced with the power that can be derived from it. Nevertheless, Perl makes it relatively easy to shoot oneself in the foot or to produce programs that are very short but also very difficult to understand. For this reason, somewhat like for C++, writing good Perl programs depends more strongly on the knowledge and discipline of the programmer than in most other languages.
+...the potential uglyness of any aspect of Perl has carefully been balanced with the power that can be derived from it. Nevertheless, Perl makes it relatively easy to shoot oneself in the foot or to produce programs that are very short but also very difficult to understand. For this reason, somewhat like for C++, writing good Perl programs depends more strongly on the knowledge and discipline of the programmer than in most other languages.[http://page.mi.fu-berlin.de/~prechelt/Biblio/jccpprt2_advances2003.pdf] (PDF)
 }}
 
-The free-wheeling language style that delights some Perl programmers concerns and dismays others. For example, the Perl 5 object model does not enforce data security: access to private data is restricted only by convention, not the language itself. An object created in one place may easily be modified in another; there may not be any single place where its state is definitively established. There are techniques for addressing these issues, but they are non-native and little used.
+There's also criticism of a less technical nature that may be no less important to some. Some people believe Perl's popularity has declined. in the years betwen [[2001] and [[2006]]. This may represent a true decline in Perl's usage or an aspect of the transition from a young to mature language. It may also be a result of the fact that it has been well over a decade since the last major release of Perl, and Perl 6 development continues after over 5 years without an initial relase.
 
-There's also criticism of a less technical nature that may be no less important to some. Some people believe Perl's popularity has declined. As of [[May 2006]], the [http://www.tiobe.com/tpci.htm TCPI Long Term Trends chart] by Tiobe Software of the ten most popular programming languages claims that Perl's popularity is at its lowest since [[June 2001]] (the earliest date plotted), and has dropped more than any other language over the past year. On the other hand, the TCPI revised their methodology when Java dropped too much in [[April 2004]]. Tiobe Software makes products for Java and C++ programmers and has a commercial interest in the popularity of those languages. Their trends must be taken with a grain of salt since they are relative numbers normalized to the most popular language, in this case Java, in which Tiobe Software has a commercial interest. A language growing in popularity can have a downward trend if the most popular language is growing faster, for instance. The TPCI has not published absolute numbers, so their claims are unverifiable.
-
-In addition, [[OSCON]] &mdash; the Open Source Convention sponsored by [[O'Reilly Media|O'Reilly]], which started as [[The Perl Conference]] &mdash; is much less Perl-oriented than it used to be. [[Randal L. Schwartz]], author of several Perl books, has said that OSCON's organizers are openly hostile to Perl, and that Perl isn't interesting to O'Reilly anymore.<ref>Paraphrased from merlyn's posts (Randal Schwartz's IRC handle) on [[Freenode]]'s #perl6 irc channel, logged [http://colabti.de/irclogger/irclogger_log/perl6?date=2006-05-10,Wed& sel=86#l151 here] and [http://colabti.de/irclogger/irclogger_log/perl6?date=2006-05-10,Wed& sel=93#l161 here].</ref>
+In addition, [[OSCON]] &mdash; the Open Source Convention sponsored by [[O'Reilly Media|O'Reilly]], which started as [[The Perl Conference]] &mdash; is much less Perl-oriented than it used to be. [[Randal L. Schwartz]], author of several Perl books, has said that OSCON's organizers are openly hostile to Perl, and that Perl isn't interesting to O'Reilly anymore.<ref>Paraphrased from merlyn's posts (Randal Schwartz's IRC handle) on [[Freenode]]'s #perl6 irc channel. [http://colabti.de/irclogger/irclogger_log/perl6?date=2006-05-10,Wed& sel=86#l151 Archive of chat]; [http://colabti.de/irclogger/irclogger_log/perl6?date=2006-05-10,Wed& sel=93#l161 continued archive]</ref>
 
 ==Origins==
 
