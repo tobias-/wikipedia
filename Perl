@@ -462,7 +462,7 @@ programs out of the wrong concepts. Perl may look like a cartoon character swear
 
 Another criticism is that Perl is excessively complex and compact, and that it leads to "write-only" code, that is, to code that is virtually impossible to understand after it has been written. It is, of course, possible to write obscure code in any language.
 
-In a 2003 study titled [http://page.mi.fu-berlin.de/~prechelt/Biblio/jccpprt2_advances2003.pdf Are Scripting Languages Any Good? A Validation of Perl, Python, Rexx, and Tcl against C, C++, and Java], Lutz Prechelt wrote:
+In a [[2003]] study titled [http://page.mi.fu-berlin.de/~prechelt/Biblio/jccpprt2_advances2003.pdf Are Scripting Languages Any Good? A Validation of Perl, Python, Rexx, and Tcl against C, C++, and Java], Lutz Prechelt wrote:
 
 {{cquote|
 ...the potential uglyness of any aspect of Perl has carefully been balanced with the power that can be derived from it. Nevertheless, Perl makes it relatively easy to shoot oneself in the foot or to produce programs that are very short but also very difficult to understand. For this reason, somewhat like for C++, writing good Perl programs depends more strongly on the knowledge and discipline of the programmer than in most other languages.
