@@ -456,10 +456,6 @@ In a [[2003]] study titled ''Are Scripting Languages Any Good? A Validation of P
 ...the potential uglyness of any aspect of Perl has carefully been balanced with the power that can be derived from it. Nevertheless, Perl makes it relatively easy to shoot oneself in the foot or to produce programs that are very short but also very difficult to understand. For this reason, somewhat like for C++, writing good Perl programs depends more strongly on the knowledge and discipline of the programmer than in most other languages.[http://page.mi.fu-berlin.de/~prechelt/Biblio/jccpprt2_advances2003.pdf] (PDF)
 }}
 
-There's also criticism of a less technical nature that may be no less important to some. Some people believe Perl's popularity has declined. in the years betwen [[2001]] and [[2006]]. This may represent a true decline in Perl's usage or an aspect of the transition from a young to mature language. It may also be a result of the fact that it has been well over a decade since the last major release of Perl, and Perl 6 development continues after over 5 years without an initial relase.
-
-In addition, [[OSCON]] &mdash; the Open Source Convention sponsored by [[O'Reilly Media|O'Reilly]], which started as [[The Perl Conference]] &mdash; is much less Perl-oriented than it used to be. [[Randal L. Schwartz]], co-author of several Perl books, has said that OSCON's organizers are openly hostile to Perl, and that Perl isn't interesting to O'Reilly anymore.<ref>Paraphrased from merlyn's posts (Randal Schwartz's IRC handle) on [[Freenode]]'s #perl6 irc channel. [http://colabti.de/irclogger/irclogger_log/perl6?date=2006-05-10,Wed& sel=86#l151 Archive of chat]; [http://colabti.de/irclogger/irclogger_log/perl6?date=2006-05-10,Wed& sel=93#l161 continued archive]</ref>
-
 ==Origins==
 
 ===General===
