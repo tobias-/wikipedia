@@ -317,7 +317,7 @@ In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The <tt>
 
 ==Benchmarks==
 ===General===
-[[Benchmark (computing)|Benchmarks]] are designed to mimic a particular type of workload on a component or system. Many [http://cpan.uwinnipeg.ca/search?query=benchmark&mode=module benchmark modules] exist on the CPAN. [http://www252.pair.com/comdog/Talks/benchmarking_perl.pdf Slides] used in a 2006 talk by [[brian d foy]], editor of [http://www.theperlreview.com The Perl Review], warn people about the limitations of benchmarks &mdash; particularly about the module Benchmark.pm &mdash; and quote the following from [http://shootout.alioth.debian.org/ The Computer Language Shootout Benchmarks].
+[[Benchmark (computing)|Benchmarks]] are designed to mimic a particular type of workload on a component or system. Many [http://cpan.uwinnipeg.ca/search?query=benchmark&mode=module benchmark modules] exist on the CPAN.  Benchmark.pm comes with Perl, though [http://www252.pair.com/comdog/Talks/benchmarking_perl.pdf slides] used in a 2006 talk by [[brian d foy]], editor of [http://www.theperlreview.com The Perl Review], warn people about the limitations of benchmarks and quote the following from [http://shootout.alioth.debian.org/ The Computer Language Shootout Benchmarks].
 
 <blockquote>
 How can we benchmark a programming language?<br>
