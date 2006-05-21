@@ -456,6 +456,10 @@ In a [[2003]] study titled ''Are Scripting Languages Any Good? A Validation of P
 ...the potential uglyness of any aspect of Perl has carefully been balanced with the power that can be derived from it. Nevertheless, Perl makes it relatively easy to shoot oneself in the foot or to produce programs that are very short but also very difficult to understand. For this reason, somewhat like for C++, writing good Perl programs depends more strongly on the knowledge and discipline of the programmer than in most other languages.[http://page.mi.fu-berlin.de/~prechelt/Biblio/jccpprt2_advances2003.pdf] (PDF)
 }}
 
+There's also criticism of a less technical nature that may be no less important to some. Some people believe that Perl's popularity has declined. As of May, 2006, the [http://www.tiobe.com/tpci.htm TCPI Long Term Trends chart] of the ten most popular programming languages, based on the results of search engine queries, shows that Perl's popularity is at its lowest since before June, 2001 (the earliest date plotted), and has dropped more than any other language over the past year.
+
+There are also signs of a decline in Perl's popularity from book publisher O'Reilly. OSCON &mdash; the open source convention sponsored by O'Reilly &mdash; is much less Perl-oriented than it used to be. [[Randal L. Schwartz]], co-author of several Perl books published by O'Reilly, has said that OSCON's organizers are openly hostile to Perl, and that Perl isn't interesting to O'Reilly anymore.<ref>Paraphrased from merlyn's posts (Randal Schwartz's IRC handle) on [[Freenode]]'s #perl6 irc channel. [http://colabti.de/irclogger/irclogger_log/perl6?date=2006-05-10,Wed& sel=86#l151 Archive of chat]; [http://colabti.de/irclogger/irclogger_log/perl6?date=2006-05-10,Wed& sel=93#l161 continued archive]</ref>
+
 ====Related links====
 *[http://fc-solve.berlios.de/perl-att-newbies/perl-newbies/book1.html "Usability" of the Perl Online World for Newcomers] &mdash; by Shlomi Fish, critic and developer of Perl 6.
 
