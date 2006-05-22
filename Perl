@@ -193,13 +193,12 @@ Perl also has two implicit looping constructs:
 
 <tt>grep</tt> returns all elements of ''list'' for which the controlled block evaluates to true. <tt>map</tt> evaluates the controlled block for each element of ''list'' and returns a list of the resulting values. These constructs enable a simple functional programming style.
 
-There is no [[switch statement]] (multi-way branch) in Perl 5. The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures, none entirely satisfactory. A very general and flexible switch statement has been designed for [[Perl 6]]. The <tt>Switch</tt> module makes most of the functionality of the Perl 6 switch available to Perl 5 programs, although it is often criticised for being a source filter, and thus failure-prone. The next stable version of Perl 5, Perl 5.10, will have the [[Perl 6]] given/when switch-statement.
+There is no [[switch statement]] (multi-way branch) in Perl 5. The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures. There is a <tt>Switch</tt> module, however, which provides functionality modeled on the forthcoming [[Perl 6]] re-design.
 
-Perl includes a <tt>goto ''label''</tt> statement, but it is rarely used. Some consider its use poor coding practice. The implementation is slow, and situations where a <tt>goto</tt> is called for in other languages don't occur as often in Perl and are often better handled with other control structures, such as labeled loops.
+Perl includes a <tt>goto ''label''</tt> statement, but it is rarely used. Situations where a <tt>goto</tt> is called for in other languages don't occur as often in Perl due to its breadth of flow control options.
 
 There is also a <tt>goto &''sub''</tt> statement that performs a [[tail call]].
-It terminates the current subroutine and immediately calls the specified <tt>''sub''</tt>.  
-Use of this form is culturally accepted but unusual because it is rarely needed.
+It terminates the current subroutine and immediately calls the specified <tt>''sub''</tt>. This is used in situations where a caller can perform more efficient stack management than Perl itself (typically because no change to the current stack is required), and in deep recursion tail calling can have substantial positive impact on performance because it avoids the overhead of scope/stack management on return.
 
 ===Subroutines===
 [[Subroutine]]s are defined with the <tt>sub</tt> keyword,
