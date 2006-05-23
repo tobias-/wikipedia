@@ -1,4 +1,3 @@
-{{GA}}
 {{otheruses}}
 {{Infobox programming language
 |name = Perl
