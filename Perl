@@ -1,4 +1,3 @@
-{{ POV-because|Dispute over items removed from the Opinion section }}
 {{otheruses}}
 {{Infobox programming language
 |name = Perl
