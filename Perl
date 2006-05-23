@@ -1,4 +1,4 @@
-{{otheruses}}
+__TOC__{{otheruses}}
 {{Infobox programming language
 |name = Perl
 |logo = <br>[[Image:Programming-republic-of-perl.gif]]
