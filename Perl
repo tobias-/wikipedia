@@ -326,6 +326,10 @@ Optimizing Perl can require intimate knowledge of its workings rather than skill
 
 ==Opinion==
 
+<div style = "background-color: rgb(255,200,200); font-weight: bold; margin-left: auto; margin-right: auto; text-align: center;">
+The neutrality of this section is disputed because of the refusal of some editors to allow several additions to the Con section.
+</div>
+
 Perl engenders strong feelings among both its proponents and its
 detractors.
 
