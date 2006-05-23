@@ -357,6 +357,9 @@ In a [[2003]] study titled ''Are Scripting Languages Any Good? A Validation of P
 ...the potential uglyness of any aspect of Perl has carefully been balanced with the power that can be derived from it. Nevertheless, Perl makes it relatively easy to shoot oneself in the foot or to produce programs that are very short but also very difficult to understand. For this reason, somewhat like for C++, writing good Perl programs depends more strongly on the knowledge and discipline of the programmer than in most other languages.[http://page.mi.fu-berlin.de/~prechelt/Biblio/jccpprt2_advances2003.pdf] (PDF)
 }}
 
+====Related links====
+*[http://fc-solve.berlios.de/perl-att-newbies/perl-newbies/book1.html "Usability" of the Perl Online World for Newcomers] &mdash; by Shlomi Fish, critic and developer of Perl 6.
+
 ==Origins==
 
 ===General===
