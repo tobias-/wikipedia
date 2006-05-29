@@ -116,6 +116,12 @@ Numbers are written in the usual way; strings are enclosed by quotes of various 
   $name  = "joe";
   $color = 'red';
 
+Perl will decide if your string is an integer or not based on the context it is used. Because in the below code the string $a and $b are treated as numbers they are interpreted as such. This code prints the number '5', discarding non number information.
+
+  $a     = "3 apples";
+  $b     = "2 oranges";
+  print $a + $b;
+
 A list is written by listing its elements, 
 separated by commas, and enclosed by parentheses where required by operator precedence.
 
