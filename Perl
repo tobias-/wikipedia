@@ -344,7 +344,7 @@ Besides its practical benefits, many programmers simply seem to enjoy working in
 
 {{cquote|'''Perl is fun.''' In these days of self-serving jargon, conflicting and unpredictable standards, and proprietary systems that discourage peeking under the hood, people have forgotten that programming is supposed to be fun. I don't mean the satisfaction of seeing our well-tuned programs do our bidding, but the literary act of creative writing that yields those programs. With Perl, the journey is as enjoyable as the destination ...}}
 
-Whatever the reasons, there is clearly a broad community of people who are passionate about Perl, as evidenced by the thousands of modules that have been contributed to the CPAN, and the hundreds of design proposals that were submitted as [[Request for Comments|RFCs]] for Perl 6.
+Whatever the reasons, there is clearly a broad community of people who are passionate about Perl, helping to make Perl one of the most popular Programming languages. In the [http://www.tiobe.com/tpci.htm TIOBE Programming Community Index for May 2006], which estimates the popularity of 50 programming languages by using special search engine queries, Perl comes out ahead of other popular languages like C#, Python, and Javascript. Perl's popularity is also evidenced by the thousands of modules that have been contributed to the CPAN, and the hundreds of design proposals that were submitted as [[Request for Comments|RFCs]] for Perl 6.
 
 ===Con===
 A common complaint is that Perl is ugly. In particular, its prodigious use of punctuation puts off some people; Perl source code is sometimes likened to "line noise". In ''The Python Paradox'', [[Paul Graham]] both acknowledges and responds to this:
