@@ -424,7 +424,7 @@ There are currently over 10,000 modules available on the CPAN, contributed by ov
 
 Modules on the CPAN can be downloaded and installed by hand. However, it is common for modules to depend on other modules, and following module dependencies by hand can be tedious. Both the [http://search.cpan.org/Perldoc?CPAN CPAN.pm] module (included in the Perl distribution) and the improved [http://search.cpan.org/Perldoc?CPANPLUS CPANPLUS] module offer command line installers that understand module dependencies; they can be configured to automatically download and install a module and, recursively, all modules that it requires.
 
-Since many Windows installations don't include a C compiler, Windows users may be limited to pure Perl modules when downloading from the CPAN.
+Since many Windows installations don't include a C compiler, Windows users may be limited to pure Perl modules when downloading from the CPAN.  ActiveState, a company that commercially supports Perl, Tcl, and Python on Windows does provide packages of pre-compiled Perl modules, called PPMs, for use with their Perl products.
 
 ==Fun with Perl==
 As with C, [[obfuscated code]] competitions are a popular feature of Perl culture. The annual [[Obfuscated Perl contest]] makes an arch virtue of Perl's [[syntax|syntactic]] flexibility. The following program prints the text "Just another Perl / Unix hacker", using 32 concurrent processes coordinated by pipes. A complete explanation is available on the [http://perl.plover.com/obfuscated/ author's Web site].
