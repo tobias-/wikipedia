@@ -364,6 +364,8 @@ In a [[2003]] study titled ''Are Scripting Languages Any Good? A Validation of P
 ...the potential uglyness of any aspect of Perl has carefully been balanced with the power that can be derived from it. Nevertheless, Perl makes it relatively easy to shoot oneself in the foot or to produce programs that are very short but also very difficult to understand. For this reason, somewhat like for C++, writing good Perl programs depends more strongly on the knowledge and discipline of the programmer than in most other languages.[http://page.mi.fu-berlin.de/~prechelt/Biblio/jccpprt2_advances2003.pdf] (PDF)
 }}
 
+On the less technical side, there's evidence that Perl's popularity is at its lowest since June, 2001<ref>[http://www.tiobe.com/tpci.htm TCPI Long Term Trends chart]</ref>
+
 ==Origins==
 
 ===General===
