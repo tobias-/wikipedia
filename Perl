@@ -536,6 +536,7 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://fortunes.quotationsbook.com/fortunes/collection/52/PERL Perl fortunes collected from Larry Wall message identifiers]
 *Google Video: Beginning Perl for Nonprogrammers [http://video.google.com/videoplay?docid=8352356480985227225 Part 1] [http://video.google.com/videoplay?docid=3416163466891342908 Part 2]
 *[http://bioperl.org BioPerl] - a large package of Perl modules used for [[bioinformatics]]
+*[http://shootout.alioth.debian.org/ The Programming Language Shootout]
 
 {{Major programming languages small}}
 
