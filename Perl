@@ -116,7 +116,7 @@ Numbers are written in the usual way; strings are enclosed by quotes of various 
   $name  = "joe";
   $color = 'red';
 
-Perl will decide if your string is a number or not based on the context in which it is used. It tries to convert strings into numbers when using them with numerical operators. Because in the below code the string $a and $b are treated as numbers they are interpreted as such. This code prints the number '5', discarding non number information.
+Perl will decide if your string is a number or not based on the context in which it is used. It tries to convert strings into numbers when using them with numerical operators. In the following example the strings $n and $m are treated as numbers when they are the arguments to the addition operator. This code prints the number '5', discarding non number information for the operation, although the variable values remain the same.
 
   $n     = "3 apples";
   $m     = "2 oranges";
