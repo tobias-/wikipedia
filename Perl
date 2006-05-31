@@ -477,7 +477,6 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 ==Notes==
 <references />
 
-==References==
 ===Books===
 {{book}}
 
