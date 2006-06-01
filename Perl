@@ -366,6 +366,15 @@ In a [[2003]] study titled ''Are Scripting Languages Any Good? A Validation of P
 ...the potential uglyness of any aspect of Perl has carefully been balanced with the power that can be derived from it. Nevertheless, Perl makes it relatively easy to shoot oneself in the foot or to produce programs that are very short but also very difficult to understand. For this reason, somewhat like for C++, writing good Perl programs depends more strongly on the knowledge and discipline of the programmer than in most other languages.[http://page.mi.fu-berlin.de/~prechelt/Biblio/jccpprt2_advances2003.pdf] (PDF)
 }}
 
+In [[2000]], [[Eric Raymond]] echoed the "write-only" code sentiment:
+
+{{cquote|
+The syntax that had seemed merely eccentric at a hundred lines began to seem like a nigh-impenetrable hedge of thorns at a thousand. "More than one way to do it" lent flavor and expressiveness at a small scale, but made it significantly harder to maintain consistent style across a wider code base. And many of the features that were later patched into Perl to address the complexity-control needs of bigger programs (objects, lexical scoping, "use strict", etc.) had a fragile, jerry-rigged feel about them. [http://www.linuxjournal.com/article/3882]
+}}
+
+
+}}
+
 ==Origins==
 
 ===General===
