@@ -486,6 +486,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[[Just another Perl hacker]]
 *[[Obfuscated Perl contest]]
 *[[Perl Mongers]]
+*[[PerlScript]]
 *[[Comparison of programming languages]]
 
 ==Notes==
