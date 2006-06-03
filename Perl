@@ -11,13 +11,13 @@
 |typing = dynamic
 |implementations = 
 |dialects = 
-|influenced_by =  [[awk|AWK]], [[C programming language|C]], [[C++]], [[Lisp programming language|Lisp]], [[Python_programming_language|Python]], [[Sed]], [[Unix shell]] 
+|influenced_by =  [[AWK programming language|AWK]], [[C programming language|C]], [[C++]], [[Lisp programming language|Lisp]], [[Python programming language|Python]], [[Sed]], [[Unix shell]] 
 |influenced = [[Python programming language|Python]], [[PHP]], [[Ruby programming language|Ruby]]
 |operating_system = [[Cross-platform]]
 |license =[[GNU General Public License|GPL]] or [[Artistic License]]
 |website =[http://www.perl.org www.perl.org]
 }}
-'''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]) is a [[dynamic programming language|dynamic]] procedural programming language designed by [[Larry Wall]] and first released in 1987. Perl borrows features from [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[awk|AWK]], [[sed]], [[Lisp programming language|Lisp]], and, to a lesser extent, many other programming languages.
+'''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]) is a [[dynamic programming language|dynamic]] procedural programming language designed by [[Larry Wall]] and first released in 1987. Perl borrows features from [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[AWK programming language|AWK]], [[sed]], [[Lisp programming language|Lisp]], and, to a lesser extent, many other programming languages.
 
 ==Overview==
 
@@ -47,7 +47,7 @@ The overall structure of Perl derives broadly from the programming language [[C 
 
 Perl also takes features from [[shell programming]]. All variables are marked with leading [[Sigil (computer programming)|sigil]]s. Sigils unambiguously identify variable names, allowing Perl to have a rich syntax. Importantly, sigils allow variables to be interpolated directly into strings. Like the Unix shells, Perl has many built-in functions for common tasks, like sorting, and for accessing system facilities.
 
-Perl takes [[list]]s from [[Lisp programming language|Lisp]], [[associative array]]s from [[awk]], and [[regular expressions]] from [[sed]]. These simplify and facilitate all manner of parsing, text handling, and data management tasks.
+Perl takes [[list]]s from [[Lisp programming language|Lisp]], [[associative array]]s from [[AWK programming language|AWK]], and [[regular expressions]] from [[sed]]. These simplify and facilitate all manner of parsing, text handling, and data management tasks.
 
 In Perl 5, features were added that support complex [[data structure]]s, [[first-class function]]s (i.e. [[Closure (computer science)|closures]] as values), and an [[object-oriented programming]] model. These include [[reference (computer science)|reference]]s, packages, and class-based method dispatch. Perl 5 also saw the introduction of [[lexically scoped variables]], which make it easier to write robust code, and modules, which make it practical to write and distribute libraries of Perl code.
 
