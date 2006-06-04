@@ -376,8 +376,6 @@ Although taken out of context, Python programmers and authors[http://www.mindvie
 Perl is worse than Python because people wanted it worse. [http://xrl.us/mv4q]
 }}
 
-On the less technical side, TIOBE claims with its search engine polling in May 2006 that Perl's popularity is at its lowest since June, 2001.  <ref>[http://www.tiobe.com/tpci.htm TCPI Long Term Trends chart]</ref>
-
 ==Origins==
 
 ===General===
