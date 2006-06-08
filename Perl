@@ -1,4 +1,3 @@
-{{protected}}
 {{otheruses}}
 {{Infobox programming language
 |name = Perl
@@ -374,7 +373,7 @@ The syntax that had seemed merely eccentric at a hundred lines began to seem lik
 Although taken out of context, Python programmers and authors[http://www.mindview.net/Books/Python/ThinkingInPython.html][http://www.linuxjournal.com/article/7721] are often fond of repeating this quote from [[Larry Wall]]:
 
 {{cquote|
-Perl is worse than Python because people wanted it worse. [http://xrl.us/mv4q]
+Perl is worse than Python because people wanted it worse. 
 }}
 
 ==Origins==
