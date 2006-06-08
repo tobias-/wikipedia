@@ -272,9 +272,9 @@ A subroutine can discover its calling context with the <tt>wantarray</tt> functi
  @x = either;    # returns (1, 2)
 
 ===Regular expressions===
-{{seealso|Perl regular expression examples}}
+{{seealso|Perl regular expression examples|Regular expression}}
 
-The Perl language includes a specialized syntax for writing [[regular expression]]s (REs), and the interpreter contains an engine for matching strings to regular expressions. The regular expression engine uses a [[backtracking]] algorithm, extending its capabilities from simple pattern matching to string capture and substitution.
+The Perl language includes a specialized syntax for writing [[regular expression]]s (REs), and the interpreter contains an engine for matching strings to regular expressions. The regular expression engine uses a [[backtracking]] algorithm, extending its capabilities from simple pattern matching to string capture and substitution.  The regular expression engine is derived from regex written by [[Henry Spencer]].
 
 The Perl regular expression syntax was originally taken from Unix Version 8 regular expressions. However, it diverged before the first release of Perl, and has since grown to include many more features. Some other languages and applications are now adopting [[PCRE|Perl compatible regular expressions]] over [[POSIX]] regular expressions.
 
