@@ -122,6 +122,16 @@ Perl will decide if your string is a number or not based on the context in which
   $m     = "2 oranges";
   print $n + $m;
 
+Perl also has a boolean context that it uses in evaluating conditional statements.  The following values in Perl all evaluate as false in Perl:
+
+  $false = 0;     # the number zero
+  $false = '0';   # the string zero
+  $false = "";    # the empty string
+  @false = ();    # the empty list
+  $false = undef; # the return value from undef
+
+All other values are evaluated to true.  Evaluated boolean expressions also return scalar values.  A boolean expression that is true returns the string "1".  A boolean expression that  is false returns a special scalar results that in string context is the empty string but in numeric context is zero.
+  
 A list is written by listing its elements, 
 separated by commas, and enclosed by parentheses where required by operator precedence.
 
