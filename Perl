@@ -7,7 +7,7 @@
 |designer = [[Larry Wall]]
 |developer = 
 |latest_release_version = 5.8.8
-|latest_release_date = [[February 2]], [[2006]]
+|latest_release_date = [[January 31]], [[2006]]
 |typing = dynamic
 |implementations = 
 |dialects = 
