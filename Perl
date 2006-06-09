@@ -130,7 +130,9 @@ Perl also has a boolean context that it uses in evaluating conditional statement
   @false = ();    # the empty list
   $false = undef; # the return value from undef
 
-All other values are evaluated to true.  Evaluated boolean expressions also return scalar values.  A boolean expression that is true returns the string "1".  A boolean expression that  is false returns a special scalar results that in string context is the empty string but in numeric context is zero.
+All other values are evaluated to true.  Evaluated boolean expressions also return scalar values. Although the documentation does not promise which ''particular'' true or false is returned (and thus cannot be relied on), many boolean operators return 1 for true and the empty-string for false (which evaluates to zero in a numeric context).  If you need to specifically ensure a 1/0 result (as in C), you need to do the math yourself:
+
+  my $real_result = $boolean_result ? 1 : 0;
   
 A list is written by listing its elements, 
 separated by commas, and enclosed by parentheses where required by operator precedence.
