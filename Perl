@@ -82,7 +82,7 @@ Perl is [[free software]], and is licensed under both the [[Artistic License]] a
 
 Perl has been ported to over a hundred different platforms, and can, with only six reported exceptions, be compiled from [[Source code|source]] on all Unix-like, [[POSIX]]-compliant or otherwise Unix-compatible platforms, including [[AmigaOS]], [[BeOS]], [[Cygwin]], and [[Mac OS X]] (See [http://www.cpan.org/ports/ ports]). A special port, [http://www.macperl.com/ MacPerl], is available for [[Mac OS|Mac OS Classic]].
 
-Perl can be compiled from source on Windows, however many Windows installations lack a C compiler, so Windows users typically install a binary distribution, such as  [http://www.activestate.com/Products/ActivePerl/ ActivePerl] or [http://www.indigostar.com/indigoperl.htm IndigoPerl].
+Perl can be compiled from source on Windows, however many Windows installations lack a C compiler, so Windows users typically install a binary distribution, such as  [http://www.activestate.com/Products/ActivePerl/ ActivePerl], [http://www.pxperl.com/?pxperl	 PXPerl] or [http://www.indigostar.com/indigoperl.htm IndigoPerl].
 
 ==Language structure==
 ===Example Program===
