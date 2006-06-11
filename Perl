@@ -368,7 +368,12 @@ Real ugliness is not harsh-looking syntax, but having to build
 programs out of the wrong concepts. Perl may look like a cartoon character swearing, but there are cases where it surpasses Python conceptually.[http://www.paulgraham.com/pypar.html]
 }}
 
-Another criticism is that Perl is excessively complex and compact, and that it leads to "write-only" code, that is, to code that is virtually impossible to understand after it has been written.
+Another criticism is that Perl is excessively complex and compact, and that it leads to "write-only" code, that is, to code that is virtually impossible to understand after it has been written. This stems from the Perl design philosophy of Huffman encoding, where the most used operations should take the least amount of typing. As part of this, several Perl functions have side-effects or default arguments, allowing programmers to write terse programs that don't use many alphabetic characters. It's easy to write a program that a week later looks like a jumble of line noise, cartoon swearing, or other seemingly random sequences of punctuation, as noted by the authors of [[Learning Perl]]:
+
+{{cquote|
+In fact, nearly every sequence of punctuation is used for something in Perl. So, if you get writers' block, just let the cat walk across the keyboard, and debug what results.
+[http://www.oreilly.com/catalog/learnperl4/] 
+}}
 
 In a [[2003]] study titled ''Are Scripting Languages Any Good? A Validation of Perl, Python, Rexx, and Tcl against C, C++, and Java'', Lutz Prechelt wrote:
 
