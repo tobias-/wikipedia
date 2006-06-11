@@ -352,7 +352,7 @@ Programmers who like Perl typically cite its power, expressiveness, and ease of 
 
 {{cquote|What is the sound of Perl? Is it not the sound of a wall that people have stopped banging their heads against?}}
 
-Besides its practical benefits, many programmers simply seem to enjoy working in Perl. Early issues of [http://www.tpj.com The Perl Journal] had a page titled "What is Perl?" that concluded:
+Besides its practical benefits, many programmers simply enjoy working in Perl. Early issues of [http://www.tpj.com The Perl Journal] had a page titled "What is Perl?" that concluded:
 
 {{cquote|'''Perl is fun.''' In these days of self-serving jargon, conflicting and unpredictable standards, and proprietary systems that discourage peeking under the hood, people have forgotten that programming is supposed to be fun. I don't mean the satisfaction of seeing our well-tuned programs do our bidding, but the literary act of creative writing that yields those programs. With Perl, the journey is as enjoyable as the destination ...}}
 
