@@ -127,7 +127,6 @@ Perl also has a boolean context that it uses in evaluating conditional statement
   $false = 0;     # the number zero
   $false = '0';   # the string zero
   $false = "";    # the empty string
-  @false = ();    # the empty list
   $false = undef; # the return value from undef
 
 All other values are evaluated to true.  Evaluated boolean expressions also return scalar values. Although the documentation does not promise which ''particular'' true or false is returned (and thus cannot be relied on), many boolean operators return 1 for true and the empty-string for false (which evaluates to zero in a numeric context).  If you need to specifically ensure a 1/0 result (as in C), you need to do the math yourself:
