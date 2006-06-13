@@ -386,7 +386,7 @@ In [[2000]], [[Eric Raymond]] echoed the "write-only" code sentiment:
 The syntax that had seemed merely eccentric at a hundred lines began to seem like a nigh-impenetrable hedge of thorns at a thousand. "More than one way to do it" lent flavor and expressiveness at a small scale, but made it significantly harder to maintain consistent style across a wider code base. And many of the features that were later patched into Perl to address the complexity-control needs of bigger programs (objects, lexical scoping, "use strict", etc.) had a fragile, jerry-rigged feel about them. [http://www.linuxjournal.com/article/3882]
 }}
 
-Although taken out of context, Python programmers and authors[http://www.mindview.net/Books/Python/ThinkingInPython.html][http://www.linuxjournal.com/article/7721] are often fond of repeating this quote from [[Larry Wall]]:
+Although taken out of context, Python programmers and authors[http://www.mindview.net/Books/Python/ThinkingInPython.html][http://www.linuxjournal.com/article/7721] are often fond of repeating [http://groups.google.com/group/comp.lang.perl.misc/msg/0f6879b17270ccf3?dmode=source this quote] from [[Larry Wall]]:
 
 {{cquote|
 Perl is worse than Python because people wanted it worse. 
