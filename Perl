@@ -84,6 +84,8 @@ Perl has been ported to over a hundred different platforms, and can, with only s
 
 Perl can be compiled from source on Windows, however many Windows installations lack a C compiler, so Windows users typically install a binary distribution, such as  [http://www.activestate.com/Products/ActivePerl/ ActivePerl], [http://www.pxperl.com/?pxperl	 PXPerl] or [http://www.indigostar.com/indigoperl.htm IndigoPerl]. Perl can also be compiled with [[GNU_Compiler_Collection|gcc]] under [[cygwin]], which provides a unix-like environment on Windows.
 
+In June 2006, [http://ali.as/ Adam Kennedy] on behalf of the [[The Perl Foundation]] launched [http://win32.perl.org win32.perl.org], a community website for "all things Windows and Perl".
+
 ==Language structure==
 ===Example Program===
 In Perl, the canonical "[[Hello world]]" program is:
