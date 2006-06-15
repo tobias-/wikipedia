@@ -100,7 +100,7 @@ Windows systems may rely on the shebang,
 or they may associate a <tt>.pl</tt> [[Filename extension|file extension]] with the Perl interpreter.
 
 ===Data types===
-Perl has three fundamental [[data type]]s: [[scalar]]s, [[Array|lists]], and [[Hash table|hashes]]:
+Perl has three fundamental [[data type]]s: [[Scalar (computing)|scalars]], [[Array|lists]], and [[Hash table|hashes]]:
 *A scalar is a single value; it may be a number, a [[String (computer science)|string]] or a [[Reference (computer science)|reference]]
 *A list is an ordered collection of scalars (a variable that holds a list is called an ''array'')
 *A hash, or [[associative array]], is a map from strings to scalars; the strings are called ''keys'' and the scalars are called ''values''.
