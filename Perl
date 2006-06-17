@@ -27,21 +27,6 @@ The perlintro(1) [[man page]] <!-- sic. 'man' is short for 'manual' --> states:
 
 :The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal). Its major features are that it's easy to use, supports both procedural and [[Object-oriented programming|object-oriented]] (OO) programming, has powerful built-in support for text processing, and has a large collection of third-party [[Module (programming)|modules]].
 
-===Design===
-The design of Perl can be understood as a response to three broad trends in the computer industry: falling hardware costs, rising labor costs, and improvements in compiler technology. Many earlier computer languages, such as [[Fortran]] and C, were designed to make efficient use of expensive computer hardware. In contrast, Perl  is designed to make efficient use of expensive computer programmers.
-
-Perl has many features that ease the programmer's task at the expense of greater CPU and memory requirements. These include automatic memory management; [[dynamic typing]]; strings, lists, and hashes; regular expressions; introspection and an <tt>eval()</tt> function.
-
-Larry Wall was trained as a linguist, and the design of Perl is very much informed by linguistic principles. Examples include [[Huffman coding]] (common constructions should be short), good end-weighting (the important information should come first), and a large collection of language primitives. Perl favors language constructs that are natural for humans to read and write, even where they complicate the Perl interpreter. 
-
-Perl syntax reflects the idea that "things that are different should look different".  For example, scalars, arrays, and hashes have different leading [[Sigil (computer programming)|sigils]]. Array indices and hash keys use different kinds of braces. Strings and regular expressions have different standard delimiters.  This approach can be contrasted with languages like [[Lisp programming language|Lisp]], where the same [[S-expression]] construct and basic syntax is used for many different purposes.
-
-Perl has features that support a variety of programming paradigms, such as [[Procedural programming|procedural]], [[Functional programming|functional]], and [[Object-oriented programming|object-oriented]]. At the same time, Perl does not enforce any particular paradigm, or even require the programmer to choose among them. 
-
-There is a broad practical bent to both the Perl language and the community and culture that surround it. The preface to ''[[Programming Perl]]'' begins, "Perl is a language for getting your job done." One consequence of this is that Perl is not a tidy language. It includes features if people use them, tolerates exceptions to its rules, and employs heuristics to resolve syntactical ambiguities. Because of the forgiving nature of the compiler, bugs can be hard to find sometimes. Discussing the variant behaviour of built-in functions in list and scalar contexts, the perlfunc(1) manual page says "In general, they do what you want, unless you want consistency."
-
-Perl has several mottos that convey aspects of its design and use. One is ''"There's more than one way to do it."'' (TMTOWTDI, usually pronounced 'Tim Toady'). Others are ''"Perl: the Swiss Army Chainsaw of Programming Languages"'' and ''"No unnecessary limits"''. A stated design goal of Perl is to make easy tasks easy and difficult tasks possible.  Perl has also been called ''"The Duct Tape of the Internet"''.
-
 ===Features===
 The overall structure of Perl derives broadly from the programming language [[C programming language|C]]. Perl is a [[procedural programming language]], with [[variable]]s, [[expression (programming)|expression]]s, [[assignment statement]]s, [[brace]]-delimited [[code block]]s, [[control structure]]s, and [[subroutine]]s.
 
@@ -410,6 +395,21 @@ Perl 5 was released on [[October 17]], [[1994]]. It was a nearly complete rewrit
 On [[October 26]], [[1995]], the [[Comprehensive Perl Archive Network]] (the CPAN) was established. The CPAN is a collection of web sites that archive and distribute Perl sources, binary distributions, documentation, scripts, and modules. Originally, each CPAN site had to be accessed through its own URL. Today, the single URL [http://www.cpan.org http://www.cpan.org] automatically redirects to one of several hundred CPAN mirror sites.
 
 As of 2006, Perl 5 is still being actively maintained. Important features and some essential new language constructs have been added along the way, including [[Unicode]] support, [[Thread (computer science)|threads]], an improved support for [[object oriented programming]] and many other enhancements. The latest stable release is Perl 5.8.8.
+
+===Design===
+The design of Perl can be understood as a response to three broad trends in the computer industry: falling hardware costs, rising labor costs, and improvements in compiler technology. Many earlier computer languages, such as [[Fortran]] and C, were designed to make efficient use of expensive computer hardware. In contrast, Perl  is designed to make efficient use of expensive computer programmers.
+
+Perl has many features that ease the programmer's task at the expense of greater CPU and memory requirements. These include automatic memory management; [[dynamic typing]]; strings, lists, and hashes; regular expressions; introspection and an <tt>eval()</tt> function.
+
+Larry Wall was trained as a linguist, and the design of Perl is very much informed by linguistic principles. Examples include [[Huffman coding]] (common constructions should be short), good end-weighting (the important information should come first), and a large collection of language primitives. Perl favors language constructs that are natural for humans to read and write, even where they complicate the Perl interpreter. 
+
+Perl syntax reflects the idea that "things that are different should look different".  For example, scalars, arrays, and hashes have different leading [[Sigil (computer programming)|sigils]]. Array indices and hash keys use different kinds of braces. Strings and regular expressions have different standard delimiters.  This approach can be contrasted with languages like [[Lisp programming language|Lisp]], where the same [[S-expression]] construct and basic syntax is used for many different purposes.
+
+Perl has features that support a variety of programming paradigms, such as [[Procedural programming|procedural]], [[Functional programming|functional]], and [[Object-oriented programming|object-oriented]]. At the same time, Perl does not enforce any particular paradigm, or even require the programmer to choose among them. 
+
+There is a broad practical bent to both the Perl language and the community and culture that surround it. The preface to ''[[Programming Perl]]'' begins, "Perl is a language for getting your job done." One consequence of this is that Perl is not a tidy language. It includes features if people use them, tolerates exceptions to its rules, and employs heuristics to resolve syntactical ambiguities. Because of the forgiving nature of the compiler, bugs can be hard to find sometimes. Discussing the variant behaviour of built-in functions in list and scalar contexts, the perlfunc(1) manual page says "In general, they do what you want, unless you want consistency."
+
+Perl has several mottos that convey aspects of its design and use. One is ''"There's more than one way to do it."'' (TMTOWTDI, usually pronounced 'Tim Toady'). Others are ''"Perl: the Swiss Army Chainsaw of Programming Languages"'' and ''"No unnecessary limits"''. A stated design goal of Perl is to make easy tasks easy and difficult tasks possible.  Perl has also been called ''"The Duct Tape of the Internet"''.
 
 ===Name===
 Perl was originally named "Pearl", after "the pearl of great price" of [[Gospel of Matthew|Matthew]] 13:46. Larry Wall wanted to give the language a short name with positive connotations; he claims that he looked at (and rejected) every three- and four-letter word in the dictionary. He also considered naming it after his wife Gloria. Wall discovered before the language's official release that there was already a programming language named [[PEARL programming language|PEARL]] and changed the spelling of the name.
