@@ -483,7 +483,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[http://search.cpan.org/~dconway/Acme-Don-t-1.01/t.pm Acme::Don't] implements the logical opposite of the <tt>do</tt> keyword&mdash;<tt>don't</tt>, which does not execute the provided block.
 
 ===Related links===
-*[http://wikibooks.org/wiki/Programming:Perl_humour Perl humour on Wikibooks]
+*[http://en.wikibooks.org/wiki/Programming:Perl/Humour Perl humour on Wikibooks]
 *[http://www.cmpe.boun.edu.tr/~kosar/other/lwall.html Larry Wall quotes]
 *[http://search.cpan.org/perldoc?Lingua::Romana::Perligata Lingua::Romana::Perligata - Write Perl in Latin!]
 *[http://www.perlmonks.org/index.pl?node_id=253797 A tutorial on Perligata]
