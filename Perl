@@ -326,7 +326,7 @@ programming problems in several programming languages. Their Perl implementation
 
 Perl may be slower than other languages doing the same thing because it has to compile the source every time it runs. In "A Timely Start" [http://www.perl.com/pub/a/2005/12/21/a_timely_start.html], Jean-Louis Leroy found that his Perl scripts took much longer to run than he expected because the perl interpreter spent much of the time finding and compiling modules. Since Perl cannot save its intermediate result like Java, Python, and Ruby can, Perl scripts pay this overhead penalty on every execution. Once perl starts the run phase, however, it can be quite fast. The overhead is not such a problem when amortized over a long run phase, but can be a significant performance limiter for very short execution times (as often found in benchmarks).
 
-Optimizing Perl can require intimate knowledge of its workings rather than skill with the language and its syntax, meaning that the problem is with the implementation of Perl itself rather than the language. Perl 6, the next major version, will address some of these lessons that other languages have already learned.
+Optimizing Perl can require intimate knowledge of its workings rather than skill with the language and its syntax, meaning that the problem is with the implementation of Perl rather than the language itself. Perl 6, the next major version, will address some of these lessons that other languages have already learned.
 
 ==Opinion==
 
