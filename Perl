@@ -109,7 +109,7 @@ Perl will decide if your string is a number or not based on the context in which
   $m     = "2 oranges";
   print $n + $m;
 
-Perl also has a boolean context that it uses in evaluating conditional statements.  The following values in Perl all evaluate as false in Perl:
+Perl also has a boolean context that it uses in evaluating conditional statements.  The following values all evaluate as false in Perl:
 
   $false = 0;     # the number zero
   $false = '0';   # the string zero
