@@ -328,57 +328,6 @@ Perl may be slower than other languages doing the same thing because it has to c
 
 Optimizing Perl can require intimate knowledge of its workings rather than skill with the language and its syntax, meaning that the problem is with the implementation of Perl rather than the language itself. Perl 6, the next major version, will address some of these lessons that other languages have already learned.
 
-==Opinion==
-
-Perl engenders strong feelings among both its proponents and its
-detractors.
-
-===Pro===
-Programmers who like Perl typically cite its power, expressiveness, and ease of use. Perl provides infrastructure for many common programming tasks, such as string and list processing. Other tasks, such as memory management, are handled automatically and transparently. Programmers coming from other languages to Perl often find that whole classes of problems that they have struggled with in the past just don't arise in Perl. As Larry Wall put it,
-
-{{cquote|What is the sound of Perl? Is it not the sound of a wall that people have stopped banging their heads against?}}
-
-Besides its practical benefits, many programmers simply enjoy working in Perl. Early issues of [http://www.tpj.com The Perl Journal] had a page titled "What is Perl?" that concluded:
-
-{{cquote|'''Perl is fun.''' In these days of self-serving jargon, conflicting and unpredictable standards, and proprietary systems that discourage peeking under the hood, people have forgotten that programming is supposed to be fun. I don't mean the satisfaction of seeing our well-tuned programs do our bidding, but the literary act of creative writing that yields those programs. With Perl, the journey is as enjoyable as the destination ...}}
-
-Perl has a broad community of people who are passionate about the language. Several thousand people have contributed to [[CPAN]], and a committed core of people continually work on Perl to improve and maintain it.
-
-===Con===
-A common complaint is that Perl is ugly. In particular, its prodigious use of punctuation puts off some people; Perl source code is sometimes likened to "line noise". In ''The Python Paradox'', [[Paul Graham]] both acknowledges and responds to this:
-
-{{cquote|
-At the mention of ugly source code, people will of course think of
-Perl. But the superficial ugliness of Perl is not the sort I mean.
-Real ugliness is not harsh-looking syntax, but having to build
-programs out of the wrong concepts. Perl may look like a cartoon character swearing, but there are cases where it surpasses Python conceptually.[http://www.paulgraham.com/pypar.html]
-}}
-
-Another criticism is that Perl is excessively complex and compact, and that it leads to "write-only" code, that is, to code that is virtually impossible to understand after it has been written. This stems from the Perl design philosophy of Huffman encoding, where the most used operations should take the least amount of typing. As part of this, several Perl functions have side-effects or default arguments, allowing programmers to write terse programs that don't use many alphabetic characters. It's easy to write a program that a week later looks like a jumble of line noise, cartoon swearing, or other seemingly random sequences of punctuation, as noted by the authors of [[Learning Perl]]:
-
-{{cquote|
-In fact, nearly every sequence of punctuation is used for something in Perl. So, if you get writers' block, just let the cat walk across the keyboard, and debug what results.
-[http://www.oreilly.com/catalog/learnperl4/] 
-}}
-
-In a [[2003]] study titled ''Are Scripting Languages Any Good? A Validation of Perl, Python, Rexx, and Tcl against C, C++, and Java'', Lutz Prechelt wrote:
-
-{{cquote|
-...the potential uglyness of any aspect of Perl has carefully been balanced with the power that can be derived from it. Nevertheless, Perl makes it relatively easy to shoot oneself in the foot or to produce programs that are very short but also very difficult to understand. For this reason, somewhat like for C++, writing good Perl programs depends more strongly on the knowledge and discipline of the programmer than in most other languages.[http://page.mi.fu-berlin.de/~prechelt/Biblio/jccpprt2_advances2003.pdf] (PDF)
-}}
-
-In [[2000]], [[Eric Raymond]] echoed the "write-only" code sentiment:
-
-{{cquote|
-The syntax that had seemed merely eccentric at a hundred lines began to seem like a nigh-impenetrable hedge of thorns at a thousand. "More than one way to do it" lent flavor and expressiveness at a small scale, but made it significantly harder to maintain consistent style across a wider code base. And many of the features that were later patched into Perl to address the complexity-control needs of bigger programs (objects, lexical scoping, "use strict", etc.) had a fragile, jerry-rigged feel about them. [http://www.linuxjournal.com/article/3882]
-}}
-
-Although taken out of context, Python programmers and authors[http://www.mindview.net/Books/Python/ThinkingInPython.html][http://www.linuxjournal.com/article/7721] are often fond of repeating [http://groups.google.com/group/comp.lang.perl.misc/msg/0f6879b17270ccf3?dmode=source this quote] from [[Larry Wall]]:
-
-{{cquote|
-Perl is worse than Python because people wanted it worse. 
-}}
-
 ==Origins==
 
 ===History===
