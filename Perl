@@ -479,10 +479,6 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://www.poniecode.org/ Project Ponie] &ndash; Perl 5 running on top of Parrot
 *[http://www.pugscode.org/ Pugs] &ndash; Perl 6 running on top of Haskell
 
-===Books===
-*[http://books.perl.org/ books.perl.org] - Perl books and book reviews 
-(Also see <i>Books</i> under <i>References</i>, above.)
-
 ===Support===
 *[http://www.pm.org/ Perl Mongers] &ndash; local user groups in cities worldwide
 *[http://www.perlmonks.org/ PerlMonks] &ndash; [[The Perl Foundation]]-affiliated discussion forum and resources
@@ -504,6 +500,7 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *Google Video: Beginning Perl for Nonprogrammers [http://video.google.com/videoplay?docid=8352356480985227225 Part 1] [http://video.google.com/videoplay?docid=3416163466891342908 Part 2]
 *[http://bioperl.org BioPerl] - a large package of Perl modules used for [[bioinformatics]]
 *[http://shootout.alioth.debian.org/ The Programming Language Shootout]
+*[http://books.perl.org/ books.perl.org] - Perl books and book reviews 
 *[http://www.techbooksforfree.com/perlpython.shtml Perl books available free online]
 *[http://history.perl.org/PerlTimeline.html The Timeline of Perl and its Culture v3.0_0505]
 *[http://www.nntp.perl.org/group/perl.perl6.meta/424 Transcription of Larry's talk]
