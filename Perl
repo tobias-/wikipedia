@@ -501,7 +501,6 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://bioperl.org BioPerl] - a large package of Perl modules used for [[bioinformatics]]
 *[http://shootout.alioth.debian.org/ The Programming Language Shootout]
 *[http://books.perl.org/ books.perl.org] - Perl books and book reviews 
-*[http://www.techbooksforfree.com/perlpython.shtml Perl books available free online]
 *[http://history.perl.org/PerlTimeline.html The Timeline of Perl and its Culture v3.0_0505]
 *[http://www.nntp.perl.org/group/perl.perl6.meta/424 Transcription of Larry's talk]
 
