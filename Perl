@@ -17,13 +17,13 @@
 |license =[[GNU General Public License|GPL]] or [[Artistic License]]
 |website =[http://www.perl.org www.perl.org]
 }}
-'''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]) is a [[dynamic scripting language|dynamic]] procedural scripting language designed by [[Larry Wall]] and first released in [[1987]]. Perl borrows features from [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[AWK programming language|AWK]], [[sed]], [[Lisp programming language|Lisp]], and, to a lesser extent, many other programming languages.
+'''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]) is a [[dynamic programming language|dynamic]] procedural programming language designed by [[Larry Wall]] and first released in [[1987]]. Perl borrows features from [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[AWK programming language|AWK]], [[sed]], [[Lisp programming language|Lisp]], and, to a lesser extent, many other programming languages.
 
 ==Overview==
 
 The perlintro(1) [[man page]] <!-- sic. 'man' is short for 'manual' --> states:
 
-:Perl is a general-purpose scripting language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more.
+:Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more.
 
 :The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal). Its major features are that it's easy to use, supports both procedural and [[Object-oriented programming|object-oriented]] (OO) programming, has powerful built-in support for text processing, and has a large collection of third-party [[Module (programming)|modules]].
 
