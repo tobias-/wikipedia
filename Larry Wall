@@ -2,7 +2,7 @@
 
 '''Larry Wall''' (b. [[September 27]], [[1954]]) is a [[programmer]], [[linguist]], and [[author]], most widely known for his creation of the [[Perl]] [[programming language]] in [[1987]].  Wall earned his  [[bachelor's degree]] from [[Seattle Pacific University]] in [[1976]].
 
-Wall is the author of the [[rn (newsreader)|rn]] [[Usenet client]] and the nearly universally used [[Patch (Unix)|patch]]. He has won the [[International Obfuscated C Code Contest]] twice and was the recipient of the first [[Free Software Foundation]] [[FSF Award for the Advancement of Free Software|award]] for the Advancement of [[Free Software]] in 1998.
+Wall is the author of the [[rn (newsreader)|rn]] [[Usenet client]] and the nearly universally used [[Patch (Unix)|patch]] program. He has won the [[International Obfuscated C Code Contest]] twice and was the recipient of the first [[Free Software Foundation]] [[FSF Award for the Advancement of Free Software|award]] for the Advancement of [[Free Software]] in 1998.
 
 Beyond his technical skills, Wall is known for his wit and often ironic sense of humor, which he displays in the comments to his [[source code]] or on [[Usenet]]. For example: "We all agree on the necessity of compromise. We just can't agree on when it's necessary to compromise."
 
@@ -10,7 +10,7 @@ Larry Wall has [[linguistics]] qualifications, which were useful the design of P
 
 Wall's Christian faith has influenced some of the terminology of Perl, such as the name itself, a biblical reference to the "Pearl of great price" ([[Gospel of Matthew|Matthew]] 13:46). [http://www.wired.com/wired/archive/8.10/cruise.html?pg=3] Similar references are the function name ''bless'', and the organization of his talks into categories such as ''apocalypse'' and ''exegesis''. Wall has also alluded to his faith when he has spoken at conferences, including a rather straightforward statement of his beliefs at the August, [[1997]] Perl Conference and a discussion of [[Pilgrim's Progress]] at the [[YAPC]] (Yet Another Perl Conference) in June, [[2000]].
 
-While in [[graduate school]], Wall and his wife were studying [[linguistics]] with the intention of afterwards finding an unwritten language, perhaps in [[Africa]], and create a [[writing system]] for it. With this new writing system they wanted to translate various texts into the language, among them the [[Bible]]. Due to health reasons these plans were cancelled, and they remained in the US, where he instead joined the [[NASA]] [[Jet Propulsion]] Laboratory, when he finished grad school.
+While in [[graduate school]], Wall and his wife were studying [[linguistics]] with the intention of afterwards finding an unwritten language, perhaps in [[Africa]], and create a [[writing system]] for it. With this new writing system they wanted to translate various texts into the language, among them the [[Bible]]. Due to health reasons these plans were cancelled, and they remained in the US, where Larry instead joined the [[NASA]] [[Jet Propulsion]] Laboratory, when he finished grad school.
 
 Wall continues to oversee further development of Perl and serves as the [[Benevolent Dictator for Life]] of the Perl project. His role in Perl is best conveyed by the so-called ''2 Rules'', taken from the official Perl documentation:
 
