@@ -451,17 +451,12 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[[Perl Mongers]]
 *[[PerlScript]]
 *[[Comparison of programming languages]]
-
-==Notes==
-<references />
-
-===Books===
-{{book}}
-
 *[[Programming Perl]] (the ''Camel book''), ISBN 0-596-00027-8
 *[[Learning Perl]], Fourth Edition (the ''Llama book''), ISBN 0-596-10105-8
 *[[Perl Cookbook]], ISBN 0-596-00313-7
-(Also see <i>Books</i> under <i>External links</i>, below.)
+
+==Notes==
+<references />
 
 ===Perl man pages===
 The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.gz source distribution]. They are available on the web from http://perldoc.perl.org/. Some good starting points are:
@@ -470,10 +465,6 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://perldoc.perl.org/perlsyn.html perlsyn]- Perl syntax
 *[http://perldoc.perl.org/perlre.html perlre]- Perl regular expressions
 *[http://perldoc.perl.org/perldelta.html perl5''xy''delta]- what is new for perl v5.''x''.''y''
-
-===Web pages===
-*[http://history.perl.org/PerlTimeline.html The Timeline of Perl and its Culture v3.0_0505]
-*[http://www.nntp.perl.org/group/perl.perl6.meta/424 Transcription of Larry's talk]
 
 ==External links==
 ===Major Resources===
@@ -514,6 +505,8 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://bioperl.org BioPerl] - a large package of Perl modules used for [[bioinformatics]]
 *[http://shootout.alioth.debian.org/ The Programming Language Shootout]
 *[http://www.techbooksforfree.com/perlpython.shtml Perl books available free online]
+*[http://history.perl.org/PerlTimeline.html The Timeline of Perl and its Culture v3.0_0505]
+*[http://www.nntp.perl.org/group/perl.perl6.meta/424 Transcription of Larry's talk]
 
 [[Category:Perl| ]]
 [[Category:Curly bracket programming languages]]
