@@ -215,9 +215,19 @@ Parentheses are required for calls that precede the definition.
  foo;
 
 A list of arguments may be provided after the subroutine name.
-Arguments may be scalars, lists, or hashes.
+Arguments may be scalars, lists, or hashes. 
 
  foo $x, @y, %z;
+
+(However, if lists or hashes are not passed by reference, then the first assignment of an element of @_ to a lexically scoped array within the subroutine will gobble up the remaining parameters - Perl is greedy about parameters, by default ;-) For example, if foo is a subroutine, 
+
+  sub foo ($a, @array1, @array2)
+  {
+    my ($x, @arrayx, @arrayz) = @_;
+    ....
+  }
+
+then, $x would contain the value of $a, and @arrayx would contain every element of @array1 starting from $array1[0] '''''and''''' every element of @array2 starting from $array2[0]. This would leave @arrayz with no elements at all. See paragraphs immediately below).
 
 The parameters to a subroutine need not be declared as to either number or type; in fact, they may vary from call to call.
 Arrays are expanded to their elements, hashes are expanded to a list of key/value pairs, and the whole lot is passed into the subroutine as one undifferentiated list of scalars.
