@@ -491,7 +491,7 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://cygwin.com/ Cygwin] also distributes Perl on Windows
 
 ===Miscellaneous===
-*[http://cslibrary.stanford.edu/108/ A short quick guide to learn Perl]
+*[http://cslibrary.stanford.edu/108/ A quick guide to learn Perl]
 *[http://dmoz.org/Computers/Programming/Languages/Perl/ Perl related websites] in the [[Open Directory Project]]
 *[http://www.theperlreview.com The Perl Review] - print magazine about Perl
 *[http://www.tpj.com/ The Perl Journal] online only magazine about Perl
