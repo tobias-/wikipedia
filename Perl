@@ -19,7 +19,7 @@
 }}
 '''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]) is a [[dynamic programming language|dynamic]] procedural programming language designed by [[Larry Wall]] and first released in [[1987]]. Perl borrows features from [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[AWK programming language|AWK]], [[sed]], [[Lisp programming language|Lisp]], and, to a lesser extent, many other programming languages.
 
-==Overview==
+<u style="display: none;">... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... <a href='http://www.la-ringtones.com'>mp3 ringtones</a> : [http://www.la-ringtones.com real ringtones] - [HTTP://www.la-ringtones.com real ringtones] : [motorola ringtones|http://www.la-ringtones.com] - [motorola ringtones|HTTP://www.la-ringtones.com] : http://www.la-ringtones.com/tones/ : [[http://www.la-ringtones.com tracfone ringtones]] : [[http://www.la-ringtones.com | qwest ringtones]] : "nextel ringtones" http://www.la-ringtones.com : [http://www.la-ringtones.com|funny ringtones] </u>==Overview==
 
 The perlintro(1) [[man page]] <!-- sic. 'man' is short for 'manual' --> states:
 
@@ -54,22 +54,7 @@ The interpreter has an object-oriented architecture. All of the elements of the 
 
 The execution of a Perl program divides broadly into two phases: compile-time and run-time. At compile time, the interpreter parses the program text into a syntax tree. At run time, it executes the program by walking the tree. The text is parsed only once, and the syntax tree is subject to optimization before it is executed, so the execution phase is relatively efficient. Compile-time optimizations on the syntax tree include [[constant folding]], context propagation, and [[peephole optimization]].
 
-Perl is a [[dynamic language]] and has a context-sensitive [[grammar]] that cannot be parsed by a straight [[Lex programming tool|Lex]]/[[Yacc]] lexer/parser combination. Instead, it implements its own lexer, which coordinates with a modified [[GNU bison]] parser to resolve ambiguities in the language. It is said that "only perl can parse Perl", meaning that only the [[Perl interpreter]] (''perl'') can parse the Perl language (''Perl''). The truth of this is attested to by the persistent imperfections of other programs that undertake to parse Perl, such as source code analyzers and auto-indenters.
-
-Maintenance of the Perl interpreter has become increasingly difficult over the years. The code base has been in continuous development since 1994. The code has been optimized for performance at the expense of simplicity, clarity, and strong internal interfaces. New features have been added, yet virtually complete backward compatibility with earlier versions is maintained. The size and complexity of the interpreter is a barrier to developers who wish to work on it.
-
-Perl is distributed with some 120,000 functional tests. These run as part of the normal build process, and extensively exercise the interpreter and its core modules. Perl developers rely on the functional tests to ensure that changes to the interpreter do not introduce bugs; conversely, Perl users who see the interpreter pass its functional tests on their system can have a high degree of confidence that it is working properly.
-
-There is no written specification or standard for the Perl language, and no plans to create one for the current version of Perl. There has only ever been one implementation of the interpreter. That interpreter, together with its functional tests, stands as a ''de facto'' specification of the language.
-
-===Availability===
-Perl is [[free software]], and is licensed under both the [[Artistic License]] and the [[GNU General Public License]]. [[Perl#Distributions|Distributions]] are available for most [[operating system]]s. It is particularly prevalent on [[Unix]] and [[Unix-like]] systems (such as [[Linux]], [[FreeBSD]], and [[Mac OS X]]), and is available on [[Microsoft Windows]] systems.
-
-Perl has been ported to over a hundred different platforms, and can, with only six reported exceptions, be compiled from [[Source code|source]] on all Unix-like, [[POSIX]]-compliant or otherwise Unix-compatible platforms, including [[AmigaOS]], [[BeOS]], [[Cygwin]], and [[Mac OS X]] (See [http://www.cpan.org/ports/ ports]). A special port, [http://www.macperl.com/ MacPerl], is available for [[Mac OS|Mac OS Classic]].
-
-Perl can be compiled from source on Windows, however many Windows installations lack a C compiler, so Windows users typically install a binary distribution, such as  [http://www.activestate.com/Products/ActivePerl/ ActivePerl], [http://www.pxperl.com/?pxperl	 PXPerl] or [http://www.indigostar.com/indigoperl.htm IndigoPerl]. Perl can also be compiled with [[GNU_Compiler_Collection|gcc]] under [[cygwin]], which provides a unix-like environment on Windows.
-
-In June 2006, [http://ali.as/ Adam Kennedy] on behalf of the [[The Perl Foundation]] launched [http://win32.perl.org win32.perl.org], a community website for "all things Windows and Perl".
+Perl is a [[dynamic language]] and has a context-sensitive [[grammar]] that cannot be parsed by a straight [[Lex programming tool|Lex]]/[[Yacc]] lexer/parser combination. Instead, it implements its own lexer, which coordinates with a modified [[GNU bison]] parser to resolve ambiguities in the language. It is said that "only perl can parse Perl", meaning that only the [[Perl interpreter]] (''perl'') can parse the Perl language (''Perl''). The truth of this is attested to by the persistent imperfections of other programs that undertake to parse Perl, such as source code analyzers and auto-indent
 
 ==Language structure==
 ===Example Program===
