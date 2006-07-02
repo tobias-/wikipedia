@@ -407,6 +407,8 @@ Modules on the CPAN can be downloaded and installed by hand. However, it is comm
 
 Users without a C compiler are limited to pure Perl modules when downloading from the CPAN. ActiveState, a company that commercially supports Perl on Windows, provides packages of pre-compiled Perl modules, called PPMs, for use with their ActivePerl. Some pre-built modules are available as part of the MacPerl distribution for Mac Classic.  Users on other operating systems often rely on binary packages from the operating system vendors.  Due to licensing, availability of third party libraries, lack of portability, and many other issues, not all CPAN modules are available in pre-built packages.
 
+In 2006, an effort was started to have Windows Perl distributions ship with a compiler, in order to make the need for binary packages on Windows redundant. Some early results of this include the [http://camelpack.sourceforge.net/ CamelPack] macro-installer and [http://win32.perl.org/wiki/index.php?title=Vanilla_Perl Vanilla Perl] distributions.
+
 ==Fun with Perl==
 As with C, [[obfuscated code]] competitions are a popular feature of Perl culture. The annual [[Obfuscated Perl contest]] makes an arch virtue of Perl's [[syntax|syntactic]] flexibility. The following program prints the text "Just another Perl / Unix hacker", using 32 concurrent processes coordinated by pipes. A complete explanation is available on the [http://perl.plover.com/obfuscated/ author's Web site].
 
