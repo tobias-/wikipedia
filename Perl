@@ -86,7 +86,7 @@ The shebang is the usual way to invoke the interpreter on Unix systems.
 Windows systems may rely on the shebang,
 or they may associate a <tt>.pl</tt> [[Filename extension|file extension]] with the Perl interpreter.
 
-===Data types===
+'''Bold text'''===Data types===
 Perl has three fundamental [[data type]]s: [[Scalar (computing)|scalars]], [[Array|lists]], and [[Hash table|hashes]]:
 *A scalar is a single value; it may be a number, a [[String (computer science)|string]] or a [[Reference (computer science)|reference]]
 *A list is an ordered collection of scalars (a variable that holds a list is called an ''array'')
