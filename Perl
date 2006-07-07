@@ -300,7 +300,7 @@ Perl regular expressions can take ''modifiers''. These are single-letter suffixe
   $x =~ m/abc/i;      # case-insensitive pattern match
   $x =~ s/abc/aBc/g;  # global search and replace
 
-Regular expressions can be dense and cryptic. This is because regular expression syntax is extremely compact, generally using single characters or character pairs to represent its operations. Perl provides some relief from this problem with the <tt>/x</tt> modifer, which allows programmers to place whitespace and comments ''inside'' regular expressions:
+Regular expressions can be dense and cryptic. This is because regular expression syntax is extremely compact, generally using single characters or character pairs to represent its operations. Perl provides some relief from this problem with the <tt>/x</tt> modifier, which allows programmers to place whitespace and comments ''inside'' regular expressions:
 
   $x =~ m/a     # match 'a'
           .     # match any character
@@ -365,7 +365,7 @@ Perl has several mottos that convey aspects of its design and use. One is ''"The
 ===Name===
 Perl was originally named "Pearl", after "the pearl of great price" of [[Gospel of Matthew|Matthew]] 13:46. Larry Wall wanted to give the language a short name with positive connotations; he claims that he looked at (and rejected) every three- and four-letter word in the dictionary. He also considered naming it after his wife Gloria. Wall discovered before the language's official release that there was already a programming language named [[PEARL programming language|PEARL]] and changed the spelling of the name.
 
-The name is normally capitalized (''Perl'') when referring to the language and uncapitalized (''perl'') when referring to the interpreter program itself since Unix-like filesystems are case sensitive. Before the release of the first edition of ''Programming Perl'' it was common to refer to the language as ''perl''; [[Randal L. Schwartz]], however, forced the uppercase language name in the book to make the name stand out better when typeset.  The case distinction was subsequently adopted by the community.
+The name is normally capitalized (''Perl'') when referring to the language and uncapitalized (''perl'') when referring to the interpreter program itself since Unix-like file systems are case sensitive. Before the release of the first edition of ''Programming Perl'' it was common to refer to the language as ''perl''; [[Randal L. Schwartz]], however, forced the uppercase language name in the book to make the name stand out better when typeset.  The case distinction was subsequently adopted by the community.
 
 It is not appropriate to write "PERL", as it is not an [[acronym]]. The spelling of PERL in all caps is therefore used as a [[Shibboleth#Modern usage|shibboleth]] for detecting community outsiders.
 However, several [[backronym]]s have been suggested, including the humorous ''Pathologically Eclectic Rubbish Lister''. The more serious ''Practical Extraction and Report Language'' has prevailed in many of today's manuals, including the official Perl [[man page]]. It is also consistent with the old name "Pearl": ''Practical Extraction And Report Language''.
@@ -390,7 +390,7 @@ Perl 6 is not intended to be backward compatible, though there will be a compati
 
 In 2001, it was decided that Perl 6 would run on a cross-language [[virtual machine]] called [[Parrot virtual machine|Parrot]]. This will mean that other languages targeting the Parrot will gain native access to [[CPAN]] and will allow some level of cross-language development.
 
-In 2005 [[Audrey Tang]] created the [[pugs]] project, an implementation of Perl 6 in [[Haskell_programming_language|Haskell]]. This was and continues to act as a test platform for the Perl 6 language (separate from the development of the actual implementation) allowing the language designers to explore. The pugs project spawned an active Perl/Haskell cross-language community centred around the [[Freenode]] #perl6 irc channel.
+In 2005 [[Audrey Tang]] created the [[pugs]] project, an implementation of Perl 6 in [[Haskell_programming_language|Haskell]]. This was and continues to act as a test platform for the Perl 6 language (separate from the development of the actual implementation) allowing the language designers to explore. The pugs project spawned an active Perl/Haskell cross-language community centered around the [[Freenode]] #perl6 irc channel.
 
 A number of features in the Perl 6 language now show similarities with Haskell, and Perl 6 has been embraced by the Haskell community as a potential scripting language.
 
