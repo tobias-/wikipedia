@@ -203,7 +203,7 @@ There is no [[switch statement]] (multi-way branch) in Perl 5. The Perl document
 Perl includes a <tt>goto ''label''</tt> statement, but it is rarely used. Situations where a <tt>goto</tt> is called for in other languages don't occur as often in Perl due to its breadth of flow control options.
 
 There is also a <tt>goto &''sub''</tt> statement that performs a [[tail call]].
-It terminates the current subroutine and immediately calls the specified <tt>''sub''</tt>. This is used in situations where a caller can perform more efficient stack management than Perl itself (typically because no change to the current stack is required), and in deep recursion tail calling can have substantial positive impact on performance because it avoids the overhead of scope/stack management on return.
+It terminates the current subroutine and immediately calls the specified <tt>''sub''</tt>. This is used in situations where a caller can perform more efficient [[Call stack|stack]] management than Perl itself (typically because no change to the current stack is required), and in deep recursion tail calling can have substantial positive impact on performance because it avoids the overhead of scope/stack management on return.
 
 ===Subroutines===
 [[Subroutine]]s are defined with the <tt>sub</tt> keyword,
