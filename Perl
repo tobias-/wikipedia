@@ -75,9 +75,10 @@ In June 2006, [http://ali.as/ Adam Kennedy] on behalf of the [[The Perl Foundati
 
 ==Language structure==
 ===Example Program===
+{{wikibooks}}
 In Perl, the canonical "[[Hello world]]" program is:
 
- <nowiki>#</nowiki>!/usr/bin/perl
+ #!/usr/bin/perl
  print "Hello, world!\n";
 
 The first line is the [[Shebang (Unix)|shebang]], which tells the operating system where to find the Perl interpreter. The second line prints the string ''Hello, world!'' and a [[newline]].
