@@ -105,7 +105,7 @@ Numbers are written in the usual way; strings are enclosed by quotes of various 
   $name  = "joe";
   $color = 'red';
 
-Perl will convert strings into numbers and visa versa depending on the context in which they are used. In the following example the strings $n and $m are treated as numbers when they are the arguments to the addition operator. This code prints the number '5', discarding non number information for the operation, although the variable values remain the same. (The string concatenation operator is not <code>+</code>, but <code>.</code>.)
+Perl will convert strings into numbers and vice versa depending on the context in which they are used. In the following example the strings $n and $m are treated as numbers when they are the arguments to the addition operator. This code prints the number '5', discarding non number information for the operation, although the variable values remain the same. (The string concatenation operator is not <code>+</code>, but <code>.</code>.)
 
   $n     = "3 apples";
   $m     = "2 oranges";
