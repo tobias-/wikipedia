@@ -93,7 +93,7 @@ Perl has three fundamental [[data type]]s: [[Scalar (computing)|scalars]], [[Arr
 *A hash, or [[associative array]], is a map from strings to scalars; the strings are called ''keys'' and the scalars are called ''values''.
 
 All variables are marked by a leading [[Sigil (computer programming)|sigil]],
-which identifies the data type. The same name may be used for variables of different types, without conflict.
+which identifies the data type being accessed (not the type of the variable itself). The same name may be used for variables of different types, without conflict.
 
   $foo   # a scalar
   @foo   # a list
@@ -105,7 +105,7 @@ Numbers are written in the usual way; strings are enclosed by quotes of various 
   $name  = "joe";
   $color = 'red';
 
-Perl will decide if your string is a number or not based on the context in which it is used. It tries to convert strings into numbers when using them with numerical operators. In the following example the strings $n and $m are treated as numbers when they are the arguments to the addition operator. This code prints the number '5', discarding non number information for the operation, although the variable values remain the same. (The string concatenation operator is not <code>+</code>, but <code>.</code>.)
+Perl will convert strings into numbers and visa versa depending on the context in which they are used. In the following example the strings $n and $m are treated as numbers when they are the arguments to the addition operator. This code prints the number '5', discarding non number information for the operation, although the variable values remain the same. (The string concatenation operator is not <code>+</code>, but <code>.</code>.)
 
   $n     = "3 apples";
   $m     = "2 oranges";
