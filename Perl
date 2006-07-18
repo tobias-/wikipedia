@@ -84,7 +84,7 @@ The first line is the [[Shebang (Unix)|shebang]], which tells the operating syst
 {{wikibooks}}
 
 The shebang is the usual way to invoke the interpreter on Unix systems.
-Windows systems may rely on the shebang, or they may associate a <tt>.pl</tt> [[Filename extension|file extension]] with the Perl interpreter.  Some text editors also use the shebang line as a hint about what mode to operate in.
+Windows systems may rely on the shebang, or they may associate a <tt>.pl</tt> [[Filename extension|file extension]] with the Perl interpreter.  Some text editors also use the shebang line as a hint about what mode to operate in. Because the shebang starts with the ''#'' sign, it is treated as a comment and ignored by the perl interpreter.
 
 ===Data types===
 Perl has three fundamental [[data type]]s: [[Scalar (computing)|scalars]], [[Array|lists]], and [[Hash table|hashes]]:
