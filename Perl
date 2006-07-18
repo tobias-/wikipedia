@@ -114,6 +114,7 @@ Perl will convert strings into numbers and vice versa depending on the context i
 Perl also has a boolean context that it uses in evaluating conditional statements.  The following values all evaluate as false in Perl:
 
   $false = 0;     # the number zero
+  $false = 0.0;   # the number zero as a float
   $false = '0';   # the string zero
   $false = "";    # the empty string
   $false = undef; # the return value from undef
