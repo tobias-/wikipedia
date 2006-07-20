@@ -74,17 +74,7 @@ Perl can also be compiled with [[GNU_Compiler_Collection|gcc]] under [[cygwin]],
 In June 2006, [http://ali.as/ Adam Kennedy] on behalf of the [[The Perl Foundation]] launched [http://win32.perl.org win32.perl.org], a community website for "all things Windows and Perl".
 
 ==Language structure==
-===Comments===
-In Perl you can put a '''#''' on a line and everything to the right of it will be ignored.
 
-In the following simple program
-
- #!/usr/bin/perl
- print "Hello, world!\n"; # This program is very simple
-
-The perl interpreter will only see
-
- print "Hello, world!\n";
 
 ===Example Program===
 In Perl, the canonical "[[Hello world]]" program is:
