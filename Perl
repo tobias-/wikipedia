@@ -320,7 +320,7 @@ One common use of regular expressions is to specify delimiters for the <tt>split
 The <tt>split</tt> operator complements string capture. String capture returns the parts of a string that match a regular expression; <tt>split</tt> returns the parts that don't match.
 
 ===Database interfaces===
-Perl is widely favored for database applications. Its text handling facilities are good for generating SQL queries; arrays, hashes and automatic memory management make it easy to collect and process the returned data. The data returned from the queries can be in the form needed to solve the problem, whether as arrays, hashes, or scalar, as well as by references to these objects.
+Perl is widely favored for database applications. Its text handling facilities are good for generating [[SQL]] queries; arrays, hashes and automatic memory management make it easy to collect and process the returned data.
 
 In early versions of Perl, database interfaces were created by relinking the interpreter with a client-side database library. This was somewhat clumsy; a particular problem was that the resulting <tt>perl</tt> executable was restricted to using just the one database interface that it was linked to. Also, relinking the interpreter was sufficiently difficult that it was only done for a few of the most important and widely used databases.
 
