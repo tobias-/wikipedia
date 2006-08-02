@@ -205,7 +205,7 @@ Perl also has two implicit looping constructs:
 
 <tt>grep</tt> returns all elements of ''list'' for which the controlled block evaluates to true. <tt>map</tt> evaluates the controlled block for each element of ''list'' and returns a list of the resulting values. These constructs enable a simple functional programming style.
 
-There is no [[switch statement]] (multi-way branch) in Perl 5. The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures. There is a <tt>Switch</tt> module, however, which provides functionality modeled on the forthcoming [[Perl 6]] re-design.
+There is no [[switch statement]] (multi-way branch) in Perl 5. The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures. There is a [http://search.cpan.org/perldoc/Switch Switch] module, however, which provides functionality modeled on the forthcoming [[Perl 6]] re-design.
 
 Perl includes a <tt>goto ''label''</tt> statement, but it is rarely used. Situations where a <tt>goto</tt> is called for in other languages don't occur as often in Perl due to its breadth of flow control options.
 
