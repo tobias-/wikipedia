@@ -17,7 +17,7 @@
 |license =[[GNU General Public License|GPL]] or [[Artistic License]]
 |website =[http://www.perl.org www.perl.org]
 }}
-'''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]) is a [[dynamic programming language|dynamic]] procedural programming language designed by [[Lary Wall]] and first released in [[1987]]. Perl borrows features from [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[AWK programming language|AWK]], [[sed]], [[Lisp programming language|Lisp]], and, to a lesser extent, many other programming languages.
+'''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]) is a [[dynamic programming language|dynamic]] procedural programming language designed by [[Larry Wall]] and first released in [[1987]]. Perl borrows features from [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[AWK programming language|AWK]], [[sed]], [[Lisp programming language|Lisp]], and, to a lesser extent, many other programming languages.
 
 ==Overview==
 
