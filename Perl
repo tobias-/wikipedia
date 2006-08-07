@@ -100,9 +100,9 @@ Perl has three fundamental [[data type]]s: [[Scalar (computing)|scalars]], [[Arr
 All variables are marked by a leading [[Sigil (computer programming)|sigil]],
 which identifies the data type being accessed (not the type of the variable itself). The same name may be used for variables of different types, without conflict.
 
-  $foo   # a scalar
-  @foo   # a list
-  %foo   # a hash
+  $foo   # a [[Scalar (computing)|scalar]]
+  @foo   # a [[Array|list]]
+  %foo   # a [[Hash table|hash]]
 
 Numbers are written in the usual way; strings are enclosed by quotes of various kinds.
 
