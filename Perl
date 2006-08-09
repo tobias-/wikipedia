@@ -455,6 +455,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[[Larry Wall]]
 *[[Perl Object Environment|POE]]- the Perl Object Environment
 *[[Perl Data Language|PDL]]- the Perl Data Language
+*[[Plain Old Documentation]]- a documentation tool for Perl
 *[[Just another Perl hacker]]
 *[[Obfuscated Perl contest]]
 *[[Perl Mongers]]
