@@ -468,6 +468,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 ==Notes==
 <references />
 
+==External links==
 ===Perl man pages===
 The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.gz source distribution]. They are available on the web from http://perldoc.perl.org/. Some good starting points are:
 
@@ -476,7 +477,6 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://perldoc.perl.org/perlre.html perlre]- Perl regular expressions
 *[http://perldoc.perl.org/perldelta.html perl5''xy''delta]- what is new for perl v5.''x''.''y''
 
-==External links==
 ===Major resources===
 *[http://www.perl.org/ Perl.org] &ndash; The Perl Directory
 *[http://www.perl.com/ Perl.com] &ndash; Perl on [[O'Reilly Network]]
