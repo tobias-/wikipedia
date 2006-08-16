@@ -437,7 +437,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[http://search.cpan.org/dist/Acme-Bleach/ Acme::Bleach], one of the [http://use.perl.org/~acme/journal/200 first modules in the Acme:: namespace], allows the program's source code to be "whitened" (i.e., all characters replaced with whitespace) and yet still work.  This is an example of a [[source filter]].  There are also a number of other source filters in the Acme namespace.
 *[http://search.cpan.org/dist/Acme-Hello/ Acme::Hello] simplifies the process of writing a "Hello, World!" program
 *[http://search.cpan.org/dist/Acme-Currency/ Acme::Currency] allows you to change the "$" prefix for scalar variables to some other character
-*[http://search.cpan.org/dist/Acme-ProgressBar/ Acme::ProgressBar] is a horribly inefficient way to indicate progress for a task
+*[http://search.cpan.org/dist/Acme-ProgressBar/ Acme::ProgressBar] is a purposefully horribly inefficient way to indicate progress for a task
 *[http://search.cpan.org/dist/Acme-VerySign/ Acme::VerySign] satirizes the widely-criticized [[VeriSign]] [[Site Finder]] service
 *[http://search.cpan.org/~dconway/Acme-Don-t-1.01/t.pm Acme::Don't] implements the logical opposite of the <tt>do</tt> keyword&mdash;<tt>don't</tt>, which does not execute the provided block.
 
