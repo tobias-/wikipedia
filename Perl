@@ -400,7 +400,7 @@ In [[2005]] [[Audrey Tang]] created the [[pugs]] project, an implementation of P
 
 A number of features in the Perl 6 language now show similarities with Haskell, and Perl 6 has been embraced by the Haskell community as a potential scripting language.
 
-As of [[2006]] Perl 6, Parrot, and pugs are under active development, and a new module for Perl 5 called [[v6 (Perl)|v6]] allows some Perl 6 code to run directly on top of Perl 5.
+[[As of 2006]], Perl 6, Parrot, and pugs are under active development, and a new module for Perl 5 called [[v6 (Perl)|v6]] allows some Perl 6 code to run directly on top of Perl 5.
 
 ==CPAN==
 {{main|CPAN}}
