@@ -84,7 +84,7 @@ In Perl, the canonical "[[Hello world]]" program is:
  print "Hello, world!\n";    # "\n" is a 'newline'
 
 The first line is the [[Shebang (Unix)|shebang]], which tells the operating system where to find the Perl interpreter. The second line [[print]]s the [[String (computer science)|string]] ''Hello, world!'' and a [[newline]]. A [[comment]] ('' '\n' is a 'newline' '') follows. 
-====''#'' sign is comment token====
+
 The ''#'' sign on the second line is a 'comment [[token (parser)|token]]', which allows the perl interpreter to ignore everything after the ''#'' sign, up to the end of the line of code.
 {{wikibooks}}
 
