@@ -127,7 +127,7 @@ Perl also has a boolean context that it uses in evaluating conditional statement
 All other values are evaluated to true. This includes the odd self-describing string of "0 but true", which in fact is 0 as a number, but true when used as a boolean. (Any non-numeric string would also have this property, but this particular string is ignored by Perl with respect to numeric warnings.)  Evaluated boolean expressions also return scalar values. Although the documentation does not promise which ''particular'' true or false is returned (and thus cannot be relied on), many boolean operators return 1 for true and the empty-string for false (which evaluates to zero in a numeric context).  If you need to specifically ensure a 1/0 result (as in C), you need to do the math yourself:
 
   my $real_result = $boolean_result ? 1 : 0;
-  
+
 A list is written by listing its elements, 
 separated by commas, and enclosed by parentheses where required by operator precedence.
 
