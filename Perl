@@ -2,7 +2,7 @@
 {{Infobox programming language
 |name = Perl
 |logo = <br>[[Image:Programming-republic-of-perl.gif]]
-|paradigm = [[Multi-paradigm_programming_language|multi-paradigm]]
+|paradigm = [[Multi-paradigm programming language|multi-paradigm]]
 |year = 1987
 |designer = [[Larry Wall]]
 |developer = 
@@ -42,7 +42,7 @@ All versions of Perl do automatic data typing and [[memory management]]. The int
 
 Perl has many and varied applications, compounded by the availability of many standard and third-party modules.
 
-It has been used since the early days of the Web to write [[Common Gateway Interface|CGI]] scripts, and is an integral component of the popular [[LAMP (software bundle)|LAMP]] [[Solution stack|stack]] for web development. Large projects written in Perl include [[Slash (weblog system)|Slash]], [[Internet Movie Database|IMDb]][http://www.imdb.com/help/search?domain=helpdesk_faq&index=1&file=techinfo], early implementations of PHP[http://www.php.net/history], and [[UseModWiki]], the [[wiki]] software used in [[Wikipedia]] until 2002. It's known as one of "the three Ps" (Perl, [[Python programming language|Python]], and [[PHP]], with [[Ruby programming language|Ruby]] being an honorary member), which are the most popular server-side, open source scripting languages for the Web, though open source [[Java programming language|Java]] and [[C_Sharp|C#]] implementations have grown popular in recent years.
+It has been used since the early days of the Web to write [[Common Gateway Interface|CGI]] scripts, and is an integral component of the popular [[LAMP (software bundle)|LAMP]] [[Solution stack|stack]] for web development. Large projects written in Perl include [[Slash (weblog system)|Slash]], [[Internet Movie Database|IMDb]][http://www.imdb.com/help/search?domain=helpdesk_faq&index=1&file=techinfo], early implementations of PHP[http://www.php.net/history], and [[UseModWiki]], the [[wiki]] software used in [[Wikipedia]] until 2002. It's known as one of "the three Ps" (Perl, [[Python programming language|Python]], and [[PHP]], with [[Ruby programming language|Ruby]] being an honorary member), which are the most popular server-side, open source scripting languages for the Web, though open source [[Java programming language|Java]] and [[C Sharp|C#]] implementations have grown popular in recent years.
 
 Perl is often used as a "[[glue language]]", tying together systems and interfaces that were not specifically designed to interoperate, and for "data munging", converting or processing large amounts of data for tasks like creating reports. In fact, these strengths are intimately linked. The combination makes perl a popular all-purpose tool for [[system administrator]]s, particularly as short programs can be entered and run on a single command line.
 
@@ -70,13 +70,11 @@ Perl has been ported to over a hundred different platforms, and can, with only s
 
 Perl can be compiled from source on Windows, however many Windows installations lack a C compiler, so Windows users typically install a binary distribution, such as  [http://www.activestate.com/Products/ActivePerl/ ActivePerl],  [http://www.indigostar.com/indigoperl.htm IndigoPerl] or [http://win32.perl.org/wiki/index.php?title=Win32_Distributions#Perl_Distributions a number of others].
 
-Perl can also be compiled with [[GNU_Compiler_Collection|gcc]] under [[cygwin]], which provides a unix-like environment on Windows.
+Perl can also be compiled with [[GNU Compiler Collection|gcc]] under [[cygwin]], which provides a unix-like environment on Windows.
 
 In June 2006, [http://ali.as/ Adam Kennedy] on behalf of the [[The Perl Foundation]] launched [http://win32.perl.org win32.perl.org], a community website for "all things Windows and Perl".
 
 ==Language structure==
-
-
 ===Example Program===
 In Perl, the canonical "[[Hello world]]" program is:
 
@@ -282,7 +280,7 @@ A subroutine can discover its calling context with the <tt>wantarray</tt> functi
 
 The Perl language includes a specialized syntax for writing [[regular expression]]s (REs), and the interpreter contains an engine for matching strings to regular expressions. The regular expression engine uses a [[backtracking]] algorithm, extending its capabilities from simple pattern matching to string capture and substitution.  The regular expression engine is derived from regex written by [[Henry Spencer]].
 
-The Perl regular expression syntax was originally taken from Unix Version 8 regular expressions. However, it diverged before the first release of Perl, and has since grown to include many more features. Other languages and applications are now adopting [[PCRE|Perl compatible regular expressions]] over [[POSIX]] regular expressions including [[PHP]], [[Ruby_programming_language|Ruby]], [[Java_programming_language|Java]], and the [[Apache HTTP server]].
+The Perl regular expression syntax was originally taken from Unix Version 8 regular expressions. However, it diverged before the first release of Perl, and has since grown to include many more features. Other languages and applications are now adopting [[PCRE|Perl compatible regular expressions]] over [[POSIX]] regular expressions including [[PHP]], [[Ruby programming language|Ruby]], [[Java programming language|Java]], and the [[Apache HTTP server]].
 
 The <tt>m//</tt> (match) operator introduces a regular expression match. (The leading <tt>m</tt> may be omitted for brevity.) In the simplest case, an expression like
 
@@ -337,7 +335,6 @@ Perl can be slower than other languages doing the same thing because it has to c
 Optimizing Perl can require intimate knowledge of its workings rather than skill with the language and its syntax, meaning that the problem is with the implementation of Perl rather than the language itself. [[Perl 6]], the next major version, will address some of these lessons that other languages have already learned.
 
 ==Origins==
-
 ===History===
 Larry Wall began work on Perl in 1987, and released version 1.0 to the comp.sources.misc [[newsgroup]] on [[December 18]], [[1987]]. The language expanded rapidly over the next few years. Perl 2, released in 1988, featured a better regular expression engine. Perl 3, released in 1989, added support for binary data.
 
@@ -396,7 +393,7 @@ Perl 6 is not intended to be backward compatible, though there will be a compati
 
 In [[2001]], it was decided that Perl 6 would run on a cross-language [[virtual machine]] called [[Parrot virtual machine|Parrot]]. This will mean that other languages targeting the Parrot will gain native access to [[CPAN]] and will allow some level of cross-language development.
 
-In [[2005]] [[Audrey Tang]] created the [[pugs]] project, an implementation of Perl 6 in [[Haskell_programming_language|Haskell]]. This was and continues to act as a test platform for the Perl 6 language (separate from the development of the actual implementation) allowing the language designers to explore. The pugs project spawned an active Perl/Haskell cross-language community centered around the [[Freenode]] #perl6 irc channel.
+In [[2005]] [[Audrey Tang]] created the [[pugs]] project, an implementation of Perl 6 in [[Haskell programming language|Haskell]]. This was and continues to act as a test platform for the Perl 6 language (separate from the development of the actual implementation) allowing the language designers to explore. The pugs project spawned an active Perl/Haskell cross-language community centered around the [[Freenode]] #perl6 irc channel.
 
 A number of features in the Perl 6 language now show similarities with Haskell, and Perl 6 has been embraced by the Haskell community as a potential scripting language.
 
@@ -527,8 +524,6 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 [[Category:Unix software]]
 
 <!-- Interwiki finder http://vs.aka-online.de/globalwpsearch/ -->
-<!-- END OF PAGE -->
-
 [[als:Perl]]
 [[bs:Perl]]
 [[bg:Perl]]
@@ -570,3 +565,4 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 [[th:ภาษาเพิร์ล]]
 [[tr:Perl]]
 [[zh:Perl]]
+<!-- END OF PAGE -->
