@@ -431,7 +431,7 @@ Another popular pastime is "Perl Golf." As with [[Golf|the physical sport]], the
 
 Another tradition among Perl [[hacker]]s is writing JAPHs, which are short obfuscated programs that print out the phrase "[[Just another Perl hacker]],". The "canonical" JAPH includes the comma at the end, although this is often omitted, and many variants on the theme have been created (example: [http://www.perlmonks.org/index.pl?node_id=292135], which prints "Just Another Perl Pirate!").
 
-One interesting Perl module is [http://www.csse.monash.edu.au/~damian/papers/HTML/Perligata.html Lingua::Romana::Perligata] (or [http://search.cpan.org/dist/Lingua-Romana-Perligata/ on CPAN]). This module translates the source code of a script that uses it from Latin into Perl, allowing the programmer to write executable programs in Latin.
+One interesting Perl module is [http://www.csse.monash.edu.au/~damian/papers/HTML/Perligata.html Lingua::Romana::Perligata] (or [http://search.cpan.org/dist/Lingua-Romana-Perligata/ on CPAN]). This module translates the source code of a script that uses it from Latin into Perl, allowing the programmer to write executable programs in [[Latin]].
 
 The Perl community has set aside the "[[Acme]]" namespace for modules that are fun or experimental in nature.  Some of the Acme modules are deliberately implemented in amusing ways.  Some examples:
 *[http://search.cpan.org/dist/Acme-Bleach/ Acme::Bleach], one of the [http://use.perl.org/~acme/journal/200 first modules in the Acme:: namespace], allows the program's source code to be "whitened" (i.e., all characters replaced with whitespace) and yet still work.  This is an example of a [[source filter]].  There are also a number of other source filters in the Acme namespace.
