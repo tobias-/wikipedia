@@ -330,7 +330,7 @@ In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The <tt>
 The [http://shootout.alioth.debian.org/ "Computer Language Shootout Benchmarks"] compare the performance of implementations of typical
 programming problems in several programming languages. Their Perl implementations typically took up more memory than implementations in other languages, and had varied speed results. Nicholas Clark, a Perl core developer, discusses some Perl design trade-offs and some solutions in [http://www.ccl4.org/~nick/P/Fast_Enough/ "When perl is not quite fast enough"].  The most critical routines of a Perl program can be written in [[C programming language|C]] or even [[Assembly language|Assembler]] via [[XS (Perl)|XS]] or [http://search.cpan.org/perldoc/Inline Inline].
 
-Perl can be slower than other languages doing the same thing because it has to compile the source every time it runs. In [http://www.perl.com/pub/a/2005/12/21/a_timely_start.html "A Timely Start"], Jean-Louis Leroy found that his Perl scripts took much longer to run than he expected because the perl interpreter spent much of the time finding and compiling modules. Since Perl cannot save its intermediate result like Java, Python, and Ruby can, Perl scripts pay this overhead penalty on every execution. The overhead is not such a problem when amortized over a long run phase, but can significantly skew measurement of very short execution times as often found in benchmarks. Once perl starts the run phase, however, it can be quite fast and will typically outperform other dynamic languages.  Technologies such as [[mod_perl]] overcome this by holding the compiled program in memory between multiple runs, or [http://search.cpan.org/perldoc/Class::Autouse Class::Autouse] to delay compiling of parts of the program until needed.
+Perl can be slower than other languages doing the same thing because it has to compile the source every time it runs. In [http://www.perl.com/pub/a/2005/12/21/a_timely_start.html "A Timely Start"], Jean-Louis Leroy found that his Perl scripts took much longer to run than he expected because the perl interpreter spent much of the time finding and compiling modules. Since Perl cannot save its intermediate result like Java, Python, and Ruby can, Perl scripts pay this overhead penalty on every execution. The overhead is not such a problem when amortized over a long run phase, but can significantly skew measurement of very short execution times as often found in benchmarks. Once perl starts the run phase, however, it can be quite fast and will typically outperform other dynamic languages.  Technologies such as [[mod perl]] overcome this by holding the compiled program in memory between multiple runs, or [http://search.cpan.org/perldoc/Class::Autouse Class::Autouse] to delay compiling of parts of the program until needed.
 
 Optimizing Perl can require intimate knowledge of its workings rather than skill with the language and its syntax, meaning that the problem is with the implementation of Perl rather than the language itself. [[Perl 6]], the next major version, will address some of these lessons that other languages have already learned.
 
@@ -512,6 +512,10 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://history.perl.org/PerlTimeline.html The Timeline of Perl and its Culture v3.0_0505]
 *[http://www.nntp.perl.org/group/perl.perl6.meta/424 Transcription of Larry's talk]
 
+<!-- Interwiki finder http://vs.aka-online.de/globalwpsearch/ -->
+
+<!-- END OF PAGE -->
+
 [[Category:Perl| ]]
 [[Category:Curly bracket programming languages]]
 [[Category:Dynamically-typed programming languages]]
@@ -523,7 +527,6 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 [[Category:Text-oriented programming languages]]
 [[Category:Unix software]]
 
-<!-- Interwiki finder http://vs.aka-online.de/globalwpsearch/ -->
 [[als:Perl]]
 [[bs:Perl]]
 [[bg:Perl]]
@@ -565,4 +568,3 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 [[th:ภาษาเพิร์ล]]
 [[tr:Perl]]
 [[zh:Perl]]
-<!-- END OF PAGE -->
