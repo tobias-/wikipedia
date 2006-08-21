@@ -523,7 +523,6 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 [[Category:Text-oriented programming languages]]
 [[Category:Unix software]]
 
-<!-- Interwiki finder http://vs.aka-online.de/globalwpsearch/ -->
 [[als:Perl]]
 [[bs:Perl]]
 [[bg:Perl]]
@@ -565,4 +564,3 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 [[th:ภาษาเพิร์ล]]
 [[tr:Perl]]
 [[zh:Perl]]
-<!-- END OF PAGE -->
