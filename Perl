@@ -75,7 +75,7 @@ Perl can also be compiled with [[GNU Compiler Collection|gcc]] under [[cygwin]],
 In June 2006, [http://ali.as/ Adam Kennedy] on behalf of the [[The Perl Foundation]] launched [http://win32.perl.org win32.perl.org], a community website for "all things Windows and Perl".
 
 ==Language structure==
-===Example Program===
+===Example program===
 In Perl, the canonical "[[Hello world]]" program is:
 
  #!/usr/bin/perl
