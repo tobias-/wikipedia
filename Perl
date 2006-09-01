@@ -496,7 +496,6 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://www.activestate.com/ ActiveState ActivePerl] &ndash; Perl for [[Microsoft Windows]] and many other platforms
 *[http://www.indigostar.com/indigoperl.htm IndigoPerl] &ndash; another distribution of Perl for Microsoft Windows
 *[http://cygwin.com/ Cygwin] also distributes Perl on Windows
-*[http://www.devside.net/ DeveloperSide.NET] distribution of "vanila" Perl 5.8 binary, mod_perl 2.0 binary, and a WAMP Suite for Windows -- also provides build Guides for Perl and mod_perl.
 
 ===Miscellaneous===
 *[http://cslibrary.stanford.edu/108/ A quick guide to learn Perl]
