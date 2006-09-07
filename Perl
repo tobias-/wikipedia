@@ -11,7 +11,7 @@
 |typing = dynamic
 |implementations = 
 |dialects = 
-|influenced_by =  [[AWK programming language|AWK]], [[BASIC-PLUS]], [[C programming language|C]], [[C++]], [[Lisp programming language|Lisp]], [[Pascal programming language|Pascal]], [[Python programming language|Python]], [[Sed]], [[Unix shell]] 
+|influenced_by =  [[AWK (programming language)|AWK]], [[BASIC-PLUS]], [[C (programming language)|C]], [[C++]], [[Lisp programming language|Lisp]], [[Pascal (programming language)|Pascal]], [[Python programming language|Python]], [[Sed]], [[Unix shell]] 
 |influenced = [[Python programming language|Python]], [[PHP]], [[Ruby programming language|Ruby]]
 |operating_system = [[Cross-platform]]
 |license =[[GNU General Public License|GPL]] or [[Artistic License]]
