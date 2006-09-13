@@ -4,7 +4,7 @@
 |logo = <br>[[Image:Programming-republic-of-perl.gif]]
 |paradigm = [[Multi-paradigm programming language|multi-paradigm]]
 |year = 1987
-|designer = [[kitten]]
+|designer = [[Larry Wall]]
 |developer = 
 |latest_release_version = 5.8.8
 |latest_release_date = [[January 31]], [[2006]]
