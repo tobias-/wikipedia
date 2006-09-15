@@ -447,7 +447,24 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[http://www.perlmonks.org/index.pl?node_id=253797 A tutorial on Perligata]
 *[http://www.softpanorama.org/Bulletin/Humor/humor092.html Perl Purity Test]
 
-
+==See also==
+{{portalpar|Free software}}
+*[[Perl 6]]
+*[[CPAN]]
+*[[The Perl Foundation]]
+*[[Larry Wall]]
+*[[Perl Object Environment|POE]]- the Perl Object Environment
+*[[Perl Data Language|PDL]]- the Perl Data Language
+*[[Plain Old Documentation]]- a documentation tool for Perl
+*[[Just another Perl hacker]]
+*[[Obfuscated Perl contest]]
+*[[Perl Mongers]]
+*[[PerlScript]]
+*[[Comparison of programming languages]]
+*[[Programming Perl]] (the ''Camel book''), ISBN 0-596-00027-8
+*[[Learning Perl]], Fourth Edition (the ''Llama book''), ISBN 0-596-10105-8
+*[[Perl Cookbook]], ISBN 0-596-00313-7
+*[[Tcl]]
 
 ==Notes==
 <references />
