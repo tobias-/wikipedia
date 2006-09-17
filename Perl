@@ -351,7 +351,7 @@ Perl 5 was released on [[October 17]], [[1994]]. It was a nearly complete rewrit
 
 On [[October 26]], [[1995]], the [[Comprehensive Perl Archive Network]] (the CPAN) was established. The CPAN is a collection of web sites that archive and distribute Perl sources, binary distributions, documentation, scripts, and modules. Originally, each CPAN site had to be accessed through its own URL. Today, the single URL [http://www.cpan.org http://www.cpan.org] automatically redirects to one of several hundred CPAN mirror sites.
 
-[[As of 2006], Perl 5 is still being actively maintained. Important features and some essential new language constructs have been added along the way, including [[Unicode]] support, [[Thread (computer science)|threads]], an improved support for [[object oriented programming]] and many other enhancements. The latest stable release is Perl 5.8.8.
+[[As of 2006]], Perl 5 is still being actively maintained. Important features and some essential new language constructs have been added along the way, including [[Unicode]] support, [[Thread (computer science)|threads]], an improved support for [[object oriented programming]] and many other enhancements. The latest stable release is Perl 5.8.8.
 
 ===Design===
 The design of Perl can be understood as a response to three broad trends in the computer industry: falling hardware costs, rising labor costs, and improvements in compiler technology. Many earlier computer languages, such as [[Fortran]] and C, were designed to make efficient use of expensive computer hardware. In contrast, Perl  is designed to make efficient use of expensive computer programmers.
