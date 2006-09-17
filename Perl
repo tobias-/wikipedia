@@ -217,7 +217,7 @@ It terminates the current subroutine and immediately calls the specified <tt>''s
 [[Subroutine]]s are defined with the <tt>sub</tt> keyword,
 and invoked simply by naming them.
 Subroutine definitions may appear anywhere in the program.
-Parentheses are required for calls that precede the definition.
+Parentheses are required for calls that precede the declaration (regardless of where the subroutine definition takes place).
 
  foo();
  sub foo { ... }
