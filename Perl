@@ -214,14 +214,11 @@ There is also a <tt>goto &''sub''</tt> statement that performs a [[tail call]].
 It terminates the current subroutine and immediately calls the specified <tt>''sub''</tt>. This is used in situations where a caller can perform more efficient [[Call stack|stack]] management than Perl itself (typically because no change to the current stack is required), and in deep recursion tail calling can have substantial positive impact on performance because it avoids the overhead of scope/stack management on return.
 
 ===Subroutines===
-[[Subroutine]]s are defined with the <tt>sub</tt> keyword,
-and invoked simply by naming them.
-Subroutine definitions may appear anywhere in the program.
-Parentheses are required for calls that precede the declaration (regardless of where the subroutine definition takes place).
+[[Subroutine]]s are defined with the <tt>sub</tt> keyword, and invoked simply by naming them. If the subroutine in question has not yet been declared, parentheses are required for proper parsing.
 
- foo();
+ foo();             # parentheses required here...
  sub foo { ... }
- foo;
+ foo;               # ... but not here
 
 A list of arguments may be provided after the subroutine name.
 Arguments may be scalars, lists, or hashes.
