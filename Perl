@@ -480,7 +480,6 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 
 ===Major resources===
 *[http://www.perl.org/ Perl.org] &ndash; The Perl Directory
-*[http://www.perl.com/ Perl.com] &ndash; Perl on [[O'Reilly Network]]
 *[http://perldoc.perl.org/ Perldoc at Perl.org] &ndash; online Perl documentation
 
 ===Development===
