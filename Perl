@@ -494,9 +494,7 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 
 ===Distributions===
 *[http://www.cpan.org/ The CPAN] &ndash; Comprehensive Perl Archive Network, Perl source distribution
-*[http://www.activestate.com/ ActiveState ActivePerl] &ndash; Perl for [[Microsoft Windows]] and many other platforms
 *[http://www.indigostar.com/indigoperl.htm IndigoPerl] &ndash; another distribution of Perl for Microsoft Windows
-*[http://cygwin.com/ Cygwin] also distributes Perl on Windows
 
 ===Miscellaneous===
 *[http://cslibrary.stanford.edu/108/ A quick guide to learn Perl] - Stanford Library
