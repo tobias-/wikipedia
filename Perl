@@ -489,8 +489,6 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 
 ===Support===
 *[http://www.pm.org/ Perl Mongers] &ndash; local user groups in cities worldwide
-*[http://www.perlmonks.org/ PerlMonks] &ndash; [[The Perl Foundation]]-affiliated discussion forum and resources
-*[http://use.perl.org/ use Perl;] &ndash; Perl news and community discussion
 
 ===Distributions===
 *[http://www.cpan.org/ The CPAN] &ndash; Comprehensive Perl Archive Network, Perl source distribution
