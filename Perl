@@ -468,8 +468,6 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 
 ==External links==
 
- 	{{External links|September 2006}}
-
 ===Perl man pages===
 The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.gz source distribution]. They are available on the web from http://perldoc.perl.org/. Some good starting points are:
 
