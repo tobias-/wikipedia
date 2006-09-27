@@ -486,8 +486,6 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 ===Development===
 *[http://dev.perl.org/perl5/ Perl 5 development]
 *[http://dev.perl.org/perl6/ Perl 6 development]
-*[http://www.parrotcode.org/ Parrot virtual machine]
-*[http://www.poniecode.org/ Project Ponie] &ndash; Perl 5 running on top of Parrot
 *[http://www.pugscode.org/ Pugs] &ndash; Perl 6 running on top of Haskell
 
 ===Support===
