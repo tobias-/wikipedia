@@ -38,13 +38,13 @@ In Perl 5, features were added that support complex [[data structure]]s, [[first
 
 All versions of Perl do automatic data typing and [[memory management]]. The interpreter knows the type and storage requirements of every data object in the program; it allocates and frees storage for them as necessary. Legal type conversions are done automatically at run time; illegal type conversions are fatal errors.
 
-===Applications===
+=== Applications ===
 
 Perl has many and varied applications, compounded by the availability of many standard and third-party modules.
 
-It has been used since the early days of the Web to write [[Common Gateway Interface|CGI]] scripts, and is an integral component of the popular [[LAMP (software bundle)|LAMP]] [[Solution stack|stack]] for web development. Large projects written in Perl include [[Slash (weblog system)|Slash]], [[Internet Movie Database|IMDb]][http://www.imdb.com/help/search?domain=helpdesk_faq&index=1&file=techinfo], early implementations of PHP[http://www.php.net/history], and [[UseModWiki]], an early, influential [[Wiki software|wiki engine]]. It is known as one of "the three Ps" (Perl, [[Python programming language|Python]] and [[PHP]], plus [[Ruby programming language|Ruby]] as an honorary member), which are the most popular open source scripting languages for the Web, though open source [[Java programming language|Java]] and [[C Sharp|C#]] implementations have grown popular in recent years.
+Perl  has been used since the early days of the Web to write [[Common Gateway Interface|CGI]] scripts. It is known as one of "the three Ps" (Perl, [[Python programming language|Python]] and [[PHP]]), which are the most popular scripting languages for generating Web applications, and is an integral component of the popular [[LAMP (software bundle)|LAMP]] [[solution stack]] for web development. Large projects written in Perl include [[Slash (weblog system)|Slash]], [[Internet Movie Database|IMDb]]<ref>http://www.imdb.com/help/search?domain=helpdesk_faq&index=1&file=techinfo</ref> and [[UseModWiki]], an early, influential [[Wiki software|wiki engine]].
 
-Perl is often used as a "[[glue language]]", tying together systems and interfaces that were not specifically designed to interoperate, and for "data munging", converting or processing large amounts of data for tasks like creating reports. In fact, these strengths are intimately linked. The combination makes perl a popular all-purpose tool for [[system administrator]]s, particularly as short programs can be entered and run on a single command line.
+Perl is often used as a [[glue language]], tying together systems and interfaces that were not specifically designed to interoperate, and for "data munging", converting or processing large amounts of data for tasks like creating reports. In fact, these strengths are intimately linked. The combination makes perl a popular all-purpose tool for [[system administrator]]s, particularly as short programs can be entered and run on a single command line.
 
 Perl is also widely used in finance and [[bioinformatics]], where it is valued for rapid application development and deployment, the ability to handle large data sets.
 
