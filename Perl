@@ -30,7 +30,7 @@ The perlintro(1) [[man page]] <!-- sic. 'man' is short for 'manual' --> states:
 ===Features===
 The overall structure of Perl derives broadly from the programming language [[C programming language|C]]. Perl is a [[procedural programming language]], with [[variable]]s, [[expression (programming)|expression]]s, [[assignment statement]]s, [[brace]]-delimited [[code block]]s, [[control structure]]s, and [[subroutine]]s.
 
-Perl also takes features from [[Shell (computing)|shell]] programming. All variables are marked with leading [[Sigil (computer programming)|sigil]]s. Sigils unambiguously identify variable names, allowing Perl to have a rich syntax. Importantly, sigils allow variables to be interpolated directly into strings. Like the Unix shells, Perl has many built-in functions for common tasks, like sorting, and for accessing system facilities.
+PERL also takes features from [[Shell (computing)|shell]] programming. All variables are marked with leading [[Sigil (computer programming)|sigil]]s. Sigils unambiguously identify variable names, allowing Perl to have a rich syntax. Importantly, sigils allow variables to be interpolated directly into strings. Like the Unix shells, Perl has many built-in functions for common tasks, like sorting, and for accessing system facilities.
 
 Perl takes [[List (computing)|lists]] from [[Lisp programming language|Lisp]], [[associative array]]s from [[AWK programming language|AWK]], and [[regular expressions]] from [[sed]]. These simplify and facilitate all manner of parsing, text handling, and data management tasks.
 
