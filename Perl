@@ -379,13 +379,13 @@ There is a broad practical bent to both the Perl language and the community and 
 
 Perl has several mottos that convey aspects of its design and use. One is ''"[[There's more than one way to do it]]."'' (TMTOWTDI, usually pronounced 'Tim Toady'). Others are ''"Perl: the Swiss Army Chainsaw of Programming Languages"'' and ''"No unnecessary limits"''. A stated design goal of Perl is to make easy tasks easy and difficult tasks possible.  Perl has also been called ''"The Duct Tape of the Internet"''.
 
-===Name===
-Perl was originally named "Pearl", after the [[Parable of the Pearl]] ({{kjv|mat|13:45-46|Matthew 13:45-46}}). Larry Wall wanted to give the language a short name with positive connotations; he claims that he looked at (and rejected) every three- and four-letter word in the dictionary. He also considered naming it after his wife Gloria. Wall discovered before the language's official release that there was already a programming language named [[PEARL programming language|PEARL]] and changed the spelling of the name.
+=== Name ===
 
-The name is normally capitalized (''Perl'') when referring to the language and uncapitalized (''perl'') when referring to the interpreter program itself since Unix-like file systems are case sensitive. Before the release of the first edition of ''Programming Perl'' it was common to refer to the language as ''perl''; [[Randal L. Schwartz]], however, forced the uppercase language name in the book to make the name stand out better when typeset.  The case distinction was subsequently adopted by the community.
+Perl was originally named "Pearl", after the [[Parable of the Pearl]]. Larry Wall wanted to give the language a short name with positive connotations; he claims that he looked at (and rejected) every three- and four-letter word in the dictionary. He also considered naming it after his wife Gloria. Wall discovered the existing [[PEARL programming language]] before Perl's official release and changed the spelling of the name.
 
-It is not appropriate to write "PERL", as it is not an [[acronym]]. The spelling of PERL in all caps is therefore used as a [[Shibboleth#Modern usage|shibboleth]] for detecting community outsiders.
-However, several [[backronym]]s have been suggested, including the humorous ''Pathologically Eclectic Rubbish Lister''. The more serious ''Practical Extraction and Report Language'' has prevailed in many of today's manuals, including the official Perl [[man page]].
+The name is normally capitalized (''Perl'') when referring to the language and uncapitalized (''perl'') when referring to the interpreter program itself since Unix-like file systems are case sensitive. Before the release of the first edition of ''Programming Perl'' it was common to refer to the language as ''perl''; [[Randal L. Schwartz]], however, forced the uppercase language name in the book to make the name stand out better when typeset. The case distinction was subsequently adopted by the community.
+
+The language is occasionally given as "PERL" (for '''P'''ractical '''E'''xtraction and '''R'''eport '''L'''anguage), although this is not an official designation and is hence a [[backronym]]. The spelling of PERL in all caps is therefore used as a [[shibboleth#Modern usage|shibboleth]] for detecting community outsiders. Several other backronyms have been suggested, including the humorous ''Pathologically Eclectic Rubbish Lister''. The more serious ''Practical Extraction and Report Language'' has prevailed in many of today's manuals, including the official Perl [[man page]].
 
 ===The camel symbol===
 
