@@ -131,9 +131,10 @@ Perl can also be compiled with [[GNU Compiler Collection|gcc]] under [[cygwin]],
 
 In June 2006, [http://ali.as/ Adam Kennedy] on behalf of the [[The Perl Foundation]] launched [http://win32.perl.org win32.perl.org], a community website for "all things Windows and Perl".
 
-==Language structure==
-===Example program===
-In Perl, the canonical "[[Hello world]]" program is:
+== Language structure ==
+{{wikibooks}}
+
+In Perl, the canonical [[Hello world]] program is:
 
  #!/usr/bin/perl -w
  use strict;
@@ -142,14 +143,14 @@ In Perl, the canonical "[[Hello world]]" program is:
 The first line is the [[Shebang (Unix)|shebang]], which tells the operating system where to find the Perl interpreter. The second line introduces the ''strict'' [[pragma]] which is used in many large software projects for [[quality control]]. The third [[print]]s the [[String (computer science)|string]] ''Hello, world!'' and a [[newline]]. A [[comment]] ('' '\n' is a 'newline' '') follows. 
 
 The ''#'' sign on the third line is a 'comment [[token (parser)|token]]', which allows the perl interpreter to ignore everything after the ''#'' sign, up to the end of the line of code.
-{{wikibooks}}
 
 The shebang is the usual way to invoke the interpreter on Unix systems.
 Windows systems may rely on the shebang, or they may associate a <tt>.pl</tt> [[Filename extension|file extension]] with the Perl interpreter.  Some text editors also use the shebang line as a hint about what mode to operate in. Because the shebang starts with the ''#'' sign, the line is treated as a comment and ignored by the perl interpreter.
 
 The perl script on the discussion page [[Talk:BMI Chart (height 150 - 174cm)]] was used to print out the script on the [[BMI Chart (height 150 - 174cm)]] article page.
 
-===Data types===
+=== Data types ===
+
 Perl has three fundamental [[data type]]s: [[Scalar (computing)|scalars]], [[Array|lists]], and [[Hash table|hashes]]:
 *A scalar is a single value; it may be a number, a [[String (computer science)|string]] or a [[Reference (computer science)|reference]]
 *A list is an ordered collection of scalars (a variable that holds a list is called an ''array'')
@@ -227,7 +228,7 @@ There are a few functions that operate on entire hashes.
   @names     = keys   %address;
   @addresses = values %address;
 
-===Control structures===
+=== Control structures ===
 {{main|Perl control structures}}
 
 Perl has several kinds of control structures. 
@@ -272,7 +273,8 @@ Perl includes a <tt>goto ''label''</tt> statement, but it is rarely used. Situat
 There is also a <tt>goto &''sub''</tt> statement that performs a [[tail call]].
 It terminates the current subroutine and immediately calls the specified <tt>''sub''</tt>. This is used in situations where a caller can perform more efficient [[Call stack|stack]] management than Perl itself (typically because no change to the current stack is required), and in deep recursion tail calling can have substantial positive impact on performance because it avoids the overhead of scope/stack management on return.
 
-===Subroutines===
+=== Subroutines ===
+
 [[Subroutine]]s are defined with the <tt>sub</tt> keyword, and invoked simply by naming them. If the subroutine in question has not yet been declared, parentheses are required for proper parsing.
 
  foo();             # parentheses required here...
@@ -334,8 +336,7 @@ A subroutine can discover its calling context with the <tt>wantarray</tt> functi
  $x = either;    # returns "Oranges"
  @x = either;    # returns (1, 2)
 
-===Regular expressions===
-{{seealso|Perl regular expression examples|Regular expression}}
+=== Regular expressions ===
 
 The Perl language includes a specialized syntax for writing [[regular expression]]s (REs), and the interpreter contains an engine for matching strings to regular expressions. The regular expression engine uses a [[backtracking]] algorithm, extending its capabilities from simple pattern matching to string capture and substitution.  The regular expression engine is derived from regex written by [[Henry Spencer]].
 
@@ -376,7 +377,8 @@ One common use of regular expressions is to specify delimiters for the <tt>split
 
 The <tt>split</tt> operator complements string capture. String capture returns the parts of a string that match a regular expression; <tt>split</tt> returns the parts that don't match.
 
-===Database interfaces===
+=== Database interfaces ===
+
 Perl is widely favored for database applications. Its text handling facilities are good for generating [[SQL]] queries; arrays, hashes and automatic memory management make it easy to collect and process the returned data.
 
 In early versions of Perl, database interfaces were created by relinking the interpreter with a client-side database library. This was somewhat clumsy; a particular problem was that the resulting <tt>perl</tt> executable was restricted to using just the one database interface that it was linked to. Also, relinking the interpreter was sufficiently difficult that it was only done for a few of the most important and widely used databases.
