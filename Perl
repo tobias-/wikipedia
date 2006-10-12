@@ -409,17 +409,6 @@ A number of features in the Perl 6 language now show similarities with Haskell, 
 
 [[As of 2006]], Perl 6, Parrot, and pugs are under active development, and a new module for Perl 5 called [[v6 (Perl)|v6]] allows some Perl 6 code to run directly on top of Perl 5.
 
-==CPAN==
-{{main|CPAN}}
-
-[[CPAN]], the Comprehensive Perl Archive Network, is a collection of mirrored web sites that serve as a primary archive and distribution channel for Perl sources, distributions, documentation, scripts, and&mdash;especially&mdash;modules.  It is commonly browsed with the search engine [http://search.cpan.org/ http://search.cpan.org/].
-
-There are currently over 10,000 modules available on the CPAN, contributed by over 3,500 authors. Modules are available for a wide variety of tasks, including advanced mathematics, database connectivity, and networking. Essentially everything on the CPAN is freely available; much of the software is licensed under either the [[Artistic License]], the [[GNU General Public License|GPL]], or both. Anyone can upload software to the CPAN via [http://pause.perl.org PAUSE], the Perl Authors Upload Server.
-
-Modules on the CPAN can be downloaded and installed by hand. However, it is common for modules to depend on other modules, and following module dependencies by hand can be tedious. Both the [http://search.cpan.org/Perldoc?CPAN CPAN.pm] module (included in the Perl distribution) and the improved [http://search.cpan.org/Perldoc?CPANPLUS CPANPLUS] module offer command line installers that understand module dependencies; they can be configured to automatically download and install a module and, recursively, all modules that it requires.
-
-Users without a C compiler are limited to pure Perl modules when downloading from the CPAN. ActiveState, a company that commercially supports Perl on Windows, provides packages of pre-compiled Perl modules, called PPMs, for use with their ActivePerl. Some pre-built modules are available as part of the MacPerl distribution for Mac Classic.  Users on other operating systems often rely on binary packages from the operating system vendors.  Due to licensing, availability of third party libraries, lack of portability, and many other issues, not all CPAN modules are available in pre-built packages.
-
 In 2006, an effort was started to have Windows Perl distributions ship with a compiler, in order to make the need for binary packages on Windows redundant. Some early results of this include the [http://camelpack.sourceforge.net/ CamelPack] macro-installer and [http://win32.perl.org/wiki/index.php?title=Vanilla_Perl Vanilla Perl] distributions.
 
 ==Fun with Perl==
@@ -451,19 +440,14 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 == See also ==
 {{portalpar|Free software}}
 
-*[[Perl 6]]
-*[[CPAN]]
 *[[The Perl Foundation]]
-*[[Larry Wall]]
 *[[Perl Object Environment|POE]]- the Perl Object Environment
 *[[Perl Data Language|PDL]]- the Perl Data Language
 *[[Plain Old Documentation]]- a documentation tool for Perl
 *[[Just another Perl hacker]]
-*[[Obfuscated Perl contest]]
 *[[Perl Mongers]]
 *[[PerlScript]]
 *[[Comparison of programming languages]]
-*[[Programming Perl]] (the ''Camel book''), ISBN 0-596-00027-8
 *[[Learning Perl]], Fourth Edition (the ''Llama book''), ISBN 0-596-10105-8
 *[[Perl Cookbook]], ISBN 0-596-00313-7
 *[[Tcl]]
@@ -480,7 +464,6 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[http://www.perl.org/ Perl.org] - Official Perl website
 *[http://perldoc.perl.org/ Perldoc at Perl.org] - online Perl documentation
 *[http://dev.perl.org/ Perl development]
-*[http://www.pugscode.org/ Pugs] &ndash; Perl 6 running on top of Haskell
 *[http://www.indigostar.com/indigoperl.htm IndigoPerl] - another distribution of Perl for Microsoft Windows
 *[http://cslibrary.stanford.edu/108/ A quick guide to learn Perl] - Stanford Library
 *[http://en.wikibooks.org/wiki/Programming:Perl/Humour Perl humour on Wikibooks]
