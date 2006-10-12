@@ -1,40 +1,42 @@
 {{otheruses}}
 {{Infobox programming language
 |name = Perl
-|logo = <br>[[Image:Programming-republic-of-perl.gif]]
-|paradigm = [[Multi-paradigm programming language|multi-paradigm]]
+|logo = [[Image:Programming-republic-of-perl.gif]]
+|paradigm = [[multi-paradigm]]
 |year = 1987
 |designer = [[Larry Wall]]
 |developer = 
 |latest_release_version = 5.8.8
-|latest_release_date = [[January 31]], [[2006]]
+|latest_release_date = [[January 31]] [[2006]]
 |typing = dynamic
 |implementations = 
 |dialects = 
 |influenced_by =  [[AWK (programming language)|AWK]], [[BASIC-PLUS]], [[C (programming language)|C]], [[C++]], [[Lisp programming language|Lisp]], [[Pascal (programming language)|Pascal]], [[Python programming language|Python]], [[Sed]], [[Unix shell]] 
 |influenced = [[Python programming language|Python]], [[PHP]], [[Ruby programming language|Ruby]]
 |operating_system = [[Cross-platform]]
-|license =[[GNU General Public License|GPL]] or [[Artistic License]]
-|website =[http://www.perl.org www.perl.org]
+|license =
+[[GNU General Public License<br />
+[[Artistic License]]
+|website = http://www.perl.org/
 }}
-'''Perl''', also '''Practical Extraction and Report Language''' (a [[backronym]], see [[#Name|below]]) is a [[dynamic programming language|dynamic]] procedural programming language designed by [[Larry Wall]] and first released in [[1987]]. Perl borrows features from [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[AWK programming language|AWK]], [[sed]], [[Lisp programming language|Lisp]], and, to a lesser extent, many other programming languages.
 
-==Overview==
+'''Perl''' is a [[dynamic programming language]] designed by [[Larry Wall]] and first released in 1987. Perl borrows features from a variety of pother languages including [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[AWK programming language|AWK]], [[sed]] and [[Lisp programming language|Lisp]].
 
-The perlintro(1) [[man page]] <!-- sic. 'man' is short for 'manual' --> states:
+== Overview ==
 
-:Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more.
+Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more.
 
-:The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal). Its major features are that it's easy to use, supports both procedural and [[Object-oriented programming|object-oriented]] (OO) programming, has powerful built-in support for text processing, and has a large collection of third-party [[Module (programming)|modules]].
+The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal). Its major features are that it is easy to use, supports both [[procedural programming language|procedural]] and [[Object-oriented programming]], has powerful built-in support for text processing, and has a large collection of third-party [[Module (programming)|modules]].<ref>perlintro(1) [[man page]]</ref>
 
-===Features===
-The overall structure of Perl derives broadly from the programming language [[C programming language|C]]. Perl is a [[procedural programming language]], with [[variable]]s, [[expression (programming)|expression]]s, [[assignment statement]]s, [[brace]]-delimited [[code block]]s, [[control structure]]s, and [[subroutine]]s.
+=== Features ===
 
-Perl also takes features from [[Shell (computing)|shell]] programming. All variables are marked with leading [[Sigil (computer programming)|sigil]]s. Sigils unambiguously identify variable names, allowing Perl to have a rich syntax. Importantly, sigils allow variables to be interpolated directly into strings. Like the Unix shells, Perl has many built-in functions for common tasks, like sorting, and for accessing system facilities.
+The overall structure of Perl derives broadly from C. Perl is a procedural in nature, with [[variable]]s, [[expression (programming)|expression]]s, [[assignment statement]]s, [[brace]]-delimited [[code block]]s, [[control structure]]s, and [[subroutine]]s.
 
-Perl takes [[List (computing)|lists]] from [[Lisp programming language|Lisp]], [[associative array]]s from [[AWK programming language|AWK]], and [[regular expressions]] from [[sed]]. These simplify and facilitate many parsing, text handling, and data management tasks.
+Perl also takes features from shell programming. All variables are marked with leading [[sigil (computer programming)|sigil]]s. Sigils unambiguously identify variable names, allowing Perl to have a rich syntax. Importantly, sigils allow variables to be interpolated directly into strings. Like the Unix shells, Perl has many built-in functions for common tasks, like sorting, and for accessing system facilities.
 
-In Perl 5, features were added that support complex [[data structure]]s, [[first-class function]]s (i.e. [[Closure (computer science)|closures]] as values), and an [[object-oriented programming]] model. These include [[reference (computer science)|reference]]s, packages, class-based method dispatch, and [[Scope (programming)|lexically scoped variables]], along with [[compiler directive]]s (for example, the <tt>strict</tt> pragma). A major additional feature introduced with Perl 5 was the ability to package code as reusable modules. Larry Wall later stated that "The whole intent of Perl 5's module system was to encourage the growth of Perl culture rather than the Perl core."<ref>Usenet post, May 10th 1997, with ID 199705101952.MAA00756@wall.org.</ref>
+Perl takes [[List (computing)|lists]] from Lisp, [[associative array]]s from AWK, and [[regular expression]]s from sed. These simplify and facilitate many parsing, text handling, and data management tasks.
+
+In Perl 5, features were added that support complex [[data structure]]s, [[first-class function]]s (i.e. [[Closure (computer science)|closures]] as values), and an object-oriented programming model. These include [[reference (computer science)|reference]]s, packages, class-based method dispatch, and [[Scope (programming)|lexically scoped variables]], along with [[compiler directive]]s (for example, the <tt>strict</tt> pragma). A major additional feature introduced with Perl 5 was the ability to package code as reusable modules. Larry Wall later stated that "The whole intent of Perl 5's module system was to encourage the growth of Perl culture rather than the Perl core."<ref>Usenet post, May 10th 1997, with ID 199705101952.MAA00756@wall.org.</ref>
 
 All versions of Perl do automatic data typing and [[memory management]]. The interpreter knows the type and storage requirements of every data object in the program; it allocates and frees storage for them as necessary. Legal type conversions are done automatically at run time; illegal type conversions are fatal errors.
 
