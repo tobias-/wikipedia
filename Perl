@@ -475,37 +475,19 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 </div>
 
 == External links ==
+<!-- some of these should be referenced in the article as opposed to just flung in here. -->
 
+*[http://www.perl.org/ Perl.org] - Official Perl website
+*[http://perldoc.perl.org/ Perldoc at Perl.org] - online Perl documentation
+*[http://dev.perl.org/ Perl development]
+*[http://www.pugscode.org/ Pugs] &ndash; Perl 6 running on top of Haskell
+*[http://www.indigostar.com/indigoperl.htm IndigoPerl] - another distribution of Perl for Microsoft Windows
+*[http://cslibrary.stanford.edu/108/ A quick guide to learn Perl] - Stanford Library
 *[http://en.wikibooks.org/wiki/Programming:Perl/Humour Perl humour on Wikibooks]
-*[http://search.cpan.org/perldoc?Lingua::Romana::Perligata Lingua::Romana::Perligata - Write Perl in Latin!]
-*[http://www.perlmonks.org/index.pl?node_id=253797 A tutorial on Perligata]
 *[http://www.softpanorama.org/Bulletin/Humor/humor092.html Perl Purity Test]
 *[http://groups.google.com/groups?selm=4628%40sdcrdcf.UUCP First reference to "Perl" on Usenet]
 *[http://dev.perl.org/perl1/ The origin of Perl] &ndash; "Stability. Speed. Simplicity. perl1 is here."
 *[http://history.perl.org/PerlTimeline.html The Perl Timeline]
-
-The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.gz source distribution]. They are available on the web from http://perldoc.perl.org/. Some good starting points are:
-
-*[http://perldoc.perl.org/perlintro.html perlintro]- a brief introduction and overview of Perl
-*[http://perldoc.perl.org/perlsyn.html perlsyn]- Perl syntax
-*[http://perldoc.perl.org/perlre.html perlre]- Perl regular expressions
-*[http://perldoc.perl.org/perldelta.html perl5''xy''delta]- what is new for perl v5.''x''.''y''
-
-*[http://www.perl.org/ Perl.org] &ndash; The Perl Directory
-*[http://perldoc.perl.org/ Perldoc at Perl.org] &ndash; online Perl documentation
-
-*[http://dev.perl.org/perl5/ Perl 5 development]
-*[http://dev.perl.org/perl6/ Perl 6 development]
-*[http://www.pugscode.org/ Pugs] &ndash; Perl 6 running on top of Haskell
-
-*[http://www.pm.org/ Perl Mongers] &ndash; local user groups in cities worldwide
-
-*[http://www.cpan.org/ The CPAN] &ndash; Comprehensive Perl Archive Network, Perl source distribution
-*[http://www.indigostar.com/indigoperl.htm IndigoPerl] &ndash; another distribution of Perl for Microsoft Windows
-
-*[http://cslibrary.stanford.edu/108/ A quick guide to learn Perl] - Stanford Library
-*[http://bioperl.org BioPerl] - a large package of Perl modules used for [[bioinformatics]]
-*[http://history.perl.org/PerlTimeline.html The Timeline of Perl and its Culture v3.0_0505]
 
 [[Category:Perl| ]]
 [[Category:Curly bracket programming languages]]
