@@ -30,7 +30,7 @@
 | website = http://www.perl.org/
 }}
 
-'''Perl''' is a [[dynamic programming language]] designed by [[Larry Wall]] and first released in 1987. Perl borrows features from a variety of pother languages including [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[AWK programming language|AWK]], [[sed]] and [[Lisp programming language|Lisp]].
+'''Perl''' is a [[dynamic programming language]] designed by [[Larry Wall]] and first released in 1987. Perl borrows features from a variety of other languages including [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[AWK programming language|AWK]], [[sed]] and [[Lisp programming language|Lisp]].
 
 == Overview ==
 
