@@ -32,36 +32,21 @@
 
 '''Perl''' is a [[dynamic programming language]] designed by [[Larry Wall]] and first released in 1987. Perl borrows features from a variety of other languages including [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[AWK programming language|AWK]], [[sed]] and [[Lisp programming language|Lisp]].
 
-==Origins==
-===History===
-Larry Wall began work on Perl in 1987, while working as a programmer at [[Unisys]],<ref name="larry-wall-snippet">{{cite web|title=Larry Wall|url=http://www.perl.com/pub/au/Wall_Larry|accessdate=2006-08-20}}</ref> and released version 1.0 to the comp.sources.misc [[newsgroup]] on [[December 18]], [[1987]]. The language expanded rapidly over the next few years. Perl 2, released in 1988, featured a better regular expression engine. Perl 3, released in 1989, added support for binary data.
+== History ==
 
-Until 1991, the only documentation for Perl was a single (increasingly lengthy) [[Unix manual|man page]]. In 1991, ''[[Programming Perl]]'' (the Camel Book) was published, and became the ''de facto'' reference for the language. At the same time, the Perl version number was bumped to 4, not to mark a major change in the language, but to identify the version that was documented by the book.
+Wall began work on Perl in 1987, while working as a programmer at [[Unisys]],<ref name="larry-wall-snippet">{{cite web|title=Larry Wall|url=http://www.perl.com/pub/au/Wall_Larry|accessdate=2006-08-20}}</ref> and released version 1.0 to the comp.sources.misc [[newsgroup]] on [[December 18]] [[1987]]. The language expanded rapidly over the next few years. Perl 2, released in 1988, featured a better regular expression engine. Perl 3, released in 1989, added support for binary data.
+
+Until 1991, the only documentation for Perl was a single (increasingly lengthy) [[man page]]. In 1991, ''[[Programming Perl]]'' (the Camel Book) was published, and became the ''de facto'' reference for the language. At the same time, the Perl version number was bumped to 4, not to mark a major change in the language, but to identify the version that was documented by the book.
 
 Perl 4 went through a series of maintenance releases, culminating in Perl 4.036 in 1993. At that point, Larry Wall abandoned Perl 4 to begin work on Perl 5. Perl 4 remains at version 4.036 to this day.
 
 Development of Perl 5 continued into 1994. The perl5-porters mailing list was established in May 1994 to coordinate work on porting Perl 5 to different platforms. It remains the primary forum for development, maintenance, and porting of Perl 5.
 
-Perl 5 was released on [[October 17]], [[1994]]. It was a nearly complete rewrite of the interpreter, and added many new features to the language, including objects, references, packages, and modules. Importantly, modules provided a mechanism for extending the language without modifying the interpreter. This allowed the core interpreter to stabilize, even as it enabled ordinary Perl programmers to add new language features.
+Perl 5 was released on [[October 17]] [[1994]]. It was a nearly complete rewrite of the interpreter, and added many new features to the language, including objects, references, packages, and modules. Importantly, modules provided a mechanism for extending the language without modifying the interpreter. This allowed the core interpreter to stabilize, even as it enabled ordinary Perl programmers to add new language features.
 
-On [[October 26]], [[1995]], the [[Comprehensive Perl Archive Network]] (the CPAN) was established. The CPAN is a collection of web sites that archive and distribute Perl sources, binary distributions, documentation, scripts, and modules. Originally, each CPAN site had to be accessed through its own URL. Today, the single URL [http://www.cpan.org http://www.cpan.org] automatically redirects to one of several hundred CPAN mirror sites.
+On [[October 26]] [[1995]], the [[Comprehensive Perl Archive Network]] (CPAN) was established. The CPAN is a collection of web sites that archive and distribute Perl sources, binary distributions, documentation, scripts, and modules.
 
 [[As of 2006]], Perl 5 is still being actively maintained. Important features and some essential new language constructs have been added along the way, including [[Unicode]] support, [[Thread (computer science)|threads]], an improved support for [[object oriented programming]] and many other enhancements. The latest stable release is Perl 5.8.8.
-
-===Design===
-The design of Perl can be understood as a response to three broad trends in the computer industry: falling hardware costs, rising labor costs, and improvements in compiler technology. Many earlier computer languages, such as [[Fortran]] and C, were designed to make efficient use of expensive computer hardware. In contrast, Perl  is designed to make efficient use of expensive computer programmers.
-
-Perl has many features that ease the programmer's task at the expense of greater CPU and memory requirements. These include automatic memory management; [[dynamic typing]]; strings, lists, and hashes; regular expressions; introspection and an <tt>eval()</tt> function.
-
-Larry Wall was trained as a linguist, and the design of Perl is very much informed by linguistic principles. Examples include [[Huffman coding]] (common constructions should be short), good end-weighting (the important information should come first), and a large collection of language primitives. Perl favors language constructs that are natural for humans to read and write, even where they complicate the Perl interpreter. 
-
-Perl syntax reflects the idea that "things that are different should look different".  For example, scalars, arrays, and hashes have different leading [[Sigil (computer programming)|sigils]]. Array indices and hash keys use different kinds of braces. Strings and regular expressions have different standard delimiters.  This approach can be contrasted with languages like [[Lisp programming language|Lisp]], where the same [[S-expression]] construct and basic syntax is used for many different purposes.
-
-Perl has features that support a variety of programming paradigms, such as [[Procedural programming|procedural]], [[Functional programming|functional]], and [[Object-oriented programming|object-oriented]]. At the same time, Perl does not enforce any particular paradigm, or even require the programmer to choose among them. 
-
-There is a broad practical bent to both the Perl language and the community and culture that surround it. The preface to ''[[Programming Perl]]'' begins, "Perl is a language for getting your job done." One consequence of this is that Perl is not a tidy language. It includes features if people use them, tolerates exceptions to its rules, and employs heuristics to resolve syntactical ambiguities. Because of the forgiving nature of the compiler, bugs can be hard to find sometimes. Discussing the variant behaviour of built-in functions in list and scalar contexts, the perlfunc(1) manual page says "In general, they do what you want, unless you want consistency."
-
-Perl has several mottos that convey aspects of its design and use. One is ''"[[There's more than one way to do it]]."'' (TMTOWTDI, usually pronounced 'Tim Toady'). Others are ''"Perl: the Swiss Army Chainsaw of Programming Languages"'' and ''"No unnecessary limits"''. A stated design goal of Perl is to make easy tasks easy and difficult tasks possible.  Perl has also been called ''"The Duct Tape of the Internet"''.
 
 === Name ===
 
@@ -75,11 +60,6 @@ The language is occasionally given as "PERL" (for '''P'''ractical '''E'''xtracti
 
 Perl is generally symbolized by a camel, which was a result of the picture chosen by publisher [[O'Reilly Media]] for the cover of ''Programming Perl'', which consequently acquired the name ''The Camel Book''.<ref name="larry-wall-snippet"/> O'Reilly owns the symbol as a trademark, but claims to use their legal rights only to protect the ''"integrity and impact of that symbol"'' [http://perl.oreilly.com/usage/]. 
 O'Reilly allows non-commercial use of the symbol, and provides [http://www.oreillynet.com/images/perl/sm_perl_id_bk_wt.gif Programming Republic of Perl] logos (see above) and [http://www.oreillynet.com/images/perl/powered_by_perl.gif Powered by Perl] buttons.
-
-===Related links===
-*[http://groups.google.com/groups?selm=4628%40sdcrdcf.UUCP First reference to "Perl" on Usenet]
-*[http://dev.perl.org/perl1/ The origin of Perl] &ndash; "Stability. Speed. Simplicity. perl1 is here."
-*[http://history.perl.org/PerlTimeline.html The Perl Timeline]
 
 == Overview ==
 
@@ -98,6 +78,22 @@ Perl takes [[List (computing)|lists]] from Lisp, [[associative array]]s from AWK
 In Perl 5, features were added that support complex [[data structure]]s, [[first-class function]]s (i.e. [[Closure (computer science)|closures]] as values), and an object-oriented programming model. These include [[reference (computer science)|reference]]s, packages, class-based method dispatch, and [[Scope (programming)|lexically scoped variables]], along with [[compiler directive]]s (for example, the <tt>strict</tt> pragma). A major additional feature introduced with Perl 5 was the ability to package code as reusable modules. Larry Wall later stated that "The whole intent of Perl 5's module system was to encourage the growth of Perl culture rather than the Perl core."<ref>Usenet post, May 10th 1997, with ID 199705101952.MAA00756@wall.org.</ref>
 
 All versions of Perl do automatic data typing and [[memory management]]. The interpreter knows the type and storage requirements of every data object in the program; it allocates and frees storage for them as necessary. Legal type conversions are done automatically at run time; illegal type conversions are fatal errors.
+
+=== Design ===
+
+The design of Perl can be understood as a response to three broad trends in the computer industry: falling hardware costs, rising labor costs, and improvements in compiler technology. Many earlier computer languages, such as [[Fortran]] and C, were designed to make efficient use of expensive computer hardware. In contrast, Perl  is designed to make efficient use of expensive computer programmers.
+
+Perl has many features that ease the programmer's task at the expense of greater CPU and memory requirements. These include automatic memory management; [[dynamic typing]]; strings, lists, and hashes; regular expressions; introspection and an <tt>eval()</tt> function.
+
+Wall was trained as a linguist, and the design of Perl is very much informed by linguistic principles. Examples include [[Huffman coding]] (common constructions should be short), good end-weighting (the important information should come first), and a large collection of language primitives. Perl favors language constructs that are natural for humans to read and write, even where they complicate the Perl interpreter. 
+
+Perl syntax reflects the idea that "things that are different should look different".  For example, scalars, arrays, and hashes have different leading [[Sigil (computer programming)|sigils]]. Array indices and hash keys use different kinds of braces. Strings and regular expressions have different standard delimiters.  This approach can be contrasted with languages like [[Lisp programming language|Lisp]], where the same [[S-expression]] construct and basic syntax is used for many different purposes.
+
+Perl has features that support a variety of programming paradigms, such as [[Procedural programming|procedural]], [[Functional programming|functional]], and [[Object-oriented programming|object-oriented]]. At the same time, Perl does not enforce any particular paradigm, or even require the programmer to choose among them. 
+
+There is a broad practical bent to both the Perl language and the community and culture that surround it. The preface to ''Programming Perl'' begins, "Perl is a language for getting your job done." One consequence of this is that Perl is not a tidy language. It includes features if people use them, tolerates exceptions to its rules, and employs heuristics to resolve syntactical ambiguities. Because of the forgiving nature of the compiler, bugs can be hard to find sometimes. Discussing the variant behaviour of built-in functions in list and scalar contexts, the perlfunc(1) manual page says "In general, they do what you want, unless you want consistency."
+
+Perl has several mottos that convey aspects of its design and use. One is ''"[[There's more than one way to do it]]."'' (TMTOWTDI, usually pronounced 'Tim Toady'). Others are ''"Perl: the Swiss Army Chainsaw of Programming Languages"'' and ''"No unnecessary limits"''. A stated design goal of Perl is to make easy tasks easy and difficult tasks possible.  Perl has also been called ''"The Duct Tape of the Internet"''.
 
 === Applications ===
 
@@ -452,14 +448,9 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[http://search.cpan.org/dist/Acme-VerySign/ Acme::VerySign] satirizes the widely-criticized [[VeriSign]] [[Site Finder]] service
 *[http://search.cpan.org/~dconway/Acme-Don-t-1.01/t.pm Acme::Don't] implements the logical opposite of the <tt>do</tt> keyword&mdash;<tt>don't</tt>, which does not execute the provided block.
 
-===Related links===
-*[http://en.wikibooks.org/wiki/Programming:Perl/Humour Perl humour on Wikibooks]
-*[http://search.cpan.org/perldoc?Lingua::Romana::Perligata Lingua::Romana::Perligata - Write Perl in Latin!]
-*[http://www.perlmonks.org/index.pl?node_id=253797 A tutorial on Perligata]
-*[http://www.softpanorama.org/Bulletin/Humor/humor092.html Perl Purity Test]
-
-==See also==
+== See also ==
 {{portalpar|Free software}}
+
 *[[Perl 6]]
 *[[CPAN]]
 *[[The Perl Foundation]]
@@ -477,12 +468,22 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[[Perl Cookbook]], ISBN 0-596-00313-7
 *[[Tcl]]
 
-==Notes==
+== References ==
+
+<div class="references-small">
 <references />
+</div>
 
-==External links==
+== External links ==
 
-===Perl man pages===
+*[http://en.wikibooks.org/wiki/Programming:Perl/Humour Perl humour on Wikibooks]
+*[http://search.cpan.org/perldoc?Lingua::Romana::Perligata Lingua::Romana::Perligata - Write Perl in Latin!]
+*[http://www.perlmonks.org/index.pl?node_id=253797 A tutorial on Perligata]
+*[http://www.softpanorama.org/Bulletin/Humor/humor092.html Perl Purity Test]
+*[http://groups.google.com/groups?selm=4628%40sdcrdcf.UUCP First reference to "Perl" on Usenet]
+*[http://dev.perl.org/perl1/ The origin of Perl] &ndash; "Stability. Speed. Simplicity. perl1 is here."
+*[http://history.perl.org/PerlTimeline.html The Perl Timeline]
+
 The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.gz source distribution]. They are available on the web from http://perldoc.perl.org/. Some good starting points are:
 
 *[http://perldoc.perl.org/perlintro.html perlintro]- a brief introduction and overview of Perl
@@ -490,27 +491,21 @@ The Perl man pages are included in the Perl [http://www.cpan.org/src/stable.tar.
 *[http://perldoc.perl.org/perlre.html perlre]- Perl regular expressions
 *[http://perldoc.perl.org/perldelta.html perl5''xy''delta]- what is new for perl v5.''x''.''y''
 
-===Major resources===
 *[http://www.perl.org/ Perl.org] &ndash; The Perl Directory
 *[http://perldoc.perl.org/ Perldoc at Perl.org] &ndash; online Perl documentation
 
-===Development===
 *[http://dev.perl.org/perl5/ Perl 5 development]
 *[http://dev.perl.org/perl6/ Perl 6 development]
 *[http://www.pugscode.org/ Pugs] &ndash; Perl 6 running on top of Haskell
 
-===Support===
 *[http://www.pm.org/ Perl Mongers] &ndash; local user groups in cities worldwide
 
-===Distributions===
 *[http://www.cpan.org/ The CPAN] &ndash; Comprehensive Perl Archive Network, Perl source distribution
 *[http://www.indigostar.com/indigoperl.htm IndigoPerl] &ndash; another distribution of Perl for Microsoft Windows
 
-===Miscellaneous===
 *[http://cslibrary.stanford.edu/108/ A quick guide to learn Perl] - Stanford Library
 *[http://bioperl.org BioPerl] - a large package of Perl modules used for [[bioinformatics]]
 *[http://history.perl.org/PerlTimeline.html The Timeline of Perl and its Culture v3.0_0505]
-
 
 [[Category:Perl| ]]
 [[Category:Curly bracket programming languages]]
