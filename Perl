@@ -414,6 +414,8 @@ A number of features in the Perl 6 language now show similarities with Haskell, 
 In 2006, an effort was started to have Windows Perl distributions ship with a compiler, in order to make the need for binary packages on Windows redundant. Some early results of this include the [http://camelpack.sourceforge.net/ CamelPack] macro-installer and [http://win32.perl.org/wiki/index.php?title=Vanilla_Perl Vanilla Perl] distributions.
 
 ==Fun with Perl==
+<!-- this belongs on wikibooks: [[wikibooks:Programming:Perl/Humour]] -->
+
 As with C, [[obfuscated code]] competitions are a popular feature of Perl culture. The annual [[Obfuscated Perl contest]] makes an arch virtue of Perl's [[syntax|syntactic]] flexibility. The following program prints the text "Just another Perl / Unix hacker", using 32 concurrent processes coordinated by pipes. A complete explanation is available on the [http://perl.plover.com/obfuscated/ author's Web site].
 
 <!-- This code is used with permission. See Talk: page. -->
