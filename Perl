@@ -417,7 +417,9 @@ In 2006, an effort was started to have Windows Perl distributions ship with a co
 ==Fun with Perl==
 <!-- this belongs on wikibooks: [[wikibooks:Programming:Perl/Humour]] -->
 
-As with C, [[obfuscated code]] competitions are a popular feature of Perl culture. The annual [[Obfuscated Perl contest]] makes an arch virtue of Perl's [[syntax|syntactic]] flexibility. The following program prints the text "Just another Perl / Unix hacker", using 32 concurrent processes coordinated by pipes. A complete explanation is available on the [http://perl.plover.com/obfuscated/ author's Web site].
+Perl has a strong culture with many traditions, several of which are practiced purely for recreational value.
+
+As with C, [[obfuscated code]] competitions are the most well-known pastime. The annual [[Obfuscated Perl contest]] makes an arch virtue of Perl's [[syntax|syntactic]] flexibility. The following program prints the text "Just another Perl / Unix hacker", using 32 concurrent processes coordinated by pipes. A complete explanation is available on the [http://perl.plover.com/obfuscated/ author's Web site].
 
 <!-- This code is used with permission. See Talk: page. -->
  <nowiki>
@@ -426,21 +428,21 @@ As with C, [[obfuscated code]] competitions are a popular feature of Perl cultur
  ($p{$_})&6];$p{$_}=/ ^$P/ix?$P:close$_}keys%p}p;p;p;p;p;map{$p{$_}=~/^[P.]/&&
  close$_}%p;wait until$?;map{/^r/&&<$_>}%p;$_=$d[$q];sleep rand(2)if/\S/;print</nowiki>
 
-Similar to obfuscated code but with a different purpose, "Perl Poetry" is the practice of writing poems that can actually be compiled as legal (although generally non-sensical) Perl code. This hobby is more or less unique to Perl due to the large number of regular English words used in the language. New poems are regularly published in the [[Perl Monks]] site's [http://www.perlmonks.org/index.pl?node=Perl%20Poetry Perl Poetry] section.
+This is also an example of a discipline similar to obfuscated code, but somewhat distinct from it, known as the "JAPH." In the parlance of Perl culture, Perl [[programmer]]s are known as Perl [[hacker]]s, and from this derives the practice of writing short programs to print out the phrase "[[Just another Perl hacker]],". In the spirit of the original concept, these programs are moderately obfuscated and short enough to fit into the [[signature]] of an email or [[Usenet]] message. The "canonical" JAPH includes the comma at the end, although this is often omitted. Many variants on the theme have been created, eg. [http://www.perlmonks.org/index.pl?node_id=292135], which prints "Just Another Perl Pirate!".
 
-Another popular pastime is "Perl Golf." As with [[Golf|the physical sport]], the goal is to reduce the number of strokes that it takes to complete a particular objective, but here "strokes" refers to keystrokes rather than swings of a golf club. A task, such as "scan an input string and return the longest [[palindrome]] that it contains", is proposed and participants try to outdo each other by writing solutions that require fewer and fewer characters of Perl source code.
+Another popular diversion is "Perl Golf," which has the same goal as [[Golf|the physical sport]]: to reduce the number of strokes that it takes to complete a particular objective. In this context, "strokes" refers to keystrokes, rather than swings of a golf club. Objectives are narrowly defined non-trivial tasks, such as "scan an input string and return the longest [[palindrome]] that it contains." Participants try to outdo each other by writing solutions that require ever fewer characters of Perl source code.
 
-Another tradition among Perl [[programmer]]s (sometimes known as Perl [[hacker]]s) is writing JAPHs, which are short obfuscated programs that print out the phrase "[[Just another Perl hacker]],". The "canonical" JAPH includes the comma at the end, although this is often omitted, and many variants on the theme have been created (example: [http://www.perlmonks.org/index.pl?node_id=292135], which prints "Just Another Perl Pirate!").
+Similar to obfuscated code and golf, but with a different purpose, "Perl Poetry" is the practice of writing poems that can actually be compiled as legal (although generally non-sensical) Perl code. This hobby is more or less unique to Perl due to the large number of regular English words used in the language. New poems are regularly published in the [[Perl Monks]] site's [http://www.perlmonks.org/index.pl?node=Perl+Poetry Perl Poetry] section.
 
-One interesting Perl module is [http://www.csse.monash.edu.au/~damian/papers/HTML/Perligata.html Lingua::Romana::Perligata] (or [http://search.cpan.org/dist/Lingua-Romana-Perligata/ on CPAN]). This module translates the source code of a script that uses it from Latin into Perl, allowing the programmer to write executable programs in [[Latin]].
+There are also many examples of code written purely for entertainment on the [[CPAN]]. Examples include the module [http://www.csse.monash.edu.au/~damian/papers/HTML/Perligata.html Lingua::Romana::Perligata] (or [http://search.cpan.org/dist/Lingua-Romana-Perligata/ on CPAN]), which allows writing programs in [[Latin]]. Upon execution of such a program, the module translates its source code into regular Perl.
 
-The Perl community has set aside the "[[Acme]]" namespace for modules that are fun or experimental in nature.  Some of the Acme modules are deliberately implemented in amusing ways.  Some examples:
+The Perl community has set aside the "[[Acme]]" namespace for modules that are fun in nature (but its scope has widened to include exploratory or experimental code or any other module that is not meant to ever be used in production). Some of the Acme modules are deliberately implemented in amusing ways.  Some examples:
 *[http://search.cpan.org/dist/Acme-Bleach/ Acme::Bleach], one of the [http://use.perl.org/~acme/journal/200 first modules in the Acme:: namespace], allows the program's source code to be "whitened" (i.e., all characters replaced with whitespace) and yet still work.  This is an example of a [[source filter]].  There are also a number of other source filters in the Acme namespace.
 *[http://search.cpan.org/dist/Acme-Hello/ Acme::Hello] simplifies the process of writing a "Hello, World!" program
 *[http://search.cpan.org/dist/Acme-Currency/ Acme::Currency] allows you to change the "$" prefix for scalar variables to some other character
 *[http://search.cpan.org/dist/Acme-ProgressBar/ Acme::ProgressBar] is a purposefully horribly inefficient way to indicate progress for a task
 *[http://search.cpan.org/dist/Acme-VerySign/ Acme::VerySign] satirizes the widely-criticized [[VeriSign]] [[Site Finder]] service
-*[http://search.cpan.org/~dconway/Acme-Don-t-1.01/t.pm Acme::Don't] implements the logical opposite of the <tt>do</tt> keyword&mdash;<tt>don't</tt>, which does not execute the provided block.
+*[http://search.cpan.org/~dconway/Acme-Don-t-1.01/t.pm Acme::Don't] implements the logical opposite of the <tt>do</tt> keyword: the <tt>don't</tt> keyword, which takes a block that it does not execute.
 
 == See also ==
 {{portalpar|Free software}}
