@@ -419,7 +419,7 @@ In 2006, an effort was started to have Windows Perl distributions ship with a co
 
 Perl has a strong culture with many traditions, several of which are practiced purely for recreational value.
 
-As with C, [[obfuscated code]] competitions are the most well-known pastime. The annual [[Obfuscated Perl contest]] makes an arch virtue of Perl's [[syntax|syntactic]] flexibility. The following program prints the text "Just another Perl / Unix hacker", using 32 concurrent processes coordinated by pipes. A complete explanation is available on the [http://perl.plover.com/obfuscated/ author's Web site].
+As with C, [[obfuscated code]] competitions are the most well-known pastime. The annual [[Obfuscated Perl contest]] made an arch virtue of Perl's [[syntax|syntactic]] flexibility. The following program prints the text "Just another Perl / Unix hacker", using 32 concurrent processes coordinated by pipes. A complete explanation is available on the [http://perl.plover.com/obfuscated/ author's Web site].
 
 <!-- This code is used with permission. See Talk: page. -->
  <nowiki>
