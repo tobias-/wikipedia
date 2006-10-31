@@ -104,7 +104,7 @@ Perl  has been used since the early days of the Web to write [[Common Gateway In
 
 Perl is often used as a [[glue language]], tying together systems and interfaces that were not specifically designed to interoperate, and for "data munging", converting or processing large amounts of data for tasks like creating reports. In fact, these strengths are intimately linked. The combination makes perl a popular all-purpose tool for [[system administrator]]s, particularly as short programs can be entered and run on a single command line.
 
-Perl is also widely used in finance and [[bioinformatics]], where it is valued for rapid application development and deployment, the ability to handle large data sets.
+Perl is also widely used in finance and [[bioinformatics]], where it is valued for rapid application development and deployment, and the ability to handle large data sets.
 
 ===Implementation===
 Perl is implemented as a core interpreter, written in C, together with a large collection of modules, written in Perl and C. The source distribution is, [[as of 2005]], 12 [[megabyte|MB]] when packaged in a [[Tar (file format)|tar file]] and [[data compression|compressed]]. The interpreter is 150,000 lines of C code and compiles to a 1 MB executable on typical machine architectures. Alternatively, the interpreter can be compiled to a link library and embedded in other programs. There are nearly 500 modules in the distribution, comprising 200,000 lines of Perl and an additional 350,000 lines of C code. Much of the C code in the modules consists of character encoding tables.
