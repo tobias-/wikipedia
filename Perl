@@ -482,6 +482,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 * [http://www.tpj.com/ The Perl Journal online] - The original Perl print periodical.
 * [http://www.perl.com/pub/a/2000/01/10PerlMyths.html Ten Perl Myths] - O'Reilly
 * [http://fortunes.quotationsbook.com/fortunes/collection/52/PERL Perl fortunes] - Collected quotes from Larry Wall.
+*[http://www.thescriptlibrary.com/default.asp?Action=Browse&Level=ScriptLanguage&ScriptLanguage=Perl The Script Library : A collection of free scripts of many languages such as VBScript, Javascript, Perl, Rexx, Python and others. Free submission makes this resource a steadily growing one]
 
 [[Category:Perl|*]]
 [[Category:Curly bracket programming languages]]
