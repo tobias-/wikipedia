@@ -146,7 +146,7 @@ The first line is the [[Shebang (Unix)|shebang]], which tells the operating syst
 The ''#'' sign on the third line is a 'comment [[token (parser)|token]]', which allows the perl interpreter to ignore everything after the ''#'' sign, up to the end of the line of code.
 
 The shebang is the usual way to invoke the interpreter on Unix systems.
-Windows systems may rely on the shebang, or they may associate a <tt>.pl</tt> [[Filename extension|file extension]] with the Perl interpreter.  Some text editors also use the shebang line as a hint about what mode to operate in. Because the shebang starts with the ''#'' sign, the line is treated as a comment and ignored by the perl interpreter.
+Windows systems may rely on the shebang, or they may associate a <tt>.pl</tt> [[Filename extension|file extension]] with the Perl interpreter.  Some text editors also use the shebang line as a hint about what mode to operate in.  If the program is executed by perl and not invoked via the shell, the line starting with the shebang is parsed for options, and otherwise ignored. For details see [http://perldoc.perl.org/perlrun.html#DESCRIPTION the perlrun manpage].
 
 === Data types ===
 
