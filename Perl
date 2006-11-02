@@ -66,19 +66,19 @@ O'Reilly allows non-commercial use of the symbol, and provides [http://www.oreil
 
 Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more.
 
-The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal). Its major features are that it is easy to use, supports both [[procedural programming language|procedural]] and [[Object-oriented programming]], has powerful built-in support for text processing, and has a large collection of third-party [[Module (programming)|modules]].<ref>perlintro(1) [[man page]]</ref>
+The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal).<ref>perlintro(1) [[man page]]</ref> Its major features include support for multiple programming paradigms ([[procedural programming language|procedural]], [[Object-oriented programming | object-oriented]], and [[functional programming | functional]] styles), automatic [[memory management]], built-in support for text processing, and a large collection of third-party [[Module (programming)|modules]].
 
 === Features ===
 
 The overall structure of Perl derives broadly from C. Perl is procedural in nature, with [[variable]]s, [[expression (programming)|expression]]s, [[assignment statement]]s, [[bracket|brace]]-delimited [[code block]]s, [[control structure]]s, and [[subroutine]]s.
 
-Perl also takes features from shell programming. All variables are marked with leading [[sigil (computer programming)|sigil]]s. Sigils unambiguously identify variable names, allowing Perl to have a rich syntax. Importantly, sigils allow variables to be interpolated directly into strings. Like the Unix shells, Perl has many built-in functions for common tasks, like sorting, and for accessing system facilities.
+Perl also takes features from shell programming. All variables are marked with leading [[sigil (computer programming)|sigil]]s, which unambiguously identify the data type (scalar, array, hash, etc.) of the variable in context. Importantly, sigils allow variables to be interpolated directly into strings. Like the Unix shells, Perl has many built-in functions for common tasks, like sorting, and for accessing system facilities.
 
 Perl takes [[List (computing)|lists]] from Lisp, [[associative array]]s (hashes) from AWK, and [[regular expression]]s from sed. These simplify and facilitate many parsing, text handling, and data management tasks.
 
 In Perl 5, features were added that support complex [[data structure]]s, [[first-class function]]s (i.e. [[Closure (computer science)|closures]] as values), and an object-oriented programming model. These include [[reference (computer science)|reference]]s, packages, class-based method dispatch, and [[Scope (programming)|lexically scoped variables]], along with [[compiler directive]]s (for example, the <tt>strict</tt> pragma). A major additional feature introduced with Perl 5 was the ability to package code as reusable modules. Larry Wall later stated that "The whole intent of Perl 5's module system was to encourage the growth of Perl culture rather than the Perl core."<ref>Usenet post, May 10th 1997, with ID 199705101952.MAA00756@wall.org.</ref>
 
-All versions of Perl do automatic data typing and [[memory management]]. The interpreter knows the type and storage requirements of every data object in the program; it allocates and frees storage for them as necessary. Legal type conversions are done automatically at run time; illegal type conversions are fatal errors.
+All versions of Perl do automatic data typing and memory management. The interpreter knows the type and storage requirements of every data object in the program; it allocates and frees storage for them as necessary. Legal type conversions are done automatically at run time; illegal type conversions are fatal errors.
 
 === Design ===
 
@@ -90,7 +90,7 @@ Wall was trained as a linguist, and the design of Perl is very much informed by 
 
 Perl syntax reflects the idea that "things that are different should look different".  For example, scalars, arrays, and hashes have different leading [[Sigil (computer programming)|sigils]]. Array indices and hash keys use different kinds of braces. Strings and regular expressions have different standard delimiters.  This approach can be contrasted with languages like [[Lisp programming language|Lisp]], where the same [[S-expression]] construct and basic syntax is used for many different purposes.
 
-Perl has features that support a variety of programming paradigms, such as [[Procedural programming|procedural]], [[Functional programming|functional]], and [[Object-oriented programming|object-oriented]]. At the same time, Perl does not enforce any particular paradigm, or even require the programmer to choose among them. 
+Perl does not enforce any particular programming paradigm (procedural, object-oriented, functional, etc.), or even require the programmer to choose among them. 
 
 There is a broad practical bent to both the Perl language and the community and culture that surround it. The preface to ''Programming Perl'' begins, "Perl is a language for getting your job done." One consequence of this is that Perl is not a tidy language. It includes features if people use them, tolerates exceptions to its rules, and employs heuristics to resolve syntactical ambiguities. Because of the forgiving nature of the compiler, bugs can be hard to find sometimes. Discussing the variant behaviour of built-in functions in list and scalar contexts, the perlfunc(1) manual page says "In general, they do what you want, unless you want consistency."
 
