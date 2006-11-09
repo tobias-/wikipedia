@@ -16,7 +16,6 @@
 [[C++]]<br />
 [[Lisp programming language|Lisp]]<br />
 [[Pascal (programming language)|Pascal]]<br />
-[[Python programming language|Python]]<br />
 [[sed]]<br />
 [[Unix shell]] 
 | influenced =
