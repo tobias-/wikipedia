@@ -451,7 +451,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[[Perl Data Language|PDL]]- the Perl Data Language
 *[[Plain Old Documentation]]- a documentation tool for Perl
 *[[Just another Perl hacker]]
-*[[Perlmonks]]
+*[[PerlMonks]]
 *[[Perl Mongers]]
 *[[PerlScript]]
 *[[Comparison of programming languages]]
