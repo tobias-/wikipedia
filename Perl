@@ -114,7 +114,7 @@ Because of special changes required to support [[Mac OS|Mac OS Classic]], a spec
 
 ====Windows====
 
-Users of [[Microsoft Windows]] typically install a native binary distribution of Perl.<ref>{{cite web | url=http://win32.perl.org/wiki/index.php?title=Win32_Distributions#Perl_Distributions | title=Win32 Distributions | publisher=Win32 Perl Wiki}}</ref> Compiling Perl from source under Windows is possible, but most installations lack the requisite C compiler, 
+Users of [[Microsoft Windows]] typically install a native binary distribution of Perl.<ref>{{cite web | url=http://win32.perl.org/wiki/index.php?title=Win32_Distributions#Perl_Distributions | title=Win32 Distributions | publisher=Win32 Perl Wiki}}</ref> Compiling Perl from [[source code]] under Windows is possible, but most installations lack the requisite C compiler.
 
 The [[Cygwin]] emulation layer provides another way of running Perl under Windows. Cygwin provides a Unix-like environment on Windows that includes [[GNU Compiler Collection|gcc]], so compiling Perl from source is a more accessible option for users who take this approach.
 
