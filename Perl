@@ -108,18 +108,17 @@ Perl is distributed with some 120,000 functional tests. These run as part of the
 There is no written specification or standard for the Perl language, and no plans to create one for the current version of Perl. There has only ever been one implementation of the interpreter. That interpreter, together with its functional tests, stands as a ''de facto'' specification of the language.
 
 ===Availability===
-Perl is [[free software]], and is licensed under both the [[Artistic License]] and the [[GNU General Public License]]. [[Perl#Distributions|Distributions]] are available for most [[operating system]]s. It is particularly prevalent on [[Unix]] and [[Unix-like]] systems, but it has been ported to most modern (and many obsolete) platforms. Perl is installed by default by many popular operating systems.
+Perl is [[free software]], and is licensed under both the [[Artistic License]] and the [[GNU General Public License]]. [[Perl#Distributions|Distributions]] are available for most [[operating system]]s. It is particularly prevalent on [[Unix]] and [[Unix-like]] systems, but it has been ported to most modern (and many obsolete) platforms. With only six reported exceptions, Perl can be compiled from [[source code]] on all Unix-like, [[POSIX]]-compliant or otherwise Unix-compatible platforms.<ref name="cpanports">{{cite web | url=http://www.cpan.org/ports/ | title=Perl Ports (Binary Distributions) | publisher=CPAN.org | author=Hietaniemi, Jarkko | year=1998}}</ref> However, this is rarely necessary, as Perl is included in the default installation of many popular operating systems.
 
-With only six reported exceptions, Perl be compiled from [[source code]] on all Unix-like, [[POSIX]]-compliant or otherwise Unix-compatible platforms.<ref name="cpanports">{{cite web | url=http://www.cpan.org/ports/ | title=Perl Ports (Binary Distributions) | publisher=CPAN.org | author=Hietaniemi, Jarkko | year=1998}}</ref>
-
-Because of special changes required to support [[Mac OS|Mac OS Classic]], a special port called MacPerl, was shipped independently.<ref name="macperl">{{cite web | url=http://www.macperl.com/ | title=The MacPerl Pages | year=1997 | publisher=Prime Time Freeware}}</ref>
+Because of special changes required to support [[Mac OS|Mac OS Classic]], a special port called MacPerl was shipped independently.<ref name="macperl">{{cite web | url=http://www.macperl.com/ | title=The MacPerl Pages | year=1997 | publisher=Prime Time Freeware}}</ref>
 
 ====Windows====
-Perl can be compiled from source under [[Microsoft Windows]], however many Windows installations lack a C compiler, so Windows users typically install a binary distribution.<ref>{{cite web | url=http://win32.perl.org/wiki/index.php?title=Win32_Distributions#Perl_Distributions | title=Win32 Distributions | publisher=Win32 Perl Wiki}}</ref>
 
-Perl can also be compiled with [[GNU Compiler Collection|gcc]] under [[cygwin]], which provides a Unix-like environment on Windows.
+Users of [[Microsoft Windows]] typically install a native binary distribution of Perl.<ref>{{cite web | url=http://win32.perl.org/wiki/index.php?title=Win32_Distributions#Perl_Distributions | title=Win32 Distributions | publisher=Win32 Perl Wiki}}</ref> Compiling Perl from source under Windows is possible, but most installations lack the requisite C compiler, 
 
-In June 2006, Adam Kennedy on behalf of the [[The Perl Foundation]] launched win32.perl.org, a community website for "all things Windows and Perl."<ref name="win32perl">{{cite web | url=http://win32.perl.org/wiki/index.php?title=Main_Page | title=Win32 Perl Wiki | author=Kennedy, Adam | year=2006}}</ref>
+The [[Cygwin]] emulation layer provides another way of running Perl under Windows. Cygwin provides a Unix-like environment on Windows that includes [[GNU Compiler Collection|gcc]], so compiling Perl from source is a more accessible option for users who take this approach.
+
+In June 2006, win32.perl.org was launched by Adam Kennedy on behalf of the [[The Perl Foundation]]. It is a community website for "all things Windows and Perl."<ref name="win32perl">{{cite web | url=http://win32.perl.org/wiki/index.php?title=Main_Page | title=Win32 Perl Wiki | author=Kennedy, Adam | year=2006}}</ref>
 
 == Language structure ==
 {{wikibooks}}
