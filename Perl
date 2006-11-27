@@ -123,7 +123,7 @@ In June 2006, win32.perl.org was launched by Adam Kennedy on behalf of the [[The
 == Language structure ==
 {{wikibooks}}
 
-In Perl, the canonical [[Hello world]] program is:
+In Perl, the canonical [[Hello world]] program is ocassionally stated as:
 
  #!/usr/bin/perl -w
  use strict;
@@ -135,6 +135,16 @@ The ''#'' sign on the third line is a 'comment [[token (parser)|token]]', which 
 
 The shebang is the usual way to invoke the interpreter on Unix systems.
 Windows systems may rely on the shebang, or they may associate a <tt>.pl</tt> [[Filename extension|file extension]] with the Perl interpreter.  Some text editors also use the shebang line as a hint about what mode to operate in.  If the program is executed by perl and not invoked via the shell, the line starting with the shebang is parsed for options, and otherwise ignored. For details see [http://perldoc.perl.org/perlrun.html#DESCRIPTION the perlrun manpage].
+
+It should be noted that, as the Perl "Hello world" program requires no variables, subroutines or anything else that would even potentially violate the strict pragma without causing a fatal error ''without'' using strict, and as the use of strict restrictions is not a requirement for a "Hello world" program, the only reason to '''use strict''' in it is to avoid being potentially yelled at by other programmers for not using strict.
+
+Further, as it's perfectly possible to invoke the perl interpreter directly from a command line, and additionally as the 'shebang' line is not a part of Perl but a requirement of some shells (and treated as a comment by perl), the shebang line is also not actually necessary. Indeed, in most Win32 implementations it's completely useless.
+
+Finally, there are no need for explanatory comments inside a demonstrative "Hello world" program.
+
+Thus, in reality, in Perl, the canonical Hello world program is:
+
+ print "Hello, world!\n";
 
 === Data types ===
 
