@@ -465,7 +465,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[http://search.cpan.org/dist/Acme-Currency/ Acme::Currency] allows you to change the "$" prefix for scalar variables to some other character
 *[http://search.cpan.org/dist/Acme-ProgressBar/ Acme::ProgressBar] is a purposefully horribly inefficient way to indicate progress for a task
 *[http://search.cpan.org/dist/Acme-VerySign/ Acme::VerySign] satirizes the widely-criticized [[VeriSign]] [[Site Finder]] service
-*[http://search.cpan.org/~dconway/Acme-Don-t-1.01/t.pm Acme::Don't] implements the logical opposite of the <tt>do</tt> keyword: the <tt>don't</tt> keyword, which takes a block that it does not execute.
+*[http://search.cpan.org/~dconway/Acme-Don-t-1.01/t.pm Acme::Don't] implements the logical opposite of the <tt>do</tt> keyword: the <tt>don't</tt> keyword, which takes a block that it does not execute. (It should be noted that when using this, don't{ ... } does not do the same thing as do not { ... }. It doesn't not, either.)
 
 == See also ==
 {{portalpar|Free software}}
