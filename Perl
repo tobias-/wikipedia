@@ -150,23 +150,26 @@ and that's all.
 
 === Data types ===
 
-Perl has three fundamental [[data type]]s: [[Scalar (computing)|scalars]], [[Array|lists]], and [[Hash table|hashes]]:
+Perl has four fundamental [[data type]]s: [[Scalar (computing)|scalars]], [[Array|lists]], [[Hash table|hashes]] and [[filehandle]]s:
 *A scalar is a single value; it may be a number, a [[String (computer science)|string]] or a [[Reference (computer science)|reference]]
 *A list is an ordered collection of scalars (a variable that holds a list is called an ''array'')
 *A hash, or [[associative array]], is a map from strings to scalars; the strings are called ''keys'' and the scalars are called ''values''.
+*A filehandle is a map to a file, device, or pipe which is open for reading, writing, or both.
 
 All variables are marked by a leading [[Sigil (computer programming)|sigil]],
-which identifies the data type being accessed (not the type of the variable itself). The same name may be used for variables of different types, without conflict.
+which identifies the data type being accessed (not the type of the variable itself), except filehandles, which aren't. The same name may be used for variables of different types, without conflict.
 
   $foo   # a [[Scalar (computing)|scalar]]
   @foo   # an [[Array|array]]
   %foo   # a [[Hash table|hash]]
+  foo    # a [[Filehandle]]
 
 Numbers are written in the usual way; strings are enclosed by quotes of various kinds.
 
-  $n     = 42;
-  $name  = "joe";
-  $color = 'red';
+  $n      = 42;
+  $name   = "joe";
+  $color  = 'red';
+  $animal = qq!frog!;
 
 Perl will convert strings into numbers and vice versa depending on the context in which they are used. In the following example the strings $n and $m are treated as numbers when they are the arguments to the addition operator. This code prints the number '5', discarding non number information for the operation, although the variable values remain the same. (The string concatenation operator is not <code>+</code>, but <code>.</code>)
 
@@ -182,21 +185,38 @@ Perl also has a boolean context that it uses in evaluating conditional statement
   $false = "";    # the empty string
   $false = undef; # the return value from undef
 
-All other values are evaluated to true. This includes the odd self-describing string of "0 but true", which in fact is 0 as a number, but true when used as a boolean. (Any non-numeric string would also have this property, but this particular string is ignored by Perl with respect to numeric warnings.)  Evaluated boolean expressions also return scalar values. Although the documentation does not promise which ''particular'' true or false is returned (and thus cannot be relied on), many boolean operators return 1 for true and the empty-string for false (which evaluates to zero in a numeric context). The ''defined()'' function tells if the variable has any value set. In the above examples ''defined($false)'' is true for every value except ''undef''.
+All other values are evaluated to true. This includes the odd self-describing string of "0 but true", which in fact is 0 as a number, but true when used as a boolean. (Any non-numeric string would also have this property, but this particular string is ignored by Perl with respect to numeric warnings.) A less explicit but more conceptually portable version of this string is '0E0' or '0e0', which does not rely on characters being evaluated as 0, as '0E0' is literally "zero to the exponent of zero."
 
-If a specifically 1 or 0 result (as in C) is needed, an explicit conversion is required:
+Evaluated boolean expressions also return scalar values. Although the documentation does not promise which ''particular'' true or false is returned (and thus cannot be relied on), many boolean operators return 1 for true and the empty-string for false (which evaluates to zero in a numeric context). The ''defined()'' function tells if the variable has any value set. In the above examples ''defined($false)'' is true for every value except ''undef''.
+
+If a specifically 1 or 0 result (as in C) is needed, an explicit conversion is thought by some authors to be required:
 
   my $real_result = $boolean_result ? 1 : 0;
+
+However, an implicit conversion can be used instead:
+
+  my $real_result = $boolean_result + 0;
 
 A list is written by listing its elements, 
 separated by commas, and enclosed by parentheses where required by operator precedence.
 
   @scores = (32, 45, 16, 5);
 
+Or, then again, it can be written some other half dozen ways, at least:
+
+  @scores = qw(32 45 16 5);
+  @scores = split /-/, '32-45-16-5';
+  push @scores, $_ for 32, 45, 16, 5;
+
 A hash may be initialized from a list of key/value pairs.
 
   %favorite = (joe => 'red',
                sam => 'blue');
+
+Or it may simply be defined piece by piece:
+
+  $favourite{joe} = 'red';
+  $favourite{sam} = 'blue';
 
 Individual elements of a list are accessed by providing a numerical
 index, in square brackets. Individual values in a hash are
@@ -213,19 +233,22 @@ Multiple elements may be accessed by using the <tt>@</tt> sigil instead
   @favorite{'joe', 'sam'} # two values in %favorite
 
 The number of elements in an array can be obtained by evaluating the
-array in scalar context or with the help of the <tt>$#</tt> [[Sigil (computer programming)|sigil]].
+array in scalar context or with the help of the <tt>$#</tt> sigil.
 The latter gives the index of the last element in the array, not the number of elements.
 
   $count = @friends;
   $#friends       # the index of the last element in @friends
   $#friends+1     # usually the number of elements in @friends
                   # this is one more than $#friends because the first element is at
-                  # index 0, not 1
+                  # index 0, not 1. Unless the programmer reset this to a
+                  # different value, which most Perl manuals encourage her
+                  # not to do.
 
 There are a few functions that operate on entire hashes.
 
   @names     = keys   %address;
   @addresses = values %address;
+  1 while ($name, $address) = each %address;
 
 === Control structures ===
 {{main|Perl control structures}}
