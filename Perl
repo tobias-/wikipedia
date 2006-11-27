@@ -140,11 +140,13 @@ It should be noted that, as the Perl "Hello world" program requires no variables
 
 Further, as it's perfectly possible to invoke the perl interpreter directly from a command line, and additionally as the 'shebang' line is not a part of Perl but a requirement of some shells (and treated as a comment by perl), the shebang line is also not actually necessary. Indeed, in most Win32 implementations it's completely useless.
 
-Finally, there are no need for explanatory comments inside a demonstrative "Hello world" program.
+Finally, there are no need for explanatory comments inside a demonstrative "Hello world" program. Additionally, the final line of any block of code in a Perl program, which includes the implied block around the entire script, does not actually need a semicolon terminator.
 
-Thus, in reality, in Perl, the canonical Hello world program is:
+Thus, in reality, in Perl, the canonical Hello world program is
 
- print "Hello, world!\n";
+ print "Hello, world!\n"
+
+and that's all.
 
 === Data types ===
 
