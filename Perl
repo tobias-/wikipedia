@@ -16,7 +16,7 @@
 | website = http://www.perl.org/
 }}
 
-'''Perl''' is a [[dynamic programming language]] made up by [[Larry Wall]] and first released in [[1987]]. Perl borrows features from a variety of other languages including [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[AWK programming language|AWK]], [[sed]] and [[Lisp programming language|Lisp]].<ref name="perltimeline">{{cite web | url=http://history.perl.org/PerlTimeline.html | title=The Timeline of Perl and its Culture (v3.0_0505) | author=Ashton, Elaine | year=1999}}</ref>
+'''Perl''' is a [[dynamic programming language]] designed by [[Larry Wall]] and first released in [[1987]]. Perl borrows features from a variety of other languages including [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[AWK programming language|AWK]], [[sed]] and [[Lisp programming language|Lisp]].<ref name="perltimeline">{{cite web | url=http://history.perl.org/PerlTimeline.html | title=The Timeline of Perl and its Culture (v3.0_0505) | author=Ashton, Elaine | year=1999}}</ref>
 
 Structurally, Perl is based on the brace-delimited block style of AWK and C, and was widely adopted for its strengths in string processing, and lack of the arbitrary limitations of many [[scripting language]]s at the time.<ref name="programmingperl">{{cite book | title=Programming Perl, Third Edition | author=[[Larry Wall|Wall, Larry]], [[Tom Christiansen]] and [[Jon Orwant]] | publisher=O'Reilly | month=July | year=2000 | ISBN=0-596-00027-8}}</ref><!--Ref is from the forward of that book -->
 
