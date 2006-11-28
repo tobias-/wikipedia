@@ -500,6 +500,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 * [http://cslibrary.stanford.edu/108/ A quick guide to learn Perl] - Stanford Library
 * [http://en.wikibooks.org/wiki/Programming:Perl/Humour Perl humour on Wikibooks]
 * [http://dev.perl.org/perl1/ The origin of Perl] - "Stability. Speed. Simplicity. perl1 is here."
+* [http://www.scribd.com/word/view/293 Programming Perl] by Johan Vromans
 * [http://history.perl.org/PerlTimeline.html The Perl Timeline]
 * [http://dmoz.org/Computers/Programming/Languages/Perl/ Perl related websites] in the [[Open Directory Project]]  	 
 * [http://www.theperlreview.com The Perl Review] - Current print magazine about Perl.
