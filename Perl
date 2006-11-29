@@ -123,7 +123,7 @@ In June 2006, win32.perl.org was launched by Adam Kennedy on behalf of the [[The
 == Language structure ==
 {{wikibooks}}
 
-In Perl, the canonical [[Hello world]] program is ocassionally stated as:
+In Perl, the canonical [[Hello world]] program is occasionally stated as:
 
  #!/usr/bin/perl -w
  use strict;
@@ -146,7 +146,6 @@ Thus, in reality, in Perl, the canonical Hello world program is
 
  print "Hello, world!\n"
 
-and that's all.
 
 === Data types ===
 
