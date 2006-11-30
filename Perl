@@ -506,7 +506,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 * [http://www.tpj.com/ The Perl Journal online] - The original Perl print periodical.
 * [http://www.perl.com/pub/a/2000/01/10PerlMyths.html Ten Perl Myths] - O'Reilly
 * [http://fortunes.quotationsbook.com/fortunes/collection/52/PERL Perl fortunes] - Collected quotes from Larry Wall.
-* [http://bodhost.com/web-hosting/?p=204 Perl upgrades on Cpanel server] - knowledge base
+* [http://bodhost.com/web-hosting/?p=204 Perl upgrades on Cpanel server] - Knowledge Base
 
 [[Category:Perl|*]]
 [[Category:Curly bracket programming languages]]
