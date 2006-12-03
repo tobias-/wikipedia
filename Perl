@@ -1,6 +1,15 @@
+{{otheruses}}
 
-
-|})|AWK]], [[BASIC-PLUS]], [[C (programming language)|C]], [[C++]], [[Lisp programming language|Lisp]], [[Pascal (programming language)|Pascal]], [[sed]], [[Unix shell]]
+{{ Infobox programming language
+| name = Perl
+| logo = [[Image:Programming-republic-of-perl.gif]]
+| paradigm = [[Multi-paradigm]]
+| year = 1987
+| designer = [[Larry Wall]]
+| latest_release_version = 5.8.8
+| latest_release_date = [[January 31]] [[2006]]
+| typing = Dynamic
+| influenced_by = [[AWK (programming language)|AWK]], [[BASIC-PLUS]], [[C (programming language)|C]], [[C++]], [[Lisp programming language|Lisp]], [[Pascal (programming language)|Pascal]], [[sed]], [[Unix shell]]
 | influenced = [[Python programming language|Python]], [[PHP]], [[Ruby programming language|Ruby]]
 | operating_system = [[Cross-platform]]
 | license = [[GNU General Public License]], [[Artistic License]]
