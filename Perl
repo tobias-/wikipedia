@@ -1,20 +1,3 @@
-{{otheruses}}
-
-{{ Infobox programming language
-| name = Perl
-| logo = [[Image:Programming-republic-of-perl.gif]]
-| paradigm = [[Multi-paradigm]]
-| year = 1987
-| designer = [[Larry Wall]]
-| latest_release_version = 5.8.8
-| latest_release_date = [[January 31]] [[2006]]
-| typing = Dynamic
-| influenced_by = [[AWK (programming language)|AWK]], [[BASIC-PLUS]], [[C (programming language)|C]], [[C++]], [[Lisp programming language|Lisp]], [[Pascal (programming language)|Pascal]], [[sed]], [[Unix shell]]
-| influenced = [[Python programming language|Python]], [[PHP]], [[Ruby programming language|Ruby]]
-| operating_system = [[Cross-platform]]
-| license = [[GNU General Public License]], [[Artistic License]]
-| website = http://www.perl.org/
-}}
 
 '''Perl''' is a [[dynamic programming language]] created by [[Larry Wall]] and first released in [[1987]]. Perl borrows features from a variety of other languages including [[C programming language|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[AWK programming language|AWK]], [[sed]] and [[Lisp programming language|Lisp]].<ref name="perltimeline">{{cite web | url=http://history.perl.org/PerlTimeline.html | title=The Timeline of Perl and its Culture (v3.0_0505) | author=Ashton, Elaine | year=1999}}</ref>
 
