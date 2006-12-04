@@ -112,6 +112,7 @@ Perl is [[free software]], and is licensed under both the [[Artistic License]] a
 
 Because of special changes required to support [[Mac OS|Mac OS Classic]], a special port called MacPerl was shipped independently.<ref name="macperl">{{cite web | url=http://www.macperl.com/ | title=The MacPerl Pages | year=1997 | publisher=Prime Time Freeware}}</ref>
 
+Perl is also available for [[Symbian OS]] which is a leading [[smartphone]] operating system.
 ====Windows====
 
 Users of [[Microsoft Windows]] typically install a native binary distribution of Perl.<ref>{{cite web | url=http://win32.perl.org/wiki/index.php?title=Win32_Distributions#Perl_Distributions | title=Win32 Distributions | publisher=Win32 Perl Wiki}}</ref> Compiling Perl from [[source code]] under Windows is possible, but most installations lack the requisite C compiler.
