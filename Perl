@@ -111,7 +111,7 @@ There is no written specification or standard for the Perl language, and no plan
 
 Perl is [[free software]], and is licensed under both the [[Artistic License]] and the [[GNU General Public License]]. [[Perl#Distributions|Distributions]] are available for most [[operating system]]s. It is particularly prevalent on [[Unix]] and [[Unix-like]] systems, but it has been ported to most modern (and many obsolete) platforms. With only six reported exceptions, Perl can be compiled from [[source code]] on all Unix-like, [[POSIX]]-compliant or otherwise Unix-compatible platforms.<ref name="cpanports">{{cite web | url=http://www.cpan.org/ports/ | title=Perl Ports (Binary Distributions) | publisher=CPAN.org | author=Hietaniemi, Jarkko | year=1998}}</ref> However, this is rarely necessary, as Perl is included in the default installation of many popular operating systems.
 
-Because of special changes required to support [[Mac OS|Mac OS Classic]], a port called MacPerl was shipped independently.<ref name="macperl">{{cite web | url=http://www.macperl.com/ | title=The MacPerl Pages | year=1997 | publisher=Prime Time Freeware}}</ref> <!--
+Because of unusual changes required for the [[Mac OS|Mac OS Classic]] environment, a special port called MacPerl was shipped independently.<ref name="macperl">{{cite web | url=http://www.macperl.com/ | title=The MacPerl Pages | year=1997 | publisher=Prime Time Freeware}}</ref> <!--
 
 Note to editors:
 Perl is available on so many platforms that it doesn't make sense to keep a laundry list in this article.
