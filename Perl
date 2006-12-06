@@ -553,6 +553,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 [[hu:Perl programozási nyelv]]
 [[nl:Perl (programmeertaal)]]
 [[ja:Perl]]
+[[ms:Perl]]
 [[no:Perl]]
 [[nn:Perl]]
 [[pl:Perl]]
