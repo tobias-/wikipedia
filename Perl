@@ -262,7 +262,7 @@ There are a few functions that operate on entire hashes.
 
 Perl has several kinds of control structures. 
 
-It has block-oriented control structures, similar to those in the C and [[Java programming language|Java]] programming languages. Conditions are surrounded by parentheses, and controlled blocks are surrounded by braces:
+It has block-oriented control structures, similar to those in the C and [[Java (programming language)|Java]] programming languages. Conditions are surrounded by parentheses, and controlled blocks are surrounded by braces:
 
  ''label'' while ( ''cond'' ) { ... }
  ''label'' while ( ''cond'' ) { ... } continue { ... }
@@ -369,7 +369,7 @@ A subroutine can discover its calling context with the <tt>wantarray</tt> functi
 
 The Perl language includes a specialized syntax for writing [[regular expression]]s (REs), and the interpreter contains an engine for matching strings to regular expressions. The regular expression engine uses a [[backtracking]] algorithm, extending its capabilities from simple pattern matching to string capture and substitution.  The regular expression engine is derived from regex written by [[Henry Spencer]].
 
-The Perl regular expression syntax was originally taken from Unix Version 8 regular expressions. However, it diverged before the first release of Perl, and has since grown to include many more features. Other languages and applications are now adopting [[PCRE|Perl compatible regular expressions]] over [[POSIX]] regular expressions including [[PHP]], [[Ruby programming language|Ruby]], [[Java programming language|Java]], and the [[Apache HTTP server]].
+The Perl regular expression syntax was originally taken from Unix Version 8 regular expressions. However, it diverged before the first release of Perl, and has since grown to include many more features. Other languages and applications are now adopting [[PCRE|Perl compatible regular expressions]] over [[POSIX]] regular expressions including [[PHP]], [[Ruby programming language|Ruby]], [[Java (programming language)|Java]], and the [[Apache HTTP server]].
 
 The <tt>m//</tt> (match) operator introduces a regular expression match. (The leading <tt>m</tt> may be omitted for brevity.) In the simplest case, an expression like
 
