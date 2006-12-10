@@ -10,7 +10,7 @@
 | latest_release_date = [[January 31]] [[2006]]
 | typing = Dynamic
 | influenced_by = [[AWK (programming language)|AWK]], [[BASIC-PLUS]], [[C (programming language)|C]], [[C++]], [[Lisp programming language|Lisp]], [[Pascal (programming language)|Pascal]], [[sed]], [[Unix shell]]
-| influenced = [[Python programming language|Python]], [[PHP]], [[Ruby programming language|Ruby]]
+| influenced = [[Python (programming language)|Python]], [[PHP]], [[Ruby programming language|Ruby]]
 | operating_system = [[Cross-platform]]
 | license = [[GNU General Public License]], [[Artistic License]]
 | website = http://www.perl.org/
@@ -86,7 +86,7 @@ Perl has several mottos that convey aspects of its design and use. One is ''"[[T
 
 Perl has many and varied applications, compounded by the availability of many standard and third-party modules.
 
-Perl  has been used since the early days of the Web to write [[Common Gateway Interface|CGI]] scripts. It is known as one of "the three Ps" (Perl, [[Python programming language|Python]] and [[PHP]]), which are the most popular scripting languages for generating Web applications, and is an integral component of the popular [[LAMP (software bundle)|LAMP]] [[solution stack]] for web development. Large projects written in Perl include [[Slash (weblog system)|Slash]], [[Internet Movie Database|IMDb]]<ref>http://www.imdb.com/help/search?domain=helpdesk_faq&index=1&file=techinfo</ref> and [[UseModWiki]], an early, influential [[Wiki software|wiki engine]]. Many high-traffic websites, such as [[Amazon.com]] and [[Ticketmaster|Ticketmaster.com]] use Perl extensively.
+Perl  has been used since the early days of the Web to write [[Common Gateway Interface|CGI]] scripts. It is known as one of "the three Ps" (Perl, [[Python (programming language)|Python]] and [[PHP]]), which are the most popular scripting languages for generating Web applications, and is an integral component of the popular [[LAMP (software bundle)|LAMP]] [[solution stack]] for web development. Large projects written in Perl include [[Slash (weblog system)|Slash]], [[Internet Movie Database|IMDb]]<ref>http://www.imdb.com/help/search?domain=helpdesk_faq&index=1&file=techinfo</ref> and [[UseModWiki]], an early, influential [[Wiki software|wiki engine]]. Many high-traffic websites, such as [[Amazon.com]] and [[Ticketmaster|Ticketmaster.com]] use Perl extensively.
 
 Perl is often used as a [[glue language]], tying together systems and interfaces that were not specifically designed to interoperate, and for "data munging", converting or processing large amounts of data for tasks like creating reports. In fact, these strengths are intimately linked. The combination makes perl a popular all-purpose tool for [[system administrator]]s, particularly as short programs can be entered and run on a single command line.
 
