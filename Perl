@@ -152,7 +152,6 @@ Thus, in reality, in Perl, the canonical Hello world program is
 
  print "Hello, world!\n"
 
-
 === Data types ===
 
 Perl has a number of fundamental [[data type]]s, the mostly commonly used and discussed being: [[Scalar (computing)|scalars]], [[Array|arrays]], [[Hash table|hashes]] and [[filehandle]]s and [[Subroutines|subroutines]]:
