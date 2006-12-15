@@ -498,7 +498,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 
 == External links ==
 <!-- some of these should be referenced in the article as opposed to just flung in here. -->
-* [http://www.tutorialspoint.com/perl A Simple PERL Tutorial]
+
 * [http://www.perl.org/ Perl.org] - Official Perl website
 * [http://perldoc.perl.org/ Perldoc at Perl.org] - online Perl documentation
 * [http://dev.perl.org/ Perl development]
