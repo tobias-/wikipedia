@@ -167,7 +167,7 @@ which identifies the data type being accessed (not the type of the variable itse
   $foo   # a [[Scalar (computing)|scalar]]
   @foo   # an [[Array|array]]
   %foo   # a [[Hash table|hash]]
-  foo    # a [[file handle]], but nice programmers use FOO, not foo.
+  foo    # a [[file descriptor|file handle]], but nice programmers use FOO, not foo.
   &foo   # a subroutine. 
 
 Numbers are written in the usual way; strings are enclosed by quotes of various kinds.
