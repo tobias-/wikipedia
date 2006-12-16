@@ -159,7 +159,7 @@ Perl has a number of fundamental [[data type]]s, the mostly commonly used and di
 *An array is an ordered collection of scalars
 *A hash, or [[associative array]], is a map from strings to scalars; the strings are called ''keys'' and the scalars are called ''values''.
 *A filehandle is a map to a file, device, or pipe which is open for reading, writing, or both.
-*A subroutine is a piece of code that may be passed arugments executed and return data
+*A subroutine is a piece of code that may be passed arguments, executed and returns data
 
 Most variables are marked by a leading [[Sigil (computer programming)|sigil]],
 which identifies the data type being accessed (not the type of the variable itself), except filehandles, which don't have a sigil. The same name may be used for variables of different types, without conflict.
@@ -167,7 +167,7 @@ which identifies the data type being accessed (not the type of the variable itse
   $foo   # a [[Scalar (computing)|scalar]]
   @foo   # an [[Array|array]]
   %foo   # a [[Hash table|hash]]
-  foo    # a [[Filehandle]], but nice programmers use FOO, not foo.
+  foo    # a [[file handle]], but nice programmers use FOO, not foo.
   &foo   # a subroutine. 
 
 Numbers are written in the usual way; strings are enclosed by quotes of various kinds.
