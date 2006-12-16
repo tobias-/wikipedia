@@ -570,4 +570,3 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 [[th:ภาษาเพิร์ล]]
 [[tr:Perl]]
 [[zh:Perl]]
-Mokun-pideras!!!
