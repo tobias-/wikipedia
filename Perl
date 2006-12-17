@@ -568,6 +568,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 [[fi:Perl]]
 [[sv:Perl]]
 [[th:ภาษาเพิร์ล]]
+[[vi:Perl]]
 [[tr:Perl]]
 [[uk:Perl (мова програмування)]]
 [[zh:Perl]]
