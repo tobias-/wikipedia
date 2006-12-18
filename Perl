@@ -485,8 +485,9 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 *[[Perl Mongers]]
 *[[PerlScript]]
 *[[Comparison of programming languages]]
-*[[Learning Perl]], Fourth Edition (the ''Llama book''), ISBN 0-596-10105-8
-*[[Perl Cookbook]], ISBN 0-596-00313-7
+*''[[Learning Perl]]'', Fourth Edition (the ''Llama book''), ISBN 0-596-10105-8
+*''[[Perl Cookbook]]'', ISBN 0-596-00313-7
+*''[[Programming Perl]]'', (the ''Camel book''), ISBN 0-596-00027-8
 *[[Tcl]]
 *[[Autovivification]]
 
