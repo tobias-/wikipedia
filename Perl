@@ -167,8 +167,10 @@ which identifies the data type being accessed (not the type of the variable itse
   $foo   # a [[Scalar (computing)|scalar]]
   @foo   # an [[Array|array]]
   %foo   # a [[Hash table|hash]]
-  foo    # a [[file descriptor|file handle]], but nice programmers use FOO, not foo.
+  FOO    # a [[file handle]]
   &foo   # a subroutine. 
+
+(Note: [[file handle]]s need not be uppercase, but it is a common convention owing to the fact that there is no sigil to denote them.)
 
 Numbers are written in the usual way; strings are enclosed by quotes of various kinds.
 
