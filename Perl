@@ -82,6 +82,8 @@ There is a broad practical bent to both the Perl language and the community and 
 
 Perl has several mottos that convey aspects of its design and use. One is ''"[[There's more than one way to do it]]."'' (TMTOWTDI, usually pronounced 'Tim Toady'). Others are ''"Perl: the Swiss Army Chainsaw of Programming Languages"'' and ''"No unnecessary limits"''. A stated design goal of Perl is to make easy tasks easy and difficult tasks possible.  Perl has also been called ''"The Duct Tape of the Internet"''.
 
+There is no written specification or standard for the Perl language, and no plans to create one for the current version of Perl. There has only ever been one implementation of the interpreter. That interpreter, together with its functional tests, stands as a ''de facto'' specification of the language.
+
 === Applications ===
 
 Perl has many and varied applications, compounded by the availability of many standard and third-party modules.
@@ -93,6 +95,7 @@ Perl is often used as a [[glue language]], tying together systems and interfaces
 Perl is also widely used in finance and [[bioinformatics]], where it is valued for rapid application development and deployment, and the ability to handle large data sets.
 
 ===Implementation===
+
 Perl is implemented as a core interpreter, written in C, together with a large collection of modules, written in Perl and C. The source distribution is, [[as of 2005]], 12 [[megabyte|MB]] when packaged in a [[Tar (file format)|tar file]] and [[data compression|compressed]]. The interpreter is 150,000 lines of C code and compiles to a 1 MB executable on typical machine architectures. Alternatively, the interpreter can be compiled to a link library and embedded in other programs. There are nearly 500 modules in the distribution, comprising 200,000 lines of Perl and an additional 350,000 lines of C code. (Much of the C code in the modules consists of character encoding tables.)
 
 The interpreter has an object-oriented architecture. All of the elements of the Perl language&mdash;scalars, arrays, hashes, coderefs, file handles&mdash;are represented in the interpreter by C structs. Operations on these structs are defined by a large collection of macros, typedefs and functions; these constitute the Perl C API. The Perl API can be bewildering to the uninitiated, but its entry points follow a consistent naming scheme, which provides guidance to those who use it.
@@ -104,8 +107,6 @@ Perl has a context-sensitive [[grammar]] which can be affected by code executed 
 Perl is distributed with some 120,000 functional tests. These run as part of the normal build process, and extensively exercise the interpreter and its core modules. Perl developers rely on the functional tests to ensure that changes to the interpreter do not introduce bugs; conversely, Perl users who see the interpreter pass its functional tests on their system can have a high degree of confidence that it is working properly.
 
 Maintenance of the Perl interpreter has become increasingly difficult over the years. The code base has been in continuous development since 1994. The code has been optimized for performance at the expense of simplicity, clarity, and strong internal interfaces. New features have been added, yet virtually complete backward compatibility with earlier versions is maintained. The size and complexity of the interpreter is a barrier to developers who wish to work on it.
-
-There is no written specification or standard for the Perl language, and no plans to create one for the current version of Perl. There has only ever been one implementation of the interpreter. That interpreter, together with its functional tests, stands as a ''de facto'' specification of the language.
 
 ===Availability===
 
