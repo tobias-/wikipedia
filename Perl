@@ -56,7 +56,7 @@ The language is intended to be practical (easy to use, efficient, complete) rath
 
 === Features ===
 
-The overall structure of Perl derives broadly from C. Perl is procedural in nature, with [[variable]]s, [[expression (programming)|expression]]s, [[assignment statement]]s, [[bracket|brace]]-delimited [[code block]]s, [[control structure]]s, and [[subroutine]]s.
+The overall structure of Perl is broadly derived from C. Perl is procedural in nature, with [[variable]]s, [[expression (programming)|expression]]s, [[assignment statement]]s, [[bracket|brace]]-delimited [[code block]]s, [[control structure]]s, and [[subroutine]]s.
 
 Perl also takes features from shell programming. All variables are marked with leading [[sigil (computer programming)|sigil]]s, which unambiguously identify the data type (scalar, array, hash, etc.) of the variable in context. Importantly, sigils allow variables to be interpolated directly into strings. Like the Unix shells, Perl has many built-in functions for common tasks, like sorting, and for accessing system facilities.
 
