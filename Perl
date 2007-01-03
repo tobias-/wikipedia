@@ -374,7 +374,7 @@ The Perl regular expression syntax was originally taken from Unix Version 8 regu
 
 The <tt>m//</tt> (match) operator introduces a regular expression match. (The leading <tt>m</tt> may be omitted for brevity.) In the simplest case, an expression like
 
-  $x =~ m/abc/
+ $x =~ m/abc/
 
 evaluates to true [[if and only if]] the string <tt>$x</tt> matches the regular expression <tt>abc</tt>. 
 
@@ -383,27 +383,27 @@ corresponding portions of a matching string are ''captured''.
 Captured strings are assigned to the sequential built-in variables <tt>$1, $2, $3, ...</tt>,
 and a list of captured strings is returned as the value of the match.
 
-  $x =~ m/a(.)c/;  # capture the character between 'a' and 'c'
+ $x =~ m/a(.)c/;  # capture the character between 'a' and 'c'
 
 The <tt>s///</tt> (substitute) operator specifies a search and replace operation:
 
-  $x =~ s/abc/aBc/;   # upcase the b
+ $x =~ s/abc/aBc/;   # upcase the b
 
 Perl regular expressions can take ''modifiers''. These are single-letter suffixes that modify the meaning of the expression:
 
-  $x =~ m/abc/i;      # case-insensitive pattern match
-  $x =~ s/abc/aBc/g;  # global search and replace
+ $x =~ m/abc/i;      # case-insensitive pattern match
+ $x =~ s/abc/aBc/g;  # global search and replace
 
 Regular expressions can be dense and cryptic. This is because regular expression syntax is extremely compact, generally using single characters or character pairs to represent its operations. Perl provides some relief from this problem with the <tt>/x</tt> modifier, which allows programmers to place whitespace and comments ''inside'' regular expressions:
 
-  $x =~ m/a     # match 'a'
-          .     # match any character
-          c     # match 'c'
-           /x;
+ $x =~ m/a     # match 'a'
+         .     # match any character
+         c     # match 'c'
+        /x;
 
 One common use of regular expressions is to specify delimiters for the <tt>split</tt> function:
 
-  @words = split m/,/, $line;
+ @words = split m/,/, $line;
 
 The <tt>split</tt> function creates a list of the parts of the string lying ''between'' matches of the regular expression. In this example, a line is divided into a list of its comma-separated parts, and this list is then assigned to the <tt>@words</tt> array.
 
