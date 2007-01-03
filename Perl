@@ -403,7 +403,7 @@ Regular expressions can be dense and cryptic. This is because regular expression
 
 One common use of regular expressions is to specify delimiters for the <tt>split</tt> operator:
 
-  @words = split m/,/, $line;   # place left side of each match (m/,/) into a new value in the array and make a new index in the array
+  @words = split m/,/, $line;   # create a list of parts between matches of m/,/ against the string, then assign the list to an array
 
 String capture returns the parts of a string that match a regular expression; <tt>split</tt> returns an array with each part of the string that is separated by the delimiter.
 
