@@ -530,6 +530,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 [[Category:Unix software]]
 
 [[als:Perl]]
+[[zh-min-nan:Perl]]
 [[bs:Perl]]
 [[bg:Perl]]
 [[ca:Perl]]
