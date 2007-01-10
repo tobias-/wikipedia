@@ -41,7 +41,7 @@ One of the most important events in Perl 5 history took place outside of the lan
 
 === Name ===
 
-Perl was originally named "Pearl", after the [[Parable of the Pearl]]. Larry Wall wanted to give the language a short name with positive connotations; he claims that he considered (and rejected) every three- and four-letter word in the dictionary. He also considered naming it after his wife Gloria. Wall discovered the existing [[PEARL programming language]] before Perl's official release and changed the spelling of the name.
+Perl was originally named "Pearls", after the [[Parable of the Pearl]]. Larry Wall wanted to give the language a short name with positive connotations; he claims that he considered (and rejected) every three- and four-letter word in the dictionary. He also considered naming it after his wife Gloria. Wall discovered the existing [[PEARL programming language]] before Perl's official release and changed the spelling of the name.
 
 The name is normally capitalized (''Perl'') when referring to the language and uncapitalized (''perl'') when referring to the interpreter program itself since Unix-like file systems are case-sensitive. Before the release of the first edition of ''Programming Perl'', it was common to refer to the language as ''perl''; [[Randal L. Schwartz]], however, capitalised the language's name in the book to make it stand out better when typeset. The case distinction was subsequently adopted by the community.
 
