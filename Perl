@@ -148,7 +148,7 @@ Further, as it's perfectly possible to invoke the perl interpreter directly from
 
 Finally, there are no need for explanatory comments inside a demonstrative "Hello world" program. Additionally, the final line of any block of code in a Perl program, which includes the implied block around the entire script, does not actually need a semicolon terminator.
 
-Thus, in reality, in Perl, the canonical Hello world program is
+Thus, reduced to its simplest form, the canonical Hello world program is
 
  print "Hello, world!\n"
 
