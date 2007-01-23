@@ -172,7 +172,7 @@ which identifies the data type being accessed (not the type of the variable itse
 
 (Note: [[file handle]]s need not be uppercase, but it is a common convention owing to the fact that there is no sigil to denote them.)
 
-Numbers are written in the usual way; strings are enclosed by quotes of various kinds.
+Numbers are written in the bare form; strings are enclosed by quotes of various kinds.
 
   $n      = 42;
   $name   = "joe";
