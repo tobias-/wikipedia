@@ -282,7 +282,7 @@ Where only a single statement is being controlled, statement modifiers provide a
  ''statement'' until   ''cond'' ;
  ''statement'' foreach ''list'' ;
 
-Short-circuit logical operators are commonly used to effect control flow at the expression level:
+Short-circuit logical operators are commonly used to affect control flow at the expression level:
 
  ''expr'' and ''expr''
  ''expr'' or  ''expr''
