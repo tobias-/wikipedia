@@ -505,7 +505,6 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 * [http://www.perl.org/ Perl.org] - Official Perl website
 * [http://perldoc.perl.org/ Perldoc at Perl.org] - online Perl documentation
 * [http://dev.perl.org/ Perl development]
-* [http://www.solutionsoft.com Perl Builder - Visual Editor/Development Tool for Perl]
 * [http://www.indigostar.com/indigoperl.htm IndigoPerl] - another distribution of Perl for Microsoft Windows
 * [http://en.wikibooks.org/wiki/Programming:Perl/Humour Perl humour on Wikibooks]
 * [http://dev.perl.org/perl1/ The origin of Perl] - "Stability. Speed. Simplicity. perl1 is here."
