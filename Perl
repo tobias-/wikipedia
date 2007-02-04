@@ -504,6 +504,7 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 
 * [http://www.perl.org/ Perl.org] - Official Perl website
 * [http://perldoc.perl.org/ Perldoc at Perl.org] - online Perl documentation
+* [http://www.xray.mpe.mpg.de/mailing-lists/perl5-porters/ perl5-porters mailing list archive]
 * [http://dev.perl.org/ Perl development]
 * [http://www.indigostar.com/indigoperl.htm IndigoPerl] - another distribution of Perl for Microsoft Windows
 * [http://en.wikibooks.org/wiki/Programming:Perl/Humour Perl humour on Wikibooks]
