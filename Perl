@@ -52,7 +52,7 @@ O'Reilly allows non-commercial use of the symbol, and provides [http://www.oreil
 
 Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more.
 
-The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal).<ref>perlintro(1) [[man page]]</ref> Its major features include support for multiple programming paradigms ([[procedural programming language|procedural]], [[Object-oriented programming | object-oriented]], and [[functional programming | functional]] styles), automatic [[memory management]], built-in support for text processing, and a large collection of third-party [[Module (programming)|modules]].
+The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal).<ref>perlintro(1) [[man page]]</ref> Its major features include support for multiple programming paradigms ([[procedural programming language|procedural]], [[Object-oriented programming|object-oriented]], and [[functional programming|functional]] styles), automatic [[memory management]], built-in support for text processing, and a large collection of third-party [[Module (programming)|modules]].
 
 === Features ===
 
@@ -154,7 +154,7 @@ Thus, reduced to its simplest form, the canonical Hello world program is
 
 === Data types ===
 
-Perl has a number of fundamental [[data type]]s, the most commonly used and discussed being: [[Scalar (computing)|scalars]], [[Array|arrays]], [[Hash table|hashes]] and [[filehandle]]s and [[Subroutines|subroutines]]:
+Perl has a number of fundamental [[data type]]s, the most commonly used and discussed being: [[Scalar (computing)|scalars]], [[array]]s, [[Hash table|hashes]] and [[filehandle]]s and [[subroutines]]:
 *A scalar is a single value; it may be a number, a [[String (computer science)|string]] or a [[Reference (computer science)|reference]]
 *An array is an ordered collection of scalars
 *A hash, or [[associative array]], is a map from strings to scalars; the strings are called ''keys'' and the scalars are called ''values''.
@@ -165,7 +165,7 @@ Most variables are marked by a leading [[Sigil (computer programming)|sigil]],
 which identifies the data type being accessed (not the type of the variable itself), except filehandles, which don't have a sigil. The same name may be used for variables of different types, without conflict.
 
   $foo   # a [[Scalar (computing)|scalar]]
-  @foo   # an [[Array|array]]
+  @foo   # an [[array]]
   %foo   # a [[Hash table|hash]]
   FOO    # a [[file handle]]
   &foo   # a subroutine. 
@@ -419,7 +419,7 @@ In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The <tt>
 
 The [http://shootout.alioth.debian.org/ "Computer Language Shootout Benchmarks"] compare the performance of implementations of typical programming problems in several programming languages. The submitted Perl implementations typically took up more memory than implementations in other languages, and had varied speed results. Perl's performance in the shootout is similar to other interpreted languages such as Python, PHP and Ruby, but slower than most compiled languages.
 
-Perl can be slower than other languages doing the same thing because it has to compile the source every time it runs. In [http://www.perl.com/pub/a/2005/12/21/a_timely_start.html "A Timely Start"], Jean-Louis Leroy found that his Perl scripts took much longer to run than he expected because the perl interpreter spent much of the time finding modules, though he admitted that his environment was a pathological case. Because most Perl programmers do not know how to save its intermediate result as Java, Python, and Ruby do easily, Perl scripts pay this overhead penalty on every execution. The overhead is not such a problem when amortized over a long run phase, but can significantly skew measurement of very short execution times as often found in benchmarks. Once perl starts the run phase, however, it can be quite fast and will typically outperform other dynamic languages.{{fact}}  Technologies such as [[mod_perl]] overcome this by holding the compiled program in memory between multiple runs, or [http://search.cpan.org/perldoc/Class::Autouse Class::Autouse] to delay compiling of parts of the program until needed.
+Perl can be slower than other languages doing the same thing because it has to compile the source every time it runs. In [http://www.perl.com/pub/a/2005/12/21/a_timely_start.html "A Timely Start"], Jean-Louis Leroy found that his Perl scripts took much longer to run than he expected because the perl interpreter spent much of the time finding modules, though he admitted that his environment was a pathological case. Because most Perl programmers do not know how to save its intermediate result as Java, Python, and Ruby do easily, Perl scripts pay this overhead penalty on every execution. The overhead is not such a problem when amortized over a long run phase, but can significantly skew measurement of very short execution times as often found in benchmarks. Once perl starts the run phase, however, it can be quite fast and will typically outperform other dynamic languages.{{Fact|date=February 2007}}  Technologies such as [[mod perl]] overcome this by holding the compiled program in memory between multiple runs, or [http://search.cpan.org/perldoc/Class::Autouse Class::Autouse] to delay compiling of parts of the program until needed.
 
 ===Optimizing===
 
@@ -515,7 +515,6 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 * [http://www.tpj.com/ The Perl Journal online] - The original Perl print periodical.
 * [http://www.perl.com/pub/a/2000/01/10PerlMyths.html Ten Perl Myths] - O'Reilly
 * [http://fortunes.quotationsbook.com/fortunes/collection/52/PERL Perl fortunes] - Collected quotes from Larry Wall.
-
 
 [[Category:Perl|*]]
 [[Category:Curly bracket programming languages]]
