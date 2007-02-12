@@ -469,7 +469,7 @@ As with C, [[obfuscated code]] competitions are a well-known passtime. The annua
 ====Poetry====
 Similar to obfuscated code and golf, but with a different purpose, Perl poetry is the practice of writing poems that can actually be compiled as legal (although generally non-sensical) Perl code. This hobby is more or less unique to Perl due to the large number of regular English words used in the language. New poems are regularly published in the [[Perl Monks]] site's [http://www.perlmonks.org/?node_id=1590 Perl Poetry section].
 
-====CPAN ACME====
+====CPAN Acme====
 There are also many examples of code written purely for entertainment on the [[CPAN]]. Examples include the module [http://www.csse.monash.edu.au/~damian/papers/HTML/Perligata.html Lingua::Romana::Perligata][http://search.cpan.org/dist/Lingua-Romana-Perligata/], which allows writing programs in [[Latin]]. Upon execution of such a program, the module translates its source code into regular Perl and runs it.
 
 The Perl community has set aside the "[[Acme]]" namespace for modules that are fun in nature (but its scope has widened to include exploratory or experimental code or any other module that is not meant to ever be used in production). Some of the Acme modules are deliberately implemented in amusing ways.  Some examples:
