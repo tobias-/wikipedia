@@ -448,7 +448,7 @@ A number of features in the Perl 6 language now show similarities with Haskell, 
 In 2006, an effort was started to have Windows Perl distributions ship with a compiler, in order to make the need for binary packages on Windows redundant. Some early results of this include the [http://camelpack.sourceforge.net/ CamelPack] macro-installer and [http://win32.perl.org/wiki/index.php?title=Vanilla_Perl Vanilla Perl] distributions.
 
 ==The Perl community==
-Perl's culture and community has developed along side the language itself. [[Usenet]] was the first public venue in which Perl was introduced, but over the course of its evolution, Perl's community was shaped by the growth of broading Internet-based services including the introduction of the [[World Wide Web]]. The community that surrounds Perl was, in fact, the topic of Larry Wall's first "State of the Onion" talk.<ref>http://www.wall.org/~larry/keynote/keynote.html</ref>
+Perl's culture and community has developed along side the language itself. [[Usenet]] was the first public venue in which Perl was introduced, but over the course of its evolution, Perl's community was shaped by the growth of broading Internet-based services including the introduction of the [[World Wide Web]]. The community that surrounds Perl was, in fact, the topic of Larry Wall's first "State of the Onion" talk.<ref>{{ cite web | url=http://www.wall.org/~larry/keynote/keynote.html | title=Perl Culture (AKA the first State of the Onion) | author=Wall, Larry | date=1997-08-20 }}</ref>
 
 ===Passtimes===
 Perl's passtimes have become a defining element of the community. Included among them are trivial and complex uses of the language.
