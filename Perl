@@ -512,6 +512,7 @@ These are also examples of "source filters"; libraries which transform the text 
 * [http://history.perl.org/PerlTimeline.html The Perl Timeline]
 * [http://dmoz.org/Computers/Programming/Languages/Perl/ Perl related websites] in the [[Open Directory Project]]  	 
 * [http://www.theperlreview.com The Perl Review] - Current print magazine about Perl.
+* [http://www.gnulamp.com/perl.html Perl Tutorial] - Perl Tutorial with Examples.
 * [http://www.tpj.com/ The Perl Journal online] - The original Perl print periodical.
 * [http://www.perl.com/pub/a/2000/01/10PerlMyths.html Ten Perl Myths] - O'Reilly
 * [http://fortunes.quotationsbook.com/fortunes/collection/52/PERL Perl fortunes] - Collected quotes from Larry Wall.
