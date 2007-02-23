@@ -455,6 +455,7 @@ Initially the passtime of reducing code size of short Perl programs was focused 
 
 ====Obfuscation====
 As with C, [[obfuscated code]] competitions are a well-known passtime. The annual [[Obfuscated Perl contest]] made an arch virtue of Perl's [[syntax|syntactic]] flexibility.
+hai
 
 ====Poetry====
 Similar to obfuscated code and golf, but with a different purpose, Perl poetry is the practice of writing poems that can actually be compiled as legal (although generally non-sensical) Perl code. This hobby is more or less unique to Perl due to the large number of regular English words used in the language. New poems are regularly published in the [[Perl Monks]] site's [http://www.perlmonks.org/?node_id=1590 Perl Poetry section].
