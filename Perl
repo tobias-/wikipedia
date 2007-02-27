@@ -144,7 +144,7 @@ Strictly speaking, the final line of any file or block of code in a Perl program
 
 === Data types ===
 
-Perl has a number of fundamental [[data type]]s, the most commonly used and discussed being: [[Scalar (computing)|scalars]], [[array]]s, [[Hash table|hashes]] and [[filehandle]]s and [[subroutines]]:
+Perl has a number of fundamental [[data type]]s, the most commonly used and discussed being: [[Scalar (computing)|scalars]], [[array]]s, [[Hash table|hashes]], [[filehandle]]s and [[subroutines]]:
 *A scalar is a single value; it may be a number, a [[String (computer science)|string]] or a [[Reference (computer science)|reference]]
 *An array is an ordered collection of scalars
 *A hash, or [[associative array]], is a map from strings to scalars; the strings are called ''keys'' and the scalars are called ''values''.
