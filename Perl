@@ -131,16 +131,16 @@ In June 2006, win32.perl.org was launched by Adam Kennedy on behalf of [[The Per
 == Language structure ==
 {{wikibooks}}
 
-In Perl, the canonical [[Hello world]] program is occasionally stated as:
+In Perl, the canonical [[Hello world]] program may be written
 
  #!/usr/bin/perl
  print "Hello, world!\n";    # "\n" is a 'newline'
 
-The main part is, obviously the second line, which [[Input/output|print]]s the [[String (computer science)|string]] ''Hello, world!'' and a [[newline]]. The hash mark character introduces a [[comment (computer programming)|comment]] in Perl, which runs up to the end of the line of code; both the first line and the second half of the second line are therefore ignored by the compiler.
+The main part is the second line, which [[Input/output|print]]s the [[String (computer science)|string]] ''Hello, world!'' and a [[newline]]. The hash mark character introduces a [[comment (computer programming)|comment]] in Perl, which runs up to the end of the line of code; both the first line and the second half of the second line are therefore ignored by the compiler.
 
-However, the first line is a special kind of comment: it’s called the [[Shebang (Unix)|shebang]] line, which tells Unix-like operating system where to find the Perl interpreter. Perl always parses the shebang line for switches, even if it is invoked via a mechanism that bypasses the shebang.<ref name="cpanports">{{cite web | url=http://perldoc.perl.org/perlrun.html#DESCRIPTION | title=perlrun manpage}}</ref> (Notably, on [[Microsoft Windows]] systems, Perl programs are typically invoked by associating the <tt>.pl</tt> [[Filename extension|extension]] with the Perl interpreter.)
+The first line is a special kind of comment: it’s called the [[Shebang (Unix)|shebang]] line, and it tells Unix-like operating systems where to find the Perl interpreter. Perl always parses the shebang line for switches, even if it is invoked via a mechanism that bypasses the shebang.<ref name="cpanports">{{cite web | url=http://perldoc.perl.org/perlrun.html#DESCRIPTION | title=perlrun manpage}}</ref> (Notably, on [[Microsoft Windows]] systems, Perl programs are typically invoked by associating the <tt>.pl</tt> [[Filename extension|extension]] with the Perl interpreter.)
 
-Strictly speaking, the final line of any file or block of code in a Perl program need not be terminated by a semicolon; and since it's perfectly possible to invoke the perl interpreter directly from a command line, and comments are always optional, the most minimal Hello World program in Perl is as follows:
+The final statement of any file or block of code in a Perl program need not be terminated by a semicolon, and since it's perfectly possible to invoke the perl interpreter directly from a command line, and comments are always optional, a minimal Hello World program in Perl is
 
  print "Hello, world!\n"
 
