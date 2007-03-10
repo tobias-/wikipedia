@@ -444,8 +444,8 @@ In 2006, an effort was started to have Windows Perl distributions ship with a co
 ==The Perl community==
 Perl's culture and community has developed along side the language itself. [[Usenet]] was the first public venue in which Perl was introduced, but over the course of its evolution, Perl's community was shaped by the growth of broading Internet-based services including the introduction of the [[World Wide Web]]. The community that surrounds Perl was, in fact, the topic of Larry Wall's first "State of the Onion" talk.<ref>{{ cite web | url=http://www.wall.org/~larry/keynote/keynote.html | title=Perl Culture (AKA the first State of the Onion) | author=Wall, Larry | date=1997-08-20 }}</ref>
 
-===Passtimes===
-Perl's passtimes have become a defining element of the community. Included among them are trivial and complex uses of the language.
+===Pastimes===
+Perl's pastimes have become a defining element of the community. Included among them are trivial and complex uses of the language.
 
 ====JAPHs====
 In email, Usenet and message board postings, "[[Just another Perl hacker]]" (JAPH) programs have become a common trend, originated by [[Randal L. Schwartz]], one of the earliest professional Perl trainers.<ref>Randal L. Schwartz in [[usenet]] message M1HFPVH2JQ.FSF@HALFDOME.HOLDIT.COM explaining the origin of JAPH. Available through google: http://groups.google.com/group/comp.lang.perl.misc/msg/ecc405feeefc120c</ref>
