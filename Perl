@@ -452,7 +452,7 @@ In email, Usenet and message board postings, "[[Just another Perl hacker]]" (JAP
 
 In the parlance of Perl culture, Perl [[programmer]]s are known as Perl [[hacker]]s, and from this derives the practice of writing short programs to print out the phrase "[[Just another Perl hacker]],". In the spirit of the original concept, these programs are moderately obfuscated and short enough to fit into the [[signature]] of an email or [[Usenet]] message. The "canonical" JAPH includes the comma at the end, although this is often omitted.
 
-This practice lead to another of Perl's most widespread passtimes: Perl golf.
+This practice lead to another of Perl's most widespread pastimes: Perl golf.
 
 ====Perl golf====
 Initially the pastime of reducing code size of short Perl programs was focused on JAPHs used in signatures in Usenet postings and elsewhere, but the use of Perl to write a program which performed [[RSA]] encryption prompted a widespread and practical interest in this passtime.<ref>http://www.cypherspace.org/adam/rsa/story.html</ref> The original version in 1995 was intended as a demonstration of the simplicity of RSA encryption, and of the absurdity of defining something so small and easily expressed as a [[munition]] (which the [[United States]] government had done). Over the years, increasingly smaller forms of this program were developed, resulting in the adoption of code golf as a pastime in Perl and several other languages.<ref>{{cite web | url=http://codegolf.com/ | title=Code Golf: What is Code Golf? | publisher=29degrees | date=2007 }}</ref>
