@@ -427,7 +427,7 @@ Optimizing Perl can require intimate knowledge of its workings rather than skill
 {{main|Perl 6}}
 At the 2000 [[Perl Conference]], [[Jon Orwant]] made a case for a major new language initiative<ref>[http://www.nntp.perl.org/group/perl.perl6.meta/424 Transcription of Larry's talk]. Retrieved on 2006 September 28.</ref>. This led to a decision to begin work on a redesign of the language, to be called Perl 6. Proposals for new language features were solicited from the Perl community at large, and over 300 RFCs were submitted.
 
-Larry Wall spent the next few years digesting the RFCs and synthesizing them into a coherent framework for Perl 6. He has presented his design for Perl 6 in a series of documents called [[Apocalypse (perl)|apocalypse]]s, which are numbered to correspond to chapters in ''[[Programming Perl]]'' ("The Camel Book").  The current, unfinalized specification of Perl 6 is encapsulated in design documents called Synopses, which are numbered to correspond to Apocalypses.
+[[Larry Wall]] spent the next few years digesting the RFCs and synthesizing them into a coherent framework for Perl 6. He has presented his design for Perl 6 in a series of documents called [[Apocalypse (perl)|apocalypse]]s, which are numbered to correspond to chapters in ''[[Programming Perl]]'' ("The Camel Book").  The current, unfinalized specification of Perl 6 is encapsulated in design documents called Synopses, which are numbered to correspond to Apocalypses.
 
 Perl 6 is not intended to be backward compatible, though there will be a compatibility mode.
 
