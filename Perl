@@ -243,7 +243,7 @@ The latter gives the index of the last element in the array, not the number of e
   $#friends+1     # usually the number of elements in @friends
                   # this is one more than $#friends because the first element is at
                   # index 0, not 1. Unless the programmer reset this to a
-                  # different value, which most Perl manuals encourage him
+                  # different value, which most Perl manuals encourage her
                   # not to do.
 
 There are a few functions that operate on entire hashes.
