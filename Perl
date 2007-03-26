@@ -398,7 +398,7 @@ One common use of regular expressions is to specify delimiters for the <tt>split
 
  @words = split m/,/, $line;
 
-The <tt>split</tt> function creates a list of the parts of the string separated by matches of the regular expression. In this example, a line is divided into a list of its comma-separated parts, and this list is then assigned to the <tt>@words</tt> array.
+The <tt>split</tt> function creates a list of the parts of the string separated by matches of the regular expression. In this example, a line is divided into a list of its comma-separated parts, and this list is then assigned to the <tt>@words</tt> array..
 
 === Database interfaces ===
 
