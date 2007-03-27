@@ -43,9 +43,9 @@ The name is normally capitalized (''Perl'') when referring to the language and u
 
 The name is occasionally given as "PERL" (for '''P'''ractical '''E'''xtraction and '''R'''eport '''L'''anguage). Although the expansion has prevailed in many of today's manuals, including the official Perl [[Manual page (Unix)|man page]], it is merely a [[backronym]]. The name does not officially stand for anything. Spelling PERL in all caps is therefore considered a label of community outsiders. Several other expansions have been suggested, including Wall's own humorous ''Pathologically Eclectic Rubbish Lister''.<ref>{{ cite web | last = Wall | first = Larry | authorlink = Larry Wall | title = BUGS | work = perl(1) [[man page]] | url = http://perldoc.perl.org/perl.html#BUGS | accessdate = 2006-10-13 }}</ref> Indeed, Wall claims that the name was intended to inspire many different expansions. <ref>{{cite web | last = Wall | first = Larry | authorlink = Larry Wall | title = Re^7: PERL as shibboleth and the Perl community | url =http://www.perlmonks.org/index.pl?node_id=511722 | accessdate = 2007-01-03 }}</ref>
 
-===The camel symbol===
+===The camel(shotor) symbol===
 
-''Programming Perl'', published by [[O'Reilly Media]], features a picture of a camel on the cover, and is commonly referred to as ''The Camel Book''<ref name="larry-wall-snippet"/>. This image of a camel has become a general symbol of Perl.
+''Programming Perl'', published by [[O'Reilly Media]], features a picture of a camel('''shotor''') on the cover, and is commonly referred to as ''The Camel Book''<ref name="larry-wall-snippet"/>. This image of a camel('''shotor''') has become a general symbol of Perl.
 
 O'Reilly owns the image as a trademark, but claims to use their legal rights only to protect the ''"integrity and impact of that symbol"'' [http://perl.oreilly.com/usage/]. 
 O'Reilly allows non-commercial use of the symbol, and provides [http://www.oreillynet.com/images/perl/sm_perl_id_bk_wt.gif Programming Republic of Perl] logos (see above) and [http://www.oreillynet.com/images/perl/powered_by_perl.gif Powered by Perl] buttons.
