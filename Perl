@@ -133,7 +133,7 @@ In June 2006, [http://win32.perl.org win32.perl.org] was launched by Adam Kenned
 
 In Perl, the minimal [[Hello world]] program may be written as follows:
 
- print "Hello, world!\n";--[[User:194.39.218.10|194.39.218.10]] 12:57, 28 March 2007 (UTC)[[Image:Example.jpg]]
+ print "Hello, world!\n"
 
 This [[Input/output|print]]s the [[String (computer science)|string]] ''Hello, world!'' and a [[newline]], symbolically expressed by an <tt>n</tt> character whose interpretation is altered by the preceding backslash.
 
