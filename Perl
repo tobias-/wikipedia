@@ -139,8 +139,7 @@ This [[Input/output|print]]s the [[String (computer science)|string]] ''Hello, w
 
 The canonical form of the program is slightly more verbose:
 
- #!/usr/bin/perl -w
- 
+ #!/usr/bin/perl
  print "Hello, world!\n";
 
 The hash mark character introduces a [[comment (computer programming)|comment]] in Perl, which runs up to the end of the line of code and is ignored by the compiler. The comment used here is of a special kind: it’s called the [[Shebang (Unix)|shebang]] line. This tells Unix-like operating systems where to find the Perl interpreter, making it possible to invoke the program without explicitly mentioning <tt>perl</tt>. (Note that on [[Microsoft Windows]] systems, Perl programs are typically invoked by associating the <tt>.pl</tt> [[Filename extension|extension]] with the Perl interpreter. In order to deal with such circumstances, <tt>perl</tt> detects the shebang line and parses it for switches<ref name="cpanports">{{cite web | url=http://perldoc.perl.org/perlrun.html#DESCRIPTION | title=perlrun manpage}}</ref>, so it is not strictly true that the shebang line is ignored by the compiler.)
