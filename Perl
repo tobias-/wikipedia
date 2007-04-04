@@ -217,8 +217,8 @@ A hash may be initialized from a list of key/value pairs.
 
 Or it may simply be defined piece by piece:
 
-  $favourite{joe} = 'red';
-  $favourite{sam} = 'blue';
+  $favorite{joe} = 'red';
+  $favorite{sam} = 'blue';
 
 Individual elements of a list are accessed by providing a numerical
 index, in square brackets. Individual values in a hash are
