@@ -326,9 +326,9 @@ which may be undesirable.
 
 One common idiom is to assign <tt>@_</tt> to a list of named variables.
 
- my($x, $y, $z) = @_;
+ my ($x, $y, $z) = @_;
 
-This effects both mnemonic parameter names and [[Evaluation strategy#Call by value|pass-by-value]] semantics.
+This provides mnemonic parameter names and implements [[Evaluation strategy#Call by value|pass-by-value]] semantics.
 The <tt>my</tt> keyword indicates that the following variables are lexically scoped to the containing block.
 
 Another idiom is to shift parameters off of <tt>@_</tt>. This is especially common when the subroutine takes only one argument.
