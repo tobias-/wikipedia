@@ -50,6 +50,8 @@ The name is occasionally given as "PERL" (for '''P'''ractical '''E'''xtraction a
 O'Reilly owns the image as a trademark, but claims to use their legal rights only to protect the ''"integrity and impact of that symbol"'' [http://perl.oreilly.com/usage/]. 
 O'Reilly allows non-commercial use of the symbol, and provides [http://www.oreillynet.com/images/perl/sm_perl_id_bk_wt.gif Programming Republic of Perl] logos (see above) and [http://www.oreillynet.com/images/perl/powered_by_perl.gif Powered by Perl] buttons.
 
+OMG!! PHP totally spanks Perl!!!
+
 == Overview ==
 
 Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more.
