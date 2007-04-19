@@ -129,7 +129,7 @@ The [[Cygwin]] emulation layer provides another way of running Perl under Window
 In June 2006, [http://win32.perl.org win32.perl.org] was launched by Adam Kennedy on behalf of [[The Perl Foundation]]. It is a community website for "all things Windows and Perl."<ref name="win32perl">{{cite web | url=http://win32.perl.org/wiki/index.php?title=Main_Page | title=Win32 Perl Wiki | author=Kennedy, Adam | year=2006}}</ref>
 
 == Language structure ==
-{{wikibooks}}
+{{wikibooks|Perl Programming}}
 
 In Perl, the minimal [[Hello world]] program may be written as follows:
 
