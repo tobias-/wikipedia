@@ -510,6 +510,7 @@ These are also examples of "source filters"; libraries which transform the text 
 {{wikibooks}}
 * [http://www.perl.org/ Perl.org] - Official Perl website
 * [http://perldoc.perl.org/ Perldoc at Perl.org] - online Perl documentation
+* [http://perl-begin.org/ The Perl Beginners' Site (Perl-Begin)] - aims to be a first stop for introducing and advocating Perl.
 * [http://www.xray.mpe.mpg.de/mailing-lists/perl5-porters/ perl5-porters mailing list archive]
 * [http://dev.perl.org/ Perl development]
 * [http://www.indigostar.com/indigoperl.htm IndigoPerl] - another distribution of Perl for Microsoft Windows
