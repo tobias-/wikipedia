@@ -527,6 +527,7 @@ These are also examples of "source filters"; libraries which transform the text 
 
 [[Category:Perl|*]]
 [[Category:Curly bracket programming languages]]
+[[Category:Dynamic programming languages]]
 [[Category:Dynamically-typed programming languages]]
 [[Category:Free compilers and interpreters]]
 [[Category:.NET programming languages]]
