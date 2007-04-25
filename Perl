@@ -68,7 +68,7 @@ In Perl 5, features were added that support complex [[data structure]]s, [[first
 
 All versions of Perl do automatic data typing and memory management. The interpreter knows the type and storage requirements of every data object in the program; it allocates and frees storage for them as necessary. Legal type conversions are done automatically at run time; illegal type conversions are fatal errors.
 
-=== Design ===
+=== Design === test
 
 The design of Perl can be understood as a response to three broad trends in the computer industry: falling hardware costs, rising labor costs, and improvements in compiler technology. Many earlier computer languages, such as [[Fortran]] and C, were designed to make efficient use of expensive computer hardware. In contrast, Perl  is designed to make efficient use of expensive computer programmers.
 
@@ -76,7 +76,7 @@ Perl has many features that ease the programmer's task at the expense of greater
 
 Wall was trained as a linguist, and the design of Perl is very much informed by linguistic principles. Examples include [[Huffman coding]] (common constructions should be short), good end-weighting (the important information should come first), and a large collection of language primitives. Perl favors language constructs that are natural for humans to read and write, even where they complicate the Perl interpreter. 
 
-Perl syntax reflects the idea that "things that are different should look different".  For example, scalars, arrays, and hashes have different leading [[Sigil (computer programming)|sigils]]. Array indices and hash keys use different kinds of braces. Strings and regular expressions have different standard delimiters.  This approach can be contrasted with languages like [[Lisp programming language|Lisp]], where the same [[S-expression]] construct and basic syntax is used for many different purposes.
+Perl syntax reflects the idea that "things that are different should look different".  For example, scalars, arrays, and hashes have differentl leading [[Sigil (computer programming)|sigils]]. Array indices and hash keys use different kinds of braces. Strings and regular expressions have different standard delimiters.  This approach can be contrasted with languages like [[Lisp programming language|Lisp]], where the same [[S-expression]] construct and basic syntax is used for many different purposes.
 
 Perl does not enforce any particular programming paradigm (procedural, object-oriented, functional, etc.), or even require the programmer to choose among them. 
 
