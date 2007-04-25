@@ -406,7 +406,7 @@ Perl is widely favored for database applications. Its text handling facilities a
 
 In early versions of Perl, database interfaces were created by relinking the interpreter with a client-side database library. This was somewhat clumsy; a particular problem was that the resulting <tt>perl</tt> executable was restricted to using just the one database interface that it was linked to. Also, relinking the interpreter was sufficiently difficult that it was only done for a few of the most important and widely used databases.
 
-In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The <tt>DBI</tt> (Database Interface) module presents a single, database-independent interface to Perl applications, while the <tt>DBD::</tt> (Database Driver) modules handle the details of accessing some 50 different databases. There are <tt>DBD::</tt> drivers for most [[ANSI]] [[SQL]] databases.
+In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The <tt>DBI</tt> (Database Interface) module presents a single, database-independent interface to Perl applications, while the <tt>DBD::</tt> (Database Driver) modules handle the details of accessing some 50 different databases. There are <tt>DBD::</tt> driver for most [[ANSI]] [[SQL]] databases.
 
 ==Comparative performance==
 
