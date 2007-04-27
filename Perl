@@ -122,13 +122,13 @@ Because of unusual changes required for the [[Mac OS history|Mac OS Classic]] en
 
 ====Windows====
 
-Users of [[Microsoft Windows]] typically install a native binary distribution of Perl.<ref>{{cite web | url=http://win32.perl.org/wiki/index.php?title=Win32_Distributions#Perl_Distributions | title=Win32 Distributions | publisher=Win32 Perl Wiki}}</ref> The most common <ref name="comm1">{{cite web | url=http://perl.apache.org/docs/1.0/os/win32/install.pod.orig?title=Main_Page | title=Installing Perl on Apache}}</ref><ref name="comm2">{{cite web | url=http://www.thescripts.com/forum/thread50676.html?title=Main_Page | title=ActivePerl most common}}</ref><ref name="comm3">{{cite web | url=http://www.bioperl.org/Core/Latest/INSTALL.WIN?title=Main_Page | title=BioPerl }}</ref> Perl binary for Windows is [http://www.activestate.com/activeperl ActivePerl] from [http://www.activestate.com ActiveState].
+Users of [[Microsoft Windows]] typically install a native binary distribution of Perl<ref>{{cite web | url=http://win32.perl.org/wiki/index.php?title=Win32_Distributions#Perl_Distributions | title=Win32 Distributions | publisher=Win32 Perl Wiki}}</ref>, most commonly [[ActivePerl]]. Compiling Perl from [[source code]] under Windows is possible, but most installations lack the requisite C compiler and build tools. This also makes it hard to install modules from the CPAN, particularly such modules that are partially written in C.
 
-Compiling Perl from [[source code]] under Windows is possible, but most installations lack the requisite C compiler.
+Users of the ActivePerl binary distribution are therefore dependent the repackaged modules provided in [[ActiveState]]’s module repository, which are precompiled and can be installed with [[Perl package manager|PPM]]. Limited resources to maintain this repository have been cause for various long-standing problems in the past<ref>{{cite web | url=http://www.mail-archive.com/perl-qa@perl.org/msg05407.html | title=Activestate and Scalar-List-Utils | author=Golden, David | year=2006}}</ref>.
 
-The [[Cygwin]] emulation layer provides another way of running Perl under Windows. Cygwin provides a Unix-like environment on Windows that includes [[GNU Compiler Collection|gcc]], so compiling Perl from source is a more accessible option for users who take this approach.
+To address this and other problems of Perl on the Windows platform, [http://win32.perl.org win32.perl.org] was launched by Adam Kennedy on behalf of [[The Perl Foundation]] in June 2006. This is a community website for "all things Windows and Perl." A major aim of this project is to provide a production-quality alternative binary distribution that includes a C compiler and build tools, so as to enable Windows users to install modules directly from the CPAN. This distribution is known as Strawberry Perl.
 
-In June 2006, [http://win32.perl.org win32.perl.org] was launched by Adam Kennedy on behalf of [[The Perl Foundation]]. It is a community website for "all things Windows and Perl."<ref name="win32perl">{{cite web | url=http://win32.perl.org/wiki/index.php?title=Main_Page | title=Win32 Perl Wiki | author=Kennedy, Adam | year=2006}}</ref>
+Another way of running Perl under Windows is provided by the [[Cygwin]] emulation layer. Cygwin provides a Unix-like environment on Windows that includes [[GNU Compiler Collection|gcc]], so compiling Perl from source is a more accessible option for users who take this approach.
 
 == Language structure ==
 {{wikibooks|Perl Programming}}
