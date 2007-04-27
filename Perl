@@ -539,6 +539,7 @@ These are also examples of "source filters"; libraries which transform the text 
 [[Category:Text-oriented programming languages]]
 [[Category:Unix software]]
 
+[[ar:بيرل]]
 [[als:Perl]]
 [[zh-min-nan:Perl]]
 [[bs:Perl]]
