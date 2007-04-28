@@ -130,6 +130,11 @@ To address this and other problems of Perl on the Windows platform, [http://win3
 
 Another way of running Perl under Windows is provided by the [[Cygwin]] emulation layer. Cygwin provides a Unix-like environment on Windows that includes [[GNU Compiler Collection|gcc]], so compiling Perl from source is a more accessible option for users who take this approach.
 
+====Windows Mobile====
+
+Perl runs on Microsoft Windows CE, via an open-source project hosted at sourceforge:
+http://perlce.sourceforge.net/.
+
 ====Symbian====
 
 Perl runs on Nokia mobile phones series S60 and S80, via an exciting open-source project by Nokia:
