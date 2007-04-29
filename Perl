@@ -118,16 +118,9 @@ Do not list a specific platform unless there are notable issues about running Pe
 
 -->Perl is [[free software]], and is licensed under both the [[Artistic License]] and the [[GNU General Public License]]. [[Perl#Distributions|Distributions]] are available for most [[operating system]]s. It is particularly prevalent on [[Unix]] and [[Unix-like]] systems, but it has been ported to most modern (and many obsolete) platforms. With only six reported exceptions, Perl can be compiled from [[source code]] on all Unix-like, [[POSIX]]-compliant or otherwise Unix-compatible platforms.<ref name="cpanports">{{cite web | url=http://www.cpan.org/ports/ | title=Perl Ports (Binary Distributions) | publisher=CPAN.org | author=Hietaniemi, Jarkko | year=1998}}</ref> However, this is rarely necessary, as Perl is included in the default installation of many popular operating systems.
 
-====Apple OS====
-
-Perl runs natively on Apple OSX.
-
 Because of unusual changes required for the [[Mac OS history|Mac OS Classic]] environment, a special port called MacPerl was shipped independently.<ref name="macperl">{{cite web | url=http://www.macperl.com/ | title=The MacPerl Pages | year=1997 | publisher=Prime Time Freeware}}</ref>
 
-====Symbian====
-
-Perl runs on Nokia mobile phones series S60 and S80, via an exciting open-source project by Nokia:
-http://opensource.nokia.com/projects/symbian-perl/index.html.
+The CPAN carries [http://www.cpan.org/ports/ a complete list of supported platforms with links to the distributions available on each].
 
 ====Windows====
 
@@ -138,11 +131,6 @@ Users of the ActivePerl binary distribution are therefore dependent the repackag
 To address this and other problems of Perl on the Windows platform, [http://win32.perl.org win32.perl.org] was launched by Adam Kennedy on behalf of [[The Perl Foundation]] in June 2006. This is a community website for "all things Windows and Perl." A major aim of this project is to provide a production-quality alternative binary distribution that includes a C compiler and build tools, so as to enable Windows users to install modules directly from the CPAN. This distribution is known as Strawberry Perl.
 
 Another way of running Perl under Windows is provided by the [[Cygwin]] emulation layer. Cygwin provides a Unix-like environment on Windows that includes [[GNU Compiler Collection|gcc]], so compiling Perl from source is a more accessible option for users who take this approach.
-
-====Windows Mobile====
-
-Perl runs on Microsoft Windows CE, via an open-source project hosted at sourceforge:
-http://perlce.sourceforge.net/.
 
 == Language structure ==
 {{wikibooks|Perl Programming}}
