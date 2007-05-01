@@ -509,7 +509,7 @@ These are also examples of "source filters"; libraries which transform the text 
 == External links ==
 <!-- some of these should be referenced in the article as opposed to just flung in here. -->
 
-{{wikibooks}}
+{{wikibooks|Perl Programming}}
 * [http://www.perl.org/ Perl.org] - Official Perl website
 * [http://perldoc.perl.org/ Perldoc at Perl.org] - online Perl documentation
 * [http://perl-begin.org/ The Perl Beginners' Site (Perl-Begin)] - aims to be a first stop for introducing and advocating Perl.
