@@ -300,9 +300,10 @@ It terminates the current subroutine and immediately calls the specified <tt>''s
 
 === Subroutines ===
 
-[[Subroutine]]s are defined with the <tt>sub</tt> keyword, and invoked simply by naming them. If the subroutine in question has not yet been declared, parentheses are required for proper parsing.
+[[Subroutine]]s are defined with the <tt>sub</tt> keyword, and invoked simply by naming them. If the subroutine in question has not yet been declared, either parentheses after the function name or an ampersand ('''''&''''') before it is<!-- grammar:parentheses==are? --> required for proper invocation.
 
  foo();             # parentheses required here...
+ &foo;              # (this also works)
  sub foo { ... }
  foo;               # ... but not here
 
