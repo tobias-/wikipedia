@@ -312,7 +312,7 @@ Arguments may be scalars, lists, or hashes.
 
  foo $x, @y, %z;
 
-The parameters to a subroutine need not be declared as to either number or type; in fact, they may vary from call to call.
+The parameters to a subroutine do not need to be declared as to either number or type; in fact, they may vary from call to call.
 Arrays are expanded to their elements, hashes are expanded to a list of key/value pairs, and the whole lot is passed into the subroutine as one undifferentiated list of scalars.
 
 Whatever arguments are passed are available to the subroutine in the special array <tt>@_</tt>.
