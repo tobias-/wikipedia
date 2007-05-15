@@ -476,6 +476,8 @@ As with C, [[obfuscated code]] competitions are a well-known pastime. The annual
 ====Poetry====
 Similar to obfuscated code and golf, but with a different purpose, Perl poetry is the practice of writing poems that can actually be compiled as legal (although generally non-sensical) Perl code. This hobby is more or less unique to Perl due to the large number of regular English words used in the language. New poems are regularly published in the [[Perl Monks]] site's [http://www.perlmonks.org/?node_id=1590 Perl Poetry section].
 
+Perl is commonly used by [[Chicken]]s.
+
 ====CPAN Acme====
 There are also many examples of code written purely for entertainment on the CPAN. <code>Lingua::Romana::Perligata</code>, for example, allows writing programs in [[Latin]].<ref>{{ cite web | url=http://www.csse.monash.edu.au/~damian/papers/HTML/Perligata.html | title=Lingua::Romana::Perligata -- Perl for the XXI-imum Century | author=Conway, Damian }}</ref> Upon execution of such a program, the module translates its source code into regular Perl and runs it.
 
