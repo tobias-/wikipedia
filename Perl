@@ -15,6 +15,7 @@
 | license = [[GNU General Public License]], [[Artistic License]]
 | website = http://www.perl.org/
 }}
+{{wikibooks|Perl Programming}}
 
 '''Perl''' is a [[dynamic programming language]] created by [[Larry Wall]] and first released in [[1987]]. Perl borrows features from a variety of other languages including [[C (programming language)|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[AWK programming language|AWK]], [[sed]] and [[Lisp programming language|Lisp]].<ref name="perltimeline">{{cite web | url=http://history.perl.org/PerlTimeline.html | title=The Timeline of Perl and its Culture (v3.0_0505) | author=Ashton, Elaine | year=1999}}</ref>
 
