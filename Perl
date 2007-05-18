@@ -437,7 +437,7 @@ In the case of dynamically-generated (and potentially self-modifying) vertex sha
 
 Nicholas Clark, a Perl core developer, discusses some Perl design trade-offs and some solutions in [http://www.ccl4.org/~nick/P/Fast_Enough/ "When perl is not quite fast enough"].  The most critical routines of a Perl program can be written in other languages such as [[C (programming language)|C]] or [[Assembly language|Assembler]] via [[XS (Perl)|XS]] or [http://search.cpan.org/perldoc/Inline Inline].
 
-Optimizing Perl can require intimate knowledge of its workings rather than skill with the language and its syntax, meaning that the problem is with the implementation of Perl rather than the language itself. [[Perl 6]], the next major version, will address some of these lessons that other languages have already learned.
+Optimizing Perl can require intimate knowledge of its workings rather than skill with the language and its syntax, meaning that the problem is with the implementation of Perl rather than the language itself.
 
 ==Future==
 {{main|Perl 6}}
