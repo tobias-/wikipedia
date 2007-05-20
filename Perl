@@ -529,7 +529,6 @@ These are also examples of "source filters"; libraries which transform the text 
 * [http://fortunes.quotationsbook.com/fortunes/collection/52/PERL Perl fortunes] - Collected quotes from Larry Wall.
 * [http://ptkdb.sourceforge.net/ Perl/Tk Debugger] - Open Source Perl Debugger Based on Tk Library.
 * [http://graphcomp.com/opengl/bench.html C vs Perl GPU Performance] - Comparisons on Vista and Linux.
-* [http://showmedo.com/videos/series?name=perlDevijverPerlIntroSeries Perl video tutorial series] at ShowMeDo
 
 [[Category:Perl|*]]
 [[Category:Curly bracket programming languages]]
