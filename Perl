@@ -420,7 +420,7 @@ Perl can be slower than compiled languages performing the same tasks because it 
 
 A number of tools have been introduced to improve this situation, the first of which was Apache's [[mod_perl]], which sought to address one of the most common reasons that small Perl programs were invoked rapidly: [[Common Gateway Interface|CGI]] [[World Wide Web|Web]] development.  [[ActiveState|ActivePerl]], via Microsoft [[ISAPI]] provides similar performance improvements.
 
-===GPGPU performance===
+===GPU performance===
 
 One area in which Perl performance is comparable to that of compiled languages is in the use of
 [[Graphics processing unit|GPU]]s. General Purpose GPU ([[GPGPU]]) processing uses [[Vertex shader]] programs to process vast arrays of data, independent of the [[Central processing unit|CPU]].
