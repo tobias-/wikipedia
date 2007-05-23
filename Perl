@@ -429,9 +429,11 @@ GPU use involves loading initial r/o data via textures, loading c-like vertex sh
 
 In short, the GPU does all the number-crunching, leaving the CPU to do event handling, system calls, disk I/O and UI - which tends to contribute a minor portion of the overall processing time.  In such cases, the performance difference between Perl and compiled languages become statistically insignificant.
 
-[http://graphcomp.com/opengl/bench.html GPU benchmarks] comparing C vs Perl, using the latest Perl OpenGL ([[POGL]]) 0.55 module, demonstrate that there is no significant performance difference when rendering realtime animated 3D objects using dynamically generated texturemaps.
+[http://graphcomp.com/opengl/benchmarks GPU benchmarks] comparing C vs Perl, using the latest Perl OpenGL ([[POGL]]) 0.55 module, demonstrate that there is no significant performance difference when rendering realtime animated 3D objects using dynamically generated texturemaps.
 
 In the case of dynamically-generated (and potentially self-modifying) vertex shader code, Perl can provide better GPU performance than compiled code - due to its dynamically interpretive string handling features.
+
+Additional benchmarks demonstrate that Perl OpenGL (POGL) is at least 20% faster than Python OpenGL (PyOpenGL).
 
 ===Optimizing===
 
