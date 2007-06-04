@@ -28,11 +28,11 @@ Perl 4 went through a series of maintenance releases, culminating in Perl 4.036 
 
 Initial design of Perl 5 continued into 1994. The [http://www.xray.mpe.mpg.de/mailing-lists/perl5-porters/ perl5-porters] mailing list was established in May 1994 to coordinate work on porting Perl 5 to different platforms. It remains the primary forum for development, maintenance, and porting of Perl 5.
 
-Perl 5 was released on [[October 17]] [[1994]]. It was a nearly complete rewrite of the interpreter, and added many new features to the language, including objects, references, packages, and modules. Importantly, modules provided a mechanism for extending the language without modifying the interpreter. This allowed the core interpreter to stabilize, even as it enabled ordinary Perl programmers to add new language features.
+Perl 5 was released on [[October 17]] [[1994]]. It was a nearly complete rewrite of the [[interpreter (computing)|interpreter]], and added many new features to the language, including objects, references, packages, and modules. Importantly, modules provided a mechanism for extending the language without modifying the interpreter. This allowed the core interpreter to stabilize, even as it enabled ordinary Perl programmers to add new language features.
 
 [[As of 2007]], Perl 5 is still being actively maintained. Important features and some essential new language constructs have been added along the way, including [[Unicode]] support, [[Thread (computer science)|threads]], improved support for [[object oriented programming]] and many other enhancements. The latest stable release is Perl 5.8.8.
 
-One of the most important events in Perl 5 history took place outside of the language proper, and was a consequence of its module support. On [[October 26]] [[1995]], the [[Comprehensive Perl Archive Network]] (CPAN) was established. The CPAN is a widely mirrored [[FTP]] archive <!-- yes, an FTP archive, specifically --> for Perl modules and for the sources, binary distributions, and documentation of Perl itself. Several interfaces for using it more effectively have been built on top of it, chiefly an automatic module installer included with Perl (CPAN.pm), and a web-based [[search engine]] and documentation browser. At the time of writing, it carries over 11,000 Perl [[Module (programming)|modules]] by over 5,000 authors. CPAN is widely regarded as one of the greatest strengths of Perl in practice. <!--
+One of the most important events in Perl 5 history took place outside of the language proper, and was a consequence of its module support. On [[October 26]] [[1995]], the [[Comprehensive Perl Archive Network]] (CPAN) was established. The CPAN is a widely mirrored [[FTP]] archive <!-- yes, an FTP archive, specifically --> for Perl modules and for the sources, binary distributions, and documentation of Perl itself. Several [[interface (computer science)|interface]]s for using it more effectively have been built on top of it, chiefly an automatic module installer included with Perl (CPAN.pm), and a web-based [[search engine]] and documentation browser. At the time of writing, it carries over 11,000 Perl [[Module (programming)|modules]] by over 5,000 authors. CPAN is widely regarded as one of the greatest strengths of Perl in practice. <!--
 
 While you can browse the CPAN directory structure via HTTP on many mirrors, that does not a website make, it only does a HTML-rendered interface to a filesystem make. Likewise, the CPAN is not just "an unspecified kind of repository"; the fact that it's an FTP archive affects the workflows and structure of the archive.
 -->
@@ -47,14 +47,14 @@ The name is occasionally given as "PERL" (for '''P'''ractical '''E'''xtraction a
 
 ===The camel symbol===
 
-''Programming Perl'', published by [[O'Reilly Media]], features a picture of a camel on the cover, and is commonly referred to as ''The Camel Book''.<ref name="larry-wall-snippet"/> This image of a camel has become a general symbol of Perl.
+''[[Programming Perl]]'', published by [[O'Reilly Media]], features a picture of a [[camel]] on the cover, and is commonly referred to as ''The Camel Book''.<ref name="larry-wall-snippet"/> This image of a camel has become a general symbol of Perl.
 
 O'Reilly owns the image as a trademark, but claims to use their legal rights only to protect the ''"integrity and impact of that symbol"'' [http://perl.oreilly.com/usage/]. 
-O'Reilly allows non-commercial use of the symbol, and provides [http://www.oreillynet.com/images/perl/sm_perl_id_bk_wt.gif Programming Republic of Perl] logos (see above) and [http://www.oreillynet.com/images/perl/powered_by_perl.gif Powered by Perl] buttons.
+O'Reilly allows non-commercial use of the symbol, and provides [http://www.oreillynet.com/images/perl/sm_perl_id_bk_wt.gif Programming Republic of Perl] logos (see the top of the article) and [http://www.oreillynet.com/images/perl/powered_by_perl.gif Powered by Perl] buttons.
 
 == Overview ==
 
-Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more.
+Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including [[system administration]], [[web development]], [[network programming]], [[GUI]] development, and more.
 
 The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal).<ref>perlintro(1) [[man page]]</ref> Its major features include support for multiple programming paradigms ([[procedural programming language|procedural]], [[Object-oriented programming|object-oriented]], and [[functional programming|functional]] styles), automatic [[memory management]], built-in support for text processing, and a large collection of third-party [[Module (programming)|modules]].
 
