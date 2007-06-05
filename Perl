@@ -526,7 +526,6 @@ These are also examples of "source filters"; libraries which transform the text 
 * [http://www.tpj.com/ The Perl Journal online] - The original Perl print periodical.
 * [http://www.perl.com/pub/a/2000/01/10PerlMyths.html Ten Perl Myths] - O'Reilly
 * [http://aboutperl.info About Perl] - Learn about Perl and how it works
-* LINK IS BROKEN [http://fortunes.quotationsbook.com/fortunes/collection/52/PERL Perl fortunes] - Collected quotes from Larry Wall.
 * [http://ptkdb.sourceforge.net/ Perl/Tk Debugger] - Open Source Perl Debugger Based on Tk Library.
 * [http://graphcomp.com/opengl/benchmarks Perl GPU Performance] - C vs Perl on Vista and Linux; Perl vs Python.
 
