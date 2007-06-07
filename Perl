@@ -541,8 +541,10 @@ These are also examples of "source filters"; libraries which transform the text 
 [[Category:Text-oriented programming languages]]
 [[Category:Unix software]]
 
-[[ar:بيرل]]
+
+
 [[als:Perl]]
+[[ar:بيرل]]
 [[zh-min-nan:Perl]]
 [[bs:Perl]]
 [[bg:Perl]]
@@ -587,5 +589,5 @@ These are also examples of "source filters"; libraries which transform the text 
 [[th:ภาษาเพิร์ล]]
 [[vi:Perl]]
 [[tr:Perl]]
-[[uk:Perl (мова програмування)]]
+[[uk:Perl]]
 [[zh:Perl]]
