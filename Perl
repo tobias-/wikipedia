@@ -578,7 +578,7 @@ These are also examples of "source filters"; libraries which transform the text 
 {{portalpar|Free software}}
 
 *[[The Perl Foundation]]
-*[[Perl Object Environment]] (POE) - a framework for writing persistent object-oriented environments with [[event loops]].
+*[[Perl Object Environment]] (POE) - a framework for writing persistent object-oriented environments with [[event loop]]s.
 *[[Perl Data Language]] (PDL) - a Perl module which allows extending Perl for higher-order scientific processing.
 *[[Plain Old Documentation]] (POD) - a documentation tool for Perl.
 *[[Just another Perl hacker]] (JAPH)
