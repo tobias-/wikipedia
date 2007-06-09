@@ -578,10 +578,10 @@ These are also examples of "source filters"; libraries which transform the text 
 {{portalpar|Free software}}
 
 *[[The Perl Foundation]]
-*[[Perl Object Environment|POE]]- the Perl Object Environment
-*[[Perl Data Language|PDL]]- the Perl Data Language
-*[[Plain Old Documentation]]- a documentation tool for Perl
-*[[Just another Perl hacker]]
+*[[Perl Object Environment]] (POE) - a framework for writing persistent object-oriented environments with [[event loops]].
+*[[Perl Data Language]] (PDL) - a Perl module which allows extending Perl for higher-order scientific processing.
+*[[Plain Old Documentation]] (POD) - a documentation tool for Perl.
+*[[Just another Perl hacker]] (JAPH)
 *[[Perl Monks]]
 *[[Perl Mongers]]
 *[[PerlScript]]
@@ -589,7 +589,6 @@ These are also examples of "source filters"; libraries which transform the text 
 *''[[Learning Perl]]'', Fourth Edition (the ''Llama book''), ISBN 0-596-10105-8
 *''[[Perl Cookbook]]'', ISBN 0-596-00313-7
 *''[[Programming Perl]]'', (the ''Camel book''), ISBN 0-596-00027-8
-*[[Tcl]]
 *[[Autovivification]]
 
 == References ==
