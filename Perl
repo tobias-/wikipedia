@@ -133,17 +133,19 @@ Another way of running Perl under Windows is provided by the [[Cygwin]] emulatio
 
 == Language structure ==
 In Perl, the minimal [[Hello world]] program may be written as follows:
-
- print "Hello, world!\n"
-
-This [[Input/output|print]]s the [[String (computer science)|string]] ''Hello, world!'' and a [[newline]], symbolically expressed by an <tt>n</tt> character whose interpretation is altered by the preceding backslash.
+<source lang="perl">
+print "Hello, world!\n"
+</source>
+This [[Input/output|print]]s the [[String (computer science)|string]] ''Hello, world!'' and a [[newline]], symbolically expressed by an <code>n</code> character whose interpretation is altered by the preceding backslash.
 
 The canonical form of the program is slightly more verbose:
 
- #!/usr/bin/perl
- print "Hello, world!\n";
+<source lang="perl">
+#!/usr/bin/perl
+print "Hello, world!\n";
+</source>
 
-The hash mark character introduces a [[comment (computer programming)|comment]] in Perl, which runs up to the end of the line of code and is ignored by the compiler. The comment used here is of a special kind: it’s called the [[Shebang (Unix)|shebang]] line. This tells Unix-like operating systems where to find the Perl interpreter, making it possible to invoke the program without explicitly mentioning <tt>perl</tt>. (Note that on [[Microsoft Windows]] systems, Perl programs are typically invoked by associating the <tt>.pl</tt> [[Filename extension|extension]] with the Perl interpreter. In order to deal with such circumstances, <tt>perl</tt> detects the shebang line and parses it for switches,<ref name="cpanports">{{cite web | url=http://perldoc.perl.org/perlrun.html#DESCRIPTION | title=perlrun manpage}}</ref> so it is not strictly true that the shebang line is ignored by the compiler.)
+The hash mark character introduces a [[comment (computer programming)|comment]] in Perl, which runs up to the end of the line of code and is ignored by the compiler. The comment used here is of a special kind: it’s called the [[Shebang (Unix)|shebang]] line. This tells Unix-like operating systems where to find the Perl interpreter, making it possible to invoke the program without explicitly mentioning <code>perl</code>. (Note that on [[Microsoft Windows]] systems, Perl programs are typically invoked by associating the <code>.pl</code> [[Filename extension|extension]] with the Perl interpreter. In order to deal with such circumstances, <code>perl</code> detects the shebang line and parses it for switches,<ref name="cpanports">{{cite web | url=http://perldoc.perl.org/perlrun.html#DESCRIPTION | title=perlrun manpage}}</ref> so it is not strictly true that the shebang line is ignored by the compiler.)
 
 The second line in the canonical form includes a semicolon, which is used to separate statements in Perl. With only a single statement in a block or file, a separator is unnecessary, so it can be omitted from the minimal form of the program – or more generally from the final statement in any block or file. The canonical form includes it because it is common to terminate every statement even when it is unnecessary to do so, as this makes editing easier: code can be added to or moved away from the end of a block or file without having to adjust semicolons.
 
@@ -156,101 +158,161 @@ Perl has a number of fundamental [[data type]]s, the most commonly used and disc
 *A filehandle is a map to a file, device, or pipe which is open for reading, writing, or both.
 *A subroutine is a piece of code that may be passed arguments, be executed, and return data
 
-Most variables are marked by a leading [[Sigil (computer programming)|sigil]],
-which identifies the data type being accessed (not the type of the variable itself), except filehandles, which don't have a sigil. The same name may be used for variables of different types, without conflict.
+Most variables are marked by a leading [[Sigil (computer programming)|sigil]], which identifies the data type being accessed (not the type of the variable itself), except filehandles, which don't have a sigil. The same name may be used for variables of different data types, without conflict.
 
-  $foo   # a [[Scalar (computing)|scalar]]
-  @foo   # an [[array]]
-  %foo   # a [[Hash table|hash]]
-  FOO    # a [[file handle]]
-  &foo   # a subroutine. 
+<source lang="perl">
+$foo   # a [[Scalar (computing)|scalar]]
+@foo   # an [[array]]
+%foo   # a [[Hash table|hash]]
+FOO    # a [[file handle]]
+&foo   # a subroutine. 
+</source>
 
-(Note: [[file handle]]s need not be uppercase, but it is a common convention owing to the fact that there is no sigil to denote them.)
+[[File handle]]s need not be uppercase, but it is a common convention owing to the fact that there is no sigil to denote them. Since 5.8 a scalar may be used as a file handle, and using this feature is encouraged in [[Damian Conway]]'s ''Perl Best Practices''.
 
 Numbers are written in the bare form; strings are enclosed by quotes of various kinds.
 
-  $n      = 42;
-  $name   = "joe";
-  $color  = 'red';
-  $animal = qq!frog!;
+<source lang="perl">
+$name   = "joe";
+$color  = 'red';
+
+$number = 42;
+$answer = "The answer is $number";    # Variable interpolation: The answer is 42
+$price  = 'This device costs $42';    # No interpolation in single quotes
+
+$album  = "David Bowie's \"Heroes\""; # literal quotes inside a string
+$album  = 'David Bowie\'s "Heroes"';  # same as above with single quotes
+$album  = qq(David Bowie's "Heroes"); # qq() may be used instead of quotes
+                                      # to optimize readability
+</source>
 
 Perl will convert strings into numbers and vice versa depending on the context in which they are used. In the following example the strings $n and $m are treated as numbers when they are the arguments to the addition operator. This code prints the number '5', discarding non number information for the operation, although the variable values remain the same. (The string concatenation operator is not <code>+</code>, but <code>.</code>)
 
-  $n     = "3 apples";
-  $m     = "2 oranges";
-  print $n + $m;
+<source lang="perl">
+$n     = "3 apples";
+$m     = "2 oranges";
+print $n + $m;
+</source>
 
-Perl also has a boolean context that it uses in evaluating conditional statements.  The following values all evaluate as false in Perl:
+Perl also has a boolean context that it uses in evaluating conditional statements. The following values all evaluate as false in Perl:
 
-  $false = 0;     # the number zero
-  $false = 0.0;   # the number zero as a float
-  $false = '0';   # the string zero
-  $false = "";    # the empty string
-  $false = undef; # the return value from undef
+<source lang="perl">
+$false = 0;     # the number zero
+$false = 0.0;   # the number zero as a float
+$false = '0';   # the string zero
+$false = "";    # the empty string
+$false = undef; # the return value from undef
+</source>
 
-All other values are evaluated to true. This includes the odd self-describing string of "0 but true", which in fact is 0 as a number, but true when used as a boolean. (Any non-numeric string would also have this property, but this particular string is ignored by Perl with respect to numeric warnings.) A less explicit but more conceptually portable version of this string is '0E0' or '0e0', which does not rely on characters being evaluated as 0, as '0E0' is literally "zero times ten to the zeroth power."
+All other values are evaluated to true. This includes the odd self-describing literal string of "0 but true", which in fact is 0 as a number, but true when used as a boolean. (Any non-numeric string would also have this property, but this particular string is ignored by Perl with respect to numeric warnings.) A less explicit but more conceptually portable version of this string is '0E0' or '0e0', which does not rely on characters being evaluated as 0, as '0E0' is literally "zero times ten to the zeroth power."
 
 Evaluated boolean expressions also return scalar values. Although the documentation does not promise which ''particular'' true or false is returned (and thus cannot be relied on), many boolean operators return 1 for true and the empty-string for false (which evaluates to zero in a numeric context). The ''defined()'' function tells if the variable has any value set. In the above examples ''defined($false)'' is true for every value except ''undef''.
 
 If a specifically 1 or 0 result (as in C) is needed, an explicit conversion is thought by some authors to be required:
 
-  my $real_result = $boolean_result ? 1 : 0;
+<source lang="perl">
+my $real_result = $boolean_result ? 1 : 0;
+</source>
 
 However, an implicit conversion can be used instead:
 
-  my $real_result = $boolean_result + 0;
+<source lang="perl">
+my $real_result = $boolean_result + 0;
+</source>
 
-A list is written by listing its elements, 
-separated by commas, and enclosed by parentheses where required by operator precedence.
+A list is written by listing its elements, separated by commas, and enclosed by parentheses where required by operator precedence.
 
-  @scores = (32, 45, 16, 5);
+<source lang="perl">
+@scores = (32, 45, 16, 5);
+</source>
 
 Or, then again, it can be written some other half dozen ways, at least:
 
-  @scores = qw(32 45 16 5);
-  @scores = split /-/, '32-45-16-5';
-  push @scores, $_ for 32, 45, 16, 5;
+<source lang="perl">
+# An explicit and straightforward way
+@scores = ('32', '45', '16', '5');
 
-A hash may be initialized from a list of key/value pairs.
+# Equivalent to the above, but qw() saves typing of quotes and commas
+# and reduces visual clutter
+@scores = qw(32 45 16 5);
 
-  %favorite = (joe => 'red',
-               sam => 'blue');
+# The split function returns a list of strings, which are extracted
+# from the expression using a regex template.
+# This may be useful for reading from a file of comma-separated values (CSV)
+@scores = split /,/, '32,45,16,5';
 
-Or it may simply be defined piece by piece:
+# "Idiomatic Perl": This notation uses postfix for operator
+# and aliasing of the $_ magic variable to the next value of the list
+# during every iteration
+push @scores, $_ for 32, 45, 16, 5;
+</source>
 
-  $favorite{joe} = 'red';
-  $favorite{sam} = 'blue';
+A hash may be initialized from a list of key/value pairs:
 
-Individual elements of a list are accessed by providing a numerical
-index, in square brackets. Individual values in a hash are
-accessed by providing the corresponding key, in curly braces. The
-<tt>$</tt> sigil identifies the accessed element as a scalar.
+<source lang="perl">
+%favorite = (
+    joe => 'red',
+    sam => 'blue'
+);
+</source>
 
-  $scores[2]      # an element of @scores
-  $favorite{joe}  # a value in %favorite
+The <code>=></code> operator is mostly equivalent to a comma, but may be used to optimize for readability. (It also automagically adds quotes to the preceding unquoted token, which may be useful for such cases.)
 
-Multiple elements may be accessed by using the <tt>@</tt> sigil instead
-(identifying the result as a list).
+Hash can also be defined piece by piece:
 
-  @scores[2, 3, 1]    # three elements of @scores
-  @favorite{'joe', 'sam'} # two values in %favorite
+<source lang="perl">
+$favorite{joe} = 'red';
+$favorite{sam} = 'blue';
+</source>
 
-The number of elements in an array can be obtained by evaluating the
-array in scalar context or with the help of the <tt>$#</tt> sigil.
-The latter gives the index of the last element in the array, not the number of elements.
+Individual elements of a list are accessed by providing a numerical index, in square brackets. Individual values in a hash are accessed by providing the corresponding key, in curly braces. The <code>$</code> sigil identifies the accessed element as a scalar.
 
-  $count = @friends;
-  $#friends       # the index of the last element in @friends
-  $#friends+1     # usually the number of elements in @friends
-                  # this is one more than $#friends because the first element is at
-                  # index 0, not 1. Unless the programmer reset this to a
-                  # different value, which most Perl manuals discourage.
+<source lang="perl">
+$scores[2]      # an element of @scores
+$favorite{joe}  # a value in %favorite
+</source>
+
+Multiple elements may be accessed by using the <code>@</code> sigil instead (identifying the result as a list).
+
+<source lang="perl">
+@scores[2, 3, 1]        # three elements of @scores
+@favorite{'joe', 'sam'} # two values in %favorite
+@favorite{qw(joe sam)}  # same as above
+</source>
+
+The number of elements in an array can be obtained by evaluating the array in scalar context or with the help of the <code>$#</code> sigil. The latter gives the index of the last element in the array, not the number of elements.
+
+<source lang="perl">
+$count = @friends; # Assigning to a scalar forces scalar context
+
+# This notation is sometimes discouraged, because it tends
+# to be confused with comments.
+
+$#friends;         # The index of the last element in @friends
+$#friends+1;       # Usually the number of elements in @friends is one more
+                   # than $#friends because the first element is at index 0,
+                   # not 1, unless the programmer reset this to a different
+                   # value, which most Perl manuals discourage.
+</source>
 
 There are a few functions that operate on entire hashes.
 
-  @names     = keys   %address;
-  @addresses = values %address;
-  1 while ($name, $address) = each %address;
+<source lang="perl">
+@names     = keys   %addressbook;
+@addresses = values %addressbook;
+
+# Every call to each return the next key/value pair.
+# All values will be eventually returned, but their order
+# cannot be expected.
+while (($name, $address) = each %addressbook) {
+    print "$name lives at $address\n";
+}
+
+# Similar to the above, but sorted alphabetically
+while my $next_name (sort keys %addressbook) {
+    print "$next_name lives at $addressbook{$next_name}\n";
+}
+</source>
 
 === Control structures ===
 {{main|Perl control structures}}
@@ -281,134 +343,160 @@ Short-circuit logical operators are commonly used to affect control flow at the 
  ''expr'' and ''expr''
  ''expr'' or  ''expr''
 
-The flow control keywords <tt>next</tt>, <tt>last</tt>, <tt>return</tt>, and <tt>redo</tt> are expressions, so they can be used with short-circuit operators.
+The flow control keywords <code>next</code>, <code>last</code>, <code>return</code>, and <code>redo</code> are expressions, so they can be used with short-circuit operators.
 
 Perl also has two implicit looping constructs:
 
   ''results'' = grep { ... } ''list''
   ''results'' = map  { ... } ''list''
 
-<tt>grep</tt> returns all elements of ''list'' for which the controlled block evaluates to true. <tt>map</tt> evaluates the controlled block for each element of ''list'' and returns a list of the resulting values. These constructs enable a simple functional programming style.
+<code>grep</code> returns all elements of ''list'' for which the controlled block evaluates to true. <code>map</code> evaluates the controlled block for each element of ''list'' and returns a list of the resulting values. These constructs enable a simple [[functional programming]] style.
 
-There is no [[switch statement]] (multi-way branch) in Perl 5. The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures. There is a [http://search.cpan.org/perldoc/Switch Switch] module, however, which provides functionality modeled on the forthcoming [[Perl 6]] re-design.
+There is no [[switch statement]] (multi-way branch) in Perl 5. The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures. There is a [http://search.cpan.org/perldoc/Switch Switch] module, however, which provides functionality modeled on the forthcoming [[Perl 6]] re-design; it may become a part of the core language in the 5.10 release <ref>[http://search.cpan.org/~rgarcia/perl-5.9.4/pod/perl593delta.pod#Switch_and_Smart_Match_operator perldelta - what is new for perl v5.9.3, Rafaël Garcia-Suarez.]</ref>.
 
-Perl includes a <tt>goto ''label''</tt> statement, but it is rarely used. Situations where a <tt>goto</tt> is called for in other languages don't occur as often in Perl due to its breadth of flow control options.
+Perl includes a <code>goto label</code> statement, but it is rarely used. Situations where a <code>goto</code> is called for in other languages don't occur as often in Perl due to its breadth of flow control options.
 
-There is also a <tt>goto &''sub''</tt> statement that performs a [[tail call]].
-It terminates the current subroutine and immediately calls the specified <tt>''sub''</tt>. This is used in situations where a caller can perform more efficient [[Call stack|stack]] management than Perl itself (typically because no change to the current stack is required), and in deep recursion tail calling can have substantial positive impact on performance because it avoids the overhead of scope/stack management on return.
+There is also a <code>goto &sub</code> statement that performs a [[tail call]]. It terminates the current subroutine and immediately calls the specified <code>''sub''</code>. This is used in situations where a caller can perform more efficient [[Call stack|stack]] management than Perl itself (typically because no change to the current stack is required), and in deep recursion tail calling can have substantial positive impact on performance because it avoids the overhead of scope/stack management on return.
 
 === Subroutines ===
 
-[[Subroutine]]s are defined with the <tt>sub</tt> keyword, and invoked simply by naming them. If the subroutine in question has not yet been declared, invocation requires either parentheses after the function name or an ampersand ('''&''') before it.
+[[Subroutine]]s are defined with the <code>sub</code> keyword, and invoked simply by naming them. If the subroutine in question has not yet been declared, invocation requires either parentheses after the function name or an ampersand ('''&''') before it.
 
- foo();             # parentheses required here...
- &foo;              # (this also works)
- sub foo { ... }
- foo;               # ... but not here
+<source lang="perl">
+# Calling a subroutine
 
-A list of arguments may be provided after the subroutine name.
-Arguments may be scalars, lists, or hashes.
+# Parentheses are required here if the subroutine is defined later in the code
+foo();
+&foo;              # (this also works)
 
- foo $x, @y, %z;
+# Defining a subroutine
+sub foo { ... }
+
+foo;               # Here parentheses are not required
+</source>
+
+A list of arguments may be provided after the subroutine name. Arguments may be scalars, lists, or hashes.
+
+foo $x, @y, %z;
 
 The parameters to a subroutine do not need to be declared as to either number or type; in fact, they may vary from call to call.
-Arrays are expanded to their elements, hashes are expanded to a list of key/value pairs, and the whole lot is passed into the subroutine as one undifferentiated list of scalars.
 
-Whatever arguments are passed are available to the subroutine in the special array <tt>@_</tt>.
-The elements of <tt>@_</tt> are aliased to the actual arguments;
-changing an element of <tt>@_</tt> changes the corresponding argument.
+Arrays are expanded to their elements, hashes are expanded to a list of key/value pairs, and the whole lot is passed into the subroutine as one flat list of scalars.
 
-Elements of <tt>@_</tt> may be accessed by subscripting it in the usual way.
+Whatever arguments are passed are available to the subroutine in the special array <code>@_</code>. The elements of <code>@_</code> are aliased to the actual arguments; changing an element of <code>@_</code> changes the corresponding argument.
 
- $_[0], $_[1]
+Elements of <code>@_</code> may be accessed by subscripting it in the usual way.
 
-However, the resulting code can be difficult to read,
-and the parameters have [[Evaluation strategy#Call by reference|pass-by-reference]] semantics, 
-which may be undesirable.
+<source lang="perl">
+$_[0], $_[1]
+</source>
 
-One common idiom is to assign <tt>@_</tt> to a list of named variables.
+However, the resulting code can be difficult to read, and the parameters have [[Evaluation strategy#Call by reference|pass-by-reference]] semantics, which may be undesirable.
 
+One common idiom is to assign <code>@_</code> to a list of named variables.
+
+<source lang="perl">
  my ($x, $y, $z) = @_;
+</source>
 
-This provides mnemonic parameter names and implements [[Evaluation strategy#Call by value|pass-by-value]] semantics.
-The <tt>my</tt> keyword indicates that the following variables are lexically scoped to the containing block.
+This provides mnemonic parameter names and implements [[Evaluation strategy#Call by value|pass-by-value]] semantics. The <code>my</code> keyword indicates that the following variables are lexically scoped to the containing block.
 
-Another idiom is to shift parameters off of <tt>@_</tt>. This is especially common when the subroutine takes only one argument.
+Another idiom is to shift parameters off of <code>@_</code>. This is especially common when the subroutine takes only one argument.
 
- my $x = shift;
+<source lang="perl">
+my $x = shift;
+</source>
 
 Subroutines may return values.
 
- return 42, $x, @y, %z;
+<source lang="perl">
+return 42, $x, @y, %z;
+</source>
 
-If the subroutine does not exit via a <tt>return</tt> statement,
-then it returns the last expression evaluated within the subroutine body. Arrays and hashes in the return value are expanded to lists of scalars, just as they are for arguments.
+If the subroutine does not exit via a <code>return</code> statement, then it returns the last expression evaluated within the subroutine body. Arrays and hashes in the return value are expanded to lists of scalars, just as they are for arguments.
 
 The returned expression is evaluated in the calling context of the subroutine; this can surprise the unwary.
 
- sub list  {      (4, 5, 6)     }
- sub array { @x = (4, 5, 6); @x }
- 
- $x = list;   # returns 6 - last element of list
- $x = array;  # returns 3 - number of elements in list
- @x = list;   # returns (4, 5, 6)
- @x = array;  # returns (4, 5, 6)
+<source lang="perl">
+sub list  {      (4, 5, 6)     }
+sub array { @x = (4, 5, 6); @x }
 
-A subroutine can discover its calling context with the <tt>wantarray</tt> function.
+$x = list;   # returns 6 - last element of list
+$x = array;  # returns 3 - number of elements in list
+@x = list;   # returns (4, 5, 6)
+@x = array;  # returns (4, 5, 6)
+</source>
 
- sub either { wantarray ? (1, 2) : "Oranges" }
+A subroutine can discover its calling context with the <code>wantarray</code> function.
+
+<source lang="perl">
+sub either {
+    return wantarray
+        ? (1, 2)
+        : "Oranges";
+}
  
- $x = either;    # returns "Oranges"
- @x = either;    # returns (1, 2)
+$x = either;    # returns "Oranges"
+@x = either;    # returns (1, 2)
+</source>
 
 === Regular expressions ===
 
-The Perl language includes a specialized syntax for writing [[regular expression]]s (RE), and the interpreter contains an engine for matching strings to regular expressions. The regular expression engine uses a [[backtracking]] algorithm, extending its capabilities from simple pattern matching to string capture and substitution.  The regular expression engine is derived from regex written by [[Henry Spencer]].
+The Perl language includes a specialized syntax for writing [[regular expression]]s (RE), and the interpreter contains an engine for matching strings to regular expressions. The regular expression engine uses a [[backtracking]] algorithm, extending its capabilities from simple pattern matching to string capture and substitution. The regular expression engine is derived from regex written by [[Henry Spencer]].
 
 The Perl regular expression syntax was originally taken from Unix Version 8 regular expressions. However, it diverged before the first release of Perl, and has since grown to include many more features. Other languages and applications are now adopting [[PCRE|Perl compatible regular expressions]] over [[POSIX]] regular expressions including [[PHP]], [[Ruby programming language|Ruby]], [[Java (programming language)|Java]], and the [[Apache HTTP server]].
 
-The <tt>m//</tt> (match) operator introduces a regular expression match. (The leading <tt>m</tt> may be omitted for brevity.) In the simplest case, an expression like
+The <code>m//</code> (match) operator introduces a regular expression match. (The leading <code>m</code> may be omitted for brevity.) In the simplest case, an expression like
 
+<source lang="perl">
  $x =~ m/abc/
+</source>
 
-evaluates to true [[if and only if]] the string <tt>$x</tt> matches the regular expression <tt>abc</tt>. 
+evaluates to true [[if and only if]] the string <code>$x</code> matches the regular expression <code>abc</code>. 
 
-Portions of a regular expression may be enclosed in parentheses;
-corresponding portions of a matching string are ''captured''.
-Captured strings are assigned to the sequential built-in variables <tt>$1, $2, $3, ...</tt>,
-and a list of captured strings is returned as the value of the match.
+Portions of a regular expression may be enclosed in parentheses; corresponding portions of a matching string are ''captured''. Captured strings are assigned to the sequential built-in variables <code>$1, $2, $3, ...</code>, and a list of captured strings is returned as the value of the match.
 
- $x =~ m/a(.)c/;  # capture the character between 'a' and 'c'
+<source lang="perl">
+$x =~ m/a(.)c/;  # capture the character between 'a' and 'c'
+</source>
 
-The <tt>s///</tt> (substitute) operator specifies a search and replace operation:
+The <code>s///</code> (substitute) operator specifies a search and replace operation:
 
- $x =~ s/abc/aBc/;   # upcase the b
+<source lang="perl">
+$x =~ s/abc/aBc/;   # upcase the b
+</source>
 
 Perl regular expressions can take ''modifiers''. These are single-letter suffixes that modify the meaning of the expression:
 
- $x =~ m/abc/i;      # case-insensitive pattern match
- $x =~ s/abc/aBc/g;  # global search and replace
+<source lang="perl">
+$x =~ m/abc/i;      # case-insensitive pattern match
+$x =~ s/abc/aBc/g;  # global search and replace
+</source>
 
-Regular expressions can be dense and cryptic. This is because regular expression syntax is extremely compact, generally using single characters or character pairs to represent its operations. Perl provides some relief from this problem with the <tt>/x</tt> modifier, which allows programmers to place whitespace and comments ''inside'' regular expressions:
+Regular expressions can be dense and cryptic. This is because regular expression syntax is extremely compact, generally using single characters or character pairs to represent its operations. Perl provides some relief from this problem with the <code>/x</code> modifier, which allows programmers to place whitespace and comments ''inside'' regular expressions:
 
- $x =~ m/a     # match 'a'
-         .     # match any character
-         c     # match 'c'
-        /x;
+<source lang="perl">
+$x =~ m/a     # match 'a'
+        .     # match any character
+        c     # match 'c'
+       /x;
+</source>
 
-One common use of regular expressions is to specify delimiters for the <tt>split</tt> function:
+One common use of regular expressions is to specify delimiters for the <code>split</code> function:
 
- @words = split m/,/, $line;
+<source lang="perl">
+@words = split m/,/, $line;
+</source>
 
-The <tt>split</tt> function creates a list of the parts of the string separated by matches of the regular expression. In this example, a line is divided into a list of its comma-separated parts, and this list is then assigned to the <tt>@words</tt> array.
+The <code>split</code> function creates a list of the parts of the string separated by matches of the regular expression. In this example, a line is divided into a list of its comma-separated parts, and this list is then assigned to the <code>@words</code> array.
 
-=== Database interfaces ===
+== Database interfaces ==
 
 Perl is widely favored for database applications. Its text handling facilities are good for generating [[SQL]] queries; arrays, hashes and automatic memory management make it easy to collect and process the returned data.
 
-In early versions of Perl, database interfaces were created by relinking the interpreter with a client-side database library. This was somewhat clumsy; a particular problem was that the resulting <tt>perl</tt> executable was restricted to using just the one database interface that it was linked to. Also, relinking the interpreter was sufficiently difficult that it was only done for a few of the most important and widely used databases.
+In early versions of Perl, database interfaces were created by relinking the interpreter with a client-side database library. This was somewhat clumsy; a particular problem was that the resulting <code>perl</code> executable was restricted to using just the one database interface that it was linked to. Also, relinking the interpreter was sufficiently difficult that it was only done for a few of the most important and widely used databases.
 
-In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The <tt>DBI</tt> (Database Interface) module presents a single, database-independent interface to Perl applications, while the <tt>DBD::</tt> (Database Driver) modules handle the details of accessing some 50 different databases. There are <tt>DBD::</tt> drivers for most [[ANSI]] [[SQL]] databases.
+In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The DBI (Database Interface) module presents a single, database-independent interface to Perl applications, while the DBD (Database Driver) modules handle the details of accessing some 50 different databases. There are DBD drivers for most [[ANSI]] [[SQL]] databases.
 
 ==Comparative performance==
 
