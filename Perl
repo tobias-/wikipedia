@@ -93,6 +93,10 @@ Perl has been used since the early days of the Web to write [[Common Gateway Int
 
 Perl is often used as a [[glue language]], tying together systems and interfaces that were not specifically designed to interoperate, and for "data munging", i.e., converting or processing large amounts of data for tasks like creating reports. In fact, these strengths are intimately linked. The combination makes perl a popular all-purpose tool for [[system administrator]]s, particularly as short programs can be entered and run on a single command line.
 
+With a degree of care, Perl code can be made portable across Windows and Unix. Portable Perl code is often used by suppliers of software (both COTS and bespoke) to simplify packaging and maintenance of software build and deployment scripts. 
+
+Graphical user interfaces (GUI's) may be developed using Perl. In particular, Perl/Tk is commonly used to enable user interaction with Perl scripts. Such interaction may be synchronous or asychronous using callbacks to update the GUI. For more information about the techologies involved see [[Tk_%28computing%29]] and [[Tcl]].
+
 Perl is also widely used in finance and [[bioinformatics]], where it is valued for rapid application development and deployment, and the ability to handle large data sets.
 
 ===Implementation===
