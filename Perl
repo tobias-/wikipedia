@@ -1,0 +1,686 @@
+{{ Infobox programming language
+| name = Perl
+| logo = [[Image:Programming-republic-of-perl.gif]]
+| paradigm = [[Multi-paradigm]]
+| year = 1987
+| designer = [[Larry Wall]]
+| latest_release_version = 5.8.8
+| latest_release_date = [[January 31]] [[2006]]
+| typing = Dynamic
+| influenced_by = [[AWK (programming language)|AWK]], [[BASIC]], [[BASIC-PLUS]], [[C (programming language)|C]], [[C++]], [[Lisp programming language|Lisp]], [[Pascal (programming language)|Pascal]], [[sed]], [[Unix shell]]
+| influenced = [[Python (programming language)|Python]], [[PHP]], [[Ruby (programming language)|Ruby]], [[ECMAScript]]
+| operating_system = [[Cross-platform]]
+| license = [[GNU General Public License]], [[Artistic License]]
+| website = http://www.perl.org/
+}}
+{{wikibooks|Perl Programming}}
+
+'''Perl''' is a [[dynamic programming language]] created by [[Larry Wall]] and first released in [[1987]]. Perl borrows features from a variety of other languages including [[C (programming language)|C]], [[Unix shell|shell]] scripting ([[Bourne shell|sh]]), [[AWK programming language|AWK]], [[sed]] and [[Lisp programming language|Lisp]].<ref name="perltimeline">{{cite web | url=http://history.perl.org/PerlTimeline.html | title=The Timeline of Perl and its Culture (v3.0_0505) | author=Ashton, Elaine | year=1999}}</ref>
+
+Structurally, Perl is based on the brace-delimited block style of AWK and C, and was widely adopted for its strengths in string processing, and lack of the arbitrary limitations of many [[scripting language]]s at the time.<ref name="programmingperl">{{cite book | title=Programming Perl, Third Edition | author=[[Larry Wall|Wall, Larry]], [[Tom Christiansen]] and [[Jon Orwant]] | publisher=O'Reilly | month=July | year=2000 | ISBN=0-596-00027-8}}</ref><!--Ref is from the forward of that book -->
+
+== History ==
+Larry Wall began work on Perl in 1987, while working as a programmer at [[Unisys]],<ref name="larry-wall-snippet">{{cite web|title=Larry Wall|url=http://www.perl.com/pub/au/Wall_Larry|accessdate=2006-08-20}}</ref> and released version 1.0 to the comp.sources.misc [[newsgroup]] on [[December 18]] [[1987]]. The language expanded rapidly over the next few years. Perl 2, released in 1988, featured a better [[regular expression]] engine. Perl 3, released in 1989, added support for [[binary data]] streams.
+
+Until 1991, the only documentation for Perl was a single (increasingly lengthy) [[Manual page (Unix)|man page]]. In 1991, ''[[Programming perl]]'' <!-- 1st edition title used lowercase "perl" --> (known to many Perl programmers as the "Camel Book") was published, and became the ''de facto'' reference for the language. At the same time, the Perl version number was bumped to 4, not to mark a major change in the language, but to identify the version that was documented by the book.
+
+Perl 4 went through a series of maintenance releases, culminating in Perl 4.036 in 1993. At that point, Larry Wall abandoned Perl 4 to begin work on Perl 5.
+
+Initial design of Perl 5 continued into 1994. The [http://www.xray.mpe.mpg.de/mailing-lists/perl5-porters/ perl5-porters] mailing list was established in May 1994 to coordinate work on porting Perl 5 to different platforms. It remains the primary forum for development, maintenance, and porting of Perl 5.
+
+Perl 5 was released on [[October 17]] [[1994]]. It was a nearly complete rewrite of the [[interpreter (computing)|interpreter]], and added many new features to the language, including objects, references, packages, and modules. Importantly, modules provided a mechanism for extending the language without modifying the interpreter. This allowed the core interpreter to stabilize, even as it enabled ordinary Perl programmers to add new language features.
+
+[[As of 2007]], Perl 5 is still being actively maintained. Important features and some essential new language constructs have been added along the way, including [[Unicode]] support, [[Thread (computer science)|threads]], improved support for [[object oriented programming]] and many other enhancements. The latest stable release is Perl 5.8.8.
+
+One of the most important events in Perl 5 history took place outside of the language proper, and was a consequence of its module support. On [[October 26]] [[1995]], the [[Comprehensive Perl Archive Network]] (CPAN) was established as a [[repository]] for Perl [[Module (programming)|modules]] and Perl itself. At the time of writing, it carries over 11,000 modules by over 5,000 authors. CPAN is widely regarded as one of the greatest strengths of Perl in practice.
+
+=== Name ===
+
+Perl was originally named "Pearl", after the [[Parable of the Pearl]] from the [[Gospel of Matthew]]. Larry Wall wanted to give the language a short name with positive connotations; he claims that he considered (and rejected) every three- and four-letter word in the dictionary. He also considered naming it after his wife Gloria. Wall discovered the existing [[PEARL programming language]] before Perl's official release and changed the spelling of the name.
+
+The name is normally capitalized (''Perl'') when referring to the language and uncapitalized (''perl'') when referring to the interpreter program itself since Unix-like file systems are case-sensitive. Before the release of the first edition of ''Programming Perl'', it was common to refer to the language as ''perl''; [[Randal L. Schwartz]], however, capitalised the language's name in the book to make it stand out better when typeset. The case distinction was subsequently adopted by the community.<ref>{{cite web | url=http://perldoc.perl.org/perlfaq1.html#What's-the-difference-between-%22perl%22-and-%22Perl%22%3f | title=perlfaq1: What's the difference between "perl" and "Perl"?}}</ref>
+
+The name is occasionally given as "PERL" (for '''P'''ractical '''E'''xtraction and '''R'''eport '''L'''anguage). Although the expansion has prevailed in many of today's manuals, including the official Perl [[Manual page (Unix)|man page]], it is merely a [[backronym]]. The name does not officially stand for anything, so spelling it in all caps is incorrect and is considered a [[shibboleth]] (label of outsiders) in the Perl community.<ref>{{cite web | last = Schwartz | first = Randal | authorlink = Randal L. Schwartz | title = PERL as shibboleth and the Perl community | url=http://www.perlmonks.org/index.pl?node_id=510594 | accessdate = 2007-06-01 }}</ref> Several other expansions have been suggested, including Wall's own humorous ''Pathologically Eclectic Rubbish Lister''.<ref>{{ cite web | last = Wall | first = Larry | authorlink = Larry Wall | title = BUGS | work = perl(1) [[man page]] | url = http://perldoc.perl.org/perl.html#BUGS | accessdate = 2006-10-13 }}</ref> Indeed, Wall claims that the name was intended to inspire many different expansions.<ref>{{cite web | last = Wall | first = Larry | authorlink = Larry Wall | title = Re^7: PERL as shibboleth and the Perl community | url =http://www.perlmonks.org/index.pl?node_id=511722 | accessdate = 2007-01-03 }}</ref>
+
+===The camel symbol===
+
+''[[Programming Perl]]'', published by [[O'Reilly Media]], features a picture of a [[camel]] on the cover, and is commonly referred to as ''The Camel Book''.<ref name="larry-wall-snippet"/> This image of a camel has become a general symbol of Perl.
+
+O'Reilly owns the image as a trademark, but claims to use their legal rights only to protect the ''"integrity and impact of that symbol"'' [http://perl.oreilly.com/usage/]. 
+O'Reilly allows non-commercial use of the symbol, and provides [http://www.oreillynet.com/images/perl/sm_perl_id_bk_wt.gif Programming Republic of Perl] logos (see the top of the article) and [http://www.oreillynet.com/images/perl/powered_by_perl.gif Powered by Perl] buttons.
+
+== Overview ==
+
+Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including [[system administration]], [[web development]], [[network programming]], [[GUI]] development, and more.
+
+The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal).<ref>perlintro(1) [[man page]]</ref> Its major features include support for multiple programming paradigms ([[procedural programming language|procedural]], [[Object-oriented programming|object-oriented]], and [[functional programming|functional]] styles), automatic [[memory management]], built-in support for text processing, and a large collection of third-party [[Module (programming)|modules]].
+
+=== Features ===
+
+The overall structure of Perl derives broadly from C. Perl is procedural in nature, with [[variable]]s, [[expression (programming)|expression]]s, [[assignment statement]]s, [[bracket|brace]]-delimited [[code block]]s, [[control structure]]s, and [[subroutine]]s.
+
+Perl also takes features from shell programming. All variables are marked with leading [[sigil (computer programming)|sigil]]s, which unambiguously identify the data type (scalar, array, hash, etc.) of the variable in context. Importantly, sigils allow variables to be interpolated directly into strings. Perl has many built-in functions which provide tools often used in shell programming (though many of these tools are implemented by programs external to the shell) like sorting, and calling on system facilities.
+
+Perl takes [[List (computing)|lists]] from Lisp, [[associative array]]s (hashes) from AWK, and [[regular expression]]s from sed. These simplify and facilitate many parsing, text handling, and data management tasks.
+
+In Perl 5, features were added that support complex [[data structure]]s, [[first-class function]]s (i.e., [[Closure (computer science)|closures]] as values), and an object-oriented programming model. These include [[reference (computer science)|reference]]s, packages, class-based method dispatch, and [[Scope (programming)|lexically scoped variables]], along with [[compiler directive]]s (for example, the <tt>strict</tt> pragma). A major additional feature introduced with Perl 5 was the ability to package code as reusable modules. Larry Wall later stated that "The whole intent of Perl 5's module system was to encourage the growth of Perl culture rather than the Perl core."<ref>Usenet post, May 10th 1997, with ID 199705101952.MAA00756@wall.org.</ref>
+
+All versions of Perl do automatic data typing and memory management. The interpreter knows the type and storage requirements of every data object in the program; it allocates and frees storage for them as necessary. Legal type conversions are done automatically at run time; illegal type conversions are fatal errors.
+
+=== Design === 
+
+The design of Perl can be understood as a response to three broad trends in the computer industry: falling hardware costs, rising labor costs, and improvements in compiler technology. Many earlier computer languages, such as [[Fortran]] and C, were designed to make efficient use of expensive computer hardware. In contrast, Perl  is designed to make efficient use of expensive computer programmers.
+
+Perl has many features that ease the programmer's task at the expense of greater CPU and memory requirements. These include automatic memory management; [[dynamic typing]]; strings, lists, and hashes; regular expressions; introspection and an <tt>eval()</tt> function.
+
+Wall was trained as a linguist, and the design of Perl is very much informed by linguistic principles. Examples include [[Huffman coding]] (common constructions should be short), good end-weighting (the important information should come first), and a large collection of language primitives. Perl favors language constructs that are natural for humans to read and write, even where they complicate the Perl interpreter. 
+
+Perl syntax reflects the idea that "things that are different should look different".  For example, scalars, arrays, and hashes have different leading [[Sigil (computer programming)|sigils]]. Array indices and hash keys use different kinds of braces. Strings and regular expressions have different standard delimiters.  This approach can be contrasted with languages like [[Lisp programming language|Lisp]], where the same [[S-expression]] construct and basic syntax is used for many different purposes.
+
+Perl does not enforce any particular programming paradigm (procedural, object-oriented, functional, etc.), or even require the programmer to choose among them. 
+
+There is a broad practical bent to both the Perl language and the community and culture that surround it. The preface to ''Programming Perl'' begins, "Perl is a language for getting your job done." One consequence of this is that Perl is not a tidy language. It includes features if people use them, tolerates exceptions to its rules, and employs heuristics to resolve syntactical ambiguities. Because of the forgiving nature of the compiler, bugs can sometimes be hard to find. Discussing the variant behaviour of built-in functions in list and scalar contexts, the perlfunc(1) manual page says "In general, they do what you want, unless you want consistency."
+
+Perl has several mottos that convey aspects of its design and use. One is ''"[[There's more than one way to do it]]."'' (TIMTOWTDI, usually pronounced 'Tim Toady'). Others are ''"Perl: the Swiss Army Chainsaw of Programming Languages"'' and ''"No unnecessary limits"''. A stated design goal of Perl is to make easy tasks easy and difficult tasks possible.  Perl has also been called ''"The Duct Tape of the Internet"''.
+
+There is no written specification or standard for the Perl language, and no plans to create one for the current version of Perl. There has only ever been one implementation of the interpreter. That interpreter, together with its functional tests, stands as a ''de facto'' specification of the language.
+
+=== Applications ===
+
+Perl has many and varied applications, compounded by the availability of many standard and third-party modules.
+
+Perl has been used since the early days of the Web to write [[Common Gateway Interface|CGI]] scripts. It is known as one of "the three Ps" (along with [[Python (programming language)|Python]] and [[PHP]]), the most popular dynamic languages for writing Web applications (which now also include [[Ruby (programming language)|Ruby]]). It is also an integral component of the popular [[LAMP (software bundle)|LAMP]] [[solution stack]] for web development. Large projects written in Perl include [[Slash (weblog system)|Slash]], [[Bugzilla]], [[TWiki]] and [[Movable Type]]. Many high-traffic websites, such as [[Amazon.com]], [[Livejournal|Livejournal.com]], [[Ticketmaster|Ticketmaster.com]] and [[Internet Movie Database|IMDb.com]]<ref>http://www.imdb.com/help/search?domain=helpdesk_faq&index=1&file=techinfo</ref> use Perl extensively.
+
+Perl is often used as a [[glue language]], tying together systems and interfaces that were not specifically designed to interoperate, and for "data munging", i.e., converting or processing large amounts of data for tasks like creating reports. In fact, these strengths are intimately linked. The combination makes perl a popular all-purpose tool for [[system administrator]]s, particularly as short programs can be entered and run on a single command line.
+
+With a degree of care, Perl code can be made portable across Windows and Unix. Portable Perl code is often used by suppliers of software (both COTS and bespoke) to simplify packaging and maintenance of software build and deployment scripts. 
+
+Graphical user interfaces (GUI's) may be developed using Perl. In particular, Perl/Tk is commonly used to enable user interaction with Perl scripts. Such interaction may be synchronous or asychronous using callbacks to update the GUI. For more information about the techologies involved see [[Tk_%28computing%29|Tk]] and [[Tcl]].
+
+Perl is also widely used in finance and [[bioinformatics]], where it is valued for rapid application development and deployment, and the ability to handle large data sets.
+
+===Implementation===
+
+Perl is implemented as a core interpreter, written in C, together with a large collection of modules, written in Perl and C. The source distribution is, [[as of 2005]], 12 [[megabyte|MB]] when packaged in a [[Tar (file format)|tar file]] and [[data compression|compressed]]. The interpreter is 150,000 lines of C code and compiles to a 1 MB executable on typical machine architectures. Alternatively, the interpreter can be compiled to a link library and embedded in other programs. There are nearly 500 modules in the distribution, comprising 200,000 lines of Perl and an additional 350,000 lines of C code. (Much of the C code in the modules consists of character encoding tables.)
+
+The interpreter has an object-oriented architecture. All of the elements of the Perl language&mdash;scalars, arrays, hashes, coderefs, file handles&mdash;are represented in the interpreter by C structs. Operations on these structs are defined by a large collection of macros, typedefs and functions; these constitute the Perl C API. The Perl API can be bewildering to the uninitiated, but its entry points follow a consistent naming scheme, which provides guidance to those who use it.
+
+The execution of a Perl program divides broadly into two phases: compile-time and run-time.<ref>A description of the Perl 5 interpreter can be found in ''Programming Perl'', 3rd Ed., [http://www.oreilly.com/catalog/pperl3/chapter/ch18.html chapter 18]</ref> At compile time, the interpreter parses the program text into a syntax tree. At run time, it executes the program by walking the tree. The text is parsed only once, and the syntax tree is subject to optimization before it is executed, so the execution phase is relatively efficient. Compile-time optimizations on the syntax tree include [[constant folding]] and context propagation, but [[peephole optimization]] is also performed. However, compile-time and run-time phases may nest: <code>BEGIN</code> code blocks execute at compile-time, while the <code>[[eval]]</code> function initiates compilation during runtime. Both operations are an implicit part of a number of others—most notably, the <code>use</code> clause that loads libraries, known in Perl as modules, implies a <code>BEGIN</code> block.
+
+Perl has a context-sensitive [[grammar]] which can be affected by code executed during an intermittent run-time phase.<ref>{{cite web | last = Schwartz | first = Randal | authorlink = Randal L. Schwartz | title = On Parsing Perl | url =http://www.perlmonks.org/index.pl?node_id=44722 | accessdate = 2007-01-03 }}</ref> Therefore Perl cannot be parsed by a straight [[Lex programming tool|Lex]]/[[Yacc]] lexer/parser combination. Instead, the interpreter implements its own lexer, which coordinates with a modified [[GNU bison]] parser to resolve ambiguities in the language. It is said that "only perl can parse Perl", meaning that only the [[Perl interpreter]] (''perl'') can parse the Perl language (''Perl''). The truth of this is attested to by the persistent imperfections of other programs that undertake to parse Perl, such as source code analyzers and auto-indenters, which have to contend not only with the many ways to express unambiguous syntactic constructs, but also the fact that Perl cannot be parsed in the general case without executing it.
+
+Perl is distributed with some 120,000 functional tests. These run as part of the normal build process, and extensively exercise the interpreter and its core modules. Perl developers rely on the functional tests to ensure that changes to the interpreter do not introduce bugs; conversely, Perl users who see the interpreter pass its functional tests on their system can have a high degree of confidence that it is working properly.
+
+Maintenance of the Perl interpreter has become increasingly difficult over the years. The code base has been in continuous development since 1994. The code has been optimized for performance at the expense of simplicity, clarity, and strong internal interfaces. New features have been added, yet virtually complete backward compatibility with earlier versions is maintained. The size and complexity of the interpreter is a barrier to developers who wish to work on it.
+
+===Availability===
+
+<!--Note to editors:
+Perl is available on so many platforms that it doesn't make sense to keep a laundry list in this article.
+Do not list a specific platform unless there are notable issues about running Perl on it.
+
+-->Perl is [[free software]], and is licensed under both the [[Artistic License]] and the [[GNU General Public License]]. [[Perl#Distributions|Distributions]] are available for most [[operating system]]s. It is particularly prevalent on [[Unix]] and [[Unix-like]] systems, but it has been ported to most modern (and many obsolete) platforms. With only six reported exceptions, Perl can be compiled from [[source code]] on all Unix-like, [[POSIX]]-compliant or otherwise Unix-compatible platforms.<ref name="cpanports">{{cite web | url=http://www.cpan.org/ports/ | title=Perl Ports (Binary Distributions) | publisher=CPAN.org | author=Hietaniemi, Jarkko | year=1998}}</ref> However, this is rarely necessary, as Perl is included in the default installation of many popular operating systems.
+
+Because of unusual changes required for the [[Mac OS history|Mac OS Classic]] environment, a special port called MacPerl was shipped independently.<ref name="macperl">{{cite web | url=http://www.macperl.com/ | title=The MacPerl Pages | year=1997 | publisher=Prime Time Freeware}}</ref>
+
+The CPAN carries [http://www.cpan.org/ports/ a complete list of supported platforms with links to the distributions available on each].
+
+====Windows====
+
+Users of [[Microsoft Windows]] typically install a native binary distribution of Perl<ref>{{cite web | url=http://win32.perl.org/wiki/index.php?title=Win32_Distributions#Perl_Distributions | title=Win32 Distributions | publisher=Win32 Perl Wiki}}</ref>, most commonly [[ActivePerl]]. Compiling Perl from [[source code]] under Windows is possible, but most installations lack the requisite C compiler and build tools. This also makes it hard to install modules from the CPAN, particularly such modules that are partially written in C.
+
+Users of the ActivePerl binary distribution are therefore dependent on the repackaged modules provided in [[ActiveState]]’s module repository, which are precompiled and can be installed with [[Perl package manager|PPM]]. Limited resources to maintain this repository have been cause for various long-standing problems in the past<ref>{{cite web | url=http://www.mail-archive.com/perl-qa@perl.org/msg05407.html | title=Activestate and Scalar-List-Utils | author=Golden, David | year=2006}}</ref>.
+
+To address this and other problems of Perl on the Windows platform, [http://win32.perl.org win32.perl.org] was launched by Adam Kennedy on behalf of [[The Perl Foundation]] in June 2006. This is a community website for "all things Windows and Perl." A major aim of this project is to provide a production-quality alternative binary distribution that includes a C compiler and build tools, so as to enable Windows users to install modules directly from the CPAN. This distribution is known as Strawberry Perl.
+
+Another way of running Perl under Windows is provided by the [[Cygwin]] emulation layer. Cygwin provides a Unix-like environment on Windows that includes [[GNU Compiler Collection|gcc]], so compiling Perl from source is a more accessible option for users who take this approach.
+
+== Language structure ==
+In Perl, the minimal [[Hello world]] program may be written as follows:
+<source lang="perl">
+print "Hello, world!\n"
+</source>
+This [[Input/output|print]]s the [[String (computer science)|string]] ''Hello, world!'' and a [[newline]], symbolically expressed by an <code>n</code> character whose interpretation is altered by the preceding backslash.
+
+The canonical form of the program is slightly more verbose:
+
+<source lang="perl">
+#!/usr/bin/perl
+print "Hello, world!\n";
+</source>
+
+The hash mark character introduces a [[comment (computer programming)|comment]] in Perl, which runs up to the end of the line of code and is ignored by the compiler. The comment used here is of a special kind: it’s called the [[Shebang (Unix)|shebang]] line. This tells Unix-like operating systems where to find the Perl interpreter, making it possible to invoke the program without explicitly mentioning <code>perl</code>. (Note that on [[Microsoft Windows]] systems, Perl programs are typically invoked by associating the <code>.pl</code> [[Filename extension|extension]] with the Perl interpreter. In order to deal with such circumstances, <code>perl</code> detects the shebang line and parses it for switches,<ref name="cpanports">{{cite web | url=http://perldoc.perl.org/perlrun.html#DESCRIPTION | title=perlrun manpage}}</ref> so it is not strictly true that the shebang line is ignored by the compiler.)
+
+The second line in the canonical form includes a semicolon, which is used to separate statements in Perl. With only a single statement in a block or file, a separator is unnecessary, so it can be omitted from the minimal form of the program – or more generally from the final statement in any block or file. The canonical form includes it because it is common to terminate every statement even when it is unnecessary to do so, as this makes editing easier: code can be added to or moved away from the end of a block or file without having to adjust semicolons.
+
+=== Data types ===
+
+Perl has a number of fundamental [[data type]]s, the most commonly used and discussed being: [[Scalar (computing)|scalars]], [[array]]s, [[Hash table|hashes]], [[filehandle]]s and [[subroutines]]:
+*A scalar is a single value; it may be a number, a [[String (computer science)|string]] or a [[Reference (computer science)|reference]]
+*An array is an ordered collection of scalars
+*A hash, or [[associative array]], is a map from strings to scalars; the strings are called ''keys'' and the scalars are called ''values''.
+*A filehandle is a map to a file, device, or pipe which is open for reading, writing, or both.
+*A subroutine is a piece of code that may be passed arguments, be executed, and return data
+
+Most variables are marked by a leading [[Sigil (computer programming)|sigil]], which identifies the data type being accessed (not the type of the variable itself), except filehandles, which don't have a sigil. The same name may be used for variables of different data types, without conflict.
+
+<source lang="perl">
+$foo   # a [[Scalar (computing)|scalar]]
+@foo   # an [[array]]
+%foo   # a [[Hash table|hash]]
+FOO    # a [[file handle]]
+&foo   # a subroutine. 
+</source>
+
+[[File handle]]s need not be uppercase, but it is a common convention owing to the fact that there is no sigil to denote them. Since 5.8 a scalar may be used as a file handle, and using this feature is encouraged in [[Damian Conway]]'s ''Perl Best Practices''.
+
+Numbers are written in the bare form; strings are enclosed by quotes of various kinds.
+
+<source lang="perl">
+$name   = "joe";
+$color  = 'red';
+
+$number = 42;
+$answer = "The answer is $number";    # Variable interpolation: The answer is 42
+$price  = 'This device costs $42';    # No interpolation in single quotes
+
+$album  = "David Bowie's \"Heroes\""; # literal quotes inside a string
+$album  = 'David Bowie\'s "Heroes"';  # same as above with single quotes
+$album  = qq(David Bowie's "Heroes"); # qq() may be used instead of quotes
+                                      # to optimize readability
+</source>
+
+Perl will convert strings into numbers and vice versa depending on the context in which they are used. In the following example the strings $n and $m are treated as numbers when they are the arguments to the addition operator. This code prints the number '5', discarding non number information for the operation, although the variable values remain the same. (The string concatenation operator is not <code>+</code>, but <code>.</code>)
+
+<source lang="perl">
+$n     = "3 apples";
+$m     = "2 oranges";
+print $n + $m;
+</source>
+
+Perl also has a boolean context that it uses in evaluating conditional statements. The following values all evaluate as false in Perl:
+
+<source lang="perl">
+$false = 0;     # the number zero
+$false = 0.0;   # the number zero as a float
+$false = '0';   # the string zero
+$false = "";    # the empty string
+$false = undef; # the return value from undef
+</source>
+
+All other values are evaluated to true. This includes the odd self-describing literal string of "0 but true", which in fact is 0 as a number, but true when used as a boolean. (Any non-numeric string would also have this property, but this particular string is ignored by Perl with respect to numeric warnings.) A less explicit but more conceptually portable version of this string is '0E0' or '0e0', which does not rely on characters being evaluated as 0, as '0E0' is literally "zero times ten to the zeroth power."
+
+Evaluated boolean expressions also return scalar values. Although the documentation does not promise which ''particular'' true or false is returned (and thus cannot be relied on), many boolean operators return 1 for true and the empty-string for false (which evaluates to zero in a numeric context). The ''defined()'' function tells if the variable has any value set. In the above examples ''defined($false)'' is true for every value except ''undef''.
+
+If a specifically 1 or 0 result (as in C) is needed, an explicit conversion is thought by some authors to be required:
+
+<source lang="perl">
+my $real_result = $boolean_result ? 1 : 0;
+</source>
+
+However, an implicit conversion can be used instead:
+
+<source lang="perl">
+my $real_result = $boolean_result + 0;
+</source>
+
+A list is written by listing its elements, separated by commas, and enclosed by parentheses where required by operator precedence.
+
+<source lang="perl">
+@scores = (32, 45, 16, 5);
+</source>
+
+Or, then again, it can be written some other half dozen ways, at least:
+
+<source lang="perl">
+# An explicit and straightforward way
+@scores = ('32', '45', '16', '5');
+
+# Equivalent to the above, but qw() saves typing of quotes and commas
+# and reduces visual clutter
+@scores = qw(32 45 16 5);
+
+# The split function returns a list of strings, which are extracted
+# from the expression using a regex template.
+# This may be useful for reading from a file of comma-separated values (CSV)
+@scores = split /,/, '32,45,16,5';
+
+# "Idiomatic Perl": This notation uses postfix for operator
+# and aliasing of the $_ magic variable to the next value of the list
+# during every iteration
+push @scores, $_ for 32, 45, 16, 5;
+</source>
+
+A hash may be initialized from a list of key/value pairs:
+
+<source lang="perl">
+%favorite = (
+    joe => 'red',
+    sam => 'blue'
+);
+</source>
+
+The <code>=></code> operator is mostly equivalent to a comma, but may be used to optimize for readability. (It also automagically adds quotes to the preceding unquoted token, which may be useful for such cases.)
+
+Hash can also be defined piece by piece:
+
+<source lang="perl">
+$favorite{joe} = 'red';
+$favorite{sam} = 'blue';
+</source>
+
+Individual elements of a list are accessed by providing a numerical index, in square brackets. Individual values in a hash are accessed by providing the corresponding key, in curly braces. The <code>$</code> sigil identifies the accessed element as a scalar.
+
+<source lang="perl">
+$scores[2]      # an element of @scores
+$favorite{joe}  # a value in %favorite
+</source>
+
+Multiple elements may be accessed by using the <code>@</code> sigil instead (identifying the result as a list).
+
+<source lang="perl">
+@scores[2, 3, 1]        # three elements of @scores
+@favorite{'joe', 'sam'} # two values in %favorite
+@favorite{qw(joe sam)}  # same as above
+</source>
+
+The number of elements in an array can be obtained by evaluating the array in scalar context or with the help of the <code>$#</code> sigil. The latter gives the index of the last element in the array, not the number of elements.
+
+<source lang="perl">
+$count = @friends; # Assigning to a scalar forces scalar context
+
+# This notation is sometimes discouraged, because it tends
+# to be confused with comments.
+
+$#friends;         # The index of the last element in @friends
+$#friends+1;       # Usually the number of elements in @friends is one more
+                   # than $#friends because the first element is at index 0,
+                   # not 1, unless the programmer reset this to a different
+                   # value, which most Perl manuals discourage.
+</source>
+
+There are a few functions that operate on entire hashes.
+
+<source lang="perl">
+@names     = keys   %addressbook;
+@addresses = values %addressbook;
+
+# Every call to each return the next key/value pair.
+# All values will be eventually returned, but their order
+# cannot be expected.
+while (($name, $address) = each %addressbook) {
+    print "$name lives at $address\n";
+}
+
+# Similar to the above, but sorted alphabetically
+while my $next_name (sort keys %addressbook) {
+    print "$next_name lives at $addressbook{$next_name}\n";
+}
+</source>
+
+=== Control structures ===
+{{main|Perl control structures}}
+
+Perl has several kinds of control structures. 
+
+It has block-oriented control structures, similar to those in the C and [[Java (programming language)|Java]] programming languages. Conditions are surrounded by parentheses, and controlled blocks are surrounded by braces:
+
+ ''label'' while ( ''cond'' ) { ... }
+ ''label'' while ( ''cond'' ) { ... } continue { ... }
+ ''label'' for ( ''init-expr'' ; ''cond-expr'' ; ''incr-expr'' ) { ... }
+ ''label'' foreach ''var'' ( ''list'' ) { ... }
+ ''label'' foreach ''var'' ( ''list'' ) { ... } continue { ... }
+ if ( ''cond'' ) { ... }
+ if ( ''cond'' ) { ... } else { ... } 
+ if ( ''cond'' ) { ... } elsif ( ''cond'' ) { ... } else { ... } 
+
+Where only a single statement is being controlled, statement modifiers provide a lighter syntax:
+
+ ''statement'' if      ''cond'' ;
+ ''statement'' unless  ''cond'' ;
+ ''statement'' while   ''cond'' ;
+ ''statement'' until   ''cond'' ;
+ ''statement'' foreach ''list'' ;
+
+Short-circuit logical operators are commonly used to affect control flow at the expression level:
+
+ ''expr'' and ''expr''
+ ''expr'' or  ''expr''
+
+The flow control keywords <code>next</code>, <code>last</code>, <code>return</code>, and <code>redo</code> are expressions, so they can be used with short-circuit operators.
+
+Perl also has two implicit looping constructs:
+
+  ''results'' = grep { ... } ''list''
+  ''results'' = map  { ... } ''list''
+
+<code>grep</code> returns all elements of ''list'' for which the controlled block evaluates to true. <code>map</code> evaluates the controlled block for each element of ''list'' and returns a list of the resulting values. These constructs enable a simple [[functional programming]] style.
+
+There is no [[switch statement]] (multi-way branch) in Perl 5. The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures. There is a [http://search.cpan.org/perldoc/Switch Switch] module, however, which provides functionality modeled on the forthcoming [[Perl 6]] re-design; it may become a part of the core language in the 5.10 release <ref>[http://search.cpan.org/~rgarcia/perl-5.9.4/pod/perl593delta.pod#Switch_and_Smart_Match_operator perldelta - what is new for perl v5.9.3, Rafaël Garcia-Suarez.]</ref>.
+
+Perl includes a <code>goto label</code> statement, but it is rarely used. Situations where a <code>goto</code> is called for in other languages don't occur as often in Perl due to its breadth of flow control options.
+
+There is also a <code>goto &sub</code> statement that performs a [[tail call]]. It terminates the current subroutine and immediately calls the specified <code>''sub''</code>. This is used in situations where a caller can perform more efficient [[Call stack|stack]] management than Perl itself (typically because no change to the current stack is required), and in deep recursion tail calling can have substantial positive impact on performance because it avoids the overhead of scope/stack management on return.
+
+=== Subroutines ===
+
+[[Subroutine]]s are defined with the <code>sub</code> keyword, and invoked simply by naming them. If the subroutine in question has not yet been declared, invocation requires either parentheses after the function name or an ampersand ('''&''') before it.
+
+<source lang="perl">
+# Calling a subroutine
+
+# Parentheses are required here if the subroutine is defined later in the code
+foo();
+&foo;              # (this also works)
+
+# Defining a subroutine
+sub foo { ... }
+
+foo;               # Here parentheses are not required
+</source>
+
+A list of arguments may be provided after the subroutine name. Arguments may be scalars, lists, or hashes.
+
+foo $x, @y, %z;
+
+The parameters to a subroutine do not need to be declared as to either number or type; in fact, they may vary from call to call.
+
+Arrays are expanded to their elements, hashes are expanded to a list of key/value pairs, and the whole lot is passed into the subroutine as one flat list of scalars.
+
+Whatever arguments are passed are available to the subroutine in the special array <code>@_</code>. The elements of <code>@_</code> are aliased to the actual arguments; changing an element of <code>@_</code> changes the corresponding argument.
+
+Elements of <code>@_</code> may be accessed by subscripting it in the usual way.
+
+<source lang="perl">
+$_[0], $_[1]
+</source>
+
+However, the resulting code can be difficult to read, and the parameters have [[Evaluation strategy#Call by reference|pass-by-reference]] semantics, which may be undesirable.
+
+One common idiom is to assign <code>@_</code> to a list of named variables.
+
+<source lang="perl">
+ my ($x, $y, $z) = @_;
+</source>
+
+This provides mnemonic parameter names and implements [[Evaluation strategy#Call by value|pass-by-value]] semantics. The <code>my</code> keyword indicates that the following variables are lexically scoped to the containing block.
+
+Another idiom is to shift parameters off of <code>@_</code>. This is especially common when the subroutine takes only one argument.
+
+<source lang="perl">
+my $x = shift;
+</source>
+
+Subroutines may return values.
+
+<source lang="perl">
+return 42, $x, @y, %z;
+</source>
+
+If the subroutine does not exit via a <code>return</code> statement, then it returns the last expression evaluated within the subroutine body. Arrays and hashes in the return value are expanded to lists of scalars, just as they are for arguments.
+
+The returned expression is evaluated in the calling context of the subroutine; this can surprise the unwary.
+
+<source lang="perl">
+sub list  {      (4, 5, 6)     }
+sub array { @x = (4, 5, 6); @x }
+
+$x = list;   # returns 6 - last element of list
+$x = array;  # returns 3 - number of elements in list
+@x = list;   # returns (4, 5, 6)
+@x = array;  # returns (4, 5, 6)
+</source>
+
+A subroutine can discover its calling context with the <code>wantarray</code> function.
+
+<source lang="perl">
+sub either {
+    return wantarray
+        ? (1, 2)
+        : "Oranges";
+}
+ 
+$x = either;    # returns "Oranges"
+@x = either;    # returns (1, 2)
+</source>
+
+=== Regular expressions ===
+
+The Perl language includes a specialized syntax for writing [[regular expression]]s (RE), and the interpreter contains an engine for matching strings to regular expressions. The regular expression engine uses a [[backtracking]] algorithm, extending its capabilities from simple pattern matching to string capture and substitution. The regular expression engine is derived from regex written by [[Henry Spencer]].
+
+The Perl regular expression syntax was originally taken from Unix Version 8 regular expressions. However, it diverged before the first release of Perl, and has since grown to include many more features. Other languages and applications are now adopting [[PCRE|Perl compatible regular expressions]] over [[POSIX]] regular expressions including [[PHP]], [[Ruby programming language|Ruby]], [[Java (programming language)|Java]], and the [[Apache HTTP server]].
+
+The <code>m//</code> (match) operator introduces a regular expression match. (The leading <code>m</code> may be omitted for brevity.) In the simplest case, an expression like
+
+<source lang="perl">
+ $x =~ m/abc/
+</source>
+
+evaluates to true [[if and only if]] the string <code>$x</code> matches the regular expression <code>abc</code>. 
+
+Portions of a regular expression may be enclosed in parentheses; corresponding portions of a matching string are ''captured''. Captured strings are assigned to the sequential built-in variables <code>$1, $2, $3, ...</code>, and a list of captured strings is returned as the value of the match.
+
+<source lang="perl">
+$x =~ m/a(.)c/;  # capture the character between 'a' and 'c'
+</source>
+
+The <code>s///</code> (substitute) operator specifies a search and replace operation:
+
+<source lang="perl">
+$x =~ s/abc/aBc/;   # upcase the b
+</source>
+
+Perl regular expressions can take ''modifiers''. These are single-letter suffixes that modify the meaning of the expression:
+
+<source lang="perl">
+$x =~ m/abc/i;      # case-insensitive pattern match
+$x =~ s/abc/aBc/g;  # global search and replace
+</source>
+
+Regular expressions can be dense and cryptic. This is because regular expression syntax is extremely compact, generally using single characters or character pairs to represent its operations. Perl provides some relief from this problem with the <code>/x</code> modifier, which allows programmers to place whitespace and comments ''inside'' regular expressions:
+
+<source lang="perl">
+$x =~ m/a     # match 'a'
+        .     # match any character
+        c     # match 'c'
+       /x;
+</source>
+
+One common use of regular expressions is to specify delimiters for the <code>split</code> function:
+
+<source lang="perl">
+@words = split m/,/, $line;
+</source>
+
+The <code>split</code> function creates a list of the parts of the string separated by matches of the regular expression. In this example, a line is divided into a list of its comma-separated parts, and this list is then assigned to the <code>@words</code> array.
+
+== Database interfaces ==
+
+Perl is widely favored for database applications. Its text handling facilities are good for generating [[SQL]] queries; arrays, hashes and automatic memory management make it easy to collect and process the returned data.
+
+In early versions of Perl, database interfaces were created by relinking the interpreter with a client-side database library. This was somewhat clumsy; a particular problem was that the resulting <code>perl</code> executable was restricted to using just the one database interface that it was linked to. Also, relinking the interpreter was sufficiently difficult that it was only done for a few of the most important and widely used databases.
+
+In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The DBI (Database Interface) module presents a single, database-independent interface to Perl applications, while the DBD (Database Driver) modules handle the details of accessing some 50 different databases. There are DBD drivers for most [[ANSI]] [[SQL]] databases.
+
+==Comparative performance==
+
+[http://shootout.alioth.debian.org/ "The Computer Language Benchmarks Game"] compare the performance of implementations of typical programming problems in several programming languages. The submitted Perl implementations typically took up more memory than implementations in other languages, and had varied speed results. Perl's performance in the benchmarks game is similar to other interpreted languages such as Python and PHP, and significantly faster than Ruby, but slower than most compiled languages.
+
+Perl can be slower than compiled languages performing the same tasks because it has to compile the source every time it runs. In a talk at the [[YAPC|YAPC::Europe 2005]] conference and subsequent article, "A Timely Start", Jean-Louis Leroy found that his Perl programs took much longer to run than he expected because the perl interpreter spent much of the time finding modules because of his over-large include path.<ref>{{cite web | url=http://www.perl.com/pub/a/2005/12/21/a_timely_start.html | title=A Timely Start | author=Leroy, Jean-Louis | date=2005-12-01 | publisher=Perl.com }}</ref> Because pre-compiling is still an experimental part of Perl<ref>{{cite web | url=http://search.cpan.org/~nwclark/perl-5.8.8/ext/B/B/Bytecode.pm#KNOWN_BUGS | title=B::Bytecode Perl compiler's bytecode backend | author=Beattie, Malcolm and Enache Adrian | year=2003 | publisher=search.cpan.org }}</ref> – unlike that of Java, Python, and Ruby – Perl programs pay this overhead penalty on every execution. When [[amortized]] over a long run phase, startup time is not typically substantial, but measurement of very short execution times can often be skewed as is often found in benchmarks.
+
+A number of tools have been introduced to improve this situation, the first of which was Apache's [[mod_perl]], which sought to address one of the most common reasons that small Perl programs were invoked rapidly: [[Common Gateway Interface|CGI]] [[World Wide Web|Web]] development.  [[ActiveState|ActivePerl]], via Microsoft [[ISAPI]] provides similar performance improvements.
+
+===GPU performance===
+
+One area in which Perl performance is comparable to that of compiled languages is in the use of
+[[Graphics processing unit|GPU]]s. General Purpose GPU ([[GPGPU]]) processing uses [[Vertex shader]] programs to process vast arrays of data, independent of the [[Central processing unit|CPU]].
+
+GPU use involves loading initial r/o data via textures, loading c-like vertex shader programs for execution, which uses on-chip vertext arrays as r/w memory, then rendering the results to video or transferring the data back to the CPU.
+
+In short, the GPU does all the number-crunching, leaving the CPU to do event handling, system calls, disk I/O and UI - which tends to contribute a minor portion of the overall processing time.  In such cases, the performance difference between Perl and compiled languages become statistically insignificant.
+
+[http://graphcomp.com/opengl/benchmarks GPU benchmarks] comparing C vs Perl, using the latest Perl OpenGL ([[POGL]]) 0.55 module, demonstrate that there is no significant performance difference when rendering realtime animated 3D objects using dynamically generated texturemaps.
+
+In the case of dynamically-generated (and potentially self-modifying) vertex shader code, Perl can provide better GPU performance than compiled code - due to its dynamically interpretive string handling features.
+
+Additional benchmarks demonstrate that Perl OpenGL (POGL) is at least 20% faster than Python OpenGL (PyOpenGL).
+
+===Optimizing===
+
+Nicholas Clark, a Perl core developer, discusses some Perl design trade-offs and some solutions in [http://www.ccl4.org/~nick/P/Fast_Enough/ "When perl is not quite fast enough"].  The most critical routines of a Perl program can be written in other languages such as [[C (programming language)|C]] or [[Assembly language|Assembler]] via [[XS (Perl)|XS]] or [http://search.cpan.org/perldoc/Inline Inline].
+
+Optimizing Perl can require intimate knowledge of its workings rather than skill with the language and its syntax, meaning that the problem is with the implementation of Perl rather than the language itself.
+
+==Future==
+{{main|Perl 6}}
+At the 2000 [[Perl Conference]], [[Jon Orwant]] made a case for a major new language initiative.<ref>[http://www.nntp.perl.org/group/perl.perl6.meta/424 Transcription of Larry's talk]. Retrieved on 2006 September 28.</ref> This led to a decision to begin work on a redesign of the language, to be called Perl 6. Proposals for new language features were solicited from the Perl community at large, and over 300 [[Request for Comments|RFC]]s were submitted.
+
+[[Larry Wall]] spent the next few years digesting the RFCs and synthesizing them into a coherent framework for Perl 6. He has presented his design for Perl 6 in a series of documents called "apocalypses", which are numbered to correspond to chapters in ''[[Programming Perl]]'' ("The Camel Book").  The current, not yet finalized specification of Perl 6 is encapsulated in design documents called Synopses, which are numbered to correspond to Apocalypses.
+
+Perl 6 is not intended to be backward compatible, though there will be a compatibility mode.
+
+In [[2001]], it was decided that Perl 6 would run on a cross-language [[virtual machine]] called [[Parrot virtual machine|Parrot]]. This will mean that other languages targeting the Parrot will gain native access to [[CPAN]], allowing some level of cross-language development.
+
+In [[2005]] [[Audrey Tang]] created the [[pugs]] project, an implementation of Perl 6 in [[Haskell (programming language)|Haskell]]. This was and continues to act as a test platform for the Perl 6 language (separate from the development of the actual implementation) allowing the language designers to explore. The pugs project spawned an active Perl/Haskell cross-language community centered around the [[freenode]] #perl6 irc channel.
+
+A number of features in the Perl 6 language now show similarities with Haskell, and Perl 6 has been embraced by the Haskell community as a potential scripting language.
+
+[[As of 2006]], Perl 6, Parrot, and pugs are under active development, and a new module for Perl 5 called [[v6 (Perl)|v6]] allows some Perl 6 code to run directly on top of Perl 5.
+
+In 2006, an effort was started to have Windows Perl distributions ship with a compiler, in order to make the need for binary packages on Windows redundant. Some early results of this include the [http://camelpack.sourceforge.net/ CamelPack] macro-installer and [http://win32.perl.org/wiki/index.php?title=Vanilla_Perl Vanilla Perl] distributions.
+
+Development of Perl 5 is also continuing. The development versions are number 5.9.x and the next stable version is planned to be called Perl 5.10. Some of its features are influenced by the design of Perl 6. More information about the upcoming release is available in the files perldelta59*.pod in [http://search.cpan.org/src/RGARCIA/perl-5.9.4/pod/ CPAN distribution of 5.9.x development versions].
+
+==The Perl community==
+Perl's culture and community has developed along side the language itself. [[Usenet]] was the first public venue in which Perl was introduced, but over the course of its evolution, Perl's community was shaped by the growth of broading Internet-based services including the introduction of the [[World Wide Web]]. The community that surrounds Perl was, in fact, the topic of Larry Wall's first "State of the Onion" talk.<ref>{{ cite web | url=http://www.wall.org/~larry/keynote/keynote.html | title=Perl Culture (AKA the first State of the Onion) | author=Wall, Larry | date=1997-08-20 }}</ref>
+
+===Pastimes===
+Perl's pastimes have become a defining element of the community. Included among them are trivial and complex uses of the language.
+
+====JAPHs====
+In email, Usenet and message board postings, "[[Just another Perl hacker]]" (JAPH) programs have become a common trend, originated by [[Randal L. Schwartz]], one of the earliest professional Perl trainers.<ref>Randal L. Schwartz in [[usenet]] message M1HFPVH2JQ.FSF@HALFDOME.HOLDIT.COM explaining the origin of JAPH. Available through google: http://groups.google.com/group/comp.lang.perl.misc/msg/ecc405feeefc120c</ref>
+
+In the parlance of Perl culture, Perl [[programmer]]s are known as Perl [[hacker]]s, and from this derives the practice of writing short programs to print out the phrase "[[Just another Perl hacker]],". In the spirit of the original concept, these programs are moderately obfuscated and short enough to fit into the [[signature]] of an email or [[Usenet]] message. The "canonical" JAPH includes the comma at the end, although this is often omitted.
+
+====Perl golf====
+Perl "golf" is the pastime of reducing the number of characters used in a Perl program to the bare minimum, much as how [[golf]] players seek to take as few shots as possible in a round. It originally focused on the JAPHs used in signatures in Usenet postings and elsewhere, but the use of Perl to write a program which performed [[RSA]] encryption prompted a widespread and practical interest in this pastime.<ref>http://www.cypherspace.org/adam/rsa/story.html</ref> In subsequent years, code golf has been taken up as a pastime in other languages besides Perl.<ref>{{cite web | url=http://codegolf.com/ | title=Code Golf: What is Code Golf? | publisher=29degrees | date=2007 }}</ref>
+
+====Obfuscation====
+As with C, [[obfuscated code]] competitions are a well-known pastime. The annual [[Obfuscated Perl contest]] made an arch virtue of Perl's [[syntax|syntactic]] flexibility.
+
+====Poetry====
+Similar to obfuscated code and golf, but with a different purpose, Perl poetry is the practice of writing poems that can actually be compiled as legal (although generally non-sensical) Perl code. This hobby is more or less unique to Perl due to the large number of regular English words used in the language. New poems are regularly published in the [[Perl Monks]] site's [http://www.perlmonks.org/?node_id=1590 Perl Poetry section].
+
+====CPAN Acme====
+There are also many examples of code written purely for entertainment on the CPAN. <code>Lingua::Romana::Perligata</code>, for example, allows writing programs in [[Latin]].<ref>{{ cite web | url=http://www.csse.monash.edu.au/~damian/papers/HTML/Perligata.html | title=Lingua::Romana::Perligata -- Perl for the XXI-imum Century | author=Conway, Damian }}</ref> Upon execution of such a program, the module translates its source code into regular Perl and runs it.
+
+The Perl community has set aside the "[[Acme]]" namespace for modules that are fun in nature (but its scope has widened to include exploratory or experimental code or any other module that is not meant to ever be used in production). Some of the Acme modules are deliberately implemented in amusing ways. This includes <code>Acme::Bleach</code>, one of the first modules in the <code>Acme::</code> namespace,<ref>{{cite web | url=http://use.perl.org/~acme/journal/200 | title=use Perl; Journal of acme | date=2001-05-23 | author=Brocard, Leon }}</ref> which allows the program's source code to be "whitened" (i.e., all characters replaced with whitespace) and yet still work.
+
+These are also examples of "source filters"; libraries which transform the text of a program before reading it.
+
+== See also ==
+{{portalpar|Free software}}
+
+*[[The Perl Foundation]]
+*[[Perl Object Environment]] (POE) - a framework for writing persistent object-oriented environments with [[event loop]]s.
+*[[Perl Data Language]] (PDL) - a Perl module which allows extending Perl for higher-order scientific processing.
+*[[Plain Old Documentation]] (POD) - a documentation tool for Perl.
+*[[Just another Perl hacker]] (JAPH)
+*[[Perl Monks]]
+*[[Perl Mongers]]
+*[[PerlScript]]
+*[[Comparison of programming languages]]
+*''[[Learning Perl]]'', Fourth Edition (the ''Llama book''), ISBN 0-596-10105-8
+*''[[Perl Cookbook]]'', ISBN 0-596-00313-7
+*''[[Programming Perl]]'', (the ''Camel book''), ISBN 0-596-00027-8
+*[[Autovivification]]
+
+== References ==
+
+<div class="references-small">
+<references />
+</div>
+
+== External links ==
+<!-- some of these should be referenced in the article as opposed to just flung in here. -->
+
+{{wikibooks|Perl Programming}}
+* [http://www.perl.org/ Perl.org] - Official Perl website
+* [http://perldoc.perl.org/ Perldoc at Perl.org] - online Perl documentation
+* [http://perl-begin.org/ The Perl Beginners' Site (Perl-Begin)] - aims to be a first stop for introducing and advocating Perl.
+* [http://www.xray.mpe.mpg.de/mailing-lists/perl5-porters/ perl5-porters mailing list archive]
+* [http://dev.perl.org/ Perl development]
+* [http://www.indigostar.com/indigoperl.htm IndigoPerl] - another distribution of Perl for Microsoft Windows
+* [http://en.wikibooks.org/wiki/Programming:Perl/Humour Perl humour on Wikibooks]
+* [http://dev.perl.org/perl1/ The origin of Perl] - "Stability. Speed. Simplicity. perl1 is here."
+* [http://history.perl.org/PerlTimeline.html The Perl Timeline]
+* [http://dmoz.org/Computers/Programming/Languages/Perl/ Perl related websites] in the [[Open Directory Project]]  	 
+* [http://www.theperlreview.com The Perl Review] - Current print magazine about Perl.
+* [http://www.tpj.com/ The Perl Journal online] - The original Perl print periodical.
+* [http://www.perl.com/pub/a/2000/01/10PerlMyths.html Ten Perl Myths] - O'Reilly
+* [http://aboutperl.info About Perl] - Learn about Perl and how it works
+* [http://ptkdb.sourceforge.net/ Perl/Tk Debugger] - Open Source Perl Debugger Based on Tk Library.
+* [http://graphcomp.com/opengl/benchmarks Perl GPU Performance] - C vs Perl on Vista and Linux; Perl vs Python.
+
+[[Category:Perl|*]]
+[[Category:Curly bracket programming languages]]
+[[Category:Dynamic programming languages]]
+[[Category:Dynamically-typed programming languages]]
+[[Category:Free compilers and interpreters]]
+[[Category:.NET programming languages]]
+[[Category:Procedural programming languages]]
+[[Category:Programming languages]]
+[[Category:Scripting languages]]
+[[Category:Text-oriented programming languages]]
+[[Category:Unix software]]
+
+
+
+[[als:Perl]]
+[[ar:بيرل]]
+[[zh-min-nan:Perl]]
+[[bs:Perl]]
+[[bg:Perl]]
+[[ca:Perl]]
+[[cs:Perl]]
+[[cy:Perl]]
+[[da:Perl]]
+[[pdc:Perl]]
+[[de:Perl]]
+[[et:Perl]]
+[[es:Perl]]
+[[eo:Perl (programlingvo)]]
+[[fa:پرل]]
+[[fr:Perl (langage)]]
+[[gl:Perl]]
+[[ko:펄 프로그래밍 언어]]
+[[hr:Perl]]
+[[id:Perl]]
+[[it:Perl]]
+[[he:Perl]]
+[[ka:პერლი]]
+[[ku:Perl]]
+[[la:Perl]]
+[[lb:Perl (Programméiersprooch)]]
+[[lt:Perl]]
+[[hu:Perl programozási nyelv]]
+[[ms:Perl]]
+[[nl:Perl (programmeertaal)]]
+[[ja:Perl]]
+[[no:Perl]]
+[[nn:Perl]]
+[[pl:Perl]]
+[[pt:Perl]]
+[[ro:Perl]]
+[[ru:Perl]]
+[[simple:Perl]]
+[[sk:Perl]]
+[[sl:Perl]]
+[[sr:Програмски језик Перл]]
+[[fi:Perl]]
+[[sv:Perl]]
+[[th:ภาษาเพิร์ล]]
+[[vi:Perl]]
+[[tr:Perl]]
+[[uk:Perl]]
+[[zh:Perl]]
