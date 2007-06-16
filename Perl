@@ -145,7 +145,7 @@ This [[Input/output|print]]s the [[String (computer science)|string]] ''Hello, w
 The canonical form of the program is slightly more verbose:
 
 <source lang="perl">
-#!/usr/bin/perl
+#!/usr/bin/env perl
 print "Hello, world!\n";
 </source>
 
