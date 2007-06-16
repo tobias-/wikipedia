@@ -164,13 +164,13 @@ Perl has a number of fundamental [[data type]]s, the most commonly used and disc
 
 Most variables are marked by a leading [[Sigil (computer programming)|sigil]], which identifies the data type being accessed (not the type of the variable itself), except filehandles, which don't have a sigil. The same name may be used for variables of different data types, without conflict.
 
-<pre>
+<source lang="perl">
 $foo   # a [[Scalar (computing)|scalar]]
 @foo   # an [[array]]
 %foo   # a [[Hash table|hash]]
 FOO    # a [[file handle]]
 &foo   # a subroutine. 
-</pre>
+</source>
 
 [[File handle]]s need not be uppercase, but it is a common convention owing to the fact that there is no sigil to denote them. Since 5.8 a scalar may be used as a file handle, and using this feature is encouraged in [[Damian Conway]]'s ''Perl Best Practices''.
 
