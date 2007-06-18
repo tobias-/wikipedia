@@ -579,7 +579,8 @@ The Perl community has set aside the "[[Acme]]" namespace for modules that are f
 These are also examples of "source filters"; libraries which transform the text of a program before reading it.
 
 == See also ==
-{{portalpar|Free software}}
+
+{{portal|Free software|Floss logos.svg}}
 
 *[[The Perl Foundation]]
 *[[Perl Object Environment]] (POE) - a framework for writing persistent object-oriented environments with [[event loop]]s.
