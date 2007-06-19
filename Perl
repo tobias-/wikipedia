@@ -77,7 +77,7 @@ Wall was trained as a linguist, and the design of Perl is very much informed by 
 
 Perl syntax reflects the idea that "things that are different should look different".  For example, scalars, arrays, and hashes have different leading [[Sigil (computer programming)|sigils]]. Array indices and hash keys use different kinds of braces. Strings and regular expressions have different standard delimiters.  This approach can be contrasted with languages like [[Lisp programming language|Lisp]], where the same [[S-expression]] construct and basic syntax is used for many different purposes.
 
-Perl does not enforce any particular programming paradigm (procedural, object-oriented, functional, etc.), or even require the programmer to choose among them. 
+Perl does not enforce any particular programming paradigm (procedural, object-oriented, functional, etc.) or even require the programmer to choose among them. 
 
 There is a broad practical bent to both the Perl language and the community and culture that surround it. The preface to ''Programming Perl'' begins, "Perl is a language for getting your job done." One consequence of this is that Perl is not a tidy language. It includes features if people use them, tolerates exceptions to its rules, and employs heuristics to resolve syntactical ambiguities. Because of the forgiving nature of the compiler, bugs can sometimes be hard to find. Discussing the variant behaviour of built-in functions in list and scalar contexts, the perlfunc(1) manual page says "In general, they do what you want, unless you want consistency."
 
