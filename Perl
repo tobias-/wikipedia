@@ -168,11 +168,13 @@ Most variables are marked by a leading [[Sigil (computer programming)|sigil]], w
 $foo   # a [[Scalar (computing)|scalar]]
 @foo   # an [[array]]
 %foo   # a [[Hash table|hash]]
-FOO    # a [[file handle]]
-&foo   # a subroutine. 
+FOO    # a [[file handle]] or [[constant]]
+&foo   # a subroutine. (The & is optional)
 </source>
 
-[[File handle]]s need not be uppercase, but it is a common convention owing to the fact that there is no sigil to denote them. Since 5.8 a scalar may be used as a file handle, and using this feature is encouraged in [[Damian Conway]]'s ''Perl Best Practices''.
+[[File handle]]s and constants need not be uppercase, but it is a common convention owing to the fact that there is no sigil to denote them. Since 5.8 a scalar may be used as a file handle, and using this feature is encouraged in [[Damian Conway]]'s ''Perl Best Practices''.
+
+Note that scalars can also function as file handles;
 
 Numbers are written in the bare form; strings are enclosed by quotes of various kinds.
 
@@ -180,7 +182,12 @@ Numbers are written in the bare form; strings are enclosed by quotes of various 
 $name   = "joe";
 $color  = 'red';
 
-$number = 42;
+$number1 = 42; 
+$number2 = "42";
+
+# This returns true
+if ($number1 == $number2) { print "Numbers and strings of numbers are the same!"; } 
+
 $answer = "The answer is $number";    # Variable interpolation: The answer is 42
 $price  = 'This device costs $42';    # No interpolation in single quotes
 
@@ -188,6 +195,11 @@ $album  = "David Bowie's \"Heroes\""; # literal quotes inside a string
 $album  = 'David Bowie\'s "Heroes"';  # same as above with single quotes
 $album  = qq(David Bowie's "Heroes"); # qq() may be used instead of quotes
                                       # to optimize readability
+$multilined_string =<<EOF
+This is my multilined string
+note that I am terminating it with the "EOF" word.
+EOF
+
 </source>
 
 Perl will convert strings into numbers and vice versa depending on the context in which they are used. In the following example the strings $n and $m are treated as numbers when they are the arguments to the addition operator. This code prints the number '5', discarding non number information for the operation, although the variable values remain the same. (The string concatenation operator is not <code>+</code>, but <code>.</code>)
