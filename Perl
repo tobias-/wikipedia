@@ -464,24 +464,38 @@ The Perl language includes a specialized syntax for writing [[regular expression
 
 The Perl regular expression syntax was originally taken from Unix Version 8 regular expressions. However, it diverged before the first release of Perl, and has since grown to include many more features. Other languages and applications are now adopting [[PCRE|Perl compatible regular expressions]] over [[POSIX]] regular expressions including [[PHP]], [[Ruby programming language|Ruby]], [[Java (programming language)|Java]], and the [[Apache HTTP server]].
 
-The <code>m//</code> (match) operator introduces a regular expression match. (The leading <code>m</code> may be omitted for brevity.) In the simplest case, an expression like
+Regular expression is very extremely compact, owing to history. The expressiveness of the first regular expression dialects were only a slight superset of [[Glob (programming)|globs]], and the syntax was designed so that an expression would resemble the text it matches. This meant using no more than a single character or a pair of characters to express most assertions. Over time, the expressiveness of regular expressions grew tremendously, but the syntax design was never revised. As a result, regular expressions can be cryptic and extremely dense.
+
+==== Uses ====
+
+The <code>m//</code> (match) operator introduces a regular expression match. (If you use slashes as delimiters, as in all the examples here, then the leading <code>m</code> may be omitted for brevity.) In the simplest case, an expression like
 
 <source lang="perl">
- $x =~ m/abc/
+$x =~ m/abc/
 </source>
 
 evaluates to true [[if and only if]] the string <code>$x</code> matches the regular expression <code>abc</code>. 
+
+The <code>s///</code> (substitute) operator, on the other hand, specifies a search and replace operation:
+
+<source lang="perl">
+$x =~ s/abc/aBc/;   # upcase the b
+</source>
+
+Another use of regular expressions is to specify delimiters for the <code>split</code> function:
+
+<source lang="perl">
+@words = split m/,/, $line;
+</source>
+
+The <code>split</code> function creates a list of the parts of the string separated by matches of the regular expression. In this example, a line is divided into a list of its comma-separated parts, and this list is then assigned to the <code>@words</code> array.
+
+==== Syntax ====
 
 Portions of a regular expression may be enclosed in parentheses; corresponding portions of a matching string are ''captured''. Captured strings are assigned to the sequential built-in variables <code>$1, $2, $3, ...</code>, and a list of captured strings is returned as the value of the match.
 
 <source lang="perl">
 $x =~ m/a(.)c/;  # capture the character between 'a' and 'c'
-</source>
-
-The <code>s///</code> (substitute) operator specifies a search and replace operation:
-
-<source lang="perl">
-$x =~ s/abc/aBc/;   # upcase the b
 </source>
 
 Perl regular expressions can take ''modifiers''. These are single-letter suffixes that modify the meaning of the expression:
@@ -491,7 +505,7 @@ $x =~ m/abc/i;      # case-insensitive pattern match
 $x =~ s/abc/aBc/g;  # global search and replace
 </source>
 
-Regular expressions can be dense and cryptic making it difficult for average users to perform even the simplest tasks. This is because regular expression syntax is extremely compact, generally using single characters or character pairs to represent its operations. Perl provides some relief from this problem with the <code>/x</code> modifier, which allows programmers to place whitespace and comments ''inside'' regular expressions:
+Since regular expressions can be dense and cryptic because of their compact syntax, the <code>/x</code> modifier was added in Perl to provide some relief. It allows programmers to place whitespace and comments ''inside'' regular expressions:
 
 <source lang="perl">
 $x =~ m/a     # match 'a'
@@ -499,14 +513,6 @@ $x =~ m/a     # match 'a'
         c     # match 'c'
        /x;
 </source>
-
-One common use of regular expressions is to specify delimiters for the <code>split</code> function:
-
-<source lang="perl">
-@words = split m/,/, $line;
-</source>
-
-The <code>split</code> function creates a list of the parts of the string separated by matches of the regular expression. In this example, a line is divided into a list of its comma-separated parts, and this list is then assigned to the <code>@words</code> array.
 
 == Database interfaces ==
 
