@@ -464,7 +464,7 @@ The Perl language includes a specialized syntax for writing [[regular expression
 
 The Perl regular expression syntax was originally taken from Unix Version 8 regular expressions. However, it diverged before the first release of Perl, and has since grown to include many more features. Other languages and applications are now adopting [[PCRE|Perl compatible regular expressions]] over [[POSIX]] regular expressions including [[PHP]], [[Ruby programming language|Ruby]], [[Java (programming language)|Java]], and the [[Apache HTTP server]].
 
-Regular expression syntax is very extremely compact, owing to history. The expressiveness of the first regular expression dialects were only a slight superset of [[Glob (programming)|globs]], and the syntax was designed so that an expression would resemble the text it matches. This meant using no more than a single character or a pair of characters to express most assertions. Over time, the expressiveness of regular expressions grew tremendously, but the syntax design was never revised. As a result, regular expressions can be cryptic and extremely dense.
+Regular expression syntax is very extremely compact, owing to history. The first regular expression dialects were only slightly more expressive than [[Glob (programming)|globs]], and the syntax was designed so that an expression would resemble the text it matches. This meant using no more than a single punctuation character or a pair of delimiting characters to express the few supported assertions. Over time, the expressiveness of regular expressions grew tremendously, but the syntax design was never revised and continues to rely on punctuation. As a result, regular expressions can be cryptic and extremely dense.
 
 ==== Uses ====
 
