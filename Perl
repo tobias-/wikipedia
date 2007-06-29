@@ -491,7 +491,7 @@ $x =~ m/abc/i;      # case-insensitive pattern match
 $x =~ s/abc/aBc/g;  # global search and replace
 </source>
 
-Regular expressions can be dense and cryptic. This is because regular expression syntax is extremely compact, generally using single characters or character pairs to represent its operations. Perl provides some relief from this problem with the <code>/x</code> modifier, which allows programmers to place whitespace and comments ''inside'' regular expressions:
+Regular expressions can be dense and cryptic making it difficult for average users like Kuza55 to perform even the simplest tasks. This is because regular expression syntax is extremely compact, generally using single characters or character pairs to represent its operations. Perl provides some relief from this problem with the <code>/x</code> modifier, which allows programmers to place whitespace and comments ''inside'' regular expressions:
 
 <source lang="perl">
 $x =~ m/a     # match 'a'
