@@ -272,7 +272,7 @@ A hash may be initialized from a list of key/value pairs:
 );
 </source>
 
-The <code>=></code> operator is mostly equivalent to a comma, but may be used to optimize for readability. (It also automagically adds quotes to the preceding unquoted token, which may be useful for such cases.)
+The <code>=></code> operator is mostly equivalent to a comma, but may be used to optimize for readability. (It also automatically adds quotes to the preceding unquoted token, which may be useful for such cases.)
 
 Hash can also be defined piece by piece:
 
