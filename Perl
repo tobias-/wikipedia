@@ -186,7 +186,7 @@ $number2 = "42";
 # This returns true
 if ($number1 == $number2) { print "Numbers and strings of numbers are the same!"; } 
 
-$answer = "The answer is $number";    # Variable interpolation: The answer is 42
+$answer = "The answer is $number1";    # Variable interpolation: The answer is 42
 $price  = 'This device costs $42';    # No interpolation in single quotes
 
 $album  = "David Bowie's \"Heroes\""; # literal quotes inside a string
