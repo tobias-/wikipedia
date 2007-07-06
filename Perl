@@ -560,6 +560,13 @@ In the case of dynamically-generated (and potentially self-modifying) vertex sha
 
 Additional benchmarks demonstrate that Perl OpenGL (POGL) is at least 20% faster than Python OpenGL (PyOpenGL).
 
+====GPU Data Storage in Perl====
+[[POGL]] objects provide further optimization by storing data/images in typed C arrays, eliminating the need to copy, cast, convert data to/from C and Perl:
+
+* [http://graphcomp.com/opengl/index.cgi?v=0111s3p1 OpenGL::Array] (OGA) - provides direct C pointer access to data arrays, providing compiled language performance to loading/managing/saving textures, FBOs and VBOs.
+
+* [http://graphcomp.com/opengl/index.cgi?v=0111s3p6 OpenGL::Image] (OGI) - provides direct C pointer access to ImageMagick image caches, providing compiled language performance to loading/processing/saving images for most common image formats.
+
 ===Optimizing===
 
 Nicholas Clark, a Perl core developer, discusses some Perl design trade-offs and some solutions in [http://www.ccl4.org/~nick/P/Fast_Enough/ "When perl is not quite fast enough"].  The most critical routines of a Perl program can be written in other languages such as [[C (programming language)|C]] or [[Assembly language|Assembler]] via [[XS (Perl)|XS]] or [http://search.cpan.org/perldoc/Inline Inline].
