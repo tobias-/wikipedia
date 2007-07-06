@@ -346,7 +346,7 @@ It has block-oriented control structures, similar to those in the C and [[Java (
  if ( ''cond'' ) { ... } else { ... } 
  if ( ''cond'' ) { ... } elsif ( ''cond'' ) { ... } else { ... } 
 
-Where only a single statement is being controlled, statement modifiers provide a lighter syntax:
+Where only a single statement is being controlled, statement modifiers provide a more concise syntax:
 
  ''statement'' if      ''cond'' ;
  ''statement'' unless  ''cond'' ;
@@ -357,16 +357,22 @@ Where only a single statement is being controlled, statement modifiers provide a
 Short-circuit logical operators are commonly used to affect control flow at the expression level:
 
  ''expr'' and ''expr''
+ ''expr'' && ''expr''
  ''expr'' or  ''expr''
+ ''expr'' <nowiki>||</nowiki>  ''expr''
 
-The flow control keywords <code>next</code>, <code>last</code>, <code>return</code>, and <code>redo</code> are expressions, so they can be used with short-circuit operators.
+(The "and" and "or" operators are similar to && and <nowiki>||</nowiki> but have lower [[precedence]], which makes it easier to use them to control entire statements.)
 
-Perl also has two implicit looping constructs:
+The flow control keywords <code>next</code> (corresponding to C's <code>continue</code>), <code>last</code> (corresponding to C's <code>break</code>), <code>return</code>, and <code>redo</code> are expressions, so they can be used with short-circuit operators.
+
+Perl also has two implicit looping constructs, each of which has two forms:
 
   ''results'' = grep { ... } ''list''
+  ''results'' = grep ''expr'', ''list''
   ''results'' = map  { ... } ''list''
+  ''results'' = map  ''expr'', ''list''
 
-<code>grep</code> returns all elements of ''list'' for which the controlled block evaluates to true. <code>map</code> evaluates the controlled block for each element of ''list'' and returns a list of the resulting values. These constructs enable a simple [[functional programming]] style.
+<code>grep</code> returns all elements of ''list'' for which the controlled block or expression evaluates to true. <code>map</code> evaluates the controlled block or expression for each element of ''list'' and returns a list of the resulting values. These constructs enable a simple [[functional programming]] style.
 
 There is no [[switch statement]] (multi-way branch) in Perl 5. The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures. There is a [http://search.cpan.org/perldoc/Switch Switch] module, however, which provides functionality modeled on the forthcoming [[Perl 6]] re-design; it may become a part of the core language in the 5.10 release <ref>[http://search.cpan.org/~rgarcia/perl-5.9.4/pod/perl593delta.pod#Switch_and_Smart_Match_operator perldelta - what is new for perl v5.9.3, Rafaël Garcia-Suarez.]</ref>.
 
