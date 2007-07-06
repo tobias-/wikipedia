@@ -401,7 +401,7 @@ A list of arguments may be provided after the subroutine name. Arguments may be 
 
 foo $x, @y, %z;
 
-The parameters to a subroutine do not need to be declared as to either number or type; in fact, they may vary from call to call.
+The parameters to a subroutine do not need to be declared as to either number or type; in fact, they may vary from call to call.  Any validation of parameters must be performed explicitly inside the subroutine.
 
 Arrays are expanded to their elements, hashes are expanded to a list of key/value pairs, and the whole lot is passed into the subroutine as one flat list of scalars.
 
@@ -423,10 +423,21 @@ One common idiom is to assign <code>@_</code> to a list of named variables.
 
 This provides mnemonic parameter names and implements [[Evaluation strategy#Call by value|pass-by-value]] semantics. The <code>my</code> keyword indicates that the following variables are lexically scoped to the containing block.
 
-Another idiom is to shift parameters off of <code>@_</code>. This is especially common when the subroutine takes only one argument.
+Another idiom is to shift parameters off of <code>@_</code>. This is especially common when the subroutine takes only one argument, or for handling the <code>$self</code> argument in object-oriented modules.
 
 <source lang="perl">
 my $x = shift;
+</source>
+
+Subroutines may assign <code>@_</code> to a hash to simulate named arguments; this is recommended in ''Perl Best Practices'' for subroutines that are likely ever to have more than three parameters.<ref>
+Damian Conway, ''Perl Best Practices'', [http://www.oreilly.com/catalog/perlbp/chapter/ch09.pdf], p.182</ref>
+
+<source lang="perl">
+sub function1 { 
+  my %args = @_;
+  print "'x' argument was '$args{x}'\n";
+}
+function1( x => 23 );
 </source>
 
 Subroutines may return values.
