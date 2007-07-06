@@ -230,7 +230,7 @@ If a specifically 1 or 0 result (as in C) is needed, an explicit conversion is t
 my $real_result = $boolean_result ? 1 : 0;
 </source>
 
-However, an implicit conversion can be used instead:
+However, if it's known that the value is either 1 or ''undef'', an implicit conversion can be used instead:
 
 <source lang="perl">
 my $real_result = $boolean_result + 0;
@@ -242,7 +242,7 @@ A list is written by listing its elements, separated by commas, and enclosed by 
 @scores = (32, 45, 16, 5);
 </source>
 
-Or, then again, it can be written some other half dozen ways, at least:
+It can be written many other ways as well, some straightforward and some less so:
 
 <source lang="perl">
 # An explicit and straightforward way
@@ -272,20 +272,20 @@ A hash may be initialized from a list of key/value pairs:
 );
 </source>
 
-The <code>=></code> operator is equivalent to a comma, except that it assumes quotes around the preceding token if it is a bare identifier. It can therefore be used to elide quote marks, improving readability.
-
-Hash can also be defined piece by piece:
-
-<source lang="perl">
-$favorite{joe} = 'red';
-$favorite{sam} = 'blue';
-</source>
+The <code>=></code> operator is equivalent to a comma, except that it assumes quotes around the preceding token if it is a bare identifier: <code>(joe => 'red')</code> is the same as <code>('joe' => 'red')</code>. It can therefore be used to elide quote marks, improving readability.
 
 Individual elements of a list are accessed by providing a numerical index, in square brackets. Individual values in a hash are accessed by providing the corresponding key, in curly braces. The <code>$</code> sigil identifies the accessed element as a scalar.
 
 <source lang="perl">
 $scores[2]      # an element of @scores
 $favorite{joe}  # a value in %favorite
+</source>
+
+Thus, a hash can also be specified by setting its keys individually:
+
+<source lang="perl">
+$favorite{joe} = 'red';
+$favorite{sam} = 'blue';
 </source>
 
 Multiple elements may be accessed by using the <code>@</code> sigil instead (identifying the result as a list).
@@ -319,7 +319,7 @@ There are a few functions that operate on entire hashes.
 
 # Every call to each return the next key/value pair.
 # All values will be eventually returned, but their order
-# cannot be expected.
+# cannot be predicted.
 while (($name, $address) = each %addressbook) {
     print "$name lives at $address\n";
 }
