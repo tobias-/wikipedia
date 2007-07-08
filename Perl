@@ -677,10 +677,9 @@ These are also examples of "source filters"; libraries which transform the text 
 [[Category:Text-oriented programming languages]]
 [[Category:Unix software]]
 
-
-
 [[als:Perl]]
 [[ar:بيرل]]
+[[bn:পার্ল]]
 [[zh-min-nan:Perl]]
 [[bs:Perl]]
 [[bg:Perl]]
@@ -716,10 +715,10 @@ These are also examples of "source filters"; libraries which transform the text 
 [[pt:Perl]]
 [[ro:Perl]]
 [[ru:Perl]]
+[[sq:Perl]]
 [[simple:Perl]]
 [[sk:Perl]]
 [[sl:Perl]]
-[[sq:Perl]]
 [[sr:Програмски језик Перл]]
 [[fi:Perl]]
 [[sv:Perl]]
