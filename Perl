@@ -664,7 +664,7 @@ These are also examples of "source filters"; libraries which transform the text 
 * [http://aboutperl.info About Perl] - Learn about Perl and how it works
 * [http://ptkdb.sourceforge.net/ Perl/Tk Debugger] - Open Source Perl Debugger Based on Tk Library.
 * [http://graphcomp.com/opengl/benchmarks Perl GPU Performance] - C vs Perl on Vista and Linux; Perl vs Python.
-* [http://www.forum.digilas.com Iranian Perl Programmer community] - انجمن برنامه نویسان پرل.
+* [http://www.forum.digilas.com Iranian Perl Programmer community] - انجمن تخصصی و آموزشی برنامه نویسان پرل.
 [[Category:Perl|*]]
 [[Category:Curly bracket programming languages]]
 [[Category:Dynamic programming languages]]
