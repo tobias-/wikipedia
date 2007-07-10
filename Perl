@@ -156,19 +156,19 @@ The second line in the canonical form includes a semicolon, which is used to sep
 === Data types ===
 
 Perl has a number of fundamental [[data type]]s, the most commonly used and discussed being: [[Scalar (computing)|scalars]], [[array]]s, [[Hash table|hashes]], [[filehandle]]s and [[subroutines]]:
-*A scalar is a single value; it may be a number, a [[String (computer science)|string]] or a [[Reference (computer science)|reference]]
-*An array is an ordered collection of scalars
+*A [[Scalar (computing)|scalar]] is a single value; it may be a number, a [[String (computer science)|string]] or a [[Reference (computer science)|reference]]
+*An [[array]] is an ordered collection of scalars
 *A hash, or [[associative array]], is a map from strings to scalars; the strings are called ''keys'' and the scalars are called ''values''.
-*A filehandle is a map to a file, device, or pipe which is open for reading, writing, or both.
+*A [[file handle]] is a map to a file, device, or pipe which is open for reading, writing, or both.
 *A subroutine is a piece of code that may be passed arguments, be executed, and return data
 
 Most variables are marked by a leading [[Sigil (computer programming)|sigil]], which identifies the data type being accessed (not the type of the variable itself), except filehandles, which don't have a sigil. The same name may be used for variables of different data types, without conflict.
 
 <source lang="perl">
-$foo   # a [[Scalar (computing)|scalar]]
-@foo   # an [[array]]
-%foo   # a [[Hash table|hash]]
-FOO    # a [[file handle]] or [[constant]]
+$foo   # a scalar
+@foo   # an array
+%foo   # a hash
+FOO    # a file handle or constant
 &foo   # a subroutine. (The & is optional)
 </source>
 
