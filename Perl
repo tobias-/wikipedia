@@ -670,7 +670,6 @@ These are also examples of "source filters"; libraries which transform the text 
 [[Category:Dynamic programming languages]]
 [[Category:Dynamically-typed programming languages]]
 [[Category:Free compilers and interpreters]]
-[[Category:.NET programming languages]]
 [[Category:Procedural programming languages]]
 [[Category:Programming languages]]
 [[Category:Scripting languages]]
