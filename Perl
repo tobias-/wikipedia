@@ -569,9 +569,11 @@ Additional benchmarks demonstrate that Perl OpenGL (POGL) is at least 20% faster
 
 ===Optimizing===
 
-Nicholas Clark, a Perl core developer, discusses some Perl design trade-offs and some solutions in [http://www.ccl4.org/~nick/P/Fast_Enough/ "When perl is not quite fast enough"].  The most critical routines of a Perl program can be written in other languages such as [[C (programming language)|C]] or [[Assembly language|Assembler]] via [[XS (Perl)|XS]] or [http://search.cpan.org/perldoc/Inline Inline].
+Perl programs, like any code, can be [[Optimization (computer science)|tuned for performance]] using [[Benchmark (computing)|benchmarks]] and [[Performance analysis|profiles]] after a readable and correct implementation is finished.  In part because of Perl's interpreted nature, writing more-efficient Perl will not always be enough to meet one's performance goals for a program.
 
-Optimizing Perl can require intimate knowledge of its workings rather than skill with the language and its syntax, meaning that the problem is with the implementation of Perl rather than the language itself.
+In such situations, the most critical routines of a Perl program can be written in other languages such as [[C (programming language)|C]] or [[Assembly language|Assembler]], which can be connected to Perl via simple [http://search.cpan.org/perldoc/Inline Inline] modules or the more complex but flexible [[XS (Perl)|XS]] mechanism.  Nicholas Clark, a Perl core developer, discusses some Perl design trade-offs and some solutions in [http://www.ccl4.org/~nick/P/Fast_Enough/ "When perl is not quite fast enough"]. 
+
+In extreme cases, optimizing Perl can require intimate knowledge of the interpreter's workings rather than skill with algorithms, the Perl language, or general principles of optimization.{{fact}}
 
 ==Future==
 {{main|Perl 6}}
