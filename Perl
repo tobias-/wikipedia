@@ -335,7 +335,7 @@ while my $next_name (sort keys %addressbook) {
 
 Perl has several kinds of control structures. 
 
-It has block-oriented control structures, similar to those in the C and [[Java (programming language)|Java]] programming languages. Conditions are surrounded by parentheses, and controlled blocks are surrounded by braces:
+It has block-oriented control structures, similar to those in the C, [[Javascript]], and [[Java (programming language)|Java]] programming languages. Conditions are surrounded by parentheses, and controlled blocks are surrounded by braces:
 
  ''label'' while ( ''cond'' ) { ... }
  ''label'' while ( ''cond'' ) { ... } continue { ... }
