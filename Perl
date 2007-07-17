@@ -26,7 +26,7 @@ Until 1991, the only documentation for Perl was a single (increasingly lengthy) 
 
 Perl 4 went through a series of maintenance releases, culminating in Perl 4.036 in 1993. At that point, Larry Wall abandoned Perl 4 to begin work on Perl 5.
 
-Initial design of Perl 5 continued into 1994. The [http://www.xray.mpe.mpg.de/mailing-lists/perl5-porters/ perl5-porters] mailing list was established in May 1994 to coordinate work on porting Perl 5 to different platforms. It remains the primary forum for development, maintenance, and porting of Perl 5.
+Initial design of Perl 5 continued into 1994. ''The perl5-porters'' mailing list was established in May 1994 to coordinate work on porting Perl 5 to different platforms. It remains the primary forum for development, maintenance, and porting of Perl 5.<ref>http://www.xray.mpe.mpg.de/mailing-lists/perl5-porters/</ref>
 
 Perl 5 was released on [[October 17]] [[1994]]. It was a nearly complete rewrite of the [[interpreter (computing)|interpreter]], and added many new features to the language, including objects, references, [[Local variable|local (my) variables]], and modules. Importantly, modules provided a mechanism for extending the language without modifying the interpreter. This allowed the core interpreter to stabilize, even as it enabled ordinary Perl programmers to add new language features.
 
