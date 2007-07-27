@@ -699,7 +699,7 @@ These are also examples of "source filters"; libraries which transform the text 
 [[fa:پرل]]
 [[fr:Perl (langage)]]
 [[gl:Perl]]
-[[ko:펄 프로그래밍 언어]]
+[[ko:펄 (프로그래밍 언어)]]
 [[hr:Perl]]
 [[id:Perl]]
 [[it:Perl]]
