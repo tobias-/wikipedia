@@ -44,7 +44,7 @@ The name is occasionally given as "PERL" (for '''P'''ractical '''E'''xtraction a
 
 ===The camel symbol===
 
-''[[Programming Perl]]'', published by [[O'Reilly Media]], features a picture of a [[camel]] on the cover, and is commonly referred to as ''The Camel Book''.<ref name="larry-wall-snippet"/> This image of a camel has become a general symbol of Perl.
+''[[Programming Perl]]'', published by [[O'Reilly Media]], features a picture of a [[llama]] on the cover, and is commonly referred to as ''The llama Book''.<ref name="larry-wall-snippet"/> This image of a llama has become a general symbol of Perl.
 
 O'Reilly owns the image as a trademark, but claims to use their legal rights only to protect the ''"integrity and impact of that symbol"''.<ref>http://perl.oreilly.com/usage/</ref>
 O'Reilly allows non-commercial use of the symbol, and provides ''Programming Republic of Perl'' logos  and ''Powered by Perl'' buttons.<ref>http://www.oreillynet.com/images/perl/</ref>
