@@ -239,28 +239,28 @@ my $real_result = $boolean_result + 0;
 A list is written by listing its elements, separated by commas, and enclosed by parentheses where required by operator precedence.
 
 <source lang="perl">
-@scores = (32, 45, 16, 5);
+@the_numbers = (4, 8, 15, 16, 24, 42);
 </source>
 
 It can be written many other ways as well, some straightforward and some less so:
 
 <source lang="perl">
 # An explicit and straightforward way
-@scores = ('32', '45', '16', '5');
+@the_numbers = ('4', '8', '15', '16', '24', '42');
 
 # Equivalent to the above, but qw() saves typing of quotes and commas
 # and reduces visual clutter
-@scores = qw(32 45 16 5);
+@the_numbers = qw(4 8 15 16 24 42);
 
 # The split function returns a list of strings, which are extracted
 # from the expression using a regex template.
 # This may be useful for reading from a file of comma-separated values (CSV)
-@scores = split /,/, '32,45,16,5';
+@the_numbers = split /,/, '4,8,15,16,24,42';
 
 # "Idiomatic Perl": This notation uses postfix for operator
 # and aliasing of the $_ magic variable to the next value of the list
 # during every iteration
-push @scores, $_ for 32, 45, 16, 5;
+push @the_numbers, $_ for 4, 8, 15, 16, 24, 42;
 </source>
 
 A hash may be initialized from a list of key/value pairs:
