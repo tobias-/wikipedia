@@ -1,6 +1,15 @@
 [[Image:Larry Wall.jpg|right|thumb|Larry Wall]]
 '''Larry Wall''' (born [[September 27]], [[1954]]) is a [[programmer]], [[linguistics|linguist]], and [[author]], most widely known for his creation of the [[Perl]] [[programming language]] in 1987. Wall earned his [[bachelor's degree]] from [[Seattle Pacific University]] in 1976.
 
+While in [[graduate school]], Wall and his wife were studying [[linguistics]] with the intention afterwards of finding an unwritten language, perhaps in [[Africa]], and creating a [[writing system]] for it. They would then use this new writing system to translate various texts into the language, among them the [[Bible]]. Due to health reasons these plans were canceled, and they remained in the U.S., where Larry instead joined the [[NASA]] [[Jet Propulsion Laboratory]] after he finished grad school.<ref>{{cite web
+  | last = Sims
+  | first = David
+  | title = Q&A With Larry Wall, Creator Of Perl
+  | publisher = TechWeb
+  | date = 1998-04-98
+  | url = http://www.techweb.com/wire/story/TWB19980408S0020 Q&A With Larry Wall, Creator Of Perl, David Simms
+  | accessdate = 2007-08-05 }}</ref>
+
 Wall is the author of the [[rn (newsreader)|rn]] [[Usenet client]] and the nearly universally used [[Patch (Unix)|patch]] program. He has won the [[International Obfuscated C Code Contest]] twice and was the recipient of the first [[Free Software Foundation]] [[Award for the Advancement of Free Software]] in 1998.
 
 Beyond his technical skills, Wall is known for his wit and often ironic sense of humor, which he displays in the comments to his [[source code]] or on [[Usenet]]. For example: "We all agree on the necessity of compromise. We just can't agree on when it's necessary to compromise."
@@ -8,8 +17,6 @@ Beyond his technical skills, Wall is known for his wit and often ironic sense of
 Larry Wall has [[linguistics]] qualifications, which were useful in the design of Perl.{{Fact|date=June 2007}} He is the co-author of ''[[Programming Perl]]'' (often referred to as the ''Camel Book''), which is the definitive resource for Perl programmers. He has edited the ''[[Perl Cookbook]]''. His books are published by [[O'Reilly Media|O'Reilly]].
 
 Wall's [[Christianity|Christian]] faith has influenced some of the terminology of Perl, such as the name itself, a biblical reference to the "Pearl of great price" ([[Gospel of Matthew|Matthew]] 13:46). [http://www.wired.com/wired/archive/8.10/cruise.html?pg=3] Similar references are the function name ''bless'', and the organization of [[Perl 6]] design documents with categories such as ''[[apocalypse]]'' and ''[[exegesis]]''. Wall has also alluded to his faith when he has spoken at conferences, including a rather straightforward statement of his beliefs at the August, 1997 Perl Conference and a discussion of [[Pilgrim's Progress]] at the [[YAPC]] (Yet Another Perl Conference) in June, 2000.
-
-While in [[graduate school]], Wall and his wife were studying [[linguistics]] with the intention afterwards of finding an unwritten language, perhaps in [[Africa]], and creating a [[writing system]] for it. They would then use this new writing system to translate various texts into the language, among them the [[Bible]]. Due to health reasons these plans were cancelled, and they remained in the U.S., where Larry instead joined the [[NASA]] [[Jet Propulsion Laboratory]] after he finished grad school.
 
 Wall continues to oversee further development of Perl and serves as the [[Benevolent Dictator for Life]] of the Perl project{{Fact|date=February 2007}}. His role in Perl is best conveyed by the so-called ''2 Rules'', taken from the official Perl documentation:
 
@@ -22,6 +29,9 @@ Wall continues to oversee further development of Perl and serves as the [[Benevo
 *[[Perl]]
 *[[List of programmers]]
 *[[List of computer scientists]]
+
+==References==
+<references />
 
 ==External links==
 {{wikiquote|Larry Wall}}
@@ -46,15 +56,16 @@ Please note that as the State of the Onion speeches are often primarily based on
 |DATE OF DEATH=
 |PLACE OF DEATH=
 }}
-[[Category:1954 births|Wall, Larry]]
-[[Category:Living people|Wall, Larry]]
-[[Category:American linguists|Wall, Larry]]
-[[Category:Perl|Wall, Larry]]
-[[Category:Computer programmers|Wall, Larry]]
-[[Category:Free software programmers|Wall, Larry]]
-[[Category:Computer scientists|Wall, Larry]]
-[[Category:Perl writers|Wall, Larry]]
-[[Category:Programming language designers|Wall, Larry]]
+{{DEFAULTSORT:Wall, Larry}}
+[[Category:1954 births]]
+[[Category:Living people]]
+[[Category:American linguists]]
+[[Category:Perl]]
+[[Category:Computer programmers]]
+[[Category:Free software programmers]]
+[[Category:Computer scientists]]
+[[Category:Perl writers]]
+[[Category:Programming language designers]]
 
 [[ar:لاري وول]]
 [[cs:Larry Wall]]
