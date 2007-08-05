@@ -14,11 +14,13 @@ Wall is the author of the [[rn (newsreader)|rn]] [[Usenet client]] and the nearl
 
 Beyond his technical skills, Wall is known for his wit and often ironic sense of humor, which he displays in the comments to his [[source code]] or on [[Usenet]]. For example: "We all agree on the necessity of compromise. We just can't agree on when it's necessary to compromise."
 
-Larry Wall has [[linguistics]] qualifications, which were useful in the design of Perl.{{Fact|date=June 2007}} He is the co-author of ''[[Programming Perl]]'' (often referred to as the ''Camel Book''), which is the definitive resource for Perl programmers. He has edited the ''[[Perl Cookbook]]''. His books are published by [[O'Reilly Media|O'Reilly]].
+He is the co-author of ''[[Programming Perl]]'' (often referred to as the ''Camel Book''), which is the definitive resource for Perl programmers. He has edited the ''[[Perl Cookbook]]''. His books are published by [[O'Reilly Media|O'Reilly]].
+
+Wall's qualification as a linguist is apparent in his books, interviews and lectures. He often compares Perl to a natural language and explains his decisions in Perl's design with linguistic rationale.
 
 Wall's [[Christianity|Christian]] faith has influenced some of the terminology of Perl, such as the name itself, a biblical reference to the "Pearl of great price" ([[Gospel of Matthew|Matthew]] 13:46). [http://www.wired.com/wired/archive/8.10/cruise.html?pg=3] Similar references are the function name ''bless'', and the organization of [[Perl 6]] design documents with categories such as ''[[apocalypse]]'' and ''[[exegesis]]''. Wall has also alluded to his faith when he has spoken at conferences, including a rather straightforward statement of his beliefs at the August, 1997 Perl Conference and a discussion of [[Pilgrim's Progress]] at the [[YAPC]] (Yet Another Perl Conference) in June, 2000.
 
-Wall continues to oversee further development of Perl and serves as the [[Benevolent Dictator for Life]] of the Perl project{{Fact|date=February 2007}}. His role in Perl is best conveyed by the so-called ''2 Rules'', taken from the official Perl documentation:
+Wall continues to oversee further development of Perl and serves as the [[Benevolent Dictator for Life]] of the Perl project. His role in Perl is best conveyed by the so-called ''2 Rules'', taken from the official Perl documentation:
 
 :# ''Larry is always by definition right about how Perl should behave. This means he has final veto power on the core functionality.''
 :# ''Larry is allowed to change his mind about any matter at a later date, regardless of whether he previously invoked Rule 1.''
