@@ -89,13 +89,13 @@ There is no written specification or standard for the Perl language, and no plan
 
 Perl has many and varied applications, compounded by the availability of many standard and third-party modules.
 
-Perl has been used since the early days of the Web to write [[Common Gateway Interface|CGI]] scripts. It is known as one of "the three Ps" (along with [[Python (programming language)|Python]] and [[PHP]]), the most popular dynamic languages for writing Web applications (which now also include [[Ruby (programming language)|Ruby]]). It is also an integral component of the popular [[LAMP (software bundle)|LAMP]] [[solution stack]] for web development. Large projects written in Perl include [[Slash (weblog system)|Slash]], [[Bugzilla]], [[TWiki]] and [[Movable Type]]. Many high-traffic websites, such as [[Amazon.com]], [[LiveJournal|LiveJournal.com]], [[Ticketmaster|Ticketmaster.com]] and [[Internet Movie Database|IMDb.com]]<ref>http://www.imdb.com/help/search?domain=helpdesk_faq&index=1&file=techinfo</ref> use Perl extensively.
+Perl has been used since the early days of the Web to write [[Common Gateway Interface|CGI]] scripts. It is known as one of "the three Ps" (along with [[Python (programming language)|Python]] and [[PHP]]), the most popular dynamic languages for writing Web applications (which now also include [[Ruby (programming language)|Ruby]]). It is also an integral component of the popular [[LAMP (software bundle)|LAMP]] [[solution stack]] for web development. Large projects written in Perl include [[Slash (weblog system)|Slash]], [[Bugzilla]], [[TWiki]] and [[Movable Type]]. Many high-traffic websites, such as [[Amazon.com]], [[LiveJournal]].com, [[Ticketmaster]].com and [[Internet Movie Database|IMDb.com]]<ref>http://www.imdb.com/help/search?domain=helpdesk_faq&index=1&file=techinfo</ref> use Perl extensively.
 
 Perl is often used as a [[glue language]], tying together systems and interfaces that were not specifically designed to interoperate, and for "data munging", i.e., converting or processing large amounts of data for tasks like creating reports. In fact, these strengths are intimately linked. The combination makes perl a popular all-purpose tool for [[system administrator]]s, particularly as short programs can be entered and run on a single command line.
 
 With a degree of care, Perl code can be made portable across Windows and Unix. Portable Perl code is often used by suppliers of software (both COTS and bespoke) to simplify packaging and maintenance of software build and deployment scripts. 
 
-Graphical user interfaces (GUI's) may be developed using Perl. In particular, Perl/Tk is commonly used to enable user interaction with Perl scripts. Such interaction may be synchronous or asynchronous using callbacks to update the GUI. For more information about the technologies involved see [[Tk_%28computing%29|Tk]],[[Tcl]] and [[WxPerl]].
+Graphical user interfaces (GUI's) may be developed using Perl. In particular, Perl/Tk is commonly used to enable user interaction with Perl scripts. Such interaction may be synchronous or asynchronous using callbacks to update the GUI. For more information about the technologies involved see [[Tk_(computing)|Tk]],[[Tcl]] and [[WxPerl]].
 
 Perl is also widely used in finance and [[bioinformatics]], where it is valued for rapid application development and deployment, and the ability to handle large data sets.
 
@@ -659,7 +659,7 @@ These are also examples of "source filters"; libraries which transform the text 
 * [http://www.xray.mpe.mpg.de/mailing-lists/perl5-porters/ perl5-porters mailing list archive]
 * [http://dev.perl.org/ Perl development]
 * [http://www.indigostar.com/indigoperl.htm IndigoPerl] - another distribution of Perl for Microsoft Windows
-* [http://en.wikibooks.org/wiki/Programming:Perl/Humour Perl humour on Wikibooks]
+* [[b:Programming:Perl/Humour|Perl humour on Wikibooks]]
 * [http://dev.perl.org/perl1/ The origin of Perl] - "Stability. Speed. Simplicity. perl1 is here."
 * [http://history.perl.org/PerlTimeline.html The Perl Timeline]
 * [http://dmoz.org/Computers/Programming/Languages/Perl/ Perl related websites] in the [[Open Directory Project]]  	 
