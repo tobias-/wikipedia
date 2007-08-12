@@ -296,7 +296,7 @@ Multiple elements may be accessed by using the <code>@</code> sigil instead (ide
 @favorite{qw(joe sam)}  # same as above
 </source>
 
-The number of elements in an array can be obtained by evaluating the array in scalar context or with the help of the <code>$#</code> sigil. The latter gives the index of the last element in the array, not the number of elements.
+The number of elements in an array can be obtained by evaluating the array in scalar context or with the help of the <code>$#</code> sigil. The latter gives the number of elements in the array, not the index of the last element.
 
 <source lang="perl">
 $count = @friends; # Assigning to a scalar forces scalar context
