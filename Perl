@@ -598,7 +598,7 @@ In 2006, an effort was started to have Windows Perl distributions ship with a co
 Development of Perl 5 is also continuing. The development versions are number 5.9.x and the next stable version is planned to be called Perl 5.10. Some of its features are influenced by the design of Perl 6. More information about the upcoming release is available in the files perldelta59*.pod in  CPAN distribution of 5.9.x development versions.<ref>http://search.cpan.org/src/RGARCIA/perl-5.9.4/pod/</ref>
 
 ==The Perl community==
-Perl's culture and community has developed along side the language itself. [[Usenet]] was the first public venue in which Perl was introduced, but over the course of its evolution, Perl's community was shaped by the growth of broading Internet-based services including the introduction of the [[World Wide Web]]. The community that surrounds Perl was, in fact, the topic of Larry Wall's first "State of the Onion" talk.<ref>{{ cite web | url=http://www.wall.org/~larry/keynote/keynote.html | title=Perl Culture (AKA the first State of the Onion) | author=Wall, Larry | date=1997-08-20 }}</ref>
+Perl's culture and community has developed along side the language itself. [[Usenet]] was the first public venue in which Perl was introduced, but over the course of its evolution, Perl's community was shaped by the growth of broading Internet-based services including the introduction of the World Wide Web. The community that surrounds Perl was, in fact, the topic of Larry Wall's first "State of the Onion" talk.<ref>{{ cite web | url=http://www.wall.org/~larry/keynote/keynote.html | title=Perl Culture (AKA the first State of the Onion) | author=Wall, Larry | date=1997-08-20 }}</ref>
 
 ===Pastimes===
 Perl's pastimes have become a defining element of the community. Included among them are trivial and complex uses of the language.
@@ -606,13 +606,13 @@ Perl's pastimes have become a defining element of the community. Included among 
 ====JAPHs====
 In email, Usenet and message board postings, "[[Just another Perl hacker]]" (JAPH) programs have become a common trend, originated by [[Randal L. Schwartz]], one of the earliest professional Perl trainers.<ref>Randal L. Schwartz in [[usenet]] message M1HFPVH2JQ.FSF@HALFDOME.HOLDIT.COM explaining the origin of JAPH. Available through google: http://groups.google.com/group/comp.lang.perl.misc/msg/ecc405feeefc120c</ref>
 
-In the parlance of Perl culture, Perl [[programmer]]s are known as Perl [[hacker]]s, and from this derives the practice of writing short programs to print out the phrase "[[Just another Perl hacker]],". In the spirit of the original concept, these programs are moderately obfuscated and short enough to fit into the [[signature]] of an email or [[Usenet]] message. The "canonical" JAPH includes the comma at the end, although this is often omitted.
+In the parlance of Perl culture, Perl programmers are known as Perl hackers, and from this derives the practice of writing short programs to print out the phrase "[[Just another Perl hacker]],". In the spirit of the original concept, these programs are moderately obfuscated and short enough to fit into the signature of an email or Usenet message. The "canonical" JAPH includes the comma at the end, although this is often omitted.
 
 ====Perl golf====
 Perl "golf" is the pastime of reducing the number of characters used in a Perl program to the bare minimum, much as how [[golf]] players seek to take as few shots as possible in a round. It originally focused on the JAPHs used in signatures in Usenet postings and elsewhere, but the use of Perl to write a program which performed [[RSA]] encryption prompted a widespread and practical interest in this pastime.<ref>http://www.cypherspace.org/adam/rsa/story.html</ref> In subsequent years, code golf has been taken up as a pastime in other languages besides Perl.<ref>{{cite web | url=http://codegolf.com/ | title=Code Golf: What is Code Golf? | publisher=29degrees | date=2007 }}</ref>
 
 ====Obfuscation====
-As with C, [[obfuscated code]] competitions are a well-known pastime. The annual [[Obfuscated Perl contest]] made an arch virtue of Perl's [[syntax|syntactic]] flexibility.
+As with C, [[obfuscated code]] competitions are a well-known pastime. The annual [[Obfuscated Perl contest]] made an arch virtue of Perl's syntactic flexibility.
 
 ====Poetry====
 Similar to obfuscated code and golf, but with a different purpose, Perl poetry is the practice of writing poems that can actually be compiled as legal (although generally non-sensical) Perl code. This hobby is more or less unique to Perl due to the large number of regular English words used in the language. New poems are regularly published in the [[Perl Monks]] site's Perl Poetry section.<ref>http://www.perlmonks.org/?node_id=1590</ref>
