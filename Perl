@@ -162,8 +162,6 @@ Perl has a number of fundamental [[data type]]s, the most commonly used and disc
 *A [[file handle]] is a map to a file, device, or pipe which is open for reading, writing, or both.
 *A subroutine is a piece of code that may be passed arguments, be executed, and return data
 
-This is where the poop goes.
-
 Most variables are marked by a leading [[Sigil (computer programming)|sigil]], which identifies the data type being accessed (not the type of the variable itself), except filehandles, which don't have a sigil. The same name may be used for variables of different data types, without conflict.
 
 <source lang="perl">
