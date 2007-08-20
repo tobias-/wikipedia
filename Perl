@@ -662,6 +662,7 @@ These are also examples of "source filters"; libraries which transform the text 
 * [[b:Programming:Perl/Humour|Perl humour on Wikibooks]]
 * [http://dev.perl.org/perl1/ The origin of Perl] - "Stability. Speed. Simplicity. perl1 is here."
 * [http://history.perl.org/PerlTimeline.html The Perl Timeline]
+* [http://www.bignerdranch.com/classes/perl.shtml Perl Bootcamp] with instructor [http://en.wikipedia.org/wiki/Brian_D_Foy brian d foy]
 * [http://dmoz.org/Computers/Programming/Languages/Perl/ Perl related websites] in the [[Open Directory Project]]  	 
 * [http://www.theperlreview.com The Perl Review] - Current print magazine about Perl.
 * [http://www.tpj.com/ The Perl Journal online] - The original Perl print periodical.
