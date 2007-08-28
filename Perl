@@ -191,7 +191,7 @@ $price  = 'This device costs $42';    # No interpolation in single quotes
 
 $album  = "David Bowie's \"Heroes\""; # literal quotes inside a string
 $album  = 'David Bowie\'s "Heroes"';  # same as above with single quotes
-$album  = qq(David Bowie's "Heroes"); # qq() may be used instead of quotes
+$album  = qq(David Bowie's "Heroes"); # Note the '. qq() may be used instead of quotes
                                       # to optimize readability
 $multilined_string =<<EOF
 This is my multilined string
