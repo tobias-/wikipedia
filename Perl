@@ -252,6 +252,9 @@ It can be written many other ways as well, some straightforward and some less so
 # and reduces visual clutter
 @scores = qw(32 45 16 5);
 
+# The above line is also often written with slashes instead of parenthesis
+@scores = qw/32 45 16 5/;
+
 # The split function returns a list of strings, which are extracted
 # from the expression using a regex template.
 # This may be useful for reading from a file of comma-separated values (CSV)
