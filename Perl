@@ -540,7 +540,7 @@ In early versions of Perl, database interfaces were created by relinking the int
 In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The DBI (Database Interface) module presents a single, database-independent interface to Perl applications, while the DBD (Database Driver) modules handle the details of accessing some 50 different databases; there are DBD drivers for most [[American National Standards Institute|ANSI]] [[SQL]] databases.
 
 === Enhancing performance ===
-Major performance improvements can also be gained through the use of database handle and query caching, which is one of the more notable benefits of DBI (especially when combined with technologies such as ModPerl in an [[Apache HTTP Server]] environment).
+Major performance improvements can also be gained through the use of database handle and query caching, which is one of the more notable benefits of DBI (especially when combined with technologies such as [[mod_perl|ModPerl]] in an [[Apache HTTP Server]] environment; see http://perl.apache.org/docs/1.0/guide/performance.html for technical information).
 
 By caching connections, for example, existing database handles are re-used in order to avoid the overhead associated with establishing a new one for every set of database operations.  This benefit is a particularly valuable one for high-volume systems (see also [[Slash dot effect]]) because it results in a lowered overall workload for both internet (e.g., web) and database server(s).
 
