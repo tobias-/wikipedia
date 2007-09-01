@@ -186,18 +186,19 @@ $number2 = "42";
 # This returns true
 if ($number1 == $number2) { print "Numbers and strings of numbers are the same!"; } 
 
-$answer = "The answer is $number1";    # Variable interpolation: The answer is 42
+$answer = "The answer is $number1";   # Variable interpolation: The answer is 42
 $price  = 'This device costs $42';    # No interpolation in single quotes
 
-$album  = "David Bowie's \"Heroes\""; # literal quotes inside a string
-$album  = 'David Bowie\'s "Heroes"';  # same as above with single quotes
-$album  = qq(David Bowie's "Heroes"); # Note the '. qq() may be used instead of quotes
-                                      # to optimize readability
+$album  = "David Bowie's \"Heroes\""; # literal quotes inside a string;
+$album  = 'David Bowie\'s "Heroes"';  # same as above with single quotes;
+$album  = q(David Bowie's "Heroes");  # the quote-like operators q() and qq() allow
+                                      # almost any delimiter instead of quotes, to
+                                      # avoid excessive backslashing
+
 $multilined_string =<<EOF
 This is my multilined string
 note that I am terminating it with the "EOF" word.
 EOF
-
 </source>
 
 Perl will convert strings into numbers and vice versa depending on the context in which they are used. In the following example the strings $n and $m are treated as numbers when they are the arguments to the addition operator. This code prints the number '5', discarding non number information for the operation, although the variable values remain the same. (The string concatenation operator is not <code>+</code>, but <code>.</code>)
@@ -248,12 +249,10 @@ It can be written many other ways as well, some straightforward and some less so
 # An explicit and straightforward way
 @scores = ('32', '45', '16', '5');
 
-# Equivalent to the above, but qw() saves typing of quotes and commas
-# and reduces visual clutter
+# Equivalent to the above, but the qw() quote-like operator saves typing of
+# quotes and commas and reduces visual clutter; almost any delimiter can be
+# used instead of parentheses
 @scores = qw(32 45 16 5);
-
-# The above line is also often written with slashes instead of parenthesis
-@scores = qw/32 45 16 5/;
 
 # The split function returns a list of strings, which are extracted
 # from the expression using a regex template.
