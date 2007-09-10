@@ -262,7 +262,7 @@ It can be written many other ways as well, some straightforward and some less so
 # "Idiomatic Perl": This notation uses postfix for operator
 # and aliasing of the $_ magic variable to the next value of the list
 # during every iteration
-push @scores, $_ for 32, 45, 16, 5;
+push @scores, $_ foreach 32, 45, 16, 5;
 </source>
 
 A hash may be initialized from a list of key/value pairs:
@@ -327,7 +327,7 @@ while (($name, $address) = each %addressbook) {
 }
 
 # Similar to the above, but sorted alphabetically
-for my $next_name (sort keys %addressbook) {
+foreach my $next_name (sort keys %addressbook) {
     print "$next_name lives at $addressbook{$next_name}\n";
 }
 </source>
