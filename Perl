@@ -327,7 +327,7 @@ while (($name, $address) = each %addressbook) {
 }
 
 # Similar to the above, but sorted alphabetically
-while my $next_name (sort keys %addressbook) {
+for my $next_name (sort keys %addressbook) {
     print "$next_name lives at $addressbook{$next_name}\n";
 }
 </source>
