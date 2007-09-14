@@ -477,7 +477,7 @@ $x = either;    # returns "Oranges"
 
 === Regular expressions ===
 
-The Perl language includes a specialized syntax for writing [[regular expression]]s (RE, or regexes), and the interpreter contains an engine for matching strings to regular expressions. The regular expression engine uses a [[backtracking]] algorithm, extending its capabilities from simple pattern matching to string capture and substitution. The regular expression engine is derived from regex written by [[Henry Spencer]].
+The Perl language includes a specialized syntax for writing [[regular expression]]s (RE, or regexen), and the interpreter contains an engine for matching strings to regular expressions. The regular expression engine uses a [[backtracking]] algorithm, extending its capabilities from simple pattern matching to string capture and substitution. The regular expression engine is derived from regex written by [[Henry Spencer]].
 
 The Perl regular expression syntax was originally taken from Unix Version 8 regular expressions. However, it diverged before the first release of Perl, and has since grown to include many more features. Other languages and applications are now adopting [[PCRE|Perl compatible regular expressions]] over [[POSIX]] regular expressions including [[PHP]], [[Ruby programming language|Ruby]], [[Java (programming language)|Java]], Microsoft's [[.NET Framework]]<ref>Microsoft Corp., ".NET Framework Regular Expressions", ''.NET Framework Developer's Guide'', [http://msdn2.microsoft.com/en-us/library/hs600312(VS.71).aspx]</ref>, and the [[Apache HTTP server]].
 
