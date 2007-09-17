@@ -550,28 +550,6 @@ A number of tools have been introduced to improve this situation, the first of w
 
 Once Perl code is compiled, there is additional overhead during the execution phase that typically isn't present for programs written in compiled languages like C or C++, including, among many other things, overhead due to bytecode interpretation, reference-counting memory management, and dynamic type checking.  
 
-===GPU performance===
-
-One area in which Perl performance is comparable to that of compiled languages is in the use of
-[[Graphics processing unit|GPU]]s. General Purpose GPU ([[GPGPU]]) processing uses [[Vertex shader]] programs to process vast arrays of data, independent of the [[Central processing unit|CPU]].
-
-GPU use involves loading initial r/o data via textures, loading c-like vertex shader programs for execution, which uses on-chip vertext arrays as r/w memory, then rendering the results to video or transferring the data back to the CPU.
-
-In short, the GPU does all the number-crunching, leaving the CPU to do event handling, system calls, disk I/O and UI - which tends to contribute a minor portion of the overall processing time.  In such cases, the performance difference between Perl and compiled languages become statistically insignificant.
-
-[http://graphcomp.com/opengl/benchmarks GPU benchmarks] comparing C vs Perl, using the latest Perl OpenGL ([[POGL]]) 0.55 module, demonstrate that there is no significant performance difference when rendering realtime animated 3D objects using dynamically generated texturemaps.
-
-In the case of dynamically-generated (and potentially self-modifying) vertex shader code, Perl can provide better GPU performance than compiled code - due to its dynamically interpretive string handling features.
-
-Additional benchmarks demonstrate that Perl OpenGL (POGL) is at least 20% faster than Python OpenGL (PyOpenGL).
-
-====GPU Data Storage in Perl====
-[[POGL]] objects provide further optimization by storing data/images in typed C arrays, eliminating the need to copy, cast, convert data to/from C and Perl:
-
-* OpenGL::Array (OGA) - provides direct C pointer access to data arrays, providing compiled language performance to loading/managing/saving textures, FBOs and VBOs.<ref>http://graphcomp.com/opengl/index.cgi?v=0111s3p1</ref>
-
-* OpenGL::Image (OGI) - provides direct C pointer access to ImageMagick image caches, providing compiled language performance to loading/processing/saving images for most common image formats.<ref>http://graphcomp.com/opengl/index.cgi?v=0111s3p6</ref>
-
 ===Optimizing===
 
 Perl programs, like any code, can be [[Optimization (computer science)|tuned for performance]] using [[Benchmark (computing)|benchmarks]] and [[Performance analysis|profiles]] after a readable and correct implementation is finished.  In part because of Perl's interpreted nature, writing more-efficient Perl will not always be enough to meet one's performance goals for a program.
