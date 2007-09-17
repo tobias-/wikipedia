@@ -34,7 +34,9 @@ Perl 5 was released on [[October 17]] [[1994]]. It was a nearly complete rewrite
 
 One of the most important events in Perl 5 history took place outside of the language proper, and was a consequence of its module support. On [[October 26]] [[1995]], the [[Comprehensive Perl Archive Network]] (CPAN) was established as a [[repository]] for Perl [[Module (programming)|modules]] and Perl itself. At the time of writing, it carries over 11,000 modules by over 5,000 authors. CPAN is widely regarded as one of the greatest strengths of Perl in practice.
 
-=== Name ===
+=== ''Name''
+----
+ ===
 
 Perl was originally named "Pearl", after the [[Parable of the Pearl]] from the [[Gospel of Matthew]]. Larry Wall wanted to give the language a short name with positive connotations; he claims that he considered (and rejected) every three- and four-letter word in the dictionary. He also considered naming it after his wife Gloria. Wall discovered the existing [[PEARL programming language]] before Perl's official release and changed the spelling of the name.
 
