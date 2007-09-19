@@ -95,7 +95,7 @@ Perl is often used as a [[glue language]], tying together systems and interfaces
 
 With a degree of care, Perl code can be made portable across Windows and Unix. Portable Perl code is often used by suppliers of software (both COTS and bespoke) to simplify packaging and maintenance of software build and deployment scripts. 
 
-Graphical user interfaces (GUI's) may be developed using Perl. In particular, Perl/Tk is commonly used to enable user interaction with Perl scripts. Such interaction may be synchronous or asynchronous using callbacks to update the GUI. For more information about the technologies involved see [[Tk_(computing)|Tk]],[[Tcl]] and [[WxPerl]].
+Graphical user interfaces (GUI's) may be developed using Perl. In particular, Perl/Tk is commonly used to enable user interaction with Perl scripts. Such interaction may be synchronous or asynchronous using callbacks to update the GUI. For more information about the technologies involved see [[Tk (computing)|Tk]],[[Tcl]] and [[WxPerl]].
 
 Perl is also widely used in finance and [[bioinformatics]], where it is valued for rapid application development and deployment, and the ability to handle large data sets.
 
@@ -606,8 +606,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 These are also examples of "source filters"; libraries which transform the text of a program before reading it.
 
 == See also ==
-
-{{portal|Free software|Floss logos.svg}}
+{{portal|Free software|Free Software Portal Logo.svg}} 
 
 *[[The Perl Foundation]]
 *[[Perl Object Environment]] (POE) - a framework for writing persistent object-oriented environments with [[event loop]]s.
@@ -652,6 +651,7 @@ These are also examples of "source filters"; libraries which transform the text 
 * [http://ptkdb.sourceforge.net/ Perl/Tk Debugger] - Open Source Perl Debugger Based on Tk Library.
 * [http://graphcomp.com/opengl/benchmarks Perl GPU Performance] - C vs Perl on Vista and Linux; Perl vs Python.
 * [http://www.forum.digilas.com Iranian Perl Programmer community] - انجمن تخصصی و آموزشی برنامه نویسان پرل.
+
 [[Category:Perl|*]]
 [[Category:Curly bracket programming languages]]
 [[Category:Dynamic programming languages]]
