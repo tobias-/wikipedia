@@ -189,11 +189,11 @@ if ($number1 == $number2) { print "Numbers and strings of numbers are the same!"
 $answer = "The answer is $number1";   # Variable interpolation: The answer is 42
 $price  = 'This device costs $42';    # No interpolation in single quotes
 
-$album  = "David Bowie's \"Heroes\""; # literal quotes inside a string;
-$album  = 'David Bowie\'s "Heroes"';  # same as above with single quotes;
-$album  = q(David Bowie's "Heroes");  # the quote-like operators q() and qq() allow
-                                      # almost any delimiter instead of quotes, to
-                                      # avoid excessive backslashing
+$album  = "It's David Bowie's \"Heroes\""; # literal quotes inside a string;
+$album  = 'It\'s David Bowie\'s "Heroes"'; # same as above with single quotes;
+$album  = q(It's David Bowie's "Heroes");  # the quote-like operators q() and qq() allow
+                                           # almost any delimiter instead of quotes, to
+                                           # avoid excessive backslashing
 
 $multilined_string =<<EOF
 This is my multilined string
@@ -259,9 +259,10 @@ It can be written many other ways as well, some straightforward and some less so
 # This may be useful for reading from a file of comma-separated values (CSV)
 @scores = split /,/, '32,45,16,5';
 
-# "Idiomatic Perl": This notation uses postfix for operator
-# and aliasing of the $_ magic variable to the next value of the list
-# during every iteration
+# It's also possible to use a postfix for operator and aliasing of
+# the $_ magic variable to the next value of the list during each
+# iteration; this is pointless here, but similar idioms are widely used
+# in some circumstances.
 push @scores, $_ foreach 32, 45, 16, 5;
 </source>
 
