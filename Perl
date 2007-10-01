@@ -195,7 +195,7 @@ $album  = q(It's David Bowie's "Heroes");  # the quote-like operators q() and qq
                                            # almost any delimiter instead of quotes, to
                                            # avoid excessive backslashing
 
-$multilined_string =<<EOF
+$multilined_string =<<EOF;
 This is my multilined string
 note that I am terminating it with the "EOF" word.
 EOF
@@ -275,7 +275,7 @@ A hash may be initialized from a list of key/value pairs:
 );
 </source>
 
-The <code>=></code> operator is equivalent to a comma, except that it assumes quotes around the preceding token if it is a bare identifier: <code>(joe => 'red')</code> is the same as <code>('joe' => 'red')</code>. It can therefore be used to elide quote marks, improving readability.
+The <;code>=></code> operator is equivalent to a comma, except that it assumes quotes around the preceding token if it is a bare identifier: <code>(joe => 'red')</code> is the same as <code>('joe' => 'red')</code>. It can therefore be used to elide quote marks, improving readability.
 
 Individual elements of a list are accessed by providing a numerical index, in square brackets. Individual values in a hash are accessed by providing the corresponding key, in curly braces. The <code>$</code> sigil identifies the accessed element as a scalar.
 
