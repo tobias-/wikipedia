@@ -640,7 +640,7 @@ These are also examples of "source filters"; libraries which transform the text 
 * [http://www.xray.mpe.mpg.de/mailing-lists/perl5-porters/ perl5-porters mailing list archive]
 * [http://dev.perl.org/ Perl development]
 * [http://www.indigostar.com/indigoperl.htm IndigoPerl] - another distribution of Perl for Microsoft Windows
-* [[b:Programming:Perl/Humour|Perl humour on Wikibooks]]
+* [[b:Perl Programming/Humour|Perl humour on Wikibooks]]
 * [http://dev.perl.org/perl1/ The origin of Perl] - "Stability. Speed. Simplicity. perl1 is here."
 * [http://history.perl.org/PerlTimeline.html The Perl Timeline]
 * [http://dmoz.org/Computers/Programming/Languages/Perl/ Perl related websites] in the [[Open Directory Project]]  	 
