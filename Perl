@@ -714,4 +714,5 @@ These are also examples of "source filters"; libraries which transform the text 
 [[vi:Perl]]
 [[tr:Perl]]
 [[uk:Perl]]
+[[bat-smg:Perl]]
 [[zh:Perl]]
