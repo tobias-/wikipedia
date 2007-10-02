@@ -523,12 +523,12 @@ $x =~ m/abc/i;      # case-insensitive pattern match
 $x =~ s/abc/aBc/g;  # global search and replace
 </source>
 
-Since regular expressions can be dense and cryptic because of their compact syntax, the <code>/x</code> modifier was added in Perl to help programmers write legible regular expressions. It allows programmers to place whitespace and comments ''inside'' regular expressions:
+Since regular expressions can be dense and cryptic because of their compact syntax, the <code>/x</code> modifier was added in Perl to help programmers write more legible regular expressions. It allows programmers to place whitespace and comments ''inside'' regular expressions:
 
 <source lang="perl">
 $x =~ m/a     # match 'a'
-        .     # match any character
-        c     # match 'c'
+        .     # followed by any character
+        c     # then followed by the 'c'character
        /x;
 </source>
 
