@@ -183,7 +183,7 @@ $color  = 'red';
 $number1 = 42; 
 $number2 = "42";
 
-# This returns true
+# This evaluates as true
 if ($number1 == $number2) { print "Numbers and strings of numbers are the same!"; } 
 
 $answer = "The answer is $number1";   # Variable interpolation: The answer is 42
