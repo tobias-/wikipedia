@@ -281,7 +281,7 @@ Individual elements of a list are accessed by providing a numerical index, in sq
 
 <source lang="perl">
 $scores[2]      # an element of @scores
-%favorite{joe}  # a value in %favorite
+$favorite{joe}  # a value in %favorite
 </source>
 
 Thus, a hash can also be specified by setting its keys individually:
