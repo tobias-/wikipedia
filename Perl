@@ -694,6 +694,7 @@ These are also examples of "source filters"; libraries which transform the text 
 [[lb:Perl (Programméiersprooch)]]
 [[lt:Perl]]
 [[hu:Perl programozási nyelv]]
+[[ml:പേള്‍]]
 [[ms:Perl]]
 [[nl:Perl (programmeertaal)]]
 [[ja:Perl]]
