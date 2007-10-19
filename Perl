@@ -626,10 +626,7 @@ These are also examples of "source filters"; libraries which transform the text 
 * [[Wikiversity:Topic:Perl]]
 
 == References ==
-
-<div class="references-small">
-<references />
-</div>
+{{reflist|2}}
 
 == External links ==
 <!-- some of these should be referenced in the article as opposed to just flung in here. -->
