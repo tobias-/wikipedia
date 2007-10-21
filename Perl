@@ -665,7 +665,7 @@ These are also examples of "source filters"; libraries which transform the text 
 
 [[als:Perl]]
 [[ar:بيرل]]
-[[bn:পার্ল]]
+[[bn:পার্ল (প্রোগ্রামিং ভাষা)]]
 [[zh-min-nan:Perl]]
 [[bs:Perl]]
 [[bg:Perl]]
