@@ -710,6 +710,7 @@ These are also examples of "source filters"; libraries which transform the text 
 [[sr:Програмски језик Перл]]
 [[fi:Perl]]
 [[sv:Perl]]
+[[ta:பெர்ள்]]
 [[th:ภาษาเพิร์ล]]
 [[vi:Perl]]
 [[tr:Perl]]
