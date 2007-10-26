@@ -713,6 +713,7 @@ These are also examples of "source filters"; libraries which transform the text 
 [[ta:பெர்ள்]]
 [[th:ภาษาเพิร์ล]]
 [[vi:Perl]]
+[[tg:Перл (забони барномасозӣ)]]
 [[tr:Perl]]
 [[uk:Perl]]
 [[bat-smg:Perl]]
