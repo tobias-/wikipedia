@@ -612,29 +612,12 @@ These are also examples of "source filters"; libraries which transform the text 
 {{reflist|2}}
 
 == External links ==
-<!-- some of these should be referenced in the article as opposed to just flung in here. -->
-
+<!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first -->
 {{wikibooks|Perl Programming}}
 {{wikiversity2|Topic:Perl}}
 * [http://www.perl.org/ Perl.org] - Official Perl website
-* [http://perldoc.perl.org/ Perldoc at Perl.org] - online Perl documentation
-* [http://perl-begin.org/ The Perl Beginners' Site (Perl-Begin)] - aims to be a first stop for introducing and advocating Perl.
-* [http://www.perlfoundation.org/perl5/ Perl 5 Wiki] - The official Perl 5 wiki
-* [http://www.xray.mpe.mpg.de/mailing-lists/perl5-porters/ perl5-porters mailing list archive]
-* [http://dev.perl.org/ Perl development]
-* [http://www.indigostar.com/indigoperl.htm IndigoPerl] - another distribution of Perl for Microsoft Windows
-* [[b:Perl Programming/Humour|Perl humour on Wikibooks]]
-* [http://dev.perl.org/perl1/ The origin of Perl] - "Stability. Speed. Simplicity. perl1 is here."
-* [http://history.perl.org/PerlTimeline.html The Perl Timeline]
-* [http://dmoz.org/Computers/Programming/Languages/Perl/ Perl related websites] in the [[Open Directory Project]]
-* [http://www.theperlreview.com/ The Perl Review] - Current print magazine about Perl.
-* [http://www.tpj.com/ The Perl Journal online] - The original Perl print periodical.
-* [http://www.perl.com/pub/a/2000/01/10PerlMyths.html Ten Perl Myths] - O'Reilly
-* [http://aboutperl.info/ About Perl] - Learn about Perl and how it works
-* [http://kgptech.blogspot.com/2005/07/perl.html Perl Tutorial Links]
-* [http://ptkdb.sourceforge.net/ Perl/Tk Debugger] - Open Source Perl Debugger Based on Tk Library.
-* [http://graphcomp.com/opengl/benchmarks Perl GPU Performance] - C vs Perl on Vista and Linux; Perl vs Python.
-* [http://www.forum.digilas.com/ Iranian Perl Programmer community] - انجمن تخصصی و آموزشی برنامه نویسان پرل.
+* [http://www.perlfoundation.org/ The Perl Foundation]
+* {{dmoz|Computers/Programming/Languages/Perl/|Perl}}
 
 [[Category:Perl|*]]
 [[Category:Curly bracket programming languages]]
