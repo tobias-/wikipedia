@@ -34,9 +34,9 @@ Wall's [[Christianity|Christian]] faith has influenced some of the terminology o
 
 Wall continues to oversee further development of Perl and serves as the [[Benevolent Dictator for Life]] of the Perl project. His role in Perl is best conveyed by the so-called ''2 Rules'', taken from the official Perl documentation:
 
-:# ''Larry is always by definition right about how Perl should behave. This means he has final veto power on the core functionality.''
-:# ''Larry is allowed to change his mind about any matter at a later date, regardless of whether he previously invoked Rule 1.''
-:''Got that? Larry is always right, even when he was wrong.''
+# Larry is always by definition right about how Perl should behave. This means he has final veto power on the core functionality.
+# Larry is allowed to change his mind about any matter at a later date, regardless of whether he previously invoked Rule 1.
+:: Got that? Larry is always right, even when he was wrong.
 
 Wall along with [[Randal L. Schwartz]] and [[Tom Christiansen]] writing in the second edition of [[Programming Perl]], outlined the Three Virtues of a Programmer:
 
