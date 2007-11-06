@@ -592,7 +592,7 @@ These are also examples of "source filters"; libraries which transform the text 
 == Further reading ==
 * ''[[Learning Perl]]'', Fourth Edition (the ''Llama book''), ISBN 0-596-10105-8
 * ''[[Perl Cookbook]]'', ISBN 0-596-00313-7
-* ''[[Programming Perl]]'', (the ''Camel book''), ISBN 0-596-00027-8
+* ''[[Programming Perl]]'', (the ''Camel book''), I
 
 == See also ==
 {{portal|Free software|Free Software Portal Logo.svg}}
