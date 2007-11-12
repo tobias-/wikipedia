@@ -563,13 +563,15 @@ In 2006, an effort was started to have Windows Perl distributions ship with a co
 Development of Perl 5 is also continuing. The development versions are number 5.9.x and the next stable version is planned to be called Perl 5.10. Some of its features are influenced by the design of Perl 6. More information about the upcoming release is available in the files perldelta59*.pod in CPAN distribution of 5.9.x development versions.<ref>http://search.cpan.org/src/RGARCIA/perl-5.9.4/pod/</ref>
 
 == The Perl community ==
-Perl's culture and community has developed alongside the language itself. [[Usenet]] was the first public venue in which Perl was introduced, but over the course of its evolution, Perl's community was shaped by the growth of broading Internet-based services including the introduction of the World Wide Web. The community that surrounds Perl was, in fact, the topic of Larry Wall's first "State of the Onion" talk.<ref>{{ cite web | url=http://www.wall.org/~larry/keynote/keynote.html | title=Perl Culture (AKA the first State of the Onion) | author=[[Larry Wall]] | date=1997-08-20 }}</ref>
+Perl's culture and community has developed alongside the language itself. [[Usenet]] was the first public venue in which Perl was introduced, but over the course of its evolution, Perl's community was shaped by the growth of broading Internet-based services including the introduction of the World Wide Web. The community that surrounds Perl was, in fact, the topic of Larry Wall's first "State of the Onion" talk.<ref>{{ cite web | url=http://www.wall.org/~larry/keynote/keynote.html | title=Perl Culture (AKA the first State of the Onion) | first=Larry | last=Wall | authorlink=Larry Wall | date=1997-08-20 }}</ref>
 
 === Pastimes ===
 Perl's pastimes have become a defining element of the community. Included among them are trivial and complex uses of the language.
 
 ==== JAPHs ====
-In email, Usenet and message board postings, "[[Just another Perl hacker]]" (JAPH) programs have become a common trend, originated by [[Randal L. Schwartz]], one of the earliest professional Perl trainers.<ref>[[Randal L. Schwartz]] in [[Usenet]] message [http://groups.google.com/groups?selm=m1hfpvh2jq.fsf@halfdome.holdit.com m1hfpvh2jq.fsf@halfdome.holdit.com] explaining the origin of JAPH.</ref>
+In email, Usenet and message board postings, "[[Just another Perl hacker]]" (JAPH) programs have become a common trend, originated by [[Randal L. Schwartz]], one of the earliest professional Perl trainers.<ref>{{cite newsgroup | author = [[Randal L. Schwartz]] | title = Who is Just another Perl hacker? | id = m1hfpvh2jq.fsf@halfdome.holdit.com | newsgroup = comp.lang.perl.misc | date = 1999-05-02 | url = http://groups.google.com/groups?selm=m1hfpvh2jq.fsf@halfdome.holdit.com | accessdate = 2007-11-12 }}</ref>
+
+[[Randal L. Schwartz]] in [[Usenet]] message [ m1hfpvh2jq.fsf@halfdome.holdit.com] explaining the origin of JAPH.</ref>
 
 In the parlance of Perl culture, Perl programmers are known as Perl hackers, and from this derives the practice of writing short programs to print out the phrase "[[Just another Perl hacker]],". In the spirit of the original concept, these programs are moderately obfuscated and short enough to fit into the signature of an email or Usenet message. The "canonical" JAPH includes the comma at the end, although this is often omitted.
 
