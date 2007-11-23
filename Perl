@@ -637,7 +637,7 @@ These are also examples of "source filters"; libraries which transform the text 
 [[bn:পার্ল (প্রোগ্রামিং ভাষা)]]
 [[zh-min-nan:Perl]]
 [[bs:Perl]]
-[[bg:Perl]]
+[[bg:Пърл (език за програмиране)]]
 [[ca:Perl]]
 [[cs:Perl]]
 [[cy:Perl]]
