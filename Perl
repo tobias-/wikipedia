@@ -368,7 +368,7 @@ Perl also has two implicit looping constructs, each of which has two forms:
 
 <code>grep</code> returns all elements of ''list'' for which the controlled block or expression evaluates to true. <code>map</code> evaluates the controlled block or expression for each element of ''list'' and returns a list of the resulting values. These constructs enable a simple [[functional programming]] style.
 
-There is no [[switch statement]] (multi-way branch) in Perl 5. The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures. There is a [http://search.cpan.org/perldoc/Switch Switch] module, however, which provides functionality modeled on the forthcoming DICK [[Perl 6]] re-design; it may become a part of the core language in the 5.10 release <ref>[http://search.cpan.org/~rgarcia/perl-5.9.4/pod/perl593delta.pod#Switch_and_Smart_Match_operator perldelta - what is new for perl v5.9.3, Rafaël Garcia-Suarez.]</ref>.
+There is no [[switch statement]] (multi-way branch) in Perl 5. The Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures. There is a [http://search.cpan.org/perldoc/Switch Switch] module, however, which provides functionality modeled on the forthcoming [[Perl 6]] re-design; it may become a part of the core language in the 5.10 release <ref>[http://search.cpan.org/~rgarcia/perl-5.9.4/pod/perl593delta.pod#Switch_and_Smart_Match_operator perldelta - what is new for perl v5.9.3, Rafaël Garcia-Suarez.]</ref>.
 
 Perl includes a <code>goto label</code> statement, but it is rarely used. Situations where a <code>goto</code> is called for in other languages don't occur as often in Perl due to its breadth of flow control options.
 
