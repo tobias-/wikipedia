@@ -458,9 +458,7 @@ A subroutine can discover its calling context with the <code>wantarray</code> fu
 
 <source lang="perl">
 sub either {
- return wantarray
- ? (1, 2)
- : "Oranges";
+ return wantarray ? (1, 2) : "Oranges";
 }
 
 $x = either; # returns "Oranges"
