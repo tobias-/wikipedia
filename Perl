@@ -598,6 +598,7 @@ These are also examples of "source filters"; libraries which transform the text 
 == See also ==
 {{portal|Free software|Free Software Portal Logo.svg}}
 * [[The Perl Foundation]]
+* [[v:Topic:Perl|Perl]] instruction at Wikiversity - you can use the training and/or help add to it
 * [[Perl Object Environment]] (POE) - a framework for writing persistent object-oriented environments with [[event loop]]s.
 * [[Perl Data Language]] (PDL) - a Perl module which allows extending Perl for higher-order scientific processing.
 * [[Plain Old Documentation]] (POD) - a documentation tool for Perl.
