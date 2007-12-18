@@ -597,6 +597,9 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 
 These are also examples of "source filters"; libraries which transform the text of a program before reading it.
 
+
+Min Seok
+
 == Further reading ==
 * ''[[Learning Perl]]'', Fourth Edition (the ''Llama book''), ISBN 0-596-10105-8
 * ''[[Perl Cookbook]]'', ISBN 0-596-00313-7
