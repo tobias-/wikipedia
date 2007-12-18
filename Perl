@@ -649,6 +649,7 @@ These are also examples of "source filters"; libraries which transform the text 
 [[el:Perl]]
 [[es:Perl]]
 [[eo:Perl]]
+[[eu:Perl]]
 [[fa:پرل]]
 [[fr:Perl (langage)]]
 [[gl:Perl]]
