@@ -567,7 +567,7 @@ Development of Perl 5 is also continuing. The development versions are number 5.
 Perl's culture and community has developed alongside the language itself. [[Usenet]] was the first public venue in which Perl was introduced, but over the course of its evolution, Perl's community was shaped by the growth of broadening Internet-based services including the introduction of the World Wide Web. The community that surrounds Perl was, in fact, the topic of Larry Wall's first "State of the Onion" talk.<ref>{{ cite web | url=http://www.wall.org/~larry/keynote/keynote.html | title=Perl Culture (AKA the first State of the Onion) | first=Larry | last=Wall | authorlink=Larry Wall | date=1997-08-20 }}</ref>
 
 === State of the Onion ===
-The State of the Onion is the name for a yearly [[Keynote|keynote-style]] summary on the progress of the Perl [[computer language]], given by Perl's creator, [[Larry Wall]].
+The State of the Onion is the name for a yearly [[Keynote|keynote-style]] summary on the progress of the Perl computer language, given by Larry Wall.
 
 Those presentations employ humor and metaphors related to the hacker culture and Wall's linguistic and Christian background.
 
