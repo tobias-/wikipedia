@@ -314,7 +314,7 @@ There are a few functions that operate on entire hashes.
 @names = keys %addressbook;
 @addresses = values %addressbook;
 
-# Every call to each return the next key/value pair.
+# Every call to each returns the next key/value pair.
 # All values will be eventually returned, but their order
 # cannot be predicted.
 while (($name, $address) = each %addressbook) {
