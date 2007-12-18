@@ -5,8 +5,8 @@
 | paradigm = [[Multi-paradigm]]
 | year = 1987
 | designer = [[Larry Wall]]
-| latest_release_version = 5.8.8
-| latest_release_date = [[January 31]], [[2006]]
+| latest_release_version = 5.10.0
+| latest_release_date = [[December 18]], [[2007]]
 | typing = Dynamic
 | influenced_by = [[AWK (programming language)|AWK]], [[BASIC]], [[BASIC-PLUS]], [[C (programming language)|C]], [[C++]], [[Lisp (programming language)|Lisp]], [[Pascal (programming language)|Pascal]], [[sed]], [[Unix shell]]
 | influenced = [[Python (programming language)|Python]], [[PHP]], [[Ruby (programming language)|Ruby]], [[ECMAScript]], [[Dao (programming language)|Dao]]
@@ -31,7 +31,7 @@ Initial design of Perl 5 continued into 1994. ''The perl5-porters'' [[mailing li
 
 Perl 5 was released on [[October 17]], [[1994]]. It was a nearly complete rewrite of the [[interpreter (computing)|interpreter]], and added many new features to the language, including objects, references, [[Local variable|local (my) variables]], and modules. Importantly, modules provided a mechanism for extending the language without modifying the interpreter. This allowed the core interpreter to stabilize, even as it enabled ordinary Perl programmers to add new language features.
 
-[[As of 2007]], Perl 5 is still being actively maintained. Important features and some essential new language constructs have been added along the way, including [[Unicode]] support, [[Thread (computer science)|threads]], improved support for [[object oriented programming]] and many other enhancements. The latest stable release is Perl 5.8.8.
+[[As of 2007]], Perl 5 is still being actively maintained. Important features and some essential new language constructs have been added along the way, including [[Unicode]] support, [[Thread (computer science)|threads]], improved support for [[object oriented programming]] and many other enhancements. The latest stable release is Perl 5.10.0.
 
 One of the most important events in Perl 5 history took place outside of the language proper, and was a consequence of its module support. On [[October 26]], [[1995]], the [[Comprehensive Perl Archive Network]] (CPAN) was established as a [[repository]] for Perl [[Module (programming)|modules]] and Perl itself. At the time of writing, it carries over 11,000 modules by over 5,000 authors. CPAN is widely regarded as one of the greatest strengths of Perl in practice.
 
