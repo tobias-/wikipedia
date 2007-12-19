@@ -561,9 +561,9 @@ A number of features in the Perl 6 language now show similarities with Haskell, 
 
 [[As of 2006]], Perl 6, Parrot, and pugs are under active development, and a new module for Perl 5 called [[v6 (Perl)|v6]] allows some Perl 6 code to run directly on top of Perl 5.
 
-In 2006, an effort was started to have Windows Perl distributions ship with a compiler, in order to make the need for binary packages on Windows redundant. Some early results of this include the CamelPack macro-installer and Vanilla Perl distributions.<ref>http://camelpack.sourceforge.net/</ref><ref>http://win32.perl.org/wiki/index.php?title=Vanilla_Perl</ref>
+In 2006, an effort was started to have Windows Perl distributions ship with a compiler, in order to make the need for binary packages on Windows redundant. Some early results of this include the CamelPack macro-installer<ref>[http://camelpack.sourceforge.net/ Camel Pack]</ref> and Vanilla Perl<ref>[http://win32.perl.org/wiki/index.php?title=Vanilla_Perl Vanilla Perl]</ref> and Strawberry Perl<ref>[http://strawberryperl.com/ Strawberry Perl site]</ref>.
 
-Development of Perl 5 is also continuing. The development versions are number 5.9.x and the next stable version, Perl 5.10 was released [[December 17]], [[2007]].<ref>http://www.nntp.perl.org/group/perl.perl5.porters/2007/12/msg131636.html</ref> Some of its features are influenced by the design of Perl 6. More information about the release is available in the file perldelta5100.pod in CPAN distribution of 5.10.0.<ref>http://search.cpan.org/~rgarcia/perl-5.10.0/pod/</ref>
+Development of Perl 5 is also continuing. Perl 5.10 was released in December of 2007, with some new features influenced by the design of Perl 6.
 
 == The Perl community ==
 Perl's culture and community has developed alongside the language itself. [[Usenet]] was the first public venue in which Perl was introduced, but over the course of its evolution, Perl's community was shaped by the growth of broadening Internet-based services including the introduction of the World Wide Web. The community that surrounds Perl was, in fact, the topic of Larry Wall's first "State of the Onion" talk.<ref>{{ cite web | url=http://www.wall.org/~larry/keynote/keynote.html | title=Perl Culture (AKA the first State of the Onion) | first=Larry | last=Wall | authorlink=Larry Wall | date=1997-08-20 }}</ref>
