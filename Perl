@@ -371,7 +371,7 @@ Perl also has two implicit looping constructs, each of which has two forms:
 
 <code>grep</code> returns all elements of ''list'' for which the controlled block or expression evaluates to true. <code>map</code> evaluates the controlled block or expression for each element of ''list'' and returns a list of the resulting values. These constructs enable a simple [[functional programming]] style.
 
-As of the 5.10.0 release, there is a multi-way branch statement available in Perl called the given/when statement, which has the form:
+Up until the 5.10.0 release, there was no [[switch statement]] in Perl 5. From 5.10.0 onwards, a multi-way branch statement called <code>given</code>/<code>when</code> is available, which takes the following form:
 
  given ( ''expr'' ) { when ( ''cond'' ) { ... } default { ... } }
 
