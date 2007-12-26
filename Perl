@@ -13,7 +13,7 @@
 | influenced             = [[Python (programming language)|Python]], [[PHP]], [[Ruby (programming language)|Ruby]], [[ECMAScript]], [[Dao (programming language)|Dao]]
 | operating_system       = [[Cross-platform]]
 | license                = [[GNU General Public License]], [[Artistic License]]
-| website                = http://perl.org/
+| website                = http://www.perl.org/
 }}
 
 <!-- "Perl" is not an acronym (read the "Name" section below); do not put that here. -->
