@@ -27,7 +27,7 @@ Until 1991, the only documentation for Perl was a single (increasingly lengthy) 
 
 Perl 4 went through a series of maintenance releases, culminating in Perl 4.036 in 1993. At that point, Larry Wall abandoned Perl 4 to begin work on Perl 5.
 
-Initial design of Perl 5 continued into 1994. ''The perl5-porters'' [[mailing list]] was established in May 1994 to coordinate work on porting Perl 5 to different platforms. It remains the primary forum for development, maintenance, and porting of Perl 5.<ref>http://www.xray.mpe.mpg.de/mailing-lists/perl5-porters/</ref>
+Initial design of Perl 5 continued into 1994. ''The perl5-porters'' [[mailing list]] was established in May 1994 to coordinate work on porting Perl 5 to different platforms. It remains the primary forum for development, maintenance, and porting of Perl 5.<ref>[http://www.xray.mpe.mpg.de/mailing-lists/perl5-porters/ `perl5-porters' Mailing List Archive<!-- Bot generated title -->]</ref>
 
 Perl 5 was released on [[October 17]], [[1994]]. It was a nearly complete rewrite of the [[interpreter (computing)|interpreter]], and added many new features to the language, including objects, references, [[Local variable|local (my) variables]], and modules. Importantly, modules provided a mechanism for extending the language without modifying the interpreter. This allowed the core interpreter to stabilize, even as it enabled ordinary Perl programmers to add new language features.
 
@@ -48,7 +48,7 @@ The name is occasionally given as "PERL" (for '''P'''ractical '''E'''xtraction a
 ''[[Programming Perl]]'', published by [[O'Reilly Media]], features a picture of a [[camel]] on the cover, and is commonly referred to as ''The Camel Book''.<ref name="larry-wall-snippet"/> This image of a camel has become a general symbol of Perl.
 
 O'Reilly owns the image as a trademark, but claims to use their legal rights only to protect the ''"integrity and impact of that symbol"''.<ref>http://perl.oreilly.com/usage/</ref>
-O'Reilly allows non-commercial use of the symbol, and provides ''Programming Republic of Perl'' logos and ''Powered by Perl'' buttons.<ref>http://www.oreillynet.com/images/perl/</ref>
+O'Reilly allows non-commercial use of the symbol, and provides ''Programming Republic of Perl'' logos and ''Powered by Perl'' buttons.<ref>[http://www.oreillynet.com/images/perl/ Index of /images/perl<!-- Bot generated title -->]</ref>
 
 == Overview ==
 Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including [[system administration]], [[web development]], [[network programming]], [[GUI]] development, and more.
@@ -118,7 +118,7 @@ Do not list a specific platform unless there are notable issues about running Pe
 
 Because of unusual changes required for the [[Mac OS history|Mac OS Classic]] environment, a special port called MacPerl was shipped independently.<ref name="macperl">{{cite web | url=http://www.macperl.com/ | title=The MacPerl Pages | year=1997 | publisher=Prime Time Freeware}}</ref>
 
-The CPAN carries a complete list of supported platforms with links to the distributions available on each.<ref>http://www.cpan.org/ports/</ref>
+The CPAN carries a complete list of supported platforms with links to the distributions available on each.<ref>[http://www.cpan.org/ports/ CPAN/ports<!-- Bot generated title -->]</ref>
 
 ==== Windows ====
 
@@ -536,7 +536,7 @@ In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The DBI 
 DBI provides caching for database handles and queries, which can greatly improve performance in long-lived execution environments such as [[mod_perl]]<ref>{{cite web | last = Bekman | first = Stas | title = Efficient Work with Databases under mod_perl | url = http://perl.apache.org/docs/1.0/guide/performance.html#Efficient_Work_with_Databases_under_mod_perl | accessdate = 2007-09-01 }}</ref>, helping high-volume systems avert load spikes as in the [[Slashdot effect]].
 
 == Comparative performance ==
-''The Computer Language Benchmarks Game''<ref>http://shootout.alioth.debian.org/</ref> compare the performance of implementations of typical programming problems in several programming languages. The submitted Perl implementations were typically towards the high end of the memory usage spectrum, and had varied speed results. Perl's performance in the benchmarks game is similar to other interpreted languages such as Python, faster than PHP, and significantly faster than Ruby, but slower than most compiled languages.
+''The Computer Language Benchmarks Game''<ref>[http://shootout.alioth.debian.org/ The Computer Language Benchmarks Game<!-- Bot generated title -->]</ref> compare the performance of implementations of typical programming problems in several programming languages. The submitted Perl implementations were typically towards the high end of the memory usage spectrum, and had varied speed results. Perl's performance in the benchmarks game is similar to other interpreted languages such as Python, faster than PHP, and significantly faster than Ruby, but slower than most compiled languages.
 
 Perl programs can start slower than similar programs in compiled languages because perl has to compile the source every time it runs. In a talk at the [[YAPC|YAPC::Europe 2005]] conference and subsequent article, "A Timely Start", Jean-Louis Leroy found that his Perl programs took much longer to run than he expected because the perl interpreter spent much of the time finding modules because of his over-large include path.<ref>{{cite web | url=http://www.perl.com/pub/a/2005/12/21/a_timely_start.html | title=A Timely Start | author=Leroy, Jean-Louis | date=2005-12-01 | publisher=Perl.com }}</ref> Because pre-compiling is still an experimental part of Perl<ref>{{cite web | url=http://search.cpan.org/~nwclark/perl-5.8.8/ext/B/B/Bytecode.pm#KNOWN_BUGS | title=B::Bytecode Perl compiler's bytecode backend | author=Beattie, Malcolm and Enache Adrian | year=2003 | publisher=search.cpan.org }}</ref> – unlike that of Java, Python, and Ruby – Perl programs pay this overhead penalty on every execution. When [[amortized]] over a long run phase, startup time is not typically substantial, but measurement of very short execution times can often be skewed as is often found in benchmarks.
 
@@ -547,7 +547,7 @@ Once Perl code is compiled, there is additional overhead during the execution ph
 === Optimizing ===
 Perl programs, like any code, can be [[Optimization (computer science)|tuned for performance]] using [[Benchmark (computing)|benchmarks]] and [[Performance analysis|profiles]] after a readable and correct implementation is finished. In part because of Perl's interpreted nature, writing more-efficient Perl will not always be enough to meet one's performance goals for a program.
 
-In such situations, the most critical routines of a Perl program can be written in other languages such as [[C (programming language)|C]] or [[Assembly language|Assembler]], which can be connected to Perl via simple Inline modules or the more complex but flexible [[XS (Perl)|XS]] mechanism.<ref>http://search.cpan.org/perldoc/Inline/</ref> Nicholas Clark, a Perl core developer, discusses some Perl design trade-offs and some solutions in ''When perl is not quite fast enough''.<ref>http://www.ccl4.org/~nick/P/Fast_Enough/</ref>
+In such situations, the most critical routines of a Perl program can be written in other languages such as [[C (programming language)|C]] or [[Assembly language|Assembler]], which can be connected to Perl via simple Inline modules or the more complex but flexible [[XS (Perl)|XS]] mechanism.<ref>http://search.cpan.org/perldoc/Inline/</ref> Nicholas Clark, a Perl core developer, discusses some Perl design trade-offs and some solutions in ''When perl is not quite fast enough''.<ref>[http://www.ccl4.org/~nick/P/Fast_Enough/ When perl is not quite fast enough<!-- Bot generated title -->]</ref>
 
 In extreme cases, optimizing Perl can require intimate knowledge of the interpreter's workings rather than skill with algorithms, the Perl language, or general principles of optimization.{{Fact|date=July 2007}}
 
@@ -588,7 +588,7 @@ In email, Usenet and message board postings, "[[Just another Perl hacker]]" (JAP
 In the parlance of Perl culture, Perl programmers are known as Perl hackers, and from this derives the practice of writing short programs to print out the phrase "[[Just another Perl hacker]],". In the spirit of the original concept, these programs are moderately obfuscated and short enough to fit into the signature of an email or Usenet message. The "canonical" JAPH includes the comma at the end, although this is often omitted.
 
 ==== Perl golf ====
-Perl "golf" is the pastime of reducing the number of characters used in a Perl program to the bare minimum, much as how [[golf]] players seek to take as few shots as possible in a round. This use of the word "golf" originally focused on the JAPHs used in signatures in Usenet postings and elsewhere, though the same stunts had been an unnamed pastime in the language [[APL_(programming_language)|APL]] in previous decades. The use of Perl to write a program which performed [[RSA]] encryption prompted a widespread and practical interest in this pastime.<ref>http://www.cypherspace.org/adam/rsa/story.html</ref> In subsequent years, code golf has been taken up as a pastime in other languages besides Perl.<ref>{{cite web | url=http://codegolf.com/ | title=Code Golf: What is Code Golf? | publisher=29degrees | date=2007 }}</ref>
+Perl "golf" is the pastime of reducing the number of characters used in a Perl program to the bare minimum, much as how [[golf]] players seek to take as few shots as possible in a round. This use of the word "golf" originally focused on the JAPHs used in signatures in Usenet postings and elsewhere, though the same stunts had been an unnamed pastime in the language [[APL_(programming_language)|APL]] in previous decades. The use of Perl to write a program which performed [[RSA]] encryption prompted a widespread and practical interest in this pastime.<ref>[http://www.cypherspace.org/adam/rsa/story.html The quest for the most diminutive munitions program<!-- Bot generated title -->]</ref> In subsequent years, code golf has been taken up as a pastime in other languages besides Perl.<ref>{{cite web | url=http://codegolf.com/ | title=Code Golf: What is Code Golf? | publisher=29degrees | date=2007 }}</ref>
 
 ==== Obfuscation ====
 As with C, [[obfuscated code]] competitions are a well-known pastime. The annual [[Obfuscated Perl contest]] made an arch virtue of Perl's syntactic flexibility.
