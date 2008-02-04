@@ -1,5 +1,4 @@
-{{otheruses}}
-{{ Infobox programming language
+<nowiki>Insert non-formatted text here</nowiki>
 | name                   = Perl
 | logo                   = [[Image:Programming-republic-of-perl.gif]]
 | paradigm               = [[Multi-paradigm]]
