@@ -166,7 +166,7 @@ FOO # a file handle or constant
 &foo # a subroutine. (The & is optional)
 </source>
 
-[[File handle]]s and constants need not be uppercase, but it is a common convention owing to the fact that there is no sigil to denote them. Since 5.8 a scalar may be used as a file handle, and using this feature is encouraged in [[Damian Conway]]'s ''Perl Best Practices''.
+[[File handle]]s and constants need not be uppercase, but it is a common convention owing to the fact that there is no sigil to denote them. Since 5.6 a scalar may be used as a file handle, and using this feature is encouraged in [[Damian Conway]]'s ''Perl Best Practices''.
 
 Numbers are written in the bare form; strings are enclosed by quotes of various kinds.
 
