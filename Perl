@@ -481,7 +481,7 @@ The Perl regular expression syntax was originally taken from Unix Version 8 regu
 Regular expression syntax is extremely compact, owing to history. The first regular expression dialects were only slightly more expressive than [[Glob (programming)|globs]], and the syntax was designed so that an expression would resemble the text it matches{{Fact|date=June 2007}}. This meant using no more than a single punctuation character or a pair of delimiting characters to express the few supported assertions. Over time, the expressiveness of regular expressions grew tremendously, but the syntax design was never revised and continues to rely on punctuation. As a result, regular expressions can be cryptic and extremely dense.
 
 ==== Uses ====
-The <code>m//</code> (match) operator introduces a regular expression match. (If you use slashes as delimiters, as in all the examples here, then the leading <code>m</code> may be omitted for brevity.) In the simplest case, an expression like
+The <code>m//</code> (match) operator introduces a regular expression match. (If slashes are used as delimiters, as in all the examples here, then the leading <code>m</code> may be omitted for brevity.) In the simplest case, an expression like
 
 <source lang="perl">
 $x =~ m/abc/
