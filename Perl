@@ -79,7 +79,7 @@ There is a broad practical bent to both the Perl language and the community and 
 
 Perl has several mottos that convey aspects of its design and use. One is ''"[[There's more than one way to do it]]."'' (TIMTOWTDI, usually pronounced 'Tim Toady'). Others are ''"Perl: the Swiss Army Chainsaw of Programming Languages"'' and ''"No unnecessary limits"''. A stated design goal of Perl is to make easy tasks easy and difficult tasks possible. Perl has also been called ''"The Duct Tape of the Internet"''.<ref>{{cite web | url = http://www.oreillynet.com/pub/a/oreilly/perl/news/importance_0498.html | title = The Importance of Perl | year = 1998 | month = April | publisher = O'Reilly & Associates, Inc. | quote = As Hassan Schroeder, Sun's first webmaster, remarked: “Perl is the duct tape of the Internet.” }}</ref>
 
-There is no written specification or standard for the Perl language, and no plans to create one for the current version of Perl. There has only ever been one implementation of the interpreter. That interpreter, together with its functional tests, stands as a ''de facto'' specification of the language.
+There is no written specification or standard for the Perl language, and no plans to create one for the current version of Perl. There has only been one implementation of the interpreter. That interpreter, together with its functional tests, stands as a ''de facto'' specification of the language.
 
 === Applications ===
 Perl has many and varied applications, compounded by the availability of many standard and third-party modules.
