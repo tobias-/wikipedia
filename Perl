@@ -148,10 +148,10 @@ The second line in the canonical form includes a semicolon, which is used to sep
 
 In [[Perl 6]] the minimal "Hello world" program will be even shorter:
 <source lang="perl">
-say "Hello, world!"
+say 'Hello, world!'
 </source>
 
-The newline character is no longer needed because "say" does the same thing as "print" but also adds a '\n'.
+The newline character is no longer needed because "say" automatically appends it to the resultant printable string.
 
 === Data types ===
 Perl has a number of fundamental [[data type]]s, the most commonly used and discussed being: [[Scalar (computing)|scalars]], [[array]]s, [[Hash table|hashes]], [[filehandle]]s and [[subroutines]]:
