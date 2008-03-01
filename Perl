@@ -405,8 +405,9 @@ foo; # Here parentheses are not required
 
 A list of arguments may be provided after the subroutine name. Arguments may be scalars, lists, or hashes.
 
+<source lang="perl">
 foo $x, @y, %z;
-
+</source>
 The parameters to a subroutine do not need to be declared as to either number or type; in fact, they may vary from call to call. Any validation of parameters must be performed explicitly inside the subroutine.
 
 Arrays are expanded to their elements, hashes are expanded to a list of key/value pairs, and the whole lot is passed into the subroutine as one flat list of scalars.
