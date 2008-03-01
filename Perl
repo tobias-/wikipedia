@@ -199,7 +199,7 @@ note that I am terminating it with the "EOF" word.
 EOF
 </source>
 
-Perl will convert strings into numbers and vice versa depending on the context in which they are used. In the following example the strings $n and $m are treated as numbers when they are the arguments to the addition operator. This code prints the number '5', discarding non numeric information for the operation, although the variable values remain the same. (The string concatenation operator is not <code>+</code>, but <code>.</code>)
+Perl will convert strings into numbers and vice versa depending on the context in which they are used. In the following example the strings $n and $m are treated as numbers when they are the arguments to the addition operator. This code prints the number '5', discarding non numeric information for the operation, although the variable values remain the same. (The string concatenation operator is the period, not the <code>+</code> symbol.)
 
 <source lang="perl">
 $n = "3 apples";
