@@ -1,3 +1,41 @@
+{{otheruses}}
+{{ Infobox programming language
+| name                   = Perl
+| logo                   = [[Image:Programming-republic-of-perl.gif]]
+| paradigm               = [[Multi-paradigm]]
+| year                   = 1987
+| designer               = [[Larry Wall]]
+| latest_release_version = 5.10.0
+| latest_release_date    = {{release date|2007|12|18}}
+| typing = Dynamic
+| influenced_by          = [[AWK (programming language)|AWK]], [[BASIC]], [[BASIC-PLUS]], [[C (programming language)|C]], [[C++]], [[Lisp (programming language)|Lisp]], [[Pascal (programming language)|Pascal]], [[sed]], [[Unix shell]]
+| influenced             = [[Python (programming language)|Python]], [[PHP]], [[Ruby (programming language)|Ruby]], [[ECMAScript]], [[Dao (programming language)|Dao]]
+| operating_system       = [[Cross-platform]]
+| license                = [[GNU General Public License]], [[Artistic License]]
+| website                = http://www.perl.org/
+}}
+
+<!-- "Perl" is not an acronym (read the "Name" section below); do not put that here. -->
+'''Perl''' is a [[dynamic programming language]] created by [[Larry Wall]] and first released in [[1987]]. Perl borrows features from a variety of other languages including [[C (programming language)|C]], [[shell script]]ing ([[Bourne shell|sh]]), [[AWK (programming language)|AWK]], [[sed]] and [[Lisp (programming language)|Lisp]].<ref name="perltimeline">{{cite web | url=http://history.perl.org/PerlTimeline.html | title=The Timeline of Perl and its Culture (v3.0_0505) | author=Ashton, Elaine | year=1999}}</ref> Perl was widely adopted for its strengths in text processing and lack of the arbitrary limitations of many [[scripting language]]s at the time.<ref name="programmingperl">{{cite book | title=Programming Perl, Third Edition | author=[[Larry Wall|Wall, Larry]], [[Tom Christiansen]] and [[Jon Orwant]] | publisher=O'Reilly | month=July | year=2000 | ISBN=0-596-00027-8}}</ref><!--Ref is from the forward of that book -->
+
+== History ==
+[[Larry Wall]] began work on Perl in 1987, while working as a programmer at [[Unisys]],<ref name="larry-wall-snippet">{{cite web|title=Larry Wall|url=http://www.perl.com/pub/au/Wall_Larry|accessdate=2006-08-20}}</ref> and released version 1.0 to the comp.sources.misc [[newsgroup]] on [[December 18]], [[1987]]<ref>{{cite web|title=Perl, a "replacement" for awk and sed|url=http://groups.google.com/group/comp.sources.unix/browse_thread/thread/363c7a6fa4e2668b/bb3ee125385ae25f|accessdate=2007-12-18}}</ref>. The language expanded rapidly over the next few years. Perl 2, released in 1988, featured a better [[regular expression]] engine. Perl 3, released in 1989, added support for [[binary data]] streams.
+
+Until 1991, the only documentation for Perl was a single (increasingly lengthy) [[Manual page (Unix)|man page]]. In 1991, ''[[Programming perl]]'' <!-- 1st edition title used lowercase "perl" --> (known to many Perl programmers as the "Camel Book") was published, and became the ''de facto'' reference for the language. At the same time, the Perl version number was bumped to 4, not to mark a major change in the language, but to identify the version that was documented by the book.
+
+Perl 4 went through a series of maintenance releases, culminating in Perl 4.036 in 1993. At that point, Larry Wall abandoned Perl 4 to begin work on Perl 5.
+
+Initial design of Perl 5 continued into 1994. ''The perl5-porters'' [[mailing list]] was established in May 1994 to coordinate work on porting Perl 5 to different platforms. It remains the primary forum for development, maintenance, and porting of Perl 5.<ref>[http://www.xray.mpe.mpg.de/mailing-lists/perl5-porters/ `perl5-porters' Mailing List Archive<!-- Bot generated title -->]</ref>
+
+Perl 5 was released on [[October 17]], [[1994]]. It was a nearly complete rewrite of the [[interpreter (computing)|interpreter]], and added many new features to the language, including objects, references, [[Local variable|lexical (my) variables]], and modules. Importantly, modules provided a mechanism for extending the language without modifying the interpreter. This allowed the core interpreter to stabilize, even as it enabled ordinary Perl programmers to add new language features.
+
+[[As of 2007]], Perl 5 is still being actively maintained. Important features and some essential new language constructs have been added along the way, including [[Unicode]] support, [[Thread (computer science)|threads]], improved support for [[object oriented programming]] and many other enhancements.
+
+On [[December 18]], [[2007]], the 20th anniversary of Perl 1.0, Perl 5.10.0 was released. Perl 5.10.0 includes notable new features, which bring it closer to Perl 6, among them a new [[switch statement]] (called "given/when"), regular expressions updates, the "smart match operator" ~~, and more.<ref>[http://search.cpan.org/~rgarcia/perl-5.10.0-RC2/pod/perl5100delta.pod perldelta - what is new for perl 5.10.0]</ref>
+
+One of the most important events in Perl 5 history took place outside of the language proper, and was a consequence of its module support. On [[October 26]], [[1995]], the [[Comprehensive Perl Archive Network]] (CPAN) was established as a [[repository]] for Perl [[Module (programming)|modules]] and Perl itself. At the time of writing, it carries over 11,000 modules by over 5,000 authors. CPAN is widely regarded as one of the greatest strengths of Perl in practice.
+
+=== Name ===
 Perl was originally named "Pearl", after the [[Parable of the Pearl]] from the [[Gospel of Matthew]]. Larry Wall wanted to give the language a short name with positive connotations; he claims that he considered (and rejected) every three- and four-letter word in the dictionary. He also considered naming it after his wife Gloria. Wall discovered the existing [[PEARL (programming language)|PEARL]] programming language before Perl's official release and changed the spelling of the name.
 
 The name is normally capitalized (''Perl'') when referring to the language and uncapitalized (''perl'') when referring to the interpreter program itself since Unix-like file systems are case-sensitive. Before the release of the first edition of ''Programming Perl'', it was common to refer to the language as ''perl''; [[Randal L. Schwartz]], however, capitalised the language's name in the book to make it stand out better when typeset. The case distinction was subsequently adopted by the community.<ref>{{cite web | url=http://perldoc.perl.org/perlfaq1.html#What's-the-difference-between-%22perl%22-and-%22Perl%22%3f | title=perlfaq1: What's the difference between "perl" and "Perl"?}}</ref>
@@ -79,6 +117,16 @@ Do not list a specific platform unless there are notable issues about running Pe
 Because of unusual changes required for the [[Mac OS history|Mac OS Classic]] environment, a special port called MacPerl was shipped independently.<ref name="macperl">{{cite web | url=http://www.macperl.com/ | title=The MacPerl Pages | year=1997 | publisher=Prime Time Freeware}}</ref>
 
 The CPAN carries a complete list of supported platforms with links to the distributions available on each.<ref>[http://www.cpan.org/ports/ CPAN/ports<!-- Bot generated title -->]</ref>
+
+==== Windows ====
+
+Users of [[Microsoft Windows]] typically install one of the native binary distributions of Perl for Win32<ref>{{cite web | url=http://win32.perl.org/wiki/index.php?title=Win32_Distributions#Perl_Distributions | title=Win32 Distributions | publisher=Win32 Perl Wiki}}</ref>, most commonly [[ActivePerl]]. Compiling Perl from [[source code]] under Windows is possible, but most installations lack the requisite C compiler and build tools. This also makes it hard to install modules from the CPAN, particularly those that are partially written in C.
+
+Users of the ActivePerl binary distribution are therefore dependent on the repackaged modules provided in [[ActiveState]]’s module repository, which are precompiled and can be installed with [[Perl package manager|PPM]]. Limited resources to maintain this repository have been cause for various long-standing problems<ref>{{cite web | url=http://www.mail-archive.com/perl-qa@perl.org/msg05407.html | title=Activestate and Scalar-List-Utils | author=Golden, David | year=2006}}</ref><ref>{{cite web | url=http://use.perl.org/~Alias/journal/35219 | title=ActivePerl PPM repository design flaw goes critical | author=Kennedy, Adam | year=2007}}</ref>.
+
+To address this and other problems of Perl on the Windows platform, [http://win32.perl.org/ win32.perl.org] was launched by Adam Kennedy on behalf of [[The Perl Foundation]] in June 2006. This is a community website for "all things Windows and Perl." A major aim of this project is to provide production-quality alternative Perl distributions that include an embedded C compiler and build tools, so as to enable Windows users to install modules directly from the CPAN. The production distribution in the family is known as [http://strawberryperl.com/ Strawberry Perl], with research and experimental work done in a related [http://vanillaperl.com/ Vanilla Perl] distribution.
+
+Another way of running Perl under Windows is provided by the [[Cygwin]] emulation layer. Cygwin provides a Unix-like environment on Windows that includes [[GNU Compiler Collection|gcc]], so compiling Perl from source is a more accessible option for users who take this approach.
 
 == Language structure ==
 In Perl, the minimal [[Hello world]] program may be written as follows:
@@ -500,3 +548,163 @@ Perl programs can start slower than similar programs in compiled languages becau
 A number of tools have been introduced to improve this situation, the first of which was Apache's [[mod_perl]], which sought to address one of the most common reasons that small Perl programs were invoked rapidly: [[Common Gateway Interface|CGI]] [[World Wide Web|Web]] development. [[ActiveState|ActivePerl]], via Microsoft [[ISAPI]] provides similar performance improvements.
 
 Once Perl code is compiled, there is additional overhead during the execution phase that typically isn't present for programs written in compiled languages like C or C++, including, among many other things, overhead due to bytecode interpretation, reference-counting memory management, and dynamic type checking.
+
+=== Optimizing ===
+Perl programs, like any code, can be [[Optimization (computer science)|tuned for performance]] using [[Benchmark (computing)|benchmarks]] and [[Performance analysis|profiles]] after a readable and correct implementation is finished. In part because of Perl's interpreted nature, writing more-efficient Perl will not always be enough to meet one's performance goals for a program.
+
+In such situations, the most critical routines of a Perl program can be written in other languages such as [[C (programming language)|C]] or [[Assembly language|Assembler]], which can be connected to Perl via simple Inline modules or the more complex but flexible [[XS (Perl)|XS]] mechanism.<ref>http://search.cpan.org/perldoc/Inline/</ref> Nicholas Clark, a Perl core developer, discusses some Perl design trade-offs and some solutions in ''When perl is not quite fast enough''.<ref>[http://www.ccl4.org/~nick/P/Fast_Enough/ When perl is not quite fast enough<!-- Bot generated title -->]</ref>
+
+In extreme cases, optimizing Perl can require intimate knowledge of the interpreter's workings rather than skill with algorithms, the Perl language, or general principles of optimization.{{Fact|date=July 2007}}
+
+== Future ==
+{{main|Perl 6}}
+At the 2000 [[Perl Conference]], [[Jon Orwant]] made a case for a major new language initiative.<ref>[http://www.nntp.perl.org/group/perl.perl6.meta/424 Transcription of Larry's talk]. Retrieved on 2006 September 28.</ref> This led to a decision to begin work on a redesign of the language, to be called Perl 6. Proposals for new language features were solicited from the Perl community at large, and over 300 [[Request for Comments|RFCs]] were submitted.
+
+[[Larry Wall]] spent the next few years digesting the RFCs and synthesizing them into a coherent framework for Perl 6. He has presented his design for Perl 6 in a series of documents called "apocalypses", which are numbered to correspond to chapters in ''[[Programming Perl]]'' ("The Camel Book"). The current, not yet finalized specification of Perl 6 is encapsulated in design documents called Synopses, which are numbered to correspond to Apocalypses.
+
+Perl 6 is not intended to be backward compatible, though there will be a compatibility mode.
+
+In [[2001]], it was decided that Perl 6 would run on a cross-language [[virtual machine]] called [[Parrot virtual machine|Parrot]]. This will mean that other languages targeting the Parrot will gain native access to [[CPAN]], allowing some level of cross-language development.
+
+In [[2005]] [[Audrey Tang]] created the [[pugs]] project, an implementation of Perl 6 in [[Haskell (programming language)|Haskell]]. This was and continues to act as a test platform for the Perl 6 language (separate from the development of the actual implementation) allowing the language designers to explore. The pugs project spawned an active Perl/Haskell cross-language community centered around the [[freenode]] #perl6 irc channel.
+
+A number of features in the Perl 6 language now show similarities with Haskell, and Perl 6 has been embraced by the Haskell community as a potential scripting language{{Fact|date=October 2007}}.
+
+[[As of 2006]], Perl 6, Parrot, and pugs are under active development, and a new module for Perl 5 called [[v6 (Perl)|v6]] allows some Perl 6 code to run directly on top of Perl 5.
+
+In 2006, an effort was started to have Windows Perl distributions ship with a compiler, in order to make the need for binary packages on Windows redundant. Some early results of this include the CamelPack macro-installer<ref>[http://camelpack.sourceforge.net/ Camel Pack]</ref> and Vanilla Perl<ref>[http://win32.perl.org/wiki/index.php?title=Vanilla_Perl Vanilla Perl]</ref> and Strawberry Perl<ref>[http://strawberryperl.com/ Strawberry Perl site]</ref>.
+
+Development of Perl 5 is also continuing. Perl 5.10 was released in December of 2007, with some new features influenced by the design of Perl 6.
+
+== The Perl community ==
+Perl's culture and community has developed alongside the language itself. [[Usenet]] was the first public venue in which Perl was introduced, but over the course of its evolution, Perl's community was shaped by the growth of broadening Internet-based services including the introduction of the World Wide Web. The community that surrounds Perl was, in fact, the topic of Larry Wall's first "State of the Onion" talk.<ref>{{ cite web | url=http://www.wall.org/~larry/keynote/keynote.html | title=Perl Culture (AKA the first State of the Onion) | first=Larry | last=Wall | authorlink=Larry Wall | date=1997-08-20 }}</ref>
+
+=== State of the Onion ===
+State of the Onion is the name for Larry Wall’s yearly [[keynote]]-style summaries on the progress of Perl and its community.  They are characterized by his hallmark humor, employing references to Perl’s and the wider hacker culture, as well as Wall’s linguistic and sometimes his Christian background.
+
+Each talk is first given at various Perl conferences and eventually also published online.
+
+=== Pastimes ===
+Perl's pastimes have become a defining element of the community. Included among them are trivial and complex uses of the language.
+
+==== JAPHs ====
+In email, Usenet and message board postings, "[[Just another Perl hacker]]" (JAPH) programs have become a common trend, originated by [[Randal L. Schwartz]], one of the earliest professional Perl trainers.<ref>{{cite newsgroup | author = [[Randal L. Schwartz]] | title = Who is Just another Perl hacker? | id = m1hfpvh2jq.fsf@halfdome.holdit.com | newsgroup = comp.lang.perl.misc | date = 1999-05-02 | url = http://groups.google.com/groups?selm=m1hfpvh2jq.fsf@halfdome.holdit.com | accessdate = 2007-11-12 }}</ref>
+
+In the parlance of Perl culture, Perl programmers are known as Perl hackers, and from this derives the practice of writing short programs to print out the phrase "[[Just another Perl hacker]],". In the spirit of the original concept, these programs are moderately obfuscated and short enough to fit into the signature of an email or Usenet message. The "canonical" JAPH includes the comma at the end, although this is often omitted.
+
+==== Perl golf ====
+Perl "golf" is the pastime of reducing the number of characters used in a Perl program to the bare minimum, much as how [[golf]] players seek to take as few shots as possible in a round. This use of the word "golf" originally focused on the JAPHs used in signatures in Usenet postings and elsewhere, though the same stunts had been an unnamed pastime in the language [[APL_(programming_language)|APL]] in previous decades. The use of Perl to write a program which performed [[RSA]] encryption prompted a widespread and practical interest in this pastime.<ref>[http://www.cypherspace.org/adam/rsa/story.html The quest for the most diminutive munitions program<!-- Bot generated title -->]</ref> In subsequent years, code golf has been taken up as a pastime in other languages besides Perl.<ref>{{cite web | url=http://codegolf.com/ | title=Code Golf: What is Code Golf? | publisher=29degrees | date=2007 }}</ref>
+
+==== Obfuscation ====
+As with C, [[obfuscated code]] competitions are a well-known pastime. The annual [[Obfuscated Perl contest]] made an arch virtue of Perl's syntactic flexibility.
+
+==== Poetry ====
+Similar to obfuscated code and golf, but with a different purpose, Perl poetry is the practice of writing poems that can actually be compiled as legal (although generally non-sensical) Perl code. This hobby is more or less unique to Perl due to the large number of regular English words used in the language. New poems are regularly published in the [[Perl Monks]] site's Perl Poetry section.<ref>[http://www.perlmonks.org/?node_id=1590 Perl Poetry section] on [[Perl Monks]]</ref>
+
+==== CPAN Acme ====
+There are also many examples of code written purely for entertainment on the [[CPAN]]. <code>Lingua::Romana::Perligata</code>, for example, allows writing programs in [[Latin]].<ref>{{ cite web | url=http://www.csse.monash.edu.au/~damian/papers/HTML/Perligata.html | title=Lingua::Romana::Perligata -- Perl for the XXI-imum Century | author=Conway, Damian }}</ref> Upon execution of such a program, the module translates its source code into regular Perl and runs it.
+
+The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for modules that are fun in nature (but its scope has widened to include exploratory or experimental code or any other module that is not meant to ever be used in production). Some of the Acme modules are deliberately implemented in amusing ways. This includes <code>Acme::Bleach</code>, one of the first modules in the <code>Acme::</code> namespace,<ref>{{cite web | url=http://use.perl.org/~acme/journal/200 | title=use Perl; Journal of acme | date=2001-05-23 | author=Brocard, Leon }}</ref> which allows the program's source code to be "whitened" (i.e., all characters replaced with whitespace) and yet still work.
+
+These are also examples of "source filters"; libraries which transform the text of a program before reading it.
+
+== Further reading ==
+* ''[[Learning Perl]]'', Fourth Edition (the ''Llama book''), ISBN 0-596-10105-8
+* ''[[Perl Cookbook]]'', ISBN 0-596-00313-7
+* ''[[Programming Perl]]'', (the ''Camel book''), ISBN 0-596-00027-8
+
+== See also ==
+{{portal|Free software|Free Software Portal Logo.svg}}
+* [[The Perl Foundation]]
+* [[v:Topic:Perl|Perl]] instruction at Wikiversity - you can use the training and/or help add to it
+* [[Perl Object Environment]] (POE) - a framework for writing persistent object-oriented environments with [[event loop]]s.
+* [[Perl Data Language]] (PDL) - a Perl module which allows extending Perl for higher-order scientific processing.
+* [[Plain Old Documentation]] (POD) - a documentation tool for Perl.
+* [[Just another Perl hacker]] (JAPH)
+* [[Perl Monks]]
+* [[Perl Mongers]]
+* [[PerlScript]]
+* [[Perl 6]]
+* [[Comparison of programming languages]]
+* [[Autovivification]]
+
+== References ==
+{{reflist|2}}
+
+== External links ==
+<!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first -->
+{{wikibooks|Perl Programming}}
+{{wikiversity2|Topic:Perl}}
+* [http://www.perl.org/ Perl.org] - Official Perl website
+* [http://perldoc.perl.org/ Perl documentation]
+* [http://www.perlfoundation.org/ The Perl Foundation]
+* [http://www.perlfoundation.org/perl5/ Official Perl 5 Wiki]
+* {{dmoz|Computers/Programming/Languages/Perl/|Perl}}
+
+[[Category:Perl|*]]
+[[Category:Curly bracket programming languages]]
+[[Category:Dynamic programming languages]]
+[[Category:Dynamically-typed programming languages]]
+[[Category:Free compilers and interpreters]]
+[[Category:Procedural programming languages]]
+[[Category:Programming languages]]
+[[Category:Scripting languages]]
+[[Category:Text-oriented programming languages]]
+[[Category:Unix software]]
+
+[[als:Perl]]
+[[ar:بيرل]]
+[[bn:পার্ল (প্রোগ্রামিং ভাষা)]]
+[[zh-min-nan:Perl]]
+[[bs:Perl]]
+[[bg:Пърл (език за програмиране)]]
+[[ca:Perl]]
+[[cs:Perl]]
+[[cy:Perl]]
+[[da:Perl]]
+[[pdc:Perl]]
+[[de:Perl]]
+[[et:Perl]]
+[[el:Perl]]
+[[es:Perl]]
+[[eo:Perl]]
+[[eu:Perl]]
+[[fa:پرل]]
+[[fr:Perl (langage)]]
+[[gl:Perl]]
+[[ko:펄]]
+[[hr:Perl]]
+[[id:Perl]]
+[[it:Perl]]
+[[he:Perl]]
+[[ka:პერლი]]
+[[ku:Perl]]
+[[la:Perl]]
+[[lb:Perl (Programméiersprooch)]]
+[[lt:Perl]]
+[[hu:Perl]]
+[[ml:പേള്‍]]
+[[ms:Perl]]
+[[nl:Perl (programmeertaal)]]
+[[ja:Perl]]
+[[no:Perl]]
+[[nn:Perl]]
+[[pl:Perl]]
+[[pt:Perl]]
+[[ro:Perl]]
+[[ru:Perl]]
+[[sq:Perl]]
+[[simple:Perl]]
+[[sk:Perl]]
+[[sl:Perl]]
+[[sr:Програмски језик Перл]]
+[[fi:Perl]]
+[[sv:Perl]]
+[[ta:பெர்ள்]]
+[[th:ภาษาเพิร์ล]]
+[[vi:Perl]]
+[[tg:Перл (забони барномасозӣ)]]
+[[tr:Perl]]
+[[uk:Perl]]
+[[bat-smg:Perl]]
+[[zh:Perl]]
