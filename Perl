@@ -179,7 +179,7 @@ $name = "joe";
 $color = 'red';
 
 $number1 = 42;
-$number2 = "42";
+$number2 = '42';
 
 # This evaluates to true
 if ($number1 == $number2) { print "Numbers and strings of numbers are the same!"; }
@@ -202,8 +202,8 @@ EOF
 Perl will convert strings into numbers and vice versa depending on the context in which they are used. In the following example the strings $n and $m are treated as numbers when they are the arguments to the addition operator. This code prints the number '5', discarding non numeric information for the operation, although the variable values remain the same. (The string concatenation operator is the period, not the <code>+</code> symbol.)
 
 <source lang="perl">
-$n = "3 apples";
-$m = "2 oranges";
+$n = '3 apples';
+$m = '2 oranges';
 print $n + $m;
 </source>
 
@@ -471,7 +471,7 @@ A subroutine can discover its calling context with the <code>wantarray</code> fu
 
 <source lang="perl">
 sub either {
- return wantarray ? (1, 2) : "Oranges";
+ return wantarray ? (1, 2) : 'Oranges';
 }
 
 $x = either; # returns "Oranges"
