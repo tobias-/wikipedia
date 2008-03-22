@@ -647,7 +647,6 @@ These are also examples of "source filters"; libraries which transform the text 
 [[Category:Dynamically-typed programming languages]]
 [[Category:Free compilers and interpreters]]
 [[Category:Procedural programming languages]]
-[[Category:Programming languages]]
 [[Category:Scripting languages]]
 [[Category:Text-oriented programming languages]]
 [[Category:Unix software]]
