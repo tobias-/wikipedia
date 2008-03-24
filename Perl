@@ -45,7 +45,7 @@ The name is occasionally given as "PERL" (for '''P'''ractical '''E'''xtraction a
 === The camel symbol ===
 ''[[Programming Perl]]'', published by [[O'Reilly Media]], features a picture of a [[camel]] on the cover, and is commonly referred to as ''The Camel Book''.<ref name="larry-wall-snippet"/> This image of a camel has become a general symbol of Perl.
 
-O'Reilly owns the image as a trademark, but claims to use their legal rights only to protect the ''"integrity and impact of that symbol"''.<ref>http://perl.oreilly.com/usage/</ref>
+O'Reilly owns the image as a trademark, but claims to use their legal rights only to protect the ''"integrity and impact of that symbol"''.<ref>[http://perl.oreilly.com/usage/ O'Reilly - The Perl Camel Usage and Trademark Information<!-- Bot generated title -->]</ref>
 O'Reilly allows non-commercial use of the symbol, and provides ''Programming Republic of Perl'' logos and ''Powered by Perl'' buttons.<ref>[http://www.oreillynet.com/images/perl/ Index of /images/perl<!-- Bot generated title -->]</ref>
 
 == Overview ==
@@ -381,7 +381,7 @@ Up until the 5.10.0 release, there was no [[switch statement]] in Perl 5. From 5
 
 Syntactically, this structure behaves similarly to [[switch statement]]'s found in other languages, but with a few important differences.  The largest is that unlike switch/case structures, given/when statements break execution after the first successful branch, rather than waiting for explicitly defined break commands.  Conversely, explicit continues are instead necessary to emulate switch behavior.
 
-For those not using the 5.10.0 release, the Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures. There is also a [http://search.cpan.org/perldoc/Switch Switch] module, which provides functionality modeled on the forthcoming [[Perl 6]] re-design. It is implemented using a [[source filter]], so its use is unofficially discouraged.<ref>http://www.perlmonks.org/?node_id=496084</ref>
+For those not using the 5.10.0 release, the Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures. There is also a [http://search.cpan.org/perldoc/Switch Switch] module, which provides functionality modeled on the forthcoming [[Perl 6]] re-design. It is implemented using a [[source filter]], so its use is unofficially discouraged.<ref>[http://www.perlmonks.org/?node_id=496084 using switch<!-- Bot generated title -->]</ref>
 
 Perl includes a <code>goto label</code> statement, but it is rarely used. Situations where a <code>goto</code> is called for in other languages don't occur as often in Perl due to its breadth of flow control options.
 
