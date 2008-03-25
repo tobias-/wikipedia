@@ -162,6 +162,11 @@ Perl has a number of fundamental [[data type]]s, the most commonly used and disc
 
 Most variables are marked by a leading [[Sigil (computer programming)|sigil]], which identifies the data type being accessed (not the type of the variable itself), except filehandles, which don't have a sigil. The same name may be used for variables of different data types, without conflict.
 
+
+
+
+
+
 <source lang="perl">
 $foo # a scalar
 @foo # an array
