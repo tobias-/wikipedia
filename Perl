@@ -640,7 +640,7 @@ These are also examples of "source filters"; libraries which transform the text 
 * [http://www.perlfoundation.org/ The Perl Foundation]
 * [http://www.perlfoundation.org/perl5/ Official Perl 5 Wiki]
 * {{dmoz|Computers/Programming/Languages/Perl/|Perl}}
-
+{{FOSS}}
 [[Category:Perl|*]]
 [[Category:Curly bracket programming languages]]
 [[Category:Dynamic programming languages]]
