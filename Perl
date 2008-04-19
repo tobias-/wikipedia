@@ -639,6 +639,7 @@ These are also examples of "source filters"; libraries which transform the text 
 * [http://perldoc.perl.org/ Perl documentation]
 * [http://www.perlfoundation.org/ The Perl Foundation]
 * [http://www.perlfoundation.org/perl5/ Official Perl 5 Wiki]
+* [http://win32.perl.org/wiki/index.php?title=Main_Page Win32 Perl Wiki]
 * {{dmoz|Computers/Programming/Languages/Perl/|Perl}}
 * [irc://irc.freenode.net/perl #perl] on freenode
 
