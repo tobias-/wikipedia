@@ -388,14 +388,14 @@ Perl includes a <code>goto label</code> statement, but it is rarely used. Situat
 There is also a <code>goto &sub</code> statement that performs a [[tail call]]. It terminates the current subroutine and immediately calls the specified <code>''sub''</code>. This is used in situations where a caller can perform more efficient [[Call stack|stack]] management than Perl itself (typically because no change to the current stack is required), and in deep recursion tail calling can have substantial positive impact on performance because it avoids the overhead of scope/stack management on return.
 
 === Subroutines ===
-[[Subroutine]]s are defined with the <code>sub</code> keyword, and invoked simply by naming them. If the subroutine in question has not yet been declared, invocation requires either parentheses after the function name or an ampersand ('''&''') before it.
+[[Subroutine]]s are defined with the <code>sub</code> keyword, and invoked simply by naming them. If the subroutine in question has not yet been declared, invocation requires either parentheses after the function name or an ampersand ('''&''') before it. But using '''&''' will also implicitly pass the arguments of the current subroutine to the one called if they are not specified.
 
 <source lang="perl">
 # Calling a subroutine
 
 # Parentheses are required here if the subroutine is defined later in the code
 foo();
-&foo; # (this also works)
+&foo; # (this also works, but has other consequences regarding arguments passed to the subroutine)
 
 # Defining a subroutine
 sub foo { ... }
