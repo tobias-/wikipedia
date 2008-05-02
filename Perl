@@ -93,7 +93,6 @@ With a degree of care, Perl code can be made portable across Windows and Unix. P
 Graphical user interfaces (GUI's) may be developed using Perl. In particular, Perl/Tk is commonly used to enable user interaction with Perl scripts. Such interaction may be synchronous or asynchronous using callbacks to update the GUI. For more information about the technologies involved see [[Tk (computing)|Tk]],[[Tcl]] and [[WxPerl]].
 
 Perl is also widely used in finance and [[bioinformatics]], where it is valued for rapid application development and deployment, and the ability to handle large data sets.
-bye bye see yaa
 
 === Implementation ===
 Perl is implemented as a core interpreter, written in C, together with a large collection of modules, written in Perl and C. The source distribution is, [[as of 2005]], 12&nbsp;[[megabyte|MB]] when packaged in a [[Tar (file format)|tar file]] and [[data compression|compressed]]. The interpreter is 150,000 lines of C code and compiles to a 1&nbsp;MB executable on typical machine architectures. Alternatively, the interpreter can be compiled to a link library and embedded in other programs. There are nearly 500 modules in the distribution, comprising 200,000 lines of Perl and an additional 350,000 lines of C code. (Much of the C code in the modules consists of character encoding tables.)
