@@ -572,8 +572,6 @@ A number of features in the Perl 6 language now show similarities with Haskell, 
 
 [[As of 2006]], Perl 6, Parrot, and pugs are under active development, and a new module for Perl 5 called [[v6 (Perl)|v6]] allows some Perl 6 code to run directly on top of Perl 5.
 
-In 2006, an effort was started to have Windows Perl distributions ship with a compiler, in order to make the need for binary packages on Windows redundant. Some early results of this include the CamelPack macro-installer<ref>[http://camelpack.sourceforge.net/ Camel Pack]</ref> and Vanilla Perl<ref>[http://win32.perl.org/wiki/index.php?title=Vanilla_Perl Vanilla Perl]</ref> and Strawberry Perl<ref>[http://strawberryperl.com/ Strawberry Perl site]</ref>.
-
 Development of Perl 5 is also continuing. Perl 5.10 was released in December of 2007, with some new features influenced by the design of Perl 6.
 
 == The Perl community ==
