@@ -146,7 +146,7 @@ The hash mark character introduces a [[comment (computer programming)|comment]] 
 
 The second line in the canonical form includes a semicolon, which is used to separate statements in Perl. With only a single statement in a block or file, a separator is unnecessary, so it can be omitted from the minimal form of the program—or more generally from the final statement in any block or file. The canonical form includes it because it is common to terminate every statement even when it is unnecessary to do so, as this makes editing easier: code can be added to or moved away from the end of a block or file without having to adjust semicolons.
 
-Version 5.10 of Perl introduces a <code>say</code> function that implicitly appends a newline character to its output, making the minimal "Hello world" program even shorter:
+Version 5.10 ('''perl -v''' or '''perl --version''') of Perl introduces a <code>say</code> function that implicitly appends a newline character to its output, making the minimal "Hello world" program even shorter:
 
 <source lang="perl">
 say 'Hello, world!'
