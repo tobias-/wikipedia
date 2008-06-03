@@ -307,9 +307,9 @@ $count = @friends; # Assigning to a scalar forces scalar context
 
 $#friends; # The index of the last element in @friends
 $#friends+1; # Usually the number of elements in @friends is one more
-# than $#friends because the first element is at index 0,
-# not 1, unless the programmer reset this to a different
-# value, which most Perl manuals discourage.
+ # than $#friends because the first element is at index 0,
+ # not 1, unless the programmer reset this to a different
+ # value, which most Perl manuals discourage.
 </source>
 
 There are a few functions that operate on entire hashes.
