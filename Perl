@@ -606,6 +606,173 @@ There are also many examples of code written purely for entertainment on the [[C
 
 The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for modules that are fun in nature (but its scope has widened to include exploratory or experimental code or any other module that is not meant to ever be used in production). Some of the Acme modules are deliberately implemented in amusing ways. This includes <code>Acme::Bleach</code>, one of the first modules in the <code>Acme::</code> namespace,<ref>{{cite web | url=http://use.perl.org/~acme/journal/200 | title=use Perl; Journal of acme | date=2001-05-23 | author=Brocard, Leon }}</ref> which allows the program's source code to be "whitened" (i.e., all characters replaced with whitespace) and yet still work.
 
+
+
+==== BASIC PERL PROGRAMS ====
+
+         Addition of 2 numbers
+
+#! usr/bin/perl -w
+
+print "Enter two numbers: \n";
+
+$a=;$b=;
+
+$c=$a+$b;
+
+print "The result of addition of two nos. is: \n";
+
+print $c;
+
+
+
+
+
+         Swapping Two numbers without using temporary variable
+
+
+#! usr/bin/perl -w
+
+print "Enter two numbers: \n";
+
+$a=;
+
+$b=;
+
+print "The result after swapping the two nos. is: \n";
+
+$a=$a+$b;
+
+$b=$a-$b;
+
+$a=$a-$b;
+
+print "$a \n$b";
+
+
+
+          Incrementation & Decrementation
+
+#! usr/bin/perl -w
+
+print "Enter a number:\n";
+
+$a=;
+
+print "AUTOINCREMENTATION:\n";
+
+print "\t1.Post incrementation:\t";
+
+print $a++;
+
+print "\t2.Preincrementation:\t";
+
+print ++$a;
+
+print "\nAUTODECREMENTATION:\n";
+
+print "\t1.Post decrementation:\t";
+
+print $a--;
+
+print"\n";
+
+print "\t2.predecrementation:\t";
+
+print --$a;
+
+
+          SIMPLE INTEREST :
+
+#!/usr/bin/perl -w
+print "\n\nenter principal amount\n";
+
+$p=;
+
+print "\n\nenter rate of interest\n";
+
+$r=;
+
+print "\n\nEnter number of years\n";
+
+$n=;
+
+$s=$p*$r*$n/100;
+
+print"\n";
+
+print "\n\nsimple interest=$s";
+
+exit;
+
+
+
+          COMPOUND INTEREST :
+
+#!/usr/bin/perl -w
+
+print "Enter the Principle, Rate of Interest and the Number of years:\n";
+
+$p= ;
+
+$r= ;
+
+$n= ;
+
+print "\n\nThe Principle is Rs. $p\nRate of Interest is $r%\nNumber of years is $n years\n";
+
+$ci= $p*((1+($r/100))**$n);
+
+print "\n\nThe Compound Interest is:\nRs. $ci\n";
+
+exit;
+
+
+
+          PRIME NO. :
+
+#!/usr/bin/perl -w
+
+print "enter a no \n";
+
+$x=;
+
+$i=2;
+
+while($i<$x) 
+
+{ 
+
+if($x%$i==0) 
+
+{ last;
+
+} 
+
+else 
+
+{ 
+
+$i++; 
+
+} 
+
+}
+
+if ($i!=$x)
+
+{ print "the no. entered is not a prime no. \n"; 
+
+} 
+
+else 
+
+{ print "the no entered is a prime no. \n";
+
+}
+
+exit;
+
 == Further reading ==
 * ''[[Learning Perl]]'', Fourth Edition (the ''Llama book''), ISBN 0-596-10105-8
 * ''[[Perl Cookbook]]'', ISBN 0-596-00313-7
