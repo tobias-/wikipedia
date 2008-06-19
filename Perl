@@ -299,7 +299,7 @@ Multiple elements may be accessed by using the <code>@</code> sigil instead (ide
 @favorite{qw(joe sam)} # same as above
 </source>
 
-The number of elements in an array can be obtained by evaluating the array in scalar context or with the help of the <code>$#</code> sigil. The latter gives the index of the last element in the array, not the number of elements. This latter notation is sometimes discouraged, because it tends to be confused with comments. For example, the [[syntax highlighting]] used by Wikipedia mistakenly considers some of this code to be part of the comments.
+The number of elements in an array can be obtained by evaluating the array in scalar context or with the help of the <code>$#</code> sigil. The latter gives the index of the last element in the array, not the number of elements. ''Note: the [[syntax highlighting]] in Wikipedia's software mistakenly considers some of the following code to be part of the comments.''
 
 <source lang="perl">
 $count = @friends; # Assigning to a scalar forces scalar context
