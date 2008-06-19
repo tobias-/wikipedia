@@ -1,7 +1,7 @@
 {{otheruses}}
 {{Infobox programming language
 | name                   = Perl
-| logo                   = [[Image:Programming-republic-of-perl.gif]]
+| logo                   = [[Image:Programming-republic-of-perl.png]]
 | paradigm               = [[Multi-paradigm]]
 | year                   = 1987
 | designer               = [[Larry Wall]]
