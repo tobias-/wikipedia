@@ -650,6 +650,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 [[Category:Scripting languages]]
 [[Category:Text-oriented programming languages]]
 [[Category:Unix software]]
+[[Category:WikiProject Linux articles]]
 
 [[als:Perl]]
 [[ar:بيرل]]
