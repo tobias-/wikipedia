@@ -169,8 +169,9 @@ Most variables are marked by a leading [[Sigil (computer programming)|sigil]], w
 $foo # a scalar
 @foo # an array
 %foo # a hash
-FOO # a file handle or constant
-&foo # a subroutine. (The & is optional)
+FOO # a file handle
+&FOO # a constant (but the & is optional)
+&foo # a subroutine (but the & is optional)
 </source>
 
 [[File handle]]s and constants need not be uppercase, but it is a common convention owing to the fact that there is no sigil to denote them. Both are global in scope, but file handles are interchangeable with references to file handles, which can be stored in scalars, which in turn permit lexical scoping. Doing so is encouraged in [[Damian Conway]]'s ''Perl Best Practices''. As a convenience, the <code>open</code> function in Perl 5.6 and newer will autovivify undefined scalars to file handle references.
