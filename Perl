@@ -29,7 +29,7 @@ Initial design of Perl 5 continued into 1994. ''The perl5-porters'' [[mailing li
 
 Perl 5 was released on [[October 17]], [[1994]]. It was a nearly complete rewrite of the [[interpreter (computing)|interpreter]], and added many new features to the language, including objects, references, [[Local variable|lexical (my) variables]], and modules. Importantly, modules provided a mechanism for extending the language without modifying the interpreter. This allowed the core interpreter to stabilize, even as it enabled ordinary Perl programmers to add new language features.
 
-[[As of 2007]], Perl 5 is still being actively maintained. Important features and some essential new language constructs have been added along the way, including [[Unicode]] support, [[Thread (computer science)|threads]], improved support for [[object oriented programming]] and many other enhancements.
+[[As of 2008]], Perl 5 is still being actively maintained. Important features and some essential new language constructs have been added along the way, including [[Unicode]] support, [[Thread (computer science)|threads]], improved support for [[object oriented programming]] and many other enhancements.
 
 On [[December 18]], [[2007]], the 20th anniversary of Perl 1.0, Perl 5.10.0 was released. Perl 5.10.0 includes notable new features, which bring it closer to [[Perl 6]], among them a new [[switch statement]] (called "given/when"), regular expressions updates, the "smart match operator" ~~, and more.<ref>[http://search.cpan.org/~rgarcia/perl-5.10.0-RC2/pod/perl5100delta.pod perldelta—what is new for perl 5.10.0]</ref>
 
