@@ -306,9 +306,6 @@ The number of elements in an array can be obtained by evaluating the array in sc
 <source lang="perl">
 $count = @friends; # Assigning to a scalar forces scalar context
 
-# The following notation is sometimes discouraged, because it tends
-# to be confused with comments. 
-
 $#friends; # The index of the last element in @friends
 $#friends+1; # Usually the number of elements in @friends is one more
  # than $#friends because the first element is at index 0,
