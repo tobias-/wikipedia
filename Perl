@@ -566,10 +566,9 @@ At the 2000 [[Perl Conference]], [[Jon Orwant]] made a case for a major new lang
 Perl 6 is not intended to be backward compatible, though there will be a compatibility mode.
 
 Thesis work by [[Bradley M. Kuhn]], overseen by Larry Wall, considered the possible use of the [[Java virtual machine]] as a runtime for Perl.<ref>{{cite paper
+  | last = Kuhn
   | first = Bradley
-  | last =  Kuhn
-  | author = Bradley M. Kuhn
-  | authorlink = [[Bradley M. Kuhn]]
+  | authorlink = Bradley M. Kuhn
   | title = Considerations on Porting Perl to the Java Virtual Machine
   | publisher = University of Cincinnati
   | date = [[January 2001]]
