@@ -705,6 +705,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 [[sk:Perl]]
 [[sl:Perl]]
 [[sr:Програмски језик Перл]]
+[[sh:Perl]]
 [[fi:Perl]]
 [[sv:Perl]]
 [[ta:பெர்ள்]]
