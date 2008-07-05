@@ -632,6 +632,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 * [[Perl 6]]
 * [[Comparison of programming languages]]
 * [[Autovivification]]
+* [[Common Gateway Interface]](CGI)
 
 == References ==
 {{reflist|2}}
