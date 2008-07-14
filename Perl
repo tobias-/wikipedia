@@ -1,5 +1,5 @@
-{{otheruses}}
-{{tooshort}}
+
+
 {{Infobox programming language
 | name                   = Perl
 | logo                   = [[Image:Programming-republic-of-perl.png]]
