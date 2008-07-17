@@ -643,6 +643,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 {{wikiversity2|Topic:Perl}}
 * [http://www.perl.org/ Perl.org]—Official Perl website
 * [http://perldoc.perl.org/ Perl documentation]
+* [http://www.guruperl.net/ Professional Perl scripts]
 * [http://www.perlfoundation.org/ The Perl Foundation]
 * [http://www.perlfoundation.org/perl5/ Official Perl 5 Wiki]
 * {{dmoz|Computers/Programming/Languages/Perl/|Perl}}
