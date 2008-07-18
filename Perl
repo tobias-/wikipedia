@@ -646,6 +646,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 * [http://www.perlfoundation.org/ The Perl Foundation]
 * [http://www.perlfoundation.org/perl5/ Official Perl 5 Wiki]
 * {{dmoz|Computers/Programming/Languages/Perl/|Perl}}
+* [http://www.cgiscript.net Try some free Perl scripts to help you understand how they work.]
 
 {{FOSS}}
 
