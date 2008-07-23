@@ -59,7 +59,6 @@ The language is intended to be practical (easy to use, efficient, complete) rath
 
 According to Larry Wall, Perl has two slogans. The first is   "There's more than one way to do it", commonly known as TMTOWTDI and the second is "Easy things should be easy and hard things should be possible".<ref>[http://www.techweb.com/wire/story/TWB19980408S0020-Q&A With Larry Wall, Creator Of Perl]</ref>
 
-
 === Features ===
 The overall structure of Perl derives broadly from C. Perl is procedural in nature, with [[variable]]s, [[expression (programming)|expressions]], [[assignment statement]]s, [[bracket|brace]]-delimited [[code block]]s, [[control structure]]s, and [[subroutine]]s.
 
