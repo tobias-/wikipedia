@@ -7,6 +7,7 @@
 | designer               = [[Larry Wall]]
 | latest_release_version = 5.10.0
 | latest_release_date    = {{release date|2007|12|18}}
+| turing-complete        = Yes
 | typing = Dynamic
 | influenced_by          = [[AWK (programming language)|AWK]], [[BASIC]], [[BASIC-PLUS]], [[C (programming language)|C]], [[C++]], [[Lisp (programming language)|Lisp]], [[Pascal (programming language)|Pascal]], [[sed]], [[Unix shell]]
 | influenced             = [[Python (programming language)|Python]], [[PHP]], [[Ruby (programming language)|Ruby]], [[ECMAScript]], [[Dao (programming language)|Dao]], [[Windows PowerShell]]
