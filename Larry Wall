@@ -36,7 +36,7 @@ Wall continues to oversee further development of Perl and serves as the [[Benevo
 
 # Larry is always by definition right about how Perl should behave. This means he has final veto power on the core functionality.
 # Larry is allowed to change his mind about any matter at a later date, regardless of whether he previously invoked Rule 1.
-:: Got that? Larry is always right, even when he was wrong. {{Fact}}
+:: Got that? Larry is always right, even when he was wrong. {{Fact|date=August 2008}}
 
 Wall along with [[Randal L. Schwartz]] and [[Tom Christiansen]] writing in the second edition of ''[[Programming Perl]]'', outlined the ''Three Virtues of a Programmer'':
 
@@ -78,7 +78,6 @@ Please note that as the State of the Onion speeches are often primarily based on
 |DATE OF DEATH=
 |PLACE OF DEATH=
 }}
-
 {{DEFAULTSORT:Wall, Larry}}
 [[Category:1954 births]]
 [[Category:Living people]]
