@@ -494,7 +494,7 @@ Regular expression syntax is extremely compact, owing to history. The first regu
 The <code>m//</code> (match) operator introduces a regular expression match. (If it is delimited by slashes, as in all the examples here, then the leading <code>m</code> may be omitted for brevity. If the <code>m</code> is present, as in all the following examples, other delimiters can be used in place of slashes.) In the simplest case, an expression like
 
 <source lang="perl">
-$x =~ m/abc/
+$x =~ m/abc/;
 </source>
 
 evaluates to true [[if and only if]] the string <code>$x</code> matches the regular expression <code>abc</code>.
