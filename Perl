@@ -494,7 +494,7 @@ Regular expression syntax is extremely compact, owing to history. The first regu
 The <code>m//</code> (match) operator introduces a regular expression match. (If it is delimited by slashes, as in all the examples here, then the leading <code>m</code> may be omitted for brevity. If the <code>m</code> is present, as in all the following examples, other delimiters can be used in place of slashes.) In the simplest case, an expression like
 
 <source lang="perl">
-$x =~ m/abc/;
+$x =~ /abc/;
 </source>
 
 evaluates to true [[if and only if]] the string <code>$x</code> matches the regular expression <code>abc</code>.
@@ -508,7 +508,7 @@ $x =~ s/abc/aBc/; # upcase the b
 Another use of regular expressions is to specify delimiters for the <code>split</code> function:
 
 <source lang="perl">
-@words = split m/,/, $line;
+@words = split /,/, $line;
 </source>
 
 The <code>split</code> function creates a list of the parts of the string separated by matches of the regular expression. In this example, a line is divided into a list of its comma-separated parts, and this list is then assigned to the <code>@words</code> array.
@@ -517,20 +517,20 @@ The <code>split</code> function creates a list of the parts of the string separa
 Portions of a regular expression may be enclosed in parentheses; corresponding portions of a matching string are ''captured''. Captured strings are assigned to the sequential built-in variables <code>$1, $2, $3, ...</code>, and a list of captured strings is returned as the value of the match.
 
 <source lang="perl">
-$x =~ m/a(.)c/; # capture the character between 'a' and 'c'
+$x =~ /a(.)c/; # capture the character between 'a' and 'c'
 </source>
 
 Perl regular expressions can take ''modifiers''. These are single-letter suffixes that modify the meaning of the expression:
 
 <source lang="perl">
-$x =~ m/abc/i; # case-insensitive pattern match
+$x =~ /abc/i; # case-insensitive pattern match
 $x =~ s/abc/aBc/g; # global search and replace
 </source>
 
 Since regular expressions can be dense and cryptic because of their compact syntax, the <code>/x</code> modifier was added in Perl to help programmers write more legible regular expressions. It allows programmers to place whitespace and comments ''inside'' regular expressions:
 
 <source lang="perl">
-$x =~ m/a # match 'a'
+$x =~ /a # match 'a'
  . # followed by any character
  c # then followed by the 'c'character
  /x;
