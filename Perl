@@ -674,7 +674,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 [[cy:Perl]]
 [[da:Perl]]
 [[pdc:Perl]]
-[[de:Perl]]
+[[de:Perl_(Programmiersprache)]]
 [[et:Perl]]
 [[el:Perl]]
 [[es:Perl]]
