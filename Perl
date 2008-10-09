@@ -3,7 +3,7 @@
 {{Infobox programming language
 | name                   = Perl
 | logo                   = [[Image:Programming-republic-of-perl.png]]
-| paradigm               = [[Multi-paradigm]]
+| paradigm               = [[multi-paradigm]]: [[Functional programming|functional]], [[Imperative programming|imperative]], [[Object-oriented programming|object-oriented]] ([[Class (computer science)|class-based]])
 | year                   = 1987
 | designer               = [[Larry Wall]]
 | latest_release_version = 5.10.0
