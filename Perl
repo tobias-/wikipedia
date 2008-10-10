@@ -670,6 +670,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 [[Category:Scripting languages]]
 [[Category:Text-oriented programming languages]]
 [[Category:Unix software]]
+[[Category:Cross-platform software]]
 
 [[als:Perl]]
 [[ar:بيرل]]
