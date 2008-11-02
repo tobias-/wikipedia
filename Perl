@@ -1,4 +1,4 @@
-{{pp-semi-protected|expiry=November 5, 2008}}
+{{pp-semi|small=yes}}
 {{otheruses}}
 {{Infobox programming language
 | name                   = Perl
