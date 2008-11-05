@@ -1,4 +1,3 @@
-{{pp-semi|small=yes}}
 {{otheruses}}
 {{Infobox programming language
 | name                   = Perl
