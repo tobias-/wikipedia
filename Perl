@@ -625,6 +625,13 @@ There are also many examples of code written purely for entertainment on the [[C
 
 The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for modules that are fun in nature (but its scope has widened to include exploratory or experimental code or any other module that is not meant to ever be used in production). Some of the Acme modules are deliberately implemented in amusing ways. This includes <code>Acme::Bleach</code>, one of the first modules in the <code>Acme::</code> namespace,<ref>{{cite web | url=http://use.perl.org/~acme/journal/200 | title=use Perl; Journal of acme | date=2001-05-23 | author=Brocard, Leon }}</ref> which allows the program's source code to be "whitened" (i.e., all characters replaced with whitespace) and yet still work.
 
+==Criticisms of Perl==
+While Perl has on the whole been well-recieved, there are discordant voices sometimes raised:
+<blockquote>Unfortunately, if you're not a programmer, you will download Perl and have absolutely no clue what is supposed to be happening:  it does not work upon extracting it, there are no config or install programs to run, and no documentation or readme either.  You're apparently supposed to "just know" what you're doing.</blockquote>
+--Searching for <b>Perl:  WTF?</b> will put you in contact with such people.
+
+(Regrettably, this article does not clarify things for them.)
+
 == Further reading ==
 * ''[[Learning Perl]]'', Fifth Edition (the ''Llama book''), ISBN 0-596-52010-6
 * ''[[Perl Cookbook]]'', ISBN 0-596-00313-7
