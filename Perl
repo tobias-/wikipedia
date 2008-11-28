@@ -182,7 +182,6 @@ $foo # a scalar
 @foo # an array
 %foo # a hash
 FOO # a file handle
-&FOO # a constant (but the & is optional)
 &foo # a subroutine (but the & is optional)
 </source>
 
