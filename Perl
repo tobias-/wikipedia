@@ -624,6 +624,16 @@ There are also many examples of code written purely for entertainment on the [[C
 
 The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for modules that are fun in nature (but its scope has widened to include exploratory or experimental code or any other module that is not meant to ever be used in production). Some of the Acme modules are deliberately implemented in amusing ways. This includes <code>Acme::Bleach</code>, one of the first modules in the <code>Acme::</code> namespace,<ref>{{cite web | url=http://use.perl.org/~acme/journal/200 | title=use Perl; Journal of acme | date=2001-05-23 | author=Brocard, Leon }}</ref> which allows the program's source code to be "whitened" (i.e., all characters replaced with whitespace) and yet still work.
 
+==Criticism==
+Some common points of criticism:
+* Programs written in Perl are harder than many other contemporary program-languages for humans to read and grasp, unless you have studied the many syntactical constructs in detail. This is attributed to rich set of peculiar punctuation syntax, the same symbols are used to mean many different things in different contexts, peculiar special-variable names (like $_, $\, @_, etc), to name a few common arguments.
+* While Perl claims to support object-oriented programming (OOP), the way it is implemented is very different from other mainstream OOP languages, like Java, C#, C++, Object-Pascal, etc, and by many perceived as inelegant and error-prone.
+* Lack of proper type-system and type-checking.
+* Some powerful features (like backticks in user-input data) require very careful programming to avoid security-holes.
+* Peculiar way of passing arguments to functions.
+* Lack of list-of-lists or multidimensional arrays (requires references workaround).
+* Lack of a proper specification for the language. The de facto "specification" is the source-code of the interpreter.
+
 == Further reading ==
 * ''[[Learning Perl]]'', Fifth Edition (the ''Llama book''), ISBN 0-596-52010-6
 * ''[[Perl Cookbook]]'', ISBN 0-596-00313-7
