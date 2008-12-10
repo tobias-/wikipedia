@@ -626,13 +626,15 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 
 ==Criticism==
 Some common points of criticism:
-* Programs written in Perl are harder than many other contemporary program-languages for humans to read and grasp, unless you have studied the many syntactical constructs in detail. This is attributed to rich set of peculiar punctuation syntax, the same symbols are used to mean many different things in different contexts, peculiar special-variable names (like $_, $\, @_, etc), to name a few common arguments.
-* While Perl claims to support object-oriented programming (OOP), the way it is implemented is very different from other mainstream OOP languages, like Java, C#, C++, Object-Pascal, etc, and by many perceived as inelegant and error-prone.
-* Lack of proper type-system and type-checking.
-* Some powerful features (like backticks in user-input data) require very careful programming to avoid security-holes.
-* Peculiar way of passing arguments to functions.
-* Lack of list-of-lists or multidimensional arrays (requires references workaround).
-* Lack of a proper specification for the language. The de facto "specification" is the source-code of the interpreter.
+* Perl code is often considered noisy because the language uses more punctuation than typical.
+* Many behaviours are controlled by special global variables with single-character non-alphabetical names.
+* Carelessly written Perl programs are hard to read because of prevalent punctuation and high syntactic flexibility.
+* Object orientation support is restricted to a mechanism for invoking methods via a reference. There is no provision for instance data beyond the reference itself, and the usual way of storing instance data (using a hash reference as the object and storing instance data as keys in that hash) lacks protection against typos, requires knowledge of the superclass implementation in subclasses, and is vulnerable to name collisions.
+* Perl OOP has no obvious mechanism for class-private methods.
+* It's a dynamic language, which leads to the usual dynamic-vs.-static arguments.
+* Parameters are passed to subroutines in an array rather than via formal, named arguments. (The next major release, 5.12, will probably address this.)
+* Nested lists flatten unless the structure is explicitly conserved with reference constructors. This is equivalent in expressiveness to the more common design of implicit references with explicit flattening, but is often mistaken for a lack of nested data structures.
+* There is no proper specification for the language. The language is defined by the behaviour of its sole implementation.
 
 == Further reading ==
 * ''[[Learning Perl]]'', Fifth Edition (the ''Llama book''), ISBN 0-596-52010-6
