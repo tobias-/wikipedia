@@ -635,6 +635,7 @@ Some common points of criticism:
 * Parameters are passed to subroutines in an array rather than via formal, named arguments. (The next major release, 5.12, will probably address this.)
 * Nested lists flatten unless the structure is explicitly conserved with reference constructors. This is equivalent in expressiveness to the more common design of implicit references with explicit flattening, but is often mistaken for a lack of nested data structures.
 * There is no proper specification for the language. The language is defined by the behaviour of its sole implementation.
+* There are TOO many ways to do it! :)
 
 == Further reading ==
 * ''[[Learning Perl]]'', Fifth Edition (the ''Llama book''), ISBN 0-596-52010-6
