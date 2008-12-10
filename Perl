@@ -9,7 +9,7 @@
 | latest_release_date    = {{release date|mf=yes|2007|12|18}}
 | turing-complete        = Yes
 | typing = Dynamic
-| influenced_by          = [[AWK (programming language)|AWK]], [[BASIC]], [[BASIC-PLUS]], [[C (programming language)|C]], [[C++]], [[Lisp (programming language)|Lisp]], [[Pascal (programming language)|Pascal]], [[sed]], [[Unix shell]]
+| influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[C (programming language)|C]], [[C++]],  [[Pascal (programming language)|Pascal]], [[sed]], [[Unix shell]]
 | influenced             = [[Python (programming language)|Python]], [[PHP]], [[Ruby (programming language)|Ruby]], [[ECMAScript]], [[Dao (programming language)|Dao]], [[Windows PowerShell]], [[JavaScript]]
 | operating_system       = [[Cross-platform]]
 | license                = [[GNU General Public License]], [[Artistic License]]
