@@ -62,7 +62,7 @@ O'Reilly owns the image as a trademark, but claims to use their legal rights onl
 O'Reilly allows non-commercial use of the symbol, and provides ''Programming Republic of Perl'' logos and ''Powered by Perl'' buttons.<ref>[http://www.oreillynet.com/images/perl/ Index of /images/perl<!-- Bot generated title -->]</ref> However the Camel has never been meant to be an ''official'' Perl symbol, and if one is to be considered instead, then it's ''an onion.''<ref>[http://www.perlfoundation.org/perl_trademark Perl Trademark, User Logos, Perl Marks and more]</ref>
 
 == Overview ==
-Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including [[system administration]], [[web development]], [[Computer network programming|network programming]], [[GUI]] development, and more.
+Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including [[system administration]], [[web development]], [[Computer network programming|network programming]] and [[GUI]] development.
 
 The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal).<ref>perlintro(1) [[man page]]</ref> Its major features include support for multiple [[Programming paradigm|programming paradigms]] ([[procedural programming language|procedural]], [[Object-oriented programming|object-oriented]], and [[functional programming|functional]] styles), [[reference counting]] [[memory management]] (without a cycle-detecting garbage collector), built-in support for text processing, and a large collection of third-party [[Module (programming)|modules]].
 
