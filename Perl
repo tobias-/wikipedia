@@ -636,6 +636,10 @@ Some common points of criticism:
 * Nested lists flatten unless the structure is explicitly conserved with reference constructors. This is equivalent in expressiveness to the more common design of implicit references with explicit flattening, but is often mistaken for a lack of nested data structures.
 * There is no proper specification for the language. The language is defined by the behaviour of its sole implementation.
 
+<blockquote>
+"...today a large number of people continue to use AWK, saying languages such as Perl have become too complicated. Some say Perl has become such a complex language that it's become almost impossible to understand the programs once they've been written." - Alfred V. Aho <ref>http://www.computerworld.com.au/index.php/id;1726534212;pp;3</ref>
+</blockquote>
+
 == Further reading ==
 * ''[[Learning Perl]]'', Fifth Edition (the ''Llama book''), ISBN 0-596-52010-6
 * ''[[Perl Cookbook]]'', ISBN 0-596-00313-7
