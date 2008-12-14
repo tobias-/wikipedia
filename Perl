@@ -628,7 +628,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 Some common points of criticism:
 * Perl code is often considered noisy because the language uses more punctuation than typical.
 * Many behaviours are controlled by special global variables with single-character non-alphabetical names.
-* Carelessly written Perl programs are hard to read because of prevalent punctuation and high syntactic flexibility. See also [[ Write-only language ]].
+* Carelessly written Perl programs are hard to read because of prevalent punctuation and high syntactic flexibility. See also [[ Write-only language]].
 * Object orientation support is restricted to a mechanism for invoking methods via a reference. There is no provision for instance data beyond the reference itself, and the usual way of storing instance data (using a hash reference as the object and storing instance data as keys in that hash) lacks protection against typos, requires knowledge of the superclass implementation in subclasses, and is vulnerable to name collisions.
 * Perl OOP has no obvious mechanism for class-private methods.
 * It's a dynamic language, which leads to the usual dynamic-vs.-static arguments.
