@@ -625,22 +625,6 @@ There are also many examples of code written purely for entertainment on the [[C
 
 The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for modules that are fun in nature (but its scope has widened to include exploratory or experimental code or any other module that is not meant to ever be used in production). Some of the Acme modules are deliberately implemented in amusing ways. This includes <code>Acme::Bleach</code>, one of the first modules in the <code>Acme::</code> namespace,<ref>{{cite web | url=http://use.perl.org/~acme/journal/200 | title=use Perl; Journal of acme | date=2001-05-23 | author=Brocard, Leon }}</ref> which allows the program's source code to be "whitened" (i.e., all characters replaced with whitespace) and yet still work.
 
-==Criticism==
-Some common points of criticism:
-* Perl code is often considered noisy because the language uses more punctuation than typical.
-* Many behaviours are controlled by special global variables with single-character non-alphabetical names.
-* Carelessly written Perl programs are hard to read because of prevalent punctuation and high syntactic flexibility. See also [[ Write-only language]].
-* Object orientation support is restricted to a mechanism for invoking methods via a reference. There is no provision for instance data beyond the reference itself, and the usual way of storing instance data (using a hash reference as the object and storing instance data as keys in that hash) lacks protection against typos, requires knowledge of the superclass implementation in subclasses, and is vulnerable to name collisions.
-* Perl OOP has no obvious mechanism for class-private methods.
-* It's a dynamic language, which leads to the usual dynamic-vs.-static arguments.
-* Parameters are passed to subroutines in an array rather than via formal, named arguments. (The next major release, 5.12, will probably address this.)
-* Nested lists flatten unless the structure is explicitly conserved with reference constructors. This is equivalent in expressiveness to the more common design of implicit references with explicit flattening, but is often mistaken for a lack of nested data structures.
-* There is no proper specification for the language. The language is defined by the behaviour of its sole implementation.
-
-<blockquote>
-"...today a large number of people continue to use AWK, saying languages such as Perl have become too complicated. Some say Perl has become such a complex language that it's become almost impossible to understand the programs once they've been written." - Alfred V. Aho <ref>http://www.computerworld.com.au/index.php/id;1726534212;pp;3</ref>
-</blockquote>
-
 == Further reading ==
 * ''[[Learning Perl]]'', Fifth Edition (the ''Llama book''), ISBN 0-596-52010-6
 * ''[[Perl Cookbook]]'', ISBN 0-596-00313-7
