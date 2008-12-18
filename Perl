@@ -144,6 +144,7 @@ To address this and other problems of Perl on the Windows platform, [http://win3
 Another popular way of running Perl under Windows is provided by the [[Cygwin]] emulation layer. Cygwin provides a Unix-like environment on Windows and both perl and cpan are conveniently available as standard pre-compiled packages in the Cygwin setup program. Since Cygwin also includes the [[GNU Compiler Collection|gcc]], compiling Perl from source is also possible.
 
 == Language structure ==
+{{manual|section}}
 In Perl, the minimal [[Hello world]] program may be written as follows:
 <source lang="perl">
 print "Hello, world!\n"
