@@ -631,20 +631,15 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 * ''[[Programming Perl]]'', (the ''Camel book''), ISBN 0-596-00027-8
 
 == See also ==
-{{portal|Free software|Free Software Portal Logo.svg}}
-* [[The Perl Foundation]]
-* [[v:Topic:Perl|Perl]] instruction at Wikiversity—you can use the training and/or help add to it
-* [[Perl Object Environment]] (POE)—a framework for writing persistent object-oriented environments with [[event loop]]s.
-* [[Perl Data Language]] (PDL)—a Perl module which allows extending Perl for higher-order scientific processing.
-* [[Plain Old Documentation]] (POD)—a documentation tool for Perl.
-* [[Just another Perl hacker]] (JAPH)
-* [[Perl Monks]]
-* [[Perl Mongers]]
+{{fossportal}}
+
+* [[Perl Object Environment]]
+* [[Perl Data Language]]
+* [[Plain Old Documentation]]
+* [[Just another Perl hacker]]
 * [[PerlScript]]
-* [[Perl 6]]
 * [[Comparison of programming languages]]
 * [[Autovivification]]
-* [[Common Gateway Interface]] (CGI)
 
 == References ==
 {{reflist|2}}
