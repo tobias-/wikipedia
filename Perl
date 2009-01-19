@@ -181,9 +181,9 @@ The canonical form of the program is slightly more verbose:
 print "Hello, world!\n";
 </source>
 
-The hash mark character introduces a [[comment (computer programming)|comment]] in Perl, which runs up to the end of the line of code and is ignored by the compiler. The comment used here is of a special kind: it’s called the [[Shebang (Unix)|shebang]] line. This tells Unix-like operating systems where to find the Perl interpreter, making it possible to invoke the program without explicitly mentioning <code>perl</code>. (Note that on [[Microsoft Windows]] systems, Perl programs are typically invoked by associating the <code>.pl</code> [[Filename extension|extension]] with the Perl interpreter. In order to deal with such circumstances, <code>perl</code> detects the shebang line and parses it for switches,<ref name="perlrun">{{cite web | url=http://perldoc.perl.org/perlrun.html#DESCRIPTION | title=perlrun manpage}}</ref> so it is not strictly true that the shebang line is ignored by the compiler.)
+The hash mark character introduces a [[comment (computer programming)|comment]] in Perl, which runs up to the end of the line of code and is ignored by the compiler. The comment used here is of a special kind: it’s called the [[Shebang (Unix)|shebang]] line. This tells Unix-like operating systems where to find the Perl interpreter, making it possible to invoke the program without explicitly mentioning <code>perl</code>. (Note that, on [[Microsoft Windows]] systems, Perl programs are typically invoked by associating the <code>.pl</code> [[Filename extension|extension]] with the Perl interpreter. In order to deal with such circumstances, <code>perl</code> detects the shebang line and parses it for switches;<ref name="perlrun">{{cite web | url=http://perldoc.perl.org/perlrun.html#DESCRIPTION | title=perlrun manpage}}</ref> therefore, it is not strictly true that the shebang line is ignored by the compiler.)
 
-The second line in the canonical form includes a semicolon, which is used to separate statements in Perl. With only a single statement in a block or file, a separator is unnecessary, so it can be omitted from the minimal form of the program—or more generally from the final statement in any block or file. The canonical form includes it because it is common to terminate every statement even when it is unnecessary to do so, as this makes editing easier: code can be added to or moved away from the end of a block or file without having to adjust semicolons.
+The second line in the canonical form includes a semicolon, which is used to separate statements in Perl. With only a single statement in a block or file, a separator is unnecessary, so it can be omitted from the minimal form of the program—or more generally from the final statement in any block or file. The canonical form includes it because it is common to terminate every statement even when it is unnecessary to do so, as this makes editing easier: code can be added to, or moved away from, the end of a block or file without having to adjust semicolons.
 
 Version 5.10 of Perl introduces a <code>say</code> function that implicitly appends a newline character to its output, making the minimal "Hello world" program even shorter:
 
@@ -192,11 +192,11 @@ say 'Hello, world!'
 </source>
 
 === Data types ===
-Perl has a number of fundamental [[data type]]s, the most commonly used and discussed being: [[Scalar (computing)|scalars]], [[array]]s, [[Hash table|hashes]], [[filehandle]]s and [[subroutines]]:
-* A [[Scalar (computing)|scalar]] is a single value; it may be a number, a [[String (computer science)|string]] or a [[Reference (computer science)|reference]]
-* An [[array]] is an ordered collection of scalars
-* A hash, or [[associative array]], is a map from strings to scalars; the strings are called ''keys'' and the scalars are called ''values''.
-* A [[file handle]] is a map to a file, device, or pipe which is open for reading, writing, or both.
+Perl has a number of fundamental [[data type]]s. The most commonly used and discussed data types are [[Scalar (computing)|scalars]], [[array]]s, [[Hash table|hashes]], [[filehandle]]s, and [[subroutines]]:
+* A [[Scalar (computing)|scalar]] is a single value; it may be a number, a [[String (computer science)|string]], or a [[Reference (computer science)|reference]].
+* An [[array]] is an ordered collection of scalars.
+* A hash, or [[associative array]], is a map from strings to scalars; the strings are called ''keys'', and the scalars are called ''values''.
+* A [[file handle]] is a map to a file, device, or pipe that is open for reading, writing, or both.
 * A subroutine is a piece of code that may be passed arguments, be executed, and return data
 
 Most variables are marked by a leading [[Sigil (computer programming)|sigil]], which identifies the data type being accessed (not the type of the variable itself), except filehandles, which don't have a sigil. The same name may be used for variables of different data types, without conflict.
@@ -238,7 +238,7 @@ note that I am terminating it with the "EOF" word.
 EOF
 </source>
 
-Perl will convert strings into numbers and vice versa depending on the context in which they are used. In the following example the strings $n and $m are treated as numbers when they are the arguments to the addition operator. This code prints the number '5', discarding non numeric information for the operation, although the variable values remain the same. (The string concatenation operator is the period, not the <code>+</code> symbol.)
+Perl will convert strings into numbers and vice versa depending on the context in which they are used. In the following example, the strings $n and $m are treated as numbers when they are the arguments to the addition operator. This code prints the number '5', discarding non-numeric information for the operation, although the variable values remain the same. (The string concatenation operator is the period, not the <code>+</code> symbol.)
 
 <source lang="perl">
 $n = '3 apples';
@@ -258,9 +258,9 @@ $false = ""; # the empty string
 $false = undef; # the return value from undef
 </source>
 
-All other values are evaluated to true. This includes the odd self-describing literal string of "0 but true", which in fact is 0 as a number, but true when used as a boolean. (Any non-numeric string would also have this property, but this particular string is ignored by Perl with respect to numeric warnings.) A less explicit but more conceptually portable version of this string is '0E0' or '0e0', which does not rely on characters being evaluated as 0, as '0E0' is literally "zero times ten to the zeroth power."
+All other values are evaluated to true. This includes the odd self-describing literal string of "0 but true," which in fact is 0 as a number, but true when used as a boolean. (Any non-numeric string would also have this property, but this particular string is ignored by Perl with respect to numeric warnings.) A less-explicit but more conceptually portable version of this string is '0E0' or '0e0', which does not rely on characters being evaluated as 0, because '0E0' is literally "zero times ten to the zeroth power."
 
-Evaluated boolean expressions also return scalar values. Although the documentation does not promise which ''particular'' true or false is returned (and thus cannot be relied on), many boolean operators return 1 for true and the empty-string for false (which evaluates to zero in a numeric context). The ''defined()'' function tells if the variable has any value set. In the above examples ''defined($false)'' is true for every value except ''undef''.
+Evaluated boolean expressions also return scalar values. Although the documentation does not promise which ''particular'' true or false is returned (and thus cannot be relied on), many boolean operators return 1 for true and the empty-string for false (which evaluates to zero in a numeric context). The ''defined()'' function tells if the variable has any value set. In the above examples, ''defined($false)'' is true for every value except ''undef''.
 
 If a specifically 1 or 0 result (as in C) is needed, an explicit conversion is thought by some authors to be required:
 
@@ -383,7 +383,7 @@ It has block-oriented control structures, similar to those in the C, [[Javascrip
  if ( ''cond'' ) { ... } else { ... }
  if ( ''cond'' ) { ... } elsif ( ''cond'' ) { ... } else { ... }
 
-Where only a single statement is being controlled, statement modifiers provide a more concise syntax:
+Where only a single statement is being controlled, statement modifiers provide a more-concise syntax:
 
  ''statement'' if ''cond'' ;
  ''statement'' unless ''cond'' ;
@@ -411,20 +411,20 @@ Perl also has two implicit looping constructs, each of which has two forms:
 
 <code>grep</code> returns all elements of ''list'' for which the controlled block or expression evaluates to true. <code>map</code> evaluates the controlled block or expression for each element of ''list'' and returns a list of the resulting values. These constructs enable a simple [[functional programming]] style.
 
-Up until the 5.10.0 release, there was no [[switch statement]] in Perl 5. From 5.10.0 onwards, a multi-way branch statement called <code>given</code>/<code>when</code> is available, which takes the following form:
+Up until the 5.10.0 release, there was no [[switch statement]] in Perl 5. From 5.10.0 onward, a multi-way branch statement called <code>given</code>/<code>when</code> is available, which takes the following form:
 
  given ( ''expr'' ) { when ( ''cond'' ) { ... } default { ... } }
 
-Syntactically, this structure behaves similarly to [[switch statement]]s found in other languages, but with a few important differences.  The largest is that unlike switch/case structures, given/when statements break execution after the first successful branch, rather than waiting for explicitly defined break commands.  Conversely, explicit continues are instead necessary to emulate switch behavior.
+Syntactically, this structure behaves similarly to [[switch statement]]s found in other languages, but with a few important differences. The largest is that unlike switch/case structures, given/when statements break execution after the first successful branch, rather than waiting for explicitly defined break commands. Conversely, explicit continues are instead necessary to emulate switch behavior.
 
 For those not using the 5.10.0 release, the Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures. There is also a [http://search.cpan.org/perldoc/Switch Switch] module, which provides functionality modeled on the forthcoming [[Perl 6]] re-design. It is implemented using a [[source filter]], so its use is unofficially discouraged.<ref>[http://www.perlmonks.org/?node_id=496084 using switch<!-- Bot generated title -->]</ref>
 
-Perl includes a <code>goto label</code> statement, but it is rarely used. Situations where a <code>goto</code> is called for in other languages don't occur as often in Perl due to its breadth of flow control options.
+Perl includes a <code>goto label</code> statement, but it is rarely used. Situations where a <code>goto</code> is called for in other languages don't occur as often in Perl because of its breadth of flow-control options.
 
-There is also a <code>goto &sub</code> statement that performs a [[tail call]]. It terminates the current subroutine and immediately calls the specified <code>''sub''</code>. This is used in situations where a caller can perform more efficient [[Call stack|stack]] management than Perl itself (typically because no change to the current stack is required), and in deep recursion tail calling can have substantial positive impact on performance because it avoids the overhead of scope/stack management on return.
+There is also a <code>goto &sub</code> statement that performs a [[tail call]]. It terminates the current subroutine and immediately calls the specified <code>''sub''</code>. This is used in situations where a caller can perform more-efficient [[Call stack|stack]] management than Perl itself (typically because no change to the current stack is required), and in deep recursion, tail calling can have substantial positive impact on performance because it avoids the overhead of scope/stack management on return.
 
 === Subroutines ===
-[[Subroutine]]s are defined with the <code>sub</code> keyword, and invoked simply by naming them. If the subroutine in question has not yet been declared, invocation requires either parentheses after the function name or an ampersand ('''&''') before it. But using '''&''' without parentheses will also implicitly pass the arguments of the current subroutine to the one called, and using '''&''' with parentheses will bypass prototypes.
+[[Subroutine]]s are defined with the <code>sub</code> keyword and are invoked simply by naming them. If the subroutine in question has not yet been declared, invocation requires either parentheses after the function name or an ampersand ('''&''') before it. But using '''&''' without parentheses will also implicitly pass the arguments of the current subroutine to the one called, and using '''&''' with parentheses will bypass prototypes.
 
 <source lang="perl">
 # Calling a subroutine
@@ -446,7 +446,7 @@ foo $x, @y, %z;
 </source>
 The parameters to a subroutine do not need to be declared as to either number or type; in fact, they may vary from call to call. Any validation of parameters must be performed explicitly inside the subroutine.
 
-Arrays are expanded to their elements, hashes are expanded to a list of key/value pairs, and the whole lot is passed into the subroutine as one flat list of scalars.
+Arrays are expanded to their elements; hashes are expanded to a list of key/value pairs; and the whole lot is passed into the subroutine as one flat list of scalars.
 
 Whatever arguments are passed are available to the subroutine in the special array <code>@_</code>. The elements of <code>@_</code> are aliased to the actual arguments; changing an element of <code>@_</code> changes the corresponding argument.
 
@@ -466,13 +466,13 @@ One common idiom is to assign <code>@_</code> to a list of named variables.
 
 This provides mnemonic parameter names and implements [[Evaluation strategy#Call by value|pass-by-value]] semantics. The <code>my</code> keyword indicates that the following variables are lexically scoped to the containing block.
 
-Another idiom is to shift parameters off of <code>@_</code>. This is especially common when the subroutine takes only one argument, or for handling the <code>$self</code> argument in object-oriented modules.
+Another idiom is to shift parameters off of <code>@_</code>. This is especially common when the subroutine takes only one argument or for handling the <code>$self</code> argument in object-oriented modules.
 
 <source lang="perl">
 my $x = shift;
 </source>
 
-Subroutines may assign <code>@_</code> to a hash to simulate named arguments; this is recommended in ''Perl Best Practices'' for subroutines that are likely ever to have more than three parameters.<ref>
+Subroutines may assign <code>@_</code> to a hash to simulate named arguments; this is recommended in ''Perl Best Practices'' for subroutines that are likely to ever have more than three parameters.<ref>
 Damian Conway, ''[http://www.oreilly.com/catalog/perlbp/chapter/ch09.pdf Perl Best Practices]'', p.182</ref>
 
 <source lang="perl">
@@ -515,14 +515,14 @@ $x = either; # returns "Oranges"
 </source>
 
 === Regular expressions ===
-The Perl language includes a specialized syntax for writing [[regular expression]]s (RE, or regexes), and the interpreter contains an engine for matching strings to regular expressions. The regular expression engine uses a [[backtracking]] algorithm, extending its capabilities from simple pattern matching to string capture and substitution. The regular expression engine is derived from regex written by [[Henry Spencer]].
+The Perl language includes a specialized syntax for writing [[regular expression]]s (RE, or regexes), and the interpreter contains an engine for matching strings to regular expressions. The regular-expression engine uses a [[backtracking]] algorithm, extending its capabilities from simple pattern matching to string capture and substitution. The regular-expression engine is derived from regex written by [[Henry Spencer]].
 
-The Perl regular expression syntax was originally taken from Unix Version 8 regular expressions. However, it diverged before the first release of Perl, and has since grown to include many more features. Other languages and applications are now adopting [[PCRE|Perl compatible regular expressions]] over [[POSIX]] regular expressions including [[PHP]], [[Ruby programming language|Ruby]], [[Java (programming language)|Java]], Microsoft's [[.NET Framework]]<ref>Microsoft Corp., ".NET Framework Regular Expressions", ''.NET Framework Developer's Guide'', [http://msdn2.microsoft.com/en-us/library/hs600312(VS.71).aspx]</ref>, and the [[Apache HTTP server]].
+The Perl regular-expression syntax was originally taken from Unix Version 8 regular expressions. However, it diverged before the first release of Perl and has since grown to include many more features. Other languages and applications&mdash;including [[PHP]], [[Ruby programming language|Ruby]], [[Java (programming language)|Java]], Microsoft's [[.NET Framework]]<ref>Microsoft Corp., ".NET Framework Regular Expressions", ''.NET Framework Developer's Guide'', [http://msdn2.microsoft.com/en-us/library/hs600312(VS.71).aspx]</ref>, and the [[Apache HTTP server]]&mdash;are now adopting [[PCRE|Perl compatible regular expressions]] over [[POSIX]] regular expressions.
 
-Regular expression syntax is extremely compact, owing to history. The first regular expression dialects were only slightly more expressive than [[Glob (programming)|globs]], and the syntax was designed so that an expression would resemble the text it matches{{Fact|date=June 2007}}. This meant using no more than a single punctuation character or a pair of delimiting characters to express the few supported assertions. Over time, the expressiveness of regular expressions grew tremendously, but the syntax design was never revised and continues to rely on punctuation. As a result, regular expressions can be cryptic and extremely dense.
+Regular-expression syntax is extremely compact, owing to history. The first regular-expression dialects were only slightly more expressive than [[Glob (programming)|globs]], and the syntax was designed so that an expression would resemble the text that it matches{{Fact|date=June 2007}}. This meant using no more than a single punctuation character or a pair of delimiting characters to express the few supported assertions. Over time, the expressiveness of regular expressions grew tremendously, but the syntax design was never revised and continues to rely on punctuation. As a result, regular expressions can be cryptic and extremely dense.
 
 ==== Uses ====
-The <code>m//</code> (match) operator introduces a regular expression match. (If it is delimited by slashes, as in all the examples here, then the leading <code>m</code> may be omitted for brevity. If the <code>m</code> is present, as in all the following examples, other delimiters can be used in place of slashes.) In the simplest case, an expression like
+The <code>m//</code> (match) operator introduces a regular-expression match. (If it is delimited by slashes, as in all of the examples here, then the leading <code>m</code> may be omitted for brevity. If the <code>m</code> is present, as in all of the following examples, other delimiters can be used in place of slashes.) In the simplest case, an expression such as
 
 <source lang="perl">
 $x =~ /abc/;
@@ -530,7 +530,7 @@ $x =~ /abc/;
 
 evaluates to true [[if and only if]] the string <code>$x</code> matches the regular expression <code>abc</code>.
 
-The <code>s///</code> (substitute) operator, on the other hand, specifies a search and replace operation:
+The <code>s///</code> (substitute) operator, on the other hand, specifies a search-and-replace operation:
 
 <source lang="perl">
 $x =~ s/abc/aBc/; # upcase the b
@@ -542,7 +542,7 @@ Another use of regular expressions is to specify delimiters for the <code>split<
 @words = split /,/, $line;
 </source>
 
-The <code>split</code> function creates a list of the parts of the string separated by matches of the regular expression. In this example, a line is divided into a list of its comma-separated parts, and this list is then assigned to the <code>@words</code> array.
+The <code>split</code> function creates a list of the parts of the string that are separated by matches of the regular expression. In this example, a line is divided into a list of its comma-separated parts, and this list is then assigned to the <code>@words</code> array.
 
 ==== Syntax ====
 Portions of a regular expression may be enclosed in parentheses; corresponding portions of a matching string are ''captured''. Captured strings are assigned to the sequential built-in variables <code>$1, $2, $3, ...</code>, and a list of captured strings is returned as the value of the match.
@@ -558,7 +558,7 @@ $x =~ /abc/i; # case-insensitive pattern match
 $x =~ s/abc/aBc/g; # global search and replace
 </source>
 
-Since regular expressions can be dense and cryptic because of their compact syntax, the <code>/x</code> modifier was added in Perl to help programmers write more legible regular expressions. It allows programmers to place whitespace and comments ''inside'' regular expressions:
+Because regular expressions can be dense and cryptic owing to their compact syntax, the <code>/x</code> modifier was added in Perl to help programmers write more-legible regular expressions. It allows programmers to place whitespace and comments ''inside'' regular expressions:
 
 <source lang="perl">
 $x =~ /a # match 'a'
