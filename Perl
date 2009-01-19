@@ -651,7 +651,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 == Further reading ==
 * ''[[Learning Perl]]'', Fifth Edition (the ''Llama book''), ISBN 0-596-52010-6
 * ''[[Perl Cookbook]]'', ISBN 0-596-00313-7
-* ''[[Programming Perl]]'', (the ''Camel book''), ISBN 0-596-00027-8
+* ''[[Programming Perl]]'' (the ''Camel book''), ISBN 0-596-00027-8
 
 == See also ==
 {{fossportal}}
