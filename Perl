@@ -8,7 +8,7 @@
 | latest_release_version = 5.10.0
 | latest_release_date    = {{release date|mf=yes|2007|12|18}}
 | turing-complete        = Yes
-| typing = Dynamic
+| typing                 = Dynamic
 | influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[LISP]], [[C (programming language)|C]], [[C++]],  [[Pascal (programming language)|Pascal]], [[sed]], [[Unix shell]]
 | influenced             = [[Python (programming language)|Python]], [[PHP]], [[Ruby (programming language)|Ruby]], [[ECMAScript]], [[Dao (programming language)|Dao]], [[Windows PowerShell]], [[JavaScript]]
 | operating_system       = [[Cross-platform]]
@@ -594,7 +594,7 @@ In extreme cases, optimizing Perl can require intimate knowledge of the interpre
 
 == Future ==
 {{main|Perl 6}}
-At the 2000 [[Perl Conference]], [[Jon Orwant]] made a case for a major new language initiative.<ref>[http://www.nntp.perl.org/group/perl.perl6.meta/424 Transcription of Larry's talk]. Retrieved on 2006 September 28.</ref> This led to a decision to begin work on a redesign of the language, to be called Perl 6. Proposals for new language features were solicited from the Perl community at large, and more than 300 [[Request for Comments|RFCs]] were submitted.
+At the 2000 [[O'Reilly Open Source Convention|Perl Conference]], [[Jon Orwant]] made a case for a major new language initiative.<ref>[http://www.nntp.perl.org/group/perl.perl6.meta/424 Transcription of Larry's talk]. Retrieved on 2006 September 28.</ref> This led to a decision to begin work on a redesign of the language, to be called Perl 6. Proposals for new language features were solicited from the Perl community at large, and more than 300 [[Request for Comments|RFCs]] were submitted.
 
 [[Larry Wall]] spent the next few years digesting the RFCs and synthesizing them into a coherent framework for Perl 6. He has presented his design for Perl 6 in a series of documents called "apocalypses," which are numbered to correspond to chapters in ''[[Programming Perl]]'' ("The Camel Book"). The current, not-yet-finalized specification of Perl 6 is encapsulated in design documents called Synopses, which are numbered to correspond to Apocalypses.
 
@@ -656,13 +656,13 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 == See also ==
 {{fossportal}}
 
-* [[Perl Object Environment]]
-* [[Perl Data Language]]
-* [[Plain Old Documentation]]
-* [[Just another Perl hacker]]
-* [[PerlScript]]
-* [[Comparison of programming languages]]
 * [[Autovivification]]
+* [[Comparison of programming languages]]
+* [[Just another Perl hacker]]
+* [[Perl Data Language]]
+* [[Perl Object Environment]]
+* [[PerlScript]]
+* [[Plain Old Documentation]]
 
 == References ==
 {{reflist|2}}
