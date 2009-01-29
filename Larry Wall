@@ -14,7 +14,6 @@
 '''Larry Wall''' (born [[September 27]], [[1954]]) is a [[programmer]] and [[author]], most widely known for his creation of the [[Perl]] [[programming language]] in 1987.
 
 == Education ==
-
 Wall earned his [[bachelor's degree]] from [[Seattle Pacific University]] in 1976.
 
 While in [[graduate school]] at UC Berkeley, Wall and his wife were studying [[linguistics]] with the intention afterwards of finding an unwritten language, perhaps in [[Africa]], and creating a [[writing system]] for it. They would then use this new writing system to translate various texts into the language, among them the [[Bible]]. Due to health reasons these plans were canceled, and they remained in the U.S., where Larry instead joined the [[NASA]] [[Jet Propulsion Laboratory]] after he finished graduate school.<ref>{{cite web
@@ -27,7 +26,6 @@ While in [[graduate school]] at UC Berkeley, Wall and his wife were studying [[l
   | accessdate = 2007-08-05 }}</ref>
 
 == Accomplishments ==
-
 Wall is the author of the [[rn (newsreader)|rn]] [[Usenet client]] and the nearly universally used [[Patch (Unix)|patch]] program. He has won the [[International Obfuscated C Code Contest]] twice and was the recipient of the first [[Free Software Foundation]] [[Award for the Advancement of Free Software]] in 1998.
 
 Beyond his technical skills, Wall is known for his wit and often sarcastic sense of humor <ref name='www.perl.com/pub/a/1999/03/pm.ht'> {{Citation| first=Larry | last=Wall| coauthors=this is a recursive reference by a noted expert on Larry Wall| contribution=Perl, the first postmodern computer language| title=The following is the text of Larry Wall's talk at Linux World on Wednesday, March 3. He explains why Perl is a fitting language for the postmodern era. As a member of the audience commented: "Another mindbender from Larry."| editor-first=| editor-last=| coeditors=| publisher=O’Reilly Media, Inc.| place=San Jose Convention Centerr, San Jose, California| pages=| date=1999-03-03| year=1999| id= | contribution-url=http://www.perl.com/pub/a/1999/03/pm.html| format=| accessdate=2007-11-19 }}</ref> , which he displays in the comments to his [[source code]] or on [[Usenet]]. For example: "We all agree on the necessity of compromise. We just can't agree on when it's necessary to compromise," and:<blockquote>For example, it's been several decades now since a certain set of Bible translations came out, and you'll notice a pattern: the New English Bible, the New American Standard Bible, and the New International Version, to name a few. It's really funny. I suspect we'll still be calling them “new this” and “new that” a hundred years from now. Much like New College at Oxford. Do you know when New College was founded. Any guesses? New College was new in 1379.<ref name='www.perl.com/pub/a/1999/03/pm.ht'> {{Citation| first=Larry | last=Wall| coauthors=this is a recursive reference by a noted expert on Larry Wall| contribution=Perl, the first postmodern computer language| title=The following is the text of Larry Wall's talk at Linux World on Wednesday, March 3. He explains why Perl is a fitting language for the postmodern era. As a member of the audience commented: "Another mindbender from Larry."| editor-first=| editor-last=| coeditors=| publisher=O’Reilly Media, Inc.| place=San Jose Convention Centerr, San Jose, California| pages=| date=1999-03-03| year=1999| id= | contribution-url=http://www.perl.com/pub/a/1999/03/pm.html| format=| accessdate=2007-11-19 }}</ref></blockquote>
@@ -45,7 +43,6 @@ Wall continues to oversee further development of Perl and serves as the [[Benevo
 :: Got that? Larry is always right, even when he was wrong. <ref>{{Citation| title=Perl 5.10.0 Documentation - perlhack |url=http://perldoc.perl.org/perlhack.html#DESCRIPTION}}</ref>
 
 == Virtues of a programmer ==
-
 Wall along with [[Randal L. Schwartz]] and [[Tom Christiansen]] writing in the second edition of ''[[Programming Perl]]'', outlined the ''Three Virtues of a Programmer'':
 
 # '''Laziness''' - The quality that makes you go to great effort to reduce overall energy expenditure. It makes you write labor-saving programs that other people will find useful, and document what you wrote so you don't have to answer so many questions about it. Hence, the first great virtue of a programmer. Also hence, this book. See also impatience and hubris.
@@ -54,22 +51,20 @@ Wall along with [[Randal L. Schwartz]] and [[Tom Christiansen]] writing in the s
 
 == See also ==
 {{portal|Free software|Free Software Portal Logo.svg}} 
+* [[List of computer scientists]]
+* [[List of programmers]]
+* [[Perl]]
 
-*[[Perl]]
-*[[List of programmers]]
-*[[List of computer scientists]]
-
-==References==
+== References ==
 {{reflist}}
 
-==External links==
+== External links ==
 {{wikiquote|Larry Wall}}
 {{Spoken Wikipedia|Larry_Wall.ogg|2006-06-27}}
 * [http://www.wall.org/~larry/ Larry Wall's personal home page]
 * [http://www.softpanorama.org/People/Wall/index.shtml Slightly Skeptical View on Larry Wall and Perl (Softpanorama Larry Wall's page)]
 * [http://www.cpan.org/misc/lwall-quotes.txt.gz Authoritative list of Larry Wall quotes]
 * [http://www.perl.com/pub/a/1999/03/pm.html ''Perl, the first Postmodern Language'']
-
 * State of the Onion keynotes: [http://www.wall.org/~larry/keynote/keynote.html 1997] [http://www.perl.com/pub/a/1998/08/show/onion.html 1998] [http://www.perl.com/pub/a/1999/08/onion/talk1.html 1999] [http://www.perl.com/pub/a/2000/10/23/soto2000.html 2000] [http://www.perl.com/pub/a/2001/07/25/onion.html 2001] [http://dev.perl.org/perl6/talks/2002/onion2002/2002.txt.htm 2002] [http://www.perl.com/pub/a/2003/07/16/soto2003.html 2003] [http://www.perl.com/pub/a/2004/08/18/onion.html 2004] [http://www.perl.com/pub/a/2005/09/22/onion.html 2005] [http://www.perl.com/pub/a/2006/09/21/onion.html 2006] [http://www.perl.com/pub/a/2007/12/06/soto-11.html 2007]
 
 Please note that as the State of the Onion speeches are often primarily based on visual humour, the transcripts may seem confusing or nonsensical.
