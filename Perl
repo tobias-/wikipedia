@@ -686,6 +686,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 [[Category:Dynamically-typed programming languages]]
 [[Category:Free compilers and interpreters]]
 [[Category:Procedural programming languages]]
+[[Category:Object-oriented programming languages]]
 [[Category:Scripting languages]]
 [[Category:Text-oriented programming languages]]
 [[Category:Unix software]]
