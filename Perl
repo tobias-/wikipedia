@@ -652,6 +652,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 * ''[[Learning Perl]]'', Fifth Edition (the ''Llama book''), ISBN 0-596-52010-6
 * ''[[Perl Cookbook]]'', ISBN 0-596-00313-7
 * ''[[Programming Perl]]'' (the ''Camel book''), ISBN 0-596-00027-8
+* [http://www.ddj.com/web-development/tpj.jhtml The Perl Journal] published 1996-2006 was the leading publication for and about Perl Programming this time.
 
 == See also ==
 {{fossportal}}
