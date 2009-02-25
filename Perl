@@ -558,6 +558,15 @@ $x =~ /abc/i; # case-insensitive pattern match
 $x =~ s/abc/aBc/g; # global search and replace
 </source>
 
+Captured strings <code>$1, $2, $3, ...</code> can be used later in the code.
+Perl regular expressions also allow built-in or user-defined functions apply to the captured match, by using the <code>/e</code> modifier:
+
+<source lang="perl">
+$x = "Oranges";
+$x =~ s/(ge)/uc($1)/e; # OranGEs
+$x .= $1; # append $x with the contents of the match in the previous statement: OranGEsge
+</source>
+
 Because the compact syntax of regular expressions can make them dense and cryptic, the <code>/x</code> modifier was added in Perl to help programmers write more-legible regular expressions. It allows programmers to place whitespace and comments ''inside'' regular expressions:
 
 <source lang="perl">
