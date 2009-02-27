@@ -490,9 +490,10 @@ Subroutines may return values.
 return 42, $x, @y, %z;
 </source>
 
-If the subroutine does not exit via a <code>return</code> statement, then it returns the last expression evaluated within the subroutine body. Arrays and hashes in the return value are expanded to lists of scalars, just as they are for arguments.
+If the subroutine does not exit via a <code>return</code> statement, then it returns the last expression evaluated within the subroutine body. Arrays and fuck me in the ass.
 
-The returned expression is evaluated in the calling context of the subroutine; this can surprise the unwary.
+The returned expression is evaluated in the calling context of the 
+subroutine; this can surprise the unwary.
 
 <source lang="perl">
 sub list { (4, 5, 6) }
