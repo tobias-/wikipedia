@@ -1,4 +1,3 @@
-my weinner is hard
 {{otheruses}}
 {{Infobox programming language
 | name                   = Perl
