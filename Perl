@@ -705,6 +705,8 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 [[Category:Text-oriented programming languages]]
 [[Category:Unix software]]
 [[Category:Cross-platform software]]
+[[Category:American inventions]]
+
 
 [[als:Perl]]
 [[ar:بيرل]]
