@@ -685,7 +685,6 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 <!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first -->
 {{wikibooks|Perl Programming}}
 {{wikiversity2|Topic:Perl}}
-* [http://givemeknol.com/ebooks.php?book=3 "Perl by Example" by Ellie Quigley]
 * [http://www.perl.org/ Perl.org]—Official Perl website
 * [http://perldoc.perl.org/ Perl documentation]
 * [http://www.perlfoundation.org/ The Perl Foundation]
