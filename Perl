@@ -315,7 +315,7 @@ The <code>=></code> operator is equivalent to a comma, except that it assumes qu
 Individual elements of a list are accessed by providing a numerical index, in square brackets. Individual values in a hash are accessed by providing the corresponding key, in curly braces. The <code>$</code> sigil identifies the accessed element as a scalar.
 
 <source lang="perl">
-@scores[2] # an element of @scores
+$scores[2] # an element of @scores
 $favorite{joe} # a value in %favorite
 </source>
 
