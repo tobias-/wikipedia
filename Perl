@@ -708,7 +708,6 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 [[Category:Cross-platform software]]
 [[Category:American inventions]]
 
-
 [[als:Perl]]
 [[ar:بيرل]]
 [[bn:পার্ল (প্রোগ্রামিং ভাষা)]]
@@ -726,7 +725,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 [[es:Perl]]
 [[eo:Perl]]
 [[eu:Perl]]
-[[fa:پرل]]
+[[fa:زبان برنامه نویسی پرل]]
 [[fr:Perl (langage)]]
 [[ga:Perl]]
 [[gl:Perl]]
@@ -761,9 +760,9 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 [[sv:Perl]]
 [[ta:பெர்ள்]]
 [[th:ภาษาเพิร์ล]]
-[[vi:Perl]]
 [[tg:Перл (забони барномасозӣ)]]
 [[tr:Perl]]
 [[uk:Perl]]
+[[vi:Perl]]
 [[bat-smg:Perl]]
 [[zh:Perl]]
