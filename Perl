@@ -191,6 +191,7 @@ say 'Hello, world!'
 </source>
 
 === Data types ===
+
 Perl has a number of fundamental [[data type]]s. The most commonly used and discussed are [[Scalar (computing)|scalars]], [[array]]s, [[Hash table|hashes]], [[filehandle]]s, and [[subroutines]]:
 * A [[Scalar (computing)|scalar]] is a single value; it may be a number, a [[String (computer science)|string]], or a [[Reference (computer science)|reference]].
 * An [[array]] is an ordered collection of scalars.
@@ -200,44 +201,32 @@ Perl has a number of fundamental [[data type]]s. The most commonly used and disc
 
 Most variables are marked by a leading [[Sigil (computer programming)|sigil]], which identifies the data type being accessed (not the type of the variable itself), except filehandles, which don't have a sigil. The same name may be used for variables of different data types, without conflict.
 
+<table>
+<tr><td>'''Sigil'''</td><td>'''Example'''</td><td>'''Description'''</td></tr>
+<tr><td>$</td><td>$foo</td><td>a scalar</td></tr>
+<tr><td>@</td><td>@foo</td><td>an array</td></tr>
+<tr><td>%</td><td>%foo</td><td>a hash</td></tr>
+<tr><td>none</td><td>FOO</td><td>a file handle</td></tr>
+<tr><td>&</td><td>&foo</td><td>a subroutine (the & is optional in some contexts)</td></tr>
+</table>
+
+[[File handle]]s and constants need not be uppercase, but it is a common convention because there is no sigil to denote them. Both are global in scope, but file handles are interchangeable with references to file handles, which can be stored in scalars, which in turn permit lexical scoping. Doing so is encouraged in [[Damian Conway]]'s ''Perl Best Practices''. As a convenience, the <code>open</code> function in Perl 5.6 and newer will accept a scalar variable, which will be set (autovivied) to a reference to an anonymous file handle, in place of a named file handle.
+
+==== Scalar Values ====
+String values (literals) must be enclosed by quotes. Enclosing a string in double quotes allows the values of variables whose names appear in the string to automatically replace the variable name (or be '''interpolated''') in the string. Enclosing a string in single quotes prevents variable interpolation. If $name is "Jim", print("My name is $name") will print "My name is Jim", but print('My name is $name') will print "My name is $name".
+
+To include a double quotation mark in a string, precede it with a backslash or enclose the string in single quotes. To include a single quotation mark, precede it with a backslash or enclose the string in double quotes. Strings can also be quoted with the q and qq quote-like operators. 'this' is identical to q(this) and "$this" is identical to qq($this).
+
+Finally, multiline strings can be defined using '''here documents''':
+
 <source lang="perl">
-$foo # a scalar
-@foo # an array
-%foo # a hash
-FOO # a file handle
-&foo # a subroutine (but the & is optional)
-</source>
-
-[[File handle]]s and constants need not be uppercase, but it is a common convention because there is no sigil to denote them. Both are global in scope, but file handles are interchangeable with references to file handles, which can be stored in scalars, which in turn permit lexical scoping. Doing so is encouraged in [[Damian Conway]]'s ''Perl Best Practices''. As a convenience, the <code>open</code> function in Perl 5.6 and newer will autovivify undefined scalars to file handle references.
-
-Numbers are written in the bare form; strings are enclosed by quotes of various kinds.
-
-<source lang="perl">
-$name = "joe";
-$color = 'red';
-
-$number1 = 42;
-$number2 = '42';
-
-# This evaluates to true
-if ($number1 == $number2) { print "Numbers and strings of numbers are the same!"; }
-
-$answer = "The answer is $number1"; # Variable interpolation: The answer is 42
-$price = 'This device costs $42'; # No interpolation in single quotes
-
-$album = "It's David Bowie's \"Heroes\""; # literal quotes inside a string;
-$album = 'It\'s David Bowie\'s "Heroes"'; # same as above with single quotes;
-$album = q(It's David Bowie's "Heroes"); # the quote-like operators q() and qq() allow
- # almost any delimiter instead of quotes, to
- # avoid excessive backslashing
-
-$multilined_string =<<EOF;
+$multilined_string = <<EOF;
 This is my multilined string
-note that I am terminating it with the "EOF" word.
+note that I am terminating it with the word "EOF".
 EOF
 </source>
 
-Perl will convert strings into numbers and vice versa depending on the context in which they are used. In the following example, the strings $n and $m are treated as numbers when they are the arguments to the addition operator. This code prints the number '5', discarding non-numeric information for the operation, although the variable values remain the same. (The string concatenation operator is the period, not the <code>+</code> symbol.)
+Numbers (numeric constants) do not require quotation. Perl will convert numbers into strings and vice versa depending on the context in which they are used. When strings are converted into numbers, trailing non-numeric parts of the strings are discarded. If no leading part of a string is numeric, the string will be converted to the number 0. In the following example, the strings $n and $m are treated as numbers. This code prints the number '5'. The values of the variables remain the same. Note that in Perl, <code>+</code> is always the numeric addition operator. The string concatenation operator is the period.
 
 <source lang="perl">
 $n = '3 apples';
@@ -257,102 +246,68 @@ $false = ""; # the empty string
 $false = undef; # the return value from undef
 </source>
 
-All other values are evaluated to true. This includes the odd self-describing literal string of "0 but true," which in fact is 0 as a number, but true when used as a boolean. (Any non-numeric string would also have this property, but this particular string is ignored by Perl with respect to numeric warnings.) A less-explicit but more conceptually portable version of this string is '0E0' or '0e0', which does not rely on characters being evaluated as 0, because '0E0' is literally "zero times ten to the zeroth power."
+All other values evaluated to true. This includes the odd self-describing literal string of "0 but true," which in fact is 0 as a number, but true when used as a boolean. All non-numeric strings also have this property, but this particular string is truncated by Perl without a numeric warning. A less explicit but more conceptually portable version of this string is '0E0' or '0e0', which does not rely on characters being evaluated as 0, because '0E0' is literally zero times ten to the power zero.
 
-Evaluated boolean expressions also return scalar values. Although the documentation does not promise which ''particular'' true or false is returned (and thus cannot be relied on), many boolean operators return 1 for true and the empty-string for false (which evaluates to zero in a numeric context). The ''defined()'' function tells if the variable has any value set. In the above examples, ''defined($false)'' is true for every value except ''undef''.
+Evaluated boolean expressions are also scalar values. The documentation does not promise which ''particular'' value of true or false is returned. Many boolean operators return 1 for true and the empty-string for false. The ''defined()'' function determines whether a variable has any value set. In the above examples, ''defined($false)'' is true for every value except ''undef''.
 
-If a specifically 1 or 0 result (as in C) is needed, an explicit conversion is thought by some authors to be required:
+If either 1 or 0 are specifically needed, an explicit conversion can be done:
 
 <source lang="perl">
 my $real_result = $boolean_result ? 1 : 0;
 </source>
 
-However, if it's known that the value is either 1 or ''undef'', an implicit conversion can be used instead:
+==== Array Values ====
 
-<source lang="perl">
-my $real_result = $boolean_result + 0;
-</source>
-
-A list is written by listing its elements, separated by commas, and enclosed by parentheses where required by operator precedence.
+A array valuue (or list) is specified by listing its elements, separated by commas, enclosed by parentheses (at least where required by operator precedence).
 
 <source lang="perl">
 @scores = (32, 45, 16, 5);
 </source>
 
-It can be written many other ways as well, some straightforward and some less so:
+The qw() quote-like operator allows the definition of a list of strings without typing of quotes and commas. Almost any delimiter can be used instead of parentheses. The following lines are equivalent:
 
 <source lang="perl">
-# An explicit and straightforward way
-@scores = ('32', '45', '16', '5');
-
-# Equivalent to the above, but the qw() quote-like operator saves typing of
-# quotes and commas and reduces visual clutter; almost any delimiter can be
-# used instead of parentheses
-@scores = qw(32 45 16 5);
-
-# The split function returns a list of strings, which are extracted
-# from the expression using a regex template.
-# This may be useful for reading from a file of comma-separated values (CSV)
-@scores = split /,/, '32,45,16,5';
-
-# It's also possible to use a postfix for operator and aliasing of
-# the $_ magic variable to the next value of the list during each
-# iteration; this is pointless here, but similar idioms are widely used
-# in some circumstances.
-push @scores, $_ foreach 32, 45, 16, 5;
+@names = ('Billy', 'Joe', 'Jim-Bob');
+@names = qw(Billy Joe Jim-Bob);
 </source>
 
-A hash may be initialized from a list of key/value pairs:
+The split function returns a list of strings, which are split from a string expression using a delimiter string or regular expression.
 
 <source lang="perl">
-%favorite = (
- joe => 'red',
- sam => 'blue'
-);
+@scores = split(',', '32,45,16,5');
 </source>
 
-The <code>=></code> operator is equivalent to a comma, except that it assumes quotes around the preceding token if it is a bare identifier: <code>(joe => 'red')</code> is the same as <code>('joe' => 'red')</code>. It can therefore be used to elide quote marks, improving readability.
+Individual elements of a list are accessed by providing a numerical index in square brackets. The scalar sigil must be used. Sublists (array slices) can also be specified, using a range or list of numeric indeces in brackets. The array sigil is used in this case. For example, $month[3] is "March", and @month[4..6] is ("April", "May", "June").
 
-Individual elements of a list are accessed by providing a numerical index, in square brackets. Individual values in a hash are accessed by providing the corresponding key, in curly braces. The <code>$</code> sigil identifies the accessed element as a scalar.
+====Hash Values====
+
+A hash may be initialized from a list of key/value pairs. If the keys are separated from the values with the <code>=></code> operator, rather than a comma, they may be unquoted (barewords). The following lines are equivalent:
 
 <source lang="perl">
-$scores[2] # an element of @scores
-$favorite{joe} # a value in %favorite
+%favorite = ('joe', "red", 'sam', "blue");
+%favorite = (joe => 'red', sam => 'blue');
 </source>
 
-Thus, a hash can also be specified by setting its keys individually:
+Individual values in a hash are accessed by providing the corresponding key, in curly braces. The <code>$</code> sigil identifies the accessed element as a scalar. For example, $favorite{joe} equals 'red'. A hash can also be initialized by setting its values individually:
 
 <source lang="perl">
-$favorite{joe} = 'red';
-$favorite{sam} = 'blue';
+$favorite{joe}   = 'red';
+$favorite{sam}   = 'blue';
+$favorite{oscar} = 'green';
 </source>
 
-Multiple elements may be accessed by using the <code>@</code> sigil instead (identifying the result as a list).
+Multiple elements may be accessed using the <code>@</code> sigil instead (identifying the result as a list). For example, 
+@favorite{'joe', 'sam'} equals ('red', 'blue').
+
+====Array Functions====
+
+The number of elements in an array can be determined either by evaluating the array in scalar context or with the help of the <code>$#</code> sigil. The latter gives the index of the last element in the array, not the number of elements. The expressions scalar(@array) and ($#array + 1) are equivalent.
+
+====Hash Functions====
+
+There are a few functions that operate on entire hashes. The ''keys'' function takes a hash and returns the list of its keys. Similarly, the ''values'' function returns a hashes values. Note that the keys and values are returned in a consistent but random order.
 
 <source lang="perl">
-@scores[2, 3, 1] # three elements of @scores
-@favorite{'joe', 'sam'} # two values in %favorite
-@favorite{qw(joe sam)} # same as above
-</source>
-
-The number of elements in an array can be obtained by evaluating the array in scalar context or with the help of the <code>$#</code> sigil. The latter gives the index of the last element in the array, not the number of elements. ''Note: the [[syntax highlighting]] in Wikipedia's software mistakenly considers some of the following code to be part of the comments.''
-
-<source lang="perl">
-$count = @friends; # Assigning to a scalar forces scalar context
-
-$#friends; # The index of the last element in @friends
-$#friends+1; # Usually the number of elements in @friends is one more
- # than $#friends because the first element is at index 0,
- # not 1, unless the programmer reset this to a different
- # value, which most Perl manuals discourage.
-</source>
-
-There are a few functions that operate on entire hashes.
-
-<source lang="perl">
-@names = keys %addressbook;
-@addresses = values %addressbook;
-
 # Every call to each returns the next key/value pair.
 # All values will be eventually returned, but their order
 # cannot be predicted.
