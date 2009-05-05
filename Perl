@@ -258,7 +258,7 @@ my $real_result = $boolean_result ? 1 : 0;
 
 ==== Array Values ====
 
-A array valuue (or list) is specified by listing its elements, separated by commas, enclosed by parentheses (at least where required by operator precedence).
+A array value (or list) is specified by listing its elements, separated by commas, enclosed by parentheses (at least where required by operator precedence).
 
 <source lang="perl">
 @scores = (32, 45, 16, 5);
