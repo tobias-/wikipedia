@@ -594,7 +594,7 @@ State of the Onion is the name for Larry Wall’s yearly [[keynote]]-style summa
 Each talk is first given at various Perl conferences and is eventually also published online.
 
 === Pastimes ===
-Perl's pastimes have become a defining element of the community. Included among them are trivial and complex uses of the language.
+Perl's pastimes have become a defining element of the community. Included among them are trivial and complex uses of the language.I would like to comment that perl is a good for nothing language, a dnosaur of a language in modern times and a burden for all to use and learn
 
 ==== JAPHs ====
 In email, Usenet, and message-board postings, "[[Just another Perl hacker]]" (JAPH) programs have become a common trend, originated by [[Randal L. Schwartz]], one of the earliest professional Perl trainers.<ref>{{cite newsgroup | author = [[Randal L. Schwartz]] | title = Who is Just another Perl hacker? | id = m1hfpvh2jq.fsf@halfdome.holdit.com | newsgroup = comp.lang.perl.misc | date = 1999-05-02 | url = http://groups.google.com/groups?selm=m1hfpvh2jq.fsf@halfdome.holdit.com | accessdate = 2007-11-12 }}</ref>
