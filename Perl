@@ -581,7 +581,7 @@ In 2005, [[Audrey Tang]] created the [[pugs]] project, an implementation of Perl
 
 A number of features in the Perl 6 language now show similarities to Haskell, and Perl 6 has been embraced by the Haskell community as a potential scripting language{{Fact|date=October 2007}}.
 
-{{As of|2006}}, Perl 6, Parrot, and pugs are under active development, and a new module for Perl 5 called [[v6 (Perl)|v6]] allows some Perl 6 code to run directly on top of Perl 5.
+As of early 2009, Perl 6 development is primarily centred around Rakudo Perl 6, an implementation running on top of the Parrot virtual machine. Another implementation, Mildew, is also under active development and does not use Parrot.
 
 Development of Perl 5 is also continuing. Perl 5.10 was released in December 2007, with some new features influenced by the design of Perl 6.
 
