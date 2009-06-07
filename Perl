@@ -16,7 +16,7 @@
 | license                = [[GNU General Public License]], [[Artistic License]]
 | website                = http://www.perl.org/
 }}
-
+{{Split-apart}}
 <!--
 
 NOTES FOR EDITORS
