@@ -192,9 +192,9 @@ say 'Hello, world!'
 
 === Data types ===
 
-Perl has a number of fundamental [[data type]]s. The most commonly used and discussed are [[Scalar (computing)|scalars]], [[array]]s, [[Hash table|hashes]], [[filehandle]]s, and [[subroutines]]:
+Perl has a number of fundamental [[data type]]s. The most commonly used and discussed are [[Scalar (computing)|scalars]], [[Array data type|array]]s, [[Hash table|hashes]], [[filehandle]]s, and [[subroutines]]:
 * A [[Scalar (computing)|scalar]] is a single value; it may be a number, a [[String (computer science)|string]], or a [[Reference (computer science)|reference]].
-* An [[array]] is an ordered collection of scalars.
+* An [[Array data type|array]] is an ordered collection of scalars.
 * A hash, or [[associative array]], is a map from strings to scalars; the strings are called ''keys'', and the scalars are called ''values''.
 * A [[file handle]] is a map to a file, device, or pipe that is open for reading, writing, or both.
 * A subroutine is a piece of code that may be passed arguments, be executed, and return data
