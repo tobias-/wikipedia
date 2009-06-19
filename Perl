@@ -300,6 +300,15 @@ $favorite{oscar} = 'green';
 Multiple elements may be accessed using the <code>@</code> sigil instead (identifying the result as a list). For example, 
 @favorite{'joe', 'sam'} equals ('red', 'blue').
 
+====Typeglob Values====
+
+A typeglob value is a symbol table entry. The main use of typeglobs is create symbol table aliases. For example:
+
+<source lang="perl">
+*PI = \3.14; # creating constant scalar $PI
+*this = *that; # creating aliases for all data types 'this' to all data types 'that'
+</source>
+
 ====Array Functions====
 
 The number of elements in an array can be determined either by evaluating the array in scalar context or with the help of the <code>$#</code> sigil. The latter gives the index of the last element in the array, not the number of elements. The expressions scalar(@array) and ($#array + 1) are equivalent.
