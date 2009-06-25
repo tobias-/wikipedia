@@ -315,7 +315,7 @@ The number of elements in an array can be determined either by evaluating the ar
 
 ====Hash Functions====
 
-There are a few functions that operate on entire hashes. The ''keys'' function takes a hash and returns the list of its keys. Similarly, the ''values'' function returns a hashes values. Note that the keys and values are returned in a consistent but random order.
+There are a few functions that operate on entire hashes. The ''keys'' function takes a hash and returns the list of its keys. Similarly, the ''values'' function returns a hash's values. Note that the keys and values are returned in a consistent but random order.
 
 <source lang="perl">
 # Every call to each returns the next key/value pair.
