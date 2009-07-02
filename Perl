@@ -693,6 +693,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 [[ga:Perl]]
 [[gl:Perl]]
 [[ko:펄]]
+[[hi:पर्ल]]
 [[hr:Perl]]
 [[id:Perl]]
 [[it:Perl]]
