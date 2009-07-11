@@ -16,7 +16,7 @@
 | license                = [[GNU General Public License]], [[Artistic License]]
 | website                = http://www.perl.org/
 }}
-{{Split-apart|date=June 2009}}
+
 <!--
 
 NOTES FOR EDITORS
