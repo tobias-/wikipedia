@@ -688,7 +688,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 [[es:Perl]]
 [[eo:Perl]]
 [[eu:Perl]]
-[[fa:زبان برنامه نویسی پرل]]
+[[fa:زبان برنامه‌نویسی پرل]]
 [[fr:Perl (langage)]]
 [[ga:Perl]]
 [[gl:Perl]]
