@@ -670,7 +670,6 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 [[Category:Unix software]]
 [[Category:Cross-platform software]]
 [[Category:American inventions]]
-* [http://www.perl.errorpro.com/ Directory - Perl Errors]
 
 [[als:Perl]]
 [[ar:بيرل]]
