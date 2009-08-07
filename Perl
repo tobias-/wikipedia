@@ -213,7 +213,7 @@ Most variables are marked by a leading [[Sigil (computer programming)|sigil]], w
 
 [[File handle]]s and constants need not be uppercase, but it is a common convention because there is no sigil to denote them. Both are global in scope, but file handles are interchangeable with references to file handles, which can be stored in scalars, which in turn permit lexical scoping. Doing so is encouraged in [[Damian Conway]]'s ''Perl Best Practices''. As a convenience, the <code>open</code> function in Perl 5.6 and newer will accept a scalar variable, which will be set ([[Autovivification|autovivified]]) to a reference to an anonymous file handle, in place of a named file handle.
 
-==== Scalar Values ====
+==== Scalar values ====
 String values (literals) must be enclosed by quotes. Enclosing a string in double quotes allows the values of variables whose names appear in the string to automatically replace the variable name (or be '''interpolated''') in the string. Enclosing a string in single quotes prevents variable interpolation. If $name is "Jim", print("My name is $name") will print "My name is Jim", but print('My name is $name') will print "My name is $name".
 
 To include a double quotation mark in a string, precede it with a backslash or enclose the string in single quotes. To include a single quotation mark, precede it with a backslash or enclose the string in double quotes. Strings can also be quoted with the q and qq quote-like operators. 'this' is identical to q(this) and "$this" is identical to qq($this).
@@ -257,7 +257,7 @@ If either 1 or 0 are specifically needed, an explicit conversion can be done:
 my $real_result = $boolean_result ? 1 : 0;
 </source>
 
-==== Array Values ====
+==== Array values ====
 
 An array value (or list) is specified by listing its elements, separated by commas, enclosed by parentheses (at least where required by operator precedence).
 
@@ -280,7 +280,7 @@ The split function returns a list of strings, which are split from a string expr
 
 Individual elements of a list are accessed by providing a numerical index in square brackets. The scalar sigil must be used. Sublists (array slices) can also be specified, using a range or list of numeric indices in brackets. The array sigil is used in this case. For example, $month[3] is "March", and @month[4..6] is ("April", "May", "June").
 
-====Hash Values====
+====Hash values====
 
 A hash may be initialized from a list of key/value pairs. If the keys are separated from the values with the <code>=></code> operator, rather than a comma, they may be unquoted (barewords). The following lines are equivalent:
 
@@ -300,7 +300,7 @@ $favorite{oscar} = 'green';
 Multiple elements may be accessed using the <code>@</code> sigil instead (identifying the result as a list). For example, 
 @favorite{'joe', 'sam'} equals ('red', 'blue').
 
-====Typeglob Values====
+====Typeglob values====
 
 A typeglob value is a symbol table entry. The main use of typeglobs is create symbol table aliases. For example:
 
@@ -309,11 +309,11 @@ A typeglob value is a symbol table entry. The main use of typeglobs is create sy
 *this = *that; # creating aliases for all data types 'this' to all data types 'that'
 </source>
 
-====Array Functions====
+====Array functions====
 
 The number of elements in an array can be determined either by evaluating the array in scalar context or with the help of the <code>$#</code> sigil. The latter gives the index of the last element in the array, not the number of elements. The expressions scalar(@array) and ($#array + 1) are equivalent.
 
-====Hash Functions====
+====Hash functions====
 
 There are a few functions that operate on entire hashes. The ''keys'' function takes a hash and returns the list of its keys. Similarly, the ''values'' function returns a hash's values. Note that the keys and values are returned in a consistent but random order.
 
