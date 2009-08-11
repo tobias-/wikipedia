@@ -302,7 +302,7 @@ Multiple elements may be accessed using the <code>@</code> sigil instead (identi
 
 ====Typeglob values====
 
-A typeglob value is a symbol table entry. The main use of typeglobs is create symbol table aliases. For example:
+A typeglob value is a symbol table entry. The main use of typeglobs is creating symbol table aliases. For example:
 
 <source lang="perl">
 *PI = \3.14; # creating constant scalar $PI
