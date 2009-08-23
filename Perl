@@ -6,7 +6,7 @@
 | year                   = 1987
 | designer               = [[Larry Wall]]
 | latest_release_version = 5.10.1
-| latest_release_date    = {{release date|mf=yes|2008|08|22}}
+| latest_release_date    = {{release date|mf=yes|2009|08|22}}
 | turing-complete        = Yes
 | typing                 = Dynamic
 | influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[LISP]], [[C (programming language)|C]], [[C++]],  [[Pascal (programming language)|Pascal]], [[sed]], [[Unix shell]]
