@@ -508,7 +508,7 @@ Another use of regular expressions is to specify delimiters for the <code>split<
 
 The <code>split</code> function creates a list of the parts of the string that are separated by matches of the regular expression. In this example, a line is divided into a list of its comma-separated parts, and this list is then assigned to the <code>@words</code> array.
 
-==== Syntax ====
+==== Syntax =====
 ===== Modifiers =====
 Perl regular expressions can take ''modifiers''. These are single-letter suffixes that modify the meaning of the expression:
 
