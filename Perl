@@ -655,6 +655,8 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 * [http://www.perlfoundation.org/ The Perl Foundation]
 * [http://www.perlfoundation.org/perl5/ Official Perl 5 Wiki]
 * {{dmoz|Computers/Programming/Languages/Perl/|Perl}}
+* [http://www.ebb.org/PickingUpPerl/pickingUpPerl_toc.html Picking Up Perl], An Online Tutorial Book for New Perl Programmers
+* [http://www.mit.edu/~sipb-iap/2004/perl/slides.html Perl Programming], [[MIT]] class slides
 {{Perl}}
 {{FOSS}}
 
