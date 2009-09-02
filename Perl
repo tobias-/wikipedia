@@ -655,6 +655,8 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 * [http://www.perlfoundation.org/ The Perl Foundation]
 * [http://www.perlfoundation.org/perl5/ Official Perl 5 Wiki]
 * {{dmoz|Computers/Programming/Languages/Perl/|Perl}}
+* [http://www.perltutorial.org/ Perl Tutorial]
+
 <!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first -->
 {{Perl}}
 {{FOSS}}
