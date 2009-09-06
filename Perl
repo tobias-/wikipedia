@@ -652,6 +652,8 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 {{wikiversity2|Topic:Perl}}
 * [http://www.perl.org/ Perl.org]—Official Perl website
 * [http://perldoc.perl.org/ Perl documentation]
+* [http://www.cpan.org CPAN - Comprehensive Perl Archive Network]
+* [http://search.cpan.org CPAN search]
 * [http://www.perlfoundation.org/ The Perl Foundation]
 * [http://www.perlfoundation.org/perl5/ Official Perl 5 Wiki]
 * {{dmoz|Computers/Programming/Languages/Perl/|Perl}}
