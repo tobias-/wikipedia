@@ -305,7 +305,7 @@ Multiple elements may be accessed using the <code>@</code> sigil instead (identi
 A typeglob value is a symbol table entry. The main use of typeglobs is creating symbol table aliases. For example:
 
 <source lang="perl">
-*PI = \3.14; # creating constant scalar $PI
+*PI = \3.141592653; # creating constant scalar $PI
 *this = *that; # creating aliases for all data types 'this' to all data types 'that'
 </source>
 
