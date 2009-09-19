@@ -65,7 +65,7 @@ Perl is a general-purpose programming language originally developed for text man
 
 The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal).<ref>perlintro(1) [[man page]]</ref> Its major features include support for multiple [[programming paradigm]]s ([[procedural programming language|procedural]], [[Object-oriented programming|object-oriented]], and [[functional programming|functional]] styles), [[reference counting]] [[memory management]] (without a cycle-detecting garbage collector), built-in support for text processing, and a large collection of third-party [[Module (programming)|modules]].
 
-According to Larry Wall, Perl has two slogans. The first is "[[There's more than one way to do it]]," commonly known as TMTOWTDI.He want it to be "Tim Today". The second slogan is "Easy things should be easy and hard things should be possible."
+According to Larry Wall, Perl has two slogans. The first is "[[There's more than one way to do it]]," commonly known as TMTOWTDI. The second slogan is "Easy things should be easy and hard things should be possible."
 
 === Features ===
 The overall structure of Perl derives broadly from C. Perl is procedural in nature, with [[variable (programming)|variable]]s, [[expression (programming)|expressions]], [[assignment statement]]s, [[bracket|brace]]-delimited [[code block]]s, [[control structure]]s, and [[subroutine]]s.
