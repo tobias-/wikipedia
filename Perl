@@ -632,7 +632,7 @@ There are on IRC a couple of channels that offer free Perl support for Perl itse
 !  Channels
 |-
 |  FreeNode ( irc.freenode.net )
-|  #poe , #perl , #cbstream , #perlcafe
+|  #perl , #cbstream , #perlcafe , #poe
 |-
 |  irc.perl.org
 |  #moose , #poe , #catalyst , #dbix-class , #perl-help
