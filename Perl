@@ -750,6 +750,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 [[ro:Perl]]
 [[ru:Perl]]
 [[sah:Perl]]
+[[ckb:پێرڵ (وێب داڕشتن)]]
 [[sq:Perl]]
 [[simple:Perl]]
 [[sk:Perl]]
