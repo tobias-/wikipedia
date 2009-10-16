@@ -651,8 +651,10 @@ There are on IRC a couple of channels that offer free Perl support for Perl itse
 |-
 |  irc.efnet.net
 |  #perlhelp
+|-
+|  irc.rizon.net
+|  #perl
 |}
-
 
 ==== CPAN Acme ====
 There are also many examples of code written purely for entertainment on the [[CPAN]]. <code>Lingua::Romana::Perligata</code>, for example, allows writing programs in [[Latin]].<ref>{{ cite web | url=http://www.csse.monash.edu.au/~damian/papers/HTML/Perligata.html | title=Lingua::Romana::Perligata -- Perl for the XXI-imum Century | author=Conway, Damian }}</ref> Upon execution of such a program, the module translates its source code into regular Perl and runs it.
