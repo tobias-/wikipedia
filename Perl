@@ -598,6 +598,11 @@ Development of Perl 5 is also continuing. Perl 5.10 was released in December 200
 == The Perl community ==
 Perl's culture and community has developed alongside the language itself. [[Usenet]] was the first public venue in which Perl was introduced, but over the course of its evolution, Perl's community was shaped by the growth of broadening Internet-based services including the introduction of the World Wide Web. The community that surrounds Perl was, in fact, the topic of Larry Wall's first "State of the Onion" talk.<ref>{{ cite web | url=http://www.wall.org/~larry/keynote/keynote.html | title=Perl Culture (AKA the first State of the Onion) | first=Larry | last=Wall | authorlink=Larry Wall | date=1997-08-20 }}</ref>
 
+=== [http://ironman.enlightenedperl.org/ The Iron Man Contest] ===
+
+This is a website where all Perl rss feeds are aggregated together to form a source of fresh new information about the Perl community as a whole.
+This is the main source of news for modern Perl.
+
 === State of the Onion ===
 State of the Onion is the name for Larry Wall’s yearly [[keynote]]-style summaries on the progress of Perl and its community.  They are characterized by his hallmark humor, employing references to Perl’s culture, the wider hacker culture, Wall’s linguistic background, sometimes his family life, and occasionally even his Christian background.
 
