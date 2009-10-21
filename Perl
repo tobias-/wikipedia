@@ -529,7 +529,7 @@ $x =~ /
 </source>
 
 ===== Capturing =====
-Portions of a regular expression may be enclosed in parentheses; corresponding portions of a matching string are ''captured''. Captured strings are assigned to the sequential built-in variables <code>$1, $2, $3, ...</code>, and a list of captured strings is returned as the value of the match.
+Portions of a regular expression may be enclosed in parentheses; corresponding portions of a matching string are ''captured''. Captured strings are assigned to the sequential built-in variables <code>$1, $2, $3, ...</code>, and a list of captured strings is returned as the value of the match   sab kuch lauda hai maderchode
 
 <source lang="perl">
 $x =~ /a(.)c/; # capture the character between 'a' and 'c'
