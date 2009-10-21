@@ -245,6 +245,7 @@ $false = 0x0; # the number zero in hexadecimal
 $false = '0'; # the string zero
 $false = ""; # the empty string
 $false = undef; # the return value from undef
+$false = 2-3+1  # computes to 0 which is converted to "0" so it is false
 </source>
 
 All other values evaluated to true. This includes the odd self-describing literal string of "0 but true," which in fact is 0 as a number, but true when used as a boolean. All non-numeric strings also have this property, but this particular string is truncated by Perl without a numeric warning. A less explicit but more conceptually portable version of this string is '0E0' or '0e0', which does not rely on characters being evaluated as 0, because '0E0' is literally zero times ten to the power zero.
