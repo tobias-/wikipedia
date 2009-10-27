@@ -657,7 +657,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 
 === [http://ironman.enlightenedperl.org/ The Iron Man Contest] ===
 
-This is a website where all Perl rss feeds are aggregated together to form a source of new information about the Perl community as a whole.
+This is a website where many Perl rss feeds are aggregated together to form a source of new information about the Perl community as a whole.
 
 == Further reading ==
 * ''[[Learning Perl]]'', Fifth Edition (the ''Llama book''), ISBN 0-596-52010-6
