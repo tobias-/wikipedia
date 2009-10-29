@@ -664,6 +664,10 @@ This is a website where many Perl rss feeds are aggregated together to form a so
 * ''[[Perl Cookbook]]'', ISBN 0-596-00313-7
 * ''[[Programming Perl]]'' (the ''Camel book''), ISBN 0-596-00027-8
 * [http://www.ddj.com/web-development/tpj.jhtml The Perl Journal] published 1996-2006 was the leading publication for and about Perl Programming during this time.
+* ''[http://hop.perl.plover.com/book/ Higher Order Perl]'' , ISBN 1-558-60701-3
+* ''[http://books.google.ro/books?q=network+programming+in+perl Network Programming in Perl]''
+* ''[http://www.greenteapress.com/perl/ Learning Perl the Hard Way]''
+* ''[http://www.perl.org/books/beginning-perl/ Beggining Perl]''
 
 == See also ==
 {{fossportal}}
