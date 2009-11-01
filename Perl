@@ -655,10 +655,6 @@ There are also many examples of code written purely for entertainment on the [[C
 
 The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (computer science)|namespace]] for modules that are fun in nature (but its scope has widened to include exploratory or experimental code or any other module that is not meant to ever be used in production). Some of the Acme modules are deliberately implemented in amusing ways. This includes <code>Acme::Bleach</code>, one of the first modules in the <code>Acme::</code> namespace,<ref>{{cite web | url=http://use.perl.org/~acme/journal/200 | title=use Perl; Journal of acme | date=2001-05-23 | author=Brocard, Leon }}</ref> which allows the program's source code to be "whitened" (i.e., all characters replaced with whitespace) and yet still work.
 
-=== [http://ironman.enlightenedperl.org/ The Iron Man Contest] ===
-
-This is a website where many Perl rss feeds are aggregated together to form a source of new information about the Perl community as a whole.
-
 == Further reading ==
 * ''[[Learning Perl]]'', Fifth Edition (the ''Llama book''), ISBN 0-596-52010-6
 * ''[[Perl Cookbook]]'', ISBN 0-596-00313-7
