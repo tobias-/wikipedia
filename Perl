@@ -637,7 +637,7 @@ There are on IRC a couple of channels that offer free Perl support for Perl itse
 | #perl , #cbstream , #perlcafe , #poe	 
 |-	 
 | irc.perl.org	 
-| #moose , #poe , #catalyst , #dbix-class , #perl-help	 
+| #moose , #poe , #catalyst , #dbix-class , #perl-help , #distzilla , #epo , #corehackers
 |-	 
 | irc.oftc.net	 
 | #perl	 
