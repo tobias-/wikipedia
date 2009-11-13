@@ -153,7 +153,7 @@ Do not list a specific platform unless there are notable issues about running Pe
 
 Because of unusual changes required for the [[Mac OS history|Mac OS Classic]] environment, a special port called MacPerl was shipped independently.<ref name="macperl">{{cite web | url=http://www.macperl.com/ | title=The MacPerl Pages | year=1997 | publisher=Prime Time Freeware}}</ref>
 
-The ''Comprehensive Perl Archive Network'' ([http://www.cpan.org/ CPAN]) carries a complete list of supported platforms with links to the distributions available on each.<ref>[http://www.cpan.org/ports/ CPAN/ports<!-- Bot generated title -->]</ref>. CPAN is also the source for publicly available Perl modules that are not part of the core Perl distribution.
+The ''Comprehensive Perl Archive Network'' ([http://www.cpan.org/ CPAN]) carries a complete list of supported platforms with links to the distributions available on each.<ref>[http://www.cpan.org/ports/ CPAN/ports<!-- Bot generated title -->]</ref> CPAN is also the source for publicly available Perl modules that are not part of the core Perl distribution.
 
 ==== Windows ====
 
