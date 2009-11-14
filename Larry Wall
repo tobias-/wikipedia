@@ -11,9 +11,9 @@
 |website=[http://www.wall.org/~larry/ www.wall.org/~larry/]
 }}
 
-'''Larry Wall''' (born [[September 27]], [[1954]]) is a [[programmer]] and [[author]], most widely known for his creation of the [[Perl]] [[programming language]] in 1987.
+'''Larry Wall''' (born September 27, 1954) is a [[programmer]] and [[author]], most widely known for his creation of the [[Perl]] [[programming language]] in 1987.
 
-== Education ==
+==Education==
 Wall earned his [[bachelor's degree]] from [[Seattle Pacific University]] in 1976.
 
 While in [[graduate school]] at UC Berkeley, Wall and his wife were studying [[linguistics]] with the intention afterwards of finding an unwritten language, perhaps in [[Africa]], and creating a [[writing system]] for it. They would then use this new writing system to translate various texts into the language, among them the [[Bible]]. Due to health reasons these plans were canceled, and they remained in the U.S., where Larry instead joined the [[NASA]] [[Jet Propulsion Laboratory]] after he finished graduate school.<ref>{{cite web
@@ -25,10 +25,10 @@ While in [[graduate school]] at UC Berkeley, Wall and his wife were studying [[l
   | url = http://www.techweb.com/wire/story/TWB19980408S0020 Q&A With Larry Wall, Creator Of Perl, David Sims
   | accessdate = 2007-08-05 }}</ref>
 
-== Accomplishments ==
+==Accomplishments==
 Wall is the author of the [[rn (newsreader)|rn]] [[Usenet client]] and the nearly universally used [[Patch (Unix)|patch]] program. He has won the [[International Obfuscated C Code Contest]] twice and was the recipient of the first [[Free Software Foundation]] [[Award for the Advancement of Free Software]] in 1998.
 
-Beyond his technical skills, Wall is known for his wit and often sarcastic sense of humour <ref name='www.perl.com/pub/a/1999/03/pm.ht'> {{Citation| first=Larry | last=Wall| coauthors=this is a recursive reference by a noted expert on Larry Wall| contribution=Perl, the first postmodern computer language| title=The following is the text of Larry Wall's talk at Linux World on Wednesday, March 3. He explains why Perl is a fitting language for the postmodern era. As a member of the audience commented: "Another mindbender from Larry."| editor-first=| editor-last=| coeditors=| publisher=O’Reilly Media, Inc.| place=San Jose Convention Centerr, San Jose, California| pages=| date=1999-03-03| year=1999| id= | contribution-url=http://www.perl.com/pub/a/1999/03/pm.html| format=| accessdate=2007-11-19 }}</ref> , which he displays in the comments to his [[source code]] or on [[Usenet]]. For example: "We all agree on the necessity of compromise. We just can't agree on when it's necessary to compromise," and:<blockquote>For example, it's been several decades now since a certain set of Bible translations came out, and you'll notice a pattern: the New English Bible, the New American Standard Bible, and the New International Version, to name a few. It's really funny. I suspect we'll still be calling them “new this” and “new that” a hundred years from now. Much like New College at Oxford. Do you know when New College was founded. Any guesses? New College was new in 1379.<ref name='www.perl.com/pub/a/1999/03/pm.ht'> {{Citation| first=Larry | last=Wall| coauthors=this is a recursive reference by a noted expert on Larry Wall| contribution=Perl, the first postmodern computer language| title=The following is the text of Larry Wall's talk at Linux World on Wednesday, March 3. He explains why Perl is a fitting language for the postmodern era. As a member of the audience commented: "Another mindbender from Larry."| editor-first=| editor-last=| coeditors=| publisher=O’Reilly Media, Inc.| place=San Jose Convention Centerr, San Jose, California| pages=| date=1999-03-03| year=1999| id= | contribution-url=http://www.perl.com/pub/a/1999/03/pm.html| format=| accessdate=2007-11-19 }}</ref></blockquote>
+Beyond his technical skills, Wall is known for his wit and often sarcastic sense of humour <ref name='www.perl.com/pub/a/1999/03/pm.ht'> {{Citation| first=Larry | last=Wall| coauthors=this is a recursive reference by a noted expert on Larry Wall| contribution=Perl, the first postmodern computer language| title=The following is the text of Larry Wall's talk at Linux World on Wednesday, March 3. He explains why Perl is a fitting language for the postmodern era. As a member of the audience commented: "Another mindbender from Larry."| editor-first=| editor-last=| coeditors=| publisher=O’Reilly Media, Inc.| place=San Jose Convention Centerr, San Jose, California| pages=| date=1999-03-03| year=1999| id= | contribution-url=http://www.perl.com/pub/a/1999/03/pm.html| format=| accessdate=2007-11-19 }}</ref> , which he displays in the comments to his [[source code]] or on [[Usenet]]. For example: "We all agree on the necessity of compromise. We just can't agree on when it's necessary to compromise," and:<blockquote>For example, it's been several decades now since a certain set of Bible translations came out, and you'll notice a pattern: the New English Bible, the New American Standard Bible, and the New International Version, to name a few. It's really funny. I suspect we'll still be calling them “new this” and “new that” a hundred years from now. Much like New College at Oxford. Do you know when New College was founded. Any guesses? New College was new in 1379.<ref name="www.perl.com/pub/a/1999/03/pm.ht"/></blockquote>
 
 He is the co-author of ''[[Programming Perl]]'' (often referred to as the ''Camel Book''), which is the definitive resource for Perl programmers. He has edited the ''[[Perl Cookbook]]''. His books are published by [[O'Reilly Media|O'Reilly]].
 
@@ -40,25 +40,25 @@ Wall continues to oversee further development of Perl and serves as the [[Benevo
 
 # Larry is always by definition right about how Perl should behave. This means he has final veto power on the core functionality.
 # Larry is allowed to change his mind about any matter at a later date, regardless of whether he previously invoked Rule 1.
-:: Got that? Larry is always right, even when he was wrong. <ref>{{Citation| title=Perl 5.10.0 Documentation - perlhack |url=http://perldoc.perl.org/perlhack.html#DESCRIPTION}}</ref>
+:: Got that? Larry is always right, even when he was wrong.<ref>{{Citation| title=Perl 5.10.0 Documentation - perlhack |url=http://perldoc.perl.org/perlhack.html#DESCRIPTION}}</ref>
 
-== Virtues of a programmer ==
+==Virtues of a programmer==
 Wall along with [[Randal L. Schwartz]] and [[Tom Christiansen]] writing in the second edition of ''[[Programming Perl]]'', outlined the ''Three Virtues of a Programmer'':
 
 # '''Laziness''' - The quality that makes you go to great effort to reduce overall energy expenditure. It makes you write labor-saving programs that other people will find useful, and document what you wrote so you don't have to answer so many questions about it. Hence, the first great virtue of a programmer. Also hence, this book. See also impatience and hubris.
 # '''Impatience''' - The anger you feel when the computer is being lazy. This makes you write programs that don't just react to your needs, but actually anticipate them. Or at least pretend to. Hence, the second great virtue of a programmer. See also laziness and hubris.
 #'''[[Hubris]]''' - Excessive pride, the sort of thing Zeus zaps you for. Also the quality that makes you write (and maintain) programs that other people won't want to say bad things about. Hence, the third great virtue of a programmer. See also laziness and impatience.
 
-== See also ==
+==See also==
 {{portal|Free software|Free Software Portal Logo.svg}} 
 * [[List of computer scientists]]
 * [[List of programmers]]
 * [[Perl]]
 
-== References ==
-{{reflist}}
+==References==
+{{Reflist}}
 
-== External links ==
+==External links==
 {{wikiquote|Larry Wall}}
 {{Spoken Wikipedia|Larry_Wall.ogg|2006-06-27}}
 * [http://www.wall.org/~larry/ Larry Wall's personal home page]
@@ -81,7 +81,6 @@ Please note that as the State of the Onion speeches are often primarily based on
 |DATE OF DEATH=
 |PLACE OF DEATH=
 }}
-
 {{DEFAULTSORT:Wall, Larry}}
 [[Category:1954 births]]
 [[Category:Living people]]
