@@ -142,7 +142,7 @@ and this was later proved.<ref>{{cite journal
 
 Perl is distributed with some 120,000 functional tests. These run as part of the normal build process and extensively exercise the interpreter and its core modules. Perl developers rely on the functional tests to ensure that changes to the interpreter do not introduce bugs; conversely, Perl users who see that the interpreter passes its functional tests on their system can have a high degree of confidence that it is working properly.
 
-Maintenance of the Perl interpreter has become increasingly difficult over the years. The code base has been in continuous development since 1994. The code has been optimized for performance at the expense of simplicity, clarity, and strong internal interfaces. New features have been added, yet virtually complete backward compatibility with earlier versions is maintained. The size and complexity of the interpreter is a barrier to developers who wish to work on it.
+Maintenance of the Perl interpreter has become increasingly difficult over the years. The code base has been in continuous development since 1994. The code has been optimized for performance at the expense of simplicity, clarity, and strong internal interfaces. New features have been added, yet virtually complete backward compatibility with earlier versions is maintained. The size and complexity of the interpreter is a barrier to developers who wish to work on it.  As of Perl 5.11, development efforts have included refactoring certain core modules known as 'dual lifed' modules out of the Perl core<ref>[http://search.cpan.org/~jesse/perl-5.11.1/pod/perl5110delta.pod Perl 5.11.0 delta]</ref> to help alleviate some of these problems.
 
 === Availability ===
 <!--Note to editors:
