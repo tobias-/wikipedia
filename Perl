@@ -24,7 +24,6 @@ NOTES FOR EDITORS
 * "Perl" is not an acronym (read the "Name" section below). Do not put that here.
 * [[mod_perl]] is a correct link. Do not remove the underscore wherever you see it.
 * Perl is described as the 'Swiss Army *chainsaw*', not the 'Swiss Army knife' of programming languages. Read the ref.
-* Despite common misconception, Perl was not the initial backbone of the Internet.  Comic Sans was.
 
 -->
 '''Perl''' is a [[high-level programming language|high-level]], [[List of programming languages by category|general-purpose]], [[Interpreter (computing)|interpreted]], [[dynamic programming language]]. Perl was originally developed by [[Larry Wall]], a [[Linguistics|linguist]] working as a [[systems administrator]] for [[NASA]], in 1987, as a general-purpose [[Unix]] scripting language to make report processing easier.<ref>[http://perl.about.com/od/gettingstartedwithperl/p/whatisperl.htm What is Perl?]</ref><ref>[http://www.perl.com/pub/a/2000/10/begperl1.html Beginner's Introduction to Perl]</ref> Since then, it has undergone many changes and revisions and become widely popular amongst programmers. Larry Wall continues to oversee development of the core language, and its upcoming version, [[Perl 6]].
