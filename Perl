@@ -34,7 +34,7 @@ Perl borrows features from other programming languages including [[C (programmin
 
 === Early Perl Versions ===
 
-[[Larry Wall]] began work on Perl in 1987, while working as a programmer at [[Unisys]],<ref name="larry-wall-snippet">{{cite web|title=Larry Wall|url=http://www.perl.com/pub/au/Wall_Larry|accessdate=2006-08-20}}</ref> and released version 1.0 to the comp.sources.misc [[newsgroup]] on December 18, 1987.<ref>{{cite web|title=Perl, a "replacement" for awk and sed|url=http://groups.google.com/group/comp.sources.unix/browse_thread/thread/363c7a6fa4e2668b/bb3ee125385ae25f|accessdate=2007-12-18}}</ref> The language expanded rapidly over the next few years. 
+[[Larry Wall]] began work on Perl in 1987, while working as a programmer at [[Unisys]],<ref name="larry-wall-snippet">{{cite web|title=Larry Wall|url=http://www.perl.com/pub/au/Wall_Larry|accessdate=2006-08-20}}</ref> and released version 1.0 to the comp.sources.misc [[newsgroup]] on December 18, 1987.<ref>{{cite web | title = Perl, a "replacement" for awk and sed | url = http://groups.google.com/groups?selm=350@fig.bbn.com | accessdate = 2007-12-18 }}</ref> The language expanded rapidly over the next few years. 
 
 Perl 2, released in 1988, featured a better [[regular expression]] engine. Perl 3, released in 1989, added support for [[binary data]] streams.
 
