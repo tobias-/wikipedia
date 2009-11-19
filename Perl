@@ -651,18 +651,21 @@ Similar to obfuscated code and golf, but with a different purpose, Perl poetry i
 
 ==== Perl on IRC ====	 
 
-There are on IRC a couple of channels that offer free Perl support for Perl itself or some Perl modules.
+There are on IRC a couple of channels that offer free Perl support for the language and some modules.
 	 
 {| class="wikitable" border="1"	 
 |-	 
 ! IRC Network	 
 ! Channels	 
 |-	 
-| FreeNode ( irc.freenode.net )	 
+| irc.freenode.net
 | #perl , #cbstream , #perlcafe , #poe	 
 |-	 
 | irc.perl.org	 
 | #moose , #poe , #catalyst , #dbix-class , #perl-help , #distzilla , #epo , #corehackers
+|-	 
+| irc.slashnet.org
+| #perlmonks
 |-	 
 | irc.oftc.net	 
 | #perl	 
@@ -673,7 +676,6 @@ There are on IRC a couple of channels that offer free Perl support for Perl itse
 | irc.rizon.net	 
 | #perl	 
 |}
-
 
 ==== CPAN Acme ====
 There are also many examples of code written purely for entertainment on the [[CPAN]]. <code>Lingua::Romana::Perligata</code>, for example, allows writing programs in [[Latin]].<ref>{{ cite web | url=http://www.csse.monash.edu.au/~damian/papers/HTML/Perligata.html | title=Lingua::Romana::Perligata -- Perl for the XXI-imum Century | author=Conway, Damian }}</ref> Upon execution of such a program, the module translates its source code into regular Perl and runs it.
