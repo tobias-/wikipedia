@@ -651,7 +651,7 @@ Similar to obfuscated code and golf, but with a different purpose, Perl poetry i
 
 ==== Perl on IRC ====	 
 
-There are on [[IRC]] a couple of channels that offer free Perl support for the language and some modules.
+There are a couple of channels on [[IRC]] that offer free Perl support for the language and some modules.
 	 
 {| class="wikitable" border="1"	 
 |-	 
