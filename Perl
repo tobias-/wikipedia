@@ -662,7 +662,7 @@ There are a couple of channels on [[IRC]] that offer free Perl support for the l
 | #perl , #cbstream , #perlcafe , #poe , #padre	 
 |-	 
 | irc.perl.org	 
-| #moose , #poe , #catalyst , #dbix-class , #perl-help , #distzilla , #epo , #corehackers
+| #moose , #poe , #catalyst , #dbix-class , #perl-help , #distzilla , #epo , #corehackers , #sdl
 |-	 
 | irc.slashnet.org
 | #perlmonks
