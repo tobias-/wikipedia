@@ -255,7 +255,7 @@ Numbers (numeric constants) do not require quotation. Perl will convert numbers 
 <source lang="perl">
 $n = '3 apples';
 $m = '2 oranges';
-print $n + $m . "\n";
+print $n + $m;
 </source>
 
 Perl also has a boolean context that it uses in evaluating conditional statements. The following values all evaluate as false in Perl:
