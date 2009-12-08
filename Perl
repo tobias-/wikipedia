@@ -683,13 +683,6 @@ There are also many examples of code written purely for entertainment on the [[C
 
 The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (computer science)|namespace]] for modules that are fun in nature (but its scope has widened to include exploratory or experimental code or any other module that is not meant to ever be used in production). Some of the Acme modules are deliberately implemented in amusing ways. This includes <code>Acme::Bleach</code>, one of the first modules in the <code>Acme::</code> namespace,<ref>{{cite web | url=http://use.perl.org/~acme/journal/200 | title=use Perl; Journal of acme | date=2001-05-23 | author=Brocard, Leon }}</ref> which allows the program's source code to be "whitened" (i.e., all characters replaced with whitespace) and yet still work.
 
-== Further reading ==
-* ''[[Learning Perl]]'', Fifth Edition (the ''Llama book''), ISBN 0-596-52010-6
-* ''[[Perl Cookbook]]'', ISBN 0-596-00313-7
-* ''[[Programming Perl]]'' (the ''Camel book''), ISBN 0-596-00027-8
-* [http://www.ddj.com/web-development/tpj.jhtml The Perl Journal] published 1996–2006 was the leading publication for and about Perl Programming during this time.
-* ''[http://hop.perl.plover.com/book/ Higher Order Perl]'' , ISBN 1-558-60701-3
-
 == See also ==
 {{fossportal}}
 
@@ -702,6 +695,13 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 
 == References ==
 {{reflist|2}}
+
+== Further reading ==
+* ''[[Learning Perl]]'', Fifth Edition (the ''Llama book''), ISBN 0-596-52010-6
+* ''[[Perl Cookbook]]'', ISBN 0-596-00313-7
+* ''[[Programming Perl]]'' (the ''Camel book''), ISBN 0-596-00027-8
+* [http://www.ddj.com/web-development/tpj.jhtml The Perl Journal] published 1996–2006 was the leading publication for and about Perl Programming during this time.
+* ''[http://hop.perl.plover.com/book/ Higher Order Perl]'' , ISBN 1-558-60701-3
 
 == External links ==
 <!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first -->
