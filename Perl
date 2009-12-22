@@ -50,7 +50,7 @@ Perl 5.001 was released on March 13th, 1995.  Perl 5.002 was released on Feb. 29
 
 One of the most important events in Perl 5 history took place outside of the language proper and was a consequence of its module support. On October 26, 1995, the [[Comprehensive Perl Archive Network]] (CPAN) was established as a [[Software repository|repository]] for [[Perl module]]s and Perl itself. At the time of writing, it carries almost 17,000 modules by more than 7,000 authors. CPAN is widely regarded as one of the greatest strengths of Perl in practice.
 
-Perl 5.004 was released on May 15th, 1997, and included among other things the UNIVERSAL package, giving Perl a base object to which all classes were automatically derived and the ability to require versions of modules.  In addition, Perl now supported running under Microsoft Windows and several other more operating systems.<ref>http://perldoc.perl.org/perl5004delta.html</ref>
+Perl 5.004 was released on May 15th, 1997, and included among other things the UNIVERSAL package, giving Perl a base object to which all classes were automatically derived and the ability to require versions of modules.  In addition, Perl now supported running under Microsoft Windows and several other operating systems.<ref>http://perldoc.perl.org/perl5004delta.html</ref>
 
 Perl 5.005 was released on July 22nd, 1998.  This release included several enhancements to the Regex engine, new hooks into the backend through the <code>B::*</code> modules, the <code>qr//</code> regex quote operator, a large selection of other new core modules, and added support for several more operating systems, including [[BeOS]].<ref>http://perldoc.perl.org/perl5005delta.html</ref>
 
