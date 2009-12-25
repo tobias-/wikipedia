@@ -307,7 +307,7 @@ Individual elements of a list are accessed by providing a numerical index in squ
 
 ====Hash values====
 
-A hash may be initialized from a list of key/value pairs. If the keys are separated from the values with the <code>=></code> operator, rather than a comma, they may be unquoted (barewords). The following lines are equivalent:
+A hash (or [[associative array]]) may be initialized from a list of key/value pairs. If the keys are separated from the values with the <code>=></code> operator, rather than a comma, they may be unquoted (barewords). The following lines are equivalent:
 
 <source lang="perl">
 %favorite = ('joe', "red", 'sam', "blue");
