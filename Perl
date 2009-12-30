@@ -727,7 +727,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 [[Category:Object-oriented programming languages]]
 [[Category:Scripting languages]]
 [[Category:Text-oriented programming languages]]
-[[Category:Unix software]]
+[[Category:Unix programming tools]]
 [[Category:Cross-platform software]]
 [[Category:American inventions]]
 
