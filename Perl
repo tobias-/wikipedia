@@ -7,6 +7,8 @@
 | designer               = [[Larry Wall]]
 | latest_release_version = 5.10.1
 | latest_release_date    = {{release date|mf=yes|2009|08|22}}
+| latest preview version = 5.11.3
+| latest preview date    = {{release date|2009|12|20}}
 | turing-complete        = Yes
 | typing                 = Dynamic
 | influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[Lisp (programming language)|Lisp]], [[C (programming language)|C]], [[C++]], [[sed]], [[Unix shell]], [[Pascal (programming language)|Pascal]]
@@ -66,9 +68,9 @@ In 2004, work began on the Synopses - originally documents that summarized the A
 
 On December 18, 2007, the 20th anniversary of Perl 1.0, Perl 5.10.0 was released. Perl 5.10.0 included notable new features, which brought it closer to [[Perl 6]]. Some of these new features were a new [[switch statement]] (called "given"/"when"), regular expressions updates, and the smart match operator, "~~".<ref>[http://search.cpan.org/~rgarcia/perl-5.10.0-RC2/pod/perl5100delta.pod perldelta: what is new for perl 5.10.0]</ref><ref>[http://search.cpan.org/~rgarcia/perl-5.10.0-RC2/pod/perlsyn.pod#Smart_matching_in_detail Smart matching in detail]</ref>
 
-Around this same time, development began in earnest on another implementation of Perl 6 known as [[Rakudo Perl]], developed in tandem with the [[Parrot virtual machine]].  As of November 2009, Rakudo Perl has had regular monthly releases and now is the most complete implementation of Perl 6.
+Around this same time, development began in earnest on another implementation of Perl 6 known as [[Rakudo Perl]], developed in tandem with the [[Parrot virtual machine]].  As of November 2009, Rakudo Perl has had regular monthly releases and now is the most complete implementation of [[Perl 6]].
 
-The latest development release of Perl 5 is 5.11.2, announced November 23th, 2009, includes further unicode updates (now using the 5.1.0 version of the Unicode Character Database), implied strictures, updates to the regex matching engine, pluggable method resolution order engines, and changes to core modules to make maintenance easier.  A major change in the development process of Perl 5 occurred with Perl 5.11 as well; the development community has switched to a monthly release cycle.
+The latest development release of Perl 5 is 5.11.3, announced by Jesse Vincent on December 20th, 2009<ref>[http://www.nntp.perl.org/group/perl.perl5.porters/2009/12/msg154838.html Perl 5.11.3 announcement]</ref>, includes further unicode updates (now using the 5.2 version of the Unicode Character Database) handling of every Unicode character property, changed the 'legacy' pragma to 'feature'. Earlier releases included implied strictures, updates to the regex matching engine, pluggable method resolution order engines, and changes to core modules to make maintenance easier.  A major change in the development process of Perl 5 occurred with Perl 5.11 as well; the development community has switched to a monthly release cycle, with planned release dates three months ahead.
 
 === Name ===
 
@@ -403,12 +405,12 @@ Perl also has two implicit looping constructs, each of which has two forms:
 Up until the 5.10.0 release, there was no [[switch statement]] in Perl 5. From 5.10.0 onward, a multi-way branch statement called <code>given</code>/<code>when</code> is available, which takes the following form:
 
 
- use v5.10.0; # must be present to import the new 5.10 functions
+ use v5.10; # must be present to import the new 5.10 functions
  given ( ''expr'' ) { when ( ''cond'' ) { ... } default { ... } }
 
 Syntactically, this structure behaves similarly to [[switch statement]]s found in other languages, but with a few important differences. The largest is that unlike switch/case structures, given/when statements break execution after the first successful branch, rather than waiting for explicitly defined break commands. Conversely, explicit continues are instead necessary to emulate switch behavior.
 
-For those not using the 5.10.0 release, the Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures. There is also a [http://search.cpan.org/perldoc/Switch Switch] module, which provides functionality modeled on the forthcoming [[Perl 6]] re-design. It is implemented using a [[source filter]], so its use is unofficially discouraged.<ref>[http://www.perlmonks.org/?node_id=496084 using switch<!-- Bot generated title -->]</ref>
+For those not using Perl 5.10, the Perl documentation describes a half-dozen ways to achieve the same effect by using other control structures. There is also a [http://search.cpan.org/perldoc/Switch Switch] module, which provides functionality modeled on the forthcoming [[Perl 6]] re-design. It is implemented using a [[source filter]], so its use is unofficially discouraged.<ref>[http://www.perlmonks.org/?node_id=496084 using switch<!-- Bot generated title -->]</ref>
 
 Perl includes a <code>goto label</code> statement, but it is rarely used. Situations where a <code>goto</code> is called for in other languages don't occur as often in Perl because of its breadth of flow control options.
 
