@@ -17,6 +17,7 @@
 | operating_system       = [[Cross-platform]]
 | license                = [[GNU General Public License]], [[Artistic License]]
 | website                = http://www.perl.org/
+| file_ext               = .pl
 }}
 
 <!--
