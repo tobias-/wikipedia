@@ -262,7 +262,7 @@ $n = '3 apples';
 $m = '2 oranges';
 print $n + $m;
 </source>
-Functions are provided for the [[rounding]] of fractional values to integer values: <code>int</code> chops off the fractional part, rounding towards zero; <code>POSIX::ceil</code> and <code>POSIX::floor</code> round always up and always down, respectively.  The number-to-string conversion of <code>printf "%f"</code> or <code>sprintf "%f"</code> round ot even, use [[rounding#round halfway to even|bankers' rounding]].
+Functions are provided for the [[rounding]] of fractional values to integer values: <code>int</code> chops off the fractional part, rounding towards zero; <code>POSIX::ceil</code> and <code>POSIX::floor</code> round always up and always down, respectively.  The number-to-string conversion of <code>printf "%f"</code> or <code>sprintf "%f"</code> round out even, use [[rounding#round halfway to even|bankers' rounding]].
 
 Perl also has a boolean context that it uses in evaluating conditional statements. The following values all evaluate as false in Perl:
 
