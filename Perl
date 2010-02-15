@@ -1,10 +1,11 @@
 {{Otheruses}}
 {{Infobox programming language
 | name                   = Perl
-| logo                   = [[Image:Programming-republic-of-perl.png]]
+| logo                   = [[Image:Programming-republic-of-perl.png|100px]] 
 | paradigm               = [[multi-paradigm]]: [[Functional programming|functional]], [[Imperative programming|imperative]], [[Object-oriented programming|object-oriented]] ([[Class (computer science)|class-based]])
 | year                   = 1987
 | designer               = [[Larry Wall]]
+| developer              = Larry Wall 
 | latest_release_version = 5.10.1
 | latest_release_date    = {{release date|mf=yes|2009|08|22}}
 | latest preview version = 5.11.4
@@ -16,7 +17,7 @@
 | programming_language   = [[C (programming language)|C]]
 | operating_system       = [[Cross-platform]]
 | license                = [[GNU General Public License]], [[Artistic License]]
-| website                = http://www.perl.org/
+| website                = [http://www.perl.org/ www.perl.org] 
 | file_ext               = .pl
 }}
 
