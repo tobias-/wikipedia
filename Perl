@@ -193,7 +193,6 @@ A community project <ref>[http://win32.perl.org/ win32.perl.org/]</ref> was laun
 The [[Cygwin]] emulation layer is another popular way of running Perl under Windows. Cygwin provides a Unix-like environment on Windows, and both perl and cpan are conveniently available as standard pre-compiled packages in the Cygwin setup program. Because Cygwin also includes the [[GNU Compiler Collection|gcc]], compiling Perl from source is also possible.
 
 == Language structure ==
-{{Manual|section|date=December 2008}}
 In Perl, the minimal [[Hello world]] program may be written as follows:
 <source lang="perl">
 print "Hello, world!\n";
