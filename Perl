@@ -767,6 +767,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 [[ka:პერლი]]
 [[ku:Perl]]
 [[la:Perl]]
+[[lv:Perl]]
 [[lb:Perl (Programméiersprooch)]]
 [[lt:Perl]]
 [[hu:Perl]]
