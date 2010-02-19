@@ -407,7 +407,6 @@ Perl also has two implicit looping constructs, each of which has two forms:
 
 Up until the 5.10.0 release, there was no [[switch statement]] in Perl 5. From 5.10.0 onward, a multi-way branch statement called <code>given</code>/<code>when</code> is available, which takes the following form:
 
-
  use v5.10; # must be present to import the new 5.10 functions
  given ( ''expr'' ) { when ( ''cond'' ) { ... } default { ... } }
 
