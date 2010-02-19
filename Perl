@@ -58,7 +58,7 @@ Perl 5.004 was released on May 15th, 1997, and included among other things the U
 
 Perl 5.005 was released on July 22nd, 1998.  This release included several enhancements to the Regex engine, new hooks into the backend through the <code>B::*</code> modules, the <code>qr//</code> regex quote operator, a large selection of other new core modules, and added support for several more operating systems, including [[BeOS]].<ref>http://perldoc.perl.org/perl5005delta.html</ref>
 
-=== 2000 - Present ===
+=== 2000–Present ===
 
 Perl 5.6 was released on March 22nd, 2000.  Major changes included 64 bit support, unicode string representation, large file support (eg, files > 2 GiB) and the 'our' keyword.<ref>http://perldoc.perl.org/perl56delta.html</ref><ref>http://perldoc.perl.org/perl561delta.html</ref>  When developing Perl 5.6, the decision was made to switch the versioning scheme to one more similar to other open source projects; after 5.005_63, the next version became 5.5.640, with plans for development versions to have odd numbers and stable versions to have even numbers.
 
@@ -66,7 +66,7 @@ In 2000, Larry Wall put forth a call for suggestions for a new version of Perl f
 
 Perl 5.8 was first released on July 18th, 2002, and had nearly yearly updates since then.  The latest version of Perl 5.8 is 5.8.9, released December 14th, 2008.  Perl 5.8 improved unicode support, added a new IO implementation, added a new thread implementation, improved numeric accuracy, and added several new modules.<ref>http://perldoc.perl.org/perl58delta.html</ref>
 
-In 2004, work began on the Synopses - originally documents that summarized the Apocalypes, but which became the specification for the Perl 6 language.  In February 2005, Audrey Tang began work on [[Pugs]], a Perl 6 interpreter written in Haskel.  This was the first real concerted effort towards making Perl 6 a reality.  This effort stalled in 2006.
+In 2004, work began on the Synopses – originally documents that summarized the Apocalypes, but which became the specification for the Perl 6 language.  In February 2005, Audrey Tang began work on [[Pugs]], a Perl 6 interpreter written in Haskel.  This was the first real concerted effort towards making Perl 6 a reality.  This effort stalled in 2006.
 
 On December 18, 2007, the 20th anniversary of Perl 1.0, Perl 5.10.0 was released. Perl 5.10.0 included notable new features, which brought it closer to [[Perl 6]]. Some of these new features were a new [[switch statement]] (called "given"/"when"), regular expressions updates, and the smart match operator, "~~".<ref>[http://search.cpan.org/~rgarcia/perl-5.10.0-RC2/pod/perl5100delta.pod perldelta: what is new for perl 5.10.0]</ref><ref>[http://search.cpan.org/~rgarcia/perl-5.10.0-RC2/pod/perlsyn.pod#Smart_matching_in_detail Smart matching in detail]</ref>
 
