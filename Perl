@@ -132,7 +132,7 @@ Perl is often used as a [[glue language]], tying together systems and interfaces
 
 With a degree of care, Perl code can be made portable across [[Microsoft Windows|Windows]] and Unix. Portable Perl code is often used by suppliers of software (both [[Commercial off-the-shelf|COTS]] and bespoke) to simplify packaging and maintenance of software build and deployment scripts.
 
-Graphical user interfaces (GUIs) may be developed using Perl. For example, Perl/Tk is commonly used to enable user interaction with Perl scripts. Such interaction may be synchronous or asynchronous using callbacks to update the GUI. For more information about the technologies involved, see [[Tk (computing)|Tk]],[[Tcl]], [[WxPerl]] and [[Prima Perl]].
+Graphical user interfaces (GUIs) may be developed using Perl. For example, Perl/Tk is commonly used to enable user interaction with Perl scripts. Such interaction may be synchronous or asynchronous using callbacks to update the GUI. For more information about the technologies involved, see [[Tk (computing)|Tk]], [[Tcl]], [[WxPerl]] and [[Prima Perl]].
 
 Perl is also widely used in finance and [[bioinformatics]], where it is valued for rapid application development and deployment and for its capability to handle large data sets.
 
