@@ -582,6 +582,8 @@ In Perl 5, database interfaces are implemented by [[Perl DBI]] modules. The DBI 
 
 DBI provides caching for database handles and queries, which can greatly improve performance in long-lived execution environments such as [[mod perl|mod_perl]],<ref>{{cite web | last = Bekman | first = Stas | title = Efficient Work with Databases under mod_perl | url = http://perl.apache.org/docs/1.0/guide/performance.html#Efficient_Work_with_Databases_under_mod_perl | accessdate = 2007-09-01 }}</ref> helping high-volume systems avert load spikes as in the [[Slashdot effect]].
 
+In modern Perl applications, especially those written using [[Web application framework]]s such as [[Catalyst (software)|Catalyst]], the DBI module is often used indirectly via [[object-relational mapper]]s such as [[DBIx::Class]], [[Class::DBI]] or [[Rose::DB::Object]] which generate SQL queries and handle data transparently to the application author.
+
 == Comparative performance ==
 ''The Computer Language Benchmarks Game''<ref>[http://shootout.alioth.debian.org/u32/benchmark.php?test=all&lang=all&d=data&v8=on&lua=on&python=on&php=on&perl=on&ruby=on&calc=calculate Boxplot Summary | The Computer Language Benchmarks Game]</ref> compares the performance of implementations of typical programming problems in several programming languages. The submitted Perl implementations were typically toward the high end of the memory-usage spectrum and had varied speed results. Perl's performance in the benchmarks game is typical for interpreted languages.
 
