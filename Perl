@@ -580,6 +580,29 @@ There are many ways to write [[Object-oriented programming|object-oriented]] cod
 The most basic is using "blessed" [[Reference (computer science)|references]].
 Many modern Perl applications use the [[Moose (Perl)|Moose]] object system.
 
+==== Examples ====
+
+An example of a class written using the MooseX::Declare<ref>[http://search.cpan.org/perldoc?MooseX::Declare MooseX::Declare documentation]</ref> extension to Moose:
+
+<source lang="perl">
+use MooseX::Declare;
+
+class Point3D extends Point {
+    has 'z' => (isa => 'Num', is => 'rw');
+
+    after clear {
+        $self->z(0);
+    }
+    method set_to (Num $x, Num $y, Num $z) {
+        $self->x($x);
+        $self->y($y);
+        $self->z($z);
+    }
+}
+</source>
+
+This is a class named <code>Point3D</code> that extends another class named <code>Point</code> explained in [[Moose (Perl)#Examples|Moose examples]]. Id adds to its base class a new attribute <code>z</code>, redefines the method <code>set_to</code> and extends the method <code>clear</code>.
+
 == Database interfaces ==
 Perl is widely favored for database applications. Its text-handling facilities are useful for generating [[SQL]] queries; arrays, hashes, and automatic memory management make it easy to collect and process the returned data.
 
