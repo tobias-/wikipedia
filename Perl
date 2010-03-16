@@ -573,6 +573,13 @@ $x =~ s/(ge)/uc($1)/e; # OranGEs
 $x .= $1; # append $x with the contents of the match in the previous statement: OranGEsge
 </source>
 
+=== Objects ===
+
+{{section-stub}}
+There are many ways to write [[Object-oriented programming|object-oriented]] code in Perl.
+The most basic is using "blessed" [[Reference (computer science)|references]].
+Many modern Perl applications use the [[Moose (Perl)|Moose]] object system.
+
 == Database interfaces ==
 Perl is widely favored for database applications. Its text-handling facilities are useful for generating [[SQL]] queries; arrays, hashes, and automatic memory management make it easy to collect and process the returned data.
 
