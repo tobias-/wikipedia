@@ -212,7 +212,7 @@ The second line in the canonical form includes a semicolon, which is used to sep
 Version 5.10 of Perl introduces a <code>say</code> function that implicitly appends a newline character to its output, making the minimal "Hello world" program even shorter:
 
 <source lang="perl">
-use v5.10.0; # must be present to import the new 5.10 functions
+use v5.010; # must be present to import the new 5.10 functions
 say 'Hello, world!'
 </source>
 
