@@ -8,8 +8,8 @@
 | developer              = Larry Wall 
 | latest_release_version = 5.10.1
 | latest_release_date    = {{release date|mf=yes|2009|08|22}}
-| latest preview version = 5.11.4
-| latest preview date    = {{release date|2010|01|21}}
+| latest preview version = 5.11.5
+| latest preview date    = {{release date|2010|02|20}}
 | turing-complete        = Yes
 | typing                 = Dynamic
 | influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[Lisp (programming language)|Lisp]], [[C (programming language)|C]], [[C++]], [[sed]], [[Unix shell]], [[Pascal (programming language)|Pascal]]
@@ -71,7 +71,7 @@ On December 18, 2007, the 20th anniversary of Perl 1.0, Perl 5.10.0 was released
 
 Around this same time, development began in earnest on another implementation of Perl 6 known as [[Rakudo Perl]], developed in tandem with the [[Parrot virtual machine]].  As of November 2009, Rakudo Perl has had regular monthly releases and now is the most complete implementation of [[Perl 6]].
 
-The latest development release of Perl 5 is 5.11.4, announced by Ricardo Signes on January 21, 2010,<ref>[http://rjbs.manxome.org/rubric/entry/1814 Perl 5.11.4 announcement]</ref> includes further unicode updates (now using the 5.2 version of the Unicode Character Database) handling of every Unicode character property, changed the 'legacy' pragma to 'feature'. Earlier releases included implied strictures, updates to the regex matching engine, pluggable method resolution order engines, and changes to core modules to make maintenance easier.  A major change in the development process of Perl 5 occurred with Perl 5.11 as well; the development community has switched to a monthly release cycle, with planned release dates three months ahead. This is the first release of Perl since the code freeze for 5.12.0.
+The latest development release of Perl 5 is 5.11.5, released by Steve Hay on February 20, 2010,<ref>[http://search.cpan.org/~shay/perl-5.11.5/ Perl 5.11.5 announcement]</ref> includes further unicode updates (now using the 5.2 version of the Unicode Character Database) handling of every Unicode character property, changed the 'legacy' pragma to 'feature'. Earlier releases included implied strictures, updates to the regex matching engine, pluggable method resolution order engines, and changes to core modules to make maintenance easier.  A major change in the development process of Perl 5 occurred with Perl 5.11 as well; the development community has switched to a monthly release cycle, with planned release dates three months ahead. This is the first release of Perl since the code freeze for 5.12.0.
 
 === Name ===
 
