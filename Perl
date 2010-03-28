@@ -575,7 +575,7 @@ $x .= $1; # append $x with the contents of the match in the previous statement: 
 
 === Objects ===
 
-{{section-stub}}
+{{Expand section|date=March 2010}}
 There are many ways to write [[Object-oriented programming|object-oriented]] code in Perl.
 The most basic is using "blessed" [[Reference (computer science)|references]].
 Many modern Perl applications use the [[Moose (Perl)|Moose]] object system.
