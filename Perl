@@ -441,7 +441,7 @@ The parameters to a subroutine do not need to be declared as to either number or
 
 Arrays are expanded to their elements; hashes are expanded to a list of key/value pairs; and the whole lot is passed into the subroutine as one flat list of scalars.
 
-Whatever arguments are passed are available to the subroutine in the special array <code>@_</code>. The elements of <code>@_</code> are aliased to the actual arguments; changing an element of <code>@_</code> changes the corresponding argument.
+Whatever arguments are passed are available to the subroutine in the special array <code>@_</code>. The elements of <code>@_</code> are referenced to the actual arguments; changing an element of <code>@_</code> changes the corresponding argument.
 
 Elements of <code>@_</code> may be accessed by subscripting it in the usual way.
 
