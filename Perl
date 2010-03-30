@@ -693,10 +693,10 @@ There are a couple of channels on [[IRC]] that offer free Perl support for the l
 ! Channels	 
 |-	 
 | irc.freenode.net
-| #perl , #cbstream , #perlcafe , #poe , #padre	 
+| #perl #cbstream #perlcafe #poe
 |-	 
 | irc.perl.org	 
-| #moose , #poe , #catalyst , #dbix-class , #perl-help , #distzilla , #epo , #corehackers , #sdl , #win32 , #toolchain
+| #moose #poe #catalyst #dbix-class #perl-help #distzilla #epo #corehackers #sdl #win32 #toolchain #padre
 |-	 
 | irc.slashnet.org
 | #perlmonks
