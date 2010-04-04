@@ -709,6 +709,10 @@ There are a couple of channels on [[IRC]] that offer free Perl support for the l
 |-	 
 | irc.rizon.net	 
 | #perl	 
+|-	 
+| irc.debian.org
+| #debian-perl
+|-	 
 |}
 
 ==== CPAN Acme ====
