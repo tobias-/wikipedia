@@ -7,9 +7,9 @@
 | designer               = [[Larry Wall]]
 | developer              = Larry Wall 
 | latest_release_version = 5.12.0
-| latest_release_date    = {{release date|mf=yes|2010|04|13}}
-| latest preview version = 5.12.0-RC0
-| latest preview date    = {{release date|2010|03|21}}
+| latest_release_date    = {{release date|mf=yes|2010|04|12}}
+| latest preview version = 5.13.0
+| latest preview date    = {{release date|2010|04|20}}
 | turing-complete        = Yes
 | typing                 = Dynamic
 | influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[Lisp (programming language)|Lisp]], [[C (programming language)|C]], [[C++]], [[sed]], [[Unix shell]], [[Pascal (programming language)|Pascal]]
@@ -71,7 +71,12 @@ On December 18, 2007, the 20th anniversary of Perl 1.0, Perl 5.10.0 was released
 
 Around this same time, development began in earnest on another implementation of Perl 6 known as [[Rakudo Perl]], developed in tandem with the [[Parrot virtual machine]].  As of November 2009, Rakudo Perl has had regular monthly releases and now is the most complete implementation of [[Perl 6]].
 
-The latest development release of Perl 5 is 5.12.0-RC0, released by Jesse Vincent on March 21, 2010,<ref>[http://search.cpan.org/~jesse/perl-5.12.0-RC0/ Perl 5.12.0-RC0 release page]</ref> includes further unicode updates (now using the 5.2 version of the Unicode Character Database) handling of every Unicode character property, changed the 'legacy' pragma to 'feature'. Earlier releases included implied strictures, updates to the regex matching engine, pluggable method resolution order engines, and changes to core modules to make maintenance easier.  A major change in the development process of Perl 5 occurred with Perl 5.11 as well; the development community has switched to a monthly release cycle, with planned release dates three months ahead.
+A major change in the development process of Perl 5 occurred with Perl 5.11; the development community has switched to a monthly release cycle, with planned release dates three months ahead.
+
+On April 12, 2010, Perl 5.12.0 was released. Notable core enhancements include new '''package NAME VERSION''' syntax, the Yada Yada operator (intended to mark placeholder code that is not yet implemented), implicit strictures, full [[Y2038]] compliance, regexp conversion overloading, [[DTrace]] support, and [[Unicode]] 5.2.
+<ref>[http://search.cpan.org/~jesse/perl-5.12.0/pod/perl5120delta.pod]</ref>
+
+The latest development release of Perl 5 is 5.13.0, released by Léon Brocard on April 20, 2010<ref>[http://search.cpan.org/~lbrocard/perl-5.13.0/]</ref>.
 
 === Name ===
 
