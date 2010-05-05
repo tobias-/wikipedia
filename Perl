@@ -1,7 +1,7 @@
 {{Other uses}}
 {{Infobox programming language
 | name                   = Perl
-| logo                   = [[Image:Programming-republic-of-perl.png|100px]] 
+| logo                   = [[File:Programming-republic-of-perl.png|100px]] 
 | paradigm               = [[multi-paradigm]]: [[Functional programming|functional]], [[Imperative programming|imperative]], [[Object-oriented programming|object-oriented]] ([[Class (computer science)|class-based]])
 | year                   = 1987
 | designer               = [[Larry Wall]]
@@ -761,7 +761,6 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 {{FOSS}}
 
 [[Category:Perl|*]]
-[[Category:Curly bracket programming languages]]
 [[Category:Dynamic programming languages]]
 [[Category:Dynamically-typed programming languages]]
 [[Category:Free compilers and interpreters]]
