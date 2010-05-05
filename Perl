@@ -19,6 +19,7 @@
 | license                = [[GNU General Public License]], [[Artistic License]]
 | website                = [http://www.perl.org/ www.perl.org] 
 | file_ext               = .pl
+| wikibooks              = Perl Programming
 }}
 
 <!--
