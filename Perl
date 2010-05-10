@@ -806,7 +806,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 [[lv:Perl]]
 [[lb:Perl (Programméiersprooch)]]
 [[lt:Perl]]
-[[hu:Perl]]
+[[hu:Perl (programozási nyelv)]]
 [[mk:Perl]]
 [[ml:പേള്‍]]
 [[ms:Perl]]
