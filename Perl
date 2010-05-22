@@ -286,7 +286,7 @@ All other (non-zero evaluating) values evaluate to true. This includes the odd s
 
 Evaluated boolean expressions are also scalar values. The documentation does not promise which ''particular'' value of true or false is returned. Many boolean operators return 1 for true and the empty-string for false. The ''defined()'' function determines whether a variable has any value set. In the above examples, ''defined($false)'' is true for every value except ''undef''.
 
-If either 1 or 0 are specifically needed, an explicit conversion can be done using the [[Ternary_operation|ternary operator]]:
+If either 1 or 0 are specifically needed, an explicit conversion can be done using the [[conditional operator]]:
 
 <source lang="perl">
 my $real_result = $boolean_result ? 1 : 0;
