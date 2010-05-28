@@ -356,9 +356,9 @@ Multiple elements may be accessed using the <code>@</code> sigil instead (identi
 
 ====File Handles====
 
-File Handles provide read and write access to resources.  These are most often files on disk, but can also be a device, a [[Pipeline (Unix)|pipes], or even a scalar value.
+File Handles provide read and write access to resources.  These are most often files on disk, but can also be a device, a [[Pipeline (Unix)|pipe]], or even a scalar value.
 
-Originally, File Handles could only be created with package variables, using the ALL_CAPS convention to distinguish it from other variables.  Perl 5.6 and newer also accept a scalar variables, which will be set ([[Autovivification|autovivified]]) to a reference to an anonymous file handle, in place of a named file handle.  Using the ALL_CAPS method for file handles is considered deprecated by the community.<ref>[http://www.modernperlbooks.com/mt/2010/04/three-arg-open-migrating-to-modern-perl.html Three Arg Open: Migrating to Modern Perl]</ref>
+Originally, File Handles could only be created with package variables, using the ALL_CAPS convention to distinguish it from other variables.  Perl 5.6 and newer also accept a scalar variable, which will be set ([[Autovivification|autovivified]]) to a reference to an anonymous file handle, in place of a named file handle.  Using the ALL_CAPS method for file handles is considered deprecated by the community.<ref>[http://www.modernperlbooks.com/mt/2010/04/three-arg-open-migrating-to-modern-perl.html Three Arg Open: Migrating to Modern Perl]</ref>
 
 ====Typeglob values====
 
