@@ -752,6 +752,177 @@ There are also many examples of code written purely for entertainment on the [[C
 
 The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (computer science)|namespace]] for modules that are fun in nature (but its scope has widened to include exploratory or experimental code or any other module that is not meant to ever be used in production). Some of the Acme modules are deliberately implemented in amusing ways. This includes <code>Acme::Bleach</code>, one of the first modules in the <code>Acme::</code> namespace,<ref>{{cite web | url=http://use.perl.org/~acme/journal/200 | title=use Perl; Journal of acme | date=2001-05-23 | author=Brocard, Leon }}</ref> which allows the program's source code to be "whitened" (i.e., all characters replaced with whitespace) and yet still work.
 
+==Continual Animation==
+English dictionary
+Arabic»Arabic <> EnglishBengali»Bengali <> EnglishBulgarian»Bulgarian <> EnglishChinese (Simplified)»Chinese (Simplified) dictionaryChinese (Simplified) <> EnglishChinese (Traditional)»Chinese (Traditional) dictionaryChinese (Traditional) <> EnglishCroatian»Croatian <> EnglishCzech»Czech dictionaryCzech <> EnglishDutch»Dutch dictionaryEnglish»English <> ArabicEnglish <> BengaliEnglish <> BulgarianEnglish <> Chinese (Simplified)English <> Chinese (Traditional)English <> CroatianEnglish <> CzechEnglish dictionaryEnglish <> FinnishEnglish <> FrenchEnglish <> GermanEnglish <> GreekEnglish <> GujaratiEnglish <> HebrewEnglish <> HindiEnglish <> ItalianEnglish <> KannadaEnglish <> KoreanEnglish <> MalayalamEnglish <> MarathiEnglish <> PortugueseEnglish <> RussianEnglish <> SerbianEnglish <> SpanishEnglish <> TamilEnglish <> TeluguEnglish <> ThaiFinnish»Finnish <> EnglishFrench»French <> EnglishFrench dictionaryGerman»German <> EnglishGerman dictionaryGreek»Greek <> EnglishGujarati»Gujarati <> EnglishHebrew»Hebrew <> EnglishHindi»Hindi <> EnglishItalian»Italian <> EnglishItalian dictionaryKannada»Kannada <> EnglishKorean»Korean <> EnglishKorean dictionaryMalayalam»Malayalam <> EnglishMarathi»Marathi <> EnglishPortuguese»Portuguese <> EnglishPortuguese dictionaryRussian»Russian <> EnglishRussian dictionarySerbian»Serbian <> EnglishSpanish»Spanish <> EnglishSpanish dictionaryTamil»Tamil <> EnglishTelugu»Telugu <> EnglishThai»Thai <> English Arabic <> English Bengali <> English Bulgarian <> English Chinese (Simplified) dictionary Chinese (Simplified) <> English Chinese (Traditional) dictionary Chinese (Traditional) <> English Croatian <> English Czech dictionary Czech <> English Dutch dictionary English <> Arabic English <> Bengali English <> Bulgarian English <> Chinese (Simplified) English <> Chinese (Traditional) English <> Croatian English <> Czech English dictionary English <> Finnish English <> French English <> German English <> Greek English <> Gujarati English <> Hebrew English <> Hindi English <> Italian English <> Kannada English <> Korean English <> Malayalam English <> Marathi English <> Portuguese English <> Russian English <> Serbian English <> Spanish English <> Tamil English <> Telugu English <> Thai Finnish <> English French <> English French dictionary German <> English German dictionary Greek <> English Gujarati <> English Hebrew <> English Hindi <> English Italian <> English Italian dictionary Kannada <> English Korean <> English Korean dictionary Malayalam <> English Marathi <> English Portuguese <> English Portuguese dictionary Russian <> English Russian dictionary Serbian <> English Spanish <> English Spanish dictionary Tamil <> English Telugu <> English Thai <> English     
+Dictionary   
+
+ sink   /s'ɪŋk/
+Synonyms:
+verb: go down, fall, subside, dip, drop, submerge, founder 
+noun: washbasin 
+sinks plural, 3rd person present;   sinking present participle;   sank past tense;   sunk past participle
+1.A sink is a large fixed container in a kitchen, with taps to supply water. It is mainly used for washing dishes. Noun (countable) 
+■The sink was full of dirty dishes. 
+■...the kitchen sink. 
+2.A sink is the same as a washbasin or basin. Noun (countable) 
+■The bathroom is furnished with 2 toilets, 2 showers, and 2 sinks. 
+3.If a boat sinks or if someone or something sinks it, it disappears below the surface of a mass of water. Verb 
+■In a naval battle your aim is to sink the enemy's ship. V n 
+■The boat was beginning to sink fast. V 
+■The lifeboat crashed against the side of the sinking ship. V-ing 
+sinking Noun (countable)
+sinkings plural
+■...the sinking of the Titanic. + 'of' 
+4.If something sinks, it disappears below the surface of a mass of water. Verb 
+Antonym float 
+■A fresh egg will sink and an old egg will float. V 
+5.If something sinks, it moves slowly downwards. Verb 
+■Far off to the west the sun was sinking. V 
+■When they came to build the southern spire the foundations began to sink. V 
+6.If you sink, you move into a lower position, for example by sitting down in a chair or kneeling. Verb written 
+■Kate laughed, and sank down again to her seat. V adv/prep 
+■She sank into an armchair and crossed her legs. V adv/prep 
+■`Don't you understand?' I moaned, sinking dramatically to my knees. V adv/prep 
+7.If something sinks to a lower level or standard, it falls to that level or standard. Verb 
+Synonym fall 
+■Share prices would have sunk–hurting small and big investors. V 
+■Pay increases have sunk to around seven per cent. V + 'to/from/by' 
+■The pound had sunk 10 per cent against the Schilling. V amount 
+8.People use sink school or sink estate to refer to a school or housing estate that is in a very poor area with few resources. Adjective ADJ n Britain journalistic 
+■...unemployed teenagers from sink estates. 
+■He has transformed Chicago's sink schools into beacons of hope for parents and children. 
+9.If your voice sinks, it becomes quieter. Verb written 
+Synonym fall 
+■Her voice sank, and he moved closer to catch what she was saying. V 
+■Her voice had sunk to a whisper. V 'to/into' n 
+10.To sink into an unpleasant or undesirable mood, situation, or state means to pass gradually into it. Verb written 
+■She'd sometimes sink into depression. V 'into' n 
+■That night he sank into a deep coma. V 'into' n 
+■Bulgaria's economy has sunk into chaos. V 'into' n 
+11.If your heart or your spirits sink, you become depressed or lose hope. Verb 
+■My heart sank because I thought he was going to dump me for another girl. V 
+■Her spirits sank lower and lower. V 
+12.If something sharp sinks or is sunk into something solid, it goes deeply into it. Verb 
+■He sinks the needle into my arm. V n 'into' n 
+■I sank my teeth into a peppermint cream. V n + 'into' 
+■The spade sank into a clump of overgrown bushes. V + 'into' 
+13.If someone sinks a well, mine, or other large hole, they make a deep hole in the ground, usually by digging or drilling. Verb 
+■...the site where Stephenson sank his first mineshaft. V n 
+■If they carry on sinking boreholes then the land is likely to subside. V n 
+■...a one-thousand foot deep hole sunk into the rock. V-ed 
+14.If you sink money into a business or project, you spend money on it in the hope of making more money. Verb 
+Synonym plough 
+■He has already sunk $25million into the project. V n + 'into' 
+15.If someone sinks a number of alcoholic drinks, they drink them quickly. Verb Britain informal 
+Synonym down 
+■She sank two glasses of white wine. V n 
+16.In golf, snooker, and some other games, if you sink a ball or a putt, you successfully hit the ball into a hole. Verb 
+■He sank two crucial putts in the last three holes. V n 
+17.  See also sinking;   sunk 
+18.If you say that someone will have to sink or swim, you mean that they will have to succeed through their own efforts, or fail. Phrase 
+■The government doesn't want to force inefficient firms to sink or swim too quickly. 
+■It was very much sink or swim. 
+19.  to sink without trace 
+See trace 
+sink in
+1.When a statement or fact sinks in, you finally understand or realize it fully. Phrase 
+■The implication took a while to sink in. V P 
+Related phrases
+washbasin 
+a large bowl that has taps/faucets and is fixed to the wall in a bathroom, used for washing your hands and face in 
+sink in 
+When a statement or fact sinks in, you finally understand or realize it fully. 
+kitchen-sink 
+of plays, films, novels, etc. dealing with ordinary life and ordinary people, especially when this involves describing the boring or difficult side of their lives 
+everything but the kitchen sink 
+a very large number of things, probably more than is necessary 
+sink your differences 
+to agree to forget about your disagreements 
+sink or swim 
+to be in a situation where you will either succeed by your own efforts or fail completely 
+sink so low,  sink to something 
+to have such low moral standards that you do something very bad 
+sink into something 
+to go gradually into a less active, happy or pleasant state 
+sink into something,  sink something into something 
+to go, or to make something sharp go, deep into something solid 
+sink something into something 
+to spend a lot of money on a business or an activity, for example in order to make money from it in the future 
+Usage examples
+Romney said some believe that a forthright embrace of his religion will "sink my candidacy. If they are right, so be it. But I think they underestimate the American people."
+Dec 6, 2007 -  Mitt Romney -  International Herald Tribune
+"Now that it's over there's that sense of relief, that sense of accomplishment," Glavine, 41, said at a televised post-game news conference. "At some point, I don't know when, the historic side of it will sink in. Believe me, I know the...
+Aug 5, 2007 -  Tom Glavine -  Bloomberg
+"I look forward to some odd things," Tani said. "I'm looking forward to putting food on a plate and eating several things at once, which you can't do up here. I'm looking forward to spitting my toothpaste out in a sink rather than swallowing...
+Feb 16, 2008 -  Daniel Tani -  International Herald Tribune
+Web definitions
+
+•fall or descend to a lower place or level; "He sank to his knees" 
+
+wordnetweb.princeton.edu/perl/webwn 
+
+•cause to sink; "The Japanese sank American ships in Pearl Harbor" 
+
+wordnetweb.princeton.edu/perl/webwn 
+
+•pass into a specified state or condition; "He sank into nirvana" 
+
+wordnetweb.princeton.edu/perl/webwn 
+
+•go under, "The raft sank and its occupants drowned" 
+
+wordnetweb.princeton.edu/perl/webwn 
+
+•descend into or as if into some soft substance or place; "He sank into bed"; "She subsided into the chair" 
+
+wordnetweb.princeton.edu/perl/webwn 
+
+•dip: appear to move downward; "The sun dipped below the horizon"; "The setting sun sank below the tree line" 
+
+wordnetweb.princeton.edu/perl/webwn 
+
+•plumbing fixture consisting of a water basin fixed to a wall or floor and having a drainpipe 
+
+wordnetweb.princeton.edu/perl/webwn 
+
+•slump: fall heavily or suddenly; decline markedly; "The real estate market fell off" 
+
+wordnetweb.princeton.edu/perl/webwn 
+
+•(technology) a process that acts to absorb or remove energy or a substance from a system; "the ocean is a sink for carbon dioxide" 
+
+wordnetweb.princeton.edu/perl/webwn 
+
+•slump: fall or sink heavily; "He slumped onto the couch"; "My spirits sank" 
+
+wordnetweb.princeton.edu/perl/webwn 
+
+•sinkhole: a depression in the ground communicating with a subterranean passage (especially in limestone) and formed by solution or by collapse of a cavern roof 
+
+wordnetweb.princeton.edu/perl/webwn 
+
+•bury: embed deeply; "She sank her fingers into the soft sand"; "He buried his head in her lap" 
+
+wordnetweb.princeton.edu/perl/webwn 
+
+•cesspool: a covered cistern; waste water and sewage flow into it 
+
+wordnetweb.princeton.edu/perl/webwn 
+
+•In computing, a sink or event sink is a class or function designed to receive incoming events from another object or function. ...
+
+en.wikipedia.org/wiki/Sink_(computing) 
+
+•In graph theory, the degree (or valency) of a vertex of a graph is the number of edges incident to the vertex, with loops counted twice. ...
+
+en.wikipedia.org/wiki/Sink_(graph_theory)  Starred words » 
+Images
+
+www.trendir.com 
+www.otal.umd.edu 
+Courtesy http://meami.org/search.php*
+
 ==See also==
 {{Portal|Free software}}
 
