@@ -608,9 +608,25 @@ $x .= $1; # append $x with the contents of the match in the previous statement: 
 ===Objects===
 
 {{Expand section|date=March 2010}}
-There are many ways to write [[Object-oriented programming|object-oriented]] code in Perl.
-The most basic is using "blessed" [[Reference (computer science)|references]].
-Many modern Perl applications use the [[Moose (Perl)|Moose]] object system.
+There are many ways to write [[Object-oriented programming|object-oriented]] code in Perl. The most basic is using "blessed" [[Reference (computer science)|references]].
+
+Many modern Perl applications use the [[Moose (Perl)|Moose]] object system. Moose is built on top of Class::MOP, a meta-object protocol, providing complete introspection for all Moose-using classes. Thus you can ask classes about their attributes, parents, children, methods, etc. using a simple API.
+
+'''Moose classes:'''
+* A class has zero or more attributes.
+* A class has zero or more methods.
+* A class has zero or more superclasses (aka parent classes). A class inherits from its superclass(es).
+* A class does zero or more roles, which add the ability to add pre-defined functionality to classes without subclassing.
+* A class has a constructor and a destructor.
+* A class has a metaclass.
+* A class has zero or more method modifiers. These modifiers can apply to its own methods, methods that are inherited from its ancestors, or methods that are provided by roles.
+
+'''Moose roles:'''
+* A role is something that a class does, somewhat like mixins or interfaces in other object-oriented programming languages. Unlike mixins and interfaces, roles can be applied to individual object instances.
+* A role has zero or more attributes.
+* A role has zero or more methods.
+* A role has zero or more method modifiers.
+* A role has zero or more required methods.
 
 ====Examples====
 
