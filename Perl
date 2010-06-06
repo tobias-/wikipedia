@@ -814,6 +814,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 [[Category:Unix programming tools]]
 [[Category:Cross-platform software]]
 [[Category:American inventions]]
+{{Link GA|de}}
 
 [[als:Perl]]
 [[ar:بيرل]]
