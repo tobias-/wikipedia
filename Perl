@@ -610,7 +610,7 @@ $x .= $1; # append $x with the contents of the match in the previous statement: 
 {{Expand section|date=March 2010}}
 There are many ways to write [[Object-oriented programming|object-oriented]] code in Perl. The most basic is using "blessed" [[Reference (computer science)|references]].
 
-Many modern Perl applications use the [[Moose (Perl)|Moose]] object system.{{fact}} Moose is built on top of Class::MOP, a meta-object protocol, providing complete introspection for all Moose-using classes. Thus you can ask classes about their attributes, parents, children, methods, etc. using a simple API.
+Many modern Perl applications use the [[Moose (Perl)|Moose]] object system.{{Citation needed|date=June 2010}} Moose is built on top of Class::MOP, a meta-object protocol, providing complete introspection for all Moose-using classes. Thus you can ask classes about their attributes, parents, children, methods, etc. using a simple API.
 
 '''Moose classes:'''
 * A class has zero or more attributes.
@@ -814,8 +814,8 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 [[Category:Unix programming tools]]
 [[Category:Cross-platform software]]
 [[Category:American inventions]]
-{{Link GA|de}}
 
+{{Link GA|de}}
 [[als:Perl]]
 [[ar:بيرل]]
 [[bn:পার্ল (প্রোগ্রামিং ভাষা)]]
