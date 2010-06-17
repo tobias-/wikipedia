@@ -223,7 +223,7 @@ use 5.010; # must be present to import the new 5.10 functions, notice that it is
 say 'Hello, world!'
 </source>
 
-=== Data types ===
+===Data types===
 
 Perl has a number of fundamental [[data type]]s. The most commonly used and discussed are [[Scalar (computing)|scalars]], [[Array data type|array]]s, [[Hash table|hashes]], [[filehandle]]s, and [[subroutines]]:
 
@@ -244,12 +244,12 @@ Perl has a number of fundamental [[data type]]s. The most commonly used and disc
 |@foo
 |An ordered collection of scalars.
 |-
-|[[associative array|Associative Array]]
+|[[Associative array]]
 |%
 |%foo
-|A map from strings to scalars; the strings are called ''keys'', and the scalars are called ''values''.  Also known as a Hash.
+|A map from strings to scalars; the strings are called ''keys'', and the scalars are called ''values''.  Also known as a ''hash''.
 |-
-|[[file handle|File Handle]]
+|[[File handle]]
 |none
 |$foo or FOO
 |A map to a file, device, pipe, or scalar that is open for reading, writing, or both.
@@ -265,7 +265,7 @@ Perl has a number of fundamental [[data type]]s. The most commonly used and disc
 |The symbol table entry for all types with the name 'foo'.
 |}
 
-==== Scalar values ====
+====Scalar values====
 String values (literals) must be enclosed by quotes. Enclosing a string in double quotes allows the values of variables whose names appear in the string to automatically replace the variable name (or be '''[[Variable_interpolation#Interpolation|interpolated]]''') in the string. Enclosing a string in single quotes prevents variable interpolation. If $name is "Jim", print("My name is $name") will print "My name is Jim", but print('My name is $name') will print "My name is $name".
 
 To include a double quotation mark in a string, precede it with a backslash or enclose the string in single quotes. To include a single quotation mark, precede it with a backslash or enclose the string in double quotes. Strings can also be quoted with the q and qq quote-like operators. 'this' is identical to q(this) and "$this" is identical to qq($this).
@@ -311,8 +311,7 @@ If either 1 or 0 are specifically needed, an explicit conversion can be done usi
 my $real_result = $boolean_result ? 1 : 0;
 </source>
 
-==== Array values ====
-
+====Array values====
 An [[Array data type|array value]] (or list) is specified by listing its elements, separated by commas, enclosed by parentheses (at least where required by operator precedence).
 
 <source lang="perl">
@@ -335,7 +334,6 @@ The split function returns a list of strings, which are split from a string expr
 Individual elements of a list are accessed by providing a numerical index in square brackets. The scalar sigil must be used. Sublists (array slices) can also be specified, using a range or list of numeric indices in brackets. The array sigil is used in this case. For example, $month[3] is "March", and @month[4..6] is ("April", "May", "June").
 
 ====Hash values====
-
 A hash (or [[associative array]]) may be initialized from a list of key/value pairs. If the keys are separated from the values with the <code>=></code> operator (sometimes called a [[fat comma]]), rather than a comma, they may be unquoted (barewords). The following lines are equivalent:
 
 <source lang="perl">
@@ -355,13 +353,11 @@ Multiple elements may be accessed using the <code>@</code> sigil instead (identi
 @favorite{'joe', 'sam'} equals ('red', 'blue').
 
 ====File Handles====
-
 File Handles provide read and write access to resources.  These are most often files on disk, but can also be a device, a [[Pipeline (Unix)|pipe]], or even a scalar value.
 
 Originally, File Handles could only be created with package variables, using the ALL_CAPS convention to distinguish it from other variables.  Perl 5.6 and newer also accept a scalar variable, which will be set ([[Autovivification|autovivified]]) to a reference to an anonymous file handle, in place of a named file handle.  Using the ALL_CAPS method for file handles is considered deprecated by the community.<ref>[http://www.modernperlbooks.com/mt/2010/04/three-arg-open-migrating-to-modern-perl.html Three Arg Open: Migrating to Modern Perl]</ref>
 
 ====Typeglob values====
-
 A typeglob value is a symbol table entry. The main use of typeglobs is creating symbol table aliases. For example:
 
 <source lang="perl">
@@ -370,11 +366,9 @@ A typeglob value is a symbol table entry. The main use of typeglobs is creating 
 </source>
 
 ====Array functions====
-
 The number of elements in an array can be determined either by evaluating the array in scalar context or with the help of the <code>$#</code> sigil. The latter gives the index of the last element in the array, not the number of elements. The expressions scalar(@array) and ($#array&nbsp;+&nbsp;1) are equivalent.
 
 ====Hash functions====
-
 There are a few functions that operate on entire hashes. The ''keys'' function takes a hash and returns the list of its keys. Similarly, the ''values'' function returns a hash's values. Note that the keys and values are returned in a consistent but arbitrary order.
 
 <source lang="perl">
