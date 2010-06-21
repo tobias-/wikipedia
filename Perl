@@ -266,7 +266,7 @@ Perl has a number of fundamental [[data type]]s. The most commonly used and disc
 |}
 
 ====Scalar values====
-String values (literals) must be enclosed by quotes. Enclosing a string in double quotes allows the values of variables whose names appear in the string to automatically replace the variable name (or be '''[[Variable_interpolation#Interpolation|interpolated]]''') in the string. Enclosing a string in single quotes prevents variable interpolation. If $name is "Jim", print("My name is $name") will print "My name is set equal to Jim", but print('My name is $name') will print "My name is $name".
+String values (literals) must be enclosed by quotes. Enclosing a string in double quotes allows the values of variables whose names appear in the string to automatically replace the variable name (or be '''[[Variable_interpolation#Interpolation|interpolated]]''') in the string. Enclosing a string in single quotes prevents variable interpolation. If $name is "Jim", print("My name is $name") will print "My name is Jim", but print('My name is $name') will print "My name is $name".
 
 To include a double quotation mark in a string, precede it with a backslash or enclose the string in single quotes. To include a single quotation mark, precede it with a backslash or enclose the string in double quotes. Strings can also be quoted with the q and qq quote-like operators. 'this' is identical to q(this) and "$this" is identical to qq($this).
 
