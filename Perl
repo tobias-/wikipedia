@@ -270,7 +270,7 @@ String values (literals) must be enclosed by quotes. Enclosing a string in doubl
 
 To include a double quotation mark in a string, precede it with a backslash or enclose the string in single quotes. To include a single quotation mark, precede it with a backslash or enclose the string in double quotes. Strings can also be quoted with the q and qq quote-like operators. 'this' is identical to q(this) and "$this" is identical to qq($this).
 
-Finally, multiline strings can be defined using '''here documents''':
+Finally, multiline strings can be defined using [[here document]]s:
 
 <source lang="perl">
 $multilined_string = <<EOF;
