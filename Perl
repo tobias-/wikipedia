@@ -635,7 +635,7 @@ class Point3D extends Point {
     after clear {
         $self->z(0);
     }
-    method set_to (Num $x, Num $y, Num $z) {
+    method set_to (Num $x, Num $y, um $z) {
         $self->x($x);
         $self->y($y);
         $self->z($z);
