@@ -716,7 +716,7 @@ Perl's pastimes have become a defining element of the Perl community{{Citation n
 ====JAPHs====
 In email, Usenet, and message-board postings, "[[Just another Perl hacker]]" (JAPH) programs have become a common trend, originated by [[Randal L. Schwartz]], one of the earliest professional Perl trainers.<ref>{{cite newsgroup | author = [[Randal L. Schwartz]] | title = Who is Just another Perl hacker? | id = m1hfpvh2jq.fsf@halfdome.holdit.com | newsgroup = comp.lang.perl.misc | date = 1999-05-02 | url = http://groups.google.com/groups?selm=m1hfpvh2jq.fsf@halfdome.holdit.com | accessdate = 2007-11-12 }}</ref>
 
-In the parlance of Perl culture, Perl programmers are known as Perl hackers, and from this derives the practice of writing short programs to print out the phrase "[[Just another Perl hacker]],". In the spirit of the original concept, these programs are moderately obfuscated and short enough to fit into the signature of an email or Usenet message. The "canonical" JAPH includes the comma at the end, although this is often omitted.
+In the parlance of Perl culture, Perl programmers are known as Perl hackers, and from this derives the practice of writing short programs to print out the phrase "[[Just another Perl hacker]]",. In the spirit of the original concept, these programs are moderately obfuscated and short enough to fit into the signature of an email or Usenet message. The "canonical" JAPH includes the comma at the end, although this is often omitted.
 
 ====Perl golf====
 Perl "golf" is the pastime of reducing the number of characters (key "strokes") used in a Perl program to the bare minimum, much as how [[golf]] players seek to take as few shots as possible in a round. This use of the word "golf" originally focused on the [[JAPH]]s used in signatures in Usenet postings and elsewhere, although the same stunts had been an unnamed pastime in the language [[APL (programming language)|APL]] in previous decades. The use of Perl to write a program that performed [[RSA]] encryption prompted a widespread and practical interest in this pastime.<ref>[http://www.cypherspace.org/adam/rsa/story.html The quest for the most diminutive munitions program<!-- Bot generated title -->]</ref> In subsequent years, the term "code golf" has been applied to the pastime in other languages.<ref>{{cite web | url=http://codegolf.com/ | title=Code Golf: What is Code Golf? | publisher=29degrees | year=2007 }}</ref>
@@ -784,7 +784,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 * ''[[Perl Cookbook]]'', ISBN 0-596-00313-7
 * ''[[Programming Perl]]'' (the ''Camel book''), ISBN 0-596-00027-8
 * [http://www.ddj.com/web-development/tpj.jhtml The Perl Journal] published 1996–2006 was the leading publication for and about Perl Programming during this time.
-* ''[http://hop.perl.plover.com/book/ Higher Order Perl]'' , ISBN 1-558-60701-3
+* ''[http://hop.perl.plover.com/book/ Higher Order Perl]'' , ISBN 1-55860-701-3
 
 ==External links==
 <!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first -->
