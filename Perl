@@ -8,8 +8,8 @@
 | developer              = Larry Wall
 | latest_release_version = 5.12.1
 | latest_release_date    = {{release date|mf=yes|2010|05|16}}
-| latest preview version = 5.13.2
-| latest preview date    = {{release date|2010|06|22}}
+| latest preview version = 5.13.3
+| latest preview date    = {{release date|2010|07|20}}
 | turing-complete        = Yes
 | typing                 = Dynamic
 | influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[Lisp (programming language)|Lisp]], [[C (programming language)|C]], [[C++]], [[sed]], [[Unix shell]], [[Pascal (programming language)|Pascal]]
