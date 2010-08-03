@@ -338,7 +338,22 @@ The split function returns a list of strings, which are split from a string expr
 Individual elements of a list are accessed by providing a numerical index in square brackets. The scalar sigil must be used. Sublists (array slices) can also be specified, using a range or list of numeric indices in brackets. The array sigil is used in this case. For example, $month[3] is "March", and @month[4..6] is ("April", "May", "June").
 
 ====Hash values====
-A hash (or [[associative array]]) may be initialized from a list of key/value pairs. If the keys are separated from the values with the <code>=></code> operator (sometimes called a [[fat comma]]), rather than a comma, they may be unquoted (barewords). The following lines are equivalent:
+A hash (or [[associative array]]) may be initialized from a list of key/value pairs. If the keys are separated from the values with the <code>=></code> operator (sometimes called a [[fat comma]]), rather than a comma, they may be unquoted (barewords<ref>
+{{cite book
+|last= Wainwright
+|first= Peter
+|title= Pro Perl
+|url= http://books.google.com/books?id=1bbjLxkBLaMC
+|accessdate= 2010-08-03
+|series= Pro to Expert Series
+|year= 2005
+|publisher= Apress
+|isbn= 9781590594384
+|page= 64
+|pages= 1037
+|quote= [...] a string without quotes, known as a bareword string [...]
+}}
+</ref>). The following lines are equivalent:
 
 <source lang="perl">
 %favorite = ('joe', "red", 'sam', "blue");
