@@ -205,7 +205,7 @@ The [[Cygwin]] emulation layer is another popular way of running Perl under Wind
 == Language structure ==
 In Perl, the minimal [[Hello world]] program may be written as follows:
 <source lang="perl">
-print "Hello, world!\n";
+print "Hello, world!\n"
 </source>
 This [[Input/output|prints]] the [[String (computer science)|string]] ''Hello, world!'' and a [[newline]], symbolically expressed by an <code>n</code> character whose interpretation is altered by the preceding [[escape character]] (a backslash).
 
