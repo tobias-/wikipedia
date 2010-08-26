@@ -8,8 +8,8 @@
 | developer              = Larry Wall
 | latest_release_version = 5.12.1
 | latest_release_date    = {{release date|mf=yes|2010|05|16}}
-| latest preview version = 5.13.3
-| latest preview date    = {{release date|2010|07|20}}
+| latest preview version = 5.13.4
+| latest preview date    = {{release date|2010|08|20}}
 | turing-complete        = Yes
 | typing                 = Dynamic
 | influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[Lisp (programming language)|Lisp]], [[C (programming language)|C]], [[C++]], [[sed]], [[Unix shell]], [[Pascal (programming language)|Pascal]]
@@ -78,7 +78,7 @@ On April 12, 2010, Perl 5.12.0 was released. Notable core enhancements include n
 <ref>[http://search.cpan.org/~jesse/perl-5.12.0/pod/perl5120delta.pod]</ref>. On May 16, 2010, Perl 5.12.1 was released, it contains updated modules and some documentation changes.
 <ref>[http://search.cpan.org/dist/perl/pod/perl5121delta.pod]</ref>
 
-The latest development release of Perl 5 is 5.13.2, released by Matt S Trout on June 22, 2010<ref>[http://search.cpan.org/dist/perl-5.13.2/]</ref>.
+The latest development release of Perl 5 is 5.13.4, released by Florian Ragwitz on August 20, 2010<ref>[http://search.cpan.org/dist/perl-5.13.4/]</ref>.
 
 === Name ===
 
