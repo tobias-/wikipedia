@@ -698,6 +698,77 @@ sub new {
     bless $self, $class;
     return $self;
 }
+It is a constructor for a Perl object. Perl objects can be made from any Perl reference. This one happens to be made from a hash reference (the {property => …} code creates a hash reference). See the perlobj manpage.
+
+Usually you would find such code in a package, which is the container for the methods of a class and its instances:
+
+package Foo;
+
+sub new {
+    my $class = shift;                                   # 2
+    my $self = {property => 'u', provider => 'ramesh'};  # 3
+    bless $self, $class;                                 # 4
+    return $self;                                        # 5
+}
+
+sub poll {
+    my ($self)=@_;                                       # 7
+    $self->{CurrentFile}="data.xml";                     # 8
+    return $self->http->get("URL given");                # 9
+}
+
+Then in some other code you use it like this:
+
+my $myfoo = Foo->new();                                  # 1
+
+Now $myfoo holds a instance of Foo. You can then invoked the object’s methods:
+
+$myfoo->poll();                                          # 6
+
+Line-by-line description (replace Foo with whatever the actual package name is in the code):
+
+   1.
+
+      my $myfoo = Foo->new();
+      This calls the the “class method” new of the class Foo and stores the result in the scalar variable $myfoo. This call is technically the same as Foo::new("Foo") (without having to repeat the Foo). See Method Invocation in perlobj.
+   2.
+
+      my $class = shift;
+      The argument list provided in the call to new contains only the class name.
+      shift removes and returns the first value from the @_ array variable that holds the parameter values given when the method is called. See the perlsub for details on parameter passing and the @_ array.
+      So, this statement stores the class name "Foo" in a local scalar variable $class.
+   3.
+
+      my $self = {property => 'u', provider => 'ramesh'};
+      Create a reference to a new, anonymous hash {…} with some initial key/value pairs and store it in the local scalar variable $self. See perlref for details on creating references.
+   4.
+
+      bless $self, $class;
+      Turn the hash reference stored in $self into a Foo object, by “blessing” it into the Foo class (remember, $class eq "Foo").
+   5.
+
+      return $self;
+      Return the newly created object.
+   6.
+
+      $myfoo->poll();
+      Call the poll method of the object held in the scalar variable $myfoo.
+   7.
+
+      my ($self)=@_;
+      The first parameter to instance methods is the object instance itself.
+      This statement stores the first value from the @_ parameter array variable into a new local scalar variable $self.
+   8.
+
+      $self->{CurrentFile}="data.xml";
+      We know from new that $self will be a hash reference.
+      This statement assigns a value to the CurrentFile key in the hash reference that embodies the object.
+   9.
+
+      return $self->http->get("URL given");
+      Call the http method on the $self object.
+      On the object return returned from the http method, call the get method (passing "URL given" as an argument).
+      Return the result of the call to get.
 
 ==Database interfaces==
 Perl is widely favored for database applications. Its text-handling facilities are useful for generating [[SQL]] queries; arrays, hashes, and automatic memory management make it easy to collect and process the returned data.
