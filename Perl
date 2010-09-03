@@ -730,24 +730,32 @@ Line-by-line description (replace Foo with whatever the actual package name is i
 
    1.      my $myfoo = Foo->new();
       This calls the the “class method” new of the class Foo and stores the result in the scalar variable $myfoo. This call is technically the same as Foo::new("Foo") (without having to repeat the Foo). See Method Invocation in perlobj.
+   
    2.      my $class = shift;
       The argument list provided in the call to new contains only the class name.
       shift removes and returns the first value from the @_ array variable that holds the parameter values given when the method is called. See the perlsub for details on parameter passing and the @_ array.
       So, this statement stores the class name "Foo" in a local scalar variable $class.
+   
    3.      my $self = {property => 'u', provider => 'ramesh'};
       Create a reference to a new, anonymous hash {…} with some initial key/value pairs and store it in the local scalar variable $self. See perlref for details on creating references.
+   
    4.      bless $self, $class;
       Turn the hash reference stored in $self into a Foo object, by “blessing” it into the Foo class (remember, $class eq "Foo").
+  
    5.      return $self;
       Return the newly created object.
+   
    6.      $myfoo->poll();
       Call the poll method of the object held in the scalar variable $myfoo.
+   
    7.      my ($self)=@_;
       The first parameter to instance methods is the object instance itself.
       This statement stores the first value from the @_ parameter array variable into a new local scalar variable $self.
+   
    8.      $self->{CurrentFile}="data.xml";
       We know from new that $self will be a hash reference.
       This statement assigns a value to the CurrentFile key in the hash reference that embodies the object.
+   
    9.      return $self->http->get("URL given");
       Call the http method on the $self object.
       On the object return returned from the http method, call the get method (passing "URL given" as an argument).
