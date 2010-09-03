@@ -697,6 +697,35 @@ sub new {
     bless [[$self]], $class;
     return $self;
 }
+======[http://efreedom.com/Question/1-3164267/Perl-Code What does this Perl function do??]======
+
+#! /usr/bin/perl 
+use strict; 
+
+my %hash; 
+
+&Parse('first.txt'); 
+&Parse('second.txt'); 
+
+my $outputpath = 'output.txt'; 
+unlink ($outputpath); 
+open (OUTPUT, ">>$outputpath") || die "Failed to open OUTPUT ($outputpath) - $!"; 
+print OUTPUT "$_ \t" . join("\t", @{$hash{$_}}) . "\n" foreach (sort keys %hash); 
+close (OUTPUT) || die "Failed to close OUTPUT ($outputpath) - $!"; 
+
+sub Parse { 
+    my $inputpath = shift; 
+    open (INPUT, "<$inputpath") || die "Failed to open INPUT ($inputpath) - $!"; 
+    while (<INPUT>) { 
+        chomp; 
+        my @row = split(/\t/, $_); 
+        my $col1 = $row[0]; 
+        shift @row; 
+        push(@{$hash{$col1}}, @row); 
+    } 
+    close (INPUT) || die "Failed to close INPUT ($inputpath) - $!"; 
+    return 1; 
+}
 
 ==Database interfaces==
 Perl is widely favored for database applications. Its text-handling facilities are useful for generating [[SQL]] queries; arrays, hashes, and automatic memory management make it easy to collect and process the returned data.
