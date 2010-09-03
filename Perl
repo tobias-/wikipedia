@@ -685,7 +685,19 @@ class Point3D extends Point {
 }
 </source>
 
+
+
 This is a class named <code>Point3D</code> that extends another class named <code>Point</code> explained in [[Moose (Perl)#Examples|Moose examples]]. Id adds to its base class a new attribute <code>z</code>, redefines the method <code>set_to</code> and extends the method <code>clear</code>.
+
+
+====What does this Perl code do?====
+
+sub new {
+    my $class = shift;
+    my $self = {property => 'u', provider => 'ramesh'};
+    bless $self, $class;
+    return $self;
+}
 
 ==Database interfaces==
 Perl is widely favored for database applications. Its text-handling facilities are useful for generating [[SQL]] queries; arrays, hashes, and automatic memory management make it easy to collect and process the returned data.
