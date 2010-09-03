@@ -690,7 +690,7 @@ class Point3D extends Point {
 This is a class named <code>Point3D</code> that extends another class named <code>Point</code> explained in [[Moose (Perl)#Examples|Moose examples]]. Id adds to its base class a new attribute <code>z</code>, redefines the method <code>set_to</code> and extends the method <code>clear</code>.
 
 
-===* [http://efreedom.com/Question/1-3164267/Perl-Code What does this Perl code do?]===
+====[http://efreedom.com/Question/1-3164267/Perl-Code What does this Perl code do?]====
 
 sub new {
     my $class = shift;
