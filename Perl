@@ -697,7 +697,7 @@ sub new {
     bless [[$self]], $class;
     return $self;
 }
-======[http://efreedom.com/Question/1-3164267/Perl-Code What does this Perl function do??]======
+======[http://efreedom.com/Question/1-3316656/Perl-Function What does this Perl function do??]======
 
 #! /usr/bin/perl 
 use strict; 
