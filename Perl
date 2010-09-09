@@ -335,7 +335,7 @@ The split function returns a list of strings, which are split from a string expr
 @scores = split(',', '32,45,16,5');
 </source>
 
-Individual elements of a list are accessed by providing a numerical index in square brackets. The scalar sigil must be used. Sublists (array slices) can also be specified, using a range or list of numeric indices in brackets. The array sigil is used in this case. For example, $month[3] is "March", and @month[4..6] is ("April", "May", "June").
+Individual elements of a list are accessed by providing a numerical index in square brackets. The scalar sigil must be used. Sublists (array slices) can also be specified, using a range or list of numeric indices in brackets. The array sigil is used in this case. For example, $month[3] is "April" (the first element in an array has an index value of 0), and @month[4..6] is ("May", "June", "July").
 
 ====Hash values====
 A hash (or [[associative array]]) may be initialized from a list of key/value pairs. If the keys are separated from the values with the <code>=></code> operator (sometimes called a [[fat comma]]), rather than a comma, they may be unquoted (barewords<ref>
