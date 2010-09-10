@@ -60,7 +60,7 @@ Perl 5.005 was released on July 22, 1998.  This release included several enhance
 
 === 2000&mdash;present ===
 
-Perl 5.6 was released on March 22, 2000.  Major changes included 64 bit support, unicode string representation, large file support (eg, files > 2 GiB) and the 'our' keyword.<ref>http://perldoc.perl.org/perl56delta.html</ref><ref>http://perldoc.perl.org/perl561delta.html</ref>  When developing Perl 5.6, the decision was made to switch the versioning scheme to one more similar to other open source projects; after 5.005_63, the next version became 5.5.640, with plans for development versions to have odd numbers and stable versions to have even numbers.
+Perl 5.6 was released on March 22, 2000.  Major changes included 64 bit support, unicode string representation, large file support (e.g., files > 2 GiB) and the 'our' keyword.<ref>http://perldoc.perl.org/perl56delta.html</ref><ref>http://perldoc.perl.org/perl561delta.html</ref>  When developing Perl 5.6, the decision was made to switch the versioning scheme to one more similar to other open source projects; after 5.005_63, the next version became 5.5.640, with plans for development versions to have odd numbers and stable versions to have even numbers.
 
 In 2000, Larry Wall put forth a call for suggestions for a new version of Perl from the community.  The process resulted in 361 [[Request for Comments|RFCs]] (Request for Comments) documents which were to be used in guiding development of Perl 6.  In 2001,<ref>http://dev.perl.org/perl6/doc/design/apo/A01.html</ref> work began on the apocalypses for [[Perl 6]], a series of documents meant to summarize the change requests and present the design of the next generation of Perl.  They were presented as a digest of the RFCs, rather than a formal document.  At this point, Perl 6 simply existed as a description of a language.
 
@@ -102,7 +102,7 @@ The language is intended to be practical (easy to use, efficient, complete) rath
 According to Larry Wall, Perl has two slogans. The first is "[[There's more than one way to do it]]", commonly known as TMTOWTDI. The second slogan is "Easy things should be easy and hard things should be possible".
 
 === Features ===
-The overall structure of Perl derives broadly from C. Perl is [[procedural programming|procedural]] in nature, with [[variable (programming)| variable]]s, [[expression (programming)|expressions]], [[assignment statement]]s, [[bracket|brace]]-delimited [[block (programming)|block]]s, [[control structure]]s, and [[subroutine]]s.
+The overall structure of Perl derives broadly from C. Perl is [[procedural programming|procedural]] in nature, with [[variable (programming)|variable]]s, [[expression (programming)|expressions]], [[assignment statement]]s, [[bracket|brace]]-delimited [[block (programming)|block]]s, [[control structure]]s, and [[subroutine]]s.
 
 Perl also takes features from shell programming. All variables are marked with leading [[sigil (computer programming)|sigils]], which unambiguously identify the data type (for example, scalar, array, hash) of the variable in context. Importantly, sigils allow variables to be interpolated directly into strings. Perl has many built-in functions that provide tools often used in shell programming (although many of these tools are implemented by programs external to the shell) such as sorting, and calling on system facilities.
 
@@ -179,7 +179,7 @@ Other programs that undertake to parse Perl, such as source-code analyzers and a
 
 Perl is distributed with some 120,000 functional tests. These run as part of the normal build process and extensively exercise the interpreter and its core modules. Perl developers rely on the functional tests to ensure that changes to the interpreter do not introduce bugs; conversely, Perl users who see that the interpreter passes its functional tests on their system can have a high degree of confidence that it is working properly.
 
-Maintenance of the Perl interpreter has become increasingly difficult over the years. The code base has undergone continuous development since 1994. The code has been optimized for performance at the expense of simplicity, clarity, and strong internal interfaces. New features have been added, yet virtually complete backward compatibility with earlier versions is maintained. Major releases of Perl were coordinated by Perl pumpkings, <ref>http://www.perlfoundation.org/perl5/index.cgi?pumpking</ref> which handled integrating patch submissions and bug fixes, but the language has since changed to a rotating, monthly release cycle.  Development discussion takes place via the perl5_porters mailing list.  As of Perl 5.11, development efforts have included refactoring certain core modules known as 'dual lifed' modules out of the Perl core<ref>[http://search.cpan.org/~jesse/perl-5.11.1/pod/perl5110delta.pod Perl 5.11.0 delta]</ref> to help alleviate some of these problems.
+Maintenance of the Perl interpreter has become increasingly difficult over the years. The code base has undergone continuous development since 1994. The code has been optimized for performance at the expense of simplicity, clarity, and strong internal interfaces. New features have been added, yet virtually complete backward compatibility with earlier versions is maintained. Major releases of Perl were coordinated by Perl pumpkings,<ref>http://www.perlfoundation.org/perl5/index.cgi?pumpking</ref> which handled integrating patch submissions and bug fixes, but the language has since changed to a rotating, monthly release cycle.  Development discussion takes place via the perl5_porters mailing list.  As of Perl 5.11, development efforts have included refactoring certain core modules known as 'dual lifed' modules out of the Perl core<ref>[http://search.cpan.org/~jesse/perl-5.11.1/pod/perl5110delta.pod Perl 5.11.0 delta]</ref> to help alleviate some of these problems.
 
 === Availability ===
 <!--Note to editors:
@@ -852,7 +852,6 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 [[Category:American inventions]]
 
 {{Link GA|de}}
-
 [[als:Perl]]
 [[ar:بيرل]]
 [[bn:পার্ল (প্রোগ্রামিং ভাষা)]]
