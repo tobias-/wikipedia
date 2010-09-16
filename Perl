@@ -75,7 +75,7 @@ Around this same time, development began in earnest on another implementation of
 A major change in the development process of Perl 5 occurred with Perl 5.11; the development community has switched to a monthly release cycle, with planned release dates three months ahead.
 
 On April 12, 2010, Perl 5.12.0 was released. Notable core enhancements include new '''package NAME VERSION''' syntax, the Yada Yada operator (intended to mark placeholder code that is not yet implemented), implicit strictures<!-- "strictures" is not a typo -->, full [[Y2038]] compliance, regexp conversion overloading, [[DTrace]] support, and [[Unicode]] 5.2.
-<ref>[http://search.cpan.org/~jesse/perl-5.12.0/pod/perl5120delta.pod]</ref>. On September 7, 2010, Perl 5.12.2 was released, it contains updated modules and some documentation changes.
+<ref>[http://search.cpan.org/~jesse/perl-5.12.0/pod/perl5120delta.pod]</ref>. On September 7, 2010, Perl 5.12.2 was released; it contains updated modules and some documentation changes.
 <ref>[http://search.cpan.org/dist/perl/pod/perl5122delta.pod]</ref>
 
 The latest development release of Perl 5 is 5.13.4, released by Florian Ragwitz on August 20, 2010<ref>[http://search.cpan.org/dist/perl-5.13.4/]</ref>.
