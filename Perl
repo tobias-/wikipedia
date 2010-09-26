@@ -834,6 +834,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 * [http://www.perlfoundation.org/perl5/ Official Perl 5 Wiki]
 * {{dmoz|Computers/Programming/Languages/Perl|Perl}}
 * [http://ironman.enlightenedperl.org/ The Iron Man Contest] Many Perl rss feeds are aggregated together to form a source of information about the Perl community as a whole.
+* [http://www.togotutor.com/learn-perl/ Perl Tutorial]
 <!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first -->
 {{Perl}}
 {{FOSS}}
