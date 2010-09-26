@@ -841,7 +841,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 
 [[Category:Perl|*]]
 [[Category:Dynamic programming languages]]
-[[Category:Dynamically-typed programming languages]]
+[[Category:Dynamically typed programming languages]]
 [[Category:Free compilers and interpreters]]
 [[Category:Free software programmed in C]]
 [[Category:Procedural programming languages]]
