@@ -671,7 +671,7 @@ An example of a class written using the MooseX::Declare<ref>[http://search.cpan.
 <source lang="perl">
 use MooseX::Declare;
 
-class Point3D extennds Point {
+class Point3D extends Point {
     has 'z' => (isa => 'Num', is => 'rw');
 
     after clear {
