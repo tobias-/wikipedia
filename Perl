@@ -17,7 +17,7 @@
 | programming_language   = [[C (programming language)|C]]
 | operating_system       = [[Cross-platform]]
 | license                = [[GNU General Public License]], [[Artistic License]]
-| website                = [http://www.perl.org/ www.perl.org]
+| website                = {{url|http://www.perl.org}}
 | file_ext               = .pl
 | wikibooks              = Perl Programming
 }}
@@ -409,7 +409,7 @@ foreach my $next_name (sort keys %addressbook) {
 
 Perl has several kinds of control structures.
 
-It has block-oriented control structures, similar to those in the C, [[Javascript]], and [[Java (programming language)|Java]] programming languages. Conditions are surrounded by parentheses, and controlled blocks are surrounded by braces:
+It has block-oriented control structures, similar to those in the C, [[JavaScript]], and [[Java (programming language)|Java]] programming languages. Conditions are surrounded by parentheses, and controlled blocks are surrounded by braces:
 
  ''label'' while ( ''cond'' ) { ... }
  ''label'' while ( ''cond'' ) { ... } continue { ... }
@@ -828,7 +828,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 <!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first -->
 {{Wikibooks|Perl Programming}}
 {{Wikiversity|at=Topic:Perl}}
-* [http://www.perl.org/ Perl.org]—Official Perl website
+* {{official|http://www.perl.org}} Perl.org
 * [http://perldoc.perl.org/ Perl documentation]
 * [http://www.perlfoundation.org/ The Perl Foundation]
 * [http://www.perlfoundation.org/perl5/ Official Perl 5 Wiki]
