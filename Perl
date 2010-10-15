@@ -241,7 +241,7 @@ Perl has a number of fundamental [[data type]]s. The most commonly used and disc
 |[[Scalar (computing)|Scalar]]
 |$
 |$foo
-|a single value; it may be a number, a [[String (computer science)|string]], a file handle, or a [[Reference (computer science)|reference]].
+|a single value; it may be a number, a [[String (computer science)|string]], a filehandle, or a [[Reference (computer science)|reference]].
 |-
 |[[Array data type|Array]]
 |@
@@ -371,10 +371,10 @@ $favorite{oscar} = 'green';
 Multiple elements may be accessed using the <code>@</code> sigil instead (identifying the result as a list). For example,
 @favorite{'joe', 'sam'} equals ('red', 'blue').
 
-====File Handles====
-File Handles provide read and write access to resources.  These are most often files on disk, but can also be a device, a [[Pipeline (Unix)|pipe]], or even a scalar value.
+====Filehandles====
+Filehandles provide read and write access to resources.  These are most often files on disk, but can also be a device, a [[Pipeline (Unix)|pipe]], or even a scalar value.
 
-Originally, File Handles could only be created with package variables, using the ALL_CAPS convention to distinguish it from other variables.  Perl 5.6 and newer also accept a scalar variable, which will be set ([[Autovivification|autovivified]]) to a reference to an anonymous file handle, in place of a named file handle.  Using the ALL_CAPS method for file handles is considered deprecated by the community.<ref>[http://www.modernperlbooks.com/mt/2010/04/three-arg-open-migrating-to-modern-perl.html Three Arg Open: Migrating to Modern Perl]</ref>
+Originally, filehandles could only be created with package variables, using the ALL_CAPS convention to distinguish it from other variables.  Perl 5.6 and newer also accept a scalar variable, which will be set ([[Autovivification|autovivified]]) to a reference to an anonymous filehandle, in place of a named filehandle.  Using the ALL_CAPS method for filehandles is considered deprecated by the community.<ref>[http://www.modernperlbooks.com/mt/2010/04/three-arg-open-migrating-to-modern-perl.html Three Arg Open: Migrating to Modern Perl]</ref>
 
 ====Typeglob values====
 A typeglob value is a symbol table entry. The main use of typeglobs is creating symbol table aliases. For example:
