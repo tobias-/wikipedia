@@ -248,10 +248,10 @@ Perl has a number of fundamental [[data type]]s. The most commonly used and disc
 |@foo
 |An ordered collection of scalars.
 |-
-|[[Associative array|hash]]
+|[[Associative array|Hash]]
 |%
 |%foo
-|A map from strings to scalars; the strings are called ''keys'', and the scalars are called ''values''.  Also known as a ''hash''.
+|A map from strings to scalars; the strings are called ''keys'', and the scalars are called ''values''.  Also known as an ''associative array''.
 |-
 |[[File handle]]
 |none
