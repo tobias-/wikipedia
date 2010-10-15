@@ -253,10 +253,10 @@ Perl has a number of fundamental [[data type]]s. The most commonly used and disc
 |%foo
 |A map from strings to scalars; the strings are called ''keys'', and the scalars are called ''values''.  Also known as an ''associative array''.
 |-
-|[[File handle]]
+|[[Filehandle]]
 |none
 |$foo or FOO
-|A map to a file, device, pipe, or scalar that is open for reading, writing, or both.
+|An opaque representation of an open file or other target for reading, writing, or both.
 |-
 |[[Subroutine]]
 |&
