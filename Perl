@@ -89,8 +89,8 @@ There is some contention about the all-caps spelling "PERL," which the documenta
 === The camel symbol ===
 ''[[Programming Perl]]'', published by [[O'Reilly Media]], features a picture of a [[camel]] on the cover and is commonly referred to as ''The Camel Book''.<ref name="larry-wall-snippet"/> This image of a camel has become a general symbol of Perl.  It is also a [[Hacker (computing)|hacker]] [[emblem]], appearing on some [[T-shirt]]s and other clothing items.
 
-O'Reilly owns the image as a trademark but claims to use their legal rights only to protect the ''"integrity and impact of that symbol"''.<ref>[http://perl.oreilly.com/usage/ O'Reilly—The Perl Camel Usage and Trademark Information<!-- Bot generated title -->]</ref>
-O'Reilly allows non-commercial use of the symbol and provides ''Programming Republic of Perl'' logos and ''Powered by Perl'' buttons. However, the Camel has never been meant to be an ''official'' Perl symbol, and if one is to be considered instead, it's ''an onion.''<ref>[http://www.perlfoundation.org/perl_trademark Perl Trademark, User Logos, Perl Marks and more]</ref>
+O'Reilly owns the image as a trademark but claims to use their legal rights only to protect the ''"integrity and impact of that symbol"''.<ref>[http://onlamp.com/pub/a/oreilly/perl/usage/faq.html The Perl camel FAQ]</ref>
+O'Reilly allows non-commercial use of the symbol and provides ''Programming Republic of Perl'' logos and ''Powered by Perl'' buttons.<ref>[http://onlamp.com/pub/a/oreilly/perl/usage/ O'Reilly—The Perl Camel Usage and Trademark Information]</ref> However, the Camel has never been meant to be an ''official'' Perl symbol, and if one is to be considered instead, it's ''an onion.''<ref>[http://www.perlfoundation.org/perl_trademark Perl Trademark, User Logos, Perl Marks and more]</ref>
 
 == Overview ==
 Perl is a general-purpose programming language originally developed for text manipulation, but {{as of | 2010 | lc = on}} used for a wide range of tasks including [[system administration]], [[web development]], [[Computer network programming|network programming]], games, [[bioinformatics]], and [[GUI]] development.
