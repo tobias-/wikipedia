@@ -854,6 +854,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 [[Category:American inventions]]
 
 {{Link GA|de}}
+
 [[als:Perl]]
 [[ar:بيرل]]
 [[bn:পার্ল (প্রোগ্রামিং ভাষা)]]
@@ -862,6 +863,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 [[bg:Пърл (език за програмиране)]]
 [[ca:Perl]]
 [[cs:Perl]]
+[[cy:Perl (cyfrifiadureg)]]
 [[da:Perl]]
 [[pdc:Perl]]
 [[de:Perl (Programmiersprache)]]
