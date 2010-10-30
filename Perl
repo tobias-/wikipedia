@@ -58,7 +58,7 @@ Perl 5.004 was released on May 15, 1997, and included among other things the UNI
 
 Perl 5.005 was released on July 22, 1998.  This release included several enhancements to the Regex engine, new hooks into the backend through the <code>B::*</code> modules, the <code>qr//</code> regex quote operator, a large selection of other new core modules, and added support for several more operating systems, including [[BeOS]].<ref>http://perldoc.perl.org/perl5005delta.html</ref>
 
-=== 2000&mdash;present ===
+=== 2000–present ===
 
 Perl 5.6 was released on March 22, 2000.  Major changes included 64 bit support, unicode string representation, large file support (e.g., files > 2 GiB) and the 'our' keyword.<ref>http://perldoc.perl.org/perl56delta.html</ref><ref>http://perldoc.perl.org/perl561delta.html</ref>  When developing Perl 5.6, the decision was made to switch the versioning scheme to one more similar to other open source projects; after 5.005_63, the next version became 5.5.640, with plans for development versions to have odd numbers and stable versions to have even numbers.
 
