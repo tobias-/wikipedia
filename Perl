@@ -202,6 +202,8 @@ A community project<ref>[http://win32.perl.org/ win32.perl.org/]</ref> was launc
 
 The [[Cygwin]] emulation layer is another popular way of running Perl under Windows. Cygwin provides a Unix-like environment on Windows, and both perl and cpan are conveniently available as standard pre-compiled packages in the Cygwin setup program. Because Cygwin also includes the [[GNU Compiler Collection|gcc]], compiling Perl from source is also possible.
 
+
+
 == Language structure ==
 In Perl, the minimal [[Hello world]] program may be written as follows:
 <source lang="perl">
@@ -212,11 +214,11 @@ This [[Input/output|prints]] the [[String (computer science)|string]] ''Hello, w
 The canonical form of the program is slightly more verbose:
 
 <source lang="perl">
-#!/usr/bin/perl
+#!/usr/bin/env perl
 print "Hello, world!\n";
 </source>
 
-The hash mark character introduces a [[comment (computer programming)|comment]] in Perl, which runs up to the end of the line of code and is ignored by the compiler. The comment used here is of a special kind: it’s called the [[Shebang (Unix)|shebang]] line. This tells Unix-like operating systems where to find the Perl interpreter, making it possible to invoke the program without explicitly mentioning <code>perl</code>. (Note that, on [[Microsoft Windows]] systems, Perl programs are typically invoked by associating the <code>.pl</code> [[Filename extension|extension]] with the Perl interpreter. In order to deal with such circumstances, <code>perl</code> detects the shebang line and parses it for switches;<ref name="perlrun">{{cite web | url=http://perldoc.perl.org/perlrun.html#DESCRIPTION | title=perlrun manpage}}</ref> therefore, it is not strictly true that the shebang line is ignored by the compiler.)
+The hash mark character introduces a [[comment (computer programming)|comment]] in Perl, which runs up to the end of the line of code and is ignored by the compiler (except on Windows). The comment used here is of a special kind: it’s called the [[Shebang (Unix)|shebang]] line. This tells Unix-like operating systems to find the Perl interpreter, making it possible to invoke the program without explicitly mentioning <code>perl</code>. (Note that, on [[Microsoft Windows]] systems, Perl programs are typically invoked by associating the <code>.pl</code> [[Filename extension|extension]] with the Perl interpreter. In order to deal with such circumstances, <code>perl</code> detects the shebang line and parses it for switches;<ref name="perlrun">{{cite web | url=http://perldoc.perl.org/perlrun.html#DESCRIPTION | title=perlrun manpage}}</ref>.)
 
 The second line in the canonical form includes a semicolon, which is used to separate statements in Perl. With only a single statement in a block or file, a separator is unnecessary, so it can be omitted from the minimal form of the program—or more generally from the final statement in any block or file. The canonical form includes it because it is common to terminate every statement even when it is unnecessary to do so, as this makes editing easier: code can be added to, or moved away from, the end of a block or file without having to adjust semicolons.
 
