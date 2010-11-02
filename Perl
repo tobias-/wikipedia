@@ -183,12 +183,12 @@ Maintenance of the Perl interpreter has become increasingly difficult over the y
 <!--Note to editors:
 Perl is available on so many platforms that it doesn't make sense to keep a laundry list in this article.
 Do not list a specific platform unless there are notable issues about running Perl on it.
-
--->Perl is [[free software]] and is licensed under both the [[Artistic License]] and the [[GNU General Public License]]. Distributions are available for most [[operating system]]s. It is particularly prevalent on [[Unix]] and [[Unix-like]] systems, but it has been ported to most modern (and many obsolete) platforms. With only six reported exceptions, Perl can be compiled from [[source code]] on all Unix-like, [[POSIX]]-compliant, or otherwise-Unix-compatible platforms.<ref name="cpanports">{{cite web | url=http://www.cpan.org/ports/ | title=Perl Ports (Binary Distributions) | publisher=CPAN.org | author=Hietaniemi, Jarkko | year=1998}}</ref> However, this is rarely necessary, because Perl is included in the default installation of many popular operating systems.
+-->
+Perl is [[Dual_licensed|Dual Licensed]] under both the [[Artistic License]] and the [[GNU General Public License]]. Distributions are available for most [[operating system]]s. It is particularly prevalent on [[Unix]] and [[Unix-like]] systems, but it has been ported to most modern (and many obsolete) platforms. With only six reported exceptions, Perl can be compiled from [[source code]] on all [[POSIX]]-compliant, or otherwise-Unix-compatible platforms.<ref name="cpanports">{{cite web | url=http://www.cpan.org/ports/ | title=Perl Ports (Binary Distributions) | publisher=CPAN.org | author=Hietaniemi, Jarkko | year=1998}}</ref>
 
 Because of unusual changes required for the [[Mac OS history|Mac OS Classic]] environment, a special port called MacPerl was shipped independently.<ref name="macperl">{{cite web | url=http://www.macperl.com/ | title=The MacPerl Pages | year=1997 | publisher=Prime Time Freeware}}</ref>
 
-The ''Comprehensive Perl Archive Network'' ([http://www.cpan.org/ CPAN]) carries a complete list of supported platforms with links to the distributions available on each.<ref>[http://www.cpan.org/ports/ CPAN/ports<!-- Bot generated title -->]</ref> CPAN is also the source for publicly available Perl modules that are not part of the core Perl distribution.
+The ''Comprehensive Perl Archive Network'' ([http://www.cpan.org/ CPAN]) carries a complete list of supported platforms with links to the distributions available on each.<ref>[http://www.cpan.org/ports/ CPAN/ports]</ref> CPAN is also the source for publicly available Perl modules that are not part of the core Perl distribution.
 
 ==== Windows ====
 
