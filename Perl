@@ -894,6 +894,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 [[ml:പേള്‍]]
 [[mr:पर्ल]]
 [[ms:Perl]]
+[[my:Perl]]
 [[nl:Perl (programmeertaal)]]
 [[ja:Perl]]
 [[no:Perl]]
