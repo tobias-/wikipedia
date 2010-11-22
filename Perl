@@ -504,7 +504,7 @@ One common idiom is to assign <code>@_</code> to a list of named variables.
  my ($x, $y, $z) = @_;
 </source>
 
-This provides mnemonic parameter names and implements [[Evaluation strategy#Call by value|pass-by-value]] semantics. The <code>my</code> keyword indicates that the following variables are lexically scoped to the containing block............
+This provides mnemonic parameter names and implements [[Evaluation strategy#Call by value|pass-by-value]] semantics. The <code>my</code> keyword indicates that the following variables are lexically scoped to the containing block.
 
 Another idiom is to shift parameters off of <code>@_</code>. This is especially common when the subroutine takes only one argument or for handling the <code>$self</code> argument in object-oriented modules.
 
