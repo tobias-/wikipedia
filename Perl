@@ -185,7 +185,7 @@ Maintenance of the Perl interpreter has become increasingly difficult over the y
 Perl is available on so many platforms that it doesn't make sense to keep a laundry list in this article.
 Do not list a specific platform unless there are notable issues about running Perl on it.
 -->
-Perl is [[Dual_licensed|Dual Licensed]] under both the [[Artistic License]] and the [[GNU General Public License]]. Distributions are available for most [[operating system]]s. It is particularly prevalent on [[Unix]] and [[Unix-like]] systems, but it has been ported to most modern (and many obsolete) platforms. With only six reported exceptions, Perl can be compiled from [[source code]] on all [[POSIX]]-compliant, or otherwise-Unix-compatible platforms.<ref name="cpanports">{{cite web | url=http://www.cpan.org/ports/ | title=Perl Ports (Binary Distributions) | publisher=CPAN.org | author=Hietaniemi, Jarkko | year=1998}}</ref>
+Perl is [[Dual licensed|Dual Licensed]] under both the [[Artistic License]] and the [[GNU General Public License]]. Distributions are available for most [[operating system]]s. It is particularly prevalent on [[Unix]] and [[Unix-like]] systems, but it has been ported to most modern (and many obsolete) platforms. With only six reported exceptions, Perl can be compiled from [[source code]] on all [[POSIX]]-compliant, or otherwise-Unix-compatible platforms.<ref name="cpanports">{{cite web | url=http://www.cpan.org/ports/ | title=Perl Ports (Binary Distributions) | publisher=CPAN.org | author=Hietaniemi, Jarkko | year=1998}}</ref>
 
 Because of unusual changes required for the [[Mac OS history|Mac OS Classic]] environment, a special port called MacPerl was shipped independently.<ref name="macperl">{{cite web | url=http://www.macperl.com/ | title=The MacPerl Pages | year=1997 | publisher=Prime Time Freeware}}</ref>
 
@@ -217,7 +217,7 @@ The canonical form of the program is slightly more verbose:
 print "Hello, world!\n";
 </source>
 
-The hash mark character introduces a [[comment (computer programming)|comment]] in Perl, which runs up to the end of the line of code and is ignored by the compiler (except on Windows). The comment used here is of a special kind: it’s called the [[Shebang (Unix)|shebang]] line. This tells Unix-like operating systems to find the Perl interpreter, making it possible to invoke the program without explicitly mentioning <code>perl</code>. (Note that, on [[Microsoft Windows]] systems, Perl programs are typically invoked by associating the <code>.pl</code> [[Filename extension|extension]] with the Perl interpreter. In order to deal with such circumstances, <code>perl</code> detects the shebang line and parses it for switches;<ref name="perlrun">{{cite web | url=http://perldoc.perl.org/perlrun.html#DESCRIPTION | title=perlrun manpage}}</ref>.)
+The hash mark character introduces a [[comment (computer programming)|comment]] in Perl, which runs up to the end of the line of code and is ignored by the compiler (except on Windows). The comment used here is of a special kind: it’s called the [[Shebang (Unix)|shebang]] line. This tells Unix-like operating systems to find the Perl interpreter, making it possible to invoke the program without explicitly mentioning <code>perl</code>. (Note that, on [[Microsoft Windows]] systems, Perl programs are typically invoked by associating the <code>.pl</code> [[Filename extension|extension]] with the Perl interpreter. In order to deal with such circumstances, <code>perl</code> detects the shebang line and parses it for switches;.<ref name="perlrun">{{cite web | url=http://perldoc.perl.org/perlrun.html#DESCRIPTION | title=perlrun manpage}}</ref>)
 
 The second line in the canonical form includes a semicolon, which is used to separate statements in Perl. With only a single statement in a block or file, a separator is unnecessary, so it can be omitted from the minimal form of the program—or more generally from the final statement in any block or file. The canonical form includes it because it is common to terminate every statement even when it is unnecessary to do so, as this makes editing easier: code can be added to, or moved away from, the end of a block or file without having to adjust semicolons.
 
@@ -723,7 +723,7 @@ At the 2000 [[O'Reilly Open Source Convention|Perl Conference]], [[Jon Orwant]] 
 
 Perl 6 is not intended to be backward compatible, although there will be a compatibility mode.
 
-Thesis work by [[Bradley M. Kuhn]], overseen by Larry Wall, considered the possible use of the [[Java virtual machine]] as a runtime for Perl.<ref>{{cite paper
+Thesis work by [[Bradley M. Kuhn]], overseen by Larry Wall, considered the possible use of the [[Java virtual machine]] as a runtime for Perl.<ref>{{cite journal
   | last = Kuhn
   | first = Bradley
   | authorlink = Bradley M. Kuhn
@@ -853,7 +853,6 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" [[Namespace (co
 [[Category:American inventions]]
 
 {{Link GA|de}}
-
 [[als:Perl]]
 [[ar:بيرل]]
 [[bn:পার্ল (প্রোগ্রামিং ভাষা)]]
