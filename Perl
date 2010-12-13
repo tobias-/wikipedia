@@ -112,7 +112,7 @@ Perl 5 added features that support complex [[data structure]]s, [[first-class fu
 All versions of Perl do automatic data-typing and automatic memory-management. The interpreter knows the type and storage requirements of every data object in the program; it allocates and frees storage for them as necessary using [[reference counting]] (so it cannot deallocate circular data structures without manual intervention). Legal type-conversions — for example, conversions from number to string — are done automatically at run time; illegal type conversions are fatal errors.
 
 === Design ===
-{{MergeFrom|There's more than one way to do it}}
+{{MergeFrom|There's more than one way to do it|date=December 2010}}
 The design of Perl can be understood as a response to three broad trends in the computer industry: falling hardware costs, rising labor costs, and improvements in compiler technology. Many earlier computer languages, such as [[Fortran]] and C, aimed to make efficient use of expensive computer hardware. In contrast, Perl is designed to make efficient use of expensive computer-programmers.
 
 Perl has many features that ease the task of the programmer at the expense of greater CPU and memory requirements. These include automatic memory management; [[dynamic typing]]; strings, lists, and hashes; regular expressions; introspection; and an <tt>eval()</tt> function.
