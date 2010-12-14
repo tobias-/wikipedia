@@ -16,7 +16,7 @@
 | influenced             = [[Python (programming language)|Python]], [[PHP]], [[Ruby (programming language)|Ruby]], [[ECMAScript]], [[LPC (programming language)|LPC]], [[Windows PowerShell]],  [[JavaScript]], [[Falcon (programming language)|Falcon]]
 | programming_language   = [[C (programming language)|C]]
 | operating_system       = [[Cross-platform]]
-| license                = [[GNU General Public License]], [[Artistic License]]
+| license                = [[GNU General Public License]] or [[Artistic License]]<ref>[http://dev.perl.org/licenses/ Perl Licensing]</ref>
 | website                = {{url|http://www.perl.org}}
 | file_ext               = .pl .pm
 | wikibooks              = Perl Programming
