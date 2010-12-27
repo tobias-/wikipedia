@@ -598,7 +598,7 @@ Because the compact syntax of regular expressions can make them dense and crypti
 $x =~ /
  a   # match 'a'
  .   # followed by any character
- c   # then followed by the 'c'character
+ c   # then followed by the 'c' character
  /x;
 </source>
 
