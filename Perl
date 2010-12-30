@@ -56,7 +56,7 @@ One of the most important events in Perl 5 history took place outside of the lan
 
 Perl 5.004 was released on May 15, 1997, and included among other things the UNIVERSAL package, giving Perl a base object to which all classes were automatically derived and the ability to require versions of modules.  In addition, Perl now supported running under Microsoft Windows and several other operating systems.<ref>http://perldoc.perl.org/perl5004delta.html</ref>
 
-Perl 5.005 was released on July 22, 1998.  This release included several enhancements to the Regex engine, new hooks into the backend through the <code>B::*</code> modules, the <code>qr//</code> regex quote operator, a large selection of other new core modules, and added support for several more operating systems, including [[BeOS]].<ref>http://perldoc.perl.org/perl5005delta.html</ref>
+Perl 5.005 was released on July 22, 1998.  This release included several enhancements to the [[Regular expression|Regex]] engine, new hooks into the backend through the <code>B::*</code> modules, the <code>qr//</code> regex quote operator, a large selection of other new core modules, and added support for several more operating systems, including [[BeOS]].<ref>http://perldoc.perl.org/perl5005delta.html</ref>
 
 === 2000–present ===
 
