@@ -659,7 +659,7 @@ Many modern Perl applications use the [[Moose (Perl)|Moose]] object system.{{Cit
 * A class has zero or more method modifiers. These modifiers can apply to its own methods, methods that are inherited from its ancestors, or methods that are provided by roles.
 
 '''Moose roles:'''
-* A role is something that a class does, somewhat like mixins or interfaces in other object-oriented programming languages. Unlike mixins and interfaces, roles can be applied to individual object instances.
+* A role is something that a class does, somewhat like [[mixin]]s or interfaces in other object-oriented programming languages. Unlike mixins and interfaces, roles can be applied to individual object instances.
 * A role has zero or more attributes.
 * A role has zero or more methods.
 * A role has zero or more method modifiers.
