@@ -201,7 +201,7 @@ Users of [[Microsoft Windows]] typically install one of the native binary distri
 
 A community project<ref>[http://win32.perl.org/ win32.perl.org/]</ref> was launched by [[Adam Kennedy (Programmer)|Adam Kennedy]] on behalf of [[The Perl Foundation]] in June 2006. A community website for "all things Windows and Perl." A major aim of this project is to provide production-quality alternative Perl distributions that include an embedded C compiler and build tools, so as to enable Windows users to install modules directly from the CPAN.  A related version with research and experimental work was done in the Vanilla Perl distribution.<ref>[http://vanillaperl.com/ Vanilla Perl website]</ref>
 
-The [[Cygwin]] emulation layer is another popular way of running Perl under Windows. Cygwin provides a Unix-like environment on Windows, and both perl and cpan are conveniently available as standard pre-compiled packages in the Cygwin setup program. Because Cygwin also includes the [[GNU Compiler Collection|gcc]], compiling Perl from source is also possible.
+The [[Cygwin]] emulation layer is another popular way of running Perl under Windows. Cygwin provides a Unix-like environment on Windows, and both Perl and CPAN are conveniently available as standard pre-compiled packages in the Cygwin setup program. Because Cygwin also includes the [[GNU Compiler Collection|gcc]], compiling Perl from source is also possible.
 
 == Language structure ==
 In Perl, the minimal [[Hello world]] program may be written as follows:
