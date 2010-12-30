@@ -737,7 +737,7 @@ In 2005, [[Audrey Tang]] created the [[pugs]] project, an implementation of Perl
 
 A number of features in the Perl 6 language now show similarities to Haskell.
 
-As of early 2009, Perl 6 development is primarily centred around Rakudo Perl 6, an implementation running on top of the Parrot virtual machine. Another implementation, Mildew, is also under active development and does not use Parrot.
+As of early 2009, Perl 6 development is primarily centered around Rakudo Perl 6, an implementation running on top of the Parrot virtual machine. Another implementation, Mildew, is also under active development and does not use Parrot.
 
 Development of Perl 5 is also continuing. Perl 5.12.0 was released in April 2010,<ref name="latest stable release">[http://www.perl.org/get.html http://www.perl.org/get.html] Perl.org, download Perl distributions page</ref> with some new features influenced by the design of Perl 6.<ref name="the H open">[http://www.h-online.com/open/news/item/Perl-5-12-0-released-Update-976919.html http://www.h-online.com/open/news/item/Perl-5-12-0-released-Update-976919.html] article about 5.12.0 release on the H open website</ref><ref name="perl 5-12-0 features">[http://search.cpan.org/dist/perl-5.12.0/pod/perl5120delta.pod http://search.cpan.org/dist/perl-5.12.0/pod/perl5120delta.pod] Document describing the differences between the 5.10.0 release and the 5.12.0 release</ref> New maintenance versions are scheduled to be released on a monthly basis. The latest one, 5.12.2, was released on September 7, 2010.
 
