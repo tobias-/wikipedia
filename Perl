@@ -52,7 +52,7 @@ Perl 5.000 was released on October 17, 1994.<ref>http://perldoc.perl.org/perlhis
 
 Perl 5.001 was released on March 13, 1995.  Perl 5.002 was released on February 29, 1996 with the new prototypes feature.  This allowed module authors to make subroutines that behaved like Perl [[Shell builtin|builtins]].  Perl 5.003 was released June 25, 1996, as a security release.
 
-One of the most important events in Perl 5 history took place outside of the language proper and was a consequence of its module support. On October 26, 1995, the [[Comprehensive Perl Archive Network]] (CPAN) was established as a [[Software repository|repository]] for [[Perl module]]s and Perl itself. As of January 2011, it carries over 19,000 modules by more than 8,000 authors.<ref> {{cite web | url = http://www.cpan.org/ | title = CPAN | accessdate = 2011-01-02 | publisher = Comprehensive Perl Archive Network}}</ref>
+One of the most important events in Perl 5 history took place outside of the language proper and was a consequence of its module support. On October 26, 1995, the [[Comprehensive Perl Archive Network]] (CPAN) was established as a [[Software repository|repository]] for [[Perl module]]s and Perl itself. As of January 2011, it carries over 19,000 modules by more than 8,000 authors.<ref> {{cite web | url = http://www.cpan.org/ | title = CPAN | accessdate = 2011-01-02 | publisher = [[CPAN]]}}</ref>
 
 Perl 5.004 was released on May 15, 1997, and included among other things the UNIVERSAL package, giving Perl a base object to which all classes were automatically derived and the ability to require versions of modules.  In addition, Perl now supported running under Microsoft Windows and several other operating systems.<ref>http://perldoc.perl.org/perl5004delta.html</ref>
 
