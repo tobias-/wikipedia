@@ -203,6 +203,7 @@ A community project<ref>[http://win32.perl.org/ win32.perl.org/]</ref> was launc
 
 The [[Cygwin]] emulation layer is another popular way of running Perl under Windows. Cygwin provides a Unix-like environment on Windows, and both Perl and CPAN are conveniently available as standard pre-compiled packages in the Cygwin setup program. Because Cygwin also includes the [[GNU Compiler Collection|gcc]], compiling Perl from source is also possible.
 
+==Language structure==
 {{Main|Perl language structure}}
 Perl's language structure is intended to be both flexible and practical. Perl follows a philosophy of "no built-in limits"<ref name='schwartz01'> {{cite book | last1 = Schwartz | first1 = Randal L | authorlink1 = Randal L. Schwartz | last2 = Phoenix | first2 = Tom | last3 = foy | first3 = brian | authorlink3 = Brian D Foy | title = Learning Perl | accessdate = 2011-01-08 | isbn = 978-0-596-00132-2}}</ref>, an idea similar to the [[Zero One Infinity]] rule. The basic [[scalar (computing)|scalar]] data type can take any value, from numeric data to [[string (computer science)|string]]s of length limited only by available memory. Typing is dynamic and determined by context: for example, numbers can be concatenated without performing any manual string conversion.
 
