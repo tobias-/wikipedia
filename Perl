@@ -125,7 +125,7 @@ Perl does not enforce any particular programming paradigm (procedural, object-or
 
 There is a broad practical bent to both the Perl language and the community and culture that surround it. The preface to ''Programming Perl'' begins: "Perl is a language for getting your job done." One consequence of this is that Perl is not a tidy language. It includes many features, tolerates exceptions to its rules, and employs [[heuristics]] to resolve syntactical ambiguities. Because of the forgiving nature of the compiler, bugs can sometimes be hard to find. Discussing the variant behavior of built-in functions in list and scalar contexts, the perlfunc(1) manual page says: "In general, they do what you want, unless you want consistency."
 
-In addition to Larry Wall's two slogans mentioned above, Perl has several mottos that convey aspects of its design and use, including ''"Perl: the Swiss Army Chainsaw of Programming Languages"'' and ''"No unnecessary limits"''.  Perl has also been called ''"The Duct Tape of the Internet"''.<ref>
+In addition to Larry Wall's two slogans mentioned above, Perl has several mottos that convey aspects of its design and use, including "Perl: the Swiss Army Chainsaw of Programming Languages" and "No unnecessary limits".  Perl has also been called "The Duct Tape of the Internet".<ref>
 {{cite web | url = http://www.oreillynet.com/pub/a/oreilly/perl/news/importance_0498.html | title = The Importance of Perl | year = 1998 | month = April | publisher = O'Reilly & Associates, Inc. | quote = As Hassan Schroeder, Sun's first webmaster, remarked: “Perl is the duct tape of the Internet.” }}
 </ref>
 
@@ -189,7 +189,7 @@ Perl is [[Dual licensed|Dual Licensed]] under both the [[Artistic License]] and 
 
 Because of unusual changes required for the [[Mac OS history|Mac OS Classic]] environment, a special port called MacPerl was shipped independently.<ref name="macperl">{{cite web | url=http://www.macperl.com/ | title=The MacPerl Pages | year=1997 | publisher=Prime Time Freeware}}</ref>
 
-The ''Comprehensive Perl Archive Network'' ([http://www.cpan.org/ CPAN]) carries a complete list of supported platforms with links to the distributions available on each.<ref>[http://www.cpan.org/ports/ CPAN/ports]</ref> CPAN is also the source for publicly available Perl modules that are not part of the core Perl distribution.
+The [[|CPAN|Comprehensive Perl Archive Network]] ([http://www.cpan.org/ CPAN]) carries a complete list of supported platforms with links to the distributions available on each.<ref>[http://www.cpan.org/ports/ CPAN/ports]</ref> CPAN is also the source for publicly available Perl modules that are not part of the core Perl distribution.
 
 ==== Windows ====
 
