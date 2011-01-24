@@ -230,7 +230,7 @@ In such situations, the most-critical routines of a Perl program can be written 
 {{Main|Perl 6}}
 At the 2000 [[O'Reilly Open Source Convention|Perl Conference]], [[Jon Orwant]] made a case for a major new language initiative.<ref>[http://www.nntp.perl.org/group/perl.perl6.meta/424 Transcription of Larry's talk]. Retrieved on 2006 September 28.</ref> This led to a decision to begin work on a redesign of the language, to be called Perl 6. Proposals for new language features were solicited from the Perl community at large, and more than 300 [[Request for Comments|RFCs]] were submitted. For clarity purposes: Perl6 and Perl5 are different languages, sharing a common ancestry.
 
-[[Larry Wall]] spent the next few years digesting the RFCs and synthesizing them into a coherent framework for Perl 6. He has presented his design for Perl 6 in a series of documents called "apocalypses", which are numbered to correspond to chapters in ''[[Programming Perl]]'' ("The Camel Book"). The current, not-yet-finalized specification of Perl 6 is encapsulated in design documents called Synopses, which are numbered to correspond to Apocalypses.
+[[Larry Wall]] spent the next few years digesting the RFCs and synthesizing them into a coherent framework for Perl 6. He has presented his design for Perl 6 in a series of documents called "apocalypses", which are numbered to correspond to chapters in ''[[Programming Perl]]'' ("The Camel Book"). The current{{when}}, not-yet-finalized specification of Perl 6 is encapsulated in design documents called Synopses, which are numbered to correspond to Apocalypses.
 
 Perl 6 is not intended to be backward compatible, although there will be a compatibility mode.
 
