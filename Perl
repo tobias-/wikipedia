@@ -197,8 +197,6 @@ Users of [[Microsoft Windows]] typically install one of the native binary distri
 
 The [[Cygwin]] emulation layer is another way of running Perl under Windows. Cygwin provides a Unix-like environment on Windows, and both Perl and CPAN are available as standard pre-compiled packages in the Cygwin setup program. Because Cygwin also includes the [[GNU Compiler Collection|gcc]], compiling Perl from source is also possible.
 
-
-
 ==Database interfaces==
 Perl is widely favored for database applications. Its text-handling facilities are useful for generating [[SQL]] queries; arrays, hashes, and automatic memory management make it easy to collect and process the returned data.
 
