@@ -225,7 +225,7 @@ In such situations, the most-critical routines of a Perl program can be written 
 
 ==Future==
 {{Main|Perl 6}}
-[[Image:Camelia.svg|thumb|right|200px|''Camelia'', the mascot for the Perl 6 project.<ref> {{cite web | url = http://perl6.org/ | title = Perl 6 | accessdate = 2011-02-27 | publisher = The Perl 6 Project}}</ref>]]
+[[Image:Camelia.svg|thumb|right|200px|''Camelia'', the logo for the Perl 6 project.<ref> {{cite web | url = http://perl6.org/ | title = Perl 6 | accessdate = 2011-02-27 | publisher = The Perl 6 Project}}</ref>]]
 At the 2000 [[O'Reilly Open Source Convention|Perl Conference]], [[Jon Orwant]] made a case for a major new language initiative.<ref> {{cite web | url = http://www.nntp.perl.org/group/perl.perl6.meta/2000/10/msg424.html | title = Transcription of Larry's talk | accessdate = 2011-01-25 | last = Torkington | first = Nathan | publisher = nntp.perl.org}}</ref> This led to a decision to begin work on a redesign of the language, to be called Perl 6. Proposals for new language features were solicited from the Perl community at large, and more than 300 [[Request for Comments|RFCs]] were submitted.
 
 [[Larry Wall]] spent the next few years digesting the RFCs and synthesizing them into a coherent framework for Perl 6. He has presented his design for Perl 6 in a series of documents called "apocalypses", which are numbered to correspond to chapters in ''Programming Perl''. {{asof|2011|January}}, the developing specification of Perl 6 is encapsulated in design documents called Synopses, which are numbered to correspond to Apocalypses.<ref name='syn6'> {{cite web | url = http://perlcabal.org/syn/ | title = Official Perl 6 Documentation | accessdate = 2011-01-25 | publisher = The Perl 6 Project}}</ref>
