@@ -251,7 +251,8 @@ As of early 2009, Perl 6 development is primarily centered around Rakudo Perl 6,
 Development of Perl 5 is also continuing. Perl 5.12.0 was released in April 2010 with some new features influenced by the design of Perl 6.<ref name='heise2010'> {{cite web | url = http://www.h-online.com/open/news/item/Perl-5-12-0-released-Update-976919.html | title = Perl 5.12.0 released - Update | accessdate = 2011-01-08 | date = 2010-13-04 | publisher = Heise Media UK}}</ref><ref name='5120delta' /> New maintenance versions are scheduled to be released on a monthly basis. The latest one, 5.12.2, was released on September 7, 2010.
 
 ==Perl community==
-[[File:Pl-perl.png|Usage of Perl]]
+[[File:Pl-perl.png|Usage of Perl]]<br />
+
 Perl's culture and community has developed alongside the language itself. [[Usenet]] was the first public venue in which Perl was introduced, but over the course of its evolution, Perl's community was shaped by the growth of broadening Internet-based services including the introduction of the World Wide Web. The community that surrounds Perl was, in fact, the topic of Larry Wall's first "State of the Onion" talk.<ref>{{ cite web | url=http://www.wall.org/~larry/keynote/keynote.html | title=Perl Culture (AKA the first State of the Onion) | first=Larry | last=Wall | authorlink=Larry Wall | date=1997-08-20 }}</ref>
 
 ===State of the Onion===
