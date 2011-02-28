@@ -313,12 +313,8 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 
 ==See also==
 {{Portal|Free software}}
-
-* [[Comparison of programming languages]]
-* [[Just another Perl hacker]]
 * [[Perl Data Language]]
 * [[Perl Object Environment]]
-* [[PerlScript]]
 * [[Plain Old Documentation]]
 
 ==References==
