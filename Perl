@@ -1,4 +1,4 @@
-{{Other uses}}
+{{about|the programming language}}
 {{good article}}
 {{Infobox programming language
 | name                   = Perl
