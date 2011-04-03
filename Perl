@@ -3,7 +3,7 @@
 {{Infobox programming language
 | name                   = Perl
 | logo                   = [[File:Programming-republic-of-perl.png|100px]]
-| paradigm               = [[multi-paradigm]]: [[Functional programming|functional]], [[Imperative programming|imperative]], [[Object-oriented programming|object-oriented]] ([[Class (computer science)|class-based]]), [[Reflective programming|reflective]], [[Procedural_programming|procedural]], [[Generic_programming|generic]]
+| paradigm               = [[multi-paradigm]]: [[Functional programming|functional]], [[Imperative programming|imperative]], [[Object-oriented programming|object-oriented]] ([[Class-based programming|class-based]]), [[Reflective programming|reflective]], [[Procedural_programming|procedural]], [[Generic_programming|generic]]
 
 | year                   = 1987
 | designer               = [[Larry Wall]]
