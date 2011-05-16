@@ -265,7 +265,7 @@ Each talk is first given at various Perl conferences and is eventually also publ
 
 ===Perl pastimes===
 ; JAPHs
-: In email, Usenet, and message-board postings, "[[Just another Perl hacker]]" (JAPH) programs have become a common trend, originated by [[Randal L. Schwartz]], one of the earliest professional Perl trainers.<ref>
+: In email, Usenet, and message board postings, "[[Just another Perl hacker]]" (JAPH) programs are a common trend, originated by [[Randal L. Schwartz]], one of the earliest professional Perl trainers.<ref>
 {{cite newsgroup | author = [[Randal L. Schwartz]] | title = Who is Just another Perl hacker? | id = http://groups.google.com/group/comp.lang.perl.misc/msg/ecc405feeefc120c?pli=1 | newsgroup = comp.lang.perl.misc | date = 1999-05-02 | url = http://groups.google.com/group/comp.lang.perl.misc/msg/ecc405feeefc120c?pli=1| accessdate = 2007-11-12 }}
 </ref> In the parlance of Perl culture, Perl programmers are known as Perl hackers, and from this derives the practice of writing short programs to print out the phrase "[[Just another Perl hacker]],". In the spirit of the original concept, these programs are moderately obfuscated and short enough to fit into the signature of an email or Usenet message. The "canonical" JAPH as developed by [[Randal L. Schwartz]] includes the comma at the end, although this is often omitted.<ref> {{cite web | url = http://www.perlmonks.org/bare/?node_id=443856 | title = Canonical JAPH | accessdate = 2011-05-16 | last = Schwartz | first = Randal | authorlink = Randal L. Schwartz | date = 2005-03-31 | publisher = [[PerlMonks]]}}</ref>
 ; Perl golf
@@ -273,11 +273,11 @@ Each talk is first given at various Perl conferences and is eventually also publ
 {{cite web | url = http://www.cypherspace.org/rsa/pureperl.html | title = RSA in 5 lines of perl | accessdate = 2011-01-10 | last = Back | first = Adam}}</ref> In subsequent years, the term "code golf" has been applied to the pastime in other languages.<ref>{{cite web | url=http://codegolf.com/ | title=Code Golf: What is Code Golf? | publisher=29degrees | year=2007 }}
 </ref> A [[Perl Golf Apocalypse]] was held at Perl Conference 4.0 in Monterey, California in July 2000.
 ; Obfuscation
-: As with C, [[obfuscated code]] competitions were a well known pastime in the late 1990s. The [[Obfuscated Perl Contest]] was a competition held by [[The Perl Journal]] from 1996 to 2000 that made an arch virtue of Perl's syntactic flexibility. Awards were given for categories such as "most powerful", for programs that made efficient use of space, and "best four-line signature" for programs that fit into four lines of 76 characters in the style of a Usenet [[signature block]].<ref name='gallo03'>
+: As with C, [[obfuscated code]] competitions were a well known pastime in the late 1990s. The [[Obfuscated Perl Contest]] was a competition held by [[The Perl Journal]] from 1996 to 2000 that made an arch virtue of Perl's syntactic flexibility. Awards were given for categories such as "most powerful"&mdash;programs that made efficient use of space&mdash;and "best four-line signature" for programs that fit into four lines of 76 characters in the style of a Usenet [[signature block]].<ref name='gallo03'>
 {{cite book | last1 = Gallo | first1 = Felix | title = Games, diversions, and Perl culture: best of the Perl journal | chapter = The Zeroth Obfuscated Perl Contest | editors = Jon Orwant | publisher = O'Reilly Media | year = 2003 | url = oreilly.com/catalog/tpj3/chapter/ch43.pdf | accessdate = 2011-01-12}}
 </ref>
 ; Poetry
-: Perl poetry is the practice of writing poems that can be compiled as legal Perl code, for example the piece known as [[Black Perl]]. This hobby is made possible by the large number of English words that are used in the Perl. New poems are regularly submitted to [[PerlMonks]], an organization run by [[The Perl Foundation]].<ref>
+: Perl poetry is the practice of writing poems that can be compiled as legal Perl code, for example the piece known as [[Black Perl]]. This hobby is made possible by the large number of English words that are used in the Perl. New poems are regularly submitted to the community at [[PerlMonks]].<ref>
 {{cite web | url = http://www.perlmonks.org/?node_id=1590 | title = Perl Poetry | accessdate = 2011-01-27 | publisher = [[PerlMonks]]}}
 </ref>
 
