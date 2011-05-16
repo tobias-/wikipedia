@@ -277,7 +277,7 @@ Each talk is first given at various Perl conferences and is eventually also publ
 {{cite book | last1 = Gallo | first1 = Felix | title = Games, diversions, and Perl culture: best of the Perl journal | chapter = The Zeroth Obfuscated Perl Contest | editors = Jon Orwant | publisher = O'Reilly Media | year = 2003 | url = oreilly.com/catalog/tpj3/chapter/ch43.pdf | accessdate = 2011-01-12}}
 </ref>
 ; Poetry
-: Perl poetry is the practice of writing poems that can be compiled as legal (although generally non-functional) Perl code, for example the piece known as [[Black Perl]]. This hobby is made possible by the large number of English words that are used in the Perl. New poems are regularly submitted to [[PerlMonks]], an organization run by [[The Perl Foundation]].<ref>
+: Perl poetry is the practice of writing poems that can be compiled as legal Perl code, for example the piece known as [[Black Perl]]. This hobby is made possible by the large number of English words that are used in the Perl. New poems are regularly submitted to [[PerlMonks]], an organization run by [[The Perl Foundation]].<ref>
 {{cite web | url = http://www.perlmonks.org/?node_id=1590 | title = Perl Poetry | accessdate = 2011-01-27 | publisher = [[PerlMonks]]}}
 </ref>
 
