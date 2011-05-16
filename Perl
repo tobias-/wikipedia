@@ -8,10 +8,10 @@
 | year                   = 1987
 | designer               = [[Larry Wall]]
 | developer              = Larry Wall
-| latest_release_version = 5.12.3<ref>{{cite web | url = http://www.perl.org/get.html | title = Download Perl | accessdate = 2011-03-14 | publisher = www.perl.org}}</ref>
-| latest_release_date    = {{release date|mf=yes|2011|01|21}}
-| latest preview version = 5.13.11
-| latest preview date    = {{release date|2011|03|20}}
+| latest_release_version = 5.14.0<ref>{{cite web | url = http://www.perl.org/get.html | title = Download Perl | accessdate = 2011-03-14 | publisher = www.perl.org}}</ref>
+| latest_release_date    = {{release date|mf=yes|2011|05|14}}
+| latest preview version = 
+| latest preview date    = 
 | turing-complete        = Yes
 | typing                 = Dynamic
 | influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[Lisp (programming language)|Lisp]], [[C (programming language)|C]], [[C++]], [[sed]], [[Unix shell]], [[Pascal (programming language)|Pascal]]
