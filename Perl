@@ -324,6 +324,216 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 * [[Perl Object Environment]]
 * [[Plain Old Documentation]]
 
+==X: a perl module that should be standard==
+
+# X.PM
+
+use Cwd;
+
+# Default Attributes
+$x_exec    = 1;
+$x_echo    = 1;
+$x_prefix  = 1;
+$x_fatal   = 1;
+
+# Internal Globals
+$x_prestr  = "x:[{T}] ";
+$x_logdir  = getcwd;
+$x_init    = 0;
+
+#-----------------------------------------------------
+# Exit script if environment variable is not defined
+#-----------------------------------------------------
+sub x_assert(@_) {
+  my @check_env = @_;
+  my $v         = "";
+  my @missing   = ();
+
+  print "\n";
+  foreach $k (@check_env) {
+    if (defined($ENV{$k})) {
+      #$v = $ENV{$k};
+    } else {
+      #$v = "<undefined>";
+      push(@missing, $k);
+    }
+    #my $line = sprintf("setenv %-20s %s\n", $k, $v);
+    #xprint($line);
+  }
+
+  if (@missing) {
+    print "\n";
+    print "ERROR: Please setenv (@missing) and try again\n";
+    print "\n";
+    exit -1;
+  }
+}
+
+#-----------------------------------------------------
+sub xprint($) {
+#-----------------------------------------------------
+  my $msg = shift;
+
+  if (!$x_init) {
+    my $timestamp = `date`;     chomp($timestamp);
+    my $user      = `whoami`;   chomp($user);
+    my $host      = `hostname`; chomp($host);
+
+    $x_logfile = "${x_logdir}/x.log";
+
+    print "log: ${x_logfile}\n";
+
+    open(XLOG,  ">${x_logfile}");
+    print XLOG "#" . "-" x 60 . "\n";
+    print XLOG "# $0\n";
+    print XLOG "# user: $user\n";
+    print XLOG "# host: $host\n";
+    print XLOG "# time: $timestamp\n";
+    print XLOG "#" . "-" x 60 . "\n";
+    close(XLOG);
+
+    $x_init = 1;
+  }
+
+  print $msg;
+
+  open(XLOG,  ">>${x_logfile}");
+  print XLOG $msg;
+  close(XLOG);
+}
+
+#-----------------------------------------------------
+sub xerror($) {
+#-----------------------------------------------------
+
+    my $msg = shift;
+
+    if ($x_prefix) {
+      my $timestamp0 = `date "+%T"`;
+      chomp($timestamp0);
+      $pre =  $x_prestr;
+      $pre =~ s/\{T\}/$timestamp0/g;
+    }
+
+    xprint("\nERROR: ${pre} ${msg}\n");
+
+    if ($x_fatal) {
+      exit -1
+    }
+}
+
+#-----------------------------------------------------
+sub x(@) {
+#-----------------------------------------------------
+
+  my @sub_args  = @_;
+
+  my $pre  = "";
+  my $post = "";
+
+  # Setup Command Prompt Prefix
+  if ($x_prefix) {
+    my $timestamp0 = `date "+%T"`;
+    chomp($timestamp0);
+    $pre = "$x_prestr";
+    $pre =~ s/\{T\}/$timestamp0/g;
+  }
+
+  # Build Nicely Printable Command Line
+  $PrnCmdLine = "";
+  my $indent     = "";
+  for($i=0; $i < @sub_args; $i++) {
+    $arg         = $sub_args[$i];
+    $post        = ($i == $#sub_args) ? ""   : " \\";
+    $PrnCmdLine .= "${indent}${arg}${post}\n";
+    $indent      = "";
+  }
+  $PrnCmdLine .= "\n";
+
+  # Echo Command Line
+  if ( $x_echo && ($sub_args[0] !~ /^\s*-/) ) {
+    xprint("\n${pre}${PrnCmdLine}");
+  }
+
+  my @tmp_args     = @sub_args;
+  my $tmp_first    = shift(@tmp_args);
+  my @tmp_array    = split(/\s+/, $tmp_first);
+
+  my $cmd_name     = shift @tmp_array;
+  my @cmd_args     = (@tmp_array, @tmp_args);
+
+  # Enable/Disable Execute of command
+  if ($cmd_name =~ /-(\w+)/) {
+      $flag = $1;
+      if ($flag eq "exec") {
+        my $value = shift(@cmd_args);
+        $x_exec = $value;
+        return;
+
+      }
+
+      # Assert if env variables are undefined
+      elsif ($flag eq "assert") {  # x("-assert <env1>");
+        x_assert(@cmd_args);
+        return;
+      }
+
+      # Enable/Disable Echo of command
+      elsif ($flag eq "echo") {
+        my $value = shift(@cmd_args);
+        $x_echo = $value;
+        return;
+      }
+
+      # Enable/Disable Echo Prefix
+      elsif ($flag eq "prefix") {
+        my $value = shift(@cmd_args);
+        $x_prefix = $value;
+        return;
+      }
+
+      # Enable/Disable Echo Prefix
+      elsif ($flag eq "fatal") {
+        my $value = shift(@cmd_args);
+        $x_fatal  = $value;
+        return;
+      }
+
+  }
+
+  # Change Directory in current environment
+  elsif ($cmd_name eq "cd") {
+    my $dir = shift(@cmd_args);
+    if (! -d $dir) {
+      xerror("cannot change directory: ($dir)\n");
+    }
+
+    chdir("$dir");
+    return;
+  }
+
+  # Execute command
+  elsif($x_exec) {
+    #$rc = system("@sub_args");
+    #print "rc: $rc\n";
+    #my $rc = $? >> 8;
+
+    open(XPIPE, "@sub_args 2>&1 |");
+    while(<XPIPE>) {
+      xprint($_);
+    }
+    close(XPIPE);
+    my $rc = $? >> 8;
+
+    if ($rc != 0) {
+      xerror("${PrnCmdLine}");
+    }
+  }
+}
+
+
+1;
+
 ==References==
 {{Reflist|2}}
 
