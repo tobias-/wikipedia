@@ -8,7 +8,7 @@
 | year                   = 1987
 | designer               = [[Larry Wall]]
 | developer              = Larry Wall
-| latest_release_version = 5.14.0<ref>{{cite web | url = http://www.perl.org/get.html | title = Download Perl | accessdate = 2011-03-14 | publisher = www.perl.org}}</ref>
+| latest_release_version = 5.14.1<ref>{{cite web | url = http://www.perl.org/get.html | title = Download Perl | accessdate = 2011-06-17 | publisher = www.perl.org}}</ref>
 | latest_release_date    = {{release date|mf=yes|2011|05|14}}
 | latest preview version = 
 | latest preview date    = 
