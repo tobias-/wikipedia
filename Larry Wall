@@ -30,7 +30,10 @@ While in [[graduate school]] at UC Berkeley, Wall and his wife were studying [[l
 Wall is the author of the [[rn (newsreader)|<code>rn</code>]] [[Usenet client]] and the nearly universally-used [[Patch (Unix)|<code>patch</code>]] program. He has won the [[International Obfuscated C Code Contest]] twice and was the recipient of the first [[Free Software Foundation]] [[Award for the Advancement of Free Software]] in 1998.
 
 Beyond his technical skills, Wall has a reputation for his wit and for his often sarcastic sense of humour,<ref name='www.perl.com/pub/a/1999/03/pm.ht'> {{Citation| first=Larry | last=Wall| coauthors=this is a recursive reference by a noted expert on Larry Wall| contribution=Perl, the first postmodern computer language| title=The following is the text of Larry Wall's talk at Linux World on Wednesday, March 3. He explains why Perl is a fitting language for the postmodern era. As a member of the audience commented: "Another mindbender from Larry."| editor-first=| editor-last=| coeditors=| publisher=O’Reilly Media, Inc.| place=San Jose Convention Centerr, San Jose, California| pages=| date=1999-03-03| id= | contribution-url=http://www.perl.com/pub/a/1999/03/pm.html| format=| accessdate=2007-11-19 }}
-</ref> which he displays in the comments to his [[source code]] or on [[Usenet]]. For example: "We all agree on the necessity of compromise. We just can't agree on when it's necessary to compromise" and:
+</ref> which he displays in the comments to his [[source code]] or on [[Usenet]]. For example: "We all agree on the necessity of compromise. We just can't agree on when it's necessary to compromise"<ref>{{cite web
+  | date = 1991-11-14
+  | url = http://groups.google.com/group/comp.lang.perl/msg/0754ced5084b5ced
+  | accessdate = 2011-06-15 }}</ref> and:
 
 <blockquote>
 For example, it's been several decades now since a certain set of Bible translations came out, and you'll notice a pattern: the New English Bible, the New American Standard Bible, and the New International Version, to name a few. It's really funny. I suspect we'll still be calling them “new this” and “new that” a hundred years from now. Much like New College at Oxford. Do you know when New College was founded. Any guesses? New College was new in 1379.<ref name="www.perl.com/pub/a/1999/03/pm.ht"/>
