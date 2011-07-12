@@ -359,6 +359,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 [[Category:Cross-platform software]]
 [[Category:American inventions]]
 [[Category:1987 software]]
+[[Category:High-level programming languages]]
 
 {{Link GA|de}}
 [[als:Perl]]
