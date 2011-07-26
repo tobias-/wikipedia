@@ -11,8 +11,8 @@
 | developer              = Larry Wall
 | latest_release_version = 5.14.1<ref>{{cite web | url = http://www.perl.org/get.html | title = Download Perl | accessdate = 2011-06-17 | publisher = www.perl.org}}</ref>
 | latest_release_date    = {{release date|mf=yes|2011|06|17}}
-| latest preview version = 
-| latest preview date    = 
+| latest preview version = 5.15.1<ref>{{cite web | url = http://search.cpan.org/dist/perl/ | title = Download Perl | accessdate = 2011-07-26 | publisher = search.cpan.org}}</ref>
+| latest preview date    = {{release date|mf=yes|2011|07|20}}
 | turing-complete        = Yes
 | typing                 = Dynamic
 | influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[Lisp (programming language)|Lisp]], [[C (programming language)|C]], [[C++]], [[sed]], [[Unix shell]], [[Pascal (programming language)|Pascal]]
@@ -77,8 +77,11 @@ Around this same time, development began in earnest on another implementation of
 
 A major change in the development process of Perl 5 occurred with Perl 5.11; the development community has switched to a monthly release cycle, with planned release dates three months ahead.
 
-On April 12, 2010, Perl 5.12.0 was released. Notable core enhancements include new <code>package NAME VERSION</code> syntax, the Yada Yada operator (intended to mark placeholder code that is not yet implemented), implicit strictures<!-- "strictures" is not a typo -->, full [[Y2038]] compliance, regex conversion overloading, [[DTrace]] support, and [[Unicode]] 5.2.<ref name='5120delta'>{{cite web | url = http://perldoc.perl.org/perl5120delta.html | title = perl5120delta - what is new for perl v5.12.0 | accessdate = 2011-01-08 | work = Perl 5 version 12.2 documentation | publisher = perldoc.perl.org}}</ref> On January 21, 2011, Perl 5.12.3 was released; it contains updated modules and some documentation changes.<ref name='5123delta'>{{cite web | url = http://perldoc.perl.org/perl5123delta.html | title = perldelta - what is new for perl v5.12.3 | accessdate = 2011-01-08 | work = Perl 5 version 12.2 documentation | publisher = perldoc.perl.org}}</ref>
-The latest development release of Perl 5 is 5.13.11, released by Florian Ragwitz on March 20, 2011.<ref>{{cite web | url = http://search.cpan.org/dist/perl-5.13.11 | title = Florian Ragwitz / perl-5.13.11 - search.cpan.org | accessdate = 2011-03-20 | last = Ragwitz | first = Florian | publisher = [[CPAN]]}}</ref> On May 14, 2011, Perl 5.14 was released.
+On April 12, 2010, Perl 5.12.0 was released. Notable core enhancements include new <code>package NAME VERSION</code> syntax, the Yada Yada operator (intended to mark placeholder code that is not yet implemented), implicit strictures<!-- "strictures" is not a typo -->, full [[Y2038]] compliance, regex conversion overloading, [[DTrace]] support, and [[Unicode]] 5.2.<ref name='5120delta'>{{cite web | url = http://perldoc.perl.org/perl5120delta.html | title = perl5120delta - what is new for perl v5.12.0 | accessdate = 2011-01-08 | work = Perl 5 version 12.2 documentation | publisher = perldoc.perl.org}}</ref> On January 21, 2011, Perl 5.12.3 was released; it contains updated modules and some documentation changes.<ref name='5123delta'>{{cite web | url = http://perldoc.perl.org/perl5123delta.html | title = perldelta - what is new for perl v5.12.3 | accessdate = 2011-01-08 | work = Perl 5 version 12.2 documentation | publisher = perldoc.perl.org}}</ref>. Version 5.12.4 was released on June 20, 2011.
+
+On May 14, 2011, Perl 5.14 was released. On Jun 16, 2011, the latest version, 5.14.1, was released.
+
+The latest development release of Perl 5 is 5.15.1, released by Jesse Vincent on July 20, 2011. 
 
 === Name ===
 
