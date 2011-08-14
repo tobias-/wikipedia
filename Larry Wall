@@ -18,13 +18,12 @@
 Wall earned his [[bachelor's degree]] from [[Seattle Pacific University]] in 1976.
 
 While in [[graduate school]] at UC Berkeley, Wall and his wife were studying [[linguistics]] with the intention afterwards of finding an unwritten language, perhaps in [[Africa]], and creating a [[writing system]] for it. They would then use this new writing system to translate various texts into the language, among them the [[Bible]]. Due to health reasons these plans were cancelled, and they remained in the U.S., where Larry instead joined the [[NASA]] [[Jet Propulsion Laboratory]] after he finished graduate school.<ref>{{cite web
-  | last = Sims
-  | first = David
-  | title = Q&A With Larry Wall, Creator Of Perl
-  | publisher = TechWeb
-  |date=1998-04-98
-  | url = http://www.techweb.com/wire/story/TWB19980408S0020 Q&A With Larry Wall, Creator Of Perl, David Sims
-  | accessdate = 2007-08-05 }}</ref>{{Dead link|date=June 2011}}
+  | last = Sims | first = David | date = 1998-04-08
+  | title = Q&A With Larry Wall, Creator Of Perl | publisher = TechWeb
+  | url = http://www.techweb.com/wire/story/TWB19980408S0020
+  | archiveurl = http://web.archive.org/web/19981205141959/http://www.techweb.com/wire/story/TWB19980408S0020
+  | archivedate = 1998-12-05 | accessdate = 2011-08-15
+}}</ref>
 
 ==Accomplishments==
 Wall is the author of the [[rn (newsreader)|<code>rn</code>]] [[Usenet client]] and the nearly universally-used [[Patch (Unix)|<code>patch</code>]] program. He has won the [[International Obfuscated C Code Contest]] twice and was the recipient of the first [[Free Software Foundation]] [[Award for the Advancement of Free Software]] in 1998.
@@ -50,7 +49,7 @@ Wall continues to oversee further development of Perl and serves as the [[Benevo
 
 # Larry is always by definition right about how Perl should behave. This means he has final veto power on the core functionality.
 # Larry is allowed to change his mind about any matter at a later date, regardless of whether he previously invoked Rule 1.
-:: Got that? Larry is always right, even when he was wrong.<ref>{{Citation| title=Perl 5.10.0 Documentation - perlhack |url=http://perldoc.perl.org/perlhack.html#DESCRIPTION}}</ref><ref>{{Citation| title=perl 5 porters FAQ| url=http://faq.perl.org/p5pfaq.html#What_is_Rule_1_}}</ref>
+:: Got that? Larry is always right, even when he was wrong.<ref>{{Citation| title=Perl 5.10.0 Documentation&nbsp;– perlhack |url=http://perldoc.perl.org/perlhack.html#DESCRIPTION}}</ref><ref>{{Citation| title=perl 5 porters FAQ| url=http://faq.perl.org/p5pfaq.html#What_is_Rule_1_}}</ref>
 
 ==Virtues of a programmer==
 In the second edition of ''[[Programming Perl]]'', Wall (along with coauthors [[Randal L. Schwartz]] and Tom Christiansen) outlined the ''Three Virtues of a Programmer'':
@@ -82,12 +81,13 @@ Please note that as the State of the Onion speeches are often primarily based on
 
 {{FOSS celeb}}
 {{Perl}}
+{{Authority control |PND=138937079 |LCCN=n/94/024390 |VIAF=91402770}}
 
 {{Persondata
 |NAME=Wall, Larry
 |ALTERNATIVE NAMES=
 |SHORT DESCRIPTION=[[programmer]], [[linguistics|linguist]], and creator of [[Perl]]
-|DATE OF BIRTH=1954-09-27
+|DATE OF BIRTH=September 27, 1954
 |PLACE OF BIRTH=
 |DATE OF DEATH=
 |PLACE OF DEATH=
