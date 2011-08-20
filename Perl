@@ -41,7 +41,7 @@ In addition to CGI, Perl is used for graphics programming, [[System administrato
 ==History==
 ===Early versions===
 
-[[Larry Wall]] and ESMIT KUMAR began work on Perl in 1987, while working as a programmer at [[Unisys]],<ref name='programmingperl'/> and released version 1.0 to the comp.sources.misc [[newsgroup]] on December 18, 1987.<ref>{{cite web |url= http://groups.google.com/group/comp.sources.unix/tree/browse_frm/month/1988-02?_done=%2Fgroup%2Fcomp.sources.unix%2Fbrowse_frm%2Fmonth%2F1988-02%3F& |title= comp.sources.unix |accessdate= 2011-01-13 |date= 1988-02-01 |work= Google Groups |publisher= [[Google]]}}</ref> The language expanded rapidly over the next few years.
+[[Larry Wall]] began work on Perl in 1987, while working as a programmer at [[Unisys]],<ref name='programmingperl'/> and released version 1.0 to the comp.sources.misc [[newsgroup]] on December 18, 1987.<ref>{{cite web |url= http://groups.google.com/group/comp.sources.unix/tree/browse_frm/month/1988-02?_done=%2Fgroup%2Fcomp.sources.unix%2Fbrowse_frm%2Fmonth%2F1988-02%3F& |title= comp.sources.unix |accessdate= 2011-01-13 |date= 1988-02-01 |work= Google Groups |publisher= [[Google]]}}</ref> The language expanded rapidly over the next few years.
 
 Perl 2, released in 1988, featured a better [[regular expression]] engine. Perl 3, released in 1989, added support for [[binary data]] streams.
 
@@ -135,8 +135,6 @@ Perl does not enforce any particular programming paradigm (procedural, object-or
 There is a broad practical bent to both the Perl language and the community and culture that surround it. The preface to ''Programming Perl'' begins: "Perl is a language for getting your job done."<ref name='programmingperl'/> One consequence of this is that Perl is not a tidy language. It includes many features, tolerates exceptions to its rules, and employs [[heuristics]] to resolve syntactical ambiguities. Because of the forgiving nature of the compiler, bugs can sometimes be hard to find. Perl's function documentation remarks on the variant behavior of built-in functions in list and scalar contexts that "In general, they do what you want, unless you want consistency."<ref name='perlfunc'>{{cite web | url = http://perldoc.perl.org/perlfunc.html | title = perlfunc - Perl builtin functions | accessdate = 2011-01-10 | work = Perl 5 version 12.2 documentation | publisher = perldoc.perl.org}}</ref>
 
 No written specification or standard for the Perl language exists for Perl versions through Perl 5, and there are no plans to create one for the current version of Perl. There has been only one implementation of the interpreter, and the language has evolved along with it. That interpreter, together with its functional tests, stands as a ''de facto'' specification of the language.  [[Perl 6]], however, started with a specification,<ref>{{cite web | url = http://www.perl6.org/specification | title = Perl 6 Specification | accessdate = 2011-01-27 | publisher = The Perl 6 Project}}</ref> and several projects<ref>{{cite web | url = http://www.perl6.org/compilers/ | title = Perl 6 Compilers | accessdate = 2011-01-27 | publisher = The Perl 6 Project}}</ref> aim to implement some or all of the specification.
-
-by ESMIT KUMAR (MUZAFFARPUR)
 
 ===Applications===
 Perl has many and varied applications, compounded by the availability of many standard and third-party modules.
