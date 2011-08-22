@@ -1,5 +1,4 @@
 {{about|the programming language}}
-{{Details|Perl language structure|programming in Perl}}
 {{good article}}
 {{Infobox programming language
 | name                   = Perl
