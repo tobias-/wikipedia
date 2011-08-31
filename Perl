@@ -252,7 +252,7 @@ Thesis work by [[Bradley M. Kuhn]], overseen by Larry Wall, considered the possi
 
 In 2005, [[Audrey Tang]] created the [[pugs]] project, an implementation of Perl 6 in [[Haskell (programming language)|Haskell]]. This was, and continues to act as, a test platform for the Perl 6 language (separate from the development of the actual implementation) allowing the language designers to explore. The pugs project spawned an active Perl/Haskell cross-language community centered around the [[freenode]] #perl6 IRC channel.
 
-A number of features in the Perl 6 language now show similarities to Haskell.
+A number of features in the Perl 6 language now show similarities to Haskell. {{Citation needed}}
 
 As of early 2009, Perl 6 development is primarily centered around Rakudo Perl 6, an implementation running on top of the Parrot virtual machine. Another implementation, Mildew, is also under active development and does not use Parrot.
 
