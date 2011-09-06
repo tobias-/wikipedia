@@ -364,6 +364,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 [[Category:High-level programming languages]]
 
 {{Link GA|de}}
+
 [[als:Perl]]
 [[ar:بيرل]]
 [[bn:পার্ল (প্রোগ্রামিং ভাষা)]]
@@ -401,7 +402,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 [[hu:Perl (programozási nyelv)]]
 [[mk:Perl]]
 [[ml:പേള്‍]]
-[[mr:पर्ल]]
+[[mr:पर्ल (संगणकभाषा)]]
 [[ms:Perl]]
 [[my:Perl]]
 [[nl:Perl (programmeertaal)]]
