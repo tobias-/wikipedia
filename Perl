@@ -404,7 +404,7 @@ print "\n";
 </syntaxhighlight>
 
 ===operators, functions, see man (perlop|perlfunc), perldoc -f fname===
-
+<syntaxhighlight lang="perl">
 # arithmetic
 
 # +			addition
@@ -442,8 +442,7 @@ print "\n";
 # .			string concatenation
 # x			string multiplication
 # ..			range operator
-
-
+</syntaxhighlight>
 
 ===files and i/o see man (perlfunc|perlopentut)===
 
