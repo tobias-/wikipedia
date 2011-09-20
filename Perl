@@ -532,7 +532,7 @@ if($email =~ /([^@]+)@(.+)/){
 </syntaxhighlight>
 
 ===writing subroutines see man perlsub===
-
+<syntaxhighlight lang="perl">
 sub messager 
 {
 	if(!$_[0]){
@@ -545,8 +545,7 @@ sub messager
 }
 print messager;
 print messager "this is subroutine argument!";
-
-
+</syntaxhighlight>
 
 ===oo perl, see man (perlboot|perltoot|perltooc|perlobj)===
 
