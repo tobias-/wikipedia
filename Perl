@@ -347,7 +347,7 @@ print "global scope c: $c\n";
 </syntaxhighlight>
 
 ===conditional and looping constructs, see man perlsyn===
-
+<syntaxhighlight lang="perl">
 # if
 
 my $perl;
@@ -401,8 +401,7 @@ foreach my $key (keys %userdata){
 	print " $key: $userdata{$key}";
 }
 print "\n";
-
-
+</syntaxhighlight>
 
 ===operators, functions, see man (perlop|perlfunc), perldoc -f fname===
 
