@@ -260,14 +260,13 @@ Development of Perl 5 is also continuing. Perl 5.12.0 was released in April 2010
 ==Perl examples==
 
 ===safety net see man (strict|warnings)===
-
+<syntaxhighlight lang="perl">
 #!/usr/bin/perl
 use strict;
 use warnings;
 
 # openbsd 4.9, perl 5
-
-
+</syntaxhighlight>
 
 ===scalars, see man (perlvar|perldata) $_===
 
