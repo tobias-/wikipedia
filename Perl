@@ -328,7 +328,7 @@ print "username: $userdata{'name'}, uid: $userdata{'uid'}\n";
 </syntaxhighlight>
 
 ===variable scoping===
-
+<syntaxhighlight lang="perl">
 $a = "global";
 my $b = "scoped";
 my $c = "conditional";
@@ -344,8 +344,7 @@ print "global scope a: $a\n";
 print "global scope b: $b\n";
 print "global scope c: $c\n";
 #print "global scope d: $d\n";# error if "use strict;"
-
-
+</syntaxhighlight>
 
 ===conditional and looping constructs, see man perlsyn===
 
