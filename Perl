@@ -269,13 +269,12 @@ use warnings;
 </syntaxhighlight>
 
 ===scalars, see man (perlvar|perldata) $_===
-
+<syntaxhighlight lang="perl">
 my $lang = "perl";
 my $version = 5;
 
 print "$lang $version!\n";
-
-
+</syntaxhighlight>
 
 ===arrays, see man (perlvar|perldata) @ARGV, @_===
 
