@@ -465,7 +465,7 @@ close $in or die "$in: $!";
 </syntaxhighlight>
 
 ===regular expressions, see man (perlrequick|perlretut|perlre)===
-
+<syntaxhighlight lang="perl">
 # .			a single character
 # \s			whitespace character
 # \S			non whitespace character
@@ -529,8 +529,7 @@ if($email =~ /([^@]+)@(.+)/){
 	print "username: $1\n";
 	print "hostname: $2\n";
 }
-
-
+</syntaxhighlight>
 
 ===writing subroutines see man perlsub===
 
