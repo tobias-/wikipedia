@@ -445,7 +445,7 @@ print "\n";
 </syntaxhighlight>
 
 ===files and i/o see man (perlfunc|perlopentut)===
-
+<syntaxhighlight lang="perl">
 open(my $out, ">", "out.txt") or die "can't open $!\n";
 for($i = 0; $i < 3; $i++){
 	print $out "string: $i\n";
@@ -462,8 +462,7 @@ while(read $in, $line, 80){
 	print "$line";
 }
 close $in or die "$in: $!";
-
-
+</syntaxhighlight>
 
 ===regular expressions, see man (perlrequick|perlretut|perlre)===
 
