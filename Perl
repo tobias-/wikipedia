@@ -298,7 +298,7 @@ print "$mixed[$#mixed]\n";
 </syntaxhighlight>
 
 ===hashes, see man (perlvar|perldata) %ENV=== 
-
+<syntaxhighlight lang="perl">
 my %userdata = ("name", "root", "uid", 0, "gid", 0);
 my %fruit_color = (
 	"apple" => "red",
@@ -325,8 +325,7 @@ print("apple is: $fruit_color{'apple'}\n");
 print("$fruits[0] is: $colors[0]\n");
 print "scalars begin with $variables->{'scalar'}->{'sigil'}\n";
 print "username: $userdata{'name'}, uid: $userdata{'uid'}\n";
-
-
+</syntaxhighlight>
 
 ===variable scoping===
 
