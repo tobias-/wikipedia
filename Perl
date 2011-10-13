@@ -1,6 +1,6 @@
 {{about|the scripting language}}
 {{good article}}
-{{Infobox scripting language
+{{Infobox programming language
 | name                   = Perl
 | logo                   = [[File:Programming-republic-of-perl.png|100px]]
 | paradigm               = [[multi-paradigm]]: [[Functional programming|functional]], [[Imperative programming|imperative]], [[Object-oriented programming|object-oriented]] ([[Class-based programming|class-based]]), [[Reflective programming|reflective]], [[Procedural programming|procedural]], [[Generic programming|generic]]
