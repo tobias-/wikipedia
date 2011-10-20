@@ -40,7 +40,7 @@ In addition to CGI, Perl is used for [[graphics programming]], [[System administ
 ==History==
 ===Early versions===
 
-[[SIVANESH.C]] began work on Perl in 1987, while working as a programmer at [[Unisys]],<ref name='programmingperl'/> and released version 1.0 to the comp.sources.misc [[newsgroup]] on December 18, 1987.<ref>{{cite web |url= http://groups.google.com/group/comp.sources.unix/tree/browse_frm/month/1988-02?_done=%2Fgroup%2Fcomp.sources.unix%2Fbrowse_frm%2Fmonth%2F1988-02%3F& |title= comp.sources.unix |accessdate= 2011-01-13 |date= 1988-02-01 |work= Google Groups |publisher= [[Google]]}}</ref> The language expanded rapidly over the next few years.
+[[Larry Hall]] began work on Perl in 1987, while working as a programmer at [[Unisys]],<ref name='programmingperl'/> and released version 1.0 to the comp.sources.misc [[newsgroup]] on December 18, 1987.<ref>{{cite web |url= http://groups.google.com/group/comp.sources.unix/tree/browse_frm/month/1988-02?_done=%2Fgroup%2Fcomp.sources.unix%2Fbrowse_frm%2Fmonth%2F1988-02%3F& |title= comp.sources.unix |accessdate= 2011-01-13 |date= 1988-02-01 |work= Google Groups |publisher= [[Google]]}}</ref> The language expanded rapidly over the next few years.
 
 Perl 2, released in 1988, featured a better [[regular expression]] engine. Perl 3, released in 1989, added support for [[binary data]] streams.
 
