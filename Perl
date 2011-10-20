@@ -7,7 +7,7 @@
 
 | year                   = 1987
 | designer               = [[Larry Wall]]
-| developer              = sivanesh & gopu durai
+| developer              = Larry Wall
 | latest_release_version = 5.14.2<ref>{{cite web | url = http://www.perl.org/get.html | title = Download Perl | accessdate = 2011-09-30 | publisher = www.perl.org}}</ref>
 | latest_release_date    = {{release date|mf=yes|2011|09|26}}
 | latest preview version = 5.15.3<ref>{{cite web | url = http://search.cpan.org/dist/perl/ | title = Download Perl | accessdate = 2011-09-30 | publisher = search.cpan.org}}</ref>
