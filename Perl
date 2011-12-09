@@ -337,7 +337,6 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 ==External links==
 <!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first -->
 {{Sister project links|commons=Category:Perl (programming language)|b=Perl Programming|v=Topic:Perl|n=no|q=Perl|s=no|b=Perl Programming}}
-{{Wikiversity|at=Topic:Perl}}
 * {{Official website|http://www.perl.org}} Perl.org
 * [http://www.cpan.org/ CPAN]
 * [http://www.perlfoundation.org/ The Perl Foundation]
