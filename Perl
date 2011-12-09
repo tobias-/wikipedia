@@ -330,6 +330,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 {{Reflist|2}}
 
 ==Further reading==
+* {{cite book|title=Modern Perl|url=http://onyxneon.com/books/modern_perl/|year=2010|publisher=Onyx Neon|isbn=0-9779201-5-1}}
 * ''[[Perl Cookbook]]'', ISBN 0-596-00313-7
 * [http://www.ddj.com/web-development/tpj.jhtml The Perl Journal] published 1996–2006 was the leading publication for and about Perl Programming during this time.
 * {{cite book|last=Dominus|first=Mark Jason|title=Higher Order Perl|url=http://hop.perl.plover.com/book/|year=2005|publisher=Morgan Kaufmann|isbn=1-55860-701-3}}
