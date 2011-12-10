@@ -341,6 +341,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 * {{Official website|http://www.perl.org}} Perl.org
 * [http://www.cpan.org/ CPAN]
 * [http://www.perlfoundation.org/ The Perl Foundation]
+* [http://perlmonks.org/ Perl Monks]
 * {{dmoz|Computers/Programming/Languages/Perl|Perl}}
 <!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first -->
 {{Perl}}
