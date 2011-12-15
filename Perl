@@ -330,12 +330,12 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 {{Reflist|2}}
 
 ==Further reading==
-* [http://shop.oreilly.com/product/0636920018452.do Learning Perl, 6th Edition (2011)]
-* [http://onyxneon.com/books/modern_perl/ Modern Perl, 2nd Edition (2011-2012)]
-* [http://shop.oreilly.com/product/9780596004927.do Programming Perl, 4th Edition (2012)]
-* ''[[Perl Cookbook]]'', ISBN 0-596-00313-7
+* [http://shop.oreilly.com/product/0636920018452.do Learning Perl] 6th Edition (2011), O'Reilly. Beginner-level introduction to Perl.
+* [http://onyxneon.com/books/modern_perl/ Modern Perl] 2nd Edition (2011-2012), Onxy Neon. Describes [[Modern Perl]] programming techniques.
+* [http://shop.oreilly.com/product/9780596004927.do Programming Perl] 4th Edition (2012), O'Reilly. The definitive Perl reference.
+* ''[[Perl Cookbook]]'', ISBN 0-596-00313-7. Practical Perl programming examples.
 * [http://www.ddj.com/web-development/tpj.jhtml The Perl Journal] published 1996–2006 was the leading publication for and about Perl Programming during this time.
-* {{cite book|last=Dominus|first=Mark Jason|title=Higher Order Perl|url=http://hop.perl.plover.com/book/|year=2005|publisher=Morgan Kaufmann|isbn=1-55860-701-3}}
+* {{cite book|last=Dominus|first=Mark Jason|title=Higher Order Perl|url=http://hop.perl.plover.com/book/|year=2005|publisher=Morgan Kaufmann|isbn=1-55860-701-3}} Functional programming techniques in Perl.
 
 ==External links==
 <!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first -->
