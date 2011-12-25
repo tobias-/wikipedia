@@ -10,8 +10,8 @@
 | developer              = Larry Wall
 | latest_release_version = 5.14.2<ref>{{cite web | url = http://www.perl.org/get.html | title = Download Perl | accessdate = 2011-09-30 | publisher = www.perl.org}}</ref>
 | latest_release_date    = {{release date|mf=yes|2011|09|26}}
-| latest preview version = 5.15.3<ref>{{cite web | url = http://search.cpan.org/dist/perl/ | title = Download Perl | accessdate = 2011-09-30 | publisher = search.cpan.org}}</ref>
-| latest preview date    = {{release date|mf=yes|2011|07|21}}
+| latest preview version = 5.15.4<ref>{{cite web | url = http://search.cpan.org/dist/perl/ | title = Download Perl | accessdate = 2011-09-20 | publisher = search.cpan.org}}</ref>
+| latest preview date    = {{release date|mf=yes|2011|10|20}}
 | turing-complete        = Yes
 | typing                 = Dynamic
 | influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[Lisp (programming language)|Lisp]], [[C (programming language)|C]], [[C++]], [[sed]], [[Unix shell]], [[Pascal (programming language)|Pascal]]
