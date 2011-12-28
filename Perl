@@ -344,6 +344,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 * [http://www.perlfoundation.org/ The Perl Foundation]
 * [http://www.perlmonks.org/ PerlMonks] A community committed to sharing Perl knowledge and coding tips
 * [http://perlsphere.net/ Perlsphere] The Web's biggest collection of Perl blogs
+* [http://perlweekly.com/ Perl Weekly] A free, weekly e-mail round-up of hand-picked news and articles about Perl
 <!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first -->
 {{Perl}}
 {{FOSS}}
