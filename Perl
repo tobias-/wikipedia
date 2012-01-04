@@ -344,6 +344,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 * [http://www.cpan.org/ Comprehensive Perl Archive Network] The canonical location for Perl code and modules
 * [http://www.perlfoundation.org/ The Perl Foundation]
 * [http://www.perlmonks.org/ PerlMonks] A community committed to sharing Perl knowledge and coding tips
+* [http://www.togotutor.com/learn-perl] A complete Perl tutorial from beginner to expert level.
 
 <!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first! 
 See [[http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.27_external_links]]
