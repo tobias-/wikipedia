@@ -321,6 +321,8 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 
 ==See also==
 {{Portal|Free software|Computer programming}}
+
+* [[Outline of Perl]]
 * [[Perl language structure]]
 * [[Perl Data Language]]
 * [[Perl Object Environment]]
