@@ -80,7 +80,7 @@ On April 12, 2010, Perl 5.12.0 was released. Notable core enhancements include n
 
 On May 14, 2011, Perl 5.14 was released. On September 26, 2011, the latest version, 5.14.2, was released.
 
-The latest development release of Perl 5 is 5.15.4, released by Jesse Vincent on October 20, 2011.
+The latest development release of Perl 5 is 5.15.8, released by Max Maischein on February 20, 2012.
 
 ===Name===
 
