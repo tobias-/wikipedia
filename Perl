@@ -231,7 +231,7 @@ Like any code, Perl programs can be [[Optimization (computer science)|tuned for 
 
 In such situations, the most-critical routines of a Perl program can be written in other languages such as [[C (programming language)|C]] or [[Assembly language|Assembler]], which can be connected to Perl via simple Inline modules or the more-complex-but-flexible [[XS (Perl)|XS]] mechanism.<ref>{{cite web | url = http://search.cpan.org/~sisyphus/Inline-0.47/Inline.pod | title = Inline - search.cpan.org | accessdate = 2011-01-26 | last = Ingerson | first = Brian | publisher = [[CPAN]]}}</ref> Nicholas Clark, a Perl core developer, discusses some Perl design trade-offs and solutions in a 2002 document called "When perl is not quite fast enough".<ref>{{cite web | url = http://www.ccl4.org/~nick/P/Fast_Enough/ | title = When perl is not quite fast enough | accessdate = 2011-01-02 | last = Clark | first = Nicholas}}</ref>
 
-==Future==
+==Perl 6==
 {{Main|Perl 6}}
 [[Image:Camelia.svg|thumb|right|200px|''Camelia'', the logo for the Perl 6 project.<ref>{{cite web | url = http://perl6.org/ | title = Perl 6 | accessdate = 2011-02-27 | publisher = The Perl 6 Project}}</ref>]]
 At the 2000 [[O'Reilly Open Source Convention|Perl Conference]], [[Jon Orwant]] made a case for a major new language initiative.<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl6.meta/2000/10/msg424.html | title = Transcription of Larry's talk | accessdate = 2011-01-25 | last = Torkington | first = Nathan | publisher = nntp.perl.org}}</ref> This led to a decision to begin work on a redesign of the language, to be called Perl 6. Proposals for new language features were solicited from the Perl community at large, and more than 300 [[Request for Comments|RFCs]] were submitted.
@@ -255,6 +255,8 @@ In 2005, [[Audrey Tang]] created the [[pugs]] project, an implementation of Perl
 A number of features in the Perl 6 language now show similarities to Haskell. {{Citation needed|date=August 2011}}
 
 As of early 2009, Perl 6 development is primarily centered around Rakudo Perl 6, an implementation running on top of the Parrot virtual machine. Another implementation, Mildew, is also under active development and does not use Parrot.
+
+==Future of Perl 5==
 
 Development of Perl 5 is also continuing. Perl 5.12.0 was released in April 2010 with some new features influenced by the design of Perl 6.<ref name='5120delta' /><ref name='heise2010'>{{cite web | url = http://www.h-online.com/open/news/item/Perl-5-12-0-released-Update-976919.html | title = Perl 5.12.0 released - Update | accessdate = 2011-01-08 | date = 2010-04-13 | publisher = Heise Media UK}}</ref> New maintenance versions are scheduled to be released on a monthly basis, the latest in the 5.12-series, 5.12.4, was released on June 20, 2011. Perl 5.14.1 was released on June 17, 2011
 ==Perl community==
