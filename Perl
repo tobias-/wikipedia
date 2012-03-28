@@ -254,7 +254,7 @@ In 2005, [[Audrey Tang]] created the [[pugs]] project, an implementation of Perl
 
 A number of features in the Perl 6 language now show similarities to Haskell. {{Citation needed|date=August 2011}}
 
-As of early 2009, Perl 6 development is primarily centered around Rakudo Perl 6, an implementation running on top of the Parrot virtual machine. Another implementation, Mildew, is also under active development and does not use Parrot.
+As of 2012, Perl 6 development is primarily centered around two compilers<ref>{{cite web | url = http://perl6.org/compilers/features | title = Feature comparison of Perl 6 compilers }}</ref>, [[Rakudo Perl 6]], an implementation running on top of the Parrot virtual machine, and [[Niecza]], which targets the [[Common Language Runtime]].
 
 ==Future of Perl 5==
 
