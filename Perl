@@ -262,6 +262,8 @@ Development of Perl 5 is also continuing. Perl 5.12.0 was released in April 2010
 
 Future plans for Perl 5 include making the core language easier to extend from modules, and providing a small, extensible [[Meta-object protocol]] in core.<ref>{{cite web | url = http://lwn.net/SubscriberLink/487216/8491ce8b050bfd59/ | date = 2012-03-12 | title = Perl 5.16 and beyond}}</ref>
 
+It should be noted, however, that Perl has seen a very sharp decline in usage over the last 10 years.  It should be considered in legacy status at present.
+
 ==Perl community==
 Perl's culture and community has developed alongside the language itself. [[Usenet]] was the first public venue in which Perl was introduced, but over the course of its evolution, Perl's community was shaped by the growth of broadening Internet-based services including the introduction of the World Wide Web. The community that surrounds Perl was, in fact, the topic of Larry Wall's first "State of the Onion" talk.<ref>{{cite web | url=http://www.wall.org/~larry/keynote/keynote.html | title=Perl Culture (AKA the first State of the Onion) | first=Larry | last=Wall | authorlink=Larry Wall | date=1997-08-20 }}</ref>
 
