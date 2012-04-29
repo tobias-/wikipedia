@@ -10,7 +10,7 @@
 | developer              = Larry Wall
 | latest_release_version = 5.14.2<ref>{{cite web | url = http://www.perl.org/get.html | title = Download Perl | accessdate = 2011-09-30 | publisher = www.perl.org}}</ref>
 | latest_release_date    = {{release date|mf=yes|2011|09|26}}
-| latest preview version = 5.15.4<ref>{{cite web | url = http://search.cpan.org/dist/perl/ | title = Download Perl | accessdate = 2011-09-20 | publisher = search.cpan.org}}</ref>
+| latest preview version = 5.15.9<ref>{{cite web | url = http://www.cpan.org/src/README.html | title = Perl Source | accessdate = 2012-04-29 | publisher = www.cpan.org}}</ref>
 | latest preview date    = {{release date|mf=yes|2011|10|20}}
 | turing-complete        = Yes
 | typing                 = Dynamic
