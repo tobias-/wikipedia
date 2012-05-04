@@ -333,7 +333,7 @@ There are a number of [[Internet Relay Chat|IRC]] channels that offer support fo
 |}
 
 ===CPAN Acme===
-There are also many examples of code written purely for entertainment on the [[CPAN]]. <code>Lingua::Romana::Perligata</code>, for example, allows writing programs in [[Latin]].<ref>{{cite web | url=http://www.csse.monash.edu.au/~damian/papers/HTML/Perligata.html | title=Lingua::Romana::Perligata -- Perl for the XXI-imum Century | author=Conway, Damian }}</ref> Upon execution of such a program, the module translates its source code into regular Perl and runs it.
+There are also many examples of code written purely for entertainment on the [[CPAN]]. <code>Lingua::''Romana''::Perligata</code>, for example, allows writing programs in [[Latin]].<ref>{{cite web | url=http://www.csse.monash.edu.au/~damian/papers/HTML/Perligata.html | title=Lingua::Romana::Perligata -- Perl for the XXI-imum Century | author=Conway, Damian }}</ref> Upon execution of such a program, the module translates its source code into regular Perl and runs it.
 
 The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for modules that are fun in nature (but its scope has widened to include exploratory or experimental code or any other module that is not meant to ever be used in production). Some of the Acme modules are deliberately implemented in amusing ways. This includes <code>Acme::Bleach</code>, one of the first modules in the <code>Acme::</code> namespace,<ref>{{cite web | url=http://use.perl.org/~acme/journal/200 | title=use Perl; Journal of acme | date=2001-05-23 | author=Brocard, Leon | publisher=use Perl}}</ref> which allows the program's source code to be "whitened" (i.e., all characters replaced with whitespace) and yet still work.
 
