@@ -63,7 +63,7 @@ Perl also now supported running under Microsoft Windows and several other operat
 
 Perl 5.005 was released on July 22, 1998.  This release included several enhancements to the [[Regular expression|regex]] engine, new hooks into the backend through the <code>B::*</code> modules, the <code>qr//</code> regex quote operator, a large selection of other new core modules, and added support for several more operating systems, including [[BeOS]].<ref name='5005delta'>{{cite web | url = http://perldoc.perl.org/perl5005delta.html | title = perl5005delta - what's new for perl5.005 | accessdate = 2011-01-21 | work = Perl 5 version 12.2 documentation | publisher = perldoc.perl.org}}</ref>
 
-===2000–present===
+=== 2000–present ===
 
 Perl 5.6 was released on March 22, 2000.  Major changes included 64-bit support, [[Unicode]] string representation, large file support (i.e. files over 2 GiB) and the "our" keyword.<ref name='56delta'>{{cite web | url = http://perldoc.perl.org/perl56delta.html | title = perl56delta - what's new for perl v5.6.0 | accessdate = 2011-01-21 | work = Perl 5 version 12.2 documentation | publisher = perldoc.perl.org}}</ref><ref name='561delta'>{{cite web | url = http://perldoc.perl.org/perl561delta.html | title = perl56delta - what's new for perl v5.6.x | accessdate = 2011-01-21 | work = Perl 5 version 12.2 documentation | publisher = perldoc.perl.org}}</ref>  When developing Perl 5.6, the decision was made to switch the versioning scheme to one more similar to other open source projects; after 5.005_63, the next version became 5.5.640, with plans for development versions to have odd numbers and stable versions to have even numbers.
 
@@ -82,7 +82,7 @@ On April 12, 2010, Perl 5.12.0 was released. Notable core enhancements include n
 
 On May 14, 2011, Perl 5.14 was released, the latest version of that branch, 5.14.2, being released on September 26, 2011.
 
-On May 20, 2012, Perl 5.16 was released. Notable new features include the ability to specify a given version of perl that one wishes to emulate, allowing users to upgrade their version of perl, but still run old scripts that wold normally be incompatible. <ref name='5160delta_version'>{{cite web | url = http://search.cpan.org/~rjbs/perl-5.16.0/pod/perldelta.pod| title = perldelta - what is new for perl v5.16.0 | accessdate = 2012-05-21 | work = Perl 5 version 16.0 documentation | publisher = search.cpan.org}}</ref>. Perl 5.16 also updates the core to support [[Unicode]] 6.1. <ref name="5160delta_version" />
+On May 20, 2012, Perl 5.16 was released. Notable new features include the ability to specify a given version of perl that one wishes to emulate, allowing users to upgrade their version of perl, but still run old scripts that would normally be incompatible.<ref name='5160delta_version'>{{cite web | url = http://search.cpan.org/~rjbs/perl-5.16.0/pod/perldelta.pod| title = perldelta - what is new for perl v5.16.0 | accessdate = 2012-05-21 | work = Perl 5 version 16.0 documentation | publisher = search.cpan.org}}</ref> Perl 5.16 also updates the core to support [[Unicode]] 6.1.<ref name="5160delta_version" />
 
 ===Name===
 
