@@ -10,7 +10,7 @@
 | developer              = Larry Wall
 | latest_release_version = 5.16.0<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl5.porters/2012/05/msg186903.html | title = Perl 5.16.0 is now available | accessdate = 2012-05-21 | publisher = perl.org}}</ref>
 | latest_release_date    = {{release date|mf=yes|2012|05|20}}
-| latest preview version = 5.17.0<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl5.porters/2012/05/msg186908.html | title = Perl 5.17.0 is now available (to work on) | accessdate = 2012-05-21 | publisher = perl.org}}</ref>
+| latest preview version = 5.17.1<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl5.porters/2012/06/msg188354.html | title = Perl 5.17.1 is now available | accessdate = 2012-06-21 | publisher = perl.org}}</ref>
 | latest preview date    = {{release date|mf=yes|2012|05|20}}
 | turing-complete        = Yes
 | typing                 = Dynamic
