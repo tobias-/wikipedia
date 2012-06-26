@@ -48,7 +48,7 @@ Wall continues to oversee further development of Perl and serves as the [[Benevo
 # Larry is allowed to change his mind about any matter at a later date, regardless of whether he previously invoked Rule 1.
 :: Got that? Larry is always right, even when he was wrong.<ref>{{Citation| title=Perl 5.10.0 Documentation&nbsp;– perlhack |url= http://perldoc.perl.org/perlhack.html#DESCRIPTION}}</ref><ref>{{Citation| title=perl 5 porters FAQ| url=http://faq.perl.org/p5pfaq.html#What_is_Rule_1_}}</ref>
 
-==Virtues of a programmer==
+== Virtues of a programmer ==
 In the second edition of ''[[Programming Perl]]'', Wall (along with coauthors [[Randal L. Schwartz]] and Tom Christiansen) outlined the ''Three Virtues of a Programmer'':
 
 # '''[[Laziness]]''' – The quality that makes you go to great effort to reduce overall energy expenditure.  It makes you write labor-saving programs that other people will find useful, and document what you wrote so you don't have to answer so many questions about it. Hence, the first great virtue of a programmer. Also hence, this book. See also impatience and hubris.
