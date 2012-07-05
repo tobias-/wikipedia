@@ -33,13 +33,13 @@ NOTES FOR EDITORS
 * Perl is described as the 'Swiss Army *chainsaw*', not the 'Swiss Army knife' of programming languages. Read the ref.
 
 -->
-'''Perl''' is a [[high-level programming language|high-level]], [[General-purpose programming language|general-purpose]], [[Interpreter (computing)|interpreted]], [[dynamic programming language]]. 
+'''Perl''' is a [[high-level programming language|high-level]], [[General-purpose programming language|general-purpose]], [[Interpreter (computing)|interpreted]], [[dynamic programming language]].
 
-Though Perl is not officially an acronym,<ref>{{cite web|last=Lapworth|first=Leo|title=General Questions About Perl|url=http://learn.perl.org/faq/perlfaq1.html#Whats-the-difference-between-perl-and-Perl-|work=Perl FAQ|publisher=Perl.org|accessdate=24 February 2012}}</ref> there are various [[backronym|backronyms]] in usage, such as: ''Practical [[data extraction|Extraction]] and Reporting Language''.<ref>{{cite web|last=Perl Tutorial.org|title=Introducing to Perl|url=http://www.perltutorial.org/introducing-to-perl.aspx|work=Perl Tutorial|accessdate=24 February 2012}}</ref> Perl was originally developed by [[Larry Wall]] in 1987 as a general-purpose [[Unix]] scripting language to make report processing easier.<ref name='sheppard00'>{{cite web | url = http://www.perl.com/pub/2000/10/begperl1.html | title = Beginner's Introduction to Perl | accessdate = 2011-01-08 | last = Sheppard | first = Doug | date = 2000-10-16 | publisher = dev.perl.org}}</ref> Since then, it has undergone many changes and revisions and become widely popular amongst programmers. Larry Wall continues to oversee development of the core language, and its upcoming version, [[Perl 6]]. Perl borrows features from other programming languages including [[C (programming language)|C]], [[shell script]]ing ([[Bourne shell|sh]]), [[AWK (programming language)|AWK]], and [[sed]].<ref name="perltimeline">{{cite web | url=http://history.perl.org/PerlTimeline.html | title=The Timeline of Perl and its Culture (v3.0_0505) | author=Ashton, Elaine | year=1999}}</ref> The language provides powerful text processing facilities without the arbitrary data length limits of many contemporary Unix tools,<ref name="programmingperl">{{cite book | title=Programming Perl, Third Edition | author=[[Larry Wall|Wall, Larry]], Tom Christiansen and [[Jon Orwant]] | publisher=[[O'Reilly Media]] | month=July | year=2000 | isbn=0-596-00027-8}}</ref> facilitating easy manipulation of [[text file]]s. Perl gained widespread popularity in the late 1990s as a [[Common Gateway Interface|CGI scripting]] language, in part due to its parsing abilities.<ref name='roderick02'>{{cite book | last1 = Smith | first1 = Roderick W. | title = Advanced Linux Networking | publisher = Addison-Wesley Professional | date = 21 Jun 2002 | year = 2002 | page = 594 | accessdate = 2011-01-08 | isbn = 978-0-201-77423-8}}</ref>
+Though Perl is not officially an acronym,<ref>{{cite web|last=Lapworth|first=Leo|title=General Questions About Perl|url=http://learn.perl.org/faq/perlfaq1.html#Whats-the-difference-between-perl-and-Perl-|work=Perl FAQ|publisher=Perl.org|accessdate=24 February 2012}}</ref> there are various [[backronym]]s in usage, such as: ''Practical [[data extraction|Extraction]] and Reporting Language''.<ref>{{cite web|last=Perl Tutorial.org|title=Introducing to Perl|url=http://www.perltutorial.org/introducing-to-perl.aspx|work=Perl Tutorial|accessdate=24 February 2012}}</ref> Perl was originally developed by [[Larry Wall]] in 1987 as a general-purpose [[Unix]] scripting language to make report processing easier.<ref name='sheppard00'>{{cite web | url = http://www.perl.com/pub/2000/10/begperl1.html | title = Beginner's Introduction to Perl | accessdate = 2011-01-08 | last = Sheppard | first = Doug | date = 2000-10-16 | publisher = dev.perl.org}}</ref> Since then, it has undergone many changes and revisions and become widely popular amongst programmers. Larry Wall continues to oversee development of the core language, and its upcoming version, [[Perl 6]]. Perl borrows features from other programming languages including [[C (programming language)|C]], [[shell script]]ing ([[Bourne shell|sh]]), [[AWK (programming language)|AWK]], and [[sed]].<ref name="perltimeline">{{cite web | url=http://history.perl.org/PerlTimeline.html | title=The Timeline of Perl and its Culture (v3.0_0505) | author=Ashton, Elaine | year=1999}}</ref> The language provides powerful text processing facilities without the arbitrary data length limits of many contemporary Unix tools,<ref name="programmingperl">{{cite book | title=Programming Perl, Third Edition | author=[[Larry Wall|Wall, Larry]], Tom Christiansen and [[Jon Orwant]] | publisher=[[O'Reilly Media]] | month=July | year=2000 | isbn=0-596-00027-8}}</ref> facilitating easy manipulation of [[text file]]s. Perl gained widespread popularity in the late 1990s as a [[Common Gateway Interface|CGI scripting]] language, in part due to its parsing abilities.<ref name='roderick02'>{{cite book | last1 = Smith | first1 = Roderick W. | title = Advanced Linux Networking | publisher = Addison-Wesley Professional | date = 21 Jun 2002 | year = 2002 | page = 594 | accessdate = 2011-01-08 | isbn = 978-0-201-77423-8}}</ref>
 
 In addition to CGI, Perl is used for [[Computer graphics (computer science)|graphics programming]], [[System administrator|system administration]], [[computer network programming|network programming]], finance, [[bioinformatics]], and other applications. Perl is nicknamed "the Swiss Army chainsaw <!-- Note to editors. This should read *chainsaw*, not knife. Check the ref -->of scripting languages" because of its flexibility and power.<ref>{{cite web|url=http://www.perl.com/pub/a/2000/10/begperl1.html |title=Beginner's Introduction to Perl |accessdate=2008-07-27 |last=Sheppard |first=Doug |date=2000-10-16 |publisher=[[O'Reilly Media]] }}</ref>  In 1998, it was also referred to as the "duct tape that holds the Internet together", in reference to its ubiquity and perceived inelegance.<ref name='leonard98'>{{cite web | url=http://www.salon.com/1998/10/13/feature_269/ | title = The joy of Perl | accessdate = 2012-06-05 | last = Leonard | first = Andrew | publisher = [[Salon.com]]}}</ref>
 
-==History of PERL==
+==History==
 ===Early versions===
 
 [[Larry Wall]] began work on Perl in 1987, while working as a programmer at [[Unisys]],<ref name='programmingperl'/> and released version 1.0 to the comp.sources.misc [[newsgroup]] on December 18, 1987.<ref>{{cite web |url= http://groups.google.com/group/comp.sources.unix/tree/browse_frm/month/1988-02?_done=%2Fgroup%2Fcomp.sources.unix%2Fbrowse_frm%2Fmonth%2F1988-02%3F& |title= comp.sources.unix |accessdate= 2011-01-13 |date= 1988-02-01 |work= Google Groups |publisher= [[Google]]}}</ref> The language expanded rapidly over the next few years.
@@ -63,7 +63,7 @@ Perl also now supported running under Microsoft Windows and several other operat
 
 Perl 5.005 was released on July 22, 1998.  This release included several enhancements to the [[Regular expression|regex]] engine, new hooks into the backend through the <code>B::*</code> modules, the <code>qr//</code> regex quote operator, a large selection of other new core modules, and added support for several more operating systems, including [[BeOS]].<ref name='5005delta'>{{cite web | url = http://perldoc.perl.org/perl5005delta.html | title = perl5005delta - what's new for perl5.005 | accessdate = 2011-01-21 | work = Perl 5 version 12.2 documentation | publisher = perldoc.perl.org}}</ref>
 
-=== 2000–present ===
+===2000–present===
 
 Perl 5.6 was released on March 22, 2000.  Major changes included 64-bit support, [[Unicode]] string representation, large file support (i.e. files over 2 GiB) and the "our" keyword.<ref name='56delta'>{{cite web | url = http://perldoc.perl.org/perl56delta.html | title = perl56delta - what's new for perl v5.6.0 | accessdate = 2011-01-21 | work = Perl 5 version 12.2 documentation | publisher = perldoc.perl.org}}</ref><ref name='561delta'>{{cite web | url = http://perldoc.perl.org/perl561delta.html | title = perl56delta - what's new for perl v5.6.x | accessdate = 2011-01-21 | work = Perl 5 version 12.2 documentation | publisher = perldoc.perl.org}}</ref>  When developing Perl 5.6, the decision was made to switch the versioning scheme to one more similar to other open source projects; after 5.005_63, the next version became 5.5.640, with plans for development versions to have odd numbers and stable versions to have even numbers.
 
@@ -267,13 +267,13 @@ The relative proportion of searches for 'Perl programming', as compared with sim
 | title=TIOBE Programming Community Index Perl
 | author=TIOBE Software Index
 | year=2012
-| url=http://www.tiobe.com/index.php/paperinfo/tpci/Perl.html 
+| url=http://www.tiobe.com/index.php/paperinfo/tpci/Perl.html
 | accessdate=2012-04-27}}</ref>
 However, according to this same source, Perl has been one of the top ten most popular programming languages since records began in 2001.<ref>{{cite web
 | title=TIOBE Programming Community Index Perl
 | author=TIOBE Software Index
 | year=2012
-| url=http://www.tiobe.com/index.php/paperinfo/tpci/Perl.html 
+| url=http://www.tiobe.com/index.php/paperinfo/tpci/Perl.html
 | accessdate=2012-04-30}}</ref>
 
 ==Perl community==
@@ -355,7 +355,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 * [http://onyxneon.com/books/modern_perl/ Modern Perl] 2nd Edition (2012), Onyx Neon. Describes [[Modern Perl]] programming techniques.
 * [http://shop.oreilly.com/product/9780596004927.do Programming Perl] 4th Edition (2012), O'Reilly. The definitive Perl reference.
 * [http://www.pearsonhighered.com/educator/product/Effective-Perl-Programming-Ways-to-Write-Better-More-Idiomatic-Perl-2E/9780321496942.page Effective Perl Programming] 2nd Edition (2010), Addison-Wesley. Intermediate- to advanced-level guide to writing idiomatic Perl.
-* ''[[Perl Cookbook]]'', ISBN 0-596-00313-7. Practical Perl programming examples. 
+* ''[[Perl Cookbook]]'', ISBN 0-596-00313-7. Practical Perl programming examples.
 * {{cite book|last=Dominus|first=Mark Jason|title=Higher Order Perl|url=http://hop.perl.plover.com/book/|year=2005|publisher=Morgan Kaufmann|isbn=1-55860-701-3}} Functional programming techniques in Perl.
 
 ==External links==
@@ -398,7 +398,6 @@ See [[http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.
 [[Category:Cross-platform software]]
 [[Category:American inventions]]
 [[Category:Programming languages created in 1987]]
-[[Category:Programming languages created in the 1980s]]
 [[Category:High-level programming languages]]
 
 {{Link GA|de}}
