@@ -399,6 +399,7 @@ See [[http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.
 [[Category:American inventions]]
 [[Category:Programming languages created in 1987]]
 [[Category:High-level programming languages]]
+[[Category:Software using the Artistic license]]
 
 {{Link GA|de}}
 
