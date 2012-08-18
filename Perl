@@ -351,7 +351,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 * [[Plain Old Documentation]]
 
 ==References==
-{{Reflist|2}}
+{{Reflist|3}}
 
 ==Further reading==
 * [http://shop.oreilly.com/product/0636920018452.do Learning Perl] 6th Edition (2011), O'Reilly. Beginner-level introduction to Perl.
