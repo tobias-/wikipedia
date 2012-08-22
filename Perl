@@ -356,6 +356,7 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 * [http://shop.oreilly.com/product/0636920018452.do Learning Perl] 6th Edition (2011), O'Reilly. Beginner-level introduction to Perl.
 * [http://onyxneon.com/books/modern_perl/ Modern Perl] 2nd Edition (2012), Onyx Neon. Describes [[Modern Perl]] programming techniques.
 * [http://shop.oreilly.com/product/9780596004927.do Programming Perl] 4th Edition (2012), O'Reilly. The definitive Perl reference.
+* [http://perlindia.wordpress.com] Basics of Perl Scripting Language
 * [http://www.pearsonhighered.com/educator/product/Effective-Perl-Programming-Ways-to-Write-Better-More-Idiomatic-Perl-2E/9780321496942.page Effective Perl Programming] 2nd Edition (2010), Addison-Wesley. Intermediate- to advanced-level guide to writing idiomatic Perl.
 * ''[[Perl Cookbook]]'', ISBN 0-596-00313-7. Practical Perl programming examples.
 * {{cite book|last=Dominus|first=Mark Jason|title=Higher Order Perl|url=http://hop.perl.plover.com/book/|year=2005|publisher=Morgan Kaufmann|isbn=1-55860-701-3}} Functional programming techniques in Perl.
