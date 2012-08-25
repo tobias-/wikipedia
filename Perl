@@ -33,7 +33,7 @@ NOTES FOR EDITORS
 * Perl is described as the 'Swiss Army *chainsaw*', not the 'Swiss Army knife' of programming languages. Read the ref.
 
 -->
-'''Perl''' is a [[high-level programming language|high-level]], [[General-purpose programming language|general-purpose]], [[Interpreter (computing)|interpreted]], [[dynamic programming language]].
+'''Perl''' is a dead, [[high-level programming language|high-level]], [[General-purpose programming language|general-purpose]], [[Interpreter (computing)|interpreted]], [[dynamic programming language]].
 
 Though Perl is not officially an acronym,<ref>{{cite web|last=Lapworth|first=Leo|title=General Questions About Perl|url=http://learn.perl.org/faq/perlfaq1.html#Whats-the-difference-between-perl-and-Perl-|work=Perl FAQ|publisher=Perl.org|accessdate=24 February 2012}}</ref> there are various [[backronym]]s in usage, such as: ''Practical [[data extraction|Extraction]] and Reporting Language''.<ref>{{cite web|last=Perl Tutorial.org|title=Introducing to Perl|url=http://www.perltutorial.org/introducing-to-perl.aspx|work=Perl Tutorial|accessdate=24 February 2012}}</ref> Perl was originally developed by [[Larry Wall]] in 1987 as a general-purpose [[Unix]] scripting language to make report processing easier.<ref name='sheppard00'>{{cite web | url = http://www.perl.com/pub/2000/10/begperl1.html | title = Beginner's Introduction to Perl | accessdate = 2011-01-08 | last = Sheppard | first = Doug | date = 2000-10-16 | publisher = dev.perl.org}}</ref> Since then, it has undergone many changes and revisions and become widely popular amongst programmers. 
 
