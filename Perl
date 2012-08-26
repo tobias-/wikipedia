@@ -282,7 +282,7 @@ However, according to this same source, Perl has been one of the top ten most po
 Perl's culture and community has developed alongside the language itself. [[Usenet]] was the first public venue in which Perl was introduced, but over the course of its evolution, Perl's community was shaped by the growth of broadening Internet-based services including the introduction of the World Wide Web. The community that surrounds Perl was, in fact, the topic of Larry Wall's first "State of the Onion" talk.<ref>{{cite web | url=http://www.wall.org/~larry/keynote/keynote.html | title=Perl Culture (AKA the first State of the Onion) | first=Larry | last=Wall | authorlink=Larry Wall | date=1997-08-20 }}</ref>
 
 ===State of the Onion===
-State of the Onion is the name for Larry Wall’s yearly [[keynote]]-style summaries on the progress of Perl and its community.  They are characterized by his hallmark humor, employing references to Perl’s culture, the wider hacker culture, Wall’s linguistic background, sometimes his family life, and occasionally even his [[Christian]] background.
+State of the Onion is the name for Larry Wall’s yearly [[keynote]]-style summaries on the progress of Perl and its community.  They are characterized by his hallmark humor, employing references to Perl’s culture, the wider hacker culture, Wall’s linguistic background, sometimes his family life, and occasionally even his [[Christian]] background.{{fact}}
 
 Each talk is first given at various Perl conferences and is eventually also published online.
 
