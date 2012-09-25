@@ -404,6 +404,7 @@ See [[http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.
 [[Category:Software using the Artistic license]]
 
 {{Link GA|de}}
+
 [[als:Perl]]
 [[ar:بيرل]]
 [[az:Perl]]
@@ -442,7 +443,7 @@ See [[http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.
 [[hu:Perl (programozási nyelv)]]
 [[mk:Perl]]
 [[ml:പേള്‍]]
-[[mr:पर्ल (संगणकभाषा)]]
+[[mr:पर्ल (आज्ञावली भाषा)]]
 [[ms:Perl]]
 [[my:Perl]]
 [[nl:Perl (programmeertaal)]]
