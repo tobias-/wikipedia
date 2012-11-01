@@ -472,6 +472,7 @@ See [[http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.
 [[my:Perl]]
 [[nl:Perl (programmeertaal)]]
 [[ja:Perl]]
+[[kk:Perl (бағдарламалау тілі)]]
 [[no:Perl]]
 [[nn:Perl]]
 [[pl:Perl]]
