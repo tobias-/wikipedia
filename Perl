@@ -8,8 +8,8 @@
 | year                   = 1987
 | designer               = [[Larry Wall]]
 | developer              = Larry Wall
-| latest_release_version = 5.16.1<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl5.porters/2012/08/msg190414.html | title = Perl 5.16.1 is now available | accessdate = 2012-08-08 | publisher = perl.org}}</ref>
-| latest_release_date    = {{release date|mf=yes|2012|08|08}}
+| latest_release_version = 5.16.2<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl5.porters/2012/11/msg194915.html | title = Perl 5.16.2 is now available | accessdate = 2012-11-01 | publisher = perl.org}}</ref>
+| latest_release_date    = {{release date|mf=yes|2012|11|01}}
 | latest preview version = 5.17.5<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl5.porters/2012/10/msg194349.html | title = Perl 5.17.5 is now available | accessdate = 2012-10-21 | publisher = perl.org}}</ref>
 | latest preview date    = {{release date|mf=yes|2012|10|20}}
 | turing-complete        = Yes
