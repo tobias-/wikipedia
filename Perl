@@ -364,6 +364,60 @@ There are also many examples of code written purely for entertainment on the [[C
 
 The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for modules that are fun in nature (but its scope has widened to include exploratory or experimental code or any other module that is not meant to ever be used in production). Some of the Acme modules are deliberately implemented in amusing ways. This includes <code>Acme::Bleach</code>, one of the first modules in the <code>Acme::</code> namespace,<ref>{{cite web | url=http://use.perl.org/~acme/journal/200 | title=use Perl; Journal of acme | date=2001-05-23 | author=Brocard, Leon | publisher=use Perl}}</ref> which allows the program's source code to be "whitened" (i.e., all characters replaced with whitespace) and yet still work.
 
+==Example Code==
+
+In older versions of Perl, one would write the [[Hello World]] program as:
+
+    print "Hello World!\n";
+
+In later versions, which support the say statement, one can also write it as:
+
+    use 5.010;
+    say "Hello World!";
+
+Good Perl practices require more complex programs to add the <tt>use strict;</tt> and <tt>use warnings;</tt> pragmas, leading into something like:
+
+    use strict;
+    use warnings;
+    
+    print "Hello World!\n";
+
+Here is a more complex Perl program, that counts down the seconds up to a given threshold:
+
+    #!/usr/bin/perl
+    
+    use strict;
+    use warnings;
+    
+    use Time::HiRes qw(sleep time);
+    use POSIX qw();
+    use IO::Handle;
+    
+    my $delay = shift(@ARGV);
+    
+    STDOUT->autoflush(1);
+    {
+        my $start = time();
+        my $end = $start + $delay;
+    
+        my $last_printed;
+        while ((my $t = time()) < $end)
+        {
+            my $new_to_print = POSIX::floor($end - $t);
+            if (!defined($last_printed) or $new_to_print != $last_printed)
+            {
+                $last_printed = $new_to_print;
+                print "Remaining $new_to_print/$delay", ' ' x 40, "\r";
+            }
+            sleep(0.1);
+        }
+    }
+    print "\n";
+
+The perl interpreter can also be used for one-off scripts on the command line. The following example as invoked from an sh-compatible shell such as Bash translates the string "Bob" in all files ending with .txt in the current directory to "Robert":
+
+     $ perl -i.bak -lp -e 's/Bob/Robert/g' *.txt
+
 ==See also==
 {{Portal|Free software|Computer programming}}
 
