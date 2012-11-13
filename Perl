@@ -383,7 +383,7 @@ Good Perl practices require more complex programs to add the <tt>use strict;</tt
     print "Hello World!\n";
 
 Here is a more complex Perl program, that counts down the seconds up to a given threshold:
-<src lang="perl">
+
     #!/usr/bin/perl
     
     use strict;
@@ -413,7 +413,7 @@ Here is a more complex Perl program, that counts down the seconds up to a given 
         }
     }
     print "\n";
-</src>
+
 The perl interpreter can also be used for one-off scripts on the command line. The following example as invoked from an sh-compatible shell such as Bash translates the string "Bob" in all files ending with .txt in the current directory to "Robert":
 
      $ perl -i.bak -lp -e 's/Bob/Robert/g' *.txt
