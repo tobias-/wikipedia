@@ -20,7 +20,7 @@
 | operating_system       = [[Cross-platform]]
 | license                = [[GNU General Public License]] or [[Artistic License]]<ref name='licensing'>{{cite web | url = http://dev.perl.org/licenses | title = Perl Licensing | accessdate = 2011-01-08 | publisher = dev.perl.org}}</ref>
 | website                = {{url|http://www.perl.org}}
-| file_ext               = .pl .pm .t
+| file_ext               = .pl .pm .t .pod
 | wikibooks              = Perl Programming
 }}
 
