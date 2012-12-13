@@ -493,11 +493,13 @@ See [[http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.
 [[Category:Software using the Artistic license]]
 
 {{Link GA|de}}
+
 [[als:Perl]]
 [[ar:بيرل]]
 [[az:Perl]]
 [[bn:পার্ল (প্রোগ্রামিং ভাষা)]]
 [[zh-min-nan:Perl]]
+[[be:Perl]]
 [[bg:Пърл (език за програмиране)]]
 [[bs:Perl]]
 [[ca:Perl]]
