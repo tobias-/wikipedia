@@ -1,4 +1,3 @@
-Hello World
 {{about|the programming language}}
 {{good article}}
 {{Infobox programming language
