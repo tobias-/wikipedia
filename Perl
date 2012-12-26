@@ -431,7 +431,6 @@ The perl interpreter can also be used for one-off scripts on the command line. T
 ==See also==
 {{Portal|Free software|Computer programming}}
 
-* [http://www.ignitemindz.com/index.php/perl-programming-training-courses-online-classes-institutes-scripting-in-chennai Perl Training with full hands on]. Learning Materials and CD will be provided.
 * [[Outline of Perl]]
 * [[Perl language structure]]
 * [[Perl Data Language]]
