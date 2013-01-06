@@ -391,35 +391,22 @@ Good Perl practices require more complex programs to add the <tt>use strict;</tt
 Here is a more complex Perl program, that counts down the seconds up to a given threshold:
 
 <source lang="perl">
-    #!/usr/bin/perl
-    
-    use strict;
-    use warnings;
-    
-    use Time::HiRes qw(sleep time);
-    use POSIX qw();
-    use IO::Handle;
-    
-    my $delay = shift(@ARGV);
-    
-    STDOUT->autoflush(1);
-    {
-        my $start = time();
-        my $end = $start + $delay;
-    
-        my $last_printed;
-        while ((my $t = time()) < $end)
-        {
-            my $new_to_print = POSIX::floor($end - $t);
-            if (!defined($last_printed) or $new_to_print != $last_printed)
-            {
-                $last_printed = $new_to_print;
-                print "Remaining $new_to_print/$delay", ' ' x 40, "\r";
-            }
-            sleep(0.1);
-        }
-    }
-    print "\n";
+	#!/usr/bin/perl
+	use strict;
+	use warnings;
+
+	my ( $remaining, $total );
+
+	$remaining = $total = shift(@ARGV);
+
+	STDOUT->autoflush(1);
+
+	while ( $remaining ) {
+		printf ( "Remaining %s/%s \r", $remaining--, $total );
+		sleep 1;
+	}
+
+	print "\n";
 </source>
 
 The perl interpreter can also be used for one-off scripts on the command line. The following example as invoked from an sh-compatible shell such as Bash translates the string "Bob" in all files ending with .txt in the current directory to "Robert":
