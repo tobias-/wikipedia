@@ -458,7 +458,7 @@ The perl interpreter can also be used for one-off scripts on the command line. T
 * [http://www.perlmonks.org/ PerlMonks] A community committed to sharing Perl knowledge and coding tips
 
 <!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first! 
-See [[http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.27_external_links]]
+See [http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.27_external_links]
 -->
 {{Perl}}
 {{FOSS}}
@@ -480,7 +480,6 @@ See [[http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.
 [[Category:Software using the Artistic license]]
 
 {{Link GA|de}}
-
 [[als:Perl]]
 [[ar:بيرل]]
 [[az:Perl]]
