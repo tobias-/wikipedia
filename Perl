@@ -116,10 +116,6 @@ O'Reilly owns the image as a trademark but licenses it for non-commercial use, r
 
 ==Overview==
 {{Main|Perl language structure}}
-Perl is a general-purpose programming language originally developed for text manipulation, but {{as of | 2010 | lc = on}} is used for a wide range of tasks including [[system administration]], [[web development]], [[Computer network programming|network programming]], games, [[bioinformatics]], and [[GUI]] development.
-
-The language is intended to be practical (easy to use, efficient, complete) rather than beautiful (tiny, elegant, minimal).<ref>{{cite web | url = http://perldoc.perl.org/perlintro.html | title = perlintro -- a brief introduction and overview of Perl | accessdate = 2011-01-10 | last = Kirrily | first = Robert | work = Perl 5 version 12.2 documentation | publisher = perldoc.perl.org}}</ref> Its major features include support for multiple [[programming paradigm]]s ([[procedural programming language|procedural]], [[Object-oriented programming|object-oriented]], and [[functional programming|functional]] styles), [[reference counting]] [[memory management]] (without a cycle-detecting garbage collector), built-in support for text processing, and a large collection of third-party [[Module (programming)|modules]].
-
 According to Wall, Perl has two slogans. The first is "[[There's more than one way to do it]]", commonly known as TMTOWTDI. The second slogan is "Easy things should be easy and hard things should be possible".<ref name='programmingperl'/>
 
 ===Features===
