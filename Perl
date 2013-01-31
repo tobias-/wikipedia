@@ -474,7 +474,6 @@ See [http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.2
 [[Category:Programming languages created in 1987]]
 [[Category:High-level programming languages]]
 [[Category:Software using the Artistic license]]
-[[Category:Programming languages]]
 
 {{Link GA|de}}
 [[als:Perl]]
