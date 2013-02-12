@@ -151,9 +151,7 @@ There is a broad practical bent to both the Perl language and the community and 
 
 No written specification or standard for the Perl language exists for Perl versions through Perl 5, and there are no plans to create one for the current version of Perl. There has been only one implementation of the interpreter, and the language has evolved along with it. That interpreter, together with its functional tests, stands as a ''de facto'' specification of the language.  [[Perl 6]], however, started with a specification,<ref>{{cite web | url = http://www.perl6.org/specification | title = Perl 6 Specification | accessdate = 2011-01-27 | publisher = The Perl 6 Project}}</ref> and several projects<ref>{{cite web | url = http://www.perl6.org/compilers/ | title = Perl 6 Compilers | accessdate = 2011-01-27 | publisher = The Perl 6 Project}}</ref> aim to implement some or all of the specification.
 
-'''''this program mede by mr. jitendra rakak student of the govt.t.r.s.collage rewa(m.p.) 
-                         on 11-02-2013''''' 
- if  will you see any mistake so can improve this program 
+
 
 #!/usr/bin/perl
 print "Enter Your protein sequence: ";
