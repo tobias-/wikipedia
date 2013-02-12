@@ -151,6 +151,148 @@ There is a broad practical bent to both the Perl language and the community and 
 
 No written specification or standard for the Perl language exists for Perl versions through Perl 5, and there are no plans to create one for the current version of Perl. There has been only one implementation of the interpreter, and the language has evolved along with it. That interpreter, together with its functional tests, stands as a ''de facto'' specification of the language.  [[Perl 6]], however, started with a specification,<ref>{{cite web | url = http://www.perl6.org/specification | title = Perl 6 Specification | accessdate = 2011-01-27 | publisher = The Perl 6 Project}}</ref> and several projects<ref>{{cite web | url = http://www.perl6.org/compilers/ | title = Perl 6 Compilers | accessdate = 2011-01-27 | publisher = The Perl 6 Project}}</ref> aim to implement some or all of the specification.
 
+
+
+#!/usr/bin/perl
+print "Enter Your protein sequence: ";
+chomp ($seq=<>);
+	$seq= uc ($seq);
+	$l= length ($seq);
+		print "$l\n";
+	$final= reverse ($seq);
+print "$final\n";
+$alanine=0;
+$arginine=0;
+$asparagine=0;
+$asparticacid=0;
+$cysteine=0;
+$glitamine=0;
+$glutamicacid=0;
+$glycine=0;
+$histidine=0;
+$isolucine=0;
+$leucine=0;
+$lysine=0;
+$methionine=0;
+$phenylalanine=0;
+$proline=0;
+$serine=0;
+$threonine=0;
+$tryptophan=0;
+$tyrosine=0;
+$valine=0;
+
+			for($times=$l; $times>= 1;$times--)
+			{
+				$char= chop ($final);
+					if ($char eq 'A')
+					{
+					$alanine=$alanine+89.094;
+					}
+				elsif ($char eq 'R')
+					{
+					$arginine=$arginine+174.2028;
+					}
+                                 elsif ($char eq 'N')
+					{
+					$asparagine=$asparagine+132.1191;
+					}
+				elsif ($char eq 'D')
+					{
+					$asparticacid=$asparticacid+133.1038;
+					}
+				elsif ($char eq 'C')
+					{
+					$cysteine=$cysteine+121.16;
+					}
+				elsif ($char eq 'Q')
+					{
+					$glutamine=$glutamine+146.146;
+					}
+				elsif ($char eq 'E')
+					{
+					$glutamicacid=$glutamicacid+147.1307;
+					}
+				elsif ($char eq 'G')
+						{
+					$glycine=$glycine+75.0672;
+					}
+                                elsif ($char eq 'H')
+					{
+					$histidine=$histidine+155.1564;
+					}
+				elsif ($char eq 'I')
+					{
+					$isoleucine=$isoleucine+131.1747;
+					}
+				elsif ($char eq 'L')
+					{
+					$leucine=$leucine+131.1747;
+					}
+				elsif ($char eq 'k')
+					{
+					$lysine=$lysine+146.1894;
+					}
+				elsif ($char eq 'M')
+					{
+					$methionine=$methionine+149.2138;
+					}
+				elsif ($char eq 'F')
+					{
+					$phenylalamine=$phenylalamine+165.1918;
+					}
+				elsif ($char eq 'p')
+					{
+					$proline=$proline+115.1319;
+					}
+				elsif ($char eq 'S')
+					{
+					$serine=$serine+105.0934;
+					}
+				elsif ($char eq 'T')
+					{
+					$threonine=$threonine+119.1203;
+					}
+				elsif ($char eq 'W')
+					{
+					$tryptophan=$tryptophan+204.2285;
+					}
+
+				elsif ($char eq 'Y')
+					{
+					$tyrosine=$tyrosine+181.1912;
+					}
+				elsif ($char eq 'V')
+					{
+					$valine=$valine+117.1478;
+					}
+				print "Last Amino Acid is : $char\n";
+			}
+
+print "Total no of Alanine present in input sequence is: $alanine\n";
+print "Total no of arginine present in input sequence is: $arginine\n";
+print "Total no of asparagine present in input sequence is: $asparagine\n";
+print "Total no of asparticacid present in input sequence is: $asparticacid\n";
+print "Total no of cysteine present in input sequence is: $cysteine\n";
+print "Total no of glutamine present in input sequence is: $glutamine\n";
+print "Total no of glutamicacid present in input sequence is: $glutamicacid\n";
+print "Total no of glycicine present in input sequence is: $glycicine\n";
+print "Total no of histidine present in input sequence is: $histidine\n";
+print "Total no of isoleucine present in input sequence is: $isoleucine\n";
+print "Total no of leucine present in input sequence is: $leucine\n";
+print "Total no of lysine present in input sequence is: $lysine\n";
+print "Total no of methionine present in input sequence is: $methionine\n";
+print "Total no of phenylalanine present in input sequence is: $phenylalanine\n";
+print "Total no of proline present in input sequence is: $proline\n";
+print "Total no of Serine present in input sequence is: $serine\n";
+print "Total no of threonine present in input sequence is: $threonine\n";
+print "Total no of tryptophan present in input sequence is: $tryptophan\n";
+print "Total no of tyrosine present in input sequence is: $tyrosine\n";
+print "Total no of valine present in input sequence is: $valine\n";
+
+  $total = $alanine+$arginine+ $asparagine+$asparticacid+$cysteine+$glutamine+$glutamicacid+$glycicine+$histidine+$isoleucine+$leucine+$lysine+$methionine+$phenylalanine+$proline+$serine+$threonine+$tryptophan+$tyrosine+$valine;
+ print "The total number of proteins sequence present in input sequence is:  $total doltan\n";
+
 ===Applications===
 Perl has many and varied applications, compounded by the availability of many standard and third-party modules.
 
