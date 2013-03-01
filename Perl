@@ -267,7 +267,7 @@ In 2005, [[Audrey Tang]] created the [[pugs]] project, an implementation of Perl
 {{As of | 2012}} a number of features in the Perl 6 language show similarities to Haskell. {{Citation needed|date=August 2011}}
 
 {{As of | 2012}} Perl 6 development centers primarily around two compilers:<ref>{{cite web | url = http://perl6.org/compilers/features | title = Feature comparison of Perl 6 compilers }}</ref>
-# [[Rakudo Perl 6]], an implementation running on top of the Parrot virtual machine
+# [[Rakudo Perl 6]], an implementation running the Parrot virtual machine, with development efforts to also target the [[Java virtual machine]].<ref>{{cite web | url = http://6guts.wordpress.com/2013/02/17/nqp-on-jvm-gets-grammars-multiple-dispatch/ | title = 'NQP on JVM gets Grammars, Multiple Dispatch' | accessdate = 2013-03-01 }}</ref>
 # [[Niecza]], which targets the [[Common Language Runtime]]
 
 ==Future of Perl 5==
