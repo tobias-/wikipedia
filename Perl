@@ -468,5 +468,4 @@ See [http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.2
 [[Category:Software using the Artistic license]]
 
 {{Link GA|de}}
-[[be:Perl]]
 [[ml:പേള്‍]]
