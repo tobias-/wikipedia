@@ -405,6 +405,25 @@ The perl interpreter can also be used for one-off scripts on the command line. T
      $ perl -i.bak -lp -e 's/Bob/Robert/g' *.txt
 </source>
 
+==Criticism==
+Perl has received a wide range of criticism from people like [[Erik Naggum]], the most well known is that Perl code is hard to read when compared to other languages like [[Python language]]. This has become the subject of many jokes.
+<ref>{{cite web
+ |url=http://nadh.in/docs/geek_jokes/
+ |title=A collection of Funny Geek quotes / Computer jokes
+ |author= Kailash Nadh |date=October 2005
+ |quote=Perl, the only language that looks the same before and after RSA encryption
+}}</ref>
+<ref>{{cite web
+ |url=http://rkd.zgib.net/3132/c0037.html
+ |title=3132 - Perl
+ |author= Richard K Darst |date=August 2006
+}}</ref>
+<ref>{{cite web
+ |url=http://www.zoitz.com/archives/13
+ |title=The truth about Perl
+ |author= zoitz |date=May 2007
+}}</ref>
+
 ==See also==
 {{Portal|Free software|Computer programming}}
 
