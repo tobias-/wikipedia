@@ -24,15 +24,6 @@
 | wikibooks              = Perl Programming
 }}
 
-<!--
-
-NOTES FOR EDITORS
-
-* "Perl" is not an acronym (read the "Name" section below). Do not put that here.
-* [[mod_perl]] is a correct link. Do not remove the underscore wherever you see it.
-* Perl is described as the 'Swiss Army *chainsaw*', not the 'Swiss Army knife' of programming languages. Read the ref.
-
--->
 '''Perl''' is a family of [[high-level programming language|high-level]], [[General-purpose programming language|general-purpose]], [[Interpreter (computing)|interpreted]], [[dynamic programming language]]s. The languages in this family include Perl 5 and Perl 6.<ref>{{cite web | url = http://www.perl.org/about.html | title = About Perl | accessdate = 2013-04-20 | publisher = perl.org | quote = "Perl" is a family of languages, "Perl 6" is part of the family, but it is a separate language which has its own development team. Its existence has no significant impact on the continuing development of "Perl 5".}}</ref>
 
 Though Perl is not officially an acronym,<ref>{{cite web|last=Lapworth|first=Leo|title=General Questions About Perl|url=http://learn.perl.org/faq/perlfaq1.html#Whats-the-difference-between-perl-and-Perl-|work=Perl FAQ|publisher=Perl.org|accessdate=24 February 2012}}</ref> there are various [[backronym]]s in use, such as: ''Practical [[data extraction|Extraction]] and Reporting Language''.<ref>{{cite web|title=perl(1): Practical Extraction/Report Language - Linux man page|url=http://linux.die.net/man/1/perl}}</ref> Perl was originally developed by [[Larry Wall]] in 1987 as a general-purpose [[Unix]] scripting language to make report processing easier.<ref name='sheppard00'>{{cite web | url = http://www.perl.com/pub/2000/10/begperl1.html | title = Beginner's Introduction to Perl | accessdate = 2011-01-08 | last = Sheppard | first = Doug | date = 2000-10-16 | publisher = dev.perl.org}}</ref> Since then, it has undergone many changes and revisions. The latest major stable revision of Perl 5 is 5.18, released in May 2013. [[Perl 6]], which began as a redesign of Perl 5 in 2000, eventually evolved into a separate language. Both languages continue to be developed independently by different development teams and liberally borrow ideas from one another.
@@ -77,7 +68,7 @@ Perl 5.6 was released on March 22, 2000.  Major changes included [[64-bit comput
 
 In 2000, Wall put forth a call for suggestions for a new version of Perl from the community.  The process resulted in 361 RFC (request for comments) documents which were to be used in guiding development of Perl 6.  In 2001,<ref>{{cite web | url = http://dev.perl.org/perl6/doc/design/apo/A01.html | title = Apocalypse 1: The Ugly, the Bad, and the Good | accessdate = 2011-01-08 | last = Wall | first = Larry}}</ref> work began on the apocalypses for [[Perl 6]], a series of documents meant to summarize the change requests and present the design of the next generation of Perl.  They were presented as a digest of the RFCs, rather than a formal document.  At this point, Perl 6 existed only as a description of a language.
 
-Perl 5.8 was first released on July 18, 2002, and had nearly yearly updates since then.  The latest version of Perl 5.8 is 5.8.9, released December 14, 2008.  Perl 5.8 improved unicode support, added a new IO implementation, added a new thread implementation, improved numeric accuracy, and added several new modules.<ref name='perl58delta'>{{cite web | url = http://perldoc.perl.org/perl58delta.html | title = perl58delta - what is new for perl v5.8.0 | accessdate = 2011-01-21 | work = Perl 5 version 12.2 documentation | publisher = perldoc.perl.org}}</ref> As of 2013 this version is still remains the most popular version of Perl and is used by Red Hat 5, Suse 10, Solaris 10, HP-UX 11.33 and AIX 5. 
+Perl 5.8 was first released on July 18, 2002, and had nearly yearly updates since then.  The latest version of Perl 5.8 is 5.8.9, released December 14, 2008.  Perl 5.8 improved unicode support, added a new IO implementation, added a new thread implementation, improved numeric accuracy, and added several new modules.<ref name='perl58delta'>{{cite web | url = http://perldoc.perl.org/perl58delta.html | title = perl58delta - what is new for perl v5.8.0 | accessdate = 2011-01-21 | work = Perl 5 version 12.2 documentation | publisher = perldoc.perl.org}}</ref> As of 2013 this version is still remains the most popular version of Perl and is used by Red Hat 5, Suse 10, Solaris 10, HP-UX 11.33 and AIX 5.
 
 In 2004, work began on the Synopses – originally documents that summarized the Apocalypses, but which became the specification for the Perl 6 language.  In February 2005, [[Audrey Tang]] began work on [[Pugs]], a Perl 6 interpreter written in [[Haskell (programming language)|Haskell]].<ref>{{cite web |url=http://www.perl.com/pub/a/2005/03/03/pugs_interview.html |title=A Plan for Pugs|date=2005-03-03 |publisher=[[O'Reilly Media]] |accessdate=2011-01-27}}</ref>  This was the first concerted effort towards making Perl 6 a reality.  This effort stalled in 2006.<ref>{{cite web | url = http://www.perlmonks.org/?node_id=835936 | title = Re: How to Implement Perl 6 in Ten Years | accessdate = 2011-01-03 | last = Tang | first = Audrey | date = 2010-04-21 | publisher = [[PerlMonks]]}}</ref>
 
@@ -373,7 +364,7 @@ Good Perl practices require more complex programs to add the <tt>use strict;</tt
 <source lang="perl">
     use strict;
     use warnings;
-    
+
     print "Hello World!\n";
 </source>
 
@@ -447,7 +438,7 @@ The perl interpreter can also be used for one-off scripts on the command line. T
 * [http://www.perlfoundation.org/ The Perl Foundation]
 * [http://www.perlmonks.org/ PerlMonks] A community committed to sharing Perl knowledge and coding tips
 
-<!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first! 
+<!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first!
 See [http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.27_external_links]
 -->
 {{Perl}}
