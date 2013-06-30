@@ -396,6 +396,14 @@ The perl interpreter can also be used for one-off scripts on the command line. T
      $ perl -i.bak -lp -e 's/Bob/Robert/g' *.txt
 </source>
 
+==Criticism==
+Perl has received a wide range of criticism from people like [[Erik Naggum]].<ref>{{cite web
+|url=http://www.schnada.de/grapt/eriknaggum-perlrant.html
+|title=Perl rant by Erik Naggum
+|author= Erik Naggum
+|date=28-March-2000
+}}</ref>
+
 ==See also==
 {{Portal|Free software|Computer programming}}
 
