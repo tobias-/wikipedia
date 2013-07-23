@@ -10,7 +10,7 @@
 | developer              = Larry Wall
 | latest_release_version = 5.18.0<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl5.porters/2013/05/msg201940.html | title = Perl 5.18.0 is now available | accessdate = 2013-05-18 | publisher = perl.org}}</ref>
 | latest_release_date    = {{release date|mf=yes|2013|05|18}}
-| latest preview version = 5.19.1<ref>http://search.cpan.org/~dagolden/perl-5.19.1/</ref>
+| latest preview version = 5.19.1<ref>{{cite web|url=http://search.cpan.org/~dagolden/perl-5.19.1/ |title=David Golden / perl-5.19.1 |publisher=search.cpan.org |date= |accessdate=2013-07-23}}</ref>
 | latest preview date    = {{release date|mf=yes|2013|06|20}}
 | turing-complete        = Yes
 | typing                 = Dynamic
