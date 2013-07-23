@@ -1,4 +1,4 @@
-{{bare URLs}}
+{{Cleanup-bare URLs|date=July 2013}}
 {{about|the programming language}}
 {{good article}}
 {{Infobox programming language
