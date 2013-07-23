@@ -1,4 +1,3 @@
-{{Cleanup-bare URLs|date=July 2013}}
 {{about|the programming language}}
 {{good article}}
 {{Infobox programming language
@@ -11,7 +10,7 @@
 | developer              = Larry Wall
 | latest_release_version = 5.18.0<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl5.porters/2013/05/msg201940.html | title = Perl 5.18.0 is now available | accessdate = 2013-05-18 | publisher = perl.org}}</ref>
 | latest_release_date    = {{release date|mf=yes|2013|05|18}}
-| latest preview version = 5.19.1<ref>{{cite web | url = http://search.cpan.org/~dagolden/perl-5.19.1/ | accessdate = 2013-07-07 | publisher = cpan.org}}</ref>
+| latest preview version = 5.19.1<ref>http://search.cpan.org/~dagolden/perl-5.19.1/</ref>
 | latest preview date    = {{release date|mf=yes|2013|06|20}}
 | turing-complete        = Yes
 | typing                 = Dynamic
@@ -404,17 +403,16 @@ According to the ''Perl 6 FAQ'', Perl 6 was designed to mitigate "the usual susp
 
 ==See also==
 {{Portal|Free software|Computer programming}}
-
 * [[Outline of Perl]]
-* [[Perl language structure]]
 * [[Perl Data Language]]
 * [[Perl Object Environment]]
 * [[Plain Old Documentation]]
 
 ==References==
-{{reflist|colwidth=30em}}
+{{reflist|30em}}
 
 ==Further reading==
+{{Sister project links|commons=Category:Perl (programming language)|b=Perl Programming|v=Topic:Perl|n=no|q=Perl|s=no|b=Perl Programming}}
 * [http://shop.oreilly.com/product/0636920018452.do Learning Perl] 6th Edition (2011), O'Reilly. Beginner-level introduction to Perl.
 * [http://ofps.oreilly.com/titles/9781118013847/index.html Beginning Perl] 1st Edition (2012), Wrox. A beginner's tutorial for those new to programming or just new to Perl.
 * [http://onyxneon.com/books/modern_perl/ Modern Perl] 2nd Edition (2012), Onyx Neon. Describes [[Modern Perl]] programming techniques.
@@ -438,7 +436,6 @@ According to the ''Perl 6 FAQ'', Perl 6 was designed to mitigate "the usual susp
     ======================= {{No more links}} =============================-->
 <!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first!
 -->
-{{Sister project links|commons=Category:Perl (programming language)|b=Perl Programming|v=Topic:Perl|n=no|q=Perl|s=no|b=Perl Programming}}
 * {{Official website|http://www.perl.org}} Perl.org
 * [http://www.cpan.org/ Comprehensive Perl Archive Network] The canonical location for Perl code and modules
 * [http://www.perlfoundation.org/ The Perl Foundation]
@@ -451,20 +448,20 @@ See [http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.2
 {{FOSS}}
 
 [[Category:Perl|*]]
+[[Category:American inventions]]
+[[Category:Cross-platform software]]
 [[Category:Dynamic programming languages]]
 [[Category:Dynamically typed programming languages]]
 [[Category:Free compilers and interpreters]]
 [[Category:Free software programmed in C]]
-[[Category:Procedural programming languages]]
+[[Category:High-level programming languages]]
 [[Category:Object-oriented programming languages]]
+[[Category:Procedural programming languages]]
+[[Category:Programming languages created in 1987]]
 [[Category:Scripting languages]]
+[[Category:Software using the Artistic license]]
 [[Category:Text-oriented programming languages]]
 [[Category:Unix programming tools]]
-[[Category:Cross-platform software]]
-[[Category:American inventions]]
-[[Category:Programming languages created in 1987]]
-[[Category:High-level programming languages]]
-[[Category:Software using the Artistic license]]
 
 {{Link GA|de}}
 [[ml:പേള്‍]]
