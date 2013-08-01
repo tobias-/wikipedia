@@ -259,7 +259,7 @@ In 2005, [[Audrey Tang]] created the [[pugs]] project, an implementation of Perl
 {{As of | 2012}} a number of features in the Perl 6 language show similarities to Haskell. {{Citation needed|date=August 2011}}
 
 {{As of | 2012}} Perl 6 development centers primarily around two compilers:<ref>{{cite web | url = http://perl6.org/compilers/features | title = Feature comparison of Perl 6 compilers }}</ref>
-# [[Rakudo Perl 6]], an implementation running on the [[Parrot virtual machine]] and the [[Java virtual machine]]<ref>{{cite web|last=Worthington|first=Jonathan|title=Rakudo JVM News: More tests, plus Thread and Promise prototypes|url=http://6guts.wordpress.com/2013/07/15/rakudo-jvm-news-more-tests-plus-thread-and-promise-prototypes/|work=6guts|accessdate=24 July 2013}}</ref>.  Developers are also working on [[MoarVM]], a C language-based virtual machine designed specifically for Rakudo.<ref>{{cite web|last=Worthington|first=Jonathan|title=MoarVM: A virtual machine for NQP and Rakudo|url=http://6guts.wordpress.com/2013/05/31/moarvm-a-virtual-machine-for-nqp-and-rakudo/|work=6guts|accessdate=24 July 2013}}</ref>
+# [[Rakudo Perl 6]], an implementation running on the [[Parrot virtual machine]] and the [[Java virtual machine]].<ref>{{cite web|last=Worthington|first=Jonathan|title=Rakudo JVM News: More tests, plus Thread and Promise prototypes|url=http://6guts.wordpress.com/2013/07/15/rakudo-jvm-news-more-tests-plus-thread-and-promise-prototypes/|work=6guts|accessdate=24 July 2013}}</ref>  Developers are also working on [[MoarVM]], a C language-based virtual machine designed specifically for Rakudo.<ref>{{cite web|last=Worthington|first=Jonathan|title=MoarVM: A virtual machine for NQP and Rakudo|url=http://6guts.wordpress.com/2013/05/31/moarvm-a-virtual-machine-for-nqp-and-rakudo/|work=6guts|accessdate=24 July 2013}}</ref>
 # [[Niecza]], which targets the [[Common Language Runtime]].
 
 ==Future of Perl 5==
@@ -412,7 +412,6 @@ According to the ''Perl 6 FAQ'', Perl 6 was designed to mitigate "the usual susp
 {{reflist|30em}}
 
 ==Further reading==
-{{Sister project links|commons=Category:Perl (programming language)|b=Perl Programming|v=Topic:Perl|n=no|q=Perl|s=no|b=Perl Programming}}
 * [http://shop.oreilly.com/product/0636920018452.do Learning Perl] 6th Edition (2011), O'Reilly. Beginner-level introduction to Perl.
 * [http://ofps.oreilly.com/titles/9781118013847/index.html Beginning Perl] 1st Edition (2012), Wrox. A beginner's tutorial for those new to programming or just new to Perl.
 * [http://onyxneon.com/books/modern_perl/ Modern Perl] 2nd Edition (2012), Onyx Neon. Describes [[Modern Perl]] programming techniques.
@@ -422,6 +421,7 @@ According to the ''Perl 6 FAQ'', Perl 6 was designed to mitigate "the usual susp
 * {{cite book|last=Dominus|first=Mark Jason|title=Higher Order Perl|url=http://hop.perl.plover.com/book/|year=2005|publisher=Morgan Kaufmann|isbn=1-55860-701-3}} Functional programming techniques in Perl.
 
 ==External links==
+{{Sister project links|commons=Category:Perl (programming language)|b=Perl Programming|v=Topic:Perl|n=no|q=Perl|s=no|b=Perl Programming}}
 <!--======================== {{No more links}} ============================
     | PLEASE BE CAUTIOUS IN ADDING MORE LINKS TO THIS ARTICLE. Wikipedia  |
     | is not a collection of links nor should it be used for advertising. |
