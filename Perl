@@ -207,7 +207,7 @@ Users of [[Microsoft Windows]] typically install one of the native binary distri
 
 [[Strawberry Perl]] is an open source distribution for Windows.  It has had regular, quarterly releases since January 2008, including new modules as feedback and requests come in.  Strawberry Perl aims to be able to install modules like standard Perl distributions on other platforms, including compiling XS modules.
 
-The [[Cygwin]] emulation layer is another way of running Perl under Windows. Cygwin provides a Unix-like environment on Windows, and both Perl and CPAN are available as standard pre-compiled packages in the Cygwin setup program. Because Cygwin also includes [[GNU Compiler Collection|gcc]], compiling Perl from source is also possible.
+The [[Cygwin]] emulation layer is another way of running Perl under Windows. Cygwin provides a Unix-like environment on Windows, and both Perl and CPAN are available as standard pre-compiled packages in the Cygwin setup program. Since Cygwin also includes [[GNU Compiler Collection|gcc]], compiling Perl from source is also possible.
 
 ==Database interfaces==
 [[File:LAMP software bundle.svg|thumb|400px|The LAMP software bundle (here additionally with [[Squid (software)|Squid]]). A high performance and high-availability solution for a hostile environment]]
