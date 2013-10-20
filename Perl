@@ -10,8 +10,8 @@
 | developer              = Larry Wall
 | latest_release_version = 5.18.1<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl5.porters/2013/08/msg205897.html | title = Perl 5.18.1 is now available | accessdate = 2013-08-12 | publisher = perl.org}}</ref>
 | latest_release_date    = {{release date|mf=yes|2013|08|12}}
-| latest preview version = 5.19.3<ref>{{cite web|url=https://metacpan.org/release/SHAY/perl-5.19.3 |title=Steve Hay / perl-5.19.3 |publisher=metacpan.org |date= |accessdate=2013-08-20}}</ref>
-| latest preview date    = {{release date|mf=yes|2013|08|20}}
+| latest preview version = 5.19.5<ref>{{cite web|url=https://metacpan.org/release/SHAY/perl-5.19.5 |title=Steve Hay / perl-5.19.5 |publisher=metacpan.org |date= |accessdate=2013-10-20}}</ref>
+| latest preview date    = {{release date|mf=yes|2013|10|20}}
 | turing-complete        = Yes
 | typing                 = Dynamic
 | influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[Lisp (programming language)|Lisp]], [[C (programming language)|C]], [[C++]], [[sed]], [[Unix shell]], [[Pascal (programming language)|Pascal]]
