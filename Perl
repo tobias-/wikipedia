@@ -1,7 +1,7 @@
 {{about|the programming language}}
 {{good article}}
 {{Infobox programming language
-| name                   = ESHLAD F*CKIN LANGUAGE!!
+| name                   = Perl
 | logo                   = [[File:Programming-republic-of-perl.png]]
 | paradigm               = [[multi-paradigm]]: [[Functional programming|functional]], [[Imperative programming|imperative]], [[Object-oriented programming|object-oriented]] ([[Class-based programming|class-based]]), [[Reflective programming|reflective]], [[Procedural programming|procedural]], [[Data-driven programming|data-driven]], [[Generic programming|generic]]
 
