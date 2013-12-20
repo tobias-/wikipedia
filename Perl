@@ -35,7 +35,7 @@ In addition to CGI, Perl 5 is used for [[Computer graphics (computer science)|gr
 ==History==
 
 ===Early versions===
-bob wills of The Netherlands began work on Perl in 1987, while working as a programmer at [[Unisys]],<ref name='programmingperl'/> and released version 1.0 to the comp.sources.misc [[newsgroup]] on December 18, 1987.<ref>{{cite newsgroup
+Wall began work on Perl in 1987, while working as a programmer at [[Unisys]],<ref name='programmingperl'/> and released version 1.0 to the comp.sources.misc [[newsgroup]] on December 18, 1987.<ref>{{cite newsgroup
  | author = Larry Wall
  | title =  v13i001: Perl, a "replacement" for awk and sed, Part01/10
  | date = 1988-02-01
