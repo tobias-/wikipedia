@@ -231,11 +231,19 @@ The [[CPAN|Comprehensive Perl Archive Network]] carries a complete list of suppo
 ====Windows====
 Users of [[Microsoft Windows]] typically install one of the native binary distributions of Perl for Win32, most commonly [[Strawberry Perl]] or [[ActivePerl]]. Compiling Perl from [[source code]] under Windows is possible, but most installations lack the requisite C compiler and build tools. This also makes it difficult to install modules from the CPAN, particularly those that are partially written in C.
 
-[[ActivePerl]] is a closed source distribution from [[ActiveState]] that has regular releases that track the core Perl releases.<ref name='activestate'>{{cite web | url = http://www.activestate.com/activeperl | title = ActivePerl is Perl for Windows, Mac, Linux, AIX, HP-UX & Solaris | accessdate = 2011-01-09 | publisher = [[ActiveState|ActiveState Software]]}}</ref> The distribution also includes the [[Perl package manager]] (PPM),<ref name='activestateppm'>{{cite web | url = http://docs.activestate.com/activeperl/5.12/faq/ActivePerl-faq2.html | title = Using PPM | accessdate = 2011-01-09 | publisher = [[ActiveState|ActiveState Software]]}}</ref> a popular tool for installing, removing, upgrading, and managing the use of common Perl modules.
+[[ActivePerl]] is a closed source distribution from [[ActiveState]] that has regular releases that track the core Perl releases.<ref name='activestate'>{{cite web | url = http://www.activestate.com/activeperl | title = ActivePerl is Perl for Windows, Mac, Linux, AIX, HP-UX & Solaris | accessdate = 2011-01-09 | publisher = [[ActiveState|ActiveState Software]]}}</ref> The distribution also includes the [[Perl package manager]] (PPM),<ref name='activestateppm'>{{cite web | url = http://docs.activestate.com/activeperl/5.12/faq/ActivePerl-faq2.html | title = Using PPM | accessdate = 2011-01-09 | publisher = [[ActiveState|ActiveState Software]]}}</ref> a popular tool for installing, removing, upgrading, and managing the use of common Perl modules.  Included also is [[PerlScript]], a [[WSH]] engine implementing the Perl language.
 
 [[Strawberry Perl]] is an open source distribution for Windows.  It has had regular, quarterly releases since January 2008, including new modules as feedback and requests come in.  Strawberry Perl aims to be able to install modules like standard Perl distributions on other platforms, including compiling XS modules.
 
 The [[Cygwin]] emulation layer is another way of running Perl under Windows. Cygwin provides a Unix-like environment on Windows, and both Perl and CPAN are available as standard pre-compiled packages in the Cygwin setup program. Since Cygwin also includes [[GNU Compiler Collection|gcc]], compiling Perl from source is also possible.
+
+A perl executable is included in several Windows Resource kits in the directory with other scripting tools.
+
+Implementations of Perl come with the [[MKS Toolkit]] and [[UWIN]].
+
+====VMS====
+
+As of 2013, VMS has been ported to VMS.
 
 ==Database interfaces==
 Perl's text-handling capabilities can be used for generating [[SQL]] queries; arrays, hashes, and automatic memory management make it easy to collect and process the returned data. For example, in Tim Bunce's [[Perl DBI]] [[application programming interface]] (API), the arguments to the API can be the text of SQL queries; thus it is possible to program in multiple languages at the same time (e.g., for generating a [[web page]] using [[HTML]], [[JavaScript]], and SQL in a [[here document]]). The use of Perl [[variable interpolation]] to programmatically customize each of the SQL queries, and the specification of Perl arrays or hashes as the structures to programmatically hold the resulting [[data set]]s from each SQL query, allows a high-level mechanism for handling large amounts of data for post-processing by a Perl subprogram.<ref>{{cite book|last=Descartes|first=Alligator|title=Programming the Perl DBI : [database programming with Perl]|year=2000|publisher=O'Reilly|location=Beijing [u.a.]|isbn=1-56592-699-4|edition=1|author2=Bunce, Tim}}</ref>
