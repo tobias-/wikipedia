@@ -1,17 +1,17 @@
 {{Use mdy dates|date=October 2012}}
 {{BLP sources|date=June 2011}}
 {{Infobox person
-|name=Larry Wall
-|birth_date={{birth date and age|1954|09|27}}
-|image=Larry Wall YAPC 2007.jpg
-|known_for=[[Perl]]
-| alma_mater = [[Seattle Pacific University]]
+ | name             = Larry Wall
+ | birth_date       = {{birth date and age|1954|09|27}}
+ | image            = Larry Wall YAPC 2007.jpg
+ | known_for        = [[Perl]]
+ | alma_mater       = [[Seattle Pacific University]]
 [[UC Berkeley]]
-|children=4
-|spouse=Gloria Wall
-|nationality=American
-|occupation=Computer programmer, author
-|website={{URL|http://www.wall.org/~larry/}}
+ | children         = 4
+ | spouse           = Gloria Wall
+ | nationality      = American
+ | occupation       = Computer programmer, author
+ | website          = {{URL|http://www.wall.org/~larry/}}
 }}
 
 '''Larry Wall''' ({{IPAc-en|w|ɔː|l}}; born September 27, 1954) is a [[computer programmer]] and author, most widely known as the creator of the [[Perl]] [[programming language]].
@@ -20,26 +20,26 @@
 Wall grew up in south [[Los Angeles]] and then [[Bremerton, Washington]], before starting higher education at [[Seattle Pacific University]] in 1976, majoring in chemistry and music and later [[Pre-med]] with a hiatus of several years working in the university's computing center before being graduated with a self-styled bachelor's degree in Natural and Artificial Languages.<ref name = lj>{{cite web | url = http://www.linuxjournal.com/article/3394 |author=Marjorie Richardson |title= Larry Wall, the Guru of Perl |publisher= [[Linux Journal]] |date= May 1, 1999 |accessdate= January 12, 2012}}</ref>
 
 While in graduate school at [[University of California, Berkeley]], Wall and his wife were studying [[linguistics]] with the intention afterwards of finding an unwritten language, perhaps in Africa, and creating a [[writing system]] for it. They would then use this new writing system to translate various texts into the language, among them the Bible. Due to health reasons these plans were cancelled, and they remained in the United States, where Larry instead joined the [[NASA]] [[Jet Propulsion Laboratory]] after he finished graduate school.<ref>{{cite web
-| last = Sims | first = David | date = 1998-04-08
+| last = Sims | first = David | date = April 8, 1998
 | title = Q&A With Larry Wall, Creator of Perl | publisher = TechWeb
 | url = http://www.techweb.com/wire/story/TWB19980408S0020
 | archiveurl = http://web.archive.org/web/19981205141959/http://www.techweb.com/wire/story/TWB19980408S0020
-| archivedate = 1998-12-05 | accessdate = 2011-08-15}}</ref>
+| archivedate = December 5, 1998 | accessdate = August 15, 2011}}</ref>
 
 ==Accomplishments==
 Wall is the author of the [[rn (newsreader)|<code>rn</code>]] [[Usenet client]] and the nearly universally used [[Patch (Unix)|<code>patch</code>]] program. He has won the [[International Obfuscated C Code Contest]] twice and was the recipient of the first [[Free Software Foundation]] [[Award for the Advancement of Free Software]] in 1998.
 
-Beyond his technical skills, Wall has a reputation for his wit and for his often sarcastic sense of humour,<ref name='www.perl.com/pub/a/1999/03/pm.ht'>{{Citation| first=Larry | last=Wall| title =Perl, the first postmodern computer language| quote=The following is the text of Larry Wall's talk at Linux World on Wednesday, March 3.  He explains why Perl is a fitting language for the postmodern era.  As a member of the audience commented: "Another mindbender from Larry." | publisher= O’Reilly Media | place= San Jose Convention Center, San Jose, CA, USA | date = 1999-03-03 | url=http://www.perl.com/pub/a/1999/03/pm.html | accessdate=2007-11-19}}</ref> which he displays in the comments to his [[source code]] or on [[Usenet]]. For example: "We all agree on the necessity of compromise. We just can't agree on when it's necessary to compromise"<ref>{{cite web
+Beyond his technical skills, Wall has a reputation for his wit and for his often sarcastic sense of humour,<ref name='www.perl.com/pub/a/1999/03/pm.ht'>{{Citation| first=Larry | last=Wall| title =Perl, the first postmodern computer language| quote=The following is the text of Larry Wall's talk at Linux World on Wednesday, March 3. He explains why Perl is a fitting language for the postmodern era. As a member of the audience commented: "Another mindbender from Larry." | publisher= O’Reilly Media | place= San Jose Convention Center, San Jose, CA, USA | date = March 3, 1999 | url=http://www.perl.com/pub/a/1999/03/pm.html | accessdate=November 19, 2007}}</ref> which he displays in the comments to his [[source code]] or on [[Usenet]]. For example: "We all agree on the necessity of compromise. We just can't agree on when it's necessary to compromise"<ref>{{cite web
 | title = Usenet article on comp.lang.perl
-| date = 1991-11-14
+| date = November 14, 1991
 | url = http://groups.google.com/group/comp.lang.perl/msg/0754ced5084b5ced
-| accessdate = 2011-06-15}}</ref> and:
+| accessdate = June 15, 2011}}</ref> and:
 
-{{quote |For example, it's been several decades now since a certain set of Bible translations came out, and you'll notice a pattern: the New English Bible, the New American Standard Bible, and the New International Version, to name a few. It's really funny. I suspect we'll still be calling them "new this" and "new that" a hundred years from now.  Much like New College at Oxford.  Do you know when New College was founded?  Any guesses? New College was new in 1379.<ref name="www.perl.com/pub/a/1999/03/pm.ht"/>}}
+{{quote |For example, it's been several decades now since a certain set of Bible translations came out, and you'll notice a pattern: the New English Bible, the New American Standard Bible, and the New International Version, to name a few. It's really funny. I suspect we'll still be calling them "new this" and "new that" a hundred years from now. Much like New College at Oxford. Do you know when New College was founded?  Any guesses? New College was new in 1379.<ref name="www.perl.com/pub/a/1999/03/pm.ht"/>}}
 
-Wall developed the Perl interpreter and language while working for [[System Development Corporation]], which later became part of [[Unisys]].<ref name= orn>{{cite web |url= http://www.oreillynet.com/pub/au/148 |title=Larry Wall |publisher= O’Reilly net |accessdate= January 12, 2012}}</ref> He is the co-author of ''[[Programming Perl]]'' (often referred to as the ''Camel Book'' and published by O'Reilly), which is the definitive resource for Perl programmers; and edited the ''[[Perl Cookbook]]''.  He then became employed full-time by [[O'Reilly Media]] to further develop Perl and write books on the subject.<ref name = orn />
+Wall developed the Perl interpreter and language while working for [[System Development Corporation]], which later became part of [[Unisys]].<ref name= orn>{{cite web |url= http://www.oreillynet.com/pub/au/148 |title=Larry Wall |publisher= O’Reilly net |accessdate= January 12, 2012}}</ref> He is the co-author of ''[[Programming Perl]]'' (often referred to as the ''Camel Book'' and published by O'Reilly), which is the definitive resource for Perl programmers; and edited the ''[[Perl Cookbook]]''. He then became employed full-time by [[O'Reilly Media]] to further develop Perl and write books on the subject.<ref name = orn />
 
-Wall's training as a linguist is apparent in his books, interviews, and lectures. He often compares Perl to a natural language and explains his decisions in Perl's design with linguistic rationale.  He also often uses linguistic terms for Perl language constructs, so instead of traditional terms such as "variable", "function", and "accessor" he sometimes says "[[noun]]", "[[verb]]", and "[[Topic (linguistics)|topicalizer]]".
+Wall's training as a linguist is apparent in his books, interviews, and lectures. He often compares Perl to a natural language and explains his decisions in Perl's design with linguistic rationale. He also often uses linguistic terms for Perl language constructs, so instead of traditional terms such as "variable", "function", and "accessor" he sometimes says "[[noun]]", "[[verb]]", and "[[Topic (linguistics)|topicalizer]]".
 
 Wall's Christian faith has influenced some of the terminology of Perl, such as the name itself, a biblical reference to the "pearl of great price" ([[Gospel of Matthew|Matthew]] 13:46).<ref>{{Citation|last=Silberman|first=Steve|title= Scripting on the Lido Deck| journal = Wired (magazine)|url=http://www.wired.com/wired/archive/8.10/cruise.html?pg=3|year= 2000|volume= 8.10}}</ref> Similar references are the function name ''bless'', and the organization of [[Perl 6]] design documents with categories such as ''[[apocalypse]]'' and ''[[exegesis]]''. Wall has also alluded to his faith when he has spoken at conferences, including a rather straightforward statement of his beliefs at the August 1997 Perl Conference and a discussion of ''[[Pilgrim's Progress]]'' at the [[YAPC]] (Yet Another Perl Conference) in June 2000.{{Citation needed|date=March 2012}}
 
@@ -82,13 +82,13 @@ Wall continues to oversee further development of Perl and serves as the [[Benevo
 {{Authority control |PND=138937079 |LCCN=n/94/24390 |VIAF=91402770}}
 
 {{Persondata
-|NAME=Wall, Larry
-|ALTERNATIVE NAMES=
-|SHORT DESCRIPTION=[[programmer]], [[linguistics|linguist]], and creator of [[Perl]]
-|DATE OF BIRTH=September 27, 1954
-|PLACE OF BIRTH=
-|DATE OF DEATH=
-|PLACE OF DEATH=
+ | NAME              = Wall, Larry
+ | ALTERNATIVE NAMES = 
+ | SHORT DESCRIPTION = [[programmer]], [[linguistics|linguist]], and creator of [[Perl]]
+ | DATE OF BIRTH     = September 27, 1954
+ | PLACE OF BIRTH    = 
+ | DATE OF DEATH     = 
+ | PLACE OF DEATH    = 
 }}
 {{DEFAULTSORT:Wall, Larry}}
 [[Category:1954 births]]
