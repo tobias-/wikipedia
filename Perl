@@ -347,7 +347,7 @@ There are a number of [[Internet Relay Chat|IRC]] channels that offer support fo
 | #perl #perl6 #cbstream #perlcafe #poe
 |-
 | irc.perl.org
-| #moose #poe #catalyst #dbix-class #perl-help #distzilla #epo #corehackers #sdl #win32 #toolchain #padre
+| #moose #poe #catalyst #dbix-class #perl-help #distzilla #epo #corehackers #sdl #win32 #toolchain #padre #dancer
 |-
 | irc.slashnet.org
 | #perlmonks
