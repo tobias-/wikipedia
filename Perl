@@ -374,14 +374,14 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 In older versions of Perl, one would write the [[Hello World]] program as:
 
 <source lang="perl">
-    print "Hello Hasoon!\n";
+    print "Hello World!\n";
 </source>
 
 In later versions, which support the say statement, one can also write it as:
 
 <source lang="perl">
     use 5.010;
-    say "Hello Hasoon!";
+    say "Hello World!";
 </source>
 
 Good Perl practices require more complex programs to add the <tt>use strict;</tt> and <tt>use warnings;</tt> [[Directive (programming)|pragmas]], leading into something like:
