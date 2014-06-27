@@ -68,6 +68,12 @@ Perl 5.005 was released on July 22, 1998.  This release included several enhance
 ! Major Version
 ! Latest update
 |-
+| {{Version|o|5.5}}
+| 2004-02-23<ref name="cpan-src" />
+|-
+| {{Version|o|5.6}}
+| 2003-11-15<ref name="cpan-src" />
+|-
 | {{Version|o|5.8}}
 | 2008-12-14<ref name="cpan-src" />
 |-
