@@ -499,6 +499,4 @@ See [http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.2
 [[Category:Software using the Artistic license]]
 [[Category:Text-oriented programming languages]]
 [[Category:Unix programming tools]]
-
-{{Link GA|de}}
 [[ml:പേള്‍]]
