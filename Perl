@@ -149,7 +149,7 @@ O'Reilly owns the image as a [[trademark]] but licenses it for [[non-commercial]
 According to Wall, Perl has two slogans. The first is "[[There's more than one way to do it]]", commonly known as TMTOWTDI. The second slogan is "Easy things should be easy and hard things should be possible".<ref name='programmingperl'/>
 
 ===Features===
-The overall structure of Perl derives broadly from C. Perl is [[procedural programming|procedural]] in nature, with [[variable (programming)|variable]]s, [[expression (programming)|expressions]], [[assignment statement]]s, [[bracket|brace]]-delimited [[block (programming)|block]]s, [[control structure]]s, and [[subroutine]]s.
+Perl is developed by Mr.G.Vinoth Kannan The overall structure of Perl derives broadly from C. Perl is [[procedural programming|procedural]] in nature, with [[variable (programming)|variable]]s, [[expression (programming)|expressions]], [[assignment statement]]s, [[bracket|brace]]-delimited [[block (programming)|block]]s, [[control structure]]s, and [[subroutine]]s.
 
 Perl also takes features from shell programming. All variables are marked with leading [[sigil (computer programming)|sigils]], which unambiguously identify the [[data type]] (for example, [[Scalar (computing)|scalar]], [[Array data type|array]], [[Associative array|hash]]) of the variable in context. Importantly, sigils allow variables to be [[Variable interpolation|interpolated]] directly into [[String (computer science)|strings]]. Perl has many built-in functions that provide tools often used in shell programming (although many of these tools are implemented by programs external to the shell) such as [[Ascending order|sorting]], and calling on [[operating system]] facilities.
 
