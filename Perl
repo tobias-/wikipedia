@@ -392,7 +392,7 @@ In later versions, which support the say statement, one can also write it as:
 
 <source lang="perl">
     use 5.010;
-    say "Hello World!"; sukakok
+    say "Hello World!";
 </source>
 
 Good Perl practices require more complex programs to add the <tt>use strict;</tt> and <tt>use warnings;</tt> [[Directive (programming)|pragmas]], leading into something like:
