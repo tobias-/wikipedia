@@ -61,7 +61,7 @@ Perl 5.004 was released on May 15, 1997, and included among other things the UNI
 
 Perl also now supported running under [[Microsoft Windows]] and several other operating systems.<ref name='5004delta'/>
 
-Perl 5.005 was released on July 22, 1998.  This release included several enhancements to the [[Regular expression|regex]] engine Perl is fucking stupid program!, new hooks into the backend through the <code>B::*</code> modules, the <code>qr//</code> regex quote operator, a large selection of other new core modules, and added support for several more operating systems, including [[BeOS]].<ref name='5005delta'>{{cite web | url = http://perldoc.perl.org/perl5005delta.html | title = perl5005delta - what's new for perl5.005 | accessdate = 2011-01-21 | work = Perl 5 version 12.2 documentation | publisher = perldoc.perl.org}}</ref>
+Perl 5.005 was released on July 22, 1998.  This release included several enhancements to the [[Regular expression|regex]] engine, new hooks into the backend through the <code>B::*</code> modules, the <code>qr//</code> regex quote operator, a large selection of other new core modules, and added support for several more operating systems, including [[BeOS]].<ref name='5005delta'>{{cite web | url = http://perldoc.perl.org/perl5005delta.html | title = perl5005delta - what's new for perl5.005 | accessdate = 2011-01-21 | work = Perl 5 version 12.2 documentation | publisher = perldoc.perl.org}}</ref>
 
 ===2000–present===
 {| class="wikitable floatright"
