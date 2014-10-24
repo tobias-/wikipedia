@@ -492,6 +492,7 @@ See [http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.2
 [[Category:Dynamically typed programming languages]]
 [[Category:Free compilers and interpreters]]
 [[Category:Free software programmed in C]]
+[[Category:C_programming_language_family]]
 [[Category:High-level programming languages]]
 [[Category:Object-oriented programming languages]]
 [[Category:Procedural programming languages]]
