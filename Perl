@@ -487,7 +487,6 @@ According to the ''Perl 6 FAQ'', Perl 6 was designed to mitigate "the usual susp
 * [https://metacpan.org/ MetaCPAN] the new Comprehensive Perl Archive Network web interface
 * [http://www.cpan.org/ Comprehensive Perl Archive Network] The canonical location for Perl code and modules
 * [http://www.perlfoundation.org/ The Perl Foundation]
-* [http://www.specusa.com/perl-development-services.html perl development services]
 * [http://www.perlmonks.org/ PerlMonks] A community committed to sharing Perl knowledge and coding tips
 
 <!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first!
