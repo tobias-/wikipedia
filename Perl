@@ -468,7 +468,7 @@ According to the ''Perl 6 FAQ'', Perl 6 was designed to mitigate "the usual susp
 * {{cite book|last=Dominus|first=Mark Jason|title=Higher Order Perl|url=http://hop.perl.plover.com/book/|year=2005|publisher=Morgan Kaufmann|isbn=1-55860-701-3}} Functional programming techniques in Perl.
 
 ==External links==
-{{Sister project links|commons=Category:Perl (programming language)|b=Perl Programming|v=Topic:Perl|n=no|q=Perl|s=no|b=Perl Programming}}
+{{Sister project links|commons=Category:Perl (programming language)|v=Topic:Perl|n=no|q=Perl|s=no|b=Perl Programming}}
 <!--======================== {{No more links}} ============================
     | PLEASE BE CAUTIOUS IN ADDING MORE LINKS TO THIS ARTICLE. Wikipedia  |
     | is not a collection of links nor should it be used for advertising. |
