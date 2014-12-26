@@ -495,7 +495,7 @@ See [http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.2
 {{Perl}}
 {{FOSS}}
 
-[[Category:Perl|*]]
+[[Category:Perl| ]]
 [[Category:American inventions]]
 [[Category:Cross-platform software]]
 [[Category:Dynamic programming languages]]
