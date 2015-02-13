@@ -5,13 +5,13 @@
 | name                   = Perl
 | logo                   = [[File:Programming-republic-of-perl.png]]
 | paradigm               = [[multi-paradigm]]: [[Functional programming|functional]], [[Imperative programming|imperative]], [[Object-oriented programming|object-oriented]] ([[Class-based programming|class-based]]), [[Reflective programming|reflective]], [[Procedural programming|procedural]], [[Event-driven programming|Event-driven]], [[Generic programming|generic]]
-| year                   = 1987
+| year                   = {{Start date and age|1987}}
 | designer               = [[Larry Wall]]
 | developer              = Larry Wall
 | latest_release_version = 5.20.1<ref>{{cite web | url = http://perlnews.org/2014/09/perl-5-20-1-is-now-available/ | title = Perl 5.20.1 is now available | accessdate = 2014-09-22 | publisher = perlnews.org}}</ref>
-| latest_release_date    = {{release date|mf=yes|2014|09|22}}
+| latest_release_date    = {{Start date and age|mf=yes|2014|09|22}}
 | latest preview version = 5.21.7<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl5.porters/2014/12/msg223774.html | title = perl 5.21.7 is now available |publisher=perl.org |date=2014-12-20 |accessdate=2014-12-21}}</ref>
-| latest preview date    = {{release date|mf=yes|2014|12|20}}
+| latest preview date    = {{Start date and age|mf=yes|2014|12|20}}
 | turing-complete        = Yes
 | typing                 = Dynamic
 | influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[Lisp (programming language)|Lisp]], [[C (programming language)|C]], [[C++]], [[sed]], [[Unix shell]], [[Pascal (programming language)|Pascal]]
