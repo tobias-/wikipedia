@@ -1,5 +1,6 @@
 {{Use mdy dates|date=September 2014}}
 {{about|the programming language}}
+{{distinguish|Pearl}}
 {{good article}}
 {{Infobox programming language
 | name                   = Perl
