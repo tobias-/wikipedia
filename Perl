@@ -146,6 +146,10 @@ O'Reilly owns the image as a [[trademark]] but licenses it for [[non-commercial]
 [[File:Onion 64x64.png|thumb|The onion logo used by The Perl Foundation]]
 [[The Perl Foundation]] owns an alternative symbol, an onion, which it licenses to its subsidiaries, [[Perl Mongers]], [[PerlMonks]], Perl.org, and others.<ref name='onion'>{{cite web | url = http://www.perlfoundation.org/perl_trademark | title = Perl Trademark | accessdate = 2011-01-09 | publisher = [[The Perl Foundation]]}}</ref> The symbol is a [[visual pun]] on [[pearl onion]].<ref name='gillmore98'>{{cite news | first = Dan | last = Gillmore | title = Republic Of Perl | date = 1998-10-25 | url = http://articles.chicagotribune.com/1998-10-25/news/9810250094_1_programmers-open-source-movement-programming-community | work = Chicago Tribune | accessdate = 2011-01-10}}</ref>
 
+===Version history===
+{{main|Perl 5 version history}}
+The first version of Perl 5, 5.00.0, was released in October 1994. The current stable version of Perl 5, 5.22.0, was released in June 2015.
+
 ==Overview==
 {{Main|Perl language structure}}
 According to Wall, Perl has two slogans. The first is "[[There's more than one way to do it]]", commonly known as TMTOWTDI. The second slogan is "Easy things should be easy and hard things should be possible".<ref name='programmingperl'/>
