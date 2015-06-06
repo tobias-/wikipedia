@@ -1,6 +1,6 @@
-{{Use mdy dates|date=September 2014}}
 {{about|the programming language}}
 {{distinguish|Pearl}}
+{{Use mdy dates|date=September 2014}}
 {{good article}}
 {{Infobox programming language
 | name                   = Perl
@@ -270,7 +270,7 @@ In modern Perl applications, especially those written using [[Web application fr
 The Computer Language Benchmarks Game, a project hosted by [[Alioth (Debian)|Alioth]], compares the performance of implementations of typical programming problems in several programming languages.<ref>{{cite web | url = http://alioth.debian.org/projects/benchmarksgame/ | title = Alioth: The Computer Language Benchmarks Game: Project Info | accessdate = 2011-01-13 | publisher = [[Alioth]]}}
 </ref> The submitted Perl implementations typically perform toward the high end of the memory-usage spectrum and give varied speed results. Perl's performance in the benchmarks game is typical for interpreted languages.<ref>{{cite web | url = http://benchmarksgame.alioth.debian.org/u32/which-programs-are-fastest.php?v8=on&lua=on&jruby=on&php=on&python3=on&yarv=on&perl=on | title =  Which programs are fastest? | accessdate = 2011-01-13 | work = Computer Language Benchmarks Game | publisher = [[Alioth]]}}</ref>
 
-Large Perl programs start more slowly than similar programs in compiled languages because perl has to compile the source every time it runs. In a talk at the [[Yet Another Perl Conference|YAPC::Europe 2005]] conference and subsequent article "A Timely Start", Jean-Louis Leroy found that his Perl programs took much longer to run than expected because the perl interpreter spent significant time finding modules within his over-large include path.<ref>{{cite web | url=http://www.perl.com/pub/a/2005/12/21/a_timely_start.html | title=A Timely Start | author=Leroy, Jean-Louis | date=2005-12-01 | publisher=O'Reilly }}</ref> Unlike Java, Python, and Ruby, Perl has only experimental support for pre-compiling.<ref>{{cite web | url=https://metacpan.org/module/NWCLARK/perl-5.8.8/ext/B/B/Bytecode.pm#KNOWN-BUGS | title=B::Bytecode Perl compiler's bytecode backend | author=Beattie, Malcolm and Enache Adrian | year=2003 | publisher=[[CPAN]] }}</ref> Therefore Perl programs pay this overhead penalty on every execution. The run phase of typical programs is long enough that [[amortized]] startup time is not substantial, but benchmarks that measure very short execution times are likely to be skewed due to this overhead.
+Large Perl programs start more slowly than similar programs in compiled languages because perl has to compile the source every time it runs. In a talk at the [[Yet Another Perl Conference|YAPC::Europe 2005]] conference and subsequent article "A Timely Start", Jean-Louis Leroy found that his Perl programs took much longer to run than expected because the perl interpreter spent significant time finding modules within his over-large include path.<ref>{{cite web | url=http://www.perl.com/pub/a/2005/12/21/a_timely_start.html | title=A Timely Start | author=Leroy, Jean-Louis | date=2005-12-01 | publisher=O'Reilly }}</ref> Unlike Java, Python, and Ruby, Perl has only experimental support for pre-compiling.<ref>{{cite web | url=https://metacpan.org/module/NWCLARK/perl-5.8.8/ext/B/B/Bytecode.pm#KNOWN-BUGS | title=B::Bytecode Perl compiler's bytecode backend | author=Beattie, Malcolm and Enache Adrian | year=2003 | publisher=[[CPAN]] }}</ref> Therefore, Perl programs pay this overhead penalty on every execution. The run phase of typical programs is long enough that [[amortized]] startup time is not substantial, but benchmarks that measure very short execution times are likely to be skewed due to this overhead.
 
 A number of tools have been introduced to improve this situation. The first such tool was Apache's [[mod perl]], which sought to address one of the most-common reasons that small Perl programs were invoked rapidly: [[Common Gateway Interface|CGI]] [[World Wide Web|Web]] development. [[ActiveState|ActivePerl]], via Microsoft [[ISAPI]], provides similar performance improvements.
 
@@ -442,6 +442,13 @@ Perl has been referred to as "[[line noise]]" by some programmers who claim its 
 
 According to the ''Perl 6 FAQ'', Perl 6 was designed to mitigate "the usual suspects" that elicit the "line noise" claim from Perl 5 critics, including the removal of "the majority of the punctuation variables" and the sanitization of the regex syntax.<ref name="P6FAQ">{{cite web|url=http://www.perl6.org/archive/faq.html|title=Perl 6 FAQ|publisher=Perl 6 Project|accessdate=2013-06-30}}</ref> The ''Perl 6 FAQ'' also states that what is sometimes referred to as Perl's line noise is "the actual syntax of the language" just as [[gerund]]s and [[Preposition and postposition|prepositions]] are a part of the [[English language]].<ref name="P6FAQ" /> In a December 2012 blog posting, despite claiming that "Rakudo Perl 6 has failed and will continue to fail unless it gets some adult supervision", [[chromatic (programmer)|chromatic]] stated that the design of Perl 6 has a "well-defined grammar" as well as an "improved type system, a unified object system with an intelligent metamodel, metaoperators, and a clearer system of context that provides for such niceties as pervasive laziness".<ref name="chromatic-blog">{{cite web|url=http://www.modernperlbooks.com/mt/2012/12/the-implementation-of-perl-5-versus-perl-6.html|title=The Implementation of Perl 5 versus Perl 6|author=chromatic|authorlink=chromatic (programmer)|date=2012-12-31|accessdate=2013-06-30}}</ref> He also stated that "Perl 6 has a coherence and a consistency that Perl 5 lacks."<ref name="chromatic-blog" />
 
+==See also==
+{{Portal|Free software|Computer programming}}
+* [[Outline of Perl]]
+* [[Perl Data Language]]
+* [[Perl Object Environment]]
+* [[Plain Old Documentation]]
+
 ==References==
 {{reflist|30em}}
 
@@ -453,13 +460,6 @@ According to the ''Perl 6 FAQ'', Perl 6 was designed to mitigate "the usual susp
 * [http://www.pearsonhighered.com/educator/product/Effective-Perl-Programming-Ways-to-Write-Better-More-Idiomatic-Perl-2E/9780321496942.page Effective Perl Programming] 2nd Edition (2010), Addison-Wesley. Intermediate- to advanced-level guide to writing idiomatic Perl.
 * ''[[Perl Cookbook]]'', ISBN 0-596-00313-7. Practical Perl programming examples.
 * {{cite book|last=Dominus|first=Mark Jason|title=Higher Order Perl|url=http://hop.perl.plover.com/book/|year=2005|publisher=Morgan Kaufmann|isbn=1-55860-701-3}} Functional programming techniques in Perl.
-
-==See also==
-{{Portal|Free software|Computer programming}}
-* [[Outline of Perl]]
-* [[Perl Data Language]]
-* [[Perl Object Environment]]
-* [[Plain Old Documentation]]
 
 ==External links==
 {{Sister project links|commons=Category:Perl (programming language)|v=Topic:Perl|n=no|q=Perl|s=no|b=Perl Programming}}
@@ -490,9 +490,10 @@ See [http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.2
 {{FOSS}}
 
 {{Authority control}}
+
 [[Category:Perl| ]]
 [[Category:American inventions]]
-[[Category:C_programming_language_family]]
+[[Category:C programming language family]]
 [[Category:Cross-platform software]]
 [[Category:Dynamic programming languages]]
 [[Category:Dynamically typed programming languages]]
