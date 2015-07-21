@@ -378,7 +378,7 @@ There are a number of [[Internet Relay Chat|IRC]] channels that offer support fo
 | #perl
 |-
 | irc.debian.org
-| #debian-perl
+| #debian-perl (packaging Perl modules for Debian)
 |}
 
 ===CPAN Acme===
