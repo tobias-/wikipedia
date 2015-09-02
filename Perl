@@ -278,7 +278,6 @@ Once Perl code is compiled, there is additional overhead during the execution ph
 
 ===Optimizing===
 Because Perl is an interpreted language, it can give problems when efficiency is critical; in such situations, the most critical routines can be written in other languages such as [[C (programming language)|C]], which can be connected to Perl via simple Inline modules or the more complex but flexible [[XS (Perl)|XS]] mechanism.<ref>{{cite web|url=https://metacpan.org/module/Inline |title=Inline - metacpan.org |accessdate=2011-01-26 |last=Ingerson |first=Brian |publisher=[[CPAN]] |deadurl=yes |archiveurl=https://web.archive.org/20130613163723/https://metacpan.org/module/Inline |archivedate=June 13, 2013 }}</ref>
-i;;/o.pi;
 
 ==Perl 6==
 {{Main|Perl 6}}
