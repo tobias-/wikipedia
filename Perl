@@ -352,6 +352,7 @@ Each talk is first given at various Perl conferences and is eventually also publ
 </ref>
 
 ===Perl on IRC===
+{{Original research section|date=September 2015}}
 There are a number of [[Internet Relay Chat|IRC]] channels that offer support for the language and some modules.
 
 {| class="wikitable"
