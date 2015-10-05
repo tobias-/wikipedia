@@ -492,6 +492,7 @@ See [http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.2
 
 {{Authority control}}
 
+[[Category:Perl| ]]
 [[Category:American inventions]]
 [[Category:C programming language family]]
 [[Category:Cross-platform software]]
@@ -501,7 +502,6 @@ See [http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.2
 [[Category:Free software programmed in C]]
 [[Category:High-level programming languages]]
 [[Category:Object-oriented programming languages]]
-[[Category:Perl| ]]
 [[Category:Procedural programming languages]]
 [[Category:Programming languages created in 1987]]
 [[Category:Scripting languages]]
