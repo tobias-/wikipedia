@@ -11,8 +11,8 @@
 | developer              = Larry Wall
 | latest_release_version = 5.22.0<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl5.porters/2015/06/msg228300.html | title = Perl 5.22.0 is now available! | accessdate = 2015-06-01 | publisher = www.nntp.perl.org }}</ref>
 | latest_release_date    = {{Start date and age|mf=yes|2015|06|01}}
-| latest_preview_version = 5.23.2<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl5.porters/2015/08/msg230298.html | title = perl-5.23.2 is now available | publisher = perl.org | date = 2015-08-20 | accessdate = 2015-08-25}}</ref>
-| latest_preview_date    = {{Start date and age|mf=yes|2015|08|20}}
+| latest_preview_version = 5.23.5<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl5.porters/2015/11/msg232758.html | title = perl-5.23.5 is now available | publisher = perl.org | date = 2015-11-20 | accessdate = 2015-12-16}}</ref>
+| latest_preview_date    = {{Start date and age|mf=yes|2015|11|20}}
 | turing-complete        = Yes
 | typing                 = Dynamic
 | influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[Lisp (programming language)|Lisp]], [[C (programming language)|C]], [[C++]], [[sed]], [[Unix shell]], [[Pascal (programming language)|Pascal]]
