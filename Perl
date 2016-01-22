@@ -390,51 +390,51 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 In older versions of Perl, one would write the [[Hello World]] program as:
 
 <source lang="perl">
-    print "Hello World!\n";
+print "Hello World!\n";
 </source>
 
 In later versions, which support the say statement, one can also write it as:
 
 <source lang="perl">
-    use 5.010;
-    say "Hello World!";
+use 5.010;
+say "Hello World!";
 </source>
 
 Good Perl practices require more complex programs to add the <tt>use strict;</tt> and <tt>use warnings;</tt> [[Directive (programming)|pragmas]], leading into something like:
 
 <source lang="perl">
-    use strict;
-    use warnings;
+use strict;
+use warnings;
 
-    print "Hello World!\n";
+print "Hello World!\n";
 </source>
 
 Here is a more complex Perl program, that counts down the seconds up to a given threshold:
 
 <source lang="perl">
- #!/usr/bin/perl
- use strict;
- use warnings;
- use IO::Handle;
+#!/usr/bin/perl
+use strict;
+use warnings;
+use IO::Handle;
 
- my ( $remaining, $total );
+my ( $remaining, $total );
 
- $remaining = $total = shift(@ARGV);
+$remaining = $total = shift(@ARGV);
 
- STDOUT->autoflush(1);
+STDOUT->autoflush(1);
 
- while ( $remaining ) {
-  printf ( "Remaining %s/%s \r", $remaining--, $total );
-  sleep 1;
- }
+while ( $remaining ) {
+    printf ( "Remaining %s/%s \r", $remaining--, $total );
+    sleep 1;
+}
 
- print "\n";
+print "\n";
 </source>
 
 The perl interpreter can also be used for one-off scripts on the command line. The following example (as invoked from an sh-compatible shell, such as Bash) translates the string "Bob" in all files ending with .txt in the current directory to "Robert":
 
 <source lang="bash">
-     $ perl -i.bak -lp -e 's/Bob/Robert/g' *.txt
+$ perl -i.bak -lp -e 's/Bob/Robert/g' *.txt
 </source>
 
 ==Criticism==
