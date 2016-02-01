@@ -487,6 +487,7 @@ According to the ''Perl 6 FAQ'', Perl 6 was designed to mitigate "the usual susp
 See [http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.27_external_links]
 -->
 {{Perl}}
+{{Programming languages}}
 {{FOSS}}
 
 {{Authority control}}
