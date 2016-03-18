@@ -314,7 +314,7 @@ Development of Perl 5 is also continuing. Perl 5.12.0 was released in April 2010
 
 Future plans for Perl 5 include making the core language easier to extend from modules, and providing a small, extensible [[Meta-object protocol]] in core.<ref>{{cite web | url=https://lwn.net/Articles/487216/ |author=Dave Rolsky | date=2012-03-12 | title=Perl 5.16 and beyond |publisher=[[LWN.net]] }}</ref>
 
-The relative proportion of searches for 'Perl programming', as compared with similar searches for other programming languages, steadily declined from about 10% in 2005 to about 2% in 2011, and has remained around the 2% level since.<ref>{{cite web
+The relative proportion of Internet searches for 'Perl programming', as compared with similar searches for other programming languages, steadily declined from about 10% in 2005 to about 2% in 2011, and has remained around the 2% level since.<ref>{{cite web
 | title=TIOBE Programming Community Index Perl
 | author=TIOBE Software Index
 | year=2013
