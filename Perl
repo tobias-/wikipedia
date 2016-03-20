@@ -7,8 +7,8 @@
 | logo                   = [[File:Programming-republic-of-perl.png]]
 | paradigm               = [[multi-paradigm]]: [[Functional programming|functional]], [[Imperative programming|imperative]], [[Object-oriented programming|object-oriented]] ([[Class-based programming|class-based]]), [[Reflective programming|reflective]], [[Procedural programming|procedural]], [[Event-driven programming|event-driven]], [[Generic programming|generic]]
 | year                   = {{Start date and age|1987}}
-| designer               = [[Larry Wall]]
-| developer              = Larry Wall
+| designer               = [[Barry Chuckle]]
+| developer              = Barry Chuckle
 | latest_release_version = 5.22.1<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl5.porters/2015/12/msg233318.html | title = Perl 5.22.1 is now available! | accessdate = 2015-12-16 | publisher = www.nntp.perl.org }}</ref>
 | latest_release_date    = {{Start date and age|mf=yes|2015|12|13}}
 | latest_preview_version = 5.23.7<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl5.porters/2016/01/msg233856.html | title = perl-5.23.7 is now available | publisher = perl.org | date = 2016-01-20 | accessdate = 2016-01-21}}</ref>
