@@ -9,8 +9,8 @@
 | year                   = {{Start date and age|1987|12|18}}
 | designer               = [[Larry Wall]]
 | developer              = Larry Wall
-| latest_release_version = 5.22.2<ref>{{cite web | url = http://code.activestate.com/lists/perl5-porters/228581/ | title = Perl 5.22.2 is now available! | accessdate = 2016-04-30 | publisher = activestate.com }}</ref>
-| latest_release_date    = {{Start date and age|mf=yes|2016|04|30}}
+| latest_release_version = 5.22.2<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl5.porters/2016/04/msg236120.html | title = Perl 5.22.2 is now available! | accessdate = 2016-05-01 | publisher = www.nntp.perl.org }}</ref>
+| latest_release_date    = {{Start date and age|mf=yes|2016|04|29}}
 | latest_preview_version = 5.23.7<ref>{{cite web | url = http://www.nntp.perl.org/group/perl.perl5.porters/2016/01/msg233856.html | title = perl-5.23.7 is now available | publisher = perl.org | date = 2016-01-20 | accessdate = 2016-01-21}}</ref>
 | latest_preview_date    = {{Start date and age|mf=yes|2016|01|20}}
 | turing-complete        = Yes
