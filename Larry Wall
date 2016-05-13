@@ -25,15 +25,12 @@ While in graduate school at the  [[University of California, Berkeley]], Wall an
 | archiveurl = https://web.archive.org/web/19981205141959/http://www.techweb.com/wire/story/TWB19980408S0020 | archivedate = December 5, 1998 | accessdate = August 15, 2011}}</ref>
 
 Wall is an active member of the [[Church of the Nazarene]].<ref>{{cite web|url=http://blogs.discovermagazine.com/gnxp/2008/07/larry-wall-fundamentalist-non-creationist-programmer|title=Larry Wall, Fundamentalist, non-Creationist, programmer|work=Gene Expression}}</ref>
-
+{{clear}}
 ==Accomplishments==
+{{Spoken Wikipedia|Larry_Wall.ogg|2006-06-27}}
 Wall is the author of the [[rn (newsreader)|<code>rn</code>]] [[Usenet client]] and the widely used [[Patch (Unix)|<code>patch</code>]] program. He has won the [[International Obfuscated C Code Contest]] twice and was the recipient of the first [[Free Software Foundation]] [[Award for the Advancement of Free Software]] in 1998.<ref name="tri"/>
 
-Beyond his technical skills, Wall has a reputation for his wit and often sarcastic sense of humour,<ref name='www.perl.com/pub/a/1999/03/pm.ht'>{{Citation| first=Larry | last=Wall| title =Perl, the first postmodern computer language| quote=The following is the text of Larry Wall's talk at Linux World on Wednesday, March 3. He explains why Perl is a fitting language for the postmodern era. As a member of the audience commented: "Another mindbender from Larry." | publisher= O’Reilly Media | place= San Jose Convention Center, San Jose, CA, USA | date = March 3, 1999 | url=http://www.perl.com/pub/a/1999/03/pm.html | accessdate=November 19, 2007}}</ref> which he displays in the comments to his [[source code]] or on [[Usenet]]. For example: "We all agree on the necessity of compromise. We just can't agree on when it's necessary to compromise"<ref>{{cite web
-| title = Usenet article on comp.lang.perl
-| date = November 14, 1991
-| url = http://groups.google.com/group/comp.lang.perl/msg/0754ced5084b5ced
-| accessdate = June 15, 2011}}</ref> and:
+Beyond his technical skills, Wall has a reputation for his wit and often sarcastic sense of humour,<ref name='www.perl.com/pub/a/1999/03/pm.ht'>{{Citation| first=Larry | last=Wall| title =Perl, the first postmodern computer language| quote=The following is the text of Larry Wall's talk at Linux World on Wednesday, March 3. He explains why Perl is a fitting language for the postmodern era. As a member of the audience commented: "Another mindbender from Larry." | publisher= O’Reilly Media | place= San Jose Convention Center, San Jose, CA, USA | date = March 3, 1999 | url=http://www.perl.com/pub/a/1999/03/pm.html | accessdate=November 19, 2007}}</ref> which he displays in the comments to his [[source code]] or on [[Usenet]]. For example: "We all agree on the necessity of compromise. We just can't agree on when it's necessary to compromise"{{r|usenet}} and:
 
 {{quote |For example, it's been several decades now since a certain set of Bible translations came out, and you'll notice a pattern: the New English Bible, the New American Standard Bible, and the New International Version, to name a few. It's really funny. I suspect we'll still be calling them "new this" and "new that" a hundred years from now. Much like New College at Oxford. Do you know when New College was founded? Any guesses? New College was new in 1379.<ref name="www.perl.com/pub/a/1999/03/pm.ht"/>}}
 
@@ -49,34 +46,42 @@ Wall continues to oversee further development of Perl and serves as the [[benevo
 ::Got that? Larry is always right, even when he was wrong.<ref>{{Citation| title=Perl 5.10.0 Documentation&nbsp;– perlhack |url= http://perldoc.perl.org/perlhack.html#DESCRIPTION}}</ref><ref>{{Citation| title=perl 5 porters FAQ| url=http://faq.perl.org/p5pfaq.html#What_is_Rule_1_}}</ref>
 
 ==See also==
-{{Portal|Free software}}
+{{wikiquote|Larry Wall}}
 
 * [[List of computer scientists]]
 * [[List of programmers]]
 
+{{portalbar|Free software}}
+
 ==References==
-{{Reflist}}
+{{Reflist|30em|refs=
+<ref name=usenet>{{cite web
+| title = Usenet article on comp.lang.perl
+| date = November 14, 1991
+| url = http://groups.google.com/group/comp.lang.perl/msg/0754ced5084b5ced
+| accessdate = June 15, 2011}}</ref>
+
+}}
 
 ==Further reading==
 * [http://www.softpanorama.org/People/Wall/index.shtml Slightly Skeptical View on Larry Wall and Perl (Softpanorama Larry Wall's page)]
 * [http://www.perl.com/pub/a/1999/03/pm.html ''Perl, the first Postmodern Language'']
-===State of the Onion keynotes=== 
-* 1997 <ref>http://www.wall.org/~larry/keynote/keynote.html</ref> 
-* 1998 <ref>http://www.perl.com/pub/a/1998/08/show/onion.html</ref> 
-* 1999 <ref>http://www.perl.com/pub/a/1999/08/onion/talk1.html</ref> 
-* 2000 <ref>http://www.perl.com/pub/a/2000/10/23/soto2000.html</ref> 
-* 2001 <ref>http://www.perl.com/pub/a/2001/07/25/onion.html</ref> 
-* 2002 <ref>http://dev.perl.org/perl6/talks/2002/onion2002/2002.txt.htm</ref> 
-* 2003 <ref>http://www.perl.com/pub/a/2003/07/16/soto2003.html</ref> 
-* 2004 <ref>http://www.perl.com/pub/a/2004/08/18/onion.html</ref>
-* 2005 <ref>http://www.perl.com/pub/a/2005/09/22/onion.html</ref> 
-* 2006 <ref>http://www.perl.com/pub/a/2006/09/21/onion.html</ref> 
-* 2007 <ref>http://www.perl.com/pub/a/2007/12/06/soto-11.html</ref>
+===State of the Onion keynotes===
+{{div col||16em}}
+* [http://www.wall.org/~larry/keynote/keynote.html 1997] 
+* [http://www.perl.com/pub/a/1998/08/show/onion.html 1998] 
+* [http://www.perl.com/pub/a/1999/08/onion/talk1.html 1999] 
+* [http://www.perl.com/pub/a/2000/10/23/soto2000.html 2000] 
+* [http://www.perl.com/pub/a/2001/07/25/onion.html 2001] 
+* [http://dev.perl.org/perl6/talks/2002/onion2002/2002.txt.htm 2002] 
+* [http://www.perl.com/pub/a/2003/07/16/soto2003.html 2003] 
+* [http://www.perl.com/pub/a/2004/08/18/onion.html 2004]
+* [http://www.perl.com/pub/a/2005/09/22/onion.html 2005] 
+* [http://www.perl.com/pub/a/2006/09/21/onion.html 2006] 
+* [http://www.perl.com/pub/a/2007/12/06/soto-11.html 2007]
+{{div col end}}
 
 ==External links==
-{{wikiquote|Larry Wall}}
-{{Spoken Wikipedia|Larry_Wall.ogg|2006-06-27}}
-* {{official website|http://www.wall.org}}
 
 {{Perl}}
 {{Authority control}}
