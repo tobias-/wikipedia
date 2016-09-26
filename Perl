@@ -219,7 +219,7 @@ Do not list a specific platform unless there are notable issues about running Pe
 -->
 Perl is [[dual licensed]] under both the [[Artistic License]] 1.0<ref name="artistic-1.0" /><ref name="artistic-1.0-git" /> and the [[GNU General Public License]].<ref name="licensing" /> Distributions are available for most [[operating system]]s. It is particularly prevalent on [[Unix]] and [[Unix-like]] systems, but it has been ported to most modern (and many obsolete) platforms. With only six reported exceptions, Perl can be compiled from [[source code]] on all [[POSIX]]-compliant, or otherwise-Unix-compatible platforms.<ref name="cpanports">{{cite web |url = http://www.cpan.org/ports/ |title = Perl Ports (Binary Distributions) |publisher = CPAN.org |author = Hietaniemi, Jarkko |year = 1998 }}</ref>
 
-Because of unusual changes required for the [[Mac OS history|Mac OS Classic]] environment, a special port called MacPerl was shipped independently.<ref name="macperl">{{cite web |url = http://www.macperl.com/ |title = The MacPerl Pages |year = 1997 |publisher = Prime Time Freeware }}</ref>
+Because of unusual changes required for the [[classic Mac OS]] environment, a special port called MacPerl was shipped independently.<ref name="macperl">{{cite web |url = http://www.macperl.com/ |title = The MacPerl Pages |year = 1997 |publisher = Prime Time Freeware }}</ref>
 
 The [[CPAN|Comprehensive Perl Archive Network]] carries a complete list of supported platforms with links to the distributions available on each.<ref>{{cite web |url = http://www.cpan.org/ports/ |title = Perl Ports (Binary Distributions) |accessdate = 2011-01-27 |publisher = [[CPAN]] }}</ref> CPAN is also the source for publicly available Perl modules that are not part of the core Perl distribution.
 
