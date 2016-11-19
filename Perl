@@ -6,23 +6,23 @@
 | name                   = Perl
 | logo                   = [[File:Programming-republic-of-perl.png]]
 | paradigm               = [[multi-paradigm]]: [[Functional programming|functional]], [[Imperative programming|imperative]], [[Object-oriented programming|object-oriented]] ([[Class-based programming|class-based]]), [[Reflective programming|reflective]], [[Procedural programming|procedural]], [[Event-driven programming|event-driven]], [[Generic programming|generic]]
-| year                   = {{Start date and age|1987|12|18}}
 | designer               = [[Larry Wall]]
 | developer              = Larry Wall
-| latest_release_version = 5.24.0<ref>{{cite web |url = http://www.nntp.perl.org/group/perl.perl5.porters/2016/05/msg236242.html |title = Perl 5.24.0 is now available! |accessdate = 2016-05-10 |publisher = www.nntp.perl.org }}</ref>
-| latest_release_date    = {{Start date and age|mf=yes|2016|05|10}}
-| latest_preview_version = 5.25.5<ref>{{cite web |url = http://www.nntp.perl.org/group/perl.perl5.porters/2016/09/msg239887.html |title = perl-5.25.5 is now available |publisher = perl.org |date = 2016-09-20 |accessdate = 2016-09-29 }}</ref>
-| latest_preview_date    = {{Start date and age|mf=yes|2016|09|20}}
-| turing-complete        = Yes
 | typing                 = Dynamic
-| influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[Lisp (programming language)|Lisp]], [[C (programming language)|C]], [[C++]], [[sed]], [[Unix shell]], [[Pascal (programming language)|Pascal]]
 | influenced             = [[CoffeeScript]],{{citation needed|date=January 2016}} [[ECMAScript]]/[[JavaScript]], [[Falcon (programming language)|Falcon]], [[Groovy (programming language)|Groovy]],{{citation needed|date=February 2016}} [[Julia (programming language)|Julia]], [[LPC (programming language)|LPC]], [[Perl 6]], [[PHP]], [[Python (programming language)|Python]], [[Ruby (programming language)|Ruby]], [[Windows PowerShell]]
-| programming_language   = [[C (programming language)|C]]
-| operating_system       = [[Cross-platform]]
 | license                = [[Artistic License]] 1.0<ref name="artistic-1.0">[http://dev.perl.org/licenses/artistic.html The "Artistic License" - dev.perl.org]</ref><ref name="artistic-1.0-git">[http://perl5.git.perl.org/perl.git/blob/HEAD:/Artistic Artistic] - file on the Perl 5 git repository</ref> or [[GNU General Public License]]<ref name="licensing">{{cite web |url = http://dev.perl.org/licenses |title = Perl Licensing |accessdate = 2011-01-08 |publisher = dev.perl.org }}</ref>
 | website                = {{url|https://www.perl.org}}
-| file_ext               = .pl .pm .t .pod
 | wikibooks              = Perl Programming
+| year                   = {{Start date and age|1987|12|18}}
+| latest_release_version = 5.24.0<ref>{{cite web |url = http://www.nntp.perl.org/group/perl.perl5.porters/2016/05/msg236242.html |title = Perl 5.24.0 is now available! |accessdate = 2016-05-10 |publisher = www.nntp.perl.org }}</ref>
+| latest_release_date    = {{Start date and age|mf=yes|2016|05|10}}
+| latest_preview_version = 5.25.6<ref>{{cite web |url = http://www.nntp.perl.org/group/perl.perl5.porters/2016/10/msg240406.html |title = perl-5.25.6 is now available |publisher = perl.org |date = 2016-10-20 |accessdate = 2016-11-18 }}</ref>
+| latest_preview_date    = {{Start date and age|mf=yes|2016|09|20}}
+| turing-complete        = Yes
+| influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[Lisp (programming language)|Lisp]], [[C (programming language)|C]], [[C++]], [[sed]], [[Unix shell]], [[Pascal (programming language)|Pascal]]
+| programming_language   = [[C (programming language)|C]]
+| operating_system       = [[Cross-platform]]
+| file_ext               = .pl .pm .t .pod
 }}
 
 '''Perl''' is a family of [[High-level programming language|high-level]], [[General-purpose programming language|general-purpose]], [[Interpreter (computing)|interpreted]], [[dynamic programming language]]s. The languages in this family include Perl 5 and [[Perl 6]].<ref>{{cite web |url = https://www.perl.org/about.html |title = About Perl |publisher = perl.org |quote = "Perl" is a family of languages, "Perl 6" is part of the family, but it is a separate language that has its own development team. Its existence has no significant impact on the continuing development of "Perl 5". |accessdate = 2013-04-20 }}</ref>
