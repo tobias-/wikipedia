@@ -17,7 +17,7 @@
 | latest_release_version = 5.24.1 / {{Start date and age|mf=yes|2017|01|14}}<ref>{{cite web |url = http://www.nntp.perl.org/group/perl.perl5.porters/2017/01/msg242259.html |title = Perl 5.24.1 is now available! |accessdate = 2017-01-15 |publisher = www.nntp.perl.org }}</ref><br />5.22.3 / {{Start date and age|mf=yes|2017|01|14}}<ref>{{cite web |url = http://www.nntp.perl.org/group/perl.perl5.porters/2017/01/msg242258.html |title = Perl 5.22.3 is now available! |accessdate = 2017-01-18 |publisher = www.nntp.perl.org }}</ref>
 | latest_release_date    = 
 | latest_preview_version = 5.25.9<ref>{{cite web |url = http://www.nntp.perl.org/group/perl.perl5.porters/2017/01/msg242405.html |title = 5.25.9 is now available! |publisher = perl.org |date = 2017-01-20 |accessdate = 2017-01-22 }}</ref>
-| latest_preview_date    = {{Start date and age|mf=yes|2016|12|20}}
+| latest_preview_date    = {{Start date and age|mf=yes|2017|01|20}}
 | turing-complete        = Yes
 | influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[Lisp (programming language)|Lisp]], [[C (programming language)|C]], [[C++]], [[sed]], [[Unix shell]], [[Pascal (programming language)|Pascal]]
 | programming_language   = [[C (programming language)|C]]
