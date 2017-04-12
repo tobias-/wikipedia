@@ -9,7 +9,7 @@
 | designer               = [[Larry Wall]]
 | developer              = Larry Wall
 | typing                 = Dynamic
-| influenced             = [[CoffeeScript]],{{citation needed|date=January 2016}} [[ECMAScript]]/[[JavaScript]], [[Falcon (programming language)|Falcon]], [[Groovy (programming language)|Groovy]],{{citation needed|date=February 2016}} [[Julia (programming language)|Julia]], [[LPC (programming language)|LPC]], [[Perl 6]], [[PHP]], [[Python (programming language)|Python]], [[Ruby (programming language)|Ruby]], [[Windows PowerShell]]
+| influenced             = [[CoffeeScript]],{{citation needed|date=January 2016}} [[ECMAScript]], [[Falcon (programming language)|Falcon]], [[Groovy (programming language)|Groovy]],{{citation needed|date=February 2016}} [[JavaScript]], [[Julia (programming language)|Julia]], [[LPC (programming language)|LPC]], [[Perl 6]], [[PHP]], [[Python (programming language)|Python]], [[Ruby (programming language)|Ruby]], [[Windows PowerShell]]
 | license                = [[Artistic License]] 1.0<ref name="artistic-1.0">[http://dev.perl.org/licenses/artistic.html The "Artistic License" - dev.perl.org]</ref><ref name="artistic-1.0-git">[http://perl5.git.perl.org/perl.git/blob/HEAD:/Artistic Artistic] - file on the Perl 5 git repository</ref> or [[GNU General Public License]]<ref name="licensing">{{cite web |url = http://dev.perl.org/licenses |title = Perl Licensing |accessdate = 2011-01-08 |publisher = dev.perl.org }}</ref>
 | website                = {{url|https://www.perl.org}}
 | wikibooks              = Perl Programming
@@ -19,7 +19,7 @@
 | latest_preview_version = 5.25.9<ref>{{cite web |url = http://www.nntp.perl.org/group/perl.perl5.porters/2017/01/msg242405.html |title = 5.25.9 is now available! |publisher = perl.org |date = 2017-01-20 |accessdate = 2017-01-22 }}</ref>
 | latest_preview_date    = {{Start date and age|mf=yes|2017|01|20}}
 | turing-complete        = Yes
-| influenced_by          = [[AWK (programming language)|AWK]], [[Smalltalk 80]], [[Lisp (programming language)|Lisp]], [[C (programming language)|C]], [[C++]], [[sed]], [[Unix shell]], [[Pascal (programming language)|Pascal]]
+| influenced_by          = [[AWK (programming language)|AWK]], [[C (programming language)|C]], [[C++]], [[Lisp (programming language)|Lisp]], [[Pascal (programming language)|Pascal]], [[sed]], [[Smalltalk 80]], [[Unix shell]]
 | programming_language   = [[C (programming language)|C]]
 | operating_system       = [[Cross-platform]]
 | file_ext               = .pl .pm .t .pod
