@@ -46,7 +46,7 @@ In addition to CGI, Perl 5 is used for [[System administrator|system administrat
 ==History==
 
 ===Early versions===
-[[Larry Wall]] began work on Perl in 1987, while working as a programmer at [[Unisys]],<ref name="programmingperl2" /> and released version 1.0 to the comp.sources.misc [[newsgroup]] on December 18, 1987.<ref>{{cite newsgroup |author = Larry Wall |title = v13i001: Perl, a "replacement" for awk and sed, Part01/10 |date = 1988-02-01 |newsgroup = comp.sources.unix |message-id =  |url = http://groups.google.com/group/comp.sources.unix/tree/browse_frm/month/1988-02?_done=%2Fgroup%2Fcomp.sources.unix%2Fbrowse_frm%2Fmonth%2F1988-02%3F& |accessdate = 2011-01-13 }}</ref> The language expanded rapidly over the next few years.
+[[Larry Wall]] began work on Perl in 1987, while working as a programmer at [[Unisys]],<ref name="programmingperl2" /> and released version 1.0 to the comp.sources.misc [[newsgroup]] on December 18, 1987.<ref>{{cite newsgroup |author = Larry Wall |title = v13i001: Perl, a "replacement" for awk and sed, Part01/10 |date = 1988-02-01 |newsgroup = comp.sources.unix |message-id =  |url = https://groups.google.com/forum/#!topic/comp.sources.unix/Njx6b6TiZos |accessdate = 2011-01-13 }}</ref> The language expanded rapidly over the next few years.
 
 Perl 2, released in 1988, featured a better regular expression engine. Perl 3, released in 1989, added support for [[binary data]] streams.
 
