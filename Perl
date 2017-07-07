@@ -366,14 +366,14 @@ The Perl community has set aside the "[[Acme Corporation|Acme]]" namespace for m
 In older versions of Perl, one would write the [[Hello World]] program as:
 
 <source lang="perl">
-print "Hello World!\n";
+print "Hello, World!\n";
 </source>
 
 In later versions, which support the {{code|say}} statement, one can also write it as:
 
 <source lang="perl">
 use 5.010;
-say "Hello World!";
+say "Hello, World!";
 </source>
 
 Good Perl practices require more complex programs to add the {{code|use strict;}} and {{code|use warnings;}} [[Directive (programming)|pragmas]], leading into something like:
@@ -382,7 +382,7 @@ Good Perl practices require more complex programs to add the {{code|use strict;}
 use strict;
 use warnings;
 
-print "Hello World!\n";
+print "Hello, World!\n";
 </source>
 
 Here is a more complex Perl program, that counts down the seconds up to a given threshold:
