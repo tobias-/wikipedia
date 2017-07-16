@@ -18,9 +18,9 @@
 
 5.26.0<ref>{{cite web |url = http://www.nntp.perl.org/group/perl.perl5.porters/2017/05/msg244573.html |title = Perl 5.26.0 is now available! |accessdate = 2017-05-31 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2017|05|30}}
 
-5.24.1<ref>{{cite web |url = http://www.nntp.perl.org/group/perl.perl5.porters/2017/01/msg242259.html |title = Perl 5.24.1 is now available! |accessdate = 2017-01-15 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2017|01|14}}
+5.24.2<ref>{{cite web |url = http://www.nntp.perl.org/group/perl.perl5.porters/2017/07/msg245527.html |title = Perl 5.24.2 is now available! |accessdate = 2017-07-16 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2017|07|15}}
 
-5.22.3<ref>{{cite web |url = http://www.nntp.perl.org/group/perl.perl5.porters/2017/01/msg242258.html |title = Perl 5.22.3 is now available! |accessdate = 2017-01-18 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2017|01|14}}
+5.22.4<ref>{{cite web |url = http://www.nntp.perl.org/group/perl.perl5.porters/2017/07/msg245526.html |title = Perl 5.22.4 is now available! |accessdate = 2017-07-16 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2017|07|15}}
 
 | latest_release_date    = 
 | latest_preview_version =
