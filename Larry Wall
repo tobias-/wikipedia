@@ -1,7 +1,7 @@
 {{Use mdy dates|date=October 2012}}
 {{Infobox person
  | name             = Larry Wall
- | birth_date       = {{birth date and age|1954|09|27}}
+ | birth_date       = {{birth date and age|1954|09|27|mf=y}}
  | birth_place      = [[Los Angeles, California]], US
  | image            = Larry Wall YAPC 2007.jpg
  | known_for        = [[Perl]]
