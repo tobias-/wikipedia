@@ -14,20 +14,23 @@
 | website                = {{url|https://www.perl.org}}
 | wikibooks              = Perl Programming
 | year                   = {{Start date and age|1987|12|18}}
+
 | latest_release_version =
 
-5.26.0<ref>{{cite web |url = http://www.nntp.perl.org/group/perl.perl5.porters/2017/05/msg244573.html |title = Perl 5.26.0 is now available! |accessdate = 2017-05-31 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2017|05|30}}
+5.26.1<ref>{{cite web|url = https://www.nntp.perl.org/group/perl.perl5.porters/2017/09/msg246408.html |title = Perl 5.26.1 is now available! |accessdate = 2017-09-25 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2017|09|22}}
 
-5.24.2<ref>{{cite web |url = http://www.nntp.perl.org/group/perl.perl5.porters/2017/07/msg245527.html |title = Perl 5.24.2 is now available! |accessdate = 2017-07-16 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2017|07|15}}
+5.24.3<ref>{{cite web|url= https://www.nntp.perl.org/group/perl.perl5.porters/2017/09/msg246407.html |title = Perl 5.24.3 is now available! |accessdate = 2017-09-25 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2017|09|22}}
 
-5.22.4<ref>{{cite web |url = http://www.nntp.perl.org/group/perl.perl5.porters/2017/07/msg245526.html |title = Perl 5.22.4 is now available! |accessdate = 2017-07-16 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2017|07|15}}
+5.22.4<ref>{{cite web|url = http://www.nntp.perl.org/group/perl.perl5.porters/2017/07/msg245526.html |title = Perl 5.22.4 is now available! |accessdate = 2017-07-16 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2017|07|15}}
 
 | latest_release_date    = 
+
 | latest_preview_version =
 
-5.27.3<ref>{{cite web |url = https://www.nntp.perl.org/group/perl.perl5.porters/2017/08/msg245988.html |title = Perl 5.27.3 is now available! |accessdate = 2017-08-21 |publisher = www.nntp.perl.org}}</ref> /  {{Start date and age|mf=yes|2017|08|21}}
+5.27.4<ref>{{cite web |url = https://www.nntp.perl.org/group/perl.perl5.porters/2017/09/msg246371.html |title = 5.27.4 released! |accessdate = 2017-09-25 |publisher = www.nntp.perl.org}}</ref>
 
-| latest_preview_date    =
+| latest_preview_date    = {{Start date and age|mf=yes|2017|09|20}}
+
 | turing-complete        = Yes
 | influenced_by          = [[AWK (programming language)|AWK]], [[C (programming language)|C]], [[C++]], [[Lisp (programming language)|Lisp]], [[Pascal (programming language)|Pascal]], [[sed]], [[Smalltalk 80]], [[Unix shell]]
 | programming_language   = [[C (programming language)|C]]
