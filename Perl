@@ -1,5 +1,5 @@
 {{about|the programming language}}
-{{distinguish|Pearl}}
+{{distinguish|PEARL (programming language)}}
 {{Use mdy dates|date=September 2014}}
 {{good article}}
 {{Infobox programming language
