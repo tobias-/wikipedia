@@ -165,6 +165,10 @@ O'Reilly owns the image as a [[trademark]] but licenses it for [[non-commercial]
 [[File:Onion 64x64.png|thumb|120x120px|The onion logo used by The Perl Foundation]]
 [[The Perl Foundation]] owns an alternative symbol, an onion, which it licenses to its subsidiaries, [[Perl Mongers]], [[PerlMonks]], Perl.org, and others.<ref name="onion">{{cite web |url = http://www.perlfoundation.org/perl_trademark |title = Perl Trademark |accessdate = 2011-01-09 |publisher = [[The Perl Foundation]] }}</ref> The symbol is a [[visual pun]] on [[pearl onion]].<ref name="gillmore98">{{cite news |first = Dan |last = Gillmore |title = Republic Of Perl |date = 1998-10-25 |url = http://articles.chicagotribune.com/1998-10-25/news/9810250094_1_programmers-open-source-movement-programming-community |work = Chicago Tribune |accessdate = 2011-01-10 }}</ref>
 
+===Raptor symbol===
+[[File:Perl5Raptor.png|thumb|Alternative Perl 5 Logo]]
+Sebastian Riedel, the creator of [[Mojolicious]], has created a logo depicting a Raptor, which is available under a CC-SA License, Version 4.0.<ref name="riedel11">{{cite web |first = Sebastian |last = Riedel |title = Perl 5 Raptor |date = 2012-01-18 |url = https://github.com/kraih/perl-raptor |work = Sebastian Riedel |accessdate = 2017-11-12 }}</ref> The logo is being remixed and used in different places and is symbolising Perl 5. The analogue of the raptor comes from a series of talks given by Matt S Trout beginning in 2010.<ref name="trout10">{{cite web |first = Matt |last = Trout |title = State of the Velociraptor - Phase two |date = 2005-06-16 |url = https://shadow.cat/blog/matt-s-trout/sotv-vi/ |work = Shadowcat Systems Limited |accessdate = 2017-11-12 }}</ref> The talks was aimed at being more Perl 5 community centric, in a period where Perl 6 was a hot topic.
+
 ==Overview==
 {{Main article|Perl language structure}}
 According to Wall, Perl has two slogans. The first is "[[There's more than one way to do it]]", commonly known as TMTOWTDI. The second slogan is "Easy things should be easy and hard things should be possible".<ref name="programmingperl2" />
