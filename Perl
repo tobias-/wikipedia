@@ -255,7 +255,7 @@ The [[Cygwin]] emulation layer is another way of running Perl under Windows. Cyg
 
 A perl executable is included in several Windows Resource kits in the directory with other scripting tools.
 
-Implementations of Perl come with the [[MKS Toolkit]] and [[UWIN]].
+Implementations of Perl come with the [[MKS Toolkit]], [[Interix]] (the base of earlier implementations of [[Windows Service for Unix]], and [[UWIN]].
 
 ==Database interfaces==
 Perl's text-handling capabilities can be used for generating [[SQL]] queries; arrays, hashes, and automatic memory management make it easy to collect and process the returned data. For example, in Tim Bunce's [[Perl DBI]] [[application programming interface]] (API), the arguments to the API can be the text of SQL queries; thus it is possible to program in multiple languages at the same time (e.g., for generating a [[Web page]] using [[HTML]], [[JavaScript]], and SQL in a [[here document]]). The use of Perl [[variable interpolation]] to programmatically customize each of the SQL queries, and the specification of Perl arrays or hashes as the structures to programmatically hold the resulting [[data set]]s from each SQL query, allows a high-level mechanism for handling large amounts of data for post-processing by a Perl subprogram.<ref>{{cite book |last = Descartes |first = Alligator |title = Programming the Perl DBI : [database programming with Perl] |year = 2000 |publisher = O'Reilly |location = Beijing [u.a.] |isbn = 1-56592-699-4 |edition = 1 |author2 = Bunce, Tim }}</ref>
