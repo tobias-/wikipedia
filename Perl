@@ -35,7 +35,7 @@
 | influenced_by          = [[AWK (programming language)|AWK]], [[C (programming language)|C]], [[C++]], [[Lisp (programming language)|Lisp]], [[Pascal (programming language)|Pascal]], [[sed]], [[Smalltalk 80]], [[Unix shell]]
 | programming_language   = [[C (programming language)|C]]
 | operating_system       = [[Cross-platform]]
-| file_ext               = .pl .pm .t .pod
+| file_ext               = .pl .plx .pm .t .pod
 }}
 
 '''Perl''' is a family of [[High-level programming language|high-level]], [[General-purpose programming language|general-purpose]], [[Interpreter (computing)|interpreted]], [[dynamic programming language]]s. The languages in this family include Perl 5 and [[Perl 6]].<ref>{{cite web |url = https://www.perl.org/about.html |title = About Perl |publisher = perl.org |quote = "Perl" is a family of languages, "Perl 6" is part of the family, but it is a separate language that has its own development team. Its existence has no significant impact on the continuing development of "Perl 5". |accessdate = 2013-04-20 }}</ref>
