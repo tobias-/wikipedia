@@ -243,6 +243,8 @@ Because of unusual changes required for the [[classic Mac OS]] environment, a sp
 
 The [[CPAN|Comprehensive Perl Archive Network]] carries a complete list of supported platforms with links to the distributions available on each.<ref>{{cite web |url = http://www.cpan.org/ports/ |title = Perl Ports (Binary Distributions) |accessdate = 2011-01-27 |publisher = [[CPAN]] }}</ref> CPAN is also the source for publicly available Perl modules that are not part of the core Perl distribution.
 
+Perl documentation is available https://perldoc.perl.org/index.html and http://www.eir.me/perldoc-html/index.php
+
 ====Windows====
 Users of [[Microsoft Windows]] typically install one of the native binary distributions of Perl for Win32, most commonly [[Strawberry Perl]] or [[ActivePerl]]. Compiling Perl from [[source code]] under Windows is possible, but most installations lack the requisite C compiler and build tools. This also makes it difficult to install modules from the CPAN, particularly those that are partially written in C.
 
