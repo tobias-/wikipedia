@@ -17,9 +17,9 @@
 
 | latest_release_version =
 
-5.26.1<ref>{{cite web|url = https://www.nntp.perl.org/group/perl.perl5.porters/2017/09/msg246408.html |title = Perl 5.26.1 is now available! |accessdate = 2017-09-25 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2017|09|22}}
+5.26.2<ref>{{cite web|url = https://www.nntp.perl.org/group/perl.perl5.porters/2018/04/msg250440.html |title = Perl 5.26.2 is now available! |accessdate = 2017-04-21 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2018|04|14}}
 
-5.24.3<ref>{{cite web|url= https://www.nntp.perl.org/group/perl.perl5.porters/2017/09/msg246407.html |title = Perl 5.24.3 is now available! |accessdate = 2017-09-25 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2017|09|22}}
+5.24.4<ref>{{cite web|url= https://www.nntp.perl.org/group/perl.perl5.porters/2018/04/msg250439.html |title = Perl 5.24.4 is now available! |accessdate = 2017-04-21 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2018|04|14}}
 
 5.22.4<ref>{{cite web|url = http://www.nntp.perl.org/group/perl.perl5.porters/2017/07/msg245526.html |title = Perl 5.22.4 is now available! |accessdate = 2017-07-16 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2017|07|15}}
 
@@ -27,9 +27,9 @@
 
 | latest_preview_version =
 
-5.27.10<ref>{{cite web |url = https://www.nntp.perl.org/group/perl.perl5.porters/2018/03/msg250042.html |title = 5.27.10 released! |accessdate = 2018-04-12 |publisher = www.nntp.perl.org}}</ref>
+5.27.11<ref>{{cite web |url = https://www.nntp.perl.org/group/perl.perl5.porters/2018/04/msg250571.html |title = 5.27.11 released! |accessdate = 2018-04-21 |publisher = www.nntp.perl.org}}</ref>
 
-| latest_preview_date    = {{Start date and age|mf=yes|2018|03|20}}
+| latest_preview_date    = {{Start date and age|mf=yes|2018|04|20}}
 
 | turing-complete        = Yes
 | influenced_by          = [[AWK (programming language)|AWK]], [[C (programming language)|C]], [[C++]], [[Lisp (programming language)|Lisp]], [[Pascal (programming language)|Pascal]], [[sed]], [[Smalltalk 80]], [[Unix shell]]
