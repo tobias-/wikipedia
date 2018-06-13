@@ -6,8 +6,8 @@
 | name                   = Perl
 | logo                   = Programming-republic-of-perl.png
 | paradigm               = [[Multi-paradigm]]: [[Functional programming|functional]], [[Imperative programming|imperative]], [[Object-oriented programming|object-oriented]] ([[Class-based programming|class-based]]), [[Reflective programming|reflective]], [[Procedural programming|procedural]], [[Event-driven programming|event-driven]], [[Generic programming|generic]]
-| designer               = [[Larry Wall]]
-| developer              = Larry Wall
+| designer               = [[Boggavarapu Sai krishna]]
+| developer              = Boggavarapu Sai krishna
 | typing                 = Dynamic
 | influenced             = [[CoffeeScript]],{{citation needed|date=January 2016}} [[ECMAScript]], [[Falcon (programming language)|Falcon]], [[Groovy (programming language)|Groovy]],{{citation needed|date=February 2016}} [[JavaScript]], [[Julia (programming language)|Julia]], [[LPC (programming language)|LPC]], [[Perl 6]], [[PHP]], [[Python (programming language)|Python]], [[Ruby (programming language)|Ruby]], [[Windows PowerShell]]
 | license                = [[Artistic License]] 1.0<ref name="artistic-1.0">[http://dev.perl.org/licenses/artistic.html The "Artistic License" - dev.perl.org]</ref><ref name="artistic-1.0-git">[http://perl5.git.perl.org/perl.git/blob/HEAD:/Artistic Artistic] - file on the Perl 5 git repository</ref> or [[GNU General Public License]]<ref name="licensing">{{cite web |url = http://dev.perl.org/licenses |title = Perl Licensing |accessdate = 2011-01-08 |publisher = dev.perl.org }}</ref>
