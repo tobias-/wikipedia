@@ -17,9 +17,11 @@
 
 | latest_release_version =
 
-5.26.2<ref>{{cite web|url = https://www.nntp.perl.org/group/perl.perl5.porters/2018/04/msg250440.html |title = Perl 5.26.2 is now available! |accessdate = 2017-04-21 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2018|04|14}}
+5.28<ref>{{cite web|url = https://www.nntp.perl.org/group/perl.perl5.porters/2018/06/msg251240.html |title = Perl 5.28 is now available! |accessdate = 2018-06-23 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2018|06|23}}
 
-5.24.4<ref>{{cite web|url= https://www.nntp.perl.org/group/perl.perl5.porters/2018/04/msg250439.html |title = Perl 5.24.4 is now available! |accessdate = 2017-04-21 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2018|04|14}}
+5.26.2<ref>{{cite web|url = https://www.nntp.perl.org/group/perl.perl5.porters/2018/04/msg250440.html |title = Perl 5.26.2 is now available! |accessdate = 2018-04-21 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2018|04|14}}
+
+5.24.4<ref>{{cite web|url= https://www.nntp.perl.org/group/perl.perl5.porters/2018/04/msg250439.html |title = Perl 5.24.4 is now available! |accessdate = 2018-04-21 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2018|04|14}}
 
 5.22.4<ref>{{cite web|url = http://www.nntp.perl.org/group/perl.perl5.porters/2017/07/msg245526.html |title = Perl 5.22.4 is now available! |accessdate = 2017-07-16 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2017|07|15}}
 
@@ -109,10 +111,13 @@ Perl 5.005 was released on July 22, 1998.  This release included several enhance
 | 2017-07-15<ref name="cpan-src" />
 |-
 | {{Version|co|5.24}}
-| 2017-09-22<ref name="cpan-src" />
+| 2018-04-14<ref name="cpan-src" />
 |-
-| {{Version|c|5.26}}
-| 2017-09-22<ref name="cpan-src" />
+| {{Version|co|5.26}}
+| 2018-04-14<ref name="cpan-src" />
+|-
+| {{Version|c|5.28}}
+| 2018-06-23<ref name="cpan-src" />
 |-
 | colspan="99" | <small>{{Version |lv |show=011101}}</small>
 |}
