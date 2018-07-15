@@ -21,10 +21,6 @@
 
 5.26.2<ref>{{cite web|url = https://www.nntp.perl.org/group/perl.perl5.porters/2018/04/msg250440.html |title = Perl 5.26.2 is now available! |accessdate = 2018-04-21 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2018|04|14}}
 
-5.24.4<ref>{{cite web|url= https://www.nntp.perl.org/group/perl.perl5.porters/2018/04/msg250439.html |title = Perl 5.24.4 is now available! |accessdate = 2018-04-21 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2018|04|14}}
-
-5.22.4<ref>{{cite web|url = http://www.nntp.perl.org/group/perl.perl5.porters/2017/07/msg245526.html |title = Perl 5.22.4 is now available! |accessdate = 2017-07-16 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2017|07|15}}
-
 | latest_release_date    = 
 
 | latest_preview_version =
