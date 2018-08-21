@@ -25,9 +25,9 @@
 
 | latest_preview_version =
 
-5.29.0<ref>{{cite web |url = https://www.nntp.perl.org/group/perl.perl5.porters/2018/06/msg251297.html |title = 5.29.0 released! |accessdate = 2018-06-27 |publisher = www.nntp.perl.org}}</ref>
+5.29.2<ref>{{cite web |url = https://www.nntp.perl.org/group/perl.perl5.porters/2018/08/msg251918.html |title = 5.29.2 released! |accessdate = 2018-08-21 |publisher = www.nntp.perl.org}}</ref>
 
-| latest_preview_date    = {{Start date and age|mf=yes|2018|06|26}}
+| latest_preview_date    = {{Start date and age|mf=yes|2018|08|21}}
 
 | turing-complete        = Yes
 | influenced_by          = [[AWK (programming language)|AWK]], [[C (programming language)|C]], [[C++]], [[Lisp (programming language)|Lisp]], [[Pascal (programming language)|Pascal]], [[sed]], [[Smalltalk 80]], [[Unix shell]]
