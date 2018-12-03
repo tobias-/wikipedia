@@ -14,12 +14,17 @@
 | website = {{url|https://www.perl.org}}
 | wikibooks = Perl Programming
 | year = {{Start date and age|1987|12|18}}
-| latest_release_version = 5.28.0<ref>{{cite web|url = https://www.nntp.perl.org/group/perl.perl5.porters/2018/06/msg251240.html |title = Perl 5.28.0 is now available! |accessdate = 2018-06-23 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2018|06|23}}
 
-5.26.2<ref>{{cite web|url = https://www.nntp.perl.org/group/perl.perl5.porters/2018/04/msg250440.html |title = Perl 5.26.2 is now available! |accessdate = 2018-04-21 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2018|04|14}}
+| latest_release_version = 5.28.1<ref>{{cite web|url = https://www.nntp.perl.org/group/perl.perl5.porters/2018/11/msg252975.html |title = Perl 5.28.1 is now available! |accessdate = 2018-12-03 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2018|11|29}}
+
+5.26.3<ref>{{cite web|url = https://www.nntp.perl.org/group/perl.perl5.porters/2018/11/msg252974.html |title = Perl 5.26.3 is now available! |accessdate = 2018-12-03 |publisher = www.nntp.perl.org }}</ref> / {{Start date and age|mf=yes|2018|11|29}}
+
 | latest_release_date = 
-| latest_preview_version = 5.29.4<ref>{{cite web |url = https://www.nntp.perl.org/group/perl.perl5.porters/2018/10/msg252575.html |title = 5.29.4 released! |accessdate = 2018-10-21 |publisher = www.nntp.perl.org}}</ref>
-| latest_preview_date = {{Start date and age|mf=yes|2018|10|20}}
+
+| latest_preview_version = 5.29.5<ref>{{cite web |url = https://www.nntp.perl.org/group/perl.perl5.porters/2018/11/msg252839.html |title = 5.29.5 released! |accessdate = 2018-12-03 |publisher = www.nntp.perl.org}}</ref>
+
+| latest_preview_date = {{Start date and age|mf=yes|2018|11|20}}
+
 | turing-complete = Yes
 | influenced_by = [[AWK (programming language)|AWK]], [[C (programming language)|C]], [[C++]], [[Lisp (programming language)|Lisp]], [[Pascal (programming language)|Pascal]], [[sed]], [[Smalltalk 80]], [[Unix shell]]
 | programming_language = [[C (programming language)|C]]
