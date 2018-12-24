@@ -438,10 +438,7 @@ According to the ''Perl 6 FAQ'', Perl 6 was designed to mitigate "the usual susp
 <!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first!
 -->
 * {{Official website}}
-* [https://metacpan.org/ MetaCPAN]{{snd}}The new Comprehensive Perl Archive Network Web interface
-* [http://www.cpan.org/ Comprehensive Perl Archive Network]{{snd}}The canonical location for Perl code and modules
-* [http://www.perlfoundation.org/ The Perl Foundation]
-* [http://www.perlmonks.org/ PerlMonks]{{snd}}A community committed to sharing Perl knowledge and coding tips
+
 
 <!-- Before adding any links, make sure you have read the External Links style guide, then stopped and reread it again. If you aren't absolutely sure the link is in compliance, ask on the talk page first!
 See [http://en.wikipedia.org/wiki/Wikipedia:External_links/Noticeboard#.27Perl.27_external_links]
