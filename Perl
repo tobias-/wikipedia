@@ -21,9 +21,9 @@
 
 | latest_release_date = 
 
-| latest_preview_version = 5.29.9<ref>{{cite web |url = https://www.nntp.perl.org/group/perl.perl5.porters/2019/03/msg253978.html |title = Perl 5.29.9 has been released. |accessdate = 2019-03-24 |publisher = www.nntp.perl.org}}</ref>
+| latest_preview_version = 5.29.10<ref>{{cite web |url = https://www.nntp.perl.org/group/perl.perl5.porters/2019/04/msg254467.html |title = Perl 5.29.10 is now available! |accessdate = 2019-04-24 |publisher = www.nntp.perl.org}}</ref>
 
-| latest_preview_date = {{Start date and age|mf=yes|2019|03|21}}
+| latest_preview_date = {{Start date and age|mf=yes|2019|04|20}}
 
 | turing-complete = Yes
 | influenced_by = [[AWK (programming language)|AWK]], [[BASIC]], [[C (programming language)|C]], [[C++]], [[Lisp (programming language)|Lisp]], [[sed]], [[Unix shell]]<ref>{{cite web|title=Programming is Hard, Let's Go Scripting...|author=Larry Wall|url=https://www.perl.com/pub/2007/12/06/soto-11.html/|quote=All language designers have their occasional idiosyncracies. I’m just better at it than most.|accessdate=}}</ref>
