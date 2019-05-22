@@ -27,6 +27,7 @@ fun main(vararg titles: String) {
         }
         System.err.println("Done with $title")
     }
+    System.exit(0)
 }
 
 object WikipediaBisect {
@@ -37,15 +38,10 @@ object WikipediaBisect {
     val repoDir = File(".")
     val git = Git.init().setDirectory(repoDir).call()
 
-    init {
-        System.err.println("Repo is in $repoDir")
-    }
-
     fun commitIt(response: WikipediaResponse) {
         val slot = response.query.pages.values.first()
         val revisions = slot.revisions
         for (revision in revisions) {
-
             val file = File(repoDir, slot.title)
             file.writeText(revision.slots.values.first().body)
             git.add().addFilepattern(slot.title).call()
